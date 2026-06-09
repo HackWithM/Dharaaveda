@@ -1,0 +1,6 @@
+{
+  "name": "DharaAveda",
+  "description": "A luxury cinematic ecosystem uniting Global Agricultural Export and Holistic Wellness divisions of DharaAveda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
