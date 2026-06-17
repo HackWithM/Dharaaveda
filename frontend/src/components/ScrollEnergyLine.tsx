@@ -6,6 +6,7 @@ import {
   useSpring,
   useMotionValueEvent,
 } from "motion/react";
+import { useLocation } from "react-router-dom";
 
 // ─── Path Point Helper ───────────────────────────────────────────────────────
 function getPointOnPath(
@@ -37,6 +38,9 @@ interface Spark {
 }
 
 export default function ScrollEnergyLine() {
+  const location = useLocation();
+  const isWellness = location.pathname.includes("/wellness");
+
   // ── Refs ───────────────────────────────────────────────────────────────────
   const pathRef = useRef<SVGPathElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -50,135 +54,80 @@ export default function ScrollEnergyLine() {
   const [pathData, setPathData] = useState("");
 
   // ── Scroll Tracking ────────────────────────────────────────────────────────
-  // Decreased stiffness (45) and adjusted damping (22) for a silkier, floatier scroll lag
+  // Silkier scroll lag matching the premium aesthetic
   const { scrollYProgress } = useScroll();
-  const spring = useSpring(scrollYProgress, { stiffness: 45, damping: 22, restDelta: 0.0005 });
+  const spring = useSpring(scrollYProgress, { stiffness: 40, damping: 24, restDelta: 0.0005 });
 
   // ── Derived Motion Values ──────────────────────────────────────────────────
-  const lineOpacity = useTransform(spring, [0, 0.02], [0, 0.9]);
-  const coreOpacity = useTransform(spring, [0, 0.02], [0, 0.75]);
-  const whiteOpacity = useTransform(spring, [0, 0.02], [0, 0.85]);
-  const containerY = useTransform(scrollYProgress, [0, 1], [0, -120]);
+  const lineOpacity = useTransform(spring, [0, 0.02], [0, 0.75]);
+  const coreOpacity = useTransform(spring, [0, 0.02], [0, 0.65]);
+  const whiteOpacity = useTransform(spring, [0, 0.02], [0, 0.75]);
+  const containerY = useTransform(scrollYProgress, [0, 1], [0, -40]);
 
   // ── Spawn Particles & Sparks ───────────────────────────────────────────────
   const spawnParticles = useCallback((x: number, y: number, speed: number) => {
-    // Reduced particle density for a subtle gold-dust trail
-    const n = Math.ceil(speed * 4) + 1;
+    // Extremely subtle, fine gold-dust trail
+    const n = Math.min(2, Math.ceil(speed * 1.2));
     for (let i = 0; i < n; i++) {
       particlesRef.current.push({
         x, y,
-        vx: (Math.random() - 0.5) * 1.2,
-        vy: (Math.random() - 0.7) * 1.0,
-        life: 1,
-        decay: 0.012 + Math.random() * 0.015,
-        size: 0.6 + Math.random() * 1.4, // Significantly smaller particles (0.6px - 2.0px)
+        vx: (Math.random() - 0.5) * 0.5,
+        vy: (Math.random() - 0.7) * 0.4,
+        life: 1.0,
+        decay: 0.015 + Math.random() * 0.02,
+        size: 0.4 + Math.random() * 0.9, // Ultra-fine particles (0.4px - 1.3px)
       });
     }
   }, []);
 
   const spawnSparks = useCallback((x: number, y: number) => {
-    const n = 2 + Math.floor(Math.random() * 3);
-    for (let i = 0; i < n; i++) {
-      sparksRef.current.push({
-        x, y,
-        angle: Math.random() * Math.PI * 2,
-        speed: 1.5 + Math.random() * 2.5,
-        life: 1,
-      });
-    }
+    // Spawn only 1 spark occasionally for mouse proximity
+    if (Math.random() > 0.4) return;
+    sparksRef.current.push({
+      x, y,
+      angle: Math.random() * Math.PI * 2,
+      speed: 1.0 + Math.random() * 1.5,
+      life: 1.0,
+    });
   }, []);
 
-  // ── Recalculate Path based on Section Elements ────────────────────────────
+  // ── Calculate Left-Side Curved Path ────────────────────────────────────────
   const updatePath = useCallback(() => {
     const width = window.innerWidth;
     const height = document.documentElement.scrollHeight || document.body.scrollHeight || 4000;
     setDimensions({ width, height });
 
-    const sectionIds = [
-      "hero",
-      "about",
-      "categories",
-      "why-choose-us",
-      "statistics",
-      "process",
-      "markets",
-      "certifications",
-      "faq"
-    ];
-
-    const coords: { id: string; y: number; height: number }[] = [];
-    sectionIds.forEach((id) => {
-      const el = document.getElementById(id);
-      if (el) {
-        const rect = el.getBoundingClientRect();
-        const y = rect.top + window.scrollY;
-        coords.push({ id, y, height: rect.height });
-      }
-    });
-
     const isMobile = width < 768;
-    const margin = isMobile ? width * 0.22 : width * 0.08;
-    const leftX = margin;
-    const rightX = width - margin;
+    // Keep strictly on the left margin
+    const leftX = isMobile ? 24 : 64;
+    const sway = isMobile ? 6 : 14;
+    const step = isMobile ? 250 : 350;
 
-    if (coords.length === 0) {
-      // Fallback path if elements are not rendered yet
-      let fallbackPath = `M ${leftX} 150`;
-      const steps = 9;
-      const stepHeight = height / steps;
-      for (let i = 1; i <= steps; i++) {
-        const targetY = i * stepHeight;
-        const targetX = i % 2 === 0 ? leftX : rightX;
-        const prevX = (i - 1) % 2 === 0 ? leftX : rightX;
-        const prevY = (i - 1) * stepHeight + (i === 1 ? 150 : 0);
-        
-        const cp1_x = prevX + (targetX - prevX) * 0.5;
-        const cp1_y = prevY;
-        const cp2_x = prevX + (targetX - prevX) * 0.5;
-        const cp2_y = targetY;
-        
-        fallbackPath += ` C ${cp1_x} ${cp1_y}, ${cp2_x} ${cp2_y}, ${targetX} ${targetY}`;
-      }
-      setPathData(fallbackPath);
-      return;
-    }
+    const startY = isMobile ? 120 : 150;
+    let path = `M ${leftX} ${startY}`;
 
-    // Dynamic serpentine path connecting all sections
-    let path = "";
-    const startY = coords[0].y + (isMobile ? 120 : 150);
-    path += `M ${leftX} ${startY}`;
+    const numSteps = Math.ceil((height - startY) / step);
+    let prevX = leftX;
+    let prevY = startY;
 
-    for (let i = 1; i < coords.length; i++) {
-      const prev = coords[i - 1];
-      const curr = coords[i];
+    for (let i = 1; i <= numSteps; i++) {
+      const targetY = Math.min(height, startY + i * step);
+      // Generate a smooth wave using sine
+      const targetX = leftX + Math.sin(i * 1.2) * sway;
+      const dy = targetY - prevY;
 
-      const targetY = curr.y + curr.height / 2;
-      const targetX = i % 2 === 0 ? leftX : rightX;
-      
-      const prevX = (i - 1) % 2 === 0 ? leftX : rightX;
-      const prevY = i === 1 ? startY : (prev.y + prev.height / 2);
-
-      const cp1_x = prevX + (targetX - prevX) * 0.5;
-      const cp1_y = prevY;
-      const cp2_x = prevX + (targetX - prevX) * 0.5;
-      const cp2_y = targetY;
+      // Control points for a vertical-oriented smooth S-curve
+      const cp1_x = prevX;
+      const cp1_y = prevY + dy * 0.4;
+      const cp2_x = targetX;
+      const cp2_y = targetY - dy * 0.4;
 
       path += ` C ${cp1_x} ${cp1_y}, ${cp2_x} ${cp2_y}, ${targetX} ${targetY}`;
+
+      prevX = targetX;
+      prevY = targetY;
     }
 
-    // Connect to the page bottom
-    const lastCoord = coords[coords.length - 1];
-    const lastY = height;
-    const lastX = coords.length % 2 === 0 ? leftX : rightX;
-    const prevX = (coords.length - 1) % 2 === 0 ? leftX : rightX;
-    const prevY = lastCoord.y + lastCoord.height / 2;
-
-    const cp1_x = prevX + (lastX - prevX) * 0.5;
-    const cp1_y = prevY;
-    const cp2_x = prevX + (lastX - prevX) * 0.5;
-    const cp2_y = lastY;
-
-    path += ` C ${cp1_x} ${cp1_y}, ${cp2_x} ${cp2_y}, ${lastX} ${lastY}`;
     setPathData(path);
   }, []);
 
@@ -196,8 +145,8 @@ export default function ScrollEnergyLine() {
       resizeObserver.observe(document.body);
     }
 
-    // Fallback interval to ensure sync with dynamic assets/accordions
-    const interval = setInterval(updatePath, 1500);
+    // Dynamic sync sync with accordions/assets
+    const interval = setInterval(updatePath, 2000);
 
     return () => {
       window.removeEventListener("resize", updatePath);
@@ -206,27 +155,27 @@ export default function ScrollEnergyLine() {
     };
   }, [updatePath]);
 
-  // ── Spawn Particles & Sparks when scroll changes ───────────────────────────
+  // ── Spawn Particles when scroll progress changes ───────────────────────────
   useMotionValueEvent(spring, "change", (latest) => {
     const delta = Math.abs(latest - prevProgressRef.current);
     prevProgressRef.current = latest;
     if (delta < 0.0005) return;
 
     const pt = getPointOnPath(pathRef.current, latest);
-    if (pt) spawnParticles(pt.x, pt.y, delta * 180);
+    if (pt) spawnParticles(pt.x, pt.y, delta * 150);
   });
 
-  // ── Global Mouse Move Spark Trigger ────────────────────────────────────────
+  // ── Subtle Mouse Move Spark Trigger ────────────────────────────────────────
   useEffect(() => {
     const onMove = (e: MouseEvent) => {
-      if (Math.random() > 0.35) return;
+      if (Math.random() > 0.25) return;
       const pt = getPointOnPath(pathRef.current, prevProgressRef.current);
       if (!pt) return;
       
       const canvasY = pt.y - window.scrollY;
       const dist = Math.hypot(e.clientX - pt.x, e.clientY - canvasY);
       
-      if (dist < 80 && Math.random() > 0.45) {
+      if (dist < 60) {
         spawnSparks(pt.x, pt.y);
       }
     };
@@ -251,35 +200,39 @@ export default function ScrollEnergyLine() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       const scrollY = window.scrollY;
 
+      const accentColor = isWellness ? "#79FA0F" : "#FA980F";
+      const rgbAccent = isWellness ? "121,250,15" : "250,152,15";
+      const coreColor = isWellness ? "#e5fccf" : "#ffedd5";
+
       // ── Draw particles ────────────────────────────────────────────────────
       particlesRef.current = particlesRef.current.filter((p) => p.life > 0);
       for (const p of particlesRef.current) {
         p.x += p.vx;
         p.y += p.vy;
-        p.vy += 0.01; // softer float gravity
+        p.vy += 0.008; // very soft float gravity
         p.life -= p.decay;
 
         const a = Math.max(0, p.life);
         const canvasY = p.y - scrollY;
 
         if (canvasY > -50 && canvasY < canvas.height + 50) {
-          // Outer gold glow (soft blur)
+          // Soft glow
           ctx.save();
-          ctx.globalAlpha = a * 0.5;
-          ctx.shadowBlur = 6; // Softer blur
-          ctx.shadowColor = "#c5a059";
-          ctx.fillStyle = `rgba(197,160,89,${a * 0.8})`;
+          ctx.globalAlpha = a * 0.4;
+          ctx.shadowBlur = 4;
+          ctx.shadowColor = accentColor;
+          ctx.fillStyle = `rgba(${rgbAccent},${a * 0.6})`;
           ctx.beginPath();
           ctx.arc(p.x, canvasY, p.size * a, 0, Math.PI * 2);
           ctx.fill();
           ctx.restore();
 
-          // White hot core (soft and small)
+          // White hot core
           ctx.save();
-          ctx.globalAlpha = a * 0.4;
-          ctx.fillStyle = "#fff8e7";
+          ctx.globalAlpha = a * 0.3;
+          ctx.fillStyle = coreColor;
           ctx.beginPath();
-          ctx.arc(p.x, canvasY, p.size * a * 0.3, 0, Math.PI * 2);
+          ctx.arc(p.x, canvasY, p.size * a * 0.25, 0, Math.PI * 2);
           ctx.fill();
           ctx.restore();
         }
@@ -289,8 +242,8 @@ export default function ScrollEnergyLine() {
       sparksRef.current = sparksRef.current.filter((s) => s.life > 0);
       for (const s of sparksRef.current) {
         const travel = s.speed * (1 - s.life + 0.05);
-        const ex = s.x + Math.cos(s.angle) * travel * 8; // Shorter spark trails
-        const ey = s.y + Math.sin(s.angle) * travel * 8;
+        const ex = s.x + Math.cos(s.angle) * travel * 6;
+        const ey = s.y + Math.sin(s.angle) * travel * 6;
 
         const canvasSY = s.y - scrollY;
         const canvasEY = ey - scrollY;
@@ -300,18 +253,18 @@ export default function ScrollEnergyLine() {
           (canvasEY > -50 && canvasEY < canvas.height + 50)
         ) {
           ctx.save();
-          ctx.globalAlpha = Math.max(0, s.life) * 0.7;
-          ctx.strokeStyle = `rgba(255,230,120,${s.life})`;
-          ctx.lineWidth = 0.7; // Thinner spark lines
-          ctx.shadowBlur = 3; // Softer spark blur
-          ctx.shadowColor = "#f3efe6";
+          ctx.globalAlpha = Math.max(0, s.life) * 0.4;
+          ctx.strokeStyle = `rgba(${rgbAccent},${s.life})`;
+          ctx.lineWidth = 0.5;
+          ctx.shadowBlur = 2;
+          ctx.shadowColor = coreColor;
           ctx.beginPath();
           ctx.moveTo(s.x, canvasSY);
           ctx.lineTo(ex, canvasEY);
           ctx.stroke();
           ctx.restore();
         }
-        s.life -= 0.045; // Slower spark fade
+        s.life -= 0.05;
       }
 
       rafRef.current = requestAnimationFrame(loop);
@@ -322,21 +275,20 @@ export default function ScrollEnergyLine() {
       cancelAnimationFrame(rafRef.current);
       window.removeEventListener("resize", resize);
     };
-  }, []);
+  }, [isWellness]);
 
   return (
-    <div className="absolute inset-0 w-full pointer-events-none z-[2]" style={{ height: dimensions.height }}>
-      {/* Particle Canvas (Fixed to Viewport) */}
+    <div className="absolute inset-0 w-full pointer-events-none z-[1]" style={{ height: dimensions.height }}>
+      {/* Particle Canvas (Fixed to Viewport, behind content) */}
       <canvas
         ref={canvasRef}
-        className="fixed inset-0 w-screen h-screen pointer-events-none z-[3]"
-        style={{ mixBlendMode: "screen" }}
+        className="fixed inset-0 w-screen h-screen pointer-events-none z-[1]"
       />
 
-      {/* SVG Container (Absolute, spans full page height) */}
+      {/* SVG Container (Absolute, spans full page height, behind content) */}
       <motion.div
         style={{ y: containerY }}
-        className="absolute inset-0 w-full pointer-events-none will-change-transform"
+        className="absolute inset-0 w-full pointer-events-none will-change-transform z-[1]"
       >
         <svg
           viewBox={`0 0 ${dimensions.width} ${dimensions.height}`}
@@ -347,11 +299,11 @@ export default function ScrollEnergyLine() {
           <defs>
             {/* Soft Wide Glow Filter */}
             <filter id="eline-glow-outer" x="-300%" y="-5%" width="700%" height="110%">
-              <feGaussianBlur stdDeviation="16" result="blur" />
+              <feGaussianBlur stdDeviation="8" result="blur" />
               <feColorMatrix
                 in="blur"
                 type="matrix"
-                values="1.2 0 0 0 0.05  0.9 0 0 0 0.02  0 0 0 0 0  0 0 0 0.45 0"
+                values="1.2 0 0 0 0.05  0.9 0 0 0 0.02  0 0 0 0 0  0 0 0 0.4 0"
                 result="colored"
               />
               <feMerge>
@@ -362,13 +314,20 @@ export default function ScrollEnergyLine() {
             
             {/* Soft Mid Glow Filter */}
             <filter id="eline-glow-mid" x="-120%" y="-3%" width="340%" height="106%">
-              <feGaussianBlur stdDeviation="5.5" />
+              <feGaussianBlur stdDeviation="3" />
             </filter>
 
             {/* Soft Core Blur Filter */}
             <filter id="eline-glow-core" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="1.2" />
+              <feGaussianBlur stdDeviation="0.8" />
             </filter>
+
+            {/* Dynamic Energy Gradient */}
+            <linearGradient id="energy-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stopColor={isWellness ? "#79FA0F" : "#FA980F"} />
+              <stop offset="50%" stopColor={isWellness ? "#5dc206" : "#e08200"} />
+              <stop offset="100%" stopColor="#d4af37" />
+            </linearGradient>
           </defs>
 
           {/* Invisible reference path for length calculations */}
@@ -380,53 +339,53 @@ export default function ScrollEnergyLine() {
             strokeWidth={1}
           />
 
-          {/* Layer 1: Wide Ambient Gold Glow (Thinner & Softer) */}
+          {/* Layer 1: Wide Ambient Gold Glow (Thin & Soft) */}
           <motion.path
             d={pathData}
             fill="none"
-            stroke="#c5a059"
-            strokeWidth={10} // Reduced thickness from 18
+            stroke="url(#energy-gradient)"
+            strokeWidth={6}
             strokeLinecap="round"
             filter="url(#eline-glow-outer)"
             style={{ pathLength: spring, opacity: lineOpacity }}
             initial={{ pathLength: 0 }}
           />
 
-          {/* Layer 2: Mid Gold Glow (Thinner & Softer) */}
+          {/* Layer 2: Mid Gold Glow (Thin & Soft) */}
           <motion.path
             d={pathData}
             fill="none"
-            stroke="#c5a059"
-            strokeWidth={3} // Reduced thickness from 5
+            stroke="url(#energy-gradient)"
+            strokeWidth={1.5}
             strokeLinecap="round"
             filter="url(#eline-glow-mid)"
             style={{ pathLength: spring, opacity: coreOpacity }}
             initial={{ pathLength: 0 }}
           />
 
-          {/* Layer 3: Glowing Pulsing Flow (Infinite Animation - Thinner & Blurry) */}
+          {/* Layer 3: Glowing Pulsing Flow (Infinite Animation - Blurry core) */}
           <motion.path
             d={pathData}
             fill="none"
             stroke="#ffffff"
-            strokeWidth={1.6} // Reduced thickness from 2.4
+            strokeWidth={1.0}
             strokeLinecap="round"
-            strokeDasharray="60 220"
-            filter="url(#eline-glow-core)" // Applied blur filter to eliminate hard vector edges
-            animate={{ strokeDashoffset: [0, -280] }}
+            strokeDasharray="40 180"
+            filter="url(#eline-glow-core)"
+            animate={{ strokeDashoffset: [0, -220] }}
             transition={{ repeat: Infinity, duration: 6, ease: "linear" }}
             style={{ pathLength: spring, opacity: whiteOpacity }}
             initial={{ pathLength: 0 }}
           />
 
-          {/* Layer 4: Extremely Thin Soft Filament Core (No borders/harsh edges) */}
+          {/* Layer 4: Extremely Thin Soft Filament Core */}
           <motion.path
             d={pathData}
             fill="none"
             stroke="#ffffff"
-            strokeWidth={0.8} // Reduced thickness from 1.2
+            strokeWidth={0.5}
             strokeLinecap="round"
-            filter="url(#eline-glow-core)" // Applied blur filter to eliminate hard vector edges
+            filter="url(#eline-glow-core)"
             style={{ pathLength: spring, opacity: whiteOpacity }}
             initial={{ pathLength: 0 }}
           />

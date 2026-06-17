@@ -37,6 +37,7 @@ export default function Navbar() {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const location = useLocation();
+  const isWellnessActive = location.pathname.includes("/wellness");
 
   const { lang, setLang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
@@ -125,7 +126,7 @@ export default function Navbar() {
       <nav
         className={`w-full pointer-events-auto flex items-center justify-between transition-all duration-500 ease-in-out ${
           scrolled
-            ? "py-2 sm:py-2.5 px-6 sm:px-8 bg-[#050d0a]/80 backdrop-blur-xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.7)] rounded-full"
+            ? "py-2 sm:py-2.5 px-6 sm:px-8 bg-white/95 backdrop-blur-xl border border-gray-200 shadow-[0_10px_30px_rgba(0,0,0,0.06)] rounded-full"
             : "py-4 sm:py-6 px-0 bg-transparent border-transparent shadow-none backdrop-blur-none rounded-none"
         }`}
       >
@@ -137,21 +138,21 @@ export default function Navbar() {
           onTouchStart={() => handlePrefetch("/")}
           className="flex items-center gap-3 select-none group pointer-events-auto"
         >
-          <div className="w-8.5 h-8.5 border-2 border-luxury-gold rotate-45 flex items-center justify-center transition-transform duration-700 ease-out group-hover:rotate-[225deg] bg-[#050d0a]/75 shadow-md shadow-luxury-gold/5">
-            <span className="text-[10px] font-bold -rotate-45 font-mono text-white group-hover:text-luxury-gold transition-colors block leading-none">DA</span>
+          <div className={`w-8.5 h-8.5 border-2 ${isWellnessActive ? "border-therapy-500 shadow-therapy-500/5" : "border-orange-500 shadow-orange-500/5"} rotate-45 flex items-center justify-center transition-transform duration-700 ease-out group-hover:rotate-[225deg] bg-gray-900 shadow-md`}>
+            <span className={`text-[10px] font-bold -rotate-45 font-mono text-white ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors block leading-none`}>DA</span>
           </div>
           <div className="flex flex-col text-left">
-            <span className="text-[14px] sm:text-[16px] font-light tracking-[0.25em] uppercase text-white leading-tight group-hover:text-luxury-gold transition-colors duration-300">
-              Dhara<span className="text-luxury-gold font-semibold">Aveda</span>
+            <span className={`text-[14px] sm:text-[16px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
+              Dhara<span className={isWellnessActive ? "text-therapy-500 font-semibold" : "text-orange-500 font-semibold"}>Aveda</span>
             </span>
-            <span className="text-[7.5px] font-mono tracking-[0.2em] uppercase text-gray-300/80 -mt-0.5 whitespace-nowrap hidden xs:block">
+            <span className="text-[7.5px] font-mono tracking-[0.2em] uppercase text-gray-500 -mt-0.5 whitespace-nowrap hidden xs:block">
               {t.navbar.subTitle || "Agriculture & Aura Clinic"}
             </span>
           </div>
         </Link>
 
         {/* Center: Luxury Navigation Links */}
-        <div className="hidden md:flex items-center gap-1 bg-black/15 p-1 rounded-full border border-white/5">
+        <div className="hidden md:flex items-center gap-1 bg-gray-100/80 p-1 rounded-full border border-gray-200/50">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.path;
             return (
@@ -163,8 +164,8 @@ export default function Navbar() {
                 onTouchStart={() => handlePrefetch(link.path)}
                 className={`px-4 sm:px-5 py-2 text-[10px] font-semibold tracking-[0.22em] uppercase rounded-full transition-all duration-300 ease-out relative ${
                   isActive
-                    ? "bg-[#0b1622] text-[#C9A45C] border border-[#C9A45C]/15 shadow-lg shadow-black/35 font-bold"
-                    : "text-gray-300/90 hover:text-[#C9A45C] hover:scale-[1.03]"
+                    ? (isWellnessActive ? "bg-therapy-500 text-white shadow-md shadow-therapy-500/20 font-bold" : "bg-orange-500 text-white shadow-md shadow-orange-500/20 font-bold")
+                    : `text-gray-600 hover:scale-[1.03] ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
                 }`}
               >
                 {link.name}
@@ -179,9 +180,9 @@ export default function Navbar() {
           <div className="relative pointer-events-auto">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="flex items-center gap-1.5 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.12] text-gray-300/90 hover:text-white transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-white/10 cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-gray-200 cursor-pointer"
             >
-              <Globe className="w-3.5 h-3.5 text-luxury-gold" />
+              <Globe className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
               <span>{currentLanguageName}</span>
               <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${langDropdownOpen ? "rotate-180" : ""}`} />
             </button>
@@ -196,7 +197,7 @@ export default function Navbar() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 10, scale: 0.95 }}
                     transition={{ duration: 0.2 }}
-                    className={`absolute ${lang === "ar" ? "left-0" : "right-0"} top-full mt-2 w-64 bg-[#050d0a]/90 backdrop-blur-xl border border-white/10 rounded-2xl p-3 shadow-2xl z-50 text-white font-sans`}
+                    className={`absolute ${lang === "ar" ? "left-0" : "right-0"} top-full mt-2 w-64 bg-white/95 backdrop-blur-xl border border-gray-200 rounded-2xl p-3 shadow-2xl z-50 text-gray-900 font-sans`}
                   >
                     <div className="relative mb-2">
                       <Search className={`absolute ${lang === "ar" ? "right-3" : "left-3"} top-2.5 h-3.5 w-3.5 text-gray-400`} />
@@ -205,10 +206,10 @@ export default function Navbar() {
                         placeholder={t.navbar.searchPlaceholder || "Search language..."}
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className={`w-full bg-white/5 border border-white/10 focus:border-luxury-gold/50 rounded-xl py-1.5 ${lang === "ar" ? "pr-9 pl-4 text-right" : "pl-9 pr-4 text-left"} text-xs text-white placeholder-gray-400 focus:outline-none transition-colors`}
+                        className={`w-full bg-gray-50 border border-gray-200 ${isWellnessActive ? "focus:border-therapy-500/50" : "focus:border-orange-500/50"} rounded-xl py-1.5 ${lang === "ar" ? "pr-9 pl-4 text-right" : "pl-9 pr-4 text-left"} text-xs text-gray-900 placeholder-gray-400 focus:outline-none transition-colors`}
                       />
                     </div>
-                    <div className="max-h-60 overflow-y-auto scrollbar-thin scrollbar-thumb-white/10 space-y-1">
+                    <div className="max-h-60 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-200 space-y-1">
                       {filteredLanguages.map((l) => (
                         <button
                           key={l.code}
@@ -219,8 +220,8 @@ export default function Navbar() {
                           }}
                           className={`w-full ${lang === "ar" ? "text-right flex-row-reverse" : "text-left"} flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${
                             lang === l.code
-                              ? "bg-luxury-gold/10 text-luxury-gold border border-luxury-gold/20 font-bold"
-                              : "hover:bg-white/5 text-gray-300 hover:text-white"
+                              ? (isWellnessActive ? "bg-therapy-50 text-therapy-600 border border-therapy-200 font-bold" : "bg-orange-50 text-orange-600 border border-orange-200 font-bold")
+                              : "hover:bg-gray-50 text-gray-700 hover:text-gray-900"
                           }`}
                         >
                           <span>{l.nativeName}</span>
@@ -240,10 +241,10 @@ export default function Navbar() {
             onMouseEnter={() => handlePrefetch("/admin")}
             onFocus={() => handlePrefetch("/admin")}
             onTouchStart={() => handlePrefetch("/admin")}
-            className="flex items-center gap-1.5 px-3 py-2 bg-white/[0.04] hover:bg-white/[0.12] text-gray-300/90 hover:text-white transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-white/10 pointer-events-auto"
+            className="flex items-center gap-1.5 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-gray-200 pointer-events-auto"
             title="Administrator Control Board"
           >
-            <Lock className="w-3 h-3 text-luxury-gold" />
+            <Lock className={`w-3 h-3 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
             <span>{isAdmin ? (t.navbar.console || "Console") : (t.navbar.admin || "Admin")}</span>
           </Link>
         </div>
@@ -252,14 +253,14 @@ export default function Navbar() {
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="inline-flex items-center justify-center p-2 rounded-full text-gray-300 hover:text-[#C9A45C] bg-white/[0.04] hover:bg-white/[0.1] border border-white/10 focus:outline-none transition-all cursor-pointer"
+            className={`inline-flex items-center justify-center p-2 rounded-full text-gray-600 ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"} bg-gray-50 hover:bg-gray-100 border border-gray-200 focus:outline-none transition-all cursor-pointer`}
             aria-expanded={mobileMenuOpen}
           >
             <span className="sr-only">Toggle navigation scope</span>
             {mobileMenuOpen ? (
-              <X className="block h-4.5 w-4.5 text-luxury-gold" />
+              <X className={`block h-4.5 w-4.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
             ) : (
-              <Menu className="block h-4.5 w-4.5 text-white" />
+              <Menu className="block h-4.5 w-4.5 text-gray-900" />
             )}
           </button>
         </div>
@@ -272,7 +273,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -15, scale: 0.96 }}
               transition={{ duration: 0.25, ease: "easeOut" }}
-              className="absolute top-[calc(100%+0.75rem)] left-0 right-0 w-full bg-[#050d0a]/96 backdrop-blur-2xl border border-white/10 rounded-3xl p-5 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.8)] space-y-3 z-50 flex flex-col items-center justify-center text-center font-sans"
+              className="absolute top-[calc(100%+0.75rem)] left-0 right-0 w-full bg-white/95 backdrop-blur-2xl border border-gray-200 rounded-3xl p-5 shadow-[0_20px_40px_rgba(0,0,0,0.1)] space-y-3 z-50 flex flex-col items-center justify-center text-center font-sans"
             >
               <div className="flex flex-col w-full space-y-2 font-sans">
                 {navLinks.map((link) => {
@@ -286,8 +287,8 @@ export default function Navbar() {
                       onTouchStart={() => handlePrefetch(link.path)}
                       className={`block py-3 rounded-2xl text-[11px] font-bold tracking-[0.25em] uppercase transition-all duration-300 ${
                         isActive 
-                          ? "bg-[#0b1622] text-[#C9A45C] border border-[#C9A45C]/15" 
-                          : "text-gray-300 hover:text-white hover:bg-white/[0.03]"
+                          ? (isWellnessActive ? "bg-therapy-500 text-white font-bold shadow-md shadow-therapy-500/10" : "bg-orange-500 text-white font-bold shadow-md shadow-orange-500/10") 
+                          : `text-gray-700 hover:text-gray-900 hover:bg-gray-50 ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
                       }`}
                     >
                       {link.name}
@@ -297,12 +298,12 @@ export default function Navbar() {
               </div>
 
               {/* Mobile primary actionable integrations */}
-              <div className="pt-3 border-t border-white/10 w-full flex flex-col gap-2.5">
+              <div className="pt-3 border-t border-gray-200 w-full flex flex-col gap-2.5">
                 {/* Mobile Language Selector */}
-                <div className="w-full flex flex-col gap-2 p-2 bg-white/[0.02] border border-white/10 rounded-2xl">
+                <div className="w-full flex flex-col gap-2 p-2 bg-gray-50 border border-gray-200 rounded-2xl">
                   <div className="flex items-center justify-between px-2 text-[10px] font-bold text-gray-400 tracking-wider font-mono">
                     <span>{t.navbar.selectLanguage || "Select Sacred Language"}</span>
-                    <Globe className="w-3.5 h-3.5 text-luxury-gold animate-pulse" />
+                    <Globe className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"} animate-pulse`} />
                   </div>
                   
                   {/* Quick Select Grid for Mobile */}
@@ -316,8 +317,8 @@ export default function Navbar() {
                         }}
                         className={`px-3 py-2 text-[10px] font-medium rounded-xl text-center transition-all ${
                           lang === l.code
-                            ? "bg-luxury-gold/15 text-luxury-gold border border-luxury-gold/30 font-bold"
-                            : "bg-white/[0.02] text-gray-300 hover:bg-white/[0.06]"
+                            ? (isWellnessActive ? "bg-therapy-500 text-white font-bold" : "bg-orange-500 text-white font-bold")
+                            : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-200"
                         }`}
                       >
                         {l.nativeName}
@@ -331,9 +332,9 @@ export default function Navbar() {
                   onMouseEnter={() => handlePrefetch("/admin")}
                   onFocus={() => handlePrefetch("/admin")}
                   onTouchStart={() => handlePrefetch("/admin")}
-                  className="flex items-center justify-center gap-2 w-full py-3 rounded-2xl bg-white/[0.02] border border-white/10 text-center text-xs font-semibold font-mono tracking-widest uppercase text-gray-300 hover:text-white"
+                  className="flex items-center justify-center gap-2 w-full py-3 rounded-2xl bg-gray-50 border border-gray-200 text-center text-xs font-semibold font-mono tracking-widest uppercase text-gray-700 hover:text-gray-900"
                 >
-                  <Lock className="w-3.5 h-3.5 text-luxury-gold" />
+                  <Lock className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
                   <span>{t.navbar.console || "Console"} Panel</span>
                 </Link>
               </div>

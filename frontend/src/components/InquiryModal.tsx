@@ -61,27 +61,27 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm animate-fade-in">
       <div 
         id="inquiry-modal"
-        className="relative w-full max-w-lg overflow-hidden rounded-2xl glass-panel-dark p-6 sm:p-8"
+        className="relative w-full max-w-lg overflow-hidden rounded-2xl bg-white border border-gray-200 shadow-2xl p-6 sm:p-8"
       >
         {/* Background Accent */}
-        <div className="absolute top-0 right-0 w-48 h-48 -mr-16 -mt-16 bg-luxury-gold/5 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 w-48 h-48 -mr-16 -mt-16 bg-orange-500/5 rounded-full blur-3xl pointer-events-none" />
 
         {/* Header */}
         <div className="flex justify-between items-start mb-6">
           <div className="text-left">
-            <span className="text-[10px] font-mono tracking-[0.3em] text-luxury-gold uppercase block mb-1">
+            <span className="text-[10px] font-mono tracking-[0.3em] text-orange-600 font-semibold uppercase block mb-1">
               INT TRADE ENQUIRY
             </span>
-            <h3 className="font-serif text-xl sm:text-2xl text-white">
+            <h3 className="font-serif text-xl sm:text-2xl text-gray-900 font-bold">
               {t.product.inquiryRequestQuote || "Request Quotation"}
             </h3>
-            <p className="text-xs text-gray-400 mt-1">
-              {t.product.inquiryDirectAccess || "Direct access to our Agricultural Export Desk for"} <span className="text-luxury-gold font-semibold">{productName}</span>.
+            <p className="text-xs text-gray-600 mt-1">
+              {t.product.inquiryDirectAccess || "Direct access to our Agricultural Export Desk for"} <span className="text-orange-600 font-bold">{productName}</span>.
             </p>
           </div>
           <button
             onClick={onClose}
-            className="p-1 rounded-full text-gray-400 hover:text-white hover:bg-white/10 transition-colors cursor-pointer"
+            className="p-1 rounded-full text-gray-400 hover:text-gray-900 hover:bg-gray-100 transition-colors cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -89,33 +89,33 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
 
         {success ? (
           <div className="py-8 text-center space-y-4">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-luxury-gold/10 border border-luxury-gold animate-bounce">
-              <CheckCircle className="w-8 h-8 text-luxury-gold" />
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-50 border border-orange-200 animate-bounce">
+              <CheckCircle className="w-8 h-8 text-orange-500" />
             </div>
-            <h4 className="font-serif text-lg text-white">
+            <h4 className="font-serif text-lg text-gray-900 font-bold">
               {t.product.inquirySuccessTitle || "Quotation Request Logged"}
             </h4>
-            <p className="text-xs text-gray-300 max-w-sm mx-auto leading-relaxed">
+            <p className="text-xs text-gray-600 max-w-sm mx-auto leading-relaxed">
               {t.product.inquirySuccessDesc || "Your trade desk ticket has been initialized. A dedicated cargo specialist will review your cargo specifications within 24 standard business hours."}
             </p>
             <button
               onClick={onClose}
-              className="cursor-pointer px-6 py-2 border border-luxury-gold text-xs font-mono uppercase tracking-widest text-luxury-gold hover:bg-luxury-gold hover:text-luxury-green-deep transition-all duration-300 rounded"
+              className="cursor-pointer px-6 py-2 border border-orange-500 text-xs font-mono uppercase tracking-widest text-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-300 rounded-lg"
             >
               {t.product.inquiryCloseWindow || "Close Window"}
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-4 text-xs font-sans">
+          <form onSubmit={handleSubmit} className="space-y-4 text-xs font-sans text-gray-600">
             {error && (
-              <div className="p-3 bg-red-950/40 border border-red-500/20 text-red-300 rounded text-center">
+              <div className="p-3 bg-red-50 border border-red-200 text-red-600 rounded text-center">
                 {error}
               </div>
             )}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="text-left">
-                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                   {t.product.inquiryLabelName || "Full Name *"}
                 </label>
                 <input
@@ -124,12 +124,12 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder={t.product.inquiryPlaceholderName || "e.g. Elena Rostova"}
-                  className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2.5 text-white placeholder-gray-500 outline-none transition-colors"
+                  className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>
 
               <div className="text-left">
-                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                   {t.product.inquiryLabelEmail || "Corporate Email *"}
                 </label>
                 <input
@@ -138,14 +138,14 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder={t.product.inquiryPlaceholderEmail || "partner@tradehouse.com"}
-                  className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2.5 text-white placeholder-gray-500 outline-none transition-colors"
+                  className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="text-left">
-                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                   {t.product.inquiryLabelCompany || "Company / Organization"}
                 </label>
                 <input
@@ -153,12 +153,12 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
                   placeholder={t.product.inquiryPlaceholderCompany || "e.g. Hanseatic Spices GmbH"}
-                  className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2.5 text-white placeholder-gray-500 outline-none transition-colors"
+                  className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>
 
               <div className="text-left">
-                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+                <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                   {t.product.inquiryLabelQuantity || "Target Quantity (e.g. Tons) *"}
                 </label>
                 <input
@@ -167,13 +167,13 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   value={quantity}
                   onChange={(e) => setQuantity(e.target.value)}
                   placeholder={t.product.inquiryPlaceholderQuantity || "e.g. 5 Metric Tons"}
-                  className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2.5 text-white placeholder-gray-500 outline-none transition-colors"
+                  className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>
             </div>
 
             <div className="text-left">
-              <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+              <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                 {t.contact.labelPhone || "Direct Contact Phone"}
               </label>
               <input
@@ -181,12 +181,12 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="+49 40 1234567"
-                className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2.5 text-white placeholder-gray-500 outline-none transition-colors"
+                className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
               />
             </div>
 
             <div className="text-left">
-              <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-1.5">
+              <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
                 Custom Port Destination / Packing Demands
               </label>
               <textarea
@@ -194,14 +194,14 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder={t.product.inquiryPlaceholderMessage || "Mention specific vacuum-seal requests, harbor ports of choice (e.g. Rotterdam, Hamburg), and phytosanitary certificate needs..."}
-                className="w-full bg-white/5 border border-luxury-gold/20 focus:border-luxury-gold rounded-lg px-3 py-2 text-white placeholder-gray-500 outline-none transition-colors resize-none"
+                className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2 text-gray-900 placeholder-gray-400 outline-none transition-colors resize-none focus:bg-white"
               />
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full mt-2 cursor-pointer flex items-center justify-center space-x-2 py-3 border border-luxury-gold bg-luxury-gold/10 hover:bg-luxury-gold text-luxury-gold hover:text-luxury-green-deep transition-all duration-300 hover:shadow-lg rounded-xl font-semibold tracking-widest uppercase text-xs"
+              className="w-full mt-2 cursor-pointer flex items-center justify-center space-x-2 py-3 bg-orange-500 hover:bg-orange-600 text-white transition-all duration-300 hover:shadow-lg rounded-xl font-semibold tracking-widest uppercase text-xs shadow-md shadow-orange-500/10"
             >
               {loading ? (
                 <>

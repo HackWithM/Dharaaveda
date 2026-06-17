@@ -323,21 +323,37 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "Fruits",
-        "desc": "Premium sun-ripened orchards and high-altitude tropical fruits harvested direct from organic farms."
-      },
       "spices": {
         "title": "Spices & Seasonings",
         "desc": "Vedas-grade aromatics, hot spices, and complex culinary powders milled to absolute microbiological safety standards."
       },
-      "dehydrated": {
-        "title": "Dehydrated Products",
-        "desc": "Premium sun-sheltered, low-temp dehydrated vegetables and therapeutic superfood plant powders with cell-retentive color and nutrients."
+      "veg_powders": {
+        "title": "Dehydrated Vegetable Powders",
+        "desc": "Fine agricultural vegetable powders dehydrated at low temperatures to lock in bioactive nutrients, colors, and intense flavors."
       },
-      "jaggery": {
-        "title": "Jaggery Products",
-        "desc": "Traditional sugarcane nectars clarified utilizing organic wild-plant extracts and evaporated to crystalline rich caramels."
+      "fruit_powders": {
+        "title": "Dehydrated Fruit Powders",
+        "desc": "Premium spray-dried and low-temp dehydrated fruit powders capturing the pure sweetness, vitamins, and tang of fresh orchards."
+      },
+      "moringa": {
+        "title": "Moringa Products",
+        "desc": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation."
+      },
+      "seeds": {
+        "title": "Seeds Category",
+        "desc": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls."
+      },
+      "dehydrated_veg": {
+        "title": "Dehydrated Vegetables",
+        "desc": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life."
+      },
+      "dehydrated_fruits": {
+        "title": "Dehydrated Fruits",
+        "desc": "Premium long-cut and slices of sun-sheltered dehydrated fruits preserving natural sugars, texture, and vitamins."
+      },
+      "flakes": {
+        "title": "Flakes Category",
+        "desc": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes."
       }
     },
     "items": {

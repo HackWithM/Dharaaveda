@@ -3,29 +3,29 @@ import { motion } from "motion/react";
 
 export default function PageLoader() {
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#050d0a] text-white">
-      {/* Background ambient gold lights */}
-      <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-luxury-gold/5 rounded-full blur-[100px] pointer-events-none animate-pulse duration-3000" />
-      <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-luxury-gold/5 rounded-full blur-[100px] pointer-events-none animate-pulse duration-3000 delay-1000" />
+    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white text-gray-900">
+      {/* Background ambient orange lights */}
+      <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-orange-500/5 rounded-full blur-[100px] pointer-events-none animate-pulse duration-3000" />
+      <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-orange-500/5 rounded-full blur-[100px] pointer-events-none animate-pulse duration-3000 delay-1000" />
 
       <div className="relative flex flex-col items-center">
         {/* Animated Brand Diamond Logo */}
         <motion.div
           animate={{
             rotate: [45, 225, 45],
-            borderColor: ["rgba(201, 164, 92, 0.3)", "rgba(201, 164, 92, 0.8)", "rgba(201, 164, 92, 0.3)"]
+            borderColor: ["rgba(249, 115, 22, 0.3)", "rgba(249, 115, 22, 0.8)", "rgba(249, 115, 22, 0.3)"]
           }}
           transition={{
             duration: 3,
             repeat: Infinity,
             ease: "easeInOut"
           }}
-          className="w-16 h-16 border-2 border-luxury-gold rotate-45 flex items-center justify-center shadow-lg shadow-luxury-gold/10"
+          className="w-16 h-16 border-2 border-orange-500 rotate-45 flex items-center justify-center shadow-lg shadow-orange-500/10"
         >
           <motion.span
             animate={{
               rotate: [-45, -225, -45],
-              color: ["#ffffff", "#C9A45C", "#ffffff"]
+              color: ["#111827", "#F97316", "#111827"]
             }}
             transition={{
               duration: 3,
@@ -45,16 +45,16 @@ export default function PageLoader() {
           transition={{ delay: 0.2 }}
           className="mt-8 flex flex-col items-center text-center space-y-1"
         >
-          <h2 className="text-sm font-light tracking-[0.3em] uppercase text-white">
-            Dhara<span className="text-[#C9A45C] font-semibold">Aveda</span>
+          <h2 className="text-sm font-light tracking-[0.3em] uppercase text-gray-900">
+            Dhara<span className="text-orange-500 font-semibold">Aveda</span>
           </h2>
-          <p className="text-[9px] font-mono tracking-[0.2em] uppercase text-gray-400">
+          <p className="text-[9px] font-mono tracking-[0.2em] uppercase text-gray-500">
             Aligning Auric Vibrations
           </p>
         </motion.div>
 
         {/* Dynamic pulsing loading bar */}
-        <div className="w-24 h-[1px] bg-white/10 mt-6 relative overflow-hidden rounded-full">
+        <div className="w-24 h-[1px] bg-gray-200 mt-6 relative overflow-hidden rounded-full">
           <motion.div
             animate={{
               left: ["-100%", "100%"]
@@ -64,7 +64,7 @@ export default function PageLoader() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-0 bottom-0 w-1/2 bg-gradient-to-r from-transparent via-[#C9A45C] to-transparent"
+            className="absolute top-0 bottom-0 w-1/2 bg-gradient-to-r from-transparent via-orange-500 to-transparent"
           />
         </div>
       </div>

@@ -20,10 +20,10 @@ const ProductCategoryCard: React.FC<ProductCategoryCardProps> = ({ category, onO
   return (
     <div
       id={`cat-card-${category.id}`}
-      className="group relative rounded-2xl overflow-hidden glass-panel-dark border border-luxury-gold/15 hover:border-luxury-gold/45 bg-[#0d1c24]/50 hover:bg-[#0f212a]/70 flex flex-col justify-between transition-all duration-350 shadow-lg hover:shadow-2xl hover:shadow-luxury-gold/5"
+      className="group relative rounded-2xl overflow-hidden bg-white border border-gray-200 hover:border-orange-300 flex flex-col justify-between transition-all duration-300 shadow-sm hover:shadow-xl h-full"
     >
       {/* Visual Header */}
-      <div className="h-64 relative overflow-hidden bg-neutral-950 border-b border-luxury-gold/10">
+      <div className="h-40 relative overflow-hidden bg-neutral-950 border-b border-gray-100">
         <OptimizedImage
           src={category.image}
           alt={title}
@@ -32,41 +32,41 @@ const ProductCategoryCard: React.FC<ProductCategoryCardProps> = ({ category, onO
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
         {/* Subtle decorative grid/line mesh over category image */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a141b] via-[#0a141b]/20 to-transparent mix-blend-multiply opacity-80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80" />
         
         {/* Category Badge Indicator representing pure agricultural origin */}
-        <span className="absolute top-4 left-4 bg-[#0a141b]/90 text-luxury-gold border border-luxury-gold/30 font-mono text-[9px] uppercase tracking-widest px-3 py-1.5 rounded-full backdrop-blur-sm flex items-center space-x-1">
-          <Sparkles className="w-3 h-3 animate-pulse text-luxury-gold" />
+        <span className="absolute top-3 left-3 bg-white/90 text-orange-600 border border-orange-200 font-mono text-[8px] uppercase tracking-widest px-2.5 py-1 rounded-full backdrop-blur-sm flex items-center space-x-1 font-semibold">
+          <Sparkles className="w-2.5 h-2.5 animate-pulse text-orange-500" />
           <span>{title}</span>
         </span>
       </div>
 
       {/* Main Metadata Information */}
-      <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between space-y-6">
-        <div className="space-y-3 text-left">
-          <h3 className="font-serif text-xl sm:text-2xl text-white group-hover:text-luxury-gold transition-colors font-semibold tracking-wide">
+      <div className="p-4.5 flex-1 flex flex-col justify-between space-y-4">
+        <div className="space-y-2 text-left">
+          <h3 className="font-serif text-base sm:text-lg text-gray-900 group-hover:text-orange-600 transition-colors font-semibold tracking-wide line-clamp-1">
             {title}
           </h3>
-          <p className="text-xs text-gray-300 leading-relaxed font-sans line-clamp-3">
+          <p className="text-[11px] text-gray-500 leading-relaxed font-sans line-clamp-2">
             {description}
           </p>
         </div>
 
-        <div className="pt-5 border-t border-luxury-gold/10 flex items-center justify-between">
-          <div className="space-y-1 text-left">
-            <span className="text-[8px] font-mono text-gray-500 uppercase tracking-widest block">
+        <div className="pt-3 border-t border-gray-100 flex items-center justify-between">
+          <div className="space-y-0.5 text-left">
+            <span className="text-[7px] font-mono text-gray-400 uppercase tracking-widest block">
               {t.product.extendedCatalogue || "EXTENDED CATALOGUE"}
             </span>
-            <span className="text-[10px] font-mono font-bold text-luxury-gold uppercase tracking-wider">
-              {category.products.length} {t.product.premiumItems || "Premium Items"}
+            <span className="text-[9px] font-mono font-semibold text-orange-600 uppercase tracking-wider">
+              {category.products.length} {t.product.premiumItems || "Items"}
             </span>
           </div>
           <button
             onClick={() => onOpenModal(category)}
-            className="cursor-pointer group/btn inline-flex items-center space-x-1.5 px-4.5 py-2.5 border border-luxury-gold bg-luxury-gold/5 text-[10px] font-mono uppercase tracking-widest text-luxury-gold hover:bg-luxury-gold hover:text-luxury-blue-deep transition-all duration-300 rounded"
+            className="cursor-pointer group/btn inline-flex items-center space-x-1 px-3 py-2 bg-orange-500 hover:bg-orange-600 text-white font-bold text-[9px] font-mono uppercase tracking-widest transition-all duration-300 rounded shadow-sm shadow-orange-500/10 shrink-0"
           >
-            <span>{t.product.viewProducts || "View Products"}</span>
-            <ChevronRight className="w-3.5 h-3.5 transform group-hover/btn:translate-x-1 transition-transform" />
+            <span>{t.product.viewProducts || "View"}</span>
+            <ChevronRight className="w-3 h-3 transform group-hover/btn:translate-x-0.5 transition-transform" />
           </button>
         </div>
       </div>
