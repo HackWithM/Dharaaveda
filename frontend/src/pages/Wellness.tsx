@@ -180,9 +180,11 @@ export default function Wellness() {
 
       {/* 1. EMOTIONAL STORYTELLING HERO */}
       <section className="relative py-20 px-4 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-gray-200">
-        <div 
-          className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-5 pointer-events-none" 
-          style={{ backgroundImage: `url('${IMAGES.therapy.heroBg}')` }}
+        <img
+          src={IMAGES.therapy.heroBg}
+          alt=""
+          loading="eager"
+          className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-5 pointer-events-none"
         />
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">

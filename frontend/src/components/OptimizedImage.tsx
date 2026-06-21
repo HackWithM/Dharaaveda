@@ -53,14 +53,14 @@ export default function OptimizedImage({
   quality = 80,
   ...rest
 }: OptimizedImageProps) {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(priority);
   const [hasError, setHasError] = useState(false);
 
   // Reset status when source changes
   useEffect(() => {
-    setIsLoaded(false);
+    setIsLoaded(priority);
     setHasError(false);
-  }, [src]);
+  }, [src, priority]);
 
   const isUnsplash = src && src.startsWith("https://images.unsplash.com");
 
@@ -108,8 +108,12 @@ export default function OptimizedImage({
           setHasError(true);
           setIsLoaded(true);
         }}
-        className={`w-full h-full object-cover transition-all duration-700 ease-out ${imgClassName} ${
-          isLoaded ? "opacity-100 scale-100 filter brightness-100" : "opacity-0 scale-[1.03] filter blur-[4px]"
+        className={`w-full h-full object-cover ${imgClassName} ${
+          priority
+            ? "opacity-100 scale-100 filter brightness-100"
+            : `transition-all duration-700 ease-out ${
+                isLoaded ? "opacity-100 scale-100 filter brightness-100" : "opacity-0 scale-[1.03] filter blur-[4px]"
+              }`
         }`}
         {...rest}
       />
