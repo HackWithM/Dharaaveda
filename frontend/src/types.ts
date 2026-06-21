@@ -65,6 +65,7 @@ export interface Testimonial {
 
 export interface Booking {
   id: string;
+  bookingId: string;
   name: string;
   email: string;
   phone: string;
@@ -72,7 +73,12 @@ export interface Booking {
   date: string;
   time: string;
   notes: string;
-  status: 'pending' | 'confirmed' | 'cancelled';
+  amount: number;
+  paymentStatus: 'pending' | 'paid' | 'failed';
+  razorpayOrderId?: string;
+  razorpayPaymentId?: string;
+  razorpaySignature?: string;
+  status: 'pending' | 'confirmed' | 'cancelled' | 'completed';
   createdAt: string;
 }
 

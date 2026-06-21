@@ -71,31 +71,8 @@ export default function App() {
       Contact.preload().catch(() => {});
     }, 1200);
 
-    // 2. Preload critical premium hero image assets
-    const preloads = [
-      IMAGES.home.heroBg,
-      IMAGES.export.hero,
-      IMAGES.therapy.heroBg
-    ];
-    const linkElements: HTMLLinkElement[] = [];
-    preloads.forEach((url) => {
-      if (url) {
-        const link = document.createElement("link");
-        link.rel = "preload";
-        link.as = "image";
-        link.href = url;
-        document.head.appendChild(link);
-        linkElements.push(link);
-      }
-    });
-
     return () => {
       clearTimeout(prefetchTimer);
-      linkElements.forEach((link) => {
-        if (link.parentNode) {
-          link.parentNode.removeChild(link);
-        }
-      });
     };
   }, []);
 

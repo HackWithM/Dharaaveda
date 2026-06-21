@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { IMAGES } from "../data/images";
 
 // Helper to optimize Unsplash URLs to WebP and specific widths
 export function getOptimizedUnsplashUrl(baseurl: string, width?: number, quality = 80): string {
@@ -48,7 +49,7 @@ export default function OptimizedImage({
   sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
   widths = [320, 640, 960, 1200],
   priority = false,
-  fallback = "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?fm=webp&fit=crop&q=80&w=800", // Default beautiful wellness fallback
+  fallback = IMAGES.therapy.heroBg, // Default beautiful wellness fallback
   quality = 80,
   ...rest
 }: OptimizedImageProps) {
@@ -83,13 +84,13 @@ export default function OptimizedImage({
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
-            className="absolute inset-0 bg-neutral-900/90 flex items-center justify-center z-10"
+            className="absolute inset-0 bg-slate-100 flex items-center justify-center z-10"
           >
             {/* Shimmer gradient line animation */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.05] to-transparent -translate-x-full animate-[shimmer_1.5s_infinite]" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-200/60 to-transparent -translate-x-full animate-[shimmer_1.5s_infinite]" />
             {/* Elegant logo mark in loading state */}
-            <div className="w-8 h-8 rounded-full border border-luxury-gold/20 flex items-center justify-center animate-pulse">
-              <span className="text-[7px] font-mono text-luxury-gold/50 tracking-widest scale-90">DA</span>
+            <div className="w-8 h-8 rounded-full border border-orange-500/20 flex items-center justify-center animate-pulse">
+              <span className="text-[7px] font-mono text-orange-500/50 tracking-widest scale-90">DA</span>
             </div>
           </motion.div>
         )}

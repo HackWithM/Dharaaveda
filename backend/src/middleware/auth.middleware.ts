@@ -8,6 +8,8 @@ export interface AuthenticatedRequest extends Request {
   };
 }
 
+
+
 function getJwtSecret(): string {
   const secret = process.env.JWT_SECRET;
   if (!secret) {
@@ -65,4 +67,7 @@ export function optionalAuth(
 
   requireAuth(req, res, next);
 }
+
+
+
 

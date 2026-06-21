@@ -33,7 +33,7 @@ export default function Wellness() {
     city: "",
     rating: 5,
     content: "",
-    image: IMAGES.avatars.lotus,
+    image: IMAGES.avatars.lotus as string,
   });
 
   const { lang } = useLanguage();
@@ -83,6 +83,32 @@ export default function Wellness() {
 
   useEffect(() => {
     loadWellnessData();
+
+    // Dynamically preload above-the-fold critical hero images for the Wellness page
+    const criticalImages = [
+      IMAGES.therapy.heroBg,
+      IMAGES.therapy.heroAtmosphere
+    ];
+    const linkElements: HTMLLinkElement[] = [];
+
+    criticalImages.forEach((url) => {
+      if (url) {
+        const link = document.createElement("link");
+        link.rel = "preload";
+        link.as = "image";
+        link.href = url;
+        document.head.appendChild(link);
+        linkElements.push(link);
+      }
+    });
+
+    return () => {
+      linkElements.forEach((link) => {
+        if (link.parentNode) {
+          link.parentNode.removeChild(link);
+        }
+      });
+    };
   }, []);
 
   const handleReviewSubmit = async (e: React.FormEvent) => {
@@ -187,6 +213,7 @@ export default function Wellness() {
               alt="Luxury Meditation Atmosphere"
               className="w-full h-full filter brightness-95"
               sizes="(max-width: 768px) 100vw, 50vw"
+              priority={true}
             />
             {/* Glowing orb visual representing Reiki life force */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-therapy-500/10 rounded-full blur-3xl" />
@@ -225,11 +252,12 @@ export default function Wellness() {
                     <div className={`lg:col-span-12 xl:col-span-5 ${isEven ? "lg:order-1" : "lg:order-2"}`}>
                       <div className="relative rounded-3xl overflow-hidden border border-gray-200 h-[340px] shadow-2xl group">
                         <OptimizedImage
-                          src={srv.image || IMAGES.therapy.bachFlower}
+                          src={srv.image || IMAGES.therapy.bachFlowerService}
                           alt={srv.translations?.[lang]?.name || srv.name}
                           className="w-full h-full"
                           imgClassName="filter brightness-95 transition-transform duration-500 group-hover:scale-105"
                           sizes="(max-width: 1200px) 100vw, 40vw"
+                          priority={idx === 0}
                         />
                         {/* Shadow over card */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -579,7 +607,7 @@ export default function Wellness() {
                       <div className="flex-1 min-w-[150px]">
                         <input
                           type="text"
-                          value={Object.values(IMAGES.avatars).includes(formData.image) ? "" : formData.image}
+                          value={(Object.values(IMAGES.avatars) as string[]).includes(formData.image) ? "" : formData.image}
                           onChange={(e) => setFormData({ ...formData, image: e.target.value || IMAGES.avatars.lotus })}
                           placeholder="Or input custom photo URL..."
                           className="w-full bg-gray-50 border border-gray-200 focus:border-therapy-500 rounded-lg p-2 text-[10px] text-gray-900 outline-none transition-colors"
@@ -738,7 +766,7 @@ export default function Wellness() {
 
                   <div className="relative rounded-2xl overflow-hidden border border-therapy-500/30 w-[280px] sm:w-[320px] aspect-[4/5] shadow-2xl bg-white">
                     <OptimizedImage
-                      src={aboutVikranti?.profileImage || IMAGES.therapy.founder}
+                      src={aboutVikranti?.profileImage || IMAGES.therapy.founderPortrait}
                       alt={aboutVikranti?.name || "Dr. Vikranti"}
                       className="w-full h-full"
                       imgClassName="filter brightness-95 saturation-95 transition-transform duration-700 group-hover:scale-105"
@@ -855,7 +883,7 @@ export default function Wellness() {
           </div>
 
           <div className="space-y-4 pt-4">
-            {t.faqItems.map((item, fIdx) => (
+            {t.faqItems.map((item: { question: string; answer: string }, fIdx: number) => (
               <div key={fIdx} className="border border-gray-200 rounded-2xl bg-slate-50 overflow-hidden transition-all duration-300">
                 <button
                   onClick={() => setOpenFaqIdx(openFaqIdx === fIdx ? null : fIdx)}
@@ -891,7 +919,7 @@ export default function Wellness() {
 
             <div className="aspect-video relative rounded-2xl overflow-hidden border border-gray-200 shadow-lg h-52 w-full">
               <OptimizedImage
-                src={IMAGES.therapy.location}
+                src={IMAGES.therapy.sanctuaryLocation}
                 alt="Wayanad highland retreat"
                 className="w-full h-full"
                 imgClassName="filter brightness-90"

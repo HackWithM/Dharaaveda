@@ -1,4 +1,5 @@
 import { Product } from "../types";
+import { IMAGES } from "./images";
 
 export interface ProductCategory {
   id: string;
@@ -13,14 +14,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "spices",
     "title": "Spices & Seasonings",
     "description": "Vedas-grade aromatics, hot spices, and complex culinary powders milled to absolute microbiological safety standards.",
-    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.spices,
     "products": [
       {
         "id": "s-turmeric",
         "name": "Turmeric Powder",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.turmericPowder
         ],
         "description": "Vibrant golden-yellow turmeric powder ground from choice Erode rhizomes, offering high active curcumin levels suitable for B2B pharmaceutical and gourmet use.",
         "pricing": "Contact Trade Desk",
@@ -38,7 +39,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Red Chilli Powder",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1599307734114-19299496677f?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.redChilliPowder
         ],
         "description": "Guntur Sannam red chilli powder offering a deep color and customizable heat ratings for international kitchens.",
         "pricing": "Contact Trade Desk",
@@ -56,7 +57,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Coriander Powder",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.corianderPowder
         ],
         "description": "Traditional whole and ground coriander powder processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -74,7 +75,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Cumin Powder",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.cuminPowder
         ],
         "description": "Traditional whole and ground cumin powder processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -92,7 +93,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Black Pepper",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1508737190038-f1ab0bc032df?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.blackPepper
         ],
         "description": "Grade-1 whole black pepper berries harvested from historic Malabar slopes, delivering intense piperine heat and a complex woody aroma.",
         "pricing": "Contact Trade Desk",
@@ -110,7 +111,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Cardamom",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1509358271058-acd22cc93898?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.cardamom
         ],
         "description": "Plump, premium green cardamom pods displaying beautiful natural emerald shells and high essential seed-oil levels.",
         "pricing": "Contact Trade Desk",
@@ -128,7 +129,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Cloves",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.cloves
         ],
         "description": "Whole brown cloves dried to optimal moisture levels to preserve aromatic eugenol compounds.",
         "pricing": "Contact Trade Desk",
@@ -146,7 +147,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Cinnamon",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1509358741195-3ca1caf097e0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.cinnamon
         ],
         "description": "Ceylon-type sweet cinnamon quills harvested sustainably, carrying very low coumarin and a delicate woody sweetness.",
         "pricing": "Contact Trade Desk",
@@ -164,7 +165,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Nutmeg",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.nutmeg
         ],
         "description": "Traditional whole and ground nutmeg processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -182,7 +183,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Star Anise",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.starAnise
         ],
         "description": "Traditional whole and ground star anise processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -200,7 +201,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Fennel Seeds",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.fennelSeeds
         ],
         "description": "Traditional whole and ground fennel seeds processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -218,7 +219,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Mustard Seeds",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mustardSeeds
         ],
         "description": "Traditional whole and ground mustard seeds processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -236,7 +237,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Bay Leaves",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.bayLeaves
         ],
         "description": "Traditional whole and ground bay leaves processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -254,7 +255,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Garam Masala",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.garamMasala
         ],
         "description": "Traditional whole and ground garam masala processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -267,84 +268,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         },
         "createdAt": "2026-05-31"
       },
-      {
-        "id": "s-kalamasala",
-        "name": "Kala Masala",
-        "category": "Spices & Seasonings",
-        "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
-        ],
-        "description": "Traditional whole and ground kala masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
-      {
-        "id": "s-kitchenking",
-        "name": "Kitchen King Masala",
-        "category": "Spices & Seasonings",
-        "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
-        ],
-        "description": "Traditional whole and ground kitchen king masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
-      {
-        "id": "s-biryani",
-        "name": "Biryani Masala",
-        "category": "Spices & Seasonings",
-        "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
-        ],
-        "description": "Traditional whole and ground biryani masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
-      {
-        "id": "s-currypowder",
-        "name": "Curry Powder",
-        "category": "Spices & Seasonings",
-        "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
-        ],
-        "description": "Traditional whole and ground curry powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
+  
       {
         "id": "s-mixedspice",
         "name": "Mixed Spice Blends",
         "category": "Spices & Seasonings",
         "images": [
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mixedSpiceBlends
         ],
         "description": "Traditional whole and ground mixed spice blends processed under low temperature milling to protect aromatic fractions.",
         "pricing": "Contact Trade Desk",
@@ -363,14 +293,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "veg_powders",
     "title": "Dehydrated Vegetable Powders",
     "description": "Fine agricultural vegetable powders dehydrated at low temperatures to lock in bioactive nutrients, colors, and intense flavors.",
-    "image": "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.vegPowders,
     "products": [
       {
         "id": "vp-beetroot",
         "name": "Beetroot Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.beetrootPowder
         ],
         "description": "Rich crimson beetroot powder retaining high natural betalains, nitrates, and dietary fibers for health blends.",
         "pricing": "Contact Trade Desk",
@@ -388,7 +318,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Tomato Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1595855759920-86582396756a?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.tomatoPowder
         ],
         "description": "Fine spray-dried red tomato powder prepared from ripe organic tomatoes, ideal for instant soups, sauces, and seasoning rubs.",
         "pricing": "Contact Trade Desk",
@@ -406,7 +336,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Potato Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.potatoPowder
         ],
         "description": "High-purity dehydrated potato powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -424,7 +354,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Garlic Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.garlicPowder
         ],
         "description": "Concentrated garlic powder milled from aromatic bulbs, delivering robust allicin flavor and dispersibility.",
         "pricing": "Contact Trade Desk",
@@ -442,7 +372,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Ginger Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1615485290263-ae5301826f63?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.gingerPowder
         ],
         "description": "Fine ginger root powder packing potent gingerol warmth, widely utilized in confectionery and herbal tea blending.",
         "pricing": "Contact Trade Desk",
@@ -460,7 +390,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Onion Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.onionPowder
         ],
         "description": "Dehydrated white/red onion powder bringing quick savory onion sweetness and zest to food mixes.",
         "pricing": "Contact Trade Desk",
@@ -478,7 +408,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Spinach Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1576045057995-568f588f82fb?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.spinachPowder
         ],
         "description": "Fine green powder dried from high-grade spinach leaves, locking in dietary iron and natural chlorophyll color.",
         "pricing": "Contact Trade Desk",
@@ -496,7 +426,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Carrot Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.carrotPowder
         ],
         "description": "High-purity dehydrated carrot powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -514,7 +444,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Cabbage Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.cabbagePowder
         ],
         "description": "High-purity dehydrated cabbage powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -532,7 +462,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Drumstick (Moringa) Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.moringaPowderVeg
         ],
         "description": "Nutritive moringa pod and leaf powder processed in cleanrooms to maintain extreme vitamin and antioxidant counts.",
         "pricing": "Contact Trade Desk",
@@ -550,7 +480,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Green Chilli Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.greenChilliPowder
         ],
         "description": "High-purity dehydrated green chilli powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -568,7 +498,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Coriander Leaf Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.corianderLeafPowder
         ],
         "description": "High-purity dehydrated coriander leaf powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -586,7 +516,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Mint Powder",
         "category": "Dehydrated Vegetable Powders",
         "images": [
-          "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mintPowder
         ],
         "description": "High-purity dehydrated mint powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
         "pricing": "Contact Trade Desk",
@@ -605,14 +535,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "fruit_powders",
     "title": "Dehydrated Fruit Powders",
     "description": "Premium spray-dried and low-temp dehydrated fruit powders capturing the pure sweetness, vitamins, and tang of fresh orchards.",
-    "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.fruitPowders,
     "products": [
       {
         "id": "fp-banana",
         "name": "Banana Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.bananaPowder
         ],
         "description": "Dehydrated green banana powder rich in resistant starches, utilized in healthy gluten-free flour formulations.",
         "pricing": "Contact Trade Desk",
@@ -630,7 +560,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Mango Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1553279768-865429fa0078?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mangoPowder
         ],
         "description": "Spray-dried Kesar and Alphonso mango pulp powder, preserving authentic tropical flavor, golden color, and natural sugars.",
         "pricing": "Contact Trade Desk",
@@ -648,7 +578,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Guava Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.guavaPowder
         ],
         "description": "Spray-dried premium fruit juice powder of guava powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -666,7 +596,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Pomegranate Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1620127814897-40090bc1ef19?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.pomegranatePowder
         ],
         "description": "Antioxidant-rich pomegranate juice powder spray-dried to retain high brix and beautiful pink-red coloring.",
         "pricing": "Contact Trade Desk",
@@ -684,7 +614,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Pineapple Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.pineapplePowder
         ],
         "description": "Spray-dried premium fruit juice powder of pineapple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -702,7 +632,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Papaya Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.papayaPowder
         ],
         "description": "Spray-dried premium fruit juice powder of papaya powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -720,7 +650,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Apple Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.applePowder
         ],
         "description": "Spray-dried premium fruit juice powder of apple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -738,7 +668,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Orange Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.orangePowder
         ],
         "description": "Spray-dried premium fruit juice powder of orange powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -756,7 +686,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Lemon Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.lemonPowder
         ],
         "description": "Spray-dried premium fruit juice powder of lemon powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -774,7 +704,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Strawberry Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.strawberryPowder
         ],
         "description": "Spray-dried premium fruit juice powder of strawberry powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
         "pricing": "Contact Trade Desk",
@@ -792,7 +722,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Amla Powder",
         "category": "Dehydrated Fruit Powders",
         "images": [
-          "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.amlaPowder
         ],
         "description": "Dehydrated Indian gooseberry (Amla) powder offering exceptional Vitamin C levels, highly suitable for dietary supplements.",
         "pricing": "Contact Trade Desk",
@@ -811,14 +741,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "moringa",
     "title": "Moringa Products",
     "description": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation.",
-    "image": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.moringa,
     "products": [
       {
         "id": "m-powder",
         "name": "Moringa Powder",
         "category": "Moringa Products",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.moringaPowder
         ],
         "description": "Finely milled raw leaf powder from organically grown Moringa oleifera trees, boasting rich protein, iron, and multivitamin indexes.",
         "pricing": "Contact Trade Desk",
@@ -836,7 +766,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Moringa Leaves",
         "category": "Moringa Products",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.moringaLeaves
         ],
         "description": "Shadow-dried, whole moringa leaves systematically cleaned of stems and organic residue, keeping vital chlorophyll intact.",
         "pricing": "Contact Trade Desk",
@@ -854,7 +784,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Moringa Tea",
         "category": "Moringa Products",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.moringaTea
         ],
         "description": "Premium cut moringa leaves blended with aromatic herbs to create a high-antioxidant, caffeine-free daily wellness infusion.",
         "pricing": "Contact Trade Desk",
@@ -872,7 +802,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Moringa Extract",
         "category": "Moringa Products",
         "images": [
-          "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.moringaExtract
         ],
         "description": "High-potency bioactive moringa leaf extract standardized for total flavonoids and saponin ratios, for clinical use.",
         "pricing": "Contact Trade Desk",
@@ -891,14 +821,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "seeds",
     "title": "Seeds Category",
     "description": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls.",
-    "image": "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.seeds,
     "products": [
       {
         "id": "sd-flax",
         "name": "Flax Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.flaxSeeds
         ],
         "description": "Dark brown organic flax seeds loaded with Omega-3 fatty acids, processed with advanced optical graders to guarantee purity.",
         "pricing": "Contact Trade Desk",
@@ -916,7 +846,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Pumpkin Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.pumpkinSeeds
         ],
         "description": "Export-ready premium pumpkin seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
         "pricing": "Contact Trade Desk",
@@ -934,7 +864,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Sesame Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.sesameSeeds
         ],
         "description": "Crispy, white hulled sesame seeds Auto-Sortex graded, boasting high oil content and nuttiness for global bakery imports.",
         "pricing": "Contact Trade Desk",
@@ -952,7 +882,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Sunflower Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.sunflowerSeeds
         ],
         "description": "Export-ready premium sunflower seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
         "pricing": "Contact Trade Desk",
@@ -970,7 +900,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Chia Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.chiaSeeds
         ],
         "description": "High-swelling organic black and white chia seeds, sorted to remove all foreign plant matter, rich in mucilage fibers.",
         "pricing": "Contact Trade Desk",
@@ -988,7 +918,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Watermelon Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.watermelonSeeds
         ],
         "description": "Export-ready premium watermelon seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
         "pricing": "Contact Trade Desk",
@@ -1006,7 +936,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Basil Seeds",
         "category": "Seeds Category",
         "images": [
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.basilSeeds
         ],
         "description": "Export-ready premium basil seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
         "pricing": "Contact Trade Desk",
@@ -1025,14 +955,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "dehydrated_veg",
     "title": "Dehydrated Vegetables",
     "description": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life.",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.dehydratedVeg,
     "products": [
       {
         "id": "dv-onion",
         "name": "Dehydrated Onion",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedOnion
         ],
         "description": "Air-dried red and white onion slices with excellent texture, preserving essential pungent flavors for immediate food formulation.",
         "pricing": "Contact Trade Desk",
@@ -1050,7 +980,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Garlic",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedGarlic
         ],
         "description": "Premium dehydrated garlic cloves split to speed up rehydration in instant spice rubs, canned stews, and noodles.",
         "pricing": "Contact Trade Desk",
@@ -1068,7 +998,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Ginger",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedGinger
         ],
         "description": "Low-temperature dehydrated dehydrated ginger slices, carefully sorted to match uniform shape and color for industrial food packers.",
         "pricing": "Contact Trade Desk",
@@ -1086,7 +1016,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Tomato",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1595855759920-86582396756a?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedTomato
         ],
         "description": "Dried organic tomato slices with rich natural lycopene counts and zero sulfite treatment, for gourmet culinary packs.",
         "pricing": "Contact Trade Desk",
@@ -1104,7 +1034,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Carrot",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedCarrot
         ],
         "description": "Low-temperature dehydrated dehydrated carrot slices, carefully sorted to match uniform shape and color for industrial food packers.",
         "pricing": "Contact Trade Desk",
@@ -1122,7 +1052,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Beetroot",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedBeetroot
         ],
         "description": "Low-temperature dehydrated dehydrated beetroot slices, carefully sorted to match uniform shape and color for industrial food packers.",
         "pricing": "Contact Trade Desk",
@@ -1140,7 +1070,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Spinach",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedSpinach
         ],
         "description": "Low-temperature dehydrated dehydrated spinach slices, carefully sorted to match uniform shape and color for industrial food packers.",
         "pricing": "Contact Trade Desk",
@@ -1158,7 +1088,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Dehydrated Cabbage",
         "category": "Dehydrated Vegetables",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedCabbage
         ],
         "description": "Low-temperature dehydrated dehydrated cabbage slices, carefully sorted to match uniform shape and color for industrial food packers.",
         "pricing": "Contact Trade Desk",
@@ -1177,14 +1107,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "dehydrated_fruits",
     "title": "Dehydrated Fruits",
     "description": "Premium long-cut and slices of sun-sheltered dehydrated fruits preserving natural sugars, texture, and vitamins.",
-    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.dehydratedFruits,
     "products": [
       {
         "id": "df-banana",
         "name": "Banana Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.bananaSlices
         ],
         "description": "Sweet Cavendish banana rounds dehydrated naturally without chemical preservatives, perfect for organic snacking mixes.",
         "pricing": "Contact Trade Desk",
@@ -1202,7 +1132,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Mango Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1553279768-865429fa0078?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mangoSlices
         ],
         "description": "Hand-sliced Alphonso and Kesar mango strips air-dried to retain sweet tropical fragrance and soft, chewy gourmet texture.",
         "pricing": "Contact Trade Desk",
@@ -1220,7 +1150,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Pineapple Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.pineappleSlices
         ],
         "description": "Premium dehydrated slices of sun-ripened organic pineapple slices, structured for gourmet food bags and cereal additives.",
         "pricing": "Contact Trade Desk",
@@ -1238,7 +1168,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Apple Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.appleSlices
         ],
         "description": "Premium dehydrated slices of sun-ripened organic apple slices, structured for gourmet food bags and cereal additives.",
         "pricing": "Contact Trade Desk",
@@ -1256,7 +1186,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Papaya Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.papayaSlices
         ],
         "description": "Premium dehydrated slices of sun-ripened organic papaya slices, structured for gourmet food bags and cereal additives.",
         "pricing": "Contact Trade Desk",
@@ -1274,7 +1204,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Strawberry Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.strawberrySlices
         ],
         "description": "Premium dehydrated slices of sun-ripened organic strawberry slices, structured for gourmet food bags and cereal additives.",
         "pricing": "Contact Trade Desk",
@@ -1292,7 +1222,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Guava Slices",
         "category": "Dehydrated Fruits",
         "images": [
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.guavaSlices
         ],
         "description": "Premium dehydrated slices of sun-ripened organic guava slices, structured for gourmet food bags and cereal additives.",
         "pricing": "Contact Trade Desk",
@@ -1311,14 +1241,14 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     "id": "flakes",
     "title": "Flakes Category",
     "description": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes.",
-    "image": "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=800",
+    "image": IMAGES.exportCategories.flakes,
     "products": [
       {
         "id": "fl-onion",
         "name": "Onion Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedOnion
         ],
         "description": "Perfectly cut 10mm red and white onion flakes, systematically air-dried to retain natural sweet allicin, ideal for fast food noodles and sauces.",
         "pricing": "Contact Trade Desk",
@@ -1336,7 +1266,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Garlic Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.garlicFlakes
         ],
         "description": "Dehydrated garlic flakes split clean, offering sharp allium zest and rapid hydration for ready-meal packets.",
         "pricing": "Contact Trade Desk",
@@ -1354,7 +1284,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Potato Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.potatoFlakes
         ],
         "description": "Premium dehydrated potato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",
@@ -1372,7 +1302,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Tomato Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.tomatoFlakes
         ],
         "description": "Premium dehydrated tomato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",
@@ -1390,7 +1320,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Beetroot Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedBeetroot
         ],
         "description": "Premium dehydrated beetroot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",
@@ -1408,7 +1338,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Carrot Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedCarrot
         ],
         "description": "Premium dehydrated carrot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",
@@ -1426,7 +1356,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Spinach Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.dehydratedSpinach
         ],
         "description": "Premium dehydrated spinach flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",
@@ -1444,7 +1374,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Mixed Vegetable Flakes",
         "category": "Flakes Category",
         "images": [
-          "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600"
+          IMAGES.exportProducts.mixedVegFlakes
         ],
         "description": "Premium dehydrated mixed vegetable flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
         "pricing": "Contact Trade Desk",

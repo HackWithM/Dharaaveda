@@ -41,7 +41,7 @@ export default function Export() {
         <div className="absolute top-0 left-0 w-80 h-80 bg-orange-500/5 rounded-full blur-[120px] pointer-events-none" />
         <div 
           className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-5 pointer-events-none" 
-          style={{ backgroundImage: `url('${IMAGES.export.hero}')` }}
+          style={{ backgroundImage: `url('${IMAGES.export.heroBg}')` }}
         />
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
@@ -71,7 +71,7 @@ export default function Export() {
 
           <div className="relative rounded-3xl overflow-hidden border border-gray-200 h-[320px] shadow-2xl">
             <OptimizedImage
-              src={IMAGES.export.cargoShip}
+              src={IMAGES.export.cargoShipAbout}
               alt="Cargo Ship Logistics"
               className="w-full h-full filter brightness-95"
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -449,7 +449,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Spices & Seasonings Division",
     title: "Elite Spices & Authentic Seasonings",
     description: "Vedas-grade aromatics, hot chillies, and complex culinary powders milled to absolute microbiological safety standards. Direct farm sourcing guarantees robust oil contents and intense flavor profiles.",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.spices,
     highlights: [
       "Curcumin Gold turmeric selection (>5%)",
       "Piperine-checked Tellicherry black pepper",
@@ -477,7 +477,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Vegetable Powders Desk",
     title: "Pure Dehydrated Vegetable Powders",
     description: "Agricultural vegetables dehydrated at strictly controlled low temperatures to protect bioactive nutrients, color profiles, and flavor depth. Ideal for ready-to-eat foods, mixers, and pharmaceutical formulations.",
-    image: "https://images.unsplash.com/photo-1598514983318-291419f5b9d8?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.vegPowders,
     highlights: [
       "100% real vegetable solids, zero additives",
       "Cell-retentive low-temperature drying",
@@ -505,7 +505,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Fruit Powders Desk",
     title: "Orchard Fruit Powders & Solubles",
     description: "Premium spray-dried and low-temp dehydrated fruit powders capturing the true sweetness, organic sugars, and vitamins of sun-ripened orchard fruits. Highly popular in beverages, confectionery, and infant foods.",
-    image: "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.fruitPowders,
     highlights: [
       "Spray-dried directly from organic pulp",
       "No added sugars, sulfites or colorants",
@@ -533,7 +533,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Moringa Superfood Desk",
     title: "Premium Organic Moringa Products",
     description: "Organically cultivated Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free, high-yield Indian estates. Processed under shadow-drying protocols to protect essential amino acids.",
-    image: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.moringa,
     highlights: [
       "USDA & APEDA Organic certified crops",
       "Strict shadow-dried leaf curing",
@@ -561,7 +561,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Oil Seeds Desk",
     title: "Premium Sorted Oil & Dietary Seeds",
     description: "Elite export-quality organic oil and nutritional seeds, systematically cleaned, sorted, and packed under absolute phytosanitary controls. High oil yield and clean Sortex purity make these ideal for food and industrial processing.",
-    image: "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.seeds,
     highlights: [
       "99.9% Sortex optical color sorted",
       "Rigorous fumigation and cleaning audits",
@@ -589,7 +589,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Dehydrated Vegetables Desk",
     title: "Hygienic Dehydrated Vegetables",
     description: "Clean-sliced onions, garlic, ginger, and other vegetables dehydrated under advanced air-flow chambers. Sourced directly from phytocompliant agricultural belts for excellent rehydration and flavor performance.",
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.dehydratedVeg,
     highlights: [
       "No sulfites, sulfurs or preservatives used",
       "Low residual moisture content (<5%)",
@@ -617,7 +617,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Dehydrated Fruits Desk",
     title: "Sun-Sheltered Dehydrated Fruits",
     description: "Premium slices and long-cut dehydrated fruits prepared from hand-harvested organic orchards. Preserves natural fructose sugars, chewy textures, and vital vitamins without chemical preservatives.",
-    image: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.dehydratedFruits,
     highlights: [
       "Zero added cane sugars or sweeteners",
       "Sulfite-free, zero chemical colorants",
@@ -645,7 +645,7 @@ const SHOWCASE_CATEGORIES = [
     badge: "Flakes & Dehydrated Cuts Desk",
     title: "Industrial & Gourmet Flakes",
     description: "Gourmet vegetable flakes dried uniformly using advanced dehydration chambers. Designed for quick hydration and excellent cell-texture recovery in convenience foods, instant soups, and dry mixes.",
-    image: "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=800",
+    image: IMAGES.exportCategories.flakes,
     highlights: [
       "Uniform flake cuts (typically 10mm)",
       "Zero dust, skin residue or foreign seeds",

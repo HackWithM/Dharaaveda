@@ -1,5 +1,7 @@
 import { NextFunction, Request, Response, Router } from "express";
 import jwt from "jsonwebtoken";
+import crypto from "crypto";
+import Razorpay from "razorpay";
 import { requireAuth, optionalAuth, AuthenticatedRequest } from "../middleware/auth.middleware";
 import { AboutContent } from "../models/About";
 import { Booking } from "../models/Booking";
@@ -8,6 +10,7 @@ import { Product } from "../models/Product";
 import { ScreenshotReview } from "../models/ScreenshotReview";
 import { TherapyService } from "../models/Service";
 import { Testimonial } from "../models/Testimonial";
+import { sendConfirmationEmail } from "../services/email.service";
 
 type AsyncHandler = (req: Request, res: Response, next: NextFunction) => Promise<void>;
 
@@ -259,11 +262,165 @@ router.get(
   })
 );
 
+router.get(
+  "/bookings/busy-slots",
+  asyncHandler(async (req, res) => {
+    const { date } = req.query;
+    if (!date) {
+      res.status(400).json({ error: "Date parameter is required." });
+      return;
+    }
+    const busy = await Booking.find(
+      { date: String(date), status: { $in: ["confirmed", "completed"] }, paymentStatus: "paid" },
+      { time: 1, service: 1 }
+    );
+    res.json(busy);
+  })
+);
+
+router.post(
+  "/bookings/initiate",
+  asyncHandler(async (req, res) => {
+    const { service, date, time, name, email, phone, notes } = req.body;
+
+    if (!service || !date || !time || !name || !email || !phone) {
+      res.status(400).json({ error: "Missing required fields for booking." });
+      return;
+    }
+
+    // Restrict already booked time slots for this service
+    const existingBooking = await Booking.findOne({
+      service,
+      date,
+      time,
+      status: { $in: ["confirmed", "completed"] },
+      paymentStatus: "paid"
+    });
+
+    if (existingBooking) {
+      res.status(400).json({ error: "This time slot is already booked. Please choose another slot." });
+      return;
+    }
+
+    const amount = 2000; // ₹2,000 per session
+
+    let orderId = "";
+    const keyId = process.env.RAZORPAY_KEY_ID;
+    const keySecret = process.env.RAZORPAY_KEY_SECRET;
+
+    if (keyId && keySecret) {
+      try {
+        const rzp = new Razorpay({
+          key_id: keyId,
+          key_secret: keySecret
+        });
+
+        const order = await rzp.orders.create({
+          amount: amount * 100, // in paise
+          currency: "INR",
+          receipt: "receipt_bk_" + Date.now().toString().substring(5)
+        });
+        orderId = order.id;
+      } catch (err: any) {
+        console.error("Razorpay order creation failed:", err);
+        res.status(500).json({ error: "Failed to initiate payment gateway: " + err.message });
+        return;
+      }
+    } else {
+      // Mock order creation for local testing
+      orderId = "order_mock_" + Math.random().toString(36).substring(2, 15);
+      console.warn("Razorpay API keys not set. Running in MOCK payment mode.");
+    }
+
+    const booking = await Booking.create({
+      _id: "bk_" + Date.now().toString(),
+      bookingId: "BK-" + Math.floor(100000 + Math.random() * 900000),
+      name,
+      email,
+      phone,
+      service,
+      date,
+      time,
+      notes: notes || "",
+      amount,
+      paymentStatus: "pending",
+      status: "pending",
+      razorpayOrderId: orderId
+    });
+
+    res.status(201).json({
+      booking,
+      keyId: keyId || "rzp_test_mock_key_id",
+      isMock: !keyId
+    });
+  })
+);
+
+router.post(
+  "/bookings/verify-payment",
+  asyncHandler(async (req, res) => {
+    const { razorpayOrderId, razorpayPaymentId, razorpaySignature } = req.body;
+
+    if (!razorpayOrderId || !razorpayPaymentId) {
+      res.status(400).json({ error: "Missing verification credentials." });
+      return;
+    }
+
+    let isValid = false;
+    const keySecret = process.env.RAZORPAY_KEY_SECRET;
+
+    if (keySecret && !razorpayOrderId.startsWith("order_mock_")) {
+      try {
+        const hmac = crypto.createHmac("sha256", keySecret);
+        hmac.update(razorpayOrderId + "|" + razorpayPaymentId);
+        const generatedSignature = hmac.digest("hex");
+        isValid = generatedSignature === razorpaySignature;
+      } catch (err) {
+        console.error("Signature verification error:", err);
+      }
+    } else {
+      // Mock validation succeeds for pay_mock_ prefixes
+      isValid = razorpayPaymentId.startsWith("pay_mock_") || razorpayOrderId.startsWith("order_mock_");
+    }
+
+    if (isValid) {
+      const booking = await Booking.findOneAndUpdate(
+        { razorpayOrderId },
+        {
+          status: "confirmed",
+          paymentStatus: "paid",
+          razorpayPaymentId,
+          razorpaySignature
+        },
+        { new: true }
+      );
+
+      if (!booking) {
+        res.status(404).json({ error: "Associated booking order not found." });
+        return;
+      }
+
+      // Send email confirmation
+      await sendConfirmationEmail(booking);
+
+      res.json({ success: true, booking });
+    } else {
+      await Booking.findOneAndUpdate(
+        { razorpayOrderId },
+        { status: "cancelled", paymentStatus: "failed" }
+      );
+      res.status(400).json({ error: "Payment verification failed. Invalid transaction signature." });
+    }
+  })
+);
+
 router.post(
   "/bookings",
   asyncHandler(async (req, res) => {
+    // Legacy support fallback
     const booking = await Booking.create({
       _id: "bk_" + Date.now().toString(),
+      bookingId: "BK-" + Math.floor(100000 + Math.random() * 900000),
       name: req.body.name || "",
       email: req.body.email || "",
       phone: req.body.phone || "",
@@ -271,7 +428,9 @@ router.post(
       date: req.body.date || "",
       time: req.body.time || "",
       notes: req.body.notes || "",
-      status: "pending"
+      amount: 2000,
+      paymentStatus: "paid", // auto-confirm for direct creations
+      status: "confirmed"
     });
 
     res.status(201).json(booking);

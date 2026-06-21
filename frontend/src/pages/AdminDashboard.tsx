@@ -44,6 +44,10 @@ export default function AdminDashboard() {
   const [savingAbout, setSavingAbout] = useState(false);
   const [addingReview, setAddingReview] = useState(false);
 
+  // Booking filter states
+  const [filterDate, setFilterDate] = useState("");
+  const [filterService, setFilterService] = useState("");
+
   // Dialog/Modal Add States
   const [showProductForm, setShowProductForm] = useState(false);
   const [showServiceForm, setShowServiceForm] = useState(false);
@@ -161,7 +165,7 @@ export default function AdminDashboard() {
       await api.createProduct({
         name: pName,
         category: pCategory,
-        images: [pImg || IMAGES.export.products.defaultProduct],
+        images: [pImg || IMAGES.admin.newProductFallback],
         description: pDesc,
         pricing: pPrice,
         specifications: {
@@ -201,7 +205,7 @@ export default function AdminDashboard() {
         category: sCategory,
         duration: sDuration,
         pricing: sPrice,
-        image: sImg || IMAGES.therapy.heroBg,
+        image: sImg || IMAGES.admin.newServiceFallback,
         story: sStory,
         benefits: sBenefits.split(",").map(b => b.trim()).filter(Boolean),
         timeline: [
@@ -237,7 +241,7 @@ export default function AdminDashboard() {
         name: tName,
         role: tRole || "Client",
         content: tContent,
-        image: tImg || IMAGES.therapy.founder,
+        image: tImg || IMAGES.admin.newTeamMemberFallback,
         rating: tRating,
         type: tType,
         approved: true // Created by Admin is auto-approved
@@ -303,13 +307,53 @@ export default function AdminDashboard() {
   };
 
   // Booking updates
-  const handleUpdateBookingStatus = async (id: string, status: 'pending' | 'confirmed' | 'cancelled') => {
+  const handleUpdateBookingStatus = async (id: string, status: 'pending' | 'confirmed' | 'cancelled' | 'completed') => {
     try {
       await api.updateBooking(id, status);
       loadAllData();
     } catch (err) {
       alert("Failed to update status");
     }
+  };
+
+  const handleExportCSV = () => {
+    const filtered = bookings.filter((b) => {
+      const matchesDate = filterDate ? b.date === filterDate : true;
+      const matchesService = filterService ? b.service === filterService : true;
+      return matchesDate && matchesService;
+    });
+
+    if (filtered.length === 0) {
+      alert("No bookings match the current filter criteria.");
+      return;
+    }
+
+    const headers = ["Booking ID", "Name", "Email", "Phone", "Service", "Date", "Time", "Amount", "Payment Status", "Razorpay Order ID", "Razorpay Payment ID", "Status", "Created At"];
+    const rows = filtered.map(b => [
+      b.bookingId || b.id,
+      b.name,
+      b.email,
+      b.phone,
+      b.service,
+      b.date,
+      b.time,
+      b.amount || 2000,
+      b.paymentStatus || "pending",
+      b.razorpayOrderId || "",
+      b.razorpayPaymentId || "",
+      b.status,
+      b.createdAt
+    ]);
+
+    const csvContent = "data:text/csv;charset=utf-8," 
+      + [headers.join(","), ...rows.map(e => e.map(val => `"${String(val).replace(/"/g, '""')}"`).join(","))].join("\n");
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", `dharaaveda_bookings_export_${new Date().toISOString().split("T")[0]}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const handleDeleteBooking = async (id: string) => {
@@ -842,7 +886,7 @@ export default function AdminDashboard() {
                       <div key={t.id} className="p-5 rounded-2xl border border-luxury-gold/10 bg-white/[0.02] hover:bg-white/[0.04] transition-all flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                         <div className="flex items-center space-x-4">
                           <img
-                            src={t.image || IMAGES.avatars.yogi}
+                            src={t.image || IMAGES.admin.teamMemberRowFallback}
                             alt={t.name}
                             referrerPolicy="no-referrer"
                             className="w-12 h-12 rounded-full object-cover border border-luxury-gold/20 shadow-md flex-shrink-0"
@@ -1119,8 +1163,42 @@ export default function AdminDashboard() {
             </div>
           ) : activeTab === "bookings" ? (
             /* Tab: BOOKINGS */
-            <div className="space-y-4 text-xs font-sans">
-              <h3 className="font-serif text-xl border-b border-luxury-gold/10 pb-2">Sacred Residency Sanctuary Calendar</h3>
+            <div className="space-y-4 text-xs font-sans text-left">
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-luxury-gold/15 pb-3">
+                <h3 className="font-serif text-xl">Sacred Residency Sanctuary Calendar</h3>
+                <button
+                  onClick={handleExportCSV}
+                  className="cursor-pointer px-4 py-2 border border-luxury-gold text-luxury-gold hover:bg-luxury-gold hover:text-black transition-colors rounded-lg font-mono text-[10px] uppercase font-bold"
+                >
+                  Export Bookings CSV
+                </button>
+              </div>
+
+              {/* Filtering Controls */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white/5 border border-luxury-gold/10 p-4 rounded-xl">
+                <div>
+                  <label className="block text-[9px] font-mono uppercase text-gray-400 mb-1">Filter by Date</label>
+                  <input
+                    type="date"
+                    value={filterDate}
+                    onChange={(e) => setFilterDate(e.target.value)}
+                    className="w-full bg-black/40 border border-luxury-gold/20 focus:border-luxury-gold rounded p-2 text-white outline-none font-mono"
+                  />
+                </div>
+                <div>
+                  <label className="block text-[9px] font-mono uppercase text-gray-400 mb-1">Filter by Therapy Modality</label>
+                  <select
+                    value={filterService}
+                    onChange={(e) => setFilterService(e.target.value)}
+                    className="w-full bg-[#050d0a] border border-luxury-gold/20 focus:border-luxury-gold rounded p-2.5 text-white outline-none"
+                  >
+                    <option value="">All Modalities</option>
+                    <option value="Bach Flower Therapy">Bach Flower Therapy</option>
+                    <option value="Rekkhanoho Therapy">Rekkhanoho Therapy</option>
+                  </select>
+                </div>
+              </div>
+
               {bookings.length === 0 ? (
                 <p className="text-gray-500 italic py-6 text-center">No patient calendars booked in Wayanad ledgers.</p>
               ) : (
@@ -1131,36 +1209,54 @@ export default function AdminDashboard() {
                         <th className="p-4">Visitor</th>
                         <th className="p-4">Modality Requested</th>
                         <th className="p-4">Date / Standard Time</th>
+                        <th className="p-4">Payment Details</th>
                         <th className="p-4">Admissions Status</th>
                         <th className="p-4 text-right">Delete</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-luxury-gold/10">
-                      {bookings.map(b => (
+                      {bookings
+                        .filter(b => {
+                          const matchesDate = filterDate ? b.date === filterDate : true;
+                          const matchesService = filterService ? b.service === filterService : true;
+                          return matchesDate && matchesService;
+                        })
+                        .map(b => (
                         <tr key={b.id} className="hover:bg-white/5">
                           <td className="p-4 space-y-0.5">
-                            <p className="font-bold text-white">{b.name}</p>
-                            <p className="text-gray-400 font-mono text-[10px]">{b.email}</p>
+                            <p className="font-bold text-white text-xs">{b.name}</p>
+                            <p className="text-gray-455 font-mono text-[10px]">{b.email}</p>
                             <p className="text-gray-500 font-mono text-[9px]">{b.phone}</p>
                           </td>
                           <td className="p-4">
-                            <p className="font-bold text-white">{b.service}</p>
-                            <p className="text-gray-400 italic text-[10px]">Notes: "{b.notes || "None"}"</p>
+                            <p className="font-bold text-white text-xs">{b.service}</p>
+                            <p className="text-gray-400 italic text-[10px] mt-1">Notes: "{b.notes || "None"}"</p>
                           </td>
                           <td className="p-4 whitespace-nowrap">
                             <p className="font-mono text-white font-semibold">{b.date}</p>
-                            <p className="text-gray-400 text-[10px] font-mono">{b.time}</p>
+                            <p className="text-gray-455 text-[10px] font-mono">{b.time}</p>
+                          </td>
+                          <td className="p-4 space-y-1 font-mono text-[10px]">
+                            <p className="text-white font-bold">₹{(b.amount || 2000).toLocaleString("en-IN")}</p>
+                            <span className={`inline-block px-1.5 py-0.5 rounded text-[8px] uppercase font-bold ${
+                              b.paymentStatus === "paid" ? "bg-emerald-950 text-emerald-400 border border-emerald-500/25" : b.paymentStatus === "failed" ? "bg-red-950 text-red-400 border border-red-500/25" : "bg-orange-950 text-orange-400 border border-orange-500/25"
+                            }`}>
+                              {b.paymentStatus || "pending"}
+                            </span>
+                            {b.razorpayPaymentId && <p className="text-gray-450 text-[9px] mt-0.5">Pay ID: {b.razorpayPaymentId}</p>}
+                            {b.razorpayOrderId && <p className="text-gray-500 text-[8px]">Order: {b.razorpayOrderId}</p>}
                           </td>
                           <td className="p-4 whitespace-nowrap">
                             <select
                               value={b.status}
                               onChange={(e) => handleUpdateBookingStatus(b.id, e.target.value as any)}
                               className={`px-2 py-1.5 rounded bg-black/50 font-mono text-[10px] uppercase border outline-none cursor-pointer ${
-                                b.status === "pending" ? "text-orange-300 border-orange-500/25" : b.status === "confirmed" ? "text-emerald-300 border-emerald-500/25" : "text-gray-400 border-gray-500/25"
+                                b.status === "pending" ? "text-orange-350 border-orange-500/25" : b.status === "confirmed" ? "text-emerald-300 border-emerald-500/25" : b.status === "completed" ? "text-[#FA980F] border-orange-400/20" : "text-gray-400 border-gray-500/25"
                               }`}
                             >
                               <option value="pending">Pending Attune</option>
                               <option value="confirmed">Confirmed Admission</option>
+                              <option value="completed">Completed Session</option>
                               <option value="cancelled">Cancelled Admission</option>
                             </select>
                           </td>

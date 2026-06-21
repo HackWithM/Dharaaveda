@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 
+
 const LANGUAGES = [
   { code: "en", name: "English", nativeName: "English" },
   { code: "hi", name: "Hindi", nativeName: "हिन्दी" },

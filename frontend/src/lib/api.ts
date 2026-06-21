@@ -100,7 +100,8 @@ export async function fetchApi<T>(endpoint: string, options?: RequestInit): Prom
   }
 
   const promise = (async () => {
-    const token = localStorage.getItem("dharaSavedToken");
+    const adminToken = localStorage.getItem("dharaSavedToken");
+    const token = adminToken;
     const authHeaders = token ? { "Authorization": `Bearer ${token}` } : {};
 
     logApiDebug("request", {
@@ -214,7 +215,7 @@ export const api = {
       body: JSON.stringify(booking),
     });
   },
-  async updateBooking(id: string, status: 'pending' | 'confirmed' | 'cancelled'): Promise<Booking> {
+  async updateBooking(id: string, status: 'pending' | 'confirmed' | 'cancelled' | 'completed'): Promise<Booking> {
     return fetchApi<Booking>(`/api/bookings/${id}`, {
       method: "PUT",
       body: JSON.stringify({ status }),
@@ -285,6 +286,23 @@ export const api = {
     return fetchApi<{ token: string; success: boolean }>("/api/auth/login", {
       method: "POST",
       body: JSON.stringify({ username, password }),
+    });
+  },
+
+  // Firebase Bookings
+  async getBusySlots(date: string): Promise<{ time: string; service: string }[]> {
+    return fetchApi<{ time: string; service: string }[]>(`/api/bookings/busy-slots?date=${date}`);
+  },
+  async initiateBooking(bookingData: Partial<Booking>): Promise<{ booking: Booking; keyId: string; isMock: boolean }> {
+    return fetchApi<{ booking: Booking; keyId: string; isMock: boolean }>("/api/bookings/initiate", {
+      method: "POST",
+      body: JSON.stringify(bookingData),
+    });
+  },
+  async verifyPayment(paymentData: { razorpayOrderId: string; razorpayPaymentId: string; razorpaySignature?: string }): Promise<{ success: boolean; booking: Booking }> {
+    return fetchApi<{ success: boolean; booking: Booking }>("/api/bookings/verify-payment", {
+      method: "POST",
+      body: JSON.stringify(paymentData),
     });
   }
 };

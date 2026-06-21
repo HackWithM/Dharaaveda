@@ -83,9 +83,9 @@ const SEED_SERVICES = [
       "Supports emotional well-being and inner peace.",
       "Natural complementary support for: Skin allergies and chronic ailments, Blood clots (internal and external), Diabetes, BP and sugar imbalance, Constipation and digestive issues, Cancer care and post-surgery recovery support, ICU/CCU recovery support, Women's health and pregnancy care, Newborn and child emotional well-being, Elderly care and age-related concerns."
     ],
-    duration: "Bespoke Consulting",
-    pricing: "Personalized Formulation",
-    image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800",
+    duration: "1 Hour",
+    pricing: "₹2,000 per session",
+    image: "/images/therapy/bachFlowerService.webp",
     story: "A gentle, natural way to heal from within — working on the emotional level while simultaneously supporting physical, mental, and skin health.",
     highlight: "Safe • Natural • Gentle • No Side Effects",
     ctaText: "Learn More About Bach Flower Healing",
@@ -203,9 +203,9 @@ const SEED_SERVICES = [
       "Supports overall wellness and self-healing",
       "Enhances spiritual growth and awareness"
     ],
-    duration: "75 Minutes",
-    pricing: "Energy Attunement",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
+    duration: "1 Hour",
+    pricing: "₹2,000 per session",
+    image: "/images/therapy/rekkhanohoService.webp",
     story: "Rekkhanoho is a powerful energy healing modality channeling spiritual life-force. By dissolving dense, discordant resonance across cellular fascia, we release deep-rooted somatic patterns, empowering the body's latent biological healing loops.",
     highlight: "Natural • Holistic • Energy Balancing • Non-Invasive",
     ctaText: "Book a Healing Session",
@@ -486,9 +486,30 @@ const DEFAULT_SCREENSHOTS = [
 
 export async function seedDatabase(): Promise<void> {
   try {
+    // Always enforce the required price, duration, and image for the bookable therapy sessions
+    await TherapyService.updateOne(
+      { _id: "bach-flower" },
+      { $set: { 
+          duration: "1 Hour", 
+          pricing: "₹2,000 per session",
+          image: "/images/therapy/bachFlowerService.webp"
+        } 
+      }
+    ).catch(() => {});
+    await TherapyService.updateOne(
+      { _id: "reiki-aurasoma" },
+      { $set: { 
+          name: "Rekkhanoho Therapy", 
+          duration: "1 Hour", 
+          pricing: "₹2,000 per session",
+          image: "/images/therapy/rekkhanohoService.webp"
+        } 
+      }
+    ).catch(() => {});
+
     const productsCount = await Product.countDocuments();
     if (productsCount > 0) {
-      console.log("Database already populated. Skipping database seeding.");
+      console.log("Database already populated. Enforced pricing & duration updates.");
       return;
     }
 
