@@ -75,8 +75,11 @@ export default function OptimizedImage({
     ? getUnsplashSrcSet(src, widths, quality)
     : undefined;
 
+  const hasPositionClass = /\b(absolute|relative|fixed|sticky|static)\b/.test(className);
+  const positionClass = hasPositionClass ? "" : "relative";
+
   return (
-    <div className={`relative overflow-hidden ${className}`}>
+    <div className={`${positionClass} overflow-hidden ${className}`}>
       {/* Premium shimmer skeleton loader */}
       <AnimatePresence>
         {!isLoaded && !hasError && (
