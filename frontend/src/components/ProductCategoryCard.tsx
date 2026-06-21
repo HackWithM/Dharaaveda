@@ -74,4 +74,4 @@ const ProductCategoryCard: React.FC<ProductCategoryCardProps> = ({ category, onO
   );
 };
 
-export default ProductCategoryCard;
+export default React.memo(ProductCategoryCard);

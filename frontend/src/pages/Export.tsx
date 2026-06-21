@@ -1,5 +1,5 @@
-import React, { useState, lazy, Suspense } from "react";
-import { Search, Compass, Award, ShieldCheck, Mail, Phone, MapPin, Sparkles, ChevronRight, MessageSquareCode } from "lucide-react";
+import React, { useState, lazy, Suspense, useCallback } from "react";
+import { Search, Compass, Award, ShieldCheck, Mail, Phone, MapPin, Sparkles, ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
 import { Product } from "../types";
 import { IMAGES } from "../data/images";
@@ -9,8 +9,8 @@ import { staticTranslations } from "../lib/translations";
 
 import { EXPORT_CATEGORIES, ProductCategory } from "../data/exportProducts";
 import ProductCategoryCard from "../components/ProductCategoryCard";
-import ProductModal from "../components/ProductModal";
 
+const ProductModal = lazy(() => import("../components/ProductModal"));
 const InquiryModal = lazy(() => import("../components/InquiryModal"));
 
 export default function Export() {
@@ -20,6 +20,18 @@ export default function Export() {
 
   const { lang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
+
+  const handleOpenCategoryModal = useCallback((category: ProductCategory) => {
+    setSelectedCategoryModal(category);
+  }, []);
+
+  const handleRequestQuote = useCallback((e: React.MouseEvent) => {
+    const target = document.getElementById("booking-form-card");
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
 
   const filteredCategories = EXPORT_CATEGORIES.filter((cat) => {
     const catTrans = t.products?.categories?.[cat.id] || { title: cat.title, desc: cat.description };
@@ -39,9 +51,12 @@ export default function Export() {
       <section className="relative py-20 px-4 overflow-hidden border-b border-gray-200 bg-gradient-to-b from-slate-50 to-white">
         {/* Absolute Background Graphics */}
         <div className="absolute top-0 left-0 w-80 h-80 bg-orange-500/5 rounded-full blur-[120px] pointer-events-none" />
-        <div 
-          className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-5 pointer-events-none" 
-          style={{ backgroundImage: `url('${IMAGES.export.heroBg}')` }}
+        <OptimizedImage
+          src={IMAGES.export.heroBg}
+          alt=""
+          className="absolute inset-0 w-full h-full mix-blend-overlay opacity-5 pointer-events-none"
+          imgClassName="object-cover"
+          priority={true}
         />
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
@@ -136,7 +151,7 @@ export default function Export() {
                 <ProductCategoryCard
                   key={cat.id}
                   category={cat}
-                  onOpenModal={(selectedCat) => setSelectedCategoryModal(selectedCat)}
+                  onOpenModal={handleOpenCategoryModal}
                 />
               ))}
             </div>
@@ -145,186 +160,32 @@ export default function Export() {
       </section>
 
       {/* CATEGORY SHOWCASE SECTIONS */}
+      {/* CATEGORY SHOWCASE SECTIONS */}
       {SHOWCASE_CATEGORIES.map((cat, idx) => {
-        const isEven = idx % 2 === 0;
-        const matchingCategory = EXPORT_CATEGORIES.find(c => c.id === cat.id);
-
+        const matchingCategory = EXPORT_CATEGORIES.find((c) => c.id === cat.id);
         return (
-          <section
+          <ShowcaseCategorySection
             key={cat.id}
-            id={`showcase-${cat.id}`}
-            className={`py-24 px-4 relative z-10 border-b border-gray-200 overflow-hidden ${
-              isEven ? "bg-white" : "bg-slate-50"
-            }`}
-          >
-            {/* Ambient Background Glows */}
-            <div className={`absolute top-1/2 ${isEven ? "left-0" : "right-0"} w-96 h-96 bg-orange-500/5 rounded-full blur-[140px] pointer-events-none -translate-y-1/2`} />
-
-            <div className="max-w-7xl mx-auto relative z-10">
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 items-center">
-                
-                {/* Content Column */}
-                <motion.div
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-100px" }}
-                  transition={{ duration: 0.7 }}
-                  className={`lg:col-span-7 ${isEven ? "lg:order-1" : "lg:order-2"} space-y-6 text-left`}
-                >
-                  <div className="space-y-4">
-                    <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-[10px] font-mono text-orange-600 font-bold uppercase tracking-widest">
-                      <Sparkles className="w-3.5 h-3.5 text-orange-500 animate-pulse" />
-                      <span>{cat.badge}</span>
-                    </span>
-                    <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-wide leading-tight">
-                      {cat.title}
-                    </h2>
-                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-light max-w-2xl">
-                      {cat.description}
-                    </p>
-                  </div>
-
-                  {/* 2x2 Grid of Feature Cards */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {cat.features.map((feat, fIdx) => (
-                      <div
-                        key={fIdx}
-                        className="p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:border-orange-500/30 transition-all duration-300 space-y-1.5"
-                      >
-                        <h4 className="font-serif text-sm text-gray-900 font-bold flex items-center space-x-2">
-                          <span className="w-1.5 h-1.5 bg-orange-500 rounded-full" />
-                          <span>{feat.title}</span>
-                        </h4>
-                        <p className="text-[11px] text-gray-500 leading-relaxed">
-                          {feat.desc}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Highlight Specs */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-gray-200/60 text-xs">
-                    <div className="space-y-2">
-                      <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                        Export Quality Highlights
-                      </h4>
-                      <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
-                        {cat.highlights.map((h, hIdx) => (
-                          <li key={hIdx} className="flex items-center space-x-2">
-                            <ShieldCheck className="w-3.5 h-3.5 text-orange-500 shrink-0" />
-                            <span>{h}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <div className="space-y-2">
-                      <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                        Key Benefits
-                      </h4>
-                      <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
-                        {cat.benefits.map((b, bIdx) => (
-                          <li key={bIdx} className="flex items-center space-x-2">
-                            <Award className="w-3.5 h-3.5 text-orange-500 shrink-0" />
-                            <span>{b}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <div className="space-y-2">
-                      <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                        Global Shipping & Packing
-                      </h4>
-                      <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
-                        <li className="flex items-start space-x-2">
-                          <MapPin className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
-                          <span><strong>Package:</strong> {cat.packaging}</span>
-                        </li>
-                        <li className="flex items-start space-x-2">
-                          <Compass className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
-                          <span><strong>Capability:</strong> {cat.capability}</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  {/* Action Buttons */}
-                  <div className="flex flex-wrap gap-4 pt-2">
-                    {matchingCategory && (
-                      <button
-                        onClick={() => setSelectedCategoryModal(matchingCategory)}
-                        className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded shadow-md shadow-orange-500/10"
-                      >
-                        <Search className="w-4 h-4" />
-                        <span>View Products</span>
-                      </button>
-                    )}
-                    <a
-                      href="#booking-form-card"
-                      onClick={(e) => {
-                        const target = document.getElementById("booking-form-card");
-                        if (target) {
-                          e.preventDefault();
-                          target.scrollIntoView({ behavior: "smooth" });
-                        }
-                      }}
-                      className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 border border-gray-300 hover:border-orange-500 hover:text-orange-500 text-gray-600 font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded"
-                    >
-                      <Mail className="w-4 h-4" />
-                      <span>Request Quote</span>
-                    </a>
-                  </div>
-                </motion.div>
-
-                {/* Image Column */}
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true, margin: "-100px" }}
-                  transition={{ duration: 0.8 }}
-                  className={`lg:col-span-5 ${isEven ? "lg:order-2" : "lg:order-1"}`}
-                >
-                  <div className="relative rounded-3xl overflow-hidden border border-gray-200/80 shadow-2xl h-[340px] lg:h-[450px] group">
-                    <OptimizedImage
-                      src={cat.image}
-                      alt={cat.title}
-                      className="w-full h-full"
-                      imgClassName="filter brightness-95 transition-transform duration-700 group-hover:scale-105"
-                      sizes="(max-width: 1024px) 100vw, 40vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80" />
-                    
-                    {/* Floating Trust Badge on Image */}
-                    <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md border border-gray-200/80 p-4 rounded-xl flex items-center justify-between shadow-lg">
-                      <div className="text-left space-y-0.5">
-                        <span className="text-[8px] font-mono font-bold text-orange-600 tracking-wider uppercase block">
-                          SECURE TRANSIT
-                        </span>
-                        <p className="text-[10px] font-mono text-gray-500">
-                          {cat.shippingInfo}
-                        </p>
-                      </div>
-                      <span className="text-[8px] font-mono font-bold bg-emerald-50 border border-emerald-100 text-emerald-600 px-2 py-1 rounded">
-                        100% READY
-                      </span>
-                    </div>
-                  </div>
-                </motion.div>
-
-              </div>
-            </div>
-          </section>
+            cat={cat}
+            idx={idx}
+            onOpenModal={handleOpenCategoryModal}
+            onRequestQuote={handleRequestQuote}
+            lang={lang}
+            t={t}
+            matchingCategory={matchingCategory}
+          />
         );
       })}
 
       {/* Product Category Modal */}
       {selectedCategoryModal && (
-        <ProductModal
-          category={selectedCategoryModal}
-          onClose={() => setSelectedCategoryModal(null)}
-          onInquiry={(product) => setSelectedProductForInquiry(product)}
-        />
+        <Suspense fallback={null}>
+          <ProductModal
+            category={selectedCategoryModal}
+            onClose={() => setSelectedCategoryModal(null)}
+            onInquiry={(product) => setSelectedProductForInquiry(product)}
+          />
+        </Suspense>
       )}
 
       {/* 3. COHESIVE TRUST / SHIPPING BADGES SECTION */}
@@ -442,6 +303,190 @@ export default function Export() {
     </div>
   );
 }
+
+interface ShowcaseCategorySectionProps {
+  cat: typeof SHOWCASE_CATEGORIES[0];
+  idx: number;
+  onOpenModal: (category: ProductCategory) => void;
+  onRequestQuote: (e: React.MouseEvent) => void;
+  lang: string;
+  t: any;
+  matchingCategory: ProductCategory | undefined;
+}
+
+const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
+  cat,
+  idx,
+  onOpenModal,
+  onRequestQuote,
+  lang,
+  t,
+  matchingCategory
+}) => {
+  const isEven = idx % 2 === 0;
+
+  return (
+    <section
+      id={`showcase-${cat.id}`}
+      className={`py-24 px-4 relative z-10 border-b border-gray-200 overflow-hidden ${
+        isEven ? "bg-white" : "bg-slate-50"
+      }`}
+    >
+      {/* Ambient Background Glows */}
+      <div className={`absolute top-1/2 ${isEven ? "left-0" : "right-0"} w-96 h-96 bg-orange-500/5 rounded-full blur-[140px] pointer-events-none -translate-y-1/2`} />
+
+      <div className="max-w-7xl mx-auto relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 items-center">
+          
+          {/* Content Column */}
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5 }}
+            className={`lg:col-span-7 ${isEven ? "lg:order-1" : "lg:order-2"} space-y-6 text-left`}
+          >
+            <div className="space-y-4">
+              <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-[10px] font-mono text-orange-600 font-bold uppercase tracking-widest">
+                <Sparkles className="w-3.5 h-3.5 text-orange-500 animate-pulse" />
+                <span>{cat.badge}</span>
+              </span>
+              <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-wide leading-tight">
+                {cat.title}
+              </h2>
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-light max-w-2xl">
+                {cat.description}
+              </p>
+            </div>
+
+            {/* 2x2 Grid of Feature Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {cat.features.map((feat, fIdx) => (
+                <div
+                  key={fIdx}
+                  className="p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:border-orange-500/30 transition-all duration-300 space-y-1.5"
+                >
+                  <h4 className="font-serif text-sm text-gray-900 font-bold flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-orange-500 rounded-full" />
+                    <span>{feat.title}</span>
+                  </h4>
+                  <p className="text-[11px] text-gray-500 leading-relaxed">
+                    {feat.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Highlight Specs */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-gray-200/60 text-xs">
+              <div className="space-y-2">
+                <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
+                  Export Quality Highlights
+                </h4>
+                <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
+                  {cat.highlights.map((h, hIdx) => (
+                    <li key={hIdx} className="flex items-center space-x-2">
+                      <ShieldCheck className="w-3.5 h-3.5 text-orange-500 shrink-0" />
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
+                  Key Benefits
+                </h4>
+                <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
+                  {cat.benefits.map((b, bIdx) => (
+                    <li key={bIdx} className="flex items-center space-x-2">
+                      <Award className="w-3.5 h-3.5 text-orange-500 shrink-0" />
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
+                  Global Shipping & Packing
+                </h4>
+                <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
+                  <li className="flex items-start space-x-2">
+                    <MapPin className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
+                    <span><strong>Package:</strong> {cat.packaging}</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <Compass className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
+                    <span><strong>Capability:</strong> {cat.capability}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-wrap gap-4 pt-2">
+              {matchingCategory && (
+                <button
+                  onClick={() => onOpenModal(matchingCategory)}
+                  className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded shadow-md shadow-orange-500/10"
+                >
+                  <Search className="w-4 h-4" />
+                  <span>View Products</span>
+                </button>
+              )}
+              <a
+                href="#booking-form-card"
+                onClick={onRequestQuote}
+                className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 border border-gray-300 hover:border-orange-500 hover:text-orange-500 text-gray-600 font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Request Quote</span>
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Image Column */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className={`lg:col-span-5 ${isEven ? "lg:order-2" : "lg:order-1"}`}
+          >
+            <div className="relative rounded-3xl overflow-hidden border border-gray-200/80 shadow-2xl h-[340px] lg:h-[450px] group">
+              <OptimizedImage
+                src={cat.image}
+                alt={cat.title}
+                className="w-full h-full"
+                imgClassName="filter brightness-95 transition-transform duration-700 group-hover:scale-105"
+                sizes="(max-width: 1024px) 100vw, 40vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80" />
+              
+              {/* Floating Trust Badge on Image */}
+              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md border border-gray-200/80 p-4 rounded-xl flex items-center justify-between shadow-lg">
+                <div className="text-left space-y-0.5">
+                  <span className="text-[8px] font-mono font-bold text-orange-600 tracking-wider uppercase block">
+                    SECURE TRANSIT
+                  </span>
+                  <p className="text-[10px] font-mono text-gray-500">
+                    {cat.shippingInfo}
+                  </p>
+                </div>
+                <span className="text-[8px] font-mono font-bold bg-emerald-50 border border-emerald-100 text-emerald-600 px-2 py-1 rounded">
+                  100% READY
+                </span>
+              </div>
+            </div>
+          </motion.div>
+
+        </div>
+      </div>
+    </section>
+  );
+});
+ShowcaseCategorySection.displayName = "ShowcaseCategorySection";
 
 const SHOWCASE_CATEGORIES = [
   {

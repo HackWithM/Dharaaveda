@@ -28,7 +28,7 @@ import {
 } from "lucide-react";
 import { IMAGES } from "../data/images";
 import { useLanguage } from "../lib/LanguageContext";
-
+import OptimizedImage from "../components/OptimizedImage";
 
 interface CountUpStatProps {
   target: number;
@@ -38,8 +38,6 @@ interface CountUpStatProps {
 }
 
 function CountUpStat({ target, decimals = 0, suffix = "", duration = 1200 }: CountUpStatProps) {
-  const [displayValue, setDisplayValue] = useState<string>("0");
-  const [isBlinking, setIsBlinking] = useState<boolean>(false);
   const elementRef = useRef<HTMLSpanElement>(null);
   const hasTriggered = useRef<boolean>(false);
 
@@ -75,8 +73,9 @@ function CountUpStat({ target, decimals = 0, suffix = "", duration = 1200 }: Cou
       const rawValue = startValue + currentProgress * target;
 
       let formatted: string;
+      let isBlinking = false;
       if (percentage < 1) {
-        setIsBlinking(Math.random() > 0.55);
+        isBlinking = Math.random() > 0.55;
         if (decimals > 0) {
           const randomNoise = (Math.random() * 0.9).toFixed(decimals);
           const valueWithNoise = Math.floor(rawValue) + parseFloat(randomNoise);
@@ -88,10 +87,21 @@ function CountUpStat({ target, decimals = 0, suffix = "", duration = 1200 }: Cou
         }
       } else {
         formatted = target.toFixed(decimals);
-        setIsBlinking(false);
       }
 
-      setDisplayValue(formatted);
+      if (elementRef.current) {
+        const valNode = elementRef.current.querySelector(".counter-val");
+        if (valNode) {
+          valNode.textContent = formatted;
+        }
+
+        // Direct DOM class manipulation for blinking effect to prevent React re-renders
+        if (isBlinking) {
+          elementRef.current.className = "transition-all duration-75 tabular-nums text-orange-500 opacity-90 scale-95 inline-block";
+        } else {
+          elementRef.current.className = "transition-all duration-75 tabular-nums text-gray-900 scale-100 inline-block";
+        }
+      }
 
       if (percentage < 1) {
         requestAnimationFrame(animate);
@@ -104,11 +114,9 @@ function CountUpStat({ target, decimals = 0, suffix = "", duration = 1200 }: Cou
   return (
     <span 
       ref={elementRef} 
-      className={`transition-all duration-75 tabular-nums ${
-        isBlinking ? "text-orange-500 opacity-90 scale-95" : "text-gray-900 scale-100"
-      } inline-block`}
+      className="transition-all duration-75 tabular-nums text-gray-900 scale-100 inline-block"
     >
-      {displayValue}
+      <span className="counter-val">0</span>
       <span className="text-orange-500 ml-0.5">{suffix}</span>
     </span>
   );
@@ -574,11 +582,14 @@ export default function Home() {
               >
                 {/* Image top container */}
                 <div className="h-56 w-full overflow-hidden relative pointer-events-none">
-                  <div 
-                    className="w-full h-full bg-cover bg-center transition-transform duration-1000 scale-[1.03] group-hover:scale-110 filter brightness-[0.85] saturate-[0.9]"
-                    style={{ backgroundImage: `url('${card.img}')` }}
+                  <OptimizedImage
+                    src={card.img}
+                    alt={card.title}
+                    className="w-full h-full"
+                    imgClassName="transition-transform duration-1000 scale-[1.03] group-hover:scale-110 filter brightness-[0.85] saturate-[0.9]"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white/10 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-white/10 to-transparent z-10" />
                 </div>
 
                 {/* Bottom content container */}
