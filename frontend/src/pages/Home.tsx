@@ -28,7 +28,7 @@ import {
 } from "lucide-react";
 import { IMAGES } from "../data/images";
 import { useLanguage } from "../lib/LanguageContext";
-import ScrollEnergyLine from "../components/ScrollEnergyLine";
+
 
 interface CountUpStatProps {
   target: number;
@@ -454,8 +454,7 @@ export default function Home() {
   return (
     <div className="relative bg-white text-gray-900 min-h-screen overflow-hidden flex flex-col font-sans select-none">
       
-      {/* Scroll-driven energy lightning line — fixed left side */}
-      <ScrollEnergyLine />
+
 
       {/* SECTION 1: HERO - DUAL-DIVISION STORYTELLING ENTRY */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center pt-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-gray-200">
