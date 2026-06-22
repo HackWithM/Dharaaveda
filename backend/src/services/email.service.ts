@@ -6,7 +6,7 @@ export async function sendConfirmationEmail(booking: any): Promise<void> {
   const user = process.env.SMTP_USER || "";
   const pass = process.env.SMTP_PASS || "";
   
-  const fromAddress = process.env.EMAIL_FROM || '"Dharaaveda Therapy" <noreply@dharaaveda.com>';
+  const fromAddress = process.env.EMAIL_FROM || '"Dharaaveda Therapy" <sales@dharaaveda.com>';
 
   const mailOptions = {
     from: fromAddress,
@@ -62,7 +62,7 @@ export async function sendConfirmationEmail(booking: any): Promise<void> {
 
         <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; font-size: 12px; line-height: 1.5; color: #718096;">
           <p style="margin: 0 0 10px 0;"><strong>Residency Guidelines:</strong> Please arrive 10 minutes prior to your session. If you have any additional case files or bio-resonance scans, kindly carry them with you.</p>
-          <p style="margin: 0;">For cancellations or rescheduling requests, please contact us at <a href="mailto:support@dharaaveda.com" style="color: #FA980F; text-decoration: none;">support@dharaaveda.com</a>.</p>
+          <p style="margin: 0;">For cancellations or rescheduling requests, please contact us at <a href="mailto:sales@dharaaveda.com" style="color: #FA980F; text-decoration: none;">sales@dharaaveda.com</a>.</p>
         </div>
 
         <div style="text-align: center; margin-top: 30px; font-size: 11px; color: #a0aec0; font-family: monospace;">

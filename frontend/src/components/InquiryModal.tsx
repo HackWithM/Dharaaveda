@@ -137,7 +137,7 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={t.product.inquiryPlaceholderEmail || "partner@tradehouse.com"}
+                  placeholder={t.product.inquiryPlaceholderEmail || "sales@dharaaveda.com"}
                   className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>

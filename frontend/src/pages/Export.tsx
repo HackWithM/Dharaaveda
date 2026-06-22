@@ -263,7 +263,7 @@ export default function Export() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4 text-orange-500" />
-                  <span>trade@dharaaveda.com</span>
+                  <span>sales@dharaaveda.com</span>
                 </div>
               </div>
             </div>

@@ -545,7 +545,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="e.g. heinrich@domain.com"
+                      placeholder="e.g. sales@dharaaveda.com"
                       className="w-full bg-slate-50 border border-gray-350 focus:border-[#FA980F] rounded-xl pl-10 pr-3 py-2.5 text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none transition-colors"
                     />
                   </div>

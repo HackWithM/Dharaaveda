@@ -1,3 +1,5 @@
+import flakesCategoryImage from "../assets/images/manually/flakes-category.jpg";
+
 // ============================================================
 // DHARAAVEDA — CENTRALIZED IMAGE CONFIGURATION
 // ============================================================
@@ -63,7 +65,7 @@ export const IMAGES = {
     /** Banner for the Dehydrated Fruits category */
     dehydratedFruits: "https://www.mevabite.com/cdn/shop/articles/Is-it-better-to-eat-fresh-or-dried-fruits_053668dd-1ef8-4273-9f5d-e0ea80b1d48a.webp?v=1721815055",
     /** Banner for the Flakes category */
-    flakes: "/src/assets/images/manually/flakes-category.jpg",
+    flakes: flakesCategoryImage,
   },
 
   // ----------------------------------------------------------

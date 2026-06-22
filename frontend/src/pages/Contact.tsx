@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>trade@dharaaveda.com</span>
+                  <span>sales@dharaaveda.com</span>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>sanctuary@dharaaveda.com</span>
+                  <span>sales@dharaaveda.com</span>
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Contact() {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder={t.contact.placeholderEmail || "partner@hamburgtrade.de"}
+                      placeholder={t.contact.placeholderEmail || "sales@dharaaveda.com"}
                       className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 outline-none placeholder-gray-400 transition-colors focus:bg-white"
                     />
                   </div>
