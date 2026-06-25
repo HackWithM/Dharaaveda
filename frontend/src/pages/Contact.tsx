@@ -4,7 +4,7 @@ import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { sendEmail } from "../services/emailService";
-import { EMAIL_TO } from "../lib/constants";
+import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -96,7 +96,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>+91 22 8390 1204</span>
+                  <span>{PHONE_NUMBER}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
@@ -121,7 +121,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>+91 4936 290 831</span>
+                  <span>{PHONE_NUMBER}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
@@ -209,7 +209,7 @@ export default function Contact() {
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder={t.contact.placeholderPhone || "+49 40 128459"}
+                    placeholder={t.contact.placeholderPhone || PHONE_NUMBER}
                     className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 outline-none placeholder-gray-400 transition-colors focus:bg-white"
                   />
                 </div>

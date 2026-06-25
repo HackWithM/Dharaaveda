@@ -6,7 +6,7 @@ import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { sendEmail } from "../services/emailService";
-import { EMAIL_TO } from "../lib/constants";
+import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
 
 
 interface BookingFormProps {
@@ -581,7 +581,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                     required
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="e.g. +91 99002 12345"
+                    placeholder={`e.g. ${PHONE_NUMBER}`}
                     className="w-full bg-slate-50 border border-gray-350 focus:border-[#FA980F] rounded-xl pl-10 pr-3 py-2.5 text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none transition-colors"
                   />
                 </div>

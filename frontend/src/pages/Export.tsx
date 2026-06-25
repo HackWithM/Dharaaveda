@@ -6,7 +6,7 @@ import { IMAGES } from "../data/images";
 import OptimizedImage from "../components/OptimizedImage";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
-import { EMAIL_TO } from "../lib/constants";
+import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
 
 import { EXPORT_CATEGORIES, ProductCategory } from "../data/exportProducts";
 import ProductCategoryCard from "../components/ProductCategoryCard";
@@ -260,7 +260,7 @@ export default function Export() {
               <div className="space-y-3 font-mono text-[10px] text-gray-700">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4 text-orange-500" />
-                  <span>+91 22 8390 1204</span>
+                  <span>{PHONE_NUMBER}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4 text-orange-500" />

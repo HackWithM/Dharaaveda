@@ -5,7 +5,7 @@ import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { sendEmail } from "../services/emailService";
-import { EMAIL_TO } from "../lib/constants";
+import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
 
 interface InquiryModalProps {
   product: Product | null;
@@ -196,7 +196,7 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                 type="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                placeholder="+49 40 1234567"
+                placeholder={PHONE_NUMBER}
                 className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
               />
             </div>
