@@ -1,12 +1,17 @@
 import nodemailer from "nodemailer";
 
+export const EMAIL_TO = process.env.EMAIL_TO || "sales@dharaaveda.com";
+
+/**
+ * Sends a confirmation email to the customer after a booking is confirmed.
+ */
 export async function sendConfirmationEmail(booking: any): Promise<void> {
   const host = process.env.SMTP_HOST || "smtp.mailtrap.io";
   const port = parseInt(process.env.SMTP_PORT || "2525");
   const user = process.env.SMTP_USER || "";
   const pass = process.env.SMTP_PASS || "";
   
-  const fromAddress = process.env.EMAIL_FROM || '"Dharaaveda Therapy" <sales@dharaaveda.com>';
+  const fromAddress = process.env.EMAIL_FROM || `"Dharaaveda Therapy" <${EMAIL_TO}>`;
 
   const mailOptions = {
     from: fromAddress,
@@ -62,7 +67,7 @@ export async function sendConfirmationEmail(booking: any): Promise<void> {
 
         <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; font-size: 12px; line-height: 1.5; color: #718096;">
           <p style="margin: 0 0 10px 0;"><strong>Residency Guidelines:</strong> Please arrive 10 minutes prior to your session. If you have any additional case files or bio-resonance scans, kindly carry them with you.</p>
-          <p style="margin: 0;">For cancellations or rescheduling requests, please contact us at <a href="mailto:sales@dharaaveda.com" style="color: #FA980F; text-decoration: none;">sales@dharaaveda.com</a>.</p>
+          <p style="margin: 0;">For cancellations or rescheduling requests, please contact us at <a href="mailto:${EMAIL_TO}" style="color: #FA980F; text-decoration: none;">${EMAIL_TO}</a>.</p>
         </div>
 
         <div style="text-align: center; margin-top: 30px; font-size: 11px; color: #a0aec0; font-family: monospace;">
@@ -74,11 +79,11 @@ export async function sendConfirmationEmail(booking: any): Promise<void> {
 
   if (!user || !pass) {
     console.log("=========================================================");
-    console.log("MOCK EMAIL DISPATCHED (SMTP Credentials missing in .env)");
+    console.log("MOCK CONFIRMATION EMAIL DISPATCHED (SMTP Credentials missing in .env)");
     console.log(`From:    ${mailOptions.from}`);
     console.log(`To:      ${mailOptions.to}`);
     console.log(`Subject: ${mailOptions.subject}`);
-    console.log(`Body:\n${mailOptions.html.replace(/<[^>]*>/g, " ").trim().substring(0, 500)}...`);
+    console.log(`Body:\n${mailOptions.html.replace(/<[^>]*>/g, " ").trim().substring(0, 300)}...`);
     console.log("=========================================================");
     return;
   }
@@ -98,5 +103,126 @@ export async function sendConfirmationEmail(booking: any): Promise<void> {
     console.log(`[EmailService] Confirmation email sent successfully to ${booking.email}`);
   } catch (error) {
     console.error("[EmailService] Error transmitting confirmation email:", error);
+  }
+}
+
+/**
+ * Sends a booking notification email to the admin/sales team.
+ */
+export async function sendBookingNotificationEmail(booking: any): Promise<void> {
+  const host = process.env.SMTP_HOST || "smtp.mailtrap.io";
+  const port = parseInt(process.env.SMTP_PORT || "2525");
+  const user = process.env.SMTP_USER || "";
+  const pass = process.env.SMTP_PASS || "";
+  
+  const fromAddress = process.env.EMAIL_FROM || `"Dharaaveda" <${EMAIL_TO}>`;
+
+  const mailOptions = {
+    from: fromAddress,
+    to: EMAIL_TO,
+    subject: `New Booking Confirmed: ${booking.service} (ID: ${booking.bookingId})`,
+    html: `
+      <div style="font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #edf2f7; border-radius: 8px;">
+        <h2 style="color: #050d0a;">New Booking Confirmed</h2>
+        <p>A booking request has been successfully processed and paid on the site.</p>
+        <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 20px 0;"/>
+        <p><strong>Booking ID:</strong> ${booking.bookingId}</p>
+        <p><strong>Service Requested:</strong> ${booking.service}</p>
+        <p><strong>Date:</strong> ${booking.date}</p>
+        <p><strong>Time Slot:</strong> ${booking.time}</p>
+        <p><strong>Amount Paid:</strong> ₹${booking.amount}</p>
+        <p><strong>Client Name:</strong> ${booking.name}</p>
+        <p><strong>Client Email:</strong> ${booking.email}</p>
+        <p><strong>Client Phone:</strong> ${booking.phone}</p>
+        <p><strong>Client Notes:</strong> ${booking.notes || "None"}</p>
+      </div>
+    `
+  };
+
+  if (!user || !pass) {
+    console.log("=========================================================");
+    console.log("MOCK ADMIN BOOKING NOTIFICATION DISPATCHED");
+    console.log(`From:    ${mailOptions.from}`);
+    console.log(`To:      ${mailOptions.to}`);
+    console.log(`Subject: ${mailOptions.subject}`);
+    console.log("=========================================================");
+    return;
+  }
+
+  try {
+    const transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass }
+    });
+    await transporter.sendMail(mailOptions);
+    console.log(`[EmailService] Admin booking notification sent to ${EMAIL_TO}`);
+  } catch (error) {
+    console.error("[EmailService] Error transmitting admin booking notification:", error);
+  }
+}
+
+/**
+ * Sends a general or export inquiry notification email to the admin/sales team.
+ */
+export async function sendInquiryNotificationEmail(inquiry: any): Promise<void> {
+  const host = process.env.SMTP_HOST || "smtp.mailtrap.io";
+  const port = parseInt(process.env.SMTP_PORT || "2525");
+  const user = process.env.SMTP_USER || "";
+  const pass = process.env.SMTP_PASS || "";
+  
+  const fromAddress = process.env.EMAIL_FROM || `"Dharaaveda" <${EMAIL_TO}>`;
+
+  const isExport = !!inquiry.productName;
+  const subject = isExport 
+    ? `New Export Inquiry: ${inquiry.productName} from ${inquiry.name}`
+    : `New Website Inquiry: ${inquiry.name}`;
+
+  const mailOptions = {
+    from: fromAddress,
+    to: EMAIL_TO,
+    replyTo: inquiry.email,
+    subject: subject,
+    html: `
+      <div style="font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #edf2f7; border-radius: 8px;">
+        <h2 style="color: #050d0a;">${isExport ? "Export Inquiry / Request Quote" : "General Website Inquiry"}</h2>
+        <p>You have received a new inquiry from the website form.</p>
+        <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 20px 0;"/>
+        <p><strong>Name:</strong> ${inquiry.name}</p>
+        <p><strong>Email:</strong> ${inquiry.email}</p>
+        <p><strong>Phone:</strong> ${inquiry.phone || "Not provided"}</p>
+        <p><strong>Company:</strong> ${inquiry.company || "Not provided"}</p>
+        ${isExport ? `<p><strong>Product Sourced:</strong> ${inquiry.productName}</p>` : ""}
+        ${isExport ? `<p><strong>Quantity Target:</strong> ${inquiry.quantity}</p>` : ""}
+        <p><strong>Message / Demand details:</strong></p>
+        <blockquote style="background: #f7fafc; border-left: 4px solid #FA980F; margin: 15px 0; padding: 15px; font-style: italic;">
+          ${inquiry.message.replace(/\n/g, "<br/>")}
+        </blockquote>
+      </div>
+    `
+  };
+
+  if (!user || !pass) {
+    console.log("=========================================================");
+    console.log("MOCK INQUIRY EMAIL DISPATCHED");
+    console.log(`From:    ${mailOptions.from}`);
+    console.log(`To:      ${mailOptions.to}`);
+    console.log(`Subject: ${mailOptions.subject}`);
+    console.log("=========================================================");
+    return;
+  }
+
+  try {
+    const transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass }
+    });
+    await transporter.sendMail(mailOptions);
+    console.log(`[EmailService] Inquiry notification email sent to ${EMAIL_TO}`);
+  } catch (error) {
+    console.error("[EmailService] Error transmitting inquiry notification email:", error);
   }
 }

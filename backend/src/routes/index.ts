@@ -10,7 +10,7 @@ import { Product } from "../models/Product";
 import { ScreenshotReview } from "../models/ScreenshotReview";
 import { TherapyService } from "../models/Service";
 import { Testimonial } from "../models/Testimonial";
-import { sendConfirmationEmail } from "../services/email.service";
+import { sendConfirmationEmail, sendBookingNotificationEmail, sendInquiryNotificationEmail } from "../services/email.service";
 
 type AsyncHandler = (req: Request, res: Response, next: NextFunction) => Promise<void>;
 
@@ -402,6 +402,7 @@ router.post(
 
       // Send email confirmation
       await sendConfirmationEmail(booking);
+      await sendBookingNotificationEmail(booking);
 
       res.json({ success: true, booking });
     } else {
@@ -493,6 +494,9 @@ router.post(
       message: req.body.message || "",
       status: "new"
     });
+
+    // Send inquiry notification to admin
+    await sendInquiryNotificationEmail(inquiry);
 
     res.status(201).json(inquiry);
   })

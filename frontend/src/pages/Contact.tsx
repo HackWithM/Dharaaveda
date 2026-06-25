@@ -3,6 +3,8 @@ import { Mail, Phone, MapPin, Send, CheckCircle, Clock } from "lucide-react";
 import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { sendEmail } from "../services/emailService";
+import { EMAIL_TO } from "../lib/constants";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -34,6 +36,17 @@ export default function Contact() {
         message,
         company: "General Consultation"
       });
+
+      await sendEmail({
+        name,
+        email,
+        phone,
+        subject: `Contact Inquiry: General Consultation from ${name}`,
+        message,
+        inquiryType: "Contact",
+        pageSource: "/contact"
+      });
+
       setSuccess(true);
     } catch (err: any) {
       setError(err.message || "Failed to log contact message.");
@@ -87,7 +100,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>sales@dharaaveda.com</span>
+                  <span>{EMAIL_TO}</span>
                 </div>
               </div>
             </div>
@@ -112,7 +125,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-orange-500 shrink-0" />
-                  <span>sales@dharaaveda.com</span>
+                  <span>{EMAIL_TO}</span>
                 </div>
               </div>
             </div>
@@ -182,7 +195,7 @@ export default function Contact() {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder={t.contact.placeholderEmail || "sales@dharaaveda.com"}
+                      placeholder={t.contact.placeholderEmail || EMAIL_TO}
                       className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 outline-none placeholder-gray-400 transition-colors focus:bg-white"
                     />
                   </div>

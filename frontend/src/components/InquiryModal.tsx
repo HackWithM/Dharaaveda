@@ -4,6 +4,8 @@ import { Product } from "../types";
 import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { sendEmail } from "../services/emailService";
+import { EMAIL_TO } from "../lib/constants";
 
 interface InquiryModalProps {
   product: Product | null;
@@ -40,6 +42,8 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
     setError("");
 
     try {
+      const finalMessage = message || `Trade request inquiring about premium product ${productName}, min order specs.`;
+      
       await api.createInquiry({
         name,
         email,
@@ -47,8 +51,20 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
         company,
         productName: productName,
         quantity,
-        message: message || `Trade request inquiring about premium product ${productName}, min order specs.`
+        message: finalMessage
       });
+
+      const formattedMessage = `Company: ${company || "Not specified"}\nQuantity: ${quantity}\nDetails: ${finalMessage}`;
+      await sendEmail({
+        name,
+        email,
+        phone,
+        subject: `Export Inquiry: Request Quote for ${productName}`,
+        message: formattedMessage,
+        inquiryType: "Export Inquiry",
+        pageSource: `/export (Modal for ${productName})`
+      });
+
       setSuccess(true);
     } catch (err: any) {
       setError(err.message || "Failed to submit trading inquiry.");
@@ -137,7 +153,7 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={t.product.inquiryPlaceholderEmail || "sales@dharaaveda.com"}
+                  placeholder={t.product.inquiryPlaceholderEmail || EMAIL_TO}
                   className="w-full bg-slate-50 border border-gray-300 focus:border-orange-500 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 outline-none transition-colors focus:bg-white"
                 />
               </div>

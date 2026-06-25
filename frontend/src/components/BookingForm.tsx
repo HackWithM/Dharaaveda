@@ -5,6 +5,8 @@ import { TherapyService, Booking } from "../types";
 import { api } from "../lib/api";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { sendEmail } from "../services/emailService";
+import { EMAIL_TO } from "../lib/constants";
 
 
 interface BookingFormProps {
@@ -42,6 +44,22 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
   const [isMockPayment, setIsMockPayment] = useState(false);
   const [paymentKeyId, setPaymentKeyId] = useState("");
   const [confirmedBooking, setConfirmedBooking] = useState<Booking | null>(null);
+
+  const sendBookingEmail = async (booking: Booking) => {
+    try {
+      await sendEmail({
+        name: booking.name,
+        email: booking.email,
+        phone: booking.phone,
+        subject: `New Booking Confirmed: ${booking.service} (ID: ${booking.bookingId})`,
+        message: `Booking Reference ID: ${booking.bookingId}\nService: ${booking.service}\nScheduled Date: ${booking.date}\nTime Slot: ${booking.time}\nAmount Charged: ₹${booking.amount}\nNotes: ${booking.notes || "None"}`,
+        inquiryType: "Booking Request",
+        pageSource: "/booking"
+      });
+    } catch (err) {
+      console.error("Failed to send booking email:", err);
+    }
+  };
 
 
 
@@ -178,6 +196,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
               if (verifyRes.success) {
                 setConfirmedBooking(verifyRes.booking);
                 setStep(6);
+                await sendBookingEmail(verifyRes.booking);
                 if (onSuccess) onSuccess();
               } else {
                 setError("Payment signature verification failed.");
@@ -227,6 +246,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         if (verifyRes.success) {
           setConfirmedBooking(verifyRes.booking);
           setStep(6);
+          await sendBookingEmail(verifyRes.booking);
           if (onSuccess) onSuccess();
         } else {
           setError("Mock payment confirmation failed.");
@@ -545,7 +565,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="e.g. sales@dharaaveda.com"
+                      placeholder={`e.g. ${EMAIL_TO}`}
                       className="w-full bg-slate-50 border border-gray-350 focus:border-[#FA980F] rounded-xl pl-10 pr-3 py-2.5 text-gray-900 placeholder-gray-400 focus:bg-white focus:outline-none transition-colors"
                     />
                   </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, ShieldCheck, HeartPulse, Award } from "lucide-react";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { EMAIL_TO } from "../lib/constants";
 
 export default function Footer() {
   const { lang } = useLanguage();
@@ -122,7 +123,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-orange-500 shrink-0" />
-                <span>sales@dharaaveda.com</span>
+                <span>{EMAIL_TO}</span>
               </li>
             </ul>
           </div>

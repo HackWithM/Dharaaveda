@@ -6,6 +6,7 @@ import { IMAGES } from "../data/images";
 import OptimizedImage from "../components/OptimizedImage";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { EMAIL_TO } from "../lib/constants";
 
 import { EXPORT_CATEGORIES, ProductCategory } from "../data/exportProducts";
 import ProductCategoryCard from "../components/ProductCategoryCard";
@@ -263,7 +264,7 @@ export default function Export() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4 text-orange-500" />
-                  <span>sales@dharaaveda.com</span>
+                  <span>{EMAIL_TO}</span>
                 </div>
               </div>
             </div>
