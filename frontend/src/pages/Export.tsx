@@ -1,5 +1,5 @@
 import React, { useState, lazy, Suspense, useCallback } from "react";
-import { Search, Compass, Award, ShieldCheck, Mail, Phone, MapPin, Sparkles, ChevronRight } from "lucide-react";
+import { Search, Compass, Award, ShieldCheck, Mail, Phone, MapPin, Sparkles, ChevronRight, ScrollText } from "lucide-react";
 import { motion } from "motion/react";
 import { Product } from "../types";
 import { IMAGES } from "../data/images";
@@ -216,14 +216,18 @@ export default function Export() {
 
             <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-sm space-y-4 hover:border-orange-500/30 transition-all duration-300">
               <div className="w-12 h-12 bg-orange-50 border border-orange-200 rounded-full flex items-center justify-center mx-auto text-orange-500">
-                <Award className="w-6 h-6" />
+                <ScrollText className="w-6 h-6" />
               </div>
               <h3 className="font-serif text-lg text-gray-900 font-bold">
-                {t.export.isoTitle || "ISO Reciprocal Standard"}
+                {t.export.isoTitle || "APEDA Registered Exporter"}
               </h3>
               <p className="text-xs text-gray-500 leading-relaxed font-sans text-center">
-                {t.export.isoDesc || "Operating under rigorous international hygiene guidelines. Vacuum-tight packing blocks cosmic UV light, keeping freshness intact during transit."}
+                {t.export.isoDesc || "RCMC-certified and APEDA-registered exporter, complying with India's agricultural export regulations and international quality standards. Ensuring traceability, regulatory compliance, and seamless global trade operations for all Dharaaveda products."}
               </p>
+              {/* Registration number slot — uncomment and fill when available:
+              <p className="text-[10px] font-mono text-orange-600 text-center tracking-widest uppercase">
+                APEDA Reg. No: XXXX-XXXX &nbsp;|&nbsp; RCMC No: XXXX
+              </p> */}
             </div>
 
             <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-sm space-y-4 hover:border-orange-500/30 transition-all duration-300">
