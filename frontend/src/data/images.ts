@@ -26,7 +26,7 @@ export const IMAGES = {
   // ----------------------------------------------------------
   home: {
     /** Full-width hero background on the Home landing section */
-    heroBg: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?fm=webp&fit=crop&q=80&w=1200",
+    heroBg: "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEzZTJkMTI1NDZjODE5MTg5ZDE3NDIzNGQ2MmNkNDQ6ZmlsZV8wMDAwMDAwMGM1ZjQ3MjBiYWNiMzhiYzM0YjM5ZWZhZiIsImdpem1vX2lkIjpudWxsLCJ0cyI6IjIwNjMwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI1MmY0MTM1YzNiM2JiMWM1MDY3ZDg5MGIwODgzNjQ1ZTM0MDE2NDg0ODExNGZhY2YwODdkOTEzZjExMTU5MzNkIiwidiI6IjAiLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
     /** Background image for the Export showcase card on Home */
     exportCardBg: "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
     /** Background image for the Therapy showcase card on Home */
@@ -38,7 +38,7 @@ export const IMAGES = {
   // ----------------------------------------------------------
   export: {
     /** Full-width hero background on the Export page */
-    heroBg: "https://img.magnific.com/free-vector/hand-drawn-flat-design-international-trade_23-2149156747.jpg",
+    heroBg: "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEzZTJkMTI1NDZjODE5MTg5ZDE3NDIzNGQ2MmNkNDQ6ZmlsZV8wMDAwMDAwMGM1ZjQ3MjBiYWNiMzhiYzM0YjM5ZWZhZiIsImdpem1vX2lkIjpudWxsLCJ0cyI6IjIwNjMwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI1MmY0MTM1YzNiM2JiMWM1MDY3ZDg5MGIwODgzNjQ1ZTM0MDE2NDg0ODExNGZhY2YwODdkOTEzZjExMTU5MzNkIiwidiI6IjAiLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
     /** Cargo ship image used in the Export page about section */
     cargoShipAbout: "https://media.istockphoto.com/id/2123124996/photo/low-angle-aerial-shot-of-cranes-looming-over-container-ship.jpg?s=612x612&w=0&k=20&c=ple5acFVT_AT1SCZCbkXT0ZEXLMQ-3dFTCGRisGSYVA=",
     /** Fallback / placeholder image when no product image is available */

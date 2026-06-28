@@ -465,12 +465,22 @@ export default function Home() {
 
 
       {/* SECTION 1: HERO - DUAL-DIVISION STORYTELLING ENTRY */}
-      <section id="hero" className="relative min-h-screen flex items-center justify-center pt-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-gray-200">
+      <section 
+        id="hero" 
+        className="relative min-h-screen flex items-center justify-center pt-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-no-repeat border-b border-gray-100"
+        style={{ 
+          backgroundImage: `url(${IMAGES.home.heroBg})`,
+          backgroundPosition: 'center bottom',
+          backgroundSize: 'cover'
+        }}
+      >
+        {/* Subtle gradient overlay for readability and vibrancy (20%-35% maximum opacity) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white/35 via-white/20 to-white/30 dark:from-slate-950/35 dark:via-slate-950/20 dark:to-slate-950/30 pointer-events-none z-0" />
         
         {/* Decorative Grid & Glowing Orbs */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.03)_1px,transparent_1px)] bg-[size:40px_40px] opacity-70 pointer-events-none" />
-        <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-orange-500/10 rounded-full blur-[150px] pointer-events-none animate-pulse" />
-        <div className="absolute bottom-10 left-10 w-96 h-96 bg-orange-500/5 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.02)_1px,transparent_1px)] bg-[size:40px_40px] opacity-30 pointer-events-none z-0" />
+        <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-orange-500/10 rounded-full blur-[150px] pointer-events-none animate-pulse z-0" />
+        <div className="absolute bottom-10 left-10 w-96 h-96 bg-orange-500/5 rounded-full blur-[120px] pointer-events-none z-0" />
 
         <div className="max-w-5xl mx-auto w-full text-center relative z-10 py-12 space-y-8">
           
