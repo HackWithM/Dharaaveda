@@ -15,9 +15,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Main Column */}
           <div className="space-y-4">
-            <span className="font-serif text-2xl font-bold tracking-[0.2em] text-white">
-              DHARA<span className="text-orange-500">AVEDA</span>
-            </span>
+            <div className="flex items-center gap-3">
+              <img 
+                src="/images/logo/logo.png" 
+                alt="Dharaaveda Logo" 
+                className="w-8 h-8 object-contain"
+              />
+              <span className="font-serif text-2xl font-bold tracking-[0.2em] text-white">
+                DHARA<span className="text-orange-500">AVEDA</span>
+              </span>
+            </div>
             <p className="text-xs text-gray-400 leading-relaxed font-sans max-w-sm">
               {t.desc}
             </p>

@@ -135,9 +135,11 @@ export default function Navbar() {
           onTouchStart={() => handlePrefetch("/")}
           className="flex items-center gap-3 select-none group pointer-events-auto"
         >
-          <div className={`w-8.5 h-8.5 border-2 ${isWellnessActive ? "border-therapy-500 shadow-therapy-500/5" : "border-orange-500 shadow-orange-500/5"} rotate-45 flex items-center justify-center transition-transform duration-700 ease-out group-hover:rotate-[225deg] bg-gray-900 shadow-md`}>
-            <span className={`text-[10px] font-bold -rotate-45 font-mono text-white ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors block leading-none`}>DA</span>
-          </div>
+          <img 
+            src="/images/logo/logo.png" 
+            alt="Dharaaveda Logo" 
+            className="w-10 h-10 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
+          />
           <div className="flex flex-col text-left">
             <span className={`text-[14px] sm:text-[16px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
               Dhara<span className={isWellnessActive ? "text-therapy-500 font-semibold" : "text-orange-500 font-semibold"}>Aveda</span>
