@@ -138,10 +138,10 @@ export default function Navbar() {
           <img 
             src="/images/logo/logo.png" 
             alt="Dharaaveda Logo" 
-            className="w-14 h-14 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
+            className="w-20 h-20 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
           />
           <div className="flex flex-col text-left">
-            <span className={`text-[14px] sm:text-[16px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
+            <span className={`text-[20px] sm:text-[24px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
               Dhara<span className={isWellnessActive ? "text-therapy-500 font-semibold" : "text-orange-500 font-semibold"}>Aveda</span>
             </span>
             <span className="text-[7.5px] font-mono tracking-[0.2em] uppercase text-gray-500 -mt-0.5 whitespace-nowrap hidden xs:block">
