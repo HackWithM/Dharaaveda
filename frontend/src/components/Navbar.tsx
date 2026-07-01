@@ -65,7 +65,7 @@ export default function Navbar() {
     setMobileMenuOpen(false);
   }, [location]);
 
-  const isAdmin = location.pathname.startsWith("/admin") && location.pathname !== "/admin/login";
+  const isAdmin = location.pathname.startsWith("/admin");
 
   // Navigation Links mapping (Therapy maps to wellness)
   const navLinks = [
@@ -235,17 +235,19 @@ export default function Navbar() {
           </div>
 
           {/* Admin Toggle Panel */}
-          <Link
-            to="/admin"
-            onMouseEnter={() => handlePrefetch("/admin")}
-            onFocus={() => handlePrefetch("/admin")}
-            onTouchStart={() => handlePrefetch("/admin")}
-            className="flex items-center gap-1.5 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-gray-200 pointer-events-auto"
-            title="Administrator Control Board"
-          >
-            <Lock className={`w-3 h-3 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
-            <span>{isAdmin ? (t.navbar.console || "Console") : (t.navbar.admin || "Admin")}</span>
-          </Link>
+          {isAdmin && (
+            <Link
+              to="/admin"
+              onMouseEnter={() => handlePrefetch("/admin")}
+              onFocus={() => handlePrefetch("/admin")}
+              onTouchStart={() => handlePrefetch("/admin")}
+              className="flex items-center gap-1.5 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-gray-200 pointer-events-auto"
+              title="Administrator Control Board"
+            >
+              <Lock className={`w-3 h-3 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
+              <span>{t.navbar.console || "Console"}</span>
+            </Link>
+          )}
         </div>
 
         {/* Mobile Menu Action button */}
@@ -326,16 +328,18 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <Link
-                  to="/admin"
-                  onMouseEnter={() => handlePrefetch("/admin")}
-                  onFocus={() => handlePrefetch("/admin")}
-                  onTouchStart={() => handlePrefetch("/admin")}
-                  className="flex items-center justify-center gap-2 w-full py-3 rounded-2xl bg-gray-50 border border-gray-200 text-center text-xs font-semibold font-mono tracking-widest uppercase text-gray-700 hover:text-gray-900"
-                >
-                  <Lock className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
-                  <span>{t.navbar.console || "Console"} Panel</span>
-                </Link>
+                {isAdmin && (
+                  <Link
+                    to="/admin"
+                    onMouseEnter={() => handlePrefetch("/admin")}
+                    onFocus={() => handlePrefetch("/admin")}
+                    onTouchStart={() => handlePrefetch("/admin")}
+                    className="flex items-center justify-center gap-2 w-full py-3 rounded-2xl bg-gray-50 border border-gray-200 text-center text-xs font-semibold font-mono tracking-widest uppercase text-gray-700 hover:text-gray-900"
+                  >
+                    <Lock className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
+                    <span>{t.navbar.console || "Console"} Panel</span>
+                  </Link>
+                )}
               </div>
             </motion.div>
           )}

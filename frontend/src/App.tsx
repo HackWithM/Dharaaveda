@@ -82,7 +82,7 @@ export default function App() {
       <Suspense fallback={<PageLoader />}>
         <Routes>
           {/* Admin Dashboard & Login route blocks */}
-          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route path="/admin-login" element={<AdminLogin />} />
           <Route path="/admin" element={<AdminDashboard />} />
 
           {/* Public Routes mapped under the matching PublicLayout layout */}

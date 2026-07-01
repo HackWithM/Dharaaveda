@@ -96,7 +96,7 @@ export default function AdminDashboard() {
   const verifyAuth = () => {
     const token = localStorage.getItem("dharaSavedToken");
     if (!token) {
-      navigate("/admin/login");
+      navigate("/");
     } else {
       setAuthorized(true);
     }
@@ -154,7 +154,7 @@ export default function AdminDashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem("dharaSavedToken");
-    navigate("/admin/login");
+    navigate("/admin-login");
   };
 
   // Product CRUD
