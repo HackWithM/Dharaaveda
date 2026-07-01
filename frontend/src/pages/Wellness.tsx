@@ -1,6 +1,6 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, useRef, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
-import { Sparkles, CalendarRange, CheckCircle2, ChevronRight, MessageSquare, Quote, Star, Compass, Play, Instagram, MessageCircle, Eye, X, Globe, ChevronDown, RefreshCw } from "lucide-react";
+import { Sparkles, CalendarRange, CheckCircle2, ChevronRight, ChevronLeft, MessageSquare, Quote, Star, Compass, Play, Instagram, MessageCircle, Eye, X, Globe, ChevronDown, RefreshCw } from "lucide-react";
 import { TherapyService, Testimonial, AboutVikranti, ScreenshotReview } from "../types";
 import { api } from "../lib/api";
 import { staticTranslations, LanguageCode } from "../lib/translations";
@@ -19,6 +19,20 @@ export default function Wellness() {
   const [aboutVikranti, setAboutVikranti] = useState<AboutVikranti | null>(null);
   const [screenshotReviews, setScreenshotReviews] = useState<ScreenshotReview[]>([]);
   const [previewImage, setPreviewImage] = useState<string | null>(null);
+
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -360, behavior: "smooth" });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 360, behavior: "smooth" });
+    }
+  };
 
   // Booking Form modal states
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
@@ -691,58 +705,82 @@ export default function Wellness() {
                 {t.reviewsEmpty}
               </div>
             ) : (
-              <div className="flex flex-row flex-nowrap overflow-x-auto gap-6 pb-6 no-scrollbar snap-x">
-                {screenshotReviews.map((rev, index) => (
-                  <div
-                    key={rev.id || index}
-                    onClick={() => setPreviewImage(rev.imageUrl)}
-                    className="snap-start shrink-0 w-[280px] sm:w-[360px] bg-white rounded-2xl border border-gray-200 overflow-hidden group hover:border-therapy-300 transition-all duration-300 shadow-md hover:shadow-xl cursor-zoom-in relative flex flex-col p-4 space-y-4 hover:-translate-y-1"
-                  >
-                    {/* Visual Media with Zoom & Badge */}
-                    <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-50 border border-gray-100">
-                      <OptimizedImage
-                        src={rev.imageUrl}
-                        alt={rev.translations?.[lang]?.caption || rev.caption}
-                        className="w-full h-full"
-                        imgClassName="filter brightness-95 transition-transform duration-500 group-hover:scale-[1.03]"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                      {/* Hover action overlay */}
-                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                        <span className="flex items-center space-x-1.5 text-xs text-white font-mono uppercase tracking-wider bg-black/70 px-4 py-2 border border-therapy-500/20 backdrop-blur-md rounded-full">
-                          <Eye className="w-3.5 h-3.5" />
-                          <span>{t.reviewsExpand}</span>
-                        </span>
+              <div className="relative group/slider">
+                {/* Scroll Left Button */}
+                <button
+                  onClick={scrollLeft}
+                  className="absolute -left-6 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-white/95 shadow-lg border border-gray-200 text-gray-700 hover:text-therapy-600 hover:scale-110 active:scale-95 transition-all opacity-0 group-hover/slider:opacity-100 focus-within:opacity-100 hidden md:flex items-center justify-center cursor-pointer hover:shadow-xl"
+                  aria-label="Scroll left"
+                >
+                  <ChevronLeft className="w-5 h-5" />
+                </button>
+
+                {/* Scroll Right Button */}
+                <button
+                  onClick={scrollRight}
+                  className="absolute -right-6 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-white/95 shadow-lg border border-gray-200 text-gray-700 hover:text-therapy-600 hover:scale-110 active:scale-95 transition-all opacity-0 group-hover/slider:opacity-100 focus-within:opacity-100 hidden md:flex items-center justify-center cursor-pointer hover:shadow-xl"
+                  aria-label="Scroll right"
+                >
+                  <ChevronRight className="w-5 h-5" />
+                </button>
+
+                {/* The Scrolling Row */}
+                <div 
+                  ref={scrollRef}
+                  className="flex flex-row flex-nowrap overflow-x-auto gap-6 pb-6 no-scrollbar snap-x scroll-smooth"
+                >
+                  {screenshotReviews.map((rev, index) => (
+                    <div
+                      key={rev.id || index}
+                      onClick={() => setPreviewImage(rev.imageUrl)}
+                      className="snap-start shrink-0 w-[280px] sm:w-[360px] bg-white rounded-2xl border border-gray-200 overflow-hidden group hover:border-therapy-300 transition-all duration-300 shadow-md hover:shadow-xl cursor-zoom-in relative flex flex-col p-4 space-y-4 hover:-translate-y-1"
+                    >
+                      {/* Visual Media with Zoom & Badge */}
+                      <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-50 border border-gray-100">
+                        <OptimizedImage
+                          src={rev.imageUrl}
+                          alt={rev.translations?.[lang]?.caption || rev.caption}
+                          className="w-full h-full"
+                          imgClassName="filter brightness-95 transition-transform duration-500 group-hover:scale-[1.03]"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        />
+                        {/* Hover action overlay */}
+                        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                          <span className="flex items-center space-x-1.5 text-xs text-white font-mono uppercase tracking-wider bg-black/70 px-4 py-2 border border-therapy-500/20 backdrop-blur-md rounded-full">
+                            <Eye className="w-3.5 h-3.5" />
+                            <span>{t.reviewsExpand}</span>
+                          </span>
+                        </div>
+
+                        {/* Platform Badges */}
+                        <div className="absolute top-3 left-3 z-10">
+                          {rev.platform === "whatsapp" ? (
+                            <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-[#128C7E]/90 border border-[#25D366]/30 backdrop-blur-md text-[9px] font-mono text-white">
+                              <MessageCircle className="w-3 h-3 text-[#25D366] fill-[#25D366]" />
+                              <span>{t.badgeWhatsapp}</span>
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-gradient-to-r from-[#833AB4]/90 via-[#FD1D1D]/90 to-[#FCB045]/90 border border-white/10 backdrop-blur-md text-[9px] font-mono text-white">
+                              <Instagram className="w-3 h-3 text-white" />
+                              <span>{t.badgeInstagram}</span>
+                            </span>
+                          )}
+                        </div>
                       </div>
 
-                      {/* Platform Badges */}
-                      <div className="absolute top-3 left-3 z-10">
-                        {rev.platform === "whatsapp" ? (
-                          <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-[#128C7E]/90 border border-[#25D366]/30 backdrop-blur-md text-[9px] font-mono text-white">
-                            <MessageCircle className="w-3 h-3 text-[#25D366] fill-[#25D366]" />
-                            <span>{t.badgeWhatsapp}</span>
-                          </span>
-                        ) : (
-                          <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-gradient-to-r from-[#833AB4]/90 via-[#FD1D1D]/90 to-[#FCB045]/90 border border-white/10 backdrop-blur-md text-[9px] font-mono text-white">
-                            <Instagram className="w-3 h-3 text-white" />
-                            <span>{t.badgeInstagram}</span>
-                          </span>
-                        )}
+                      {/* Meta Section */}
+                      <div className="pt-1 select-none">
+                        <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-light italic">
+                          "{rev.translations?.[lang]?.caption || rev.caption}"
+                        </p>
                       </div>
-                    </div>
 
-                    {/* Meta Section */}
-                    <div className="pt-1 select-none">
-                      <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-light italic">
-                        "{rev.translations?.[lang]?.caption || rev.caption}"
-                      </p>
+                      {/* Small aesthetic corner accents */}
+                      <div className="absolute top-0 right-0 w-2 h-2 border-r border-t border-therapy-500/20 rounded-tr" />
+                      <div className="absolute bottom-0 left-0 w-2 h-2 border-l border-b border-therapy-500/20 rounded-bl" />
                     </div>
-
-                    {/* Small aesthetic corner accents */}
-                    <div className="absolute top-0 right-0 w-2 h-2 border-r border-t border-therapy-500/20 rounded-tr" />
-                    <div className="absolute bottom-0 left-0 w-2 h-2 border-l border-b border-therapy-500/20 rounded-bl" />
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             )}
           </div>
