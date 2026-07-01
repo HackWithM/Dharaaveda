@@ -138,7 +138,7 @@ export default function Navbar() {
           <img 
             src="/images/logo/logo.png" 
             alt="Dharaaveda Logo" 
-            className="w-10 h-10 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
+            className="w-14 h-14 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
           />
           <div className="flex flex-col text-left">
             <span className={`text-[14px] sm:text-[16px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>

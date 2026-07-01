@@ -19,7 +19,7 @@ export default function Footer() {
               <img 
                 src="/images/logo/logo.png" 
                 alt="Dharaaveda Logo" 
-                className="w-8 h-8 object-contain"
+                className="w-12 h-12 object-contain"
               />
               <span className="font-serif text-2xl font-bold tracking-[0.2em] text-white">
                 DHARA<span className="text-orange-500">AVEDA</span>
