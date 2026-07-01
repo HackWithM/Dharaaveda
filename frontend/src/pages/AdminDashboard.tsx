@@ -37,10 +37,10 @@ export default function AdminDashboard() {
   const [vShowReviews, setVShowReviews] = useState(true);
   const [vShowAbout, setVShowAbout] = useState(true);
 
-  // Screenshot review states
   const [revUrl, setRevUrl] = useState("");
   const [revCaption, setRevCaption] = useState("");
   const [revPlatform, setRevPlatform] = useState<'whatsapp' | 'instagram'>("whatsapp");
+  const [fileInputKey, setFileInputKey] = useState(0);
   const [savingAbout, setSavingAbout] = useState(false);
   const [addingReview, setAddingReview] = useState(false);
 
@@ -422,6 +422,7 @@ export default function AdminDashboard() {
       });
       setRevUrl("");
       setRevCaption("");
+      setFileInputKey(prev => prev + 1);
       const reviews = await api.getScreenshotReviews();
       setScreenshotReviews(reviews);
       alert("Social Screenshot Review Registered.");
@@ -1358,15 +1359,34 @@ export default function AdminDashboard() {
 
                     <form onSubmit={handleAddReviewScreenshot} className="space-y-4">
                       <div>
-                        <label className="block text-[9px] font-mono uppercase text-gray-400 mb-1">Screenshot Image URL</label>
+                        <label className="block text-[9px] font-mono uppercase text-gray-400 mb-1">Upload Screenshot Image</label>
                         <input 
-                          type="text" 
+                          key={fileInputKey}
+                          type="file" 
+                          accept="image/*"
                           required 
-                          value={revUrl} 
-                          onChange={e => setRevUrl(e.target.value)} 
-                          placeholder="https://images.unsplash..." 
-                          className="w-full bg-white/5 border border-luxury-gold/20 rounded p-2 text-white outline-none" 
+                          onChange={(e) => {
+                            const file = e.target.files?.[0];
+                            if (file) {
+                              const reader = new FileReader();
+                              reader.onloadend = () => {
+                                setRevUrl(reader.result as string);
+                              };
+                              reader.readAsDataURL(file);
+                            }
+                          }}
+                          className="w-full bg-white/5 border border-luxury-gold/20 rounded p-2 text-white outline-none file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-luxury-gold/10 file:text-luxury-gold hover:file:bg-luxury-gold/20 cursor-pointer" 
                         />
+                        {revUrl && (
+                          <div className="mt-3 p-2 rounded border border-luxury-gold/10 bg-black/40 space-y-1">
+                            <span className="block text-[8px] font-mono uppercase text-luxury-gold">Selected Image Preview</span>
+                            <img 
+                              src={revUrl} 
+                              alt="Screenshot Preview" 
+                              className="max-h-48 rounded object-contain mx-auto"
+                            />
+                          </div>
+                        )}
                       </div>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

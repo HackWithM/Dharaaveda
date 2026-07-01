@@ -6,7 +6,16 @@ import { connectDB } from "./config/db";
 import routes from "./routes";
 import { seedDatabase } from "./services/seed.service";
 
+import path from "path";
+import fs from "fs";
+
 dotenv.config();
+
+// Ensure uploads directory exists
+const uploadDir = path.join(__dirname, "../uploads");
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
 
 const app = express();
 const port = Number(process.env.PORT || 3000);
@@ -49,7 +58,8 @@ const corsOptions: CorsOptions = {
 
 app.use(cors(corsOptions));
 app.options("*", cors(corsOptions));
-app.use(express.json({ limit: "2mb" }));
+app.use(express.json({ limit: "10mb" }));
+app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
 app.use((req, _res, next) => {
   console.log(`${req.method} ${req.path}`);

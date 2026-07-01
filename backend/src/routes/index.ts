@@ -2,6 +2,8 @@ import { NextFunction, Request, Response, Router } from "express";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
 import Razorpay from "razorpay";
+import fs from "fs";
+import path from "path";
 import { requireAuth, optionalAuth, AuthenticatedRequest } from "../middleware/auth.middleware";
 import { AboutContent } from "../models/About";
 import { Booking } from "../models/Booking";
@@ -591,9 +593,30 @@ router.post(
   "/screenshot-reviews",
   requireAuth,
   asyncHandler(async (req, res) => {
+    let imageUrl = req.body.imageUrl || "";
+
+    // Decode and save base64 uploads locally
+    if (imageUrl && imageUrl.startsWith("data:image/")) {
+      const match = imageUrl.match(/^data:image\/([a-zA-Z0-9+]+);base64,(.+)$/);
+      if (match) {
+        const ext = match[1];
+        const base64Data = match[2];
+        const buffer = Buffer.from(base64Data, "base64");
+        const filename = `screenshot_${Date.now()}.${ext === "jpeg" ? "jpg" : ext}`;
+        const uploadDir = path.join(__dirname, "../../uploads");
+        
+        if (!fs.existsSync(uploadDir)) {
+          fs.mkdirSync(uploadDir, { recursive: true });
+        }
+        
+        fs.writeFileSync(path.join(uploadDir, filename), buffer);
+        imageUrl = `${req.protocol}://${req.get("host")}/uploads/${filename}`;
+      }
+    }
+
     const review = await ScreenshotReview.create({
       _id: "sr_" + Date.now().toString(),
-      imageUrl: req.body.imageUrl || "",
+      imageUrl: imageUrl,
       caption: req.body.caption || "Client review screenshot",
       platform: req.body.platform || "whatsapp",
       translations: req.body.translations || {}
