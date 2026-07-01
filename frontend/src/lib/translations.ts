@@ -2,11 +2,22 @@
 // Fully typed to support autocomplete and compile-time verification across 23 languages.
 
 export type LanguageCode =
-  | "en" | "hi" | "mr" | "sa" | "es" | "fr" | "de" | "it" | "pt" | "ru"
-  | "zh" | "ja" | "ko" | "ar" | "bn" | "ta" | "te" | "ml" | "kn" | "gu"
-  | "pa" | "tr" | "nl";
+  | "en" | "hi" | "mr" | "es" | "fr" | "de" | "it" | "pt" | "ru"
+  | "zh" | "ja" | "ko" | "ar" | "tr" | "nl" | "id" | "vi" | "th" | "pl";
 
 export interface StaticTranslations {
+  seo?: {
+    homeTitle: string;
+    homeDesc: string;
+    exportTitle: string;
+    exportDesc: string;
+    wellnessTitle: string;
+    wellnessDesc: string;
+    bookingTitle: string;
+    bookingDesc: string;
+    contactTitle: string;
+    contactDesc: string;
+  };
   navbar: {
     home: string;
     export: string;
@@ -38,99 +49,7 @@ export interface StaticTranslations {
     rights: string;
   };
   home: {
-    div1: string;
-    agriTitle: string;
-    agriDesc: string;
-    enterExport: string;
-    div2: string;
-    wellnessTitle: string;
-    wellnessDesc: string;
-    exploreTherapies: string;
-    inquiryHandling: string;
-    annualDeals: string;
-    wellnessSuccess: string;
-    recoveryRate: string;
-    tradePresence: string;
-    nations: string;
-    nextAvailable: string;
-    availableSession: string;
-    cinematic: string;
-    
-    // Redesigned Homepage Optional Keys
-    heroSubtitle?: string;
-    heroCtaProducts?: string;
-    heroCtaQuote?: string;
-    aboutTitle?: string;
-    aboutText?: string;
-    whatWeExportTitle?: string;
-    whatWeExportSubtitle?: string;
-    cat1Title?: string;
-    cat1Desc?: string;
-    cat2Title?: string;
-    cat2Desc?: string;
-    cat3Title?: string;
-    cat3Desc?: string;
-    cat4Title?: string;
-    cat4Desc?: string;
-    cat5Title?: string;
-    cat5Desc?: string;
-    cat6Title?: string;
-    cat6Desc?: string;
-    whyChooseUsTitle?: string;
-    whyChooseUsSubtitle?: string;
-    why1Title?: string;
-    why1Desc?: string;
-    why2Title?: string;
-    why2Desc?: string;
-    why3Title?: string;
-    why3Desc?: string;
-    why4Title?: string;
-    why4Desc?: string;
-    why5Title?: string;
-    why5Desc?: string;
-    why6Title?: string;
-    why6Desc?: string;
-    statsTitle?: string;
-    statsProducts?: string;
-    statsCountries?: string;
-    statsQuality?: string;
-    statsSatisfaction?: string;
-    processTitle?: string;
-    processSubtitle?: string;
-    processStep1Title?: string;
-    processStep1Desc?: string;
-    processStep2Title?: string;
-    processStep2Desc?: string;
-    processStep3Title?: string;
-    processStep3Desc?: string;
-    processStep4Title?: string;
-    processStep4Desc?: string;
-    processStep5Title?: string;
-    processStep5Desc?: string;
-    marketsTitle?: string;
-    marketsSubtitle?: string;
-    certificationsTitle?: string;
-    certificationsSubtitle?: string;
-    cert1Title?: string;
-    cert1Desc?: string;
-    cert2Title?: string;
-    cert2Desc?: string;
-    cert3Title?: string;
-    cert3Desc?: string;
-    cert4Title?: string;
-    cert4Desc?: string;
-    faqTitle?: string;
-    faqSubtitle?: string;
-    faq1Q?: string;
-    faq1A?: string;
-    faq2Q?: string;
-    faq2A?: string;
-    faq3Q?: string;
-    faq3A?: string;
-    faq4Q?: string;
-    faq4A?: string;
-    faq5Q?: string;
-    faq5A?: string;
+    [key: string]: string | undefined;
   };
   export: {
     division: string;

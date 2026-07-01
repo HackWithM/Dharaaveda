@@ -7,6 +7,7 @@ import OptimizedImage from "../components/OptimizedImage";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
+import { useSeo } from "../lib/useSeo";
 
 import { EXPORT_CATEGORIES, ProductCategory } from "../data/exportProducts";
 import ProductCategoryCard from "../components/ProductCategoryCard";
@@ -21,6 +22,7 @@ export default function Export() {
 
   const { lang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
+  useSeo(t.seo?.exportTitle || staticTranslations.en.seo?.exportTitle, t.seo?.exportDesc || staticTranslations.en.seo?.exportDesc);
 
   const handleOpenCategoryModal = useCallback((category: ProductCategory) => {
     setSelectedCategoryModal(category);

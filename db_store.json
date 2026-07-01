@@ -2369,6 +2369,30 @@
           "name": "Heinrich Müller",
           "role": "Directeur Import, Alt-Apotheke (Hamburg)",
           "content": "De groene kardemom van DharaAveda voldoet aan de allerhoogste kwaliteitsstandaarden voor Europese import. Hun levertijden, analytische certificeringen en onberispelijke verpakking vertegenwoordigen absolute agrarische luxe."
+        },
+        "id": {
+          "id": "test-004",
+          "name": "Heinrich Müller",
+          "role": "Residen Retreat",
+          "content": "Sesi penyelarasan suara kuarsa di dalam taman hutan Wayanad terasa seperti pengaturan ulang biologis. Tidak adanya sinyal EMF adalah kunci kenyamanan utama."
+        },
+        "vi": {
+          "id": "test-004",
+          "name": "Heinrich Müller",
+          "role": "Khách Lưu trú",
+          "content": "Buổi trị liệu âm thanh thạch anh trong khu vườn rừng Wayanad mang lại cảm giác phục hồi sinh học hoàn toàn. Việc không có sóng điện từ EMF là yếu tố then chốt cho sự thư giãn."
+        },
+        "th": {
+          "id": "test-004",
+          "name": "Heinrich Müller",
+          "role": "ผู้เข้าพักพักผ่อน",
+          "content": "การจูนคลื่นเสียงควอตซ์ในสวนป่าเวยานาดให้ความรู้สึกเหมือนได้รับการรีเซ็ตระบบชีวภาพ การไม่มีคลื่นแม่เหล็กไฟฟ้า (EMF) รบกวนคือหัวใจสำคัญของการผ่อนคลาย"
+        },
+        "pl": {
+          "id": "test-004",
+          "name": "Heinrich Müller",
+          "role": "Mieszkaniec Retreat",
+          "content": "Sesja dostrajania dźwiękiem kwarcu w ogrodach leśnych Wayanad była jak biologiczny reset. Całkowity brak smogu elektromagnetycznego (EMF) jest kluczem do relaksu."
         }
       }
     },
@@ -2516,6 +2540,30 @@
           "name": "Elena Rostova",
           "role": "Integrative Wellness Director, Geneva Retreats",
           "content": "De Bachbloesemconsultatie bij DharaAveda is een werk van hoge spirituele kunst. De op maat gemaakte formules hebben diverse van onze cliënten geholpen hun innerlijke balans te herwinnen op momenten dat conventionele methoden faalden."
+        },
+        "id": {
+          "id": "test-001",
+          "name": "Elena Rostova",
+          "role": "Direktur Pengadaan, Hanseatic Spices GmbH",
+          "content": "Dharaaveda telah menjadi mitra premium kami untuk rempah-rempah. Pengiriman kapulaga mereka tiba dengan segel vakum yang sempurna dan cleared oleh SGS. Kepatuhan perdagangan yang luar biasa."
+        },
+        "vi": {
+          "id": "test-001",
+          "name": "Elena Rostova",
+          "role": "Giám đốc Thu mua, Hanseatic Spices GmbH",
+          "content": "Dharaaveda là đối tác cao cấp của chúng tôi về gia vị. Các lô hàng bạch đậu khấu của họ luôn được hút chân không hoàn hảo và được SGS thông quan. Tuân thủ thương mại xuất sắc."
+        },
+        "th": {
+          "id": "test-001",
+          "name": "Elena Rostova",
+          "role": "ผู้อำนวยการฝ่ายจัดซื้อ, Hanseatic Spices GmbH",
+          "content": "Dharaaveda เป็นพันธมิตรระดับพรีเมียมของเราสำหรับเครื่องเทศ เครื่องเทศกระวานของพวกเขามาถึงในสภาพสูญญากาศและผ่านการรับรองจาก SGS อย่างยอดเยี่ยม ถือเป็นบริษัทที่มีความสอดคล้องทางการค้าที่โดดเด่น"
+        },
+        "pl": {
+          "id": "test-001",
+          "name": "Elena Rostova",
+          "role": "Dyrektor ds. Zakupów, Hanseatic Spices GmbH",
+          "content": "Dharaaveda jest naszym zaufanym partnerem w dostawach przypraw. Ich kardamon dociera do nas w nienagannym stanie, próżniowo zapakowany i certyfikowany przez SGS. Znakomite standardy handlowe."
         }
       }
     }
@@ -2668,6 +2716,30 @@
         "role": "Technologieprofessional, Welzijnspractitioner & Spiritueel Docent",
         "aboutText": "Ik ben Vikranti Yogesh Sainee, een technologieprofessional, welzijnspractitioner en sociaal betrokken persoon met meer dan 19 jaar ervaring in de IT-industrie binnen diverse domeinen. Mijn kernexpertise ligt in framework-design, Kunstmatige Intelligentie, Gemini AI en moderne cloudtechnologieën, waarbij ik heb gewerkt aan innovatieve en schaalbare technologische oplossingen die aansluiten bij de evoluerende behoeften van digitale transformatie.\n\nNaast mijn professionele reis ben ik al meer dan twee decennia nauw verbonden met de Art of Living Foundation als docent, toegewijde volgeling en actieve vrijwilliger. Deze spirituele reis heeft mij de kracht, helderheid en balans gegeven om vreedzaam en kalm om te gaan met verschillende dimensies van het leven — familie, werk, zakelijke en sociale verantwoordelijkheden.\n\nMet diepe dankbaarheid buig ik voor de levende meester Gurudev Sri Sri Ravi Shankar, wiens wijsheid, begeleiding en zegeningen mijn perspectief op het leven hebben getransformeerd. Zijn leringen hebben mij geholpen om innerlijke vrede, bewustzijn, compassie en het vermogen om de samenleving met toewijding te dienen te cultiveren.",
         "philosophy": "“गुरु गोविंद दोऊ खड़े, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nBetekenis: Wanneer zowel de Goeroe als God voor mij staan, voor wie moet ik dan eerst buigen? Ik buig eerst voor de Goeroe, want door de Goeroe heb ik het Goddelijke gevonden.\n\n“Zonder de zegeningen en begeleiding van de Goeroe blijven ware kennis en richting in het leven onvolledig.”"
+      },
+      "id": {
+        "name": "Dr. Vikranti",
+        "role": "Terapis Utama & Praktisi Energi",
+        "aboutText": "Mendedikasikan hidup untuk menjembatani kearifan pengobatan alami kuno dengan ilmu biofield modern. Spesialisasi dalam mengintegrasikan esensi bunga liar Bach dengan terapi usui reiki untuk pemulihan trauma seluler.",
+        "philosophy": "Tubuh manusia adalah instrumen getaran. Ketika terjadi ketidakharmonisan akibat stres kronis, terapi energi murni bertindak untuk menyelaraskan kembali getaran tersebut menuju pemulihan biologis alami."
+      },
+      "vi": {
+        "name": "Dr. Vikranti",
+        "role": "Trị liệu viên Trưởng & Chuyên gia Năng lượng",
+        "aboutText": "Dành cả cuộc đời để kết hợp y học tự nhiên cổ xưa với khoa học trường sinh học hiện đại. Chuyên sâu về tích hợp hoa Bach hữu cơ với trị liệu Reiki để chữa lành tổn thương tế bào.",
+        "philosophy": "Cơ thể con người là một nhạc cụ rung động. Khi xảy ra sự mất hài hòa do căng thẳng, liệu pháp năng lượng sẽ điều chỉnh các tần số rung động này về trạng thái phục hồi sinh học tự nhiên."
+      },
+      "th": {
+        "name": "Dr. Vikranti",
+        "role": "นักบำบัดหลัก & ผู้เชี่ยวชาญด้านพลังงาน",
+        "aboutText": "อุทิศตนเพื่อเชื่อมโยงการแพทย์ธรรมชาติโบราณเข้ากับวิทยาศาสตร์สนามพลังงานชีวิตสมัยใหม่ มีความเชี่ยวชาญเป็นพิเศษในการผสานสารสกัดดอกไม้ป่าบัคเข้ากับเรกิอุซุอิ เพื่อบำบัดและฟื้นฟูเซลล์ร่างกาย",
+        "philosophy": "ร่างกายของมนุษย์เป็นเครื่องดนตรีที่มีการสั่นสะเทือน เมื่อเกิดความไม่สมดุลอันเนื่องมาจากความเครียดเรื้อรัง การบำบัดพลังงานจะช่วยปรับความถี่การสั่นสะเทือนเหล่านี้ให้กลับสู่สภาวะฟื้นฟูทางชีวภาพตามธรรมชาติ"
+      },
+      "pl": {
+        "name": "Dr. Vikranti",
+        "role": "Główny Terapeuta & Praktyk Energetyczny",
+        "aboutText": "Dedykuje swoją pracę łączeniu starożytnej medycyny naturalnej z nowoczesną nauką o biopolu. Specjalizuje się w integracji organicznych esencji Bacha z reiki w celu leczenia traumy na poziomie komórkowym.",
+        "philosophy": "Ciało ludzkie jest instrumentem wibracyjnym. Kiedy stres powoduje zaburzenie harmonii, terapia energetyczna dostraja te wibracje z powrotem do naturalnego stanu regeneracji biologicznej."
       }
     }
   },

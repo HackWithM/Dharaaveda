@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Arabic:wght@300;450;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;650;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -105,5 +105,78 @@
 
 .animate-radial-glow {
   background: radial-gradient(circle, rgba(250, 152, 15, 0.06) 0%, transparent 70%);
+}
+
+/* ============================================================
+   MULTILINGUAL & RTL SUPPORT OVERRIDES
+   ============================================================ */
+
+/* Premium script-specific font overrides for clean rendering */
+html[lang="ar"] {
+  font-family: "Noto Sans Arabic", "Inter", sans-serif !important;
+}
+html[lang="hi"], html[lang="mr"] {
+  font-family: "Noto Sans Devanagari", "Inter", sans-serif !important;
+}
+html[lang="zh"] {
+  font-family: "Noto Sans SC", sans-serif !important;
+}
+html[lang="ja"] {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+html[lang="ko"] {
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+/* RTL Layout support for Arabic */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}
+
+/* Reverse logical paddings and margins */
+[dir="rtl"] .pl-6 {
+  padding-left: 0 !important;
+  padding-right: 1.5rem !important;
+}
+
+[dir="rtl"] .border-l {
+  border-left-width: 0 !important;
+  border-right-width: 1px !important;
+}
+
+[dir="rtl"] .border-r {
+  border-right-width: 0 !important;
+  border-left-width: 1px !important;
+}
+
+[dir="rtl"] .border-l-2 {
+  border-left-width: 0 !important;
+  border-right-width: 2px !important;
+}
+
+[dir="rtl"] .border-r-2 {
+  border-right-width: 0 !important;
+  border-left-width: 2px !important;
+}
+
+/* Flip tailwind flow classes */
+[dir="rtl"] [class*="space-x-"] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1 !important;
+}
+
+/* Mirror layout icons (arrows and chevrons) */
+[dir="rtl"] .lucide-chevron-right,
+[dir="rtl"] .lucide-arrow-right,
+[dir="rtl"] .lucide-arrow-left,
+[dir="rtl"] .lucide-chevron-left {
+  transform: scaleX(-1) !important;
 }
 

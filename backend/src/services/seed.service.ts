@@ -510,6 +510,57 @@ export async function seedDatabase(): Promise<void> {
     const productsCount = await Product.countDocuments();
     if (productsCount > 0) {
       console.log("Database already populated. Enforced pricing & duration updates.");
+      
+      // Load localDb for syncing translations
+      let localDb: any = null;
+      const pathsToSearch = [
+        path.join(process.cwd(), "db_store.json"),
+        path.join(process.cwd(), "../db_store.json"),
+        path.join(__dirname, "../../../db_store.json"),
+        path.join(__dirname, "../../db_store.json"),
+      ];
+
+      for (const p of pathsToSearch) {
+        if (fs.existsSync(p)) {
+          try {
+            const fileContent = fs.readFileSync(p, "utf-8");
+            localDb = JSON.parse(fileContent);
+            break;
+          } catch (e) {}
+        }
+      }
+
+      if (localDb) {
+        console.log("Syncing database translations from db_store.json...");
+        if (localDb.services) {
+          for (const s of localDb.services) {
+            if (s.translations) {
+              await TherapyService.updateOne({ _id: s.id || s._id }, { $set: { translations: s.translations } }).catch(() => {});
+            }
+          }
+        }
+        if (localDb.testimonials) {
+          for (const t of localDb.testimonials) {
+            if (t.translations) {
+              await Testimonial.updateOne({ _id: t.id || t._id }, { $set: { translations: t.translations } }).catch(() => {});
+            }
+          }
+        }
+        if (localDb.aboutVikranti && localDb.aboutVikranti.translations) {
+          await AboutContent.updateOne(
+            { _id: localDb.aboutVikranti.id || localDb.aboutVikranti._id || "about_vikranti" },
+            { $set: { translations: localDb.aboutVikranti.translations } }
+          ).catch(() => {});
+        }
+        if (localDb.screenshotReviews) {
+          for (const r of localDb.screenshotReviews) {
+            if (r.translations) {
+              await ScreenshotReview.updateOne({ _id: r.id || r._id }, { $set: { translations: r.translations } }).catch(() => {});
+            }
+          }
+        }
+        console.log("Database translations synced successfully.");
+      }
       return;
     }
 

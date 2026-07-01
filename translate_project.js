@@ -18,7 +18,6 @@ const ai = new GoogleGenAI({ apiKey });
 const languages = [
   { code: "hi", name: "Hindi" },
   { code: "mr", name: "Marathi" },
-  { code: "sa", name: "Sanskrit" },
   { code: "es", name: "Spanish" },
   { code: "fr", name: "French" },
   { code: "de", name: "German" },
@@ -29,15 +28,12 @@ const languages = [
   { code: "ja", name: "Japanese" },
   { code: "ko", name: "Korean" },
   { code: "ar", name: "Arabic" },
-  { code: "bn", name: "Bengali" },
-  { code: "ta", name: "Tamil" },
-  { code: "te", name: "Telugu" },
-  { code: "ml", name: "Malayalam" },
-  { code: "kn", name: "Kannada" },
-  { code: "gu", name: "Gujarati" },
-  { code: "pa", name: "Punjabi" },
   { code: "tr", name: "Turkish" },
-  { code: "nl", name: "Dutch" }
+  { code: "nl", name: "Dutch" },
+  { code: "id", name: "Indonesian" },
+  { code: "vi", name: "Vietnamese" },
+  { code: "th", name: "Thai" },
+  { code: "pl", name: "Polish" }
 ];
 
 // Build products translation master
@@ -388,6 +384,18 @@ const enMaster = {
     reviewErrorRating: "Rating must be between 1 and 5 stars",
     reviewsModality: "MODALITY RESIDENCE"
   },
+  seo: {
+    homeTitle: "DharaAveda Sanctuary | Restorative Quantum Healing & Premium Wellness Exports",
+    homeDesc: "DharaAveda Sanctuary blends classical Bach wildflower therapy, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and sound attunements.",
+    exportTitle: "Agricultural Trade Division | DharaAveda Sanctuary",
+    exportDesc: "Direct-source premium green cardamom, pure Shilajit resin, and organic aromatherapy extracts. Authorized APEDA and SGS compliance.",
+    wellnessTitle: "Restorative Quantum Sanctuary & Therapies | DharaAveda",
+    wellnessDesc: "Experience Usui Reiki, Bach flower consultations, and 432Hz sound therapy at our Wayanad sanctuary in Kerala.",
+    bookingTitle: "Schedule Your Attunement Residency | DharaAveda",
+    bookingDesc: "Reserve your confidential intake session for Reiki alignment, Bach flower consultations, or deep sound healing.",
+    contactTitle: "Contact the Council Desk | DharaAveda",
+    contactDesc: "Get in touch for bulk agricultural shipments, commodity contracts, or sanctuary wellness admissions."
+  },
   products: productsMaster
 };
 
@@ -399,7 +407,7 @@ const MODELS = [
 ];
 let currentModelIndex = 0;
 
-const block1Keys = ["navbar", "footer", "home", "export", "booking", "contact", "product", "wellness"];
+const block1Keys = ["navbar", "footer", "home", "export", "booking", "contact", "product", "wellness", "seo"];
 
 async function translateSection(key, sourceObj, targetLang) {
   const prompt = `You are a professional luxury brand translator. Translate the following English localization JSON structure into ${targetLang}.
@@ -615,8 +623,9 @@ async function run() {
     // Translate for other languages
     for (const lang of languages) {
       const filePath = path.join(localesDir, `${lang.code}.ts`);
+      let translatedObj;
       if (!fs.existsSync(filePath)) {
-        const translatedObj = await translateObjectSectionBySection(enMaster, lang.name);
+        translatedObj = await translateObjectSectionBySection(enMaster, lang.name);
         fs.writeFileSync(
           filePath,
           `import { StaticTranslations } from "../translations";\n\nexport const translations: StaticTranslations = ${JSON.stringify(translatedObj, null, 2)};\n`,
@@ -624,7 +633,35 @@ async function run() {
         );
         console.log(`Successfully generated translation file for ${lang.code}.ts`);
       } else {
-        console.log(`Translation file for ${lang.code} already exists. Skipping static trans.`);
+        console.log(`Translation file for ${lang.code} already exists. Checking for missing keys...`);
+        const fileContent = fs.readFileSync(filePath, "utf-8");
+        const jsonMatch = fileContent.match(/export const translations: StaticTranslations = (\{[\s\S]+\});/);
+        if (jsonMatch) {
+          try {
+            translatedObj = JSON.parse(jsonMatch[1]);
+            let dirty = false;
+            if (!translatedObj.seo) {
+              console.log(`  Translating missing "seo" section for ${lang.name}...`);
+              const seoTranslated = await translateSectionWithRetry("seo", enMaster.seo, lang.name);
+              translatedObj.seo = seoTranslated;
+              dirty = true;
+            }
+            if (dirty) {
+              fs.writeFileSync(
+                filePath,
+                `import { StaticTranslations } from "../translations";\n\nexport const translations: StaticTranslations = ${JSON.stringify(translatedObj, null, 2)};\n`,
+                "utf-8"
+              );
+              console.log(`Updated translation file for ${lang.code}.ts with missing sections.`);
+            } else {
+              console.log(`Translation file for ${lang.code}.ts is up-to-date.`);
+            }
+          } catch (e) {
+            console.error(`Error parsing existing translation file for ${lang.code}:`, e);
+          }
+        } else {
+          console.error(`Could not parse JSON structure from ${lang.code}.ts`);
+        }
       }
 
       // Translate db fields sequentially per language

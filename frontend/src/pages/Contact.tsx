@@ -5,6 +5,7 @@ import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { sendEmail } from "../services/emailService";
 import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
+import { useSeo } from "../lib/useSeo";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -17,6 +18,7 @@ export default function Contact() {
 
   const { lang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
+  useSeo(t.seo?.contactTitle || staticTranslations.en.seo?.contactTitle, t.seo?.contactDesc || staticTranslations.en.seo?.contactDesc);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

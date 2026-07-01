@@ -7,6 +7,7 @@ import { staticTranslations, LanguageCode } from "../lib/translations";
 import { useLanguage } from "../lib/LanguageContext";
 import { IMAGES } from "../data/images";
 import OptimizedImage from "../components/OptimizedImage";
+import { useSeo } from "../lib/useSeo";
 
 const BookingForm = lazy(() => import("../components/BookingForm"));
 
@@ -52,6 +53,7 @@ export default function Wellness() {
   }, [isBookingModalOpen]);
 
   const rootT = staticTranslations[lang] || staticTranslations.en;
+  useSeo(rootT.seo?.wellnessTitle || staticTranslations.en.seo?.wellnessTitle, rootT.seo?.wellnessDesc || staticTranslations.en.seo?.wellnessDesc);
   const t = {
     ...rootT.wellness,
     booking: rootT.booking,

@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { Sparkles, MapPin, ShieldCheck } from "lucide-react";
 import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
+import { useSeo } from "../lib/useSeo";
 
 const BookingForm = lazy(() => import("../components/BookingForm"));
 
@@ -12,6 +13,7 @@ export default function Booking() {
 
   const { lang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
+  useSeo(t.seo?.bookingTitle || staticTranslations.en.seo?.bookingTitle, t.seo?.bookingDesc || staticTranslations.en.seo?.bookingDesc);
 
   return (
     <div className="bg-white text-gray-900 min-h-screen pt-28 pb-20 px-4 font-sans relative">

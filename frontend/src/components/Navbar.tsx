@@ -10,26 +10,22 @@ const LANGUAGES = [
   { code: "en", name: "English", nativeName: "English" },
   { code: "hi", name: "Hindi", nativeName: "हिन्दी" },
   { code: "mr", name: "Marathi", nativeName: "मराठी" },
-  { code: "sa", name: "Sanskrit", nativeName: "संस्कृतम्" },
   { code: "es", name: "Spanish", nativeName: "Español" },
   { code: "fr", name: "French", nativeName: "Français" },
   { code: "de", name: "German", nativeName: "Deutsch" },
   { code: "it", name: "Italian", nativeName: "Italiano" },
   { code: "pt", name: "Portuguese", nativeName: "Português" },
   { code: "ru", name: "Russian", nativeName: "Русский" },
-  { code: "zh", name: "Chinese", nativeName: "中文" },
+  { code: "zh", name: "Chinese - Simplified", nativeName: "简体中文" },
   { code: "ja", name: "Japanese", nativeName: "日本語" },
   { code: "ko", name: "Korean", nativeName: "한국어" },
   { code: "ar", name: "Arabic", nativeName: "العربية" },
-  { code: "bn", name: "Bengali", nativeName: "বাংলা" },
-  { code: "ta", name: "Tamil", nativeName: "தமிழ்" },
-  { code: "te", name: "Telugu", nativeName: "తెలుగు" },
-  { code: "ml", name: "Malayalam", nativeName: "മലയാളം" },
-  { code: "kn", name: "Kannada", nativeName: "ಕನ್ನಡ" },
-  { code: "gu", name: "Gujarati", nativeName: "ગુજરાती" },
-  { code: "pa", name: "Punjabi", nativeName: "ਪੰਜਾਬੀ" },
   { code: "tr", name: "Turkish", nativeName: "Türkçe" },
-  { code: "nl", name: "Dutch", nativeName: "Nederlands" }
+  { code: "nl", name: "Dutch", nativeName: "Nederlands" },
+  { code: "id", name: "Indonesian", nativeName: "Bahasa Indonesia" },
+  { code: "vi", name: "Vietnamese", nativeName: "Tiếng Việt" },
+  { code: "th", name: "Thai", nativeName: "ไทย" },
+  { code: "pl", name: "Polish", nativeName: "Polski" }
 ] as const;
 
 export default function Navbar() {
