@@ -691,12 +691,12 @@ export default function Wellness() {
                 {t.reviewsEmpty}
               </div>
             ) : (
-              <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+              <div className="flex flex-row flex-nowrap overflow-x-auto gap-6 pb-6 no-scrollbar snap-x">
                 {screenshotReviews.map((rev, index) => (
                   <div
                     key={rev.id || index}
                     onClick={() => setPreviewImage(rev.imageUrl)}
-                    className="break-inside-avoid bg-white rounded-2xl border border-gray-200 overflow-hidden group hover:border-therapy-300 transition-all duration-300 shadow-md hover:shadow-xl cursor-zoom-in relative flex flex-col p-4 space-y-4 hover:-translate-y-1"
+                    className="snap-start shrink-0 w-[280px] sm:w-[360px] bg-white rounded-2xl border border-gray-200 overflow-hidden group hover:border-therapy-300 transition-all duration-300 shadow-md hover:shadow-xl cursor-zoom-in relative flex flex-col p-4 space-y-4 hover:-translate-y-1"
                   >
                     {/* Visual Media with Zoom & Badge */}
                     <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-50 border border-gray-100">

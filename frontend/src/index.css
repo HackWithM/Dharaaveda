@@ -180,3 +180,12 @@ html[lang="ko"] {
   transform: scaleX(-1) !important;
 }
 
+/* Hide scrollbar utility class */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
