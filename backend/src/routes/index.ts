@@ -589,36 +589,54 @@ router.get(
   })
 );
 
+const getBaseUrl = (req: Request) => {
+  const host = req.get("host") || "";
+  const protocol = req.headers["x-forwarded-proto"] || req.protocol || "http";
+  return `${protocol}://${host}`;
+};
+
+router.get(
+  "/screenshot-reviews/image/:id",
+  asyncHandler(async (req, res) => {
+    const review = await ScreenshotReview.findById(req.params.id);
+    if (!review || !review.imageData) {
+      res.status(404).json({ error: "Image not found in Wayanad archives" });
+      return;
+    }
+    const mimeType = review.imageMimeType || "image/png";
+    const buffer = Buffer.from(review.imageData, "base64");
+    res.setHeader("Content-Type", mimeType);
+    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    res.send(buffer);
+  })
+);
+
 router.post(
   "/screenshot-reviews",
   requireAuth,
   asyncHandler(async (req, res) => {
     let imageUrl = req.body.imageUrl || "";
+    let imageData = "";
+    let imageMimeType = "";
+    const reviewId = "sr_" + Date.now().toString();
 
-    // Decode and save base64 uploads locally
+    // Parse base64 data and store in MongoDB
     if (imageUrl && imageUrl.startsWith("data:image/")) {
-      const match = imageUrl.match(/^data:image\/([a-zA-Z0-9+]+);base64,(.+)$/);
+      const match = imageUrl.match(/^data:(image\/[a-zA-Z0-9+]+);base64,(.+)$/);
       if (match) {
-        const ext = match[1];
-        const base64Data = match[2];
-        const buffer = Buffer.from(base64Data, "base64");
-        const filename = `screenshot_${Date.now()}.${ext === "jpeg" ? "jpg" : ext}`;
-        const uploadDir = path.join(__dirname, "../../uploads");
-        
-        if (!fs.existsSync(uploadDir)) {
-          fs.mkdirSync(uploadDir, { recursive: true });
-        }
-        
-        fs.writeFileSync(path.join(uploadDir, filename), buffer);
-        imageUrl = `${req.protocol}://${req.get("host")}/uploads/${filename}`;
+        imageMimeType = match[1];
+        imageData = match[2];
+        imageUrl = `${getBaseUrl(req)}/api/screenshot-reviews/image/${reviewId}`;
       }
     }
 
     const review = await ScreenshotReview.create({
-      _id: "sr_" + Date.now().toString(),
+      _id: reviewId,
       imageUrl: imageUrl,
       caption: req.body.caption || "Client review screenshot",
       platform: req.body.platform || "whatsapp",
+      imageData: imageData || undefined,
+      imageMimeType: imageMimeType || undefined,
       translations: req.body.translations || {}
     });
 

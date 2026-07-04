@@ -72,6 +72,7 @@ export default function Navbar() {
     { name: t.navbar.home || "Home", path: "/" },
     { name: t.navbar.export || "Export", path: "/export" },
     { name: t.navbar.therapy || "Therapy", path: "/wellness" },
+    { name: t.navbar.myBookings || "My Bookings", path: "/my-bookings" },
     { name: t.navbar.contact || "Contact", path: "/contact" },
   ];
 
@@ -89,6 +90,9 @@ export default function Navbar() {
         break;
       case "/contact":
         import("../pages/Contact").catch(() => {});
+        break;
+      case "/my-bookings":
+        import("../pages/MyBookings").catch(() => {});
         break;
       case "/booking":
         Promise.all([

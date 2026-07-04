@@ -23,6 +23,7 @@ export interface StaticTranslations {
     export: string;
     therapy: string;
     contact: string;
+    myBookings?: string;
     admin: string;
     console: string;
     language: string;

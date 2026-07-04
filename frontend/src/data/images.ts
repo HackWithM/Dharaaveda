@@ -26,11 +26,11 @@ export const IMAGES = {
   // ----------------------------------------------------------
   home: {
     /** Full-width hero background on the Home landing section */
-    heroBg: "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEzZTJkMTI1NDZjODE5MTg5ZDE3NDIzNGQ2MmNkNDQ6ZmlsZV8wMDAwMDAwMGM1ZjQ3MjBiYWNiMzhiYzM0YjM5ZWZhZiIsImdpem1vX2lkIjpudWxsLCJ0cyI6IjIwNjMwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI1MmY0MTM1YzNiM2JiMWM1MDY3ZDg5MGIwODgzNjQ1ZTM0MDE2NDg0ODExNGZhY2YwODdkOTEzZjExMTU5MzNkIiwidiI6IjAiLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
+    heroBg: "src/assets/images/manually/home.png",
     /** Background image for the Export showcase card on Home */
     exportCardBg: "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
     /** Background image for the Therapy showcase card on Home */
-    therapyCardBg: "/images/therapy/bachFlowerService.webp",
+    therapyCardBg: "images/therapy/bachFlowerService.webp",
   },
 
   // ----------------------------------------------------------
@@ -75,7 +75,7 @@ export const IMAGES = {
   exportProducts: {
     // Spices
     turmericPowder: "https://rubflex.com/wp-content/uploads/2022/10/TURMERIC-Slides-V3_2-1-1.jpg",
-    redChilliPowder:"https://www.neonaturalindustries.com/wp-content/uploads/2022/06/red-chillies.jpg",
+    redChilliPowder: "https://www.neonaturalindustries.com/wp-content/uploads/2022/06/red-chillies.jpg",
     corianderPowder: "https://tiimg.tistatic.com/fp/1/009/713/coriander-powder-019.jpg",
     cuminPowder: "https://vibrantliving.in/cdn/shop/files/Cumin_543f69f0-f80b-42e7-b0c6-a45ee4d535b4.png?v=1731059986&width=2048",
     blackPepper: "https://d3kgrlupo77sg7.cloudfront.net/media/chococoorgspice.com/images/products/medium/black-pepper-powder-coorg-spices.20260315024227.webp",

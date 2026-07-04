@@ -107,7 +107,8 @@ export default function OptimizedImage({
         loading={priority ? "eager" : "lazy"}
         referrerPolicy="no-referrer"
         onLoad={() => setIsLoaded(true)}
-        onError={() => {
+        onError={(e) => {
+          console.error("OptimizedImage load failed for src:", src, e);
           setHasError(true);
           setIsLoaded(true);
         }}

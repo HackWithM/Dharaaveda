@@ -119,8 +119,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/wellness#sound" className="hover:text-orange-500 transition-colors">
-                  {t.wellnessLink3}
+                <Link to="/my-bookings" className="hover:text-orange-500 transition-colors">
+                  My Bookings
                 </Link>
               </li>
               <li>
@@ -168,9 +168,6 @@ export default function Footer() {
           <div className="flex flex-wrap gap-4 items-center mb-6 sm:mb-0 justify-center">
             <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
               APEDA CERTIFIED
-            </span>
-            <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
-              ISO 9001:2015
             </span>
             <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
               FSSAI STANDARD EXPORT

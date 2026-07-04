@@ -4,6 +4,8 @@ export interface IScreenshotReview extends Document<string> {
   imageUrl: string;
   caption: string;
   platform: "whatsapp" | "instagram";
+  imageData?: string;
+  imageMimeType?: string;
   translations?: Record<string, any>;
 }
 
@@ -12,6 +14,8 @@ const ScreenshotReviewSchema = new Schema<IScreenshotReview>({
   imageUrl: { type: String, required: true },
   caption: { type: String, required: true },
   platform: { type: String, enum: ["whatsapp", "instagram"], required: true },
+  imageData: { type: String },
+  imageMimeType: { type: String },
   translations: { type: Schema.Types.Mixed, default: {} }
 }, {
   toJSON: { virtuals: true },

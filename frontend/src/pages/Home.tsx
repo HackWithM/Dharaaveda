@@ -589,16 +589,6 @@ export default function Home() {
                     <p className="text-xs text-gray-500 mt-1">{getVal("highlightsTherapy3Desc")}</p>
                   </div>
                 </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded bg-white border border-gray-200 flex items-center justify-center shrink-0 text-orange-500 shadow-sm">
-                    <Droplet className="w-4 h-4" />
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-semibold text-gray-900 font-serif">{getVal("highlightsTherapy4")}</h4>
-                    <p className="text-xs text-gray-500 mt-1">{getVal("highlightsTherapy4Desc")}</p>
-                  </div>
-                </div>
               </div>
             </div>
 

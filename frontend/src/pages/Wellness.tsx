@@ -945,37 +945,6 @@ export default function Wellness() {
         </div>
       </section>
 
-      {/* 4. SANCTUARY INFO LOCATION MATTERS */}
-      <section className="py-20 px-4 bg-slate-50 border-t border-gray-200 relative z-10">
-        <div className="max-w-5xl mx-auto bg-white rounded-3xl p-8 sm:p-12 border border-gray-200 relative overflow-hidden shadow-xl">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-therapy-500/5 rounded-full blur-2xl pointer-events-none" />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-4">
-              <span className="text-[10px] font-mono tracking-[0.25em] text-therapy-600 uppercase block">{t.locationBadge}</span>
-              <h3 className="font-serif text-2xl sm:text-3xl text-gray-900 font-bold">{t.locationTitle}</h3>
-              <p className="text-xs text-gray-600 leading-relaxed font-sans font-light">
-                {t.locationDesc}
-              </p>
-            </div>
-
-            <div className="aspect-video relative rounded-2xl overflow-hidden border border-gray-200 shadow-lg h-52 w-full">
-              <OptimizedImage
-                src={IMAGES.therapy.sanctuaryLocation}
-                alt="Wayanad highland retreat"
-                className="w-full h-full"
-                imgClassName="filter brightness-90"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-              <div className="absolute bottom-3 left-3 flex items-center space-x-1.5 text-xs text-white">
-                <Compass className="w-4 h-4 text-therapy-500" />
-                <span className="font-mono text-[10px]">{t.locationBanner}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* 5. ELEGANT THERAPY PAGE FOOTER CTA */}
       <section className="py-24 px-4 bg-slate-50 border-t border-gray-200 text-center relative z-10 overflow-hidden">

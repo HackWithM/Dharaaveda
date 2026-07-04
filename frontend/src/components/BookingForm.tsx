@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Sparkles, CalendarRange, Clock, CheckCircle, Mail, User, Phone, BookOpen, ChevronRight, ChevronLeft, ShieldCheck, AlertCircle, RefreshCw } from "lucide-react";
+import { Sparkles, CalendarRange, Clock, CheckCircle, Mail, User, Phone, BookOpen, ChevronRight, ChevronLeft, ShieldCheck, AlertCircle, RefreshCw, Download, Share2 } from "lucide-react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { TherapyService, Booking } from "../types";
 import { api } from "../lib/api";
@@ -7,7 +7,21 @@ import { useLanguage } from "../lib/LanguageContext";
 import { staticTranslations } from "../lib/translations";
 import { sendEmail } from "../services/emailService";
 import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
+import { downloadReceipt, shareReceipt } from "../utils/pdfGenerator";
 
+
+const saveBookingToLocalStorage = (booking: Booking) => {
+  try {
+    const existing = localStorage.getItem("dharaaveda_bookings");
+    const bookings = existing ? JSON.parse(existing) : [];
+    if (!bookings.some((b: Booking) => b.bookingId === booking.bookingId)) {
+      bookings.push(booking);
+      localStorage.setItem("dharaaveda_bookings", JSON.stringify(bookings));
+    }
+  } catch (err) {
+    console.error("Failed to persist booking in localStorage:", err);
+  }
+};
 
 interface BookingFormProps {
   preselectedServiceId?: string;
@@ -44,6 +58,9 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
   const [isMockPayment, setIsMockPayment] = useState(false);
   const [paymentKeyId, setPaymentKeyId] = useState("");
   const [confirmedBooking, setConfirmedBooking] = useState<Booking | null>(null);
+  const [downloading, setDownloading] = useState(false);
+  const [sharing, setSharing] = useState(false);
+  const [pdfMessage, setPdfMessage] = useState<{ type: "success" | "error" | ""; text: string }>({ type: "", text: "" });
 
   const sendBookingEmail = async (booking: Booking) => {
     try {
@@ -58,6 +75,42 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
       });
     } catch (err) {
       console.error("Failed to send booking email:", err);
+    }
+  };
+
+  const handleDownload = async () => {
+    if (!confirmedBooking) return;
+    setDownloading(true);
+    setPdfMessage({ type: "", text: "" });
+    try {
+      const success = await downloadReceipt(confirmedBooking);
+      if (success) {
+        setPdfMessage({ type: "success", text: "Receipt downloaded successfully." });
+      } else {
+        setPdfMessage({ type: "error", text: "PDF generation failed. Please try again." });
+      }
+    } catch (err: any) {
+      setPdfMessage({ type: "error", text: err.message || "Failed to generate receipt." });
+    } finally {
+      setDownloading(false);
+    }
+  };
+
+  const handleShare = async () => {
+    if (!confirmedBooking) return;
+    setSharing(true);
+    setPdfMessage({ type: "", text: "" });
+    try {
+      const res = await shareReceipt(confirmedBooking);
+      if (res.success) {
+        setPdfMessage({ type: "success", text: "Receipt shared successfully." });
+      } else if (res.error) {
+        setPdfMessage({ type: "error", text: res.error });
+      }
+    } catch (err: any) {
+      setPdfMessage({ type: "error", text: err.message || "Failed to share receipt." });
+    } finally {
+      setSharing(false);
     }
   };
 
@@ -194,6 +247,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
               });
 
               if (verifyRes.success) {
+                saveBookingToLocalStorage(verifyRes.booking);
                 setConfirmedBooking(verifyRes.booking);
                 setStep(6);
                 await sendBookingEmail(verifyRes.booking);
@@ -244,6 +298,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         });
 
         if (verifyRes.success) {
+          saveBookingToLocalStorage(verifyRes.booking);
           setConfirmedBooking(verifyRes.booking);
           setStep(6);
           await sendBookingEmail(verifyRes.booking);
@@ -707,51 +762,105 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         {/* STEP 6: BOOKING CONFIRMED SUCCESS PAGE */}
         {step === 6 && confirmedBooking && (
           <div className="py-6 text-center space-y-6 font-sans animate-fade-in">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-emerald-50 border border-emerald-250 text-emerald-500 animate-pulse">
+            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-500">
               <CheckCircle className="w-10 h-10" />
             </div>
             
             <div className="space-y-2">
-              <h3 className="font-serif text-2xl font-bold text-gray-900">Residency Booking Confirmed!</h3>
+              <h3 className="font-serif text-2xl font-bold tracking-wide uppercase text-gray-900">
+                Residency Booking Confirmed!
+              </h3>
               <p className="text-xs text-gray-500 max-w-sm mx-auto leading-relaxed">
                 Thank you. Your appointment has been secured, and a confirmation email was successfully dispatched to <strong className="text-gray-700">{confirmedBooking.email}</strong>.
               </p>
             </div>
 
-            {/* Receipt slips list */}
-            <div className="p-6 bg-slate-50 border border-gray-250 rounded-2xl max-w-md mx-auto text-xs text-gray-700 space-y-3 shadow-inner">
-              <p className="text-gray-400 font-mono text-[9px] uppercase tracking-widest border-b border-gray-200 pb-2 text-center">Receipt Reference Slip</p>
+            {/* Receipt PDF status toast */}
+            {pdfMessage.text && (
+              <div className={`p-4 rounded-xl text-xs max-w-md mx-auto flex items-center justify-center space-x-2 border transition-all duration-300 ${
+                pdfMessage.type === "success" 
+                  ? "bg-emerald-50 border-emerald-200 text-emerald-700" 
+                  : "bg-red-50 border-red-200 text-red-700"
+              }`}>
+                {pdfMessage.type === "success" ? (
+                  <CheckCircle className="w-4 h-4 text-emerald-500 shrink-0" />
+                ) : (
+                  <AlertCircle className="w-4 h-4 text-red-500 shrink-0" />
+                )}
+                <span className="font-medium">{pdfMessage.text}</span>
+              </div>
+            )}
+
+            {/* Receipt Reference Slip card */}
+            <div className="p-6 bg-white border border-gray-200 rounded-[24px] max-w-md mx-auto text-xs text-gray-700 space-y-4 shadow-sm">
+              <p className="text-gray-400 font-mono text-[9px] uppercase tracking-[0.2em] border-b border-gray-100 pb-3 text-center">Receipt Reference Slip</p>
               
               <div className="flex justify-between items-center py-1">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Booking ID</span>
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Booking ID</span>
                 <span className="font-mono font-bold text-gray-900">{confirmedBooking.bookingId}</span>
               </div>
-              <div className="flex justify-between items-center py-1 border-t border-gray-100">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Therapy Type</span>
-                <span className="font-semibold text-gray-900">{confirmedBooking.service}</span>
+              <div className="flex justify-between items-center py-1 border-t border-gray-100 pt-3">
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Therapy Type</span>
+                <span className="font-bold text-gray-950">{confirmedBooking.service}</span>
               </div>
-              <div className="flex justify-between items-center py-1 border-t border-gray-100">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Date</span>
-                <span className="font-semibold text-gray-900">{confirmedBooking.date}</span>
+              <div className="flex justify-between items-center py-1 border-t border-gray-100 pt-3">
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Date</span>
+                <span className="font-bold text-gray-950">{confirmedBooking.date}</span>
               </div>
-              <div className="flex justify-between items-center py-1 border-t border-gray-100">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Arrival Time</span>
-                <span className="font-semibold text-gray-900">{confirmedBooking.time}</span>
+              <div className="flex justify-between items-center py-1 border-t border-gray-100 pt-3">
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Arrival Time</span>
+                <span className="font-bold text-gray-950">{confirmedBooking.time}</span>
               </div>
-              <div className="flex justify-between items-center py-1 border-t border-gray-100">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Duration</span>
-                <span className="text-gray-800">1 Hour</span>
+              <div className="flex justify-between items-center py-1 border-t border-gray-100 pt-3">
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Duration</span>
+                <span className="font-semibold text-gray-800">1 Hour</span>
               </div>
-              <div className="flex justify-between items-center py-1 border-t border-gray-100 font-bold">
-                <span className="text-gray-450 font-mono text-[10px] uppercase">Amount Paid</span>
-                <span className="text-[#FA980F]">₹{confirmedBooking.amount.toLocaleString("en-IN")}</span>
+              <div className="flex justify-between items-center py-1 border-t border-gray-100 pt-3 font-bold">
+                <span className="text-gray-400 font-mono text-[9px] uppercase tracking-wider">Amount Paid</span>
+                <span className="text-[#FA980F] text-sm">₹{confirmedBooking.amount.toLocaleString("en-IN")}</span>
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-sm mx-auto pt-4 text-xs font-mono">
+            {/* Receipt Actions Row */}
+            <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto pt-2 text-xs font-mono">
+              <button
+                onClick={handleDownload}
+                disabled={downloading}
+                className="flex-grow cursor-pointer flex items-center justify-center space-x-2 py-3.5 bg-[#FA980F] hover:bg-orange-600 text-white font-bold uppercase rounded-xl tracking-wider transition-all duration-200 active:scale-98 shadow-md hover:shadow-orange-500/10 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {downloading ? (
+                  <>
+                    <RefreshCw className="w-4 h-4 animate-spin" />
+                    <span>Generating...</span>
+                  </>
+                ) : (
+                  <>
+                    <Download className="w-4 h-4" />
+                    <span>Download Receipt (PDF)</span>
+                  </>
+                )}
+              </button>
+
+              <button
+                onClick={handleShare}
+                disabled={sharing}
+                className="cursor-pointer flex items-center justify-center space-x-2 py-3.5 px-6 border border-gray-250 hover:border-gray-950 text-gray-700 hover:text-gray-950 font-bold uppercase rounded-xl tracking-wider transition-all bg-white disabled:opacity-50"
+                title="Share Booking Details"
+              >
+                {sharing ? (
+                  <RefreshCw className="w-4 h-4 animate-spin" />
+                ) : (
+                  <Share2 className="w-4 h-4" />
+                )}
+                <span>Share</span>
+              </button>
+            </div>
+
+            {/* Standard navigation options */}
+            <div className="border-t border-gray-100 pt-6 mt-6 flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto text-xs font-mono">
               <button
                 onClick={() => navigate("/")}
-                className="px-6 py-3 bg-black hover:bg-gray-800 text-white font-bold uppercase tracking-wider rounded-xl transition-all shadow-md text-center"
+                className="px-6 py-3 bg-black hover:bg-gray-800 text-white font-bold uppercase tracking-wider rounded-xl transition-all shadow-md text-center cursor-pointer"
               >
                 Go to Home Page
               </button>
@@ -766,8 +875,9 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                   setError("");
                   setConfirmedBooking(null);
                   setIsMockPayment(false);
+                  setPdfMessage({ type: "", text: "" });
                 }}
-                className="px-6 py-3 border border-gray-300 hover:border-gray-950 text-gray-700 hover:text-gray-950 font-bold uppercase tracking-wider rounded-xl transition-all text-center bg-white"
+                className="px-6 py-3 border border-gray-300 hover:border-gray-950 text-gray-700 hover:text-gray-950 font-bold uppercase tracking-wider rounded-xl transition-all text-center bg-white cursor-pointer"
               >
                 Book Another Session
               </button>

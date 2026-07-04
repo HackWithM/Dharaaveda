@@ -6,6 +6,7 @@ export const translations: StaticTranslations = {
     "export": "Export",
     "therapy": "Therapy",
     "contact": "Contact",
+    "myBookings": "My Bookings",
     "admin": "Admin",
     "console": "Console",
     "language": "Language",
@@ -24,7 +25,7 @@ export const translations: StaticTranslations = {
     "agriLink4": "Custom Phytosanitary Certification",
     "agriStatus": "● 100% Trace-Audited",
     "wellnessLink1": "Edward Bach Floral Consultations",
-    "wellnessLink2": "Usui Reiki Chromatic Harmony",
+    "wellnessLink2": "Rekkhanoho Therapy",
     "wellnessLink3": "432Hz Quartz Polyphonic Attunements",
     "wellnessLink4": "Schedule Private Residency Session",
     "corpOffice": "Global Trade Office:",
@@ -260,12 +261,12 @@ export const translations: StaticTranslations = {
     "faqDesc": "Answers to recurring contemplations regarding our energy and adaptogenic therapeutic residency programs.",
     "faqItems": [
       {
-        "question": "How do I choose between Reiki, Bach Flower, and Sound alignment?",
+        "question": "How do I choose between Rekkhanoho Therapy and Bach Flower?",
         "answer": "We recommend sharing your immediate emotional or physical challenges during our initial booking consultation. Dr. Vikranti and team will scan your energetic biofield to weave custom modalities tailored to your resonant frequency."
       },
       {
         "question": "Are these therapy cycles held in-person or online?",
-        "answer": "While Usui Reiki and Sound Attunement are highly immersive in our pure Wayanad Villa retreat, Bach Flower emotional consultations and selective energy biofield support can be performed online with equal spiritual potency."
+        "answer": "While Rekkhanoho Therapy and Sound Attunement are highly immersive in our pure Wayanad Villa retreat, Bach Flower emotional consultations and selective energy biofield support can be performed online with equal spiritual potency."
       },
       {
         "question": "Can these therapies be integrated with modern conventional treatments?",
@@ -302,11 +303,11 @@ export const translations: StaticTranslations = {
   },
   "seo": {
     "homeTitle": "DharaAveda Sanctuary | Restorative Quantum Healing & Premium Wellness Exports",
-    "homeDesc": "DharaAveda Sanctuary blends classical Bach wildflower therapy, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and sound attunements.",
+    "homeDesc": "DharaAveda Sanctuary blends classical Bach wildflower therapy, Rekkhanoho Therapy chakra alignment, Aura-Soma chromo-essential oils, and sound attunements.",
     "exportTitle": "Agricultural Trade Division | DharaAveda Sanctuary",
     "exportDesc": "Direct-source premium green cardamom, pure Shilajit resin, and organic aromatherapy extracts. Authorized APEDA and SGS compliance.",
     "wellnessTitle": "Restorative Quantum Sanctuary & Therapies | DharaAveda",
-    "wellnessDesc": "Experience Usui Reiki, Bach flower consultations, and 432Hz sound therapy at our Wayanad sanctuary in Kerala.",
+    "wellnessDesc": "Experience Rekkhanoho Therapy, Bach flower consultations, and 432Hz sound therapy at our Wayanad sanctuary in Kerala.",
     "bookingTitle": "Schedule Your Attunement Residency | DharaAveda",
     "bookingDesc": "Reserve your confidential intake session for Reiki alignment, Bach flower consultations, or deep sound healing.",
     "contactTitle": "Contact the Council Desk | DharaAveda",
