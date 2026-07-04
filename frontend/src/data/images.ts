@@ -26,7 +26,7 @@ export const IMAGES = {
   // ----------------------------------------------------------
   home: {
     /** Full-width hero background on the Home landing section */
-    heroBg: "src/assets/images/manually/home.png",
+    heroBg: "/images/home.png",
     /** Background image for the Export showcase card on Home */
     exportCardBg: "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
     /** Background image for the Therapy showcase card on Home */
