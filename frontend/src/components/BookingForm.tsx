@@ -221,7 +221,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         }
 
         const options = {
-          key: orderRes.keyId,
+          key: import.meta.env.VITE_RAZORPAY_KEY_ID || orderRes.keyId,
           amount: orderRes.amount,
           currency: orderRes.currency,
           name: "DharaAveda Sanctuary",
