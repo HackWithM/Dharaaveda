@@ -206,7 +206,15 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
     setLoading(true);
 
     try {
-      const orderRes = await api.createPaymentOrder(2000);
+      const orderRes = await api.createPaymentOrder(2000, {
+        name,
+        email,
+        phone,
+        service: activeServiceName,
+        date,
+        time,
+        notes: notes || "Standard therapy residency request."
+      });
 
       setRzpOrderId(orderRes.orderId);
       setPaymentKeyId(orderRes.keyId);

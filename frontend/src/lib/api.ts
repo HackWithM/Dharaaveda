@@ -305,10 +305,13 @@ export const api = {
       body: JSON.stringify(paymentData),
     });
   },
-  async createPaymentOrder(amount: number): Promise<{ orderId: string; amount: number; currency: string; keyId: string; isMock: boolean }> {
+  async createPaymentOrder(
+    amount: number,
+    bookingDetails: { name: string; email: string; phone: string; service: string; date: string; time: string; notes?: string }
+  ): Promise<{ orderId: string; amount: number; currency: string; keyId: string; isMock: boolean }> {
     return fetchApi<{ orderId: string; amount: number; currency: string; keyId: string; isMock: boolean }>("/api/payment/create-order", {
       method: "POST",
-      body: JSON.stringify({ amount }),
+      body: JSON.stringify({ amount, ...bookingDetails }),
     });
   },
   async verifyPaymentAndBook(

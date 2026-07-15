@@ -420,7 +420,33 @@ router.post(
 router.post(
   "/payment/create-order",
   asyncHandler(async (req, res) => {
-    const amount = 2000; // ₹2,000 per session
+    const {
+      service,
+      date,
+      time,
+      name,
+      email,
+      phone,
+      notes: bookingNotes,
+      amount: reqAmount
+    } = req.body;
+
+    const amount = reqAmount || 2000; // ₹2,000 per session
+
+    // Guard: reject if this time slot is already booked and paid
+    if (service && date && time) {
+      const conflict = await Booking.findOne({
+        service,
+        date,
+        time,
+        status: { $in: ["confirmed", "completed"] },
+        paymentStatus: "paid"
+      });
+      if (conflict) {
+        res.status(400).json({ error: "This time slot is already booked. Please choose another slot." });
+        return;
+      }
+    }
 
     let orderId = "";
     const keyId = process.env.RAZORPAY_KEY_ID;
@@ -436,7 +462,17 @@ router.post(
         const order = await rzp.orders.create({
           amount: amount * 100, // paise
           currency: "INR",
-          receipt: "receipt_pay_" + Date.now().toString().substring(5)
+          receipt: "receipt_pay_" + Date.now().toString().substring(5),
+          notes: {
+            name: (name || "").substring(0, 254),
+            email: (email || "").substring(0, 254),
+            phone: (phone || "").substring(0, 254),
+            service: (service || "").substring(0, 254),
+            date: (date || "").substring(0, 254),
+            time: (time || "").substring(0, 254),
+            booking_notes: (bookingNotes || "").substring(0, 254),
+            amount: String(amount)
+          } as any
         });
         orderId = order.id;
       } catch (err: any) {
@@ -548,6 +584,139 @@ router.post(
     await sendBookingNotificationEmail(booking);
 
     res.status(201).json({ success: true, booking });
+  })
+);
+
+// ─── Razorpay Webhook (fail-safe) ──────────────────────────────────────────
+// Razorpay calls this server-side endpoint when a payment is captured.
+// It guarantees the booking is saved even when the user's browser closes
+// before the frontend can call /api/payment/verify.
+//
+// IMPORTANT: express.raw() must be registered for this route in server.ts
+// BEFORE express.json(), otherwise signature verification will always fail.
+router.post(
+  "/webhook/razorpay",
+  asyncHandler(async (req, res) => {
+    const signature = req.headers["x-razorpay-signature"] as string | undefined;
+    const webhookSecret = process.env.RAZORPAY_WEBHOOK_SECRET;
+
+    // Always respond 200 quickly so Razorpay doesn't retry unnecessarily
+    if (!webhookSecret) {
+      console.warn("RAZORPAY_WEBHOOK_SECRET not set — webhook received but not processed.");
+      res.json({ received: true });
+      return;
+    }
+
+    if (!signature) {
+      res.status(400).json({ error: "Missing X-Razorpay-Signature header." });
+      return;
+    }
+
+    // req.body is a raw Buffer because of express.raw() in server.ts
+    const rawBody = req.body as Buffer;
+
+    // Verify webhook signature
+    const hmac = crypto.createHmac("sha256", webhookSecret);
+    hmac.update(rawBody);
+    const generatedSignature = hmac.digest("hex");
+
+    if (generatedSignature !== signature) {
+      console.error("[Webhook] Signature mismatch — possible forged request.");
+      res.status(400).json({ error: "Invalid webhook signature." });
+      return;
+    }
+
+    let payload: any;
+    try {
+      payload = JSON.parse(rawBody.toString("utf-8"));
+    } catch {
+      res.status(400).json({ error: "Malformed JSON payload." });
+      return;
+    }
+
+    const event: string = payload.event || "";
+
+    // Only handle payment.captured; acknowledge everything else silently
+    if (event !== "payment.captured") {
+      res.json({ received: true });
+      return;
+    }
+
+    const payment = payload.payload?.payment?.entity;
+    if (!payment) {
+      console.error("[Webhook] Missing payment entity in payload.");
+      res.json({ received: true });
+      return;
+    }
+
+    const razorpayOrderId: string = payment.order_id || "";
+    const razorpayPaymentId: string = payment.id || "";
+    const notes: Record<string, string> = payment.notes || {};
+
+    // ── Idempotency guard ────────────────────────────────────────────────────
+    // The frontend /api/payment/verify endpoint may have already created the
+    // booking. If so, skip silently so we never duplicate a booking.
+    const existingBooking = await Booking.findOne({
+      $or: [{ razorpayOrderId }, { orderId: razorpayOrderId }]
+    });
+
+    if (existingBooking) {
+      console.log(`[Webhook] Booking already exists for order ${razorpayOrderId} — skipping.`);
+      res.json({ received: true });
+      return;
+    }
+
+    // ── Reconstruct booking from order notes ─────────────────────────────────
+    const name = notes.name || "Unknown";
+    const email = notes.email || "";
+    const phone = notes.phone || "";
+    const service = notes.service || "Therapy Session";
+    const date = notes.date || "";
+    const time = notes.time || "";
+    const bookingNotes = notes.booking_notes || "";
+    const finalAmount = parseInt(notes.amount || "2000", 10);
+
+    if (!email || !date || !time) {
+      console.error("[Webhook] Critical booking details missing in order notes:", notes);
+      // Acknowledge anyway — retrying won't fix missing notes
+      res.json({ received: true });
+      return;
+    }
+
+    try {
+      const booking = await Booking.create({
+        _id: "bk_wh_" + Date.now().toString(),
+        bookingId: "BK-" + Math.floor(100000 + Math.random() * 900000),
+        name,
+        email,
+        phone,
+        service,
+        date,
+        time,
+        notes: bookingNotes,
+        amount: finalAmount,
+        paymentStatus: "paid",
+        status: "confirmed",
+        razorpayOrderId,
+        razorpayPaymentId,
+        razorpaySignature: "", // not available in webhook payload
+        paymentId: razorpayPaymentId,
+        orderId: razorpayOrderId,
+        paymentMethod: payment.method || "unknown",
+        currency: payment.currency || "INR",
+        paidAt: new Date()
+      });
+
+      await sendConfirmationEmail(booking);
+      await sendBookingNotificationEmail(booking);
+
+      console.log(`[Webhook] Booking ${booking.bookingId} created for order ${razorpayOrderId}.`);
+    } catch (err) {
+      // Log but still return 200 — retrying a failed DB write risks duplicates
+      console.error("[Webhook] Failed to persist booking:", err);
+    }
+
+    res.json({ received: true });
   })
 );
 
