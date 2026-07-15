@@ -30,6 +30,8 @@ const LANGUAGES = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -40,11 +42,24 @@ export default function Navbar() {
   const t = staticTranslations[lang] || staticTranslations.en;
 
   useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  useEffect(() => {
     let ticking = false;
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          const isScrolled = window.scrollY >= 100;
+          const y = window.scrollY;
+          const progress = Math.min(y / 100, 1);
+          setScrollProgress(progress);
+
+          const isScrolled = y >= 100;
           setScrolled((prev) => {
             if (prev !== isScrolled) {
               return isScrolled;
@@ -80,70 +95,82 @@ export default function Navbar() {
   const handlePrefetch = (path: string) => {
     switch (path) {
       case "/":
-        import("../pages/Home").catch(() => {});
+        import("../pages/Home").catch(() => { });
         break;
       case "/export":
-        import("../pages/Export").catch(() => {});
+        import("../pages/Export").catch(() => { });
         break;
       case "/wellness":
-        import("../pages/Wellness").catch(() => {});
+        import("../pages/Wellness").catch(() => { });
         break;
       case "/contact":
-        import("../pages/Contact").catch(() => {});
+        import("../pages/Contact").catch(() => { });
         break;
       case "/my-bookings":
-        import("../pages/MyBookings").catch(() => {});
+        import("../pages/MyBookings").catch(() => { });
         break;
       case "/booking":
         Promise.all([
           import("../pages/Booking"),
           import("./BookingForm")
-        ]).catch(() => {});
+        ]).catch(() => { });
         break;
       case "/admin":
-        import("../pages/AdminDashboard").catch(() => {});
+        import("../pages/AdminDashboard").catch(() => { });
         break;
       default:
         break;
     }
   };
 
-  const filteredLanguages = LANGUAGES.filter(l => 
-    l.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+  const filteredLanguages = LANGUAGES.filter(l =>
+    l.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
     l.nativeName.toLowerCase().includes(searchQuery.toLowerCase()) ||
     l.code.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const currentLanguageName = LANGUAGES.find(l => l.code === lang)?.nativeName || "English";
 
+  const maxScale = isMobile ? 2.55 : 3.70;
+  const logoScale = maxScale - scrollProgress * (maxScale - 1);
+  const translateX = -(logoScale - 1) * 20;
+  const translateY = (1 - scrollProgress) * (isMobile ? 5 : 12);
+
   return (
     <div
-      className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out pointer-events-none ${
-        scrolled 
-          ? "top-3 sm:top-4 w-[calc(100%-2rem)] max-w-5xl scale-[0.98]" 
-          : "top-0 pt-4 sm:pt-6 w-full max-w-7xl px-4 sm:px-6 lg:px-8 scale-100"
-      }`}
+      className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out pointer-events-none ${scrolled
+        ? "top-3 sm:top-4 w-[calc(100%-2rem)] max-w-5xl scale-[0.98]"
+        : "top-0 pt-4 sm:pt-6 w-full max-w-7xl px-4 sm:px-6 lg:px-8 scale-100"
+        }`}
     >
       <nav
-        className={`w-full pointer-events-auto flex items-center justify-between transition-all duration-500 ease-in-out ${
-          scrolled
-            ? "py-2 sm:py-2.5 px-6 sm:px-8 bg-white/95 backdrop-blur-xl border border-gray-200 shadow-[0_10px_30px_rgba(0,0,0,0.06)] rounded-full"
-            : "py-4 sm:py-6 px-0 bg-transparent border-transparent shadow-none backdrop-blur-none rounded-none"
-        }`}
+        className={`w-full pointer-events-auto flex items-center justify-between transition-all duration-500 ease-in-out ${scrolled
+          ? "py-2 sm:py-2.5 px-6 sm:px-8 bg-white/95 backdrop-blur-xl border border-gray-200 shadow-[0_10px_30px_rgba(0,0,0,0.06)] rounded-full"
+          : "py-4 sm:py-6 px-0 bg-transparent border-transparent shadow-none backdrop-blur-none rounded-none"
+          }`}
       >
         {/* Left Side: Brand Logo and Name */}
-        <Link 
-          to="/" 
+        <Link
+          to="/"
           onMouseEnter={() => handlePrefetch("/")}
           onFocus={() => handlePrefetch("/")}
           onTouchStart={() => handlePrefetch("/")}
           className="flex items-center gap-3 select-none group pointer-events-auto"
         >
-          <img 
-            src="/images/logo/logo.png" 
-            alt="Dharaaveda Logo" 
-            className="w-16 h-16 object-contain select-none pointer-events-none transition-transform duration-500 group-hover:scale-105"
-          />
+          <div className="w-11 h-11 flex items-center justify-center shrink-0 relative">
+            <img
+              src="/images/logo/logo.png"
+              alt="Dharaaveda Logo"
+              style={{
+                transform: `translate(${translateX}px, ${translateY}px) scale(${logoScale})`,
+                transformOrigin: "center center",
+                width: "96px",
+                height: "100px",
+                transition: "transform 450ms cubic-bezier(0.16, 1, 0.3, 1)"
+              }}
+              className="object-contain select-none pointer-events-none"
+            />
+          </div>
           <div className="flex flex-col text-left">
             <span className={`text-[20px] sm:text-[24px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
               Dhara<span className={isWellnessActive ? "text-therapy-500 font-semibold" : "text-orange-500 font-semibold"}>Aveda</span>
@@ -165,11 +192,10 @@ export default function Navbar() {
                 onMouseEnter={() => handlePrefetch(link.path)}
                 onFocus={() => handlePrefetch(link.path)}
                 onTouchStart={() => handlePrefetch(link.path)}
-                className={`px-4 sm:px-5 py-2 text-[10px] font-semibold tracking-[0.22em] uppercase rounded-full transition-all duration-300 ease-out relative ${
-                  isActive
-                    ? (isWellnessActive ? "bg-therapy-500 text-white shadow-md shadow-therapy-500/20 font-bold" : "bg-orange-500 text-white shadow-md shadow-orange-500/20 font-bold")
-                    : `text-gray-600 hover:scale-[1.03] ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
-                }`}
+                className={`px-4 sm:px-5 py-2 text-[10px] font-semibold tracking-[0.22em] uppercase rounded-full transition-all duration-300 ease-out relative ${isActive
+                  ? (isWellnessActive ? "bg-therapy-500 text-white shadow-md shadow-therapy-500/20 font-bold" : "bg-orange-500 text-white shadow-md shadow-orange-500/20 font-bold")
+                  : `text-gray-600 hover:scale-[1.03] ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
+                  }`}
               >
                 {link.name}
               </Link>
@@ -221,11 +247,10 @@ export default function Navbar() {
                             setLangDropdownOpen(false);
                             setSearchQuery("");
                           }}
-                          className={`w-full ${lang === "ar" ? "text-right flex-row-reverse" : "text-left"} flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${
-                            lang === l.code
-                              ? (isWellnessActive ? "bg-therapy-50 text-therapy-600 border border-therapy-200 font-bold" : "bg-orange-50 text-orange-600 border border-orange-200 font-bold")
-                              : "hover:bg-gray-50 text-gray-700 hover:text-gray-900"
-                          }`}
+                          className={`w-full ${lang === "ar" ? "text-right flex-row-reverse" : "text-left"} flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${lang === l.code
+                            ? (isWellnessActive ? "bg-therapy-50 text-therapy-600 border border-therapy-200 font-bold" : "bg-orange-50 text-orange-600 border border-orange-200 font-bold")
+                            : "hover:bg-gray-50 text-gray-700 hover:text-gray-900"
+                            }`}
                         >
                           <span>{l.nativeName}</span>
                           <span className="text-[10px] text-gray-400">{l.name}</span>
@@ -290,11 +315,10 @@ export default function Navbar() {
                       onMouseEnter={() => handlePrefetch(link.path)}
                       onFocus={() => handlePrefetch(link.path)}
                       onTouchStart={() => handlePrefetch(link.path)}
-                      className={`block py-3 rounded-2xl text-[11px] font-bold tracking-[0.25em] uppercase transition-all duration-300 ${
-                        isActive 
-                          ? (isWellnessActive ? "bg-therapy-500 text-white font-bold shadow-md shadow-therapy-500/10" : "bg-orange-500 text-white font-bold shadow-md shadow-orange-500/10") 
-                          : `text-gray-700 hover:text-gray-900 hover:bg-gray-50 ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
-                      }`}
+                      className={`block py-3 rounded-2xl text-[11px] font-bold tracking-[0.25em] uppercase transition-all duration-300 ${isActive
+                        ? (isWellnessActive ? "bg-therapy-500 text-white font-bold shadow-md shadow-therapy-500/10" : "bg-orange-500 text-white font-bold shadow-md shadow-orange-500/10")
+                        : `text-gray-700 hover:text-gray-900 hover:bg-gray-50 ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"}`
+                        }`}
                     >
                       {link.name}
                     </Link>
@@ -310,7 +334,7 @@ export default function Navbar() {
                     <span>{t.navbar.selectLanguage || "Select Sacred Language"}</span>
                     <Globe className={`w-3.5 h-3.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"} animate-pulse`} />
                   </div>
-                  
+
                   {/* Quick Select Grid for Mobile */}
                   <div className="grid grid-cols-2 gap-1 max-h-40 overflow-y-auto p-1 scrollbar-none">
                     {LANGUAGES.map((l) => (
@@ -320,11 +344,10 @@ export default function Navbar() {
                           setLang(l.code);
                           setMobileMenuOpen(false);
                         }}
-                        className={`px-3 py-2 text-[10px] font-medium rounded-xl text-center transition-all ${
-                          lang === l.code
-                            ? (isWellnessActive ? "bg-therapy-500 text-white font-bold" : "bg-orange-500 text-white font-bold")
-                            : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-200"
-                        }`}
+                        className={`px-3 py-2 text-[10px] font-medium rounded-xl text-center transition-all ${lang === l.code
+                          ? (isWellnessActive ? "bg-therapy-500 text-white font-bold" : "bg-orange-500 text-white font-bold")
+                          : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-200"
+                          }`}
                       >
                         {l.nativeName}
                       </button>

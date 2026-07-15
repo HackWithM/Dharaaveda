@@ -66,12 +66,12 @@ export default function App() {
   useEffect(() => {
     // 1. Eagerly warm up the bundle chunk cache for public pages
     const prefetchTimer = setTimeout(() => {
-      Home.preload().catch(() => {});
-      Export.preload().catch(() => {});
-      Wellness.preload().catch(() => {});
-      Booking.preload().catch(() => {});
-      Contact.preload().catch(() => {});
-      MyBookings.preload().catch(() => {});
+      Home.preload().catch(() => { });
+      Export.preload().catch(() => { });
+      Wellness.preload().catch(() => { });
+      Booking.preload().catch(() => { });
+      Contact.preload().catch(() => { });
+      MyBookings.preload().catch(() => { });
     }, 1200);
 
     return () => {
