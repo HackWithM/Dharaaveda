@@ -1542,6 +1542,72 @@
               "description": "Gebruik van edelstenen van therapeutische kwaliteit en seleniet-kristallen om nieuw afgestemde frequenties te stabiliseren, vast te leggen en te behouden."
             }
           ]
+        },
+        "id": {
+          "id": "reiki-aurasoma",
+          "name": "Terapi Rekkhanoho",
+          "category": "Energi Holistik & Penyembuhan Biofield",
+          "description": "Terapi penyembuhan energi holistik yang ampuh yang bekerja pada kesejahteraan fisik, emosional, mental, dan spiritual. Rekkhanoho membantu melepaskan penyumbatan energi, mengurangi stres, meningkatkan keseimbangan batin, dan mendukung proses penyembuhan alami tubuh.",
+          "story": "Rekkhanoho adalah modalitas penyembuhan energi yang kuat yang menyalurkan kekuatan hidup spiritual. Dengan menghilangkan resonansi yang padat dan sumbang di seluruh fasia seluler, kita melepaskan pola somatik yang mengakar, memberdayakan siklus penyembuhan biologis laten tubuh.",
+          "highlight": "Alami • Holistik • Penyeimbangan Energi • Non-Invasif",
+          "ctaText": "Pesan Sesi Penyembuhan",
+          "benefits": [
+            "Relaksasi mendalam dan pengurangan stres",
+            "Keseimbangan emosional dan kejernihan mental",
+            "Pembersihan energi dan penyeimbangan chakra",
+            "Tidur lebih nyenyak dan fokus lebih baik",
+            "Bantuan dari kecemasan dan kelelahan emosional",
+            "Peningkatan kepositifan dan kedamaian batin",
+            "Mendukung kesehatan secara keseluruhan dan penyembuhan diri",
+            "Meningkatkan pertumbuhan dan kesadaran spiritual"
+          ],
+          "timeline": [
+            {
+              "title": "Pemindaian Resonansi Biofield",
+              "description": "Sapuan diagnostik non-kontak untuk menemukan meridian yang tersumbat, penyumbatan chakra, dan kelelahan aura."
+            },
+            {
+              "title": "Aliran Penyaluran Energi",
+              "description": "Transmisi kekuatan hidup spiritual langsung yang menargetkan pusat-pusat inti untuk menghancurkan ketegangan yang terkunci dan menenangkan saraf."
+            },
+            {
+              "title": "Segel Chakra Kristal",
+              "description": "Menggunakan batu permata tingkat terapeutik dan kristal selenit untuk menstabilkan, mengunci, dan mempertahankan frekuensi yang baru diselaraskan."
+            }
+          ]
+        },
+        "pl": {
+          "id": "reiki-aurasoma",
+          "name": "Terapia Rekkhanoho",
+          "category": "Holistyczne uzdrawianie energią i biopolem",
+          "description": "Potężna holistyczna terapia uzdrawiająca energią, która działa na dobre samopoczucie fizyczne, emocjonalne, psychiczne i duchowe. Rekkhanoho pomaga uwolnić blokady energetyczne, zmniejszyć stres, poprawić wewnętrzną równowagę i wspierać naturalny proces gojenia organizmu.",
+          "story": "Rekkhanoho to potężna metoda uzdrawiania energią, przekazująca duchową siłę życiową. Rozpuszczając gęsty, niezgodny rezonans w powięzi komórkowej, uwalniamy głęboko zakorzenione wzorce somatyczne, wzmacniając ukryte biologiczne pętle uzdrawiania organizmu.",
+          "highlight": "Naturalne • Holistyczne • Równoważenie energetyczne • Nieinwazyjne",
+          "ctaText": "Zarezerwuj sesję uzdrawiającą",
+          "benefits": [
+            "Głęboki relaks i redukcja stresu",
+            "Równowaga emocjonalna i jasność umysłu",
+            "Oczyszczanie energetyczne i równoważenie czakr",
+            "Lepszy sen i lepsza koncentracja",
+            "Ulga od niepokoju i zmęczenia emocjonalnego",
+            "Zwiększona pozytywność i wewnętrzny spokój",
+            "Wspomaga ogólne dobre samopoczucie i samoleczenie",
+            "Zwiększa rozwój duchowy i świadomość"
+          ],
+          "timeline": [
+            {
+              "title": "Skan rezonansu biopola",
+              "description": "Bezkontaktowe badanie diagnostyczne w celu zlokalizowania zatłoczonych meridianów, blokad czakr i zmęczenia aury."
+            },
+            {
+              "title": "Przepływ kanałów energii",
+              "description": "Bezpośredni przekaz duchowej siły życiowej, skierowany do głównych ośrodków, aby rozbić zablokowane napięcie i ukoić nerwy."
+            },
+            {
+              "title": "Krystaliczna Pieczęć Czakry",
+              "description": "Używanie kamieni szlachetnych i kryształów selenitu o jakości terapeutycznej do stabilizacji, blokowania i zachowania nowo dostrojonych częstotliwości."
+            }
+          ]
         }
       }
     },
@@ -2371,16 +2437,16 @@
           "content": "De groene kardemom van DharaAveda voldoet aan de allerhoogste kwaliteitsstandaarden voor Europese import. Hun levertijden, analytische certificeringen en onberispelijke verpakking vertegenwoordigen absolute agrarische luxe."
         },
         "id": {
-          "id": "test-004",
-          "name": "Heinrich Müller",
-          "role": "Residen Retreat",
-          "content": "Sesi penyelarasan suara kuarsa di dalam taman hutan Wayanad terasa seperti pengaturan ulang biologis. Tidak adanya sinyal EMF adalah kunci kenyamanan utama."
+          "id": "t1",
+          "name": "Heinrich Muller",
+          "role": "Direktur Impor, Alt-Apotheke (Hamburg)",
+          "content": "Kapulaga hijau DharaAveda memiliki standar kualitas premium di seluruh impor Eropa. Waktu pengiriman, sertifikasi analitis, dan kemasan murni mewakili kemewahan pertanian elit."
         },
         "vi": {
-          "id": "test-004",
-          "name": "Heinrich Müller",
-          "role": "Khách Lưu trú",
-          "content": "Buổi trị liệu âm thanh thạch anh trong khu vườn rừng Wayanad mang lại cảm giác phục hồi sinh học hoàn toàn. Việc không có sóng điện từ EMF là yếu tố then chốt cho sự thư giãn."
+          "id": "t1",
+          "name": "Heinrich Muller",
+          "role": "Giám đốc Nhập khẩu, Alt-Apotheke (Hamburg)",
+          "content": "Bạch đậu khấu xanh của DharaAveda giữ tiêu chuẩn chất lượng cao đối với hàng nhập khẩu từ Châu Âu. Thời gian vận chuyển, chứng nhận phân tích và bao bì nguyên sơ của họ thể hiện sự sang trọng tuyệt đối của nông nghiệp ưu tú."
         },
         "th": {
           "id": "test-004",
@@ -2389,10 +2455,10 @@
           "content": "การจูนคลื่นเสียงควอตซ์ในสวนป่าเวยานาดให้ความรู้สึกเหมือนได้รับการรีเซ็ตระบบชีวภาพ การไม่มีคลื่นแม่เหล็กไฟฟ้า (EMF) รบกวนคือหัวใจสำคัญของการผ่อนคลาย"
         },
         "pl": {
-          "id": "test-004",
-          "name": "Heinrich Müller",
-          "role": "Mieszkaniec Retreat",
-          "content": "Sesja dostrajania dźwiękiem kwarcu w ogrodach leśnych Wayanad była jak biologiczny reset. Całkowity brak smogu elektromagnetycznego (EMF) jest kluczem do relaksu."
+          "id": "t1",
+          "name": "Heinricha Müllera",
+          "role": "Dyrektor ds. importu, Alt-Apotheke (Hamburg)",
+          "content": "Zielony kardamon DharaAveda utrzymuje najwyższe standardy jakości w całym europejskim imporcie. Czasy wysyłki, certyfikaty analityczne i nieskazitelne opakowanie stanowią absolutny elitarny luksus rolniczy."
         }
       }
     },
@@ -2542,16 +2608,16 @@
           "content": "De Bachbloesemconsultatie bij DharaAveda is een werk van hoge spirituele kunst. De op maat gemaakte formules hebben diverse van onze cliënten geholpen hun innerlijke balans te herwinnen op momenten dat conventionele methoden faalden."
         },
         "id": {
-          "id": "test-001",
+          "id": "t2",
           "name": "Elena Rostova",
-          "role": "Direktur Pengadaan, Hanseatic Spices GmbH",
-          "content": "Dharaaveda telah menjadi mitra premium kami untuk rempah-rempah. Pengiriman kapulaga mereka tiba dengan segel vakum yang sempurna dan cleared oleh SGS. Kepatuhan perdagangan yang luar biasa."
+          "role": "Direktur Kesehatan Integratif, Geneva Retreats",
+          "content": "Konsultasi Bunga Bach di DharaAveda adalah sebuah karya seni spiritual yang tinggi. Formula khusus telah membantu beberapa klien kami yang berkinerja tinggi mendapatkan kembali keselarasan batin ketika modalitas konvensional terhenti."
         },
         "vi": {
-          "id": "test-001",
+          "id": "t2",
           "name": "Elena Rostova",
-          "role": "Giám đốc Thu mua, Hanseatic Spices GmbH",
-          "content": "Dharaaveda là đối tác cao cấp của chúng tôi về gia vị. Các lô hàng bạch đậu khấu của họ luôn được hút chân không hoàn hảo và được SGS thông quan. Tuân thủ thương mại xuất sắc."
+          "role": "Giám đốc Sức khỏe Tích hợp, Geneva Retreats",
+          "content": "Tư vấn Bạch Hoa tại DharaAveda là một tác phẩm mang tính nghệ thuật tâm linh cao. Các công thức tùy chỉnh đã giúp một số khách hàng có hiệu suất cao của chúng tôi lấy lại được sự liên kết bên trong khi các phương thức thông thường không còn hiệu quả."
         },
         "th": {
           "id": "test-001",
@@ -2560,10 +2626,10 @@
           "content": "Dharaaveda เป็นพันธมิตรระดับพรีเมียมของเราสำหรับเครื่องเทศ เครื่องเทศกระวานของพวกเขามาถึงในสภาพสูญญากาศและผ่านการรับรองจาก SGS อย่างยอดเยี่ยม ถือเป็นบริษัทที่มีความสอดคล้องทางการค้าที่โดดเด่น"
         },
         "pl": {
-          "id": "test-001",
-          "name": "Elena Rostova",
-          "role": "Dyrektor ds. Zakupów, Hanseatic Spices GmbH",
-          "content": "Dharaaveda jest naszym zaufanym partnerem w dostawach przypraw. Ich kardamon dociera do nas w nienagannym stanie, próżniowo zapakowany i certyfikowany przez SGS. Znakomite standardy handlowe."
+          "id": "t2",
+          "name": "Elena Rostowa",
+          "role": "Dyrektor ds. Integracyjnego Wellness, Geneva Retreats",
+          "content": "Konsultacje Bacha Flower w DharaAveda są dziełem wysokiej sztuki duchowej. Niestandardowe formuły pomogły kilku naszym klientom o wysokiej wydajności odzyskać wewnętrzne wyrównanie, gdy konwencjonalne metody przestały działać."
         }
       }
     }
@@ -2718,28 +2784,28 @@
         "philosophy": "“गुरु गोविंद दोऊ खड़े, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nBetekenis: Wanneer zowel de Goeroe als God voor mij staan, voor wie moet ik dan eerst buigen? Ik buig eerst voor de Goeroe, want door de Goeroe heb ik het Goddelijke gevonden.\n\n“Zonder de zegeningen en begeleiding van de Goeroe blijven ware kennis en richting in het leven onvolledig.”"
       },
       "id": {
-        "name": "Dr. Vikranti",
-        "role": "Terapis Utama & Praktisi Energi",
-        "aboutText": "Mendedikasikan hidup untuk menjembatani kearifan pengobatan alami kuno dengan ilmu biofield modern. Spesialisasi dalam mengintegrasikan esensi bunga liar Bach dengan terapi usui reiki untuk pemulihan trauma seluler.",
-        "philosophy": "Tubuh manusia adalah instrumen getaran. Ketika terjadi ketidakharmonisan akibat stres kronis, terapi energi murni bertindak untuk menyelaraskan kembali getaran tersebut menuju pemulihan biologis alami."
+        "name": "Vikranti Yogesh Sainee",
+        "role": "Profesional Teknologi, Praktisi Kesehatan & Guru Spiritual",
+        "aboutText": "Saya Vikranti Yogesh Sainee, seorang profesional teknologi, praktisi kesehatan, dan kontributor sosial dengan pengalaman lebih dari 19 tahun di industri TI di berbagai domain. Keahlian inti saya terletak pada desain kerangka kerja, Kecerdasan Buatan, AI Gemini, dan teknologi cloud modern, tempat saya bekerja pada solusi teknologi inovatif dan terukur yang selaras dengan kebutuhan transformasi digital yang terus berkembang.\n\nDi samping perjalanan profesional saya, saya telah banyak berhubungan dengan Art of Living Foundation selama lebih dari dua dekade sebagai guru, pemuja, dan sukarelawan aktif. Perjalanan spiritual ini telah memberi saya kekuatan, kejelasan, dan keseimbangan untuk menangani berbagai dimensi kehidupan dengan damai dan tenang — tanggung jawab keluarga, kantor, bisnis, dan sosial.\n\nDengan rasa terima kasih yang tulus, saya bersujud kepada Gurudev Sri Sri Ravi Shankar yang masih hidup, yang kebijaksanaan, bimbingan, dan berkahnya telah mengubah perspektif saya terhadap kehidupan. Ajarannya telah membantu saya menumbuhkan kedamaian batin, kesadaran, kasih sayang, dan kemampuan untuk melayani masyarakat dengan dedikasi.",
+        "philosophy": "“Tidak ada yang salah, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nArtinya: Ketika Guru dan Tuhan berdiri di hadapanku, kepada siapa aku harus bersujud terlebih dahulu? Aku bersujud terlebih dahulu kepada Guru, karena melalui Guru aku menemukan Yang Ilahi.\n\n“Tanpa berkah dan bimbingan Guru, pengetahuan dan arahan sejati dalam hidup tidak akan lengkap.”"
       },
       "vi": {
-        "name": "Dr. Vikranti",
-        "role": "Trị liệu viên Trưởng & Chuyên gia Năng lượng",
-        "aboutText": "Dành cả cuộc đời để kết hợp y học tự nhiên cổ xưa với khoa học trường sinh học hiện đại. Chuyên sâu về tích hợp hoa Bach hữu cơ với trị liệu Reiki để chữa lành tổn thương tế bào.",
-        "philosophy": "Cơ thể con người là một nhạc cụ rung động. Khi xảy ra sự mất hài hòa do căng thẳng, liệu pháp năng lượng sẽ điều chỉnh các tần số rung động này về trạng thái phục hồi sinh học tự nhiên."
+        "name": "Vikranti Yogesh Sainee",
+        "role": "Chuyên gia công nghệ, Chuyên gia chăm sóc sức khỏe & Giáo viên tâm linh",
+        "aboutText": "Tôi là Vikranti Yogesh Sainee, một chuyên gia công nghệ, chuyên gia chăm sóc sức khỏe và cộng tác viên xã hội với hơn 19 năm kinh nghiệm trong ngành CNTT trên nhiều lĩnh vực. Chuyên môn cốt lõi của tôi nằm ở thiết kế khung, Trí tuệ nhân tạo, AI Gemini và công nghệ đám mây hiện đại, nơi tôi đã làm việc trên các giải pháp công nghệ đổi mới và có thể mở rộng phù hợp với nhu cầu chuyển đổi kỹ thuật số ngày càng phát triển.\n\nBên cạnh hành trình nghề nghiệp của mình, tôi đã gắn bó sâu sắc với Art of Living Foundation trong hơn hai thập kỷ với tư cách là một giáo viên, một người cống hiến và một tình nguyện viên tích cực. Hành trình tâm linh này đã mang lại cho tôi sức mạnh, sự sáng suốt và sự cân bằng để xử lý các khía cạnh khác nhau của cuộc sống một cách hòa bình và bình tĩnh - gia đình, văn phòng, kinh doanh và trách nhiệm xã hội.\n\nVới lòng biết ơn chân thành, tôi cúi đầu trước vị đạo sư còn sống Gurudev Sri Sri Ravi Shankar, người đã biến đổi quan điểm của tôi về cuộc sống bằng trí tuệ, sự hướng dẫn và gia trì. Những lời dạy của Ngài đã giúp tôi trau dồi sự bình an nội tâm, nhận thức, lòng từ bi và khả năng phục vụ xã hội một cách tận tâm.",
+        "philosophy": "“गुरु गोविंद दोऊ खड़े, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nÝ nghĩa: Khi cả Thầy và Thượng Đế đều đứng trước mặt tôi, tôi nên cúi lạy ai trước? Tôi cúi đầu trước Guru trước tiên, vì chính nhờ Guru mà tôi đã tìm thấy Thần thánh.\n\n“Nếu không có sự gia trì và hướng dẫn của Guru, kiến ​​thức và phương hướng thực sự trong cuộc sống vẫn chưa hoàn thiện.”"
       },
       "th": {
-        "name": "Dr. Vikranti",
-        "role": "นักบำบัดหลัก & ผู้เชี่ยวชาญด้านพลังงาน",
-        "aboutText": "อุทิศตนเพื่อเชื่อมโยงการแพทย์ธรรมชาติโบราณเข้ากับวิทยาศาสตร์สนามพลังงานชีวิตสมัยใหม่ มีความเชี่ยวชาญเป็นพิเศษในการผสานสารสกัดดอกไม้ป่าบัคเข้ากับเรกิอุซุอิ เพื่อบำบัดและฟื้นฟูเซลล์ร่างกาย",
-        "philosophy": "ร่างกายของมนุษย์เป็นเครื่องดนตรีที่มีการสั่นสะเทือน เมื่อเกิดความไม่สมดุลอันเนื่องมาจากความเครียดเรื้อรัง การบำบัดพลังงานจะช่วยปรับความถี่การสั่นสะเทือนเหล่านี้ให้กลับสู่สภาวะฟื้นฟูทางชีวภาพตามธรรมชาติ"
+        "name": "วิกรานติ โยเกช ไซนี",
+        "role": "ผู้เชี่ยวชาญด้านเทคโนโลยี ผู้ปฏิบัติงานด้านสุขภาพ และครูสอนจิตวิญญาณ",
+        "aboutText": "ฉันชื่อ Vikranti Yogesh Sainee ผู้เชี่ยวชาญด้านเทคโนโลยี ผู้ปฏิบัติงานด้านสุขภาพ และผู้มีส่วนร่วมทางสังคม โดยมีประสบการณ์มากกว่า 19 ปีในอุตสาหกรรมไอทีในหลากหลายโดเมน ความเชี่ยวชาญหลักของฉันอยู่ที่การออกแบบกรอบงาน ปัญญาประดิษฐ์ Gemini AI และเทคโนโลยีคลาวด์สมัยใหม่ ซึ่งฉันได้ทำงานเกี่ยวกับโซลูชันเทคโนโลยีที่เป็นนวัตกรรมและปรับขนาดได้ ซึ่งสอดคล้องกับความต้องการการเปลี่ยนแปลงทางดิจิทัลที่กำลังพัฒนา\n\nนอกเหนือจากเส้นทางอาชีพของฉันแล้ว ฉันมีความสัมพันธ์ลึกซึ้งกับมูลนิธิ Art of Living มานานกว่าสองทศวรรษในฐานะครู ผู้ศรัทธา และอาสาสมัครที่กระตือรือร้น การเดินทางทางจิตวิญญาณนี้ทำให้ฉันมีความเข้มแข็ง ความชัดเจน และความสมดุลในการจัดการกับมิติต่างๆ ของชีวิตอย่างสงบและสงบ ทั้งครอบครัว สำนักงาน ธุรกิจ และความรับผิดชอบต่อสังคม\n\nด้วยความซาบซึ้งอย่างจริงใจ ข้าพเจ้าขอคำนับปรมาจารย์คุรุเดฟ ศรี ศรี ราวี ชังการ์ ผู้ทรงสติปัญญา การชี้นำ และพระพรได้เปลี่ยนมุมมองต่อชีวิตข้าพเจ้า คำสอนของเขาช่วยให้ฉันปลูกฝังความสงบภายใน ความตระหนักรู้ ความเห็นอกเห็นใจ และความสามารถในการรับใช้สังคมด้วยความทุ่มเท",
+        "philosophy": "“गुरु गोविंद दोऊ खड़े, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nความหมาย: เมื่อทั้งคุรุและพระเจ้ายืนต่อหน้าฉัน ฉันควรคำนับใครก่อน? ฉันคำนับคุรุก่อน เพราะโดยผ่านคุรุที่ทำให้ฉันได้พบพระเจ้า\n\n“หากปราศจากพรและการนำทางจากคุรุ ความรู้ที่แท้จริงและการนำทางในชีวิตก็ยังไม่สมบูรณ์”"
       },
       "pl": {
-        "name": "Dr. Vikranti",
-        "role": "Główny Terapeuta & Praktyk Energetyczny",
-        "aboutText": "Dedykuje swoją pracę łączeniu starożytnej medycyny naturalnej z nowoczesną nauką o biopolu. Specjalizuje się w integracji organicznych esencji Bacha z reiki w celu leczenia traumy na poziomie komórkowym.",
-        "philosophy": "Ciało ludzkie jest instrumentem wibracyjnym. Kiedy stres powoduje zaburzenie harmonii, terapia energetyczna dostraja te wibracje z powrotem do naturalnego stanu regeneracji biologicznej."
+        "name": "Vikranti Yogesh Sainee",
+        "role": "Specjalista ds. technologii, specjalista odnowy biologicznej i nauczyciel duchowy",
+        "aboutText": "Nazywam się Vikranti Yogesh Sainee i jestem specjalistą ds. technologii, praktykiem odnowy biologicznej i działaczem społecznym z ponad 19-letnim doświadczeniem w branży IT w wielu dziedzinach. Moja główna specjalizacja obejmuje projektowanie frameworków, sztuczną inteligencję, sztuczną inteligencję Gemini i nowoczesne technologie chmurowe, gdzie pracowałem nad innowacyjnymi i skalowalnymi rozwiązaniami technologicznymi dostosowanymi do zmieniających się potrzeb transformacji cyfrowej.\n\nOprócz kariery zawodowej od ponad dwudziestu lat jestem głęboko związany z Fundacją Art of Living jako nauczyciel, wielbiciel i aktywny wolontariusz. Ta duchowa podróż dała mi siłę, jasność i równowagę, aby spokojnie i spokojnie radzić sobie z różnymi wymiarami życia – rodziną, biurem, biznesem i obowiązkami społecznymi.\n\nZ serdeczną wdzięcznością kłaniam się żyjącemu mistrzowi Gurudewie Sri Sri Raviemu Shankarowi, którego mądrość, przewodnictwo i błogosławieństwa zmieniły moje spojrzenie na życie. Jego nauki pomogły mi kultywować wewnętrzny spokój, świadomość, współczucie i zdolność do służenia społeczeństwu z oddaniem.",
+        "philosophy": "„गुरु गोविंद दोऊ खड़े, काके लागूं पाय ।\nबलिहारी गुरु आपने, गोविंद दियो बताय ॥”\n\nZnaczenie: Kiedy zarówno Guru, jak i Bóg staną przede mną, komu powinienem się najpierw pokłonić? Kłaniam się najpierw Guru, bo to dzięki Guru znalazłem Boskość.\n\n„Bez błogosławieństw i przewodnictwa Guru prawdziwa wiedza i kierunek życia pozostają niekompletne”."
       }
     }
   },
@@ -2838,6 +2904,18 @@
         "nl": {
           "id": "sr1",
           "caption": "Usui Reiki Sessie: 'Voor het eerst in 5 jaar heb ik 9 uur onafgebroken geslapen.'"
+        },
+        "id": {
+          "id": "sr1",
+          "caption": "Sesi Reiki Usui: 'Saya tidur selama 9 jam berturut-turut untuk pertama kalinya dalam 5 tahun.'"
+        },
+        "vi": {
+          "id": "sr1",
+          "caption": "Phiên Usui Reiki: 'Tôi đã ngủ liên tục 9 tiếng lần đầu tiên sau 5 năm.'"
+        },
+        "pl": {
+          "id": "sr1",
+          "caption": "Sesja Reiki Usui: „Po raz pierwszy od 5 lat spałem bez przerwy 9 godzin”."
         }
       }
     },
@@ -2935,6 +3013,18 @@
         "nl": {
           "id": "sr2",
           "caption": "Bachbloesem review: 'Mijn somatische paniekaanvallen losten binnen 12 dagen op.'"
+        },
+        "id": {
+          "id": "sr2",
+          "caption": "Ulasan Bach Flower: 'Serangan panik somatik saya hilang dalam 12 hari.'"
+        },
+        "vi": {
+          "id": "sr2",
+          "caption": "Đánh giá của Bạch Hoa: 'Những cơn hoảng loạn cơ thể của tôi tan biến trong vòng 12 ngày.'"
+        },
+        "pl": {
+          "id": "sr2",
+          "caption": "Recenzja Bacha Flower: „Moje somatyczne ataki paniki ustąpiły w ciągu 12 dni”."
         }
       }
     },
@@ -3032,6 +3122,22 @@
         "nl": {
           "id": "sr3",
           "caption": "Prana-klankgolven: 'Ongelooflijke vibrationele golfreiniging van Wayanad-residuen. Een absolute aanrader!'"
+        },
+        "id": {
+          "id": "sr3",
+          "caption": "Gelombang Suara Prana: 'Gelombang getaran yang luar biasa membersihkan residu Wayanad. Sangat merekomendasikan!'"
+        },
+        "vi": {
+          "id": "sr3",
+          "caption": "Sóng âm thanh Pranic: 'Sóng rung động đáng kinh ngạc làm sạch cặn Wayanad. Khuyến nghị sâu sắc!'"
+        },
+        "th": {
+          "id": "sr3",
+          "caption": "คลื่นเสียงบุคคล Pranic: 'คลื่นสั่นสะเทือนที่ไม่น่าเชื่อเพื่อล้างสิ่งตกค้างของ Wayanad ขอแนะนำอย่างยิ่ง!'"
+        },
+        "pl": {
+          "id": "sr3",
+          "caption": "Praniczne fale dźwiękowe: „Niewiarygodne fale wibracyjne oczyszczające pozostałości Wayanada”. Gorąco polecam!”"
         }
       }
     }

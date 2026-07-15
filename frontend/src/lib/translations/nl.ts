@@ -32,78 +32,78 @@ export const translations: StaticTranslations = {
     "rights": "Alle rechten voorbehouden. Geregistreerde handelsentiteit."
   },
   "home": {
-    "heroTitle": "De convergentie van wereldhandel & holistische genezing",
-    "heroSubtitle": "Dharaaveda harmoniseert premium agrarische toeleveringsketens met herstellende energetische therapieën.",
-    "ctaExports": "Verken Export",
-    "ctaTherapies": "Verken Therapieën",
-    "aboutTitle": "Het verbinden van de overvloed van de aarde en individueel herstel",
-    "aboutSubtitle": "ONZE DUALE FILOSOFIE",
-    "aboutDesc1": "Dharaaveda opereert op het kruispunt van internationale handel en holistisch welzijn. Wij geloven dat echt welzijn zowel mondiaal als diep persoonlijk is.",
-    "aboutDesc2": "Onze agrarische divisie werkt rechtstreeks samen met biologische producenten voor wereldwijde distributie van specerijen. Tegelijkertijd biedt de therapiedivisie rustige toevluchtsoorden in Wayanad.",
-    "showcaseTitle": "Ontdek Onze Divisies",
-    "showcaseSubtitle": "Selecteer een divisie om onze speciale ruimtes te betreden",
-    "exportCardTitle": "Export Divisie",
-    "exportCardDesc": "Indische boerderijen verbinden met wereldwijde apotheken, cosmetica en voedingsimporteurs. Specerijen en extracten verzonden onder strikte fytosanitaire conformiteit.",
-    "exportHighlight1": "APEDA & SGS Gecertificeerd",
-    "exportHighlight2": "Direct van de boerderij",
-    "exportHighlight3": "Wereldwijde zee- en luchtvaart",
-    "exportHighlight4": "Bulk verpakking op maat",
-    "exportCardBtn": "Bekijk Exportdiensten",
-    "therapyCardTitle": "Therapie Divisie",
-    "therapyCardDesc": "Harmoniseer uw bioveld, reinig diepe trauma's en vind absolute rust. Bachbloesems, Reiki chakra-uitlijning en kristallen klanktherapie.",
+    "heroTitle": "De convergentie van mondiale handel en holistische genezing",
+    "heroSubtitle": "Dharaaveda harmoniseert hoogwaardige agrarische toeleveringsketens met herstellende energetische therapieën.",
+    "ctaExports": "Ontdek exporten",
+    "ctaTherapies": "Ontdek therapieën",
+    "aboutTitle": "Een brug slaan tussen de overvloed en het individuele herstel van de aarde",
+    "aboutSubtitle": "ONZE DUBBELE DIVISIEFILOSOFIE",
+    "aboutDesc1": "Dharaaveda opereert op het snijvlak van internationale handel en holistisch welzijn. Wij geloven dat echt welzijn zowel mondiaal als diep persoonlijk is.",
+    "aboutDesc2": "Onze landbouwdivisie werkt rechtstreeks samen met biologische kleinschalige landgoederen om wereldwijd premium kruiden en gedroogde producten te distribueren. Tegelijkertijd bouwt onze Therapiedivisie elektromagnetische stille heiligdommen in Wayanad om de balans van het zenuwstelsel en de cellulaire vitaliteit te herstellen.",
+    "showcaseTitle": "Ontdek onze divisies",
+    "showcaseSubtitle": "Selecteer een verticaal om onze speciale ruimtes te betreden",
+    "exportCardTitle": "Afdeling Export",
+    "exportCardDesc": "Het verbinden van diepe Indiase botanische boerderijen met premium wereldwijde apotheken, cosmeticahuizen en voedselimporteurs. Premium kruiden, granen en adaptogene extracten verzonden onder absolute fytosanitaire naleving.",
+    "exportHighlight1": "APEDA- en SGS-gecertificeerd",
+    "exportHighlight2": "Directe inkoop op de boerderij",
+    "exportHighlight3": "Wereldwijde zee- en luchtroutering",
+    "exportHighlight4": "Bulkverpakking op maat",
+    "exportCardBtn": "Bekijk exportdiensten",
+    "therapyCardTitle": "Afdeling Therapie",
+    "therapyCardDesc": "Stem uw bioveld af, ruim diep levenscyclustrauma op en herstel de absolute somatische vrede. Meeslepende consulten waarin bloemenessenties, Reiki-chakra-uitlijning en polyfone kwartsgeluidgenezing worden gecombineerd.",
     "therapyHighlight1": "Bachbloesemtherapie",
-    "therapyHighlight2": "Usui Reiki Uitlijning",
-    "therapyHighlight3": "Emotioneel Welzijn",
-    "therapyHighlight4": "432Hz Klanktherapie",
-    "therapyCardBtn": "Bekijk Therapiediensten",
-    "whyTitle": "Waarom Kiezen voor Dharaaveda",
-    "whySubtitle": "Compromisloze normen in logistiek en welzijn",
-    "whyTrustTitle": "Absoluut Vertrouwen",
-    "whyTrustDesc": "Volledige transparantie, fytosanitaire conformiteit en gecertificeerde geheimhoudingsprotocollen.",
-    "whyQualityTitle": "Vedische Kwaliteit",
-    "whyQualityDesc": "Directe traceerbaarheid van boerderij tot haven en op maat gemaakte biofrequentiemiddelen.",
-    "whyExpertiseTitle": "Bewezen Expertise",
-    "whyExpertiseDesc": "Generaties agrarisch erfgoed gecombineerd met gecertificeerde energetische therapeuten.",
-    "whyReachTitle": "Wereldwijd Bereik",
-    "whyReachDesc": "Betrouwbare vrachtlijnen die leveren aan toonaangevende importeurs in meer dan 34 landen.",
-    "whyHolisticTitle": "Holistisch Welzijn",
-    "whyHolisticDesc": "Diepe cellulaire genezing in pure, natuurlijke bergtoevluchtsoorden.",
-    "highlightsTitle": "Belangrijkste Hoogtepunten",
-    "highlightsSubtitle": "Kerngebieden van onze activiteiten",
-    "exportHighlightTitle": "Focus Export Divisie",
-    "therapyHighlightTitle": "Focus Therapie Divisie",
-    "highlightsExport1": "Agrarische Producten",
+    "therapyHighlight2": "Usui Reiki-uitlijning",
+    "therapyHighlight3": "Emotioneel welzijn",
+    "therapyHighlight4": "432 Hz geluidsgenezing",
+    "therapyCardBtn": "Bekijk therapiediensten",
+    "whyTitle": "Waarom kiezen voor Dharaaveda",
+    "whySubtitle": "Compromisloze normen op het gebied van logistiek en welzijn",
+    "whyTrustTitle": "Absoluut vertrouwen",
+    "whyTrustDesc": "Totale transparantie, volledige fytosanitaire naleving en gecertificeerde geheimhoudingsprotocollen.",
+    "whyQualityTitle": "Vedische kwaliteit",
+    "whyQualityDesc": "Directe traceerbaarheid van boer tot haven en op maat geformuleerde biofrequentieoplossingen.",
+    "whyExpertiseTitle": "Bewezen expertise",
+    "whyExpertiseDesc": "Generaties landbouwerfenis gecombineerd met gecertificeerde, energieke beoefenaars.",
+    "whyReachTitle": "Mondiaal bereik",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
+    "whyHolisticTitle": "Holistisch welzijn",
+    "whyHolisticDesc": "Diepe cellulaire genezing in pure, natuurlijke bergreservaten.",
+    "highlightsTitle": "Uitgelichte hoogtepunten",
+    "highlightsSubtitle": "Belangrijkste aandachtsgebieden van onze activiteiten",
+    "exportHighlightTitle": "Focus op de exportdivisie",
+    "therapyHighlightTitle": "Therapieafdeling Focus",
+    "highlightsExport1": "Landbouwproducten",
     "highlightsExport1Desc": "Met de hand geoogste Cavendish-bananen, Alphonso-mango's en biologische suikerrietextracten.",
-    "highlightsExport2": "Elite Specerijen",
-    "highlightsExport2Desc": "Salem-kurkuma, krachtige kardemom, Guntur-pepers en Malabar-zwarte peper.",
-    "highlightsExport3": "Gedehydrateerde Producten",
-    "highlightsExport3Desc": "Lagetemperatuur uienvlokken, sproeigedroogde tomaat- en bietenpoeders.",
-    "highlightsExport4": "Wereldwijde Logistiek",
-    "highlightsExport4Desc": "Aangepaste vacuümverpakking, SGS-certificeringen en snelle douaneafhandeling.",
+    "highlightsExport2": "Elite specerijen",
+    "highlightsExport2Desc": "Salem-kurkuma, krachtige kardemom, Guntur-pepers en zwarte Malabar-peper.",
+    "highlightsExport3": "Gedehydrateerde producten",
+    "highlightsExport3Desc": "Uienvlokken op lage temperatuur, gesproeidroogde tomaten en bietenpoeders.",
+    "highlightsExport4": "Mondiale logistiek",
+    "highlightsExport4Desc": "Aangepaste vacuümbarrièreafdichting, SGS-certificeringen en aangepaste poortregistraties.",
     "highlightsTherapy1": "Bachbloesemtherapie",
-    "highlightsTherapy1Desc": "Vloeibare remedies op maat, geselecteerd voor cognitieve stress en zenuwontspanning.",
-    "highlightsTherapy2": "Reiki Uitlijning",
-    "highlightsTherapy2Desc": "Niet-invasieve chakra-balancering en herstel van de biologische energiestroom.",
-    "highlightsTherapy3": "Emotioneel Welzijn",
-    "highlightsTherapy3Desc": "Nervus vagus herstelprogramma's om chronische vermoeidheid tegen te gaan.",
-    "highlightsTherapy4": "Energie Herstel",
-    "highlightsTherapy4Desc": "432Hz kwartskristallen klankschalen-harmonisatie in elektromagnetisch storingsvrije ruimtes.",
-    "statsTitle": "Onze Voetafdruk",
-    "statsSubtitle": "Meting van onze wereldwijde impact en succesratio's",
-    "statCountries": "Landen Bediend",
+    "highlightsTherapy1Desc": "Op maat gemaakte vloeibare remedies geselecteerd voor actieve cognitieve stress en neurale ontspanning.",
+    "highlightsTherapy2": "Rekkhanoho/Reiki",
+    "highlightsTherapy2Desc": "Niet-invasieve balans van bioveldchakra en herstel van chromatisch energieveld.",
+    "highlightsTherapy3": "Emotioneel welzijn",
+    "highlightsTherapy3Desc": "Herstelprotocollen voor het zenuwstelsel ontworpen om vermoeidheid in de levensstijl op te lossen.",
+    "highlightsTherapy4": "Energie genezing",
+    "highlightsTherapy4Desc": "432 Hz polyfone kwarts zingende geluidsafstemmingen in elektromagnetische vrije kamers.",
+    "statsTitle": "Onze operationele voetafdruk",
+    "statsSubtitle": "Het meten van onze wereldwijde impact en klinisch succes",
+    "statCountries": "Landen geserveerd",
     "statProducts": "Productcategorieën",
     "statSessions": "Therapiesessies",
     "statSatisfaction": "Klanttevredenheid",
-    "testimonialsTitle": "Stemmen van Resonantie",
-    "testimonialsSubtitle": "Feedback van onze handelspartners en sanctuary-bezoekers",
-    "ctaTitle": "Begin Uw Reis",
-    "ctaSubtitle": "Neem contact op met onze gespecialiseerde divisies",
-    "ctaExportBoxTitle": "Op zoek naar Exportoplossingen?",
-    "ctaExportBoxDesc": "Neem contact op met onze Commodities Desk voor bulkcontracten of logistieke afhandeling.",
-    "ctaExportBoxBtn": "Spreek met de Export Desk",
-    "ctaTherapyBoxTitle": "Op zoek naar Holistische Genezing?",
-    "ctaTherapyBoxDesc": "Plan een consult of reserveer een verblijf in onze Wayanad bos-sanctuary.",
-    "ctaTherapyBoxBtn": "Boek een Toevluchtsoord-sessie"
+    "testimonialsTitle": "Stemmen van resonantie",
+    "testimonialsSubtitle": "Feedback van onze handelspartners en bezoekers van het heiligdom",
+    "ctaTitle": "Begin uw reis",
+    "ctaSubtitle": "Maak contact met onze gespecialiseerde divisiebureaus",
+    "ctaExportBoxTitle": "Op zoek naar exportoplossingen?",
+    "ctaExportBoxDesc": "Neem contact op met onze Commodity Arbitrage Desk voor bulkcontainercontracten, op maat gemaakte verpakkingen of logistieke compliance.",
+    "ctaExportBoxBtn": "Neem contact op met de Exportdesk",
+    "ctaTherapyBoxTitle": "Op zoek naar holistische genezing?",
+    "ctaTherapyBoxDesc": "Plan een privéconsultatie of reserveer een villaverblijf in ons Wayanad-bergreservaat voor bioveldafstemming.",
+    "ctaTherapyBoxBtn": "Boek Sanctuary-intake"
   },
   "export": {
     "division": "Internationale Handelsdivisie",
@@ -136,7 +136,275 @@ export const translations: StaticTranslations = {
     "packagingPrep": "Voorbereiding aangepaste verpakking:",
     "packagingDays": "5-7 Werkdagen",
     "portOfLoad": "FOB laadhaven:",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Afdeling Specerijen en Kruiden",
+        "title": "Elite specerijen en authentieke smaakmakers",
+        "description": "Aromaten van Vedas-kwaliteit, hete pepers en complexe culinaire poeders gemalen volgens absolute microbiologische veiligheidsnormen. Directe inkoop op de boerderij garandeert een robuust oliegehalte en intense smaakprofielen.",
+        "highlights": [
+          "Curcumine Gold kurkuma selectie (>5%)",
+          "Piperine-gecontroleerde Tellicherry zwarte peper",
+          "Sudan Dye-negatieve Guntur-pepers",
+          "Cryogeen hygiënisch malen bij lage temperatuur"
+        ],
+        "benefits": [
+          "Hoge retentie van vluchtige etherische oliën",
+          "Ongerepte geur- en smaakstabiliteit",
+          "100% biologische verwerking zonder toevoegingen",
+          "Aflatoxine-veilige wereldwijde naleving"
+        ],
+        "packaging": "Meerlaagse Kraft-zakken van 25 kg met polyvoering, vacuümverpakte opties.",
+        "capability": "Geconsolideerde gemengde LCL-containerzendingen of tot 20 ton per FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) of Mundra-haven. Prioritaire route voor luchtvracht.",
+        "features": [
+          {
+            "title": "Curcumine Goud",
+            "desc": "Gouden kurkumapoeder met een actief curcuminegehalte van meer dan 5% voor voedsel en klinisch gebruik."
+          },
+          {
+            "title": "Malabar-peper",
+            "desc": "Extra krachtige zwarte peperbessen die gewaardeerd worden vanwege de diepe piperinehitte en complexe bostonen."
+          },
+          {
+            "title": "Cryo-gemalen chilipeper",
+            "desc": "Guntur Sannam chilipoeder gemalen onder cryogene controle om door hitte veroorzaakt olieverlies te blokkeren."
+          },
+          {
+            "title": "Citrusachtige Koriander",
+            "desc": "Premium Malwa-zaden gemalen tot fijnmazig, met citrus-warme vluchtige fracties."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Bureau voor groentepoeders",
+        "title": "Zuivere gedehydrateerde plantaardige poeders",
+        "description": "Landbouwgroenten worden gedroogd bij strikt gecontroleerde lage temperaturen om bioactieve voedingsstoffen, kleurprofielen en smaakdiepte te beschermen. Ideaal voor kant-en-klaar voedsel, mixers en farmaceutische formuleringen.",
+        "highlights": [
+          "100% echte plantaardige vaste stoffen, zonder toevoegingen",
+          "Celvasthoudende droging bij lage temperatuur",
+          "Uitstekende droge oplosbaarheid en dispersie",
+          "Vrij vloeiende, niet-klonterende natuurlijke kwaliteit"
+        ],
+        "benefits": [
+          "Verhoudingen voor onmiddellijke waterreconstitutie",
+          "Intense concentratie van biologische smaken",
+          "Behoudt natuurlijke vitamines en vezels",
+          "Ongerepte visuele pigmentretentie"
+        ],
+        "packaging": "Vezelvaten met dubbele polyethyleen binnenzakken (20 kg / 25 kg).",
+        "capability": "12-15 ton per FCL. Op maat gemaakte kruiden-/groentemengsels.",
+        "shippingInfo": "Oceaantransit via temperatuurgecontroleerde koelcontainers naar wereldhavens.",
+        "features": [
+          {
+            "title": "Gesproeidroogde tomaat",
+            "desc": "Oplosbaar poeder van rode tomatenpulp, rijk aan lycopeen, voor een instant hartige umami-diepte."
+          },
+          {
+            "title": "Betalain rode biet",
+            "desc": "Fijngemalen bietenpoeder zorgt voor intense, natuurlijke karmozijnrode kleuren en nitraatrijkdom."
+          },
+          {
+            "title": "Chlorofyl Spinazie",
+            "desc": "Heldergroen oplosbaar spinaziepoeder dat ijzer en chlorofyl uit de voeding vasthoudt."
+          },
+          {
+            "title": "Allicine Knoflook",
+            "desc": "Scherp knoflookpoeder, gemalen uit de beste kruidnagels, met een snelle verspreiding en smaak."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Fruitpoeders bureau",
+        "title": "Boomgaardfruitpoeders en oplosbare stoffen",
+        "description": "Premium gesproeidroogde, op lage temperatuur gedehydrateerde fruitpoeders die de ware zoetheid, organische suikers en vitamines van zongerijpt boomgaardfruit vastleggen. Zeer populair in dranken, zoetwaren en kindervoeding.",
+        "highlights": [
+          "Rechtstreeks gesproeidroogd uit biologische pulp",
+          "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "Zeer oplosbaar in warme en koude vloeistoffen",
+          "Voedingsrijke superfoodselecties"
+        ],
+        "benefits": [
+          "Puur fruitaroma en zoete toets",
+          "Hoge vitamine C en bioactieve retentie",
+          "Perfecte mix voor zuivel en bakken",
+          "Clean-label-compatibele ingrediënten"
+        ],
+        "packaging": "Vacuümverpakkingen van aluminiumfolie in gegolfde masterboxen.",
+        "capability": "8-10 ton per FCL. Ondersteuning voor private label-verpakkingen.",
+        "shippingInfo": "Express luchtvracht of temperatuurgecontroleerd zeecontainervervoer.",
+        "features": [
+          {
+            "title": "Cavendish Banaan",
+            "desc": "Groen en rijp bananenpoeder rijk aan resistent zetmeel, perfect voor glutenvrije mengsels."
+          },
+          {
+            "title": "Kesar-mango",
+            "desc": "Gouden fruitbestanddelen die het zoete aroma van met de hand geoogste Indiase mango's vastleggen."
+          },
+          {
+            "title": "Ascorbinezuur Amla",
+            "desc": "Biologisch geproduceerd kruisbessenpoeder met hooggeconcentreerde natuurlijke vitamine C."
+          },
+          {
+            "title": "Antioxidant granaatappel",
+            "desc": "Gesproeidroogd granaatappelsappoeder met rijke polyfenolen en visuele roze tinten."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Moringa Superfood-bureau",
+        "title": "Premium biologische Moringa-producten",
+        "description": "Biologisch geteelde Moringa oleifera-bladeren, -poeders, theeën en extracten afkomstig van pesticidevrije, hoogproductieve Indiase landgoederen. Verwerkt onder schaduwdroogprotocollen om essentiële aminozuren te beschermen.",
+        "highlights": [
+          "USDA & APEDA Biologisch gecertificeerde gewassen",
+          "Strikte schaduwgedroogde bladuitharding",
+          "Fytochemisch en flavonoïde gestandaardiseerd",
+          "99,9% schoon bladmateriaal, geen zand"
+        ],
+        "benefits": [
+          "Compleet plantaardig eiwit met 9 aminozuren",
+          "Extreem ijzer-, calcium- en vitaminegehalte",
+          "Zeer stabiele houdbaarheid in vacuümverpakking",
+          "Ideaal voor supplementen en cosmetica"
+        ],
+        "packaging": "Vacuümzakken met silicagel-inzetstukken, verpakt in versterkte dozen.",
+        "capability": "5-8 ton per batch. Aanpasbare bladsneden en groothandelspakketten.",
+        "shippingInfo": "Verzegelde droge containers, prioritaire luchtvrachtverzending naar wereldwijde wellnessdistributeurs.",
+        "features": [
+          {
+            "title": "Biologische bladpoeder",
+            "desc": "Fijngemalen moringabladpoeder met diepe smaragdgroene kleur en grasachtige smaak."
+          },
+          {
+            "title": "Schone uitgeharde bladeren",
+            "desc": "Hele, in de schaduw gedroogde bladeren, mechanisch gesorteerd om twijgen, stengels en stof te verwijderen."
+          },
+          {
+            "title": "Kruiden Moringa-thee",
+            "desc": "Uniform gesneden bladeren, geoptimaliseerd voor theezakjes, voor een frisse wellness-kruideninfusie."
+          },
+          {
+            "title": "Gestandaardiseerd uittreksel",
+            "desc": "Geconcentreerd moringabladextract gestandaardiseerd voor totale bioflavonoïden voor klinische formuleringen."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Bureau voor oliezaden",
+        "title": "Premium gesorteerde olie- en dieetzaden",
+        "description": "Elite biologische olie en voedingszaden van exportkwaliteit, systematisch gereinigd, gesorteerd en verpakt onder absolute fytosanitaire controles. Hoge olieopbrengst en zuivere Sortex-zuiverheid maken deze ideaal voor voedsel- en industriële verwerking.",
+        "highlights": [
+          "99,9% Sortex optische kleur gesorteerd",
+          "Strenge begassing- en reinigingsaudits",
+          "Gecertificeerd pesticide- en residuvrij",
+          "Hoog gehalte aan meervoudig onverzadigde vetzuren"
+        ],
+        "benefits": [
+          "Hoge natuurlijke olie-extractieverhoudingen",
+          "Extreem schone zaden zonder vuil",
+          "Uniforme zaadafmetingen en kleurprofielen",
+          "Verpakt om atmosferisch vocht tegen te houden"
+        ],
+        "packaging": "Geweven zakken van polypropyleen of meerlaagse papieren zakken (25 kg / 50 kg).",
+        "capability": "18-22 ton per container (FCL). Aangepaste vochtspecificaties.",
+        "shippingInfo": "Rechtstreekse oceaanstomers, bulkvrachtroutering naar commerciële bakkerijen en distributeurs.",
+        "features": [
+          {
+            "title": "Gepelde Sesam",
+            "desc": "Automatisch gereinigde witte sesamzaadjes met een hoge olieopbrengst en zoete, nootachtige smaken."
+          },
+          {
+            "title": "Gouden Vlas",
+            "desc": "Premium lijnzaad rijk aan voedingsvezels en essentiële omega-3-vetzuren."
+          },
+          {
+            "title": "Gelvormende chia",
+            "desc": "Biologische zwarte chiazaden met uitstekende zwelindexen en slijmkwaliteit."
+          },
+          {
+            "title": "Groene Pompoen",
+            "desc": "Pompoenpitten met schone romp, gesorteerd op uniforme, opvallende groene kleur en knapperigheid."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Bureau voor gedehydrateerde groenten",
+        "title": "Hygiënische gedehydrateerde groenten",
+        "description": "Schoongesneden uien, knoflook, gember en andere groenten worden gedroogd onder geavanceerde luchtstroomkamers. Rechtstreeks afkomstig van fytoconforme landbouwbanden voor uitstekende rehydratatie- en smaakprestaties.",
+        "highlights": [
+          "Er worden geen sulfieten, zwavels of conserveermiddelen gebruikt",
+          "Laag restvochtgehalte (<5%)",
+          "Ongerepte rehydratatie en textuurherstel",
+          "Fytosanitair gecertificeerde exportvracht"
+        ],
+        "benefits": [
+          "Vermindert drastisch de culinaire voorbereidingstijd",
+          "Bespaart transportgewicht en opslagruimte",
+          "Behoudt de natuurlijke kleur en visuele aantrekkingskracht",
+          "Consistente smaaksterkte in voedselmixen"
+        ],
+        "packaging": "HDPE-gevoerde omdozen met dubbele, hitteverzegelde poly-inzetstukken.",
+        "capability": "10-12 ton per FCL. Aanpasbaar snijden en in blokjes snijden.",
+        "shippingInfo": "Standaard droogcontainers of koelcontainerroutes naar industriële kruidenkeukens.",
+        "features": [
+          {
+            "title": "Ui Plakjes",
+            "desc": "Gedehydrateerde plakjes rode en witte ui met een sterke scherpte en hoge reconstitutie."
+          },
+          {
+            "title": "Knoflookteentjes",
+            "desc": "Gedroogde gespleten knoflookteentjes, zorgvuldig ontveld en Sortex gesorteerd om roet te verwijderen."
+          },
+          {
+            "title": "Gesneden Gember",
+            "desc": "Schone gedroogde gemberschijfjes met pittige hitte en een hoog actief gingerolgehalte."
+          },
+          {
+            "title": "Trostomaat",
+            "desc": "Gedroogde biologische tomatenschijfjes rijk aan natuurlijk lycopeen, gedroogd zonder chemische sulfieten."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Bureau voor gedehydrateerd fruit",
+        "title": "Zonovergoten, gedehydrateerde vruchten",
+        "description": "Premium plakjes en langgesneden, gedroogd fruit, bereid uit met de hand geoogste biologische boomgaarden. Behoudt natuurlijke fructosesuikers, taaie texturen en essentiële vitamines zonder chemische conserveermiddelen.",
+        "highlights": [
+          "Geen toegevoegde rietsuikers of zoetstoffen",
+          "Sulfietvrij, nul-chemische kleurstoffen",
+          "Flexibele snijvormen en aangepast vocht",
+          "Pesticidenvrije gecertificeerde boomgaarden"
+        ],
+        "benefits": [
+          "Natuurlijke zoetheid en taai mondgevoel",
+          "Uitstekende houdbaarheid bij droge opslag",
+          "Ideaal voor snacks en gebak",
+          "Residuarm en clean-label-verwerking"
+        ],
+        "packaging": "BOPP gelamineerde zakjes met zuurstofabsorbers aan de binnenkant en kartonnen masterpacks.",
+        "capability": "6-8 ton per FCL. Op maat gesneden maten beschikbaar.",
+        "shippingInfo": "Droge containers met lage luchtvochtigheid en temperatuurstabiele luchtvracht.",
+        "features": [
+          {
+            "title": "Abrikozenschijfjes",
+            "desc": "Zachte, natuurlijk zoete abrikozenschijfjes geconserveerd met geconcentreerde fruitsmaak en levendige kleuren."
+          },
+          {
+            "title": "Vijgenstukken",
+            "desc": "Taaie, zongedroogde vijgenstukjes met hoog oplosbare vezels en gekarameliseerde zoetheid."
+          },
+          {
+            "title": "Mangoreepjes",
+            "desc": "Langgesneden gedroogde mangoreepjes die het tropische aroma en de heldere gouden kleur behouden."
+          },
+          {
+            "title": "Papajachips",
+            "desc": "Gedehydrateerde papajaschijfjes gewaardeerd om hun premium textuur en rijkdom aan micronutriënten."
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "HARMONISATIEKLINIEKEN",
@@ -302,420 +570,928 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "Fruit",
-        "desc": "Hoogwaardig in de zon gerijpt fruit uit boomgaarden en op grote hoogte geteeld tropisch fruit, direct geoogst van biologische boerderijen."
-      },
       "spices": {
-        "title": "Specerijen & Kruiden",
-        "desc": "Aromatische producten van Vedische kwaliteit, scherpe specerijen en complexe culinaire poeders, gemalen volgens de strengste microbiologische veiligheidsnormen."
+        "title": "Specerijen en smaakmakers",
+        "desc": "Aromaten van Vedas-kwaliteit, hete kruiden en complexe culinaire poeders gemalen volgens absolute microbiologische veiligheidsnormen."
       },
-      "dehydrated": {
-        "title": "Gedehydrateerde Producten",
-        "desc": "Premium groenten, gedroogd bij lage temperaturen in de schaduw, en therapeutische superfood-plantenpoeders met behoud van celstructuur, kleur en voedingswaarden."
+      "veg_powders": {
+        "title": "Gedehydrateerde plantaardige poeders",
+        "desc": "Fijne agrarische groentepoeders, gedroogd bij lage temperaturen om bioactieve voedingsstoffen, kleuren en intense smaken vast te houden."
       },
-      "jaggery": {
-        "title": "Jaggery-producten",
-        "desc": "Traditionele suikerrietnectars, geklaard met biologische extracten van wilde planten en ingedikt tot kristalrijke karamel."
+      "fruit_powders": {
+        "title": "Gedehydrateerde fruitpoeders",
+        "desc": "Premium gesproeidroogde, op lage temperatuur gedehydrateerde fruitpoeders die de pure zoetheid, vitamines en smaak van verse boomgaarden vastleggen."
+      },
+      "moringa": {
+        "title": "Moringa-producten",
+        "desc": "Zuivere botanische Moringa oleifera-bladeren, poeders, theeën en extracten afkomstig van pesticidevrije teelt met hoge opbrengst."
+      },
+      "seeds": {
+        "title": "Zaden Categorie",
+        "desc": "Elite biologische olie en voedingszaden van exportkwaliteit, gereinigd, gesorteerd en verpakt onder absolute fytosanitaire controles."
+      },
+      "dehydrated_veg": {
+        "title": "Gedehydrateerde groenten",
+        "desc": "Schoongesneden gedehydrateerde uien, knoflook, gember en andere groenten, verwerkt voor hoge reconstitutie en lange houdbaarheid."
+      },
+      "dehydrated_fruits": {
+        "title": "Gedehydrateerde vruchten",
+        "desc": "Premium langgesneden en plakjes zonovergoten, gedehydrateerd fruit met behoud van natuurlijke suikers, textuur en vitamines."
+      },
+      "flakes": {
+        "title": "Vlokken Categorie",
+        "desc": "Groentevlokken van industriële kwaliteit en gourmet, gelijkmatig gedroogd voor snelle hydratatie in gemaksvoedsel en droge mixen."
       }
     },
     "items": {
-      "f-banana": {
-        "name": "Banaan",
-        "desc": "Natuurlijk zoete Grand Naine- en Cavendish-bananen, geteeld in de voedingsrijke vulkanische bodem van Wayanad en geëxporteerd in beschermde, temperatuurgecontroleerde atmosferen.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Golfkartonnen doos met polyethyleen voering",
-          "purity": "100% biologisch geteeld",
-          "grade": "Premium Klasse A",
-          "minOrder": "1 metrische ton"
-        }
-      },
-      "f-pomegranate": {
-        "name": "Granaatappel",
-        "desc": "Sappige, dieprode Bhagwa-granaatappels met zachte zaden, een hoog brix-gehalte en rijke antioxidante eigenschappen, systematisch gesorteerd via opto-elektronische sorteermachines.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Deccan Plateau, India",
-          "packaging": "Geventileerde 4kg-dozen",
-          "purity": "Fytosanitair gecertificeerd",
-          "grade": "Exportkwaliteit Graad I",
-          "minOrder": "1 metrische ton"
-        }
-      },
-      "f-grapes": {
-        "name": "Druiven",
-        "desc": "Exclusieve pitloze groene Thompson- en zwarte Sharad-druiven. Knapperige textuur met een gebalanceerde zoetheid en optimale houdbaarheid.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Nashik Vallei, India",
-          "packaging": "Pouch-verpakking + omdoos met SO2-pads",
-          "purity": "Geverifieerd residuvrij",
-          "grade": "Extra Klasse Superieur",
-          "minOrder": "2 metrische ton"
-        }
-      },
-      "f-guava": {
-        "name": "Guave",
-        "desc": "Levendig roze-vlezige VNR Bihi- en wit-vlezige Lalit-guaves, bekend om hun uitzonderlijke gewicht, minimale hoeveelheid zaden en verfijnd tropisch aroma.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Vedische landgoederen, India",
-          "packaging": "Schuimnetten & versterkte kartons",
-          "purity": "Biologisch traceerbaar",
-          "grade": "Premium Super",
-          "minOrder": "1 metrische ton"
-        }
-      },
-      "f-mango": {
-        "name": "Mango",
-        "desc": "De superieure Alphonso (Hapus) en Kesar-mango's. Wereldwijd geprezen om hun intense goudgele kleur, vezelvrije vruchtvlees en rijk, roomachtig smaakprofiel.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Ratnagiri kustboomgaarden, India",
-          "packaging": "Met damp hittebehandeld / Geschenkverpakking",
-          "purity": "APEDA goedgekeurd fytosanitair",
-          "grade": "AAA-kwaliteit Prime Selectie",
-          "minOrder": "1 metrische ton"
-        }
-      },
       "s-turmeric": {
-        "name": "Kurkumapoeder",
-        "desc": "Goudgeel poeder van handgeselecteerde Salem-kurkumawortels. Extra hoog curcuminegehalte (typisch >5%), specifiek gecureerd voor farmaceutische toepassingen.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "name": "Kurkuma Poeder",
+        "desc": "Levendig goudgeel kurkumapoeder gemalen naar keuze Erodeert wortelstokken en biedt hoge actieve curcumineniveaus die geschikt zijn voor B2B-farmaceutisch en gastronomisch gebruik.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Erode & Salem, India",
+          "origin": "Erode & Salem Estates, India",
           "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
-          "purity": "100% puur, vrij van zware metalen",
-          "grade": "A++ Premium Curcumin Gold",
+          "purity": "Curcumine > 5% Gecertificeerd, Puur",
+          "grade": "A++ High-Curcumin Gold",
           "minOrder": "500 kilogram"
         }
       },
       "s-redchilli": {
-        "name": "Rode chilipoeder",
-        "desc": "Levendig rood chilipoeder van hele, steelloze Guntur Sannam- en Kasjmiri-pepers, met een diep aroma en aanpasbare SHU-scherptegraden.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "name": "Rode Chilipoeder",
+        "desc": "Guntur Sannam rode chilipoeder met een diepe kleur en aanpasbare warmtewaarden voor internationale keukens.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
           "origin": "Guntur-regio, India",
-          "packaging": "Luchtdichte zakken met zuurstofabsorbers",
-          "purity": "Vrij van aflatoxine & Sudan-kleurstof",
-          "grade": "Premium Single Origin",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "Aflatoxine en Soedankleurstof negatief",
+          "grade": "Kashmiri helderrode selectie",
           "minOrder": "500 kilogram"
         }
       },
       "s-coriander": {
-        "name": "Korianderpoeder",
-        "desc": "Aromatisch poeder van korianderzaad met een hoog gehalte aan etherische oliën. Voegt zoete, warme, citrusachtige tonen toe aan gastronomische melanges.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "name": "Koriander Poeder",
+        "desc": "Traditioneel geheel en gemalen korianderpoeder verwerkt onder lage temperatuur malen om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Malwa Plateau, India",
-          "packaging": "HDPE PP-zak met LDPE binnenvoering",
-          "purity": "Geen vulstoffen toegevoegd",
-          "grade": "Fijngemalen, pure Indiase herkomst",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
       "s-cumin": {
-        "name": "Komijnzaad",
-        "desc": "Krachtig, stofvrij komijnzaad (Jeera) met een optimaal gehalte aan cuminaldehyde. Biedt aardse en nootachtige smaaknuances.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "name": "Komijnpoeder",
+        "desc": "Traditioneel geheel en gemalen komijnpoeder verwerkt onder malen op lage temperatuur om de aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Gujarat, India",
-          "packaging": "Jute zakken of composiet kartons",
-          "purity": "99,5% machinaal gereinigd (Sortex)",
-          "grade": "Singapore-kwaliteit hoge zuiverheid",
-          "minOrder": "1 metrische ton"
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
+          "minOrder": "500 kilogram"
         }
       },
       "s-blackpepper": {
         "name": "Zwarte peper",
-        "desc": "Krachtige Malabar Tellicherry Extra Bold Garbled peperbessen (TGSEB). Gewaardeerd om zijn rijke piperine-scherpte en complexe bosachtige geur.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "desc": "Hele zwarte peperbessen van klasse 1, geoogst op historische Malabar-hellingen, en leveren intense piperine-hitte en een complex houtachtig aroma.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Wayanad-bossen, India",
-          "packaging": "Dubbel gelamineerde poly-zakken (25/50 kg)",
-          "purity": "Vochtgehalte <11,5% gecertificeerd",
-          "grade": "Graad MG1 (Tellicherry Supreme)",
+          "origin": "Wayanad Hooglandbossen, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "Vocht < 11,5% gecertificeerd",
+          "grade": "Tellicherry Extra Bold (TGSEB)",
           "minOrder": "500 kilogram"
         }
       },
       "s-cardamom": {
         "name": "Kardemom",
-        "desc": "Statige 8mm+ grote groene kardemompeulen, zorgvuldig gedroogd voor behoud van de diep-smaragdgroene kleur en een zoete, complexe harsachtige kamfersmaak.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "desc": "Volle, hoogwaardige groene kardemompeulen met prachtige natuurlijke smaragdgroene schelpen en een hoog gehalte aan essentiële zaadolie.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Cardamom Hills, Kerala, India",
-          "packaging": "Aluminiumfolie gevoerde omdozen",
-          "purity": "Vrij van kunstmatige glansmiddelen",
+          "origin": "Kardemomheuvels, Kerala, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "Vrij van kunstmatige polijstmiddelen",
           "grade": "Bold Premium Extra Emerald (8mm+)",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "s-cinnamon": {
-        "name": "Kaneel",
-        "desc": "Geurige, met de hand geschilde stokjes van authentieke Ceylon-type kaneel. Zoete, milde houtachtige geur met zeer lage coumarinegehaltes, ideaal voor premium banketbakkerij.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Western Ghats biologische boerderijen, India",
-          "packaging": "Jute bundels of omdozen",
-          "purity": "100% authentieke boomschors",
-          "grade": "Fine Grade Alba/C5 selectie",
           "minOrder": "200 kilogram"
         }
       },
       "s-cloves": {
         "name": "Kruidnagel",
-        "desc": "Rijke, aromatische hele kruidnagels met een hoog gehalte aan eugenol (etherische olie). Knoppen met een krachtige vorm en diepe roodbruine kleur.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "desc": "Hele bruine kruidnagels gedroogd tot een optimaal vochtgehalte om aromatische eugenolverbindingen te behouden.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
           "origin": "Nilgiris-gordel, India",
-          "packaging": "Zakvoering binnen kartonnen verdelers",
-          "purity": "Sortex-gesorteerd, minimale steeltjes",
-          "grade": "Handgeselecteerde premium kruidnagel",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Handgeselecteerde prime hele kruidnagels",
           "minOrder": "200 kilogram"
         }
       },
-      "s-fennel": {
-        "name": "Venkelzaad",
-        "desc": "Krachtig, zoet venkelzaad (Saunf) met een heldergroene kleur. Zeer geschikt voor spijsverteringsinfusies en ambachtelijke bakkerijproducten.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-cinnamon": {
+        "name": "Kaneel",
+        "desc": "Zoete kaneelstengels van het Ceylon-type, duurzaam geoogst, met een zeer laag cumarinegehalte en een delicate houtachtige zoetheid.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Rajasthan-vlakten, India",
-          "packaging": "PP-zakken of op maat gemaakte vezelzakken",
-          "purity": "99% puur, gesorteerd op kleuruniformiteit",
-          "grade": "Premium Bold Green",
+          "origin": "West-Ghats, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Fijne kwaliteit Alba-pennen",
           "minOrder": "500 kilogram"
         }
       },
-      "s-mustard": {
-        "name": "Mosterdzaad",
-        "desc": "Krachtig zwart en geel mosterdzaad rijk aan oliegehalte. Geeft een scherpe, pittige smaak aan kruidenpasta's, azijn en tafelspreads.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-nutmeg": {
+        "name": "Nootmuskaat",
+        "desc": "Traditionele hele en gemalen nootmuskaat verwerkt onder lage temperatuur malen om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Indo-Gangetische bodem, India",
-          "packaging": "Geweven meerwandige kraftpapieren dozen",
-          "purity": "Microbiologisch gereinigd",
-          "grade": "Graad A Bold Sortex",
-          "minOrder": "1 metrische ton"
-        }
-      },
-      "s-garammasala": {
-        "name": "Garam Masala",
-        "desc": "Klassieke melange van geroosterde kardemom, kaneel, zwarte peper, kruidnagel, foelie, nootmuskaat en komijn. Koud gemalen voor behoud van essentiële vluchtige esters.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Royal Vedic Blend, India",
-          "packaging": "Hoogwaardige barrièreverpakkingen in omdozen",
-          "purity": "100% traditionele receptuur",
-          "grade": "Gastronomische culinaire kwaliteit",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "s-currypowder": {
-        "name": "Kerriepoeder",
-        "desc": "Internationale Madras-stijl kerriemelange. Perfect gebalanceerde tonen van koriander, milde chili, fenegriek en kurkuma met een hoog curcuminegehalte.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Madras Heritage Blend, India",
-          "packaging": "Meerlaagse gemetalliseerde vochtwerende verpakking",
-          "purity": "Geen kunstmatige kleurstoffen",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
           "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
-      "s-gingerpowder": {
-        "name": "Gemberpoeder",
-        "desc": "Gedehydrateerd en fijngemalen gemberwortelpoeder met een sterke gemberol-warmte en pittige scherpte. Zeer geliefd in de dranken- en bakkerijindustrie.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-staranise": {
+        "name": "Steranijs",
+        "desc": "Traditionele hele en gemalen steranijs verwerkt onder lage temperatuur malen om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Northeast Hills, India",
-          "packaging": "Vacuüm verzegelde foliezakken (25 kg)",
-          "purity": "Pure Zingiber officinale wortel",
-          "grade": "Select Grade Fine",
-          "minOrder": "300 kilogram"
-        }
-      },
-      "s-garlicpowder": {
-        "name": "Knoflookpoeder",
-        "desc": "Gedehydrateerd, fijn knoflookpoeder uit krachtige lokale Indiase knoflookklonen, voor een intens aroma op basis van allicine en een onmiddellijke smaakverdeling.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Gelamineerde vochtbestendige vaten",
-          "purity": "Vrij van additieven, klontert niet",
-          "grade": "A-Grade culinair poeder",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
-      "s-onionpowder": {
-        "name": "Uienpoeder",
-        "desc": "Hoogwaardig gedehydrateerde rode en witte ui, gemalen tot poeder. Levert direct een geconcentreerde, zoete en pittige uiensmaak zonder toevoeging van vocht.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-fennel": {
+        "name": "Venkelzaden",
+        "desc": "Traditionele hele en gemalen venkelzaden verwerkt onder lage temperatuur malen om de aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Dubbel verzegelde voedselveilige zakken in karton",
-          "purity": "Vochtgehalte < 4,0% standaard",
-          "grade": "Gourmet-standaard",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
-      "d-onion": {
-        "name": "Uienvlokken",
-        "desc": "Zorgvuldig gesneden en aan de lucht gedroogde premium rode uien. Behoudt een hoge scherpte, lichte textuur en visueel zuivere vlokken met een lange houdbaarheid.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-mustard": {
+        "name": "Mosterdzaden",
+        "desc": "Traditionele hele en gemalen mosterdzaden verwerkt onder lage temperatuur malen om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Nashik-regio, India",
-          "packaging": "Vochtbestendige voedselveilige vaten (20kg)",
-          "purity": "Vrij van buitenste schillen / roet",
-          "grade": "Choice Grade AA Vlokken",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
-      "d-garlic": {
-        "name": "Knoflookvlokken",
-        "desc": "Goudwitte, bij lage temperatuur gedehydrateerde knoflookvlokken. Robuust allicinegehalte, perfect voor snelle rehydratatie in convenience-voeding.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-bayleaves": {
+        "name": "Laurierblaadjes",
+        "desc": "Traditionele hele en gemalen laurierblaadjes verwerkt onder lage temperatuur malen om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Malwa-regio, India",
-          "packaging": "Polyethyleen gevoerde golfkartonnen dozen",
-          "purity": "100% pure knoflooktenen, zonder vlies",
-          "grade": "AAA-kwaliteit Sortex gesorteerd",
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
           "minOrder": "500 kilogram"
         }
       },
-      "d-tomato": {
-        "name": "Tomatenpoeder",
-        "desc": "Rijkrood poeder verkregen door het sproeidrogen van aan de tros gerijpte biologische tomaten. Geeft een instant umami-diepte en een klassiek tomatenaccent aan soepen, sauzen en hartige mixen.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "s-garammasala": {
+        "name": "Garam Masala",
+        "desc": "Traditionele hele en gemalen garam masala verwerkt onder malen op lage temperatuur om de aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "DharaAveda boerderijen, India",
-          "packaging": "Aluminium vacuümfolie vatinzetstukken",
-          "purity": "100% natuurlijk lycopeen, geen synthetische toevoegingen",
-          "grade": "Premium sproeigedroogd",
-          "minOrder": "300 kilogram"
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
+          "minOrder": "500 kilogram"
         }
       },
-      "d-beetroot": {
+      "s-mixedspice": {
+        "name": "Gemengde kruidenmengsels",
+        "desc": "Traditionele hele en gemalen gemengde kruidenmengsels verwerkt onder malen op lage temperatuur om aromatische fracties te beschermen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Kerala Spice Belt, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "100% puur, vrij van zware metalen",
+          "grade": "Premium exportkwaliteit",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-beetroot": {
         "name": "Bietenpoeder",
-        "desc": "Fijngemalen poeder van gedehydrateerde premium rode bieten, met intens karmozijnrode betalaïne-pigmenten en een zoet, van nature nitraatrijk profiel.",
-        "pricing": "Neem contact op met de Trade Desk",
+        "desc": "Rijk karmozijnrood bietenpoeder met hoge natuurlijke betalains, nitraten en voedingsvezels voor gezondheidsmengsels.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
           "origin": "Vedische vlakten, India",
-          "packaging": "Verzegelde barrièrebuizen of dubbele polyzakken",
-          "purity": "Geen kunstmatige pigmenten",
-          "grade": "Nutraceutical-kwaliteit",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "d-spinach": {
-        "name": "Spinaziepoeder",
-        "desc": "Briljant groen poeder van gedehydrateerde, ijzerrijke verse spinaziebladeren. Zeer goed oplosbaar voor een directe chlorofylverrijking.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Himalaya-voetheuvels, India",
-          "packaging": "Stikstofgespoelde vacuümzakken",
-          "purity": "100% pure Spinacia oleracea",
-          "grade": "Superfood- & voedingskwaliteit",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "d-carrot": {
-        "name": "Wortelpoeder",
-        "desc": "Rijk oranje poeder van zoete gedehydrateerde babyworteltjes, met behoud van bètacaroteen en rijke, milde voedingsvezels.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Punjab, India",
-          "packaging": "Vochtsluitende vaten (20kg)",
-          "purity": "100% wortelwortels, geen toegevoegde suikers",
-          "grade": "U.S. FDA-conforme kwaliteit",
-          "minOrder": "300 kilogram"
-        }
-      },
-      "d-greenchilli": {
-        "name": "Groene chilivlokken",
-        "desc": "Pittige groene vlokken van verse paprika's en chilipepers, met behoud van de zuivere kruidige warmte, capsaïcinoïden en de frisse groene kleur.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Nimar Vallei, India",
-          "packaging": "Luchtdichte meerwandige papieren verpakkingen",
-          "purity": "Residuvrij, hoge zuiverheidsstandaard",
-          "grade": "Premium scherptevlokken",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
           "minOrder": "500 kilogram"
         }
       },
-      "d-drumstick": {
-        "name": "Drumstick-poeder",
-        "desc": "Gedroogde voedzame botanische drumstick-peulen (Moringa). Rijk aan essentiële aminozuren en micronutriënten; uitstekend voor dagelijkse gezondheidssupplementen.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "vp-tomato": {
+        "name": "Tomatenpoeder",
+        "desc": "Fijn gesproeidroogd rood tomatenpoeder bereid uit rijpe biologische tomaten, ideaal voor instantsoepen, sauzen en kruidenrubs.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Deccan Biofarm, India",
-          "packaging": "Barrière-folievoeringen in vaten",
-          "purity": "100% pure Moringa Oleifera-peulen",
-          "grade": "Gastronomisch functioneel",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "d-moringa": {
-        "name": "Moringapoeder",
-        "desc": "Gecertificeerd biologisch geoogste, in de schaduw gedroogde bladeren van de Wonderboom (Moringa oleifera). Diepsmaragdgroen poeder vol essentiële vitaminen, polyfenolen en complete eiwitten.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Latur Organic Valley, India",
-          "packaging": "Vacuüm-barrièreverpakking met droogmiddel",
-          "purity": "99,9% rauw bladpoeder, nul additieven",
-          "grade": "AAA+ Premium Nutraceutical",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "d-curryleaves": {
-        "name": "Kerriebladpoeder",
-        "desc": "Gemaakt van verse botanische kerrieblaadjes, direct na de oogst in de schaduw gedroogd. Behoudt aromatische, therapeutische terpeenoliën voor gezondheidsproducten en luxe cosmetica.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Kerala-specerijengordel, India",
-          "packaging": "Verzegelde Kraft-poly-voeringen",
-          "purity": "Organische Murraya koenigii-soort",
-          "grade": "Graad-1 kruidenstandaard",
-          "minOrder": "200 kilogram"
-        }
-      },
-      "j-powder": {
-        "name": "Jaggery-poeder",
-        "desc": "Vrijvloeiend, niet-klevend biologisch jaggery-poeder, verwerkt zonder chemische bleekmiddelen of toxische hulpstoffen. Levert gezonde, mineraalrijke zoetstoffen.",
-        "pricing": "Neem contact op met de Trade Desk",
-        "spec": {
-          "origin": "Kolhapur suikerrietgordel, India",
-          "packaging": "Stazakken, vochtbestendig en ecologisch",
-          "purity": "100% biologisch, chemisch-vrij geklaard",
-          "grade": "Premium kristalniveau",
+          "origin": "Karnataka-boerderijen, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
           "minOrder": "500 kilogram"
         }
       },
-      "j-cubes": {
-        "name": "Jaggery-blokjes",
-        "desc": "Vooraf afgemeten, uniforme blokjes van authentieke, hoogzuivere jaggery. Lost schoon op en laat een diep melasse-aroma vrij.",
-        "pricing": "Neem contact op met de Trade Desk",
+      "vp-potato": {
+        "name": "Aardappel Poeder",
+        "desc": "Zeer zuiver gedehydrateerd aardappelpoeder gemalen volgens micro-mesh-normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
         "spec": {
-          "origin": "Mandya landbouwgebied, India",
-          "packaging": "Vak-verdeelde vacuümtray-verpakkingen",
-          "purity": "Traditionele extractie van suikerriet",
-          "grade": "Graad-A uniforme blokjes",
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-garlic": {
+        "name": "Knoflookpoeder",
+        "desc": "Geconcentreerd knoflookpoeder gemalen uit aromatische bollen, met een robuuste allicine-smaak en dispergeerbaarheid.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Madhya Pradesh, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-ginger": {
+        "name": "Gemberpoeder",
+        "desc": "Fijn gemberwortelpoeder met krachtige gingerolwarmte, veel gebruikt in het mengen van zoetwaren en kruidenthee.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Noordoostelijke heuvels, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-onion": {
+        "name": "Uienpoeder",
+        "desc": "Gedehydrateerd wit/rood uienpoeder geeft snelle hartige uienzoetheid en pit aan voedselmixen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Nashik-regio, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-spinach": {
+        "name": "Spinazie Poeder",
+        "desc": "Fijn groen poeder gedroogd uit hoogwaardige spinaziebladeren, waarbij voedingsijzer en natuurlijke chlorofylkleur worden vastgehouden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Uitlopers van de Himalaya, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-carrot": {
+        "name": "Wortel Poeder",
+        "desc": "Zeer zuiver gedehydrateerd wortelpoeder gemalen volgens micro-mesh-normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-cabbage": {
+        "name": "Kool Poeder",
+        "desc": "Zeer zuiver gedehydrateerd koolpoeder gemalen volgens micromazige normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-moringa": {
+        "name": "Drumstick (Moringa) Poeder",
+        "desc": "Voedzaam moringa-peulen- en bladpoeder verwerkt in cleanrooms om het extreme aantal vitamines en antioxidanten op peil te houden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Latur-vallei, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-greenchilli": {
+        "name": "Groene Chilipoeder",
+        "desc": "Zeer zuiver gedehydrateerd groen chilipoeder, gemalen volgens micromazige normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-corianderleaf": {
+        "name": "Korianderbladpoeder",
+        "desc": "Zeer zuiver gedehydrateerd korianderbladpoeder, gemalen volgens micromazige normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "vp-mint": {
+        "name": "Munt Poeder",
+        "desc": "Zeer zuiver gedehydrateerd muntpoeder gemalen volgens micro-mesh-normen voor snelle oplosbaarheid en smaakverspreiding.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Gelamineerde vochtbestendige vaten (20kg)",
+          "purity": "100% pure, gedehydrateerde groente, geen toevoegingen",
+          "grade": "Premium gesproeidroogd / lage temperatuur gemalen",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-banana": {
+        "name": "Bananenpoeder",
+        "desc": "Gedehydrateerd groen bananenpoeder rijk aan resistent zetmeel, gebruikt in gezonde glutenvrije bloemformuleringen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Wayanad-hooglanden, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-mango": {
+        "name": "Mangopoeder",
+        "desc": "Gesproeidroogd Kesar en Alphonso mangopulppoeder, met behoud van de authentieke tropische smaak, gouden kleur en natuurlijke suikers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Ratnagiri-boomgaarden, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-guava": {
+        "name": "Guave poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van guavepoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-pomegranate": {
+        "name": "Granaatappel Poeder",
+        "desc": "Antioxidantrijk granaatappelsappoeder, gesproeidroogd om de hoge brix en mooie rozerode kleur te behouden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Deccan-plateau, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-pineapple": {
+        "name": "Ananas Poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van ananaspoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-papaya": {
+        "name": "Papaja Poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van papajapoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-apple": {
+        "name": "Appel Poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van appelpoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-orange": {
+        "name": "Oranje poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van sinaasappelpoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-lemon": {
+        "name": "Citroenpoeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van citroenpoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-strawberry": {
+        "name": "Aardbeien Poeder",
+        "desc": "Gesproeidroogd premium vruchtensappoeder van aardbeienpoeder, dat het natuurlijke aroma en de visuele tinten vastlegt voor gastronomische mixers en bakken.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "Gesproeidroogd van 100% biologische fruitpulp",
+          "grade": "Eten en drinken klasse A",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fp-amla": {
+        "name": "Amla-poeder",
+        "desc": "Gedehydrateerd Indiaas kruisbessenpoeder (Amla) met uitzonderlijke vitamine C-niveaus, zeer geschikt voor voedingssupplementen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat-boomgaarden, India",
+          "packaging": "Aluminium vacuümfolie-inzetstukken in omdozen",
+          "purity": "100% pure Amla, hoge vitamine C",
+          "grade": "Nutraceutische standaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "m-powder": {
+        "name": "Moringa-poeder",
+        "desc": "Fijngemalen rauw bladpoeder van biologisch geteelde Moringa oleifera-bomen, met rijke eiwit-, ijzer- en multivitamine-indexen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Latur biologische boerderijen, India",
+          "packaging": "Vacuümverzegelde UV-barrièrezakken (20 kg)",
+          "purity": "USDA & APEDA biologisch gecertificeerd",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogram"
+        }
+      },
+      "m-leaves": {
+        "name": "Moringa-bladeren",
+        "desc": "In de schaduw gedroogde, hele moringabladeren worden systematisch ontdaan van stengels en organische resten, waardoor het vitale chlorofyl intact blijft.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Latur biologische boerderijen, India",
+          "packaging": "Dubbel polygevoerde geweven zakken (15 kg)",
+          "purity": "USDA & APEDA biologisch gecertificeerd",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogram"
+        }
+      },
+      "m-tea": {
+        "name": "Moringa-thee",
+        "desc": "Premium gesneden moringabladeren vermengd met aromatische kruiden om een ​​cafeïnevrije, dagelijkse wellnessinfusie met een hoog antioxidantgehalte te creëren.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Latur biologische boerderijen, India",
+          "packaging": "Op maat gemaakte filtertheezakjes in composiet blikken",
+          "purity": "USDA & APEDA biologisch gecertificeerd",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogram"
+        }
+      },
+      "m-extract": {
+        "name": "Moringa-extract",
+        "desc": "Hoog krachtig bioactief moringabladextract, gestandaardiseerd voor totale flavonoïden- en saponineverhoudingen, voor klinisch gebruik.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Latur biologische boerderijen, India",
+          "packaging": "Voedselveilige HDPE-bussen",
+          "purity": "USDA & APEDA biologisch gecertificeerd",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogram"
+        }
+      },
+      "sd-flax": {
+        "name": "Lijnzaad",
+        "desc": "Donkerbruin biologisch lijnzaad boordevol Omega-3-vetzuren, verwerkt met geavanceerde optische sorteerders om de zuiverheid te garanderen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-pumpkin": {
+        "name": "Pompoenpitten",
+        "desc": "Exportklare premium pompoenpitten, zorgvuldig gereinigd en gesorteerd voor dieetzaden, granen en industriële olie-extractie.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-sesame": {
+        "name": "Sesamzaadjes",
+        "desc": "Krokante, witgepelde sesamzaadjes, Auto-Sortex-gecertificeerd, met een hoog oliegehalte en nootachtige smaak voor de wereldwijde import van bakkerijen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Premium gepelde, automatisch gereinigde Sortex",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-sunflower": {
+        "name": "Zonnebloempitten",
+        "desc": "Exportklare premium zonnebloempitten, zorgvuldig gereinigd en gesorteerd voor dieetzaden, granen en industriële olie-extractie.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-chia": {
+        "name": "Chia-zaden",
+        "desc": "Hoogzwellende biologische zwart-witte chiazaden, gesorteerd om al het vreemde plantmateriaal te verwijderen, rijk aan slijmvezels.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Madhya Pradesh, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-watermelon": {
+        "name": "Watermeloen zaden",
+        "desc": "Exportklare premium watermeloenzaden, zorgvuldig gereinigd en gesorteerd voor dieetzaden, granen en industriële olie-extractie.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "sd-basil": {
+        "name": "Basilicum zaden",
+        "desc": "Exportklare premium basilicumzaden, zorgvuldig gereinigd en gesorteerd voor dieetzaden, granen en industriële olie-extractie.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Gujarat Drylands, India",
+          "packaging": "Meerlaagse kraftpapieren zakken (25 kg)",
+          "purity": "99,9% machinaal gereinigd / Sortex gereinigd",
+          "grade": "Exportkwaliteit AAA Bold-zaden",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-onion": {
+        "name": "Gedehydrateerde ui",
+        "desc": "Luchtgedroogde plakjes rode en witte ui met een uitstekende textuur, waarbij de essentiële scherpe smaken behouden blijven voor onmiddellijke voedselformulering.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Nashik-regio, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-garlic": {
+        "name": "Gedehydrateerde knoflook",
+        "desc": "Premium gedehydrateerde knoflookteentjes gespleten om de rehydratatie te versnellen in instant kruidenrubs, stoofschotels uit blik en noedels.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Malwa-regio, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-ginger": {
+        "name": "Gedehydrateerde gember",
+        "desc": "Op lage temperatuur gedehydrateerde, gedehydrateerde gemberschijfjes, zorgvuldig gesorteerd om te passen bij de uniforme vorm en kleur voor industriële voedselverpakkers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-tomato": {
+        "name": "Gedehydrateerde Tomaat",
+        "desc": "Gedroogde biologische tomatenschijfjes met een rijk natuurlijk lycopeengehalte en een nul-sulfietbehandeling, voor gastronomische culinaire pakketten.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Wayanad-hooglanden, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-carrot": {
+        "name": "Gedehydrateerde Wortel",
+        "desc": "Op lage temperatuur gedehydrateerde, gedehydrateerde wortelschijfjes, zorgvuldig gesorteerd om te passen bij de uniforme vorm en kleur voor industriële voedselverpakkers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-beetroot": {
+        "name": "Gedehydrateerde rode biet",
+        "desc": "Op lage temperatuur gedehydrateerde, gedehydrateerde bietenschijfjes, zorgvuldig gesorteerd om te passen bij de uniforme vorm en kleur voor industriële voedselverpakkers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-spinach": {
+        "name": "Gedehydrateerde Spinazie",
+        "desc": "Op lage temperatuur gedehydrateerde, gedehydrateerde spinazieschijfjes, zorgvuldig gesorteerd om te passen bij de uniforme vorm en kleur voor industriële voedselverpakkers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "dv-cabbage": {
+        "name": "Gedehydrateerde Kool",
+        "desc": "Op lage temperatuur gedehydrateerde, gedehydrateerde koolschijfjes, zorgvuldig gesorteerd om te passen bij de uniforme vorm en kleur voor industriële voedselverpakkers.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Golfkartonnen dozen met polyethyleen bekleding (15/20kg)",
+          "purity": "Geen toegevoegd zout, conserveermiddelen of sulfieten",
+          "grade": "AAA Premium Rehydratatiestandaard",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-banana": {
+        "name": "Bananenschijfjes",
+        "desc": "Zoete Cavendish-bananenrondjes, op natuurlijke wijze gedroogd zonder chemische bewaarmiddelen, perfect voor biologische snackmixen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Wayanad-hooglanden, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-mango": {
+        "name": "Mangoschijfjes",
+        "desc": "Met de hand gesneden Alphonso- en Kesar-mangoreepjes, aan de lucht gedroogd om de zoete tropische geur en zachte, taaie gastronomische textuur te behouden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Ratnagiri-boomgaarden, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-pineapple": {
+        "name": "Ananasschijfjes",
+        "desc": "Premium gedehydrateerde plakjes zongerijpte biologische ananasschijfjes, gestructureerd voor gastronomische voedselzakjes en graanadditieven.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-apple": {
+        "name": "Appelschijfjes",
+        "desc": "Premium gedehydrateerde plakjes zongerijpte biologische appelschijfjes, gestructureerd voor gastronomische voedselzakken en graanadditieven.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-papaya": {
+        "name": "Papaya Plakjes",
+        "desc": "Premium gedehydrateerde plakjes zongerijpte biologische papaya-plakken, gestructureerd voor gastronomische voedselzakken en graanadditieven.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-strawberry": {
+        "name": "Aardbei Plakjes",
+        "desc": "Premium gedehydrateerde plakjes zongerijpte biologische aardbeischijfjes, gestructureerd voor gastronomische voedselzakjes en graanadditieven.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "df-guava": {
+        "name": "Guave plakjes",
+        "desc": "Premium gedehydrateerde plakjes zongerijpte biologische guaveschijfjes, gestructureerd voor gastronomische voedselzakken en graanadditieven.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Vacuümverzegelde polyzakken in omdozen (10kg)",
+          "purity": "Geen toegevoegde suikers, sulfieten of kleurstoffen",
+          "grade": "Premium langgesneden plakjes",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-onion": {
+        "name": "Uienvlokken",
+        "desc": "Perfect gesneden rode en witte uienvlokken van 10 mm, systematisch aan de lucht gedroogd om de natuurlijke zoete allicine te behouden, ideaal voor fastfoodnoedels en sauzen.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Nashik-vallei, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-garlic": {
+        "name": "Knoflookvlokken",
+        "desc": "Gedehydrateerde knoflookvlokken worden schoon gespleten en bieden een scherpe alliumschil en snelle hydratatie voor kant-en-klaarmaaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Malwa-plateau, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-potato": {
+        "name": "Aardappelvlokken",
+        "desc": "Premium gedehydrateerde aardappelvlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-tomato": {
+        "name": "Tomatenvlokken",
+        "desc": "Premium gedehydrateerde tomatenvlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-beetroot": {
+        "name": "Rode Bietenvlokken",
+        "desc": "Premium gedehydrateerde bietenvlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-carrot": {
+        "name": "Wortelvlokken",
+        "desc": "Premium gedehydrateerde wortelvlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-spinach": {
+        "name": "Spinazievlokken",
+        "desc": "Premium gedehydrateerde spinazievlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
+          "minOrder": "500 kilogram"
+        }
+      },
+      "fl-mixedveg": {
+        "name": "Gemengde Groentevlokken",
+        "desc": "Premium gedehydrateerde gemengde groentevlokken, gedroogd om de kleurintensiteit en celtextuur te behouden voor snelle gastronomische maaltijden.",
+        "pricing": "Neem contact op met de Handelsdesk",
+        "spec": {
+          "origin": "Maharashtra, India",
+          "packaging": "Dubbele golfkartonnen dozen met hitteverzegelde voeringen",
+          "purity": "Vocht < 5% gegarandeerd, geen stof",
+          "grade": "Gastronomische vlokken gesneden (10-12 mm)",
           "minOrder": "500 kilogram"
         }
       }
     }
   },
   "seo": {
-    "homeTitle": "DharaAveda Sanctuary | Holistische Genezing & Premium Export",
-    "homeDesc": "DharaAveda Sanctuary biedt Bachbloesemtherapie, Reiki chakra-uitlijning en 432Hz klanktherapie.",
-    "exportTitle": "Agrarische Exportdivisie | DharaAveda",
-    "exportDesc": "Eersteklas specerijen, pure Shilajit en biologische aromatherapie-extracten. Conform APEDA en SGS.",
-    "wellnessTitle": "Holistische Welzijnstherapieën & Sanctuary | DharaAveda",
-    "wellnessDesc": "Ervaar Usui Reiki, Bachbloesem-consulten en klanktherapie in onze Wayanad sanctuary.",
-    "bookingTitle": "Boek Uw Welzijnssessie | DharaAveda",
-    "bookingDesc": "Reserveer uw sessie voor Reiki, Bachbloesems of kristallen klankschalen in onze sanctuary.",
-    "contactTitle": "Contact | DharaAveda",
-    "contactDesc": "Neem contact met ons op voor agrarische bulkzendingen, handelscontracten of sanctuary-verblijven."
+    "homeTitle": "DharaAveda-heiligdom | Herstellende Quantum Healing en premium wellness-export",
+    "homeDesc": "DharaAveda Sanctuary combineert klassieke Bach-wildflower-therapie, Usui Reiki-chakra-uitlijning, Aura-Soma chromo-essentiële oliën en geluidsafstemmingen.",
+    "exportTitle": "Afdeling Agrarische Handel | DharaAveda-heiligdom",
+    "exportDesc": "Premium groene kardemom uit directe bron, pure Shilajit-hars en biologische aromatherapie-extracten. Geautoriseerde naleving van APEDA en SGS.",
+    "wellnessTitle": "Herstellende Quantum Sanctuary en therapieën | DharaAveda",
+    "wellnessDesc": "Ervaar Usui Reiki, Bachbloesemconsultaties en 432Hz-geluidstherapie in ons Wayanad-heiligdom in Kerala.",
+    "bookingTitle": "Plan uw afstemmingsresidentie | DharaAveda",
+    "bookingDesc": "Reserveer uw vertrouwelijke intakegesprek voor Reiki-afstemming, Bachbloesemconsulten of diepe klankhealing.",
+    "contactTitle": "Neem contact op met de Raadsbalie | DharaAveda",
+    "contactDesc": "Neem contact op voor bulktransporten van landbouwproducten, grondstoffencontracten of wellness-opnames in heiligdommen."
   }
 };

@@ -7,7 +7,9 @@ import { EMAIL_TO, PHONE_NUMBER } from "../lib/constants";
 
 export default function Footer() {
   const { lang } = useLanguage();
-  const t = (staticTranslations[lang] || staticTranslations["en"]).footer;
+  const translations = staticTranslations[lang] || staticTranslations["en"];
+  const t = translations.footer;
+  const contactT = translations.contact;
 
   return (
     <footer className="bg-[#0c0c0c] text-gray-400 border-t border-orange-500/20 py-16">
@@ -120,7 +122,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/my-bookings" className="hover:text-orange-500 transition-colors">
-                  My Bookings
+                  {t.myBookings || "My Bookings"}
                 </Link>
               </li>
               <li>
@@ -141,14 +143,14 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
                 <span>
                   <strong>{t.corpOffice}</strong><br />
-                  B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India
+                  {contactT.addressLine1 || "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"}
                 </span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
                 <span>
                   <strong>{t.corpSanctuary}</strong><br />
-                  B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India
+                  {contactT.addressLine2 || "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"}
                 </span>
               </li>
               <li className="flex items-center space-x-2">
@@ -167,13 +169,13 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-orange-500/10 flex flex-col sm:flex-row justify-between items-center text-xs">
           <div className="flex flex-wrap gap-4 items-center mb-6 sm:mb-0 justify-center">
             <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
-              APEDA CERTIFIED
+              {t.badgeApeda || "APEDA CERTIFIED"}
             </span>
             <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
-              FSSAI STANDARD EXPORT
+              {t.badgeFssai || "FSSAI STANDARD EXPORT"}
             </span>
             <span className="px-2.5 py-1 border border-orange-500/20 text-gray-500 font-mono text-[9px] uppercase tracking-widest rounded">
-              USDA ORGANIC compliant
+              {t.badgeUsda || "USDA ORGANIC compliant"}
             </span>
           </div>
           <div className="text-center sm:text-right font-mono text-[10px] text-gray-500">

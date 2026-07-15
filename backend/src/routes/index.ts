@@ -418,6 +418,140 @@ router.post(
 );
 
 router.post(
+  "/payment/create-order",
+  asyncHandler(async (req, res) => {
+    const amount = 2000; // ₹2,000 per session
+
+    let orderId = "";
+    const keyId = process.env.RAZORPAY_KEY_ID;
+    const keySecret = process.env.RAZORPAY_KEY_SECRET;
+
+    if (keyId && keySecret) {
+      try {
+        const rzp = new Razorpay({
+          key_id: keyId,
+          key_secret: keySecret
+        });
+
+        const order = await rzp.orders.create({
+          amount: amount * 100, // paise
+          currency: "INR",
+          receipt: "receipt_pay_" + Date.now().toString().substring(5)
+        });
+        orderId = order.id;
+      } catch (err: any) {
+        console.error("Razorpay order creation failed:", err);
+        res.status(500).json({ error: "Failed to initiate payment: " + err.message });
+        return;
+      }
+    } else {
+      orderId = "order_mock_" + Math.random().toString(36).substring(2, 15);
+      console.warn("Razorpay API keys not set. Running in MOCK payment mode.");
+    }
+
+    res.status(201).json({
+      orderId,
+      amount: amount * 100,
+      currency: "INR",
+      keyId: keyId || "rzp_test_mock_key_id",
+      isMock: !keyId
+    });
+  })
+);
+
+router.post(
+  "/payment/verify",
+  asyncHandler(async (req, res) => {
+    const {
+      razorpayOrderId,
+      razorpayPaymentId,
+      razorpaySignature,
+      name,
+      email,
+      phone,
+      service,
+      date,
+      time,
+      notes,
+      amount
+    } = req.body;
+
+    if (!razorpayOrderId || !razorpayPaymentId || !name || !email || !phone || !service || !date || !time) {
+      res.status(400).json({ error: "Missing verification or booking credentials." });
+      return;
+    }
+
+    let isValid = false;
+    const keySecret = process.env.RAZORPAY_KEY_SECRET;
+    const keyId = process.env.RAZORPAY_KEY_ID;
+
+    if (keySecret && !razorpayOrderId.startsWith("order_mock_")) {
+      try {
+        const hmac = crypto.createHmac("sha256", keySecret);
+        hmac.update(razorpayOrderId + "|" + razorpayPaymentId);
+        const generatedSignature = hmac.digest("hex");
+        isValid = generatedSignature === razorpaySignature;
+      } catch (err) {
+        console.error("Signature verification error:", err);
+      }
+    } else {
+      isValid = razorpayPaymentId.startsWith("pay_mock_") || razorpayOrderId.startsWith("order_mock_");
+    }
+
+    if (!isValid) {
+      res.status(400).json({ error: "Payment verification failed. Invalid transaction signature." });
+      return;
+    }
+
+    // Fetch payment method from Razorpay if not mock
+    let paymentMethod = "mock";
+    if (keyId && keySecret && !razorpayOrderId.startsWith("order_mock_")) {
+      try {
+        const rzp = new Razorpay({
+          key_id: keyId,
+          key_secret: keySecret
+        });
+        const paymentInfo = await rzp.payments.fetch(razorpayPaymentId);
+        paymentMethod = paymentInfo.method || "card";
+      } catch (err) {
+        console.error("Failed to fetch Razorpay payment method details:", err);
+      }
+    }
+
+    // Save booking to MongoDB only after payment is verified successfully
+    const finalAmount = amount || 2000;
+    const booking = await Booking.create({
+      _id: "bk_" + Date.now().toString(),
+      bookingId: "BK-" + Math.floor(100000 + Math.random() * 900000),
+      name,
+      email,
+      phone,
+      service,
+      date,
+      time,
+      notes: notes || "",
+      amount: finalAmount,
+      paymentStatus: "paid",
+      status: "confirmed",
+      razorpayOrderId,
+      razorpayPaymentId,
+      razorpaySignature,
+      paymentId: razorpayPaymentId,
+      orderId: razorpayOrderId,
+      paymentMethod,
+      currency: "INR",
+      paidAt: new Date()
+    });
+
+    // Send emails
+    await sendConfirmationEmail(booking);
+    await sendBookingNotificationEmail(booking);
+
+    res.status(201).json({ success: true, booking });
+  })
+);
+
+router.post(
   "/bookings",
   asyncHandler(async (req, res) => {
     // Legacy support fallback

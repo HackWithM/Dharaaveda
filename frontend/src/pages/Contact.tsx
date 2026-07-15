@@ -94,7 +94,7 @@ export default function Contact() {
               <div className="space-y-3 text-xs text-gray-700">
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-orange-500 shrink-0 mt-0.5" />
-                  <span>B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India</span>
+                  <span>{t.contact.addressLine1 || "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-orange-500 shrink-0" />
@@ -119,7 +119,7 @@ export default function Contact() {
               <div className="space-y-3 text-xs text-gray-700">
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-orange-500 shrink-0 mt-0.5" />
-                  <span>B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India</span>
+                  <span>{t.contact.addressLine2 || "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"}</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-orange-500 shrink-0" />

@@ -142,7 +142,7 @@ export default function Home() {
       img: IMAGES.home.exportCardBg || IMAGES.export.cargoShipAbout,
       btnText: getVal("exportCardBtn"),
       btnLink: "/export",
-      badge: "GLOBAL SUPPLY CHAIN",
+      badge: getVal("exportCardBadge") || "GLOBAL SUPPLY CHAIN",
       highlights: [
         getVal("exportHighlight1"),
         getVal("exportHighlight2"),
@@ -153,12 +153,12 @@ export default function Home() {
     },
     {
       title: getVal("therapyCardTitle"),
-      subtitle: "Restorative Energetic Modalities",
+      subtitle: getVal("therapyCardSubtitle") || "Restorative Energetic Modalities",
       desc: getVal("therapyCardDesc"),
       img: IMAGES.home.therapyCardBg || IMAGES.therapy.heroAtmosphere,
       btnText: getVal("therapyCardBtn"),
       btnLink: "/wellness",
-      badge: "BIOFIELD ATtUNEMENT",
+      badge: getVal("therapyCardBadge") || "BIOFIELD ATtUNEMENT",
       highlights: [
         getVal("therapyHighlight1"),
         getVal("therapyHighlight2"),
@@ -280,7 +280,7 @@ export default function Home() {
             className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-orange-50 border border-orange-200 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-orange-600"
           >
             <Sparkles className="w-3.5 h-3.5 text-orange-500 animate-pulse" />
-            <span className="font-bold">Enterprise Trade & Restoration Clinics</span>
+            <span className="font-bold">{getVal("heroBadge") || "Enterprise Trade & Restoration Clinics"}</span>
           </motion.div>
 
           <motion.h1 
@@ -363,7 +363,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-4">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              OPERATIONAL HORIZONS
+              {getVal("operationalHorizonsBadge") || "OPERATIONAL HORIZONS"}
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               {getVal("showcaseTitle")}
@@ -443,7 +443,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-4">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              CORE CAPABILITIES
+              {getVal("coreCapabilitiesBadge") || "CORE CAPABILITIES"}
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               {getVal("whyTitle")}
@@ -482,7 +482,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-4">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              PORTFOLIO HIGHLIGHTS
+              {getVal("portfolioHighlightsBadge") || "PORTFOLIO HIGHLIGHTS"}
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               {getVal("highlightsTitle")}
@@ -603,7 +603,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
           <div className="text-center space-y-3">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              CUMULATIVE PERFORMANCE
+              {getVal("performanceBadge") || "CUMULATIVE PERFORMANCE"}
             </span>
             <h2 className="font-serif text-2xl sm:text-4xl font-bold text-gray-900">
               {getVal("statsTitle")}
@@ -656,7 +656,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-4">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              VERIFIED SUCCESS STORIES
+              {getVal("successStoriesBadge") || "VERIFIED SUCCESS STORIES"}
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               {getVal("testimonialsTitle")}
@@ -680,7 +680,7 @@ export default function Home() {
                         ? "bg-blue-50 border-blue-100 text-blue-600"
                         : "bg-emerald-50 border-emerald-100 text-emerald-600"
                     }`}>
-                      {test.type === "export" ? "Export Partner" : "Therapy Client"}
+                      {test.type === "export" ? (getVal("testimonialExportLabel") || "Export Partner") : (getVal("testimonialTherapyLabel") || "Therapy Client")}
                     </span>
                     <div className="flex gap-0.5">
                       {Array.from({ length: test.rating }).map((_, r) => (
@@ -714,7 +714,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-4">
             <span className="text-[10px] font-mono tracking-[0.4em] text-orange-600 uppercase block font-medium">
-              COMMUNAL GATEWAYS
+              {getVal("communalGatewaysBadge") || "COMMUNAL GATEWAYS"}
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
               {getVal("ctaTitle")}
@@ -729,7 +729,7 @@ export default function Home() {
             {/* EXPORTS CTA BOX */}
             <div className="p-8 sm:p-10 rounded-3xl bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between text-left space-y-6">
               <div className="space-y-2">
-                <span className="text-[9px] font-mono text-orange-500 tracking-widest uppercase font-bold">COMMODITY LOGISTICS</span>
+                <span className="text-[9px] font-mono text-orange-500 tracking-widest uppercase font-bold">{getVal("ctaExportBadge") || "COMMODITY LOGISTICS"}</span>
                 <h3 className="font-serif text-xl sm:text-2xl font-bold text-gray-900">
                   {getVal("ctaExportBoxTitle")}
                 </h3>
@@ -751,7 +751,7 @@ export default function Home() {
             {/* THERAPY CTA BOX */}
             <div className="p-8 sm:p-10 rounded-3xl bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between text-left space-y-6">
               <div className="space-y-2">
-                <span className="text-[9px] font-mono text-orange-500 tracking-widest uppercase font-bold">VIBRATIONAL ADMISSIONS</span>
+                <span className="text-[9px] font-mono text-orange-500 tracking-widest uppercase font-bold">{getVal("ctaTherapyBadge") || "VIBRATIONAL ADMISSIONS"}</span>
                 <h3 className="font-serif text-xl sm:text-2xl font-bold text-gray-900">
                   {getVal("ctaTherapyBoxTitle")}
                 </h3>
@@ -777,19 +777,19 @@ export default function Home() {
       {/* SEO FOOTER TAGS STRIP */}
       <section className="bg-[#080808] py-8 border-t border-gray-900 text-center px-4 relative z-10 select-none">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] sm:text-xs font-mono text-gray-500 uppercase tracking-wider">
-          <span>Indian Exporter</span>
+          <span>{getVal("footerTag1") || "Indian Exporter"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>Agricultural Exporter</span>
+          <span>{getVal("footerTag2") || "Agricultural Exporter"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>Spice Exporter</span>
+          <span>{getVal("footerTag3") || "Spice Exporter"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>Dehydrated Vegetable Exporter</span>
+          <span>{getVal("footerTag4") || "Dehydrated Vegetable Exporter"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>Global Trade</span>
+          <span>{getVal("footerTag5") || "Global Trade"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>International Supply Chain</span>
+          <span>{getVal("footerTag6") || "International Supply Chain"}</span>
           <span className="text-orange-500/30">•</span>
-          <span>Bulk Export Supplier</span>
+          <span>{getVal("footerTag7") || "Bulk Export Supplier"}</span>
         </div>
       </section>
 

@@ -129,7 +129,7 @@ export default function Navbar() {
     l.code.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  const currentLanguageName = LANGUAGES.find(l => l.code === lang)?.nativeName || "English";
+  const currentLanguageName = LANGUAGES.find(l => l.code === lang)?.nativeName || t.navbar.language || "Language";
 
   const maxScale = isMobile ? 1.92 : 2.70;
   const logoScale = maxScale - scrollProgress * (maxScale - 1);
@@ -271,7 +271,7 @@ export default function Navbar() {
               onFocus={() => handlePrefetch("/admin")}
               onTouchStart={() => handlePrefetch("/admin")}
               className="flex items-center gap-1.5 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-300 text-[9px] font-bold font-mono tracking-widest uppercase rounded-full border border-gray-200 pointer-events-auto"
-              title="Administrator Control Board"
+              title={t.navbar.adminTitle || "Administrator Control Board"}
             >
               <Lock className={`w-3 h-3 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
               <span>{t.navbar.console || "Console"}</span>
@@ -286,7 +286,7 @@ export default function Navbar() {
             className={`inline-flex items-center justify-center p-2 rounded-full text-gray-600 ${isWellnessActive ? "hover:text-therapy-500" : "hover:text-orange-500"} bg-gray-50 hover:bg-gray-100 border border-gray-200 focus:outline-none transition-all cursor-pointer`}
             aria-expanded={mobileMenuOpen}
           >
-            <span className="sr-only">Toggle navigation scope</span>
+            <span className="sr-only">{t.navbar.toggleMenu || "Toggle navigation scope"}</span>
             {mobileMenuOpen ? (
               <X className={`block h-4.5 w-4.5 ${isWellnessActive ? "text-therapy-500" : "text-orange-500"}`} />
             ) : (

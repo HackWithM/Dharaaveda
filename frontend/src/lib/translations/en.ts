@@ -12,7 +12,9 @@ export const translations: StaticTranslations = {
     "language": "Language",
     "selectLanguage": "Select Sacred Language",
     "subTitle": "Agriculture & Aura Clinic",
-    "searchPlaceholder": "Search language..."
+    "searchPlaceholder": "Search language...",
+    "toggleMenu": "Toggle navigation scope",
+    "adminTitle": "Administrator Control Board"
   },
   "footer": {
     "desc": "An elite, high-vibrational ecosystem merging enterprise agricultural supply-chain and global spice distribution with high-end quantum sound and floral bio-frequency wellness clinics.",
@@ -30,7 +32,11 @@ export const translations: StaticTranslations = {
     "wellnessLink4": "Schedule Private Residency Session",
     "corpOffice": "Global Trade Office:",
     "corpSanctuary": "Wellness Sanctuary:",
-    "rights": "All rights reserved. Registered Trade Entity."
+    "rights": "All rights reserved. Registered Trade Entity.",
+    "myBookings": "My Bookings",
+    "badgeApeda": "APEDA CERTIFIED",
+    "badgeFssai": "FSSAI STANDARD EXPORT",
+    "badgeUsda": "USDA ORGANIC compliant"
   },
   "home": {
     "heroTitle": "The Convergence of Global Trade & Holistic Healing",
@@ -83,10 +89,12 @@ export const translations: StaticTranslations = {
     "highlightsExport4Desc": "Custom vacuum-barrier sealing, SGS certifications, and custom port filings.",
     "highlightsTherapy1": "Bach Flower Therapy",
     "highlightsTherapy1Desc": "Custom liquid remedies selected for active cognitive stress and neural release.",
-    "highlightsTherapy2": "Rekkhanoho Therapy",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
     "highlightsTherapy2Desc": "Non-invasive biofield chakra balancing and chromatic energy field restoration.",
     "highlightsTherapy3": "Emotional Wellness",
     "highlightsTherapy3Desc": "Nervous system recovery protocols designed to dissolve lifestyle fatigue.",
+    "highlightsTherapy4": "Energy Healing",
+    "highlightsTherapy4Desc": "432Hz polyphonic quartz singing sound attunements inside electromagnetic-free chambers.",
     "statsTitle": "Our Operational Footprint",
     "statsSubtitle": "Measuring our global impact and clinical success",
     "statCountries": "Countries Served",
@@ -135,7 +143,282 @@ export const translations: StaticTranslations = {
     "packagingPrep": "Custom packaging prep:",
     "packagingDays": "5-7 Working Days",
     "portOfLoad": "FOB port of load:",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "secureTransit": "SECURE TRANSIT",
+    "readyStatus": "100% READY",
+    "qualityHighlights": "Export Quality Highlights",
+    "keyBenefits": "Key Benefits",
+    "shippingPacking": "Global Shipping & Packing",
+    "packageLabel": "Package:",
+    "capabilityLabel": "Capability:",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Spices & Seasonings Division",
+        "title": "Elite Spices & Authentic Seasonings",
+        "description": "Vedas-grade aromatics, hot chillies, and complex culinary powders milled to absolute microbiological safety standards. Direct farm sourcing guarantees robust oil contents and intense flavor profiles.",
+        "highlights": [
+          "Curcumin Gold turmeric selection (>5%)",
+          "Piperine-checked Tellicherry black pepper",
+          "Sudan Dye negative Guntur chillies",
+          "Cryogenic low-temp hygienic milling"
+        ],
+        "benefits": [
+          "High volatile essential oil retention",
+          "Pristine aroma and flavor stability",
+          "100% organic, additive-free processing",
+          "Aflatoxin-safe global compliance"
+        ],
+        "packaging": "25kg multi-layer Kraft bags with poly liners, vacuum packed options.",
+        "capability": "Consolidated mixed LCL container shipments or up to 20 Metric Tons per FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) or Mundra Port. Air cargo priority routing.",
+        "features": [
+          {
+            "title": "Curcumin Gold",
+            "desc": "Golden turmeric powder carrying active curcumin levels exceeding 5% for food and clinical uses."
+          },
+          {
+            "title": "Malabar Pepper",
+            "desc": "Extra bold black pepper berries prized for deep piperine heat and complex woodland notes."
+          },
+          {
+            "title": "Cryo-Milled Chilli",
+            "desc": "Guntur Sannam chilli powder milled under cryogenic controls to block heat-induced oil loss."
+          },
+          {
+            "title": "Citrusy Coriander",
+            "desc": "Premium Malwa seeds milled to fine mesh, packing citrus-warm volatile fractions."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Vegetable Powders Desk",
+        "title": "Pure Dehydrated Vegetable Powders",
+        "description": "Agricultural vegetables dehydrated at strictly controlled low temperatures to protect bioactive nutrients, color profiles, and flavor depth. Ideal for ready-to-eat foods, mixers, and pharmaceutical formulations.",
+        "highlights": [
+          "100% real vegetable solids, zero additives",
+          "Cell-retentive low-temperature drying",
+          "Excellent dry solubility and dispersion",
+          "Free-flowing, non-caking natural grade"
+        ],
+        "benefits": [
+          "Instant water reconstitution ratios",
+          "Intense concentration of organic flavors",
+          "Retains natural vitamins and fibers",
+          "Pristine visual pigment retention"
+        ],
+        "packaging": "Fiber drums with double polyethylene inner bags (20 kg / 25 kg).",
+        "capability": "12-15 Metric Tons per FCL. Custom spice/vegetable blend formulations.",
+        "shippingInfo": "Ocean transit via temperature-controlled reefer containers to global ports.",
+        "features": [
+          {
+            "title": "Spray-Dried Tomato",
+            "desc": "Soluble red tomato pulp powder rich in lycopene, giving instant savory umami depth."
+          },
+          {
+            "title": "Betalain Beetroot",
+            "desc": "Finely ground beetroot powder providing intense natural crimson colors and nitrate richness."
+          },
+          {
+            "title": "Chlorophyll Spinach",
+            "desc": "Bright green soluble spinach powder locking in dietary iron and chlorophyll."
+          },
+          {
+            "title": "Allicin Garlic",
+            "desc": "Pungent garlic powder milled from choice cloves, offering quick dispersal and taste."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Fruit Powders Desk",
+        "title": "Orchard Fruit Powders & Solubles",
+        "description": "Premium spray-dried and low-temp dehydrated fruit powders capturing the true sweetness, organic sugars, and vitamins of sun-ripened orchard fruits. Highly popular in beverages, confectionery, and infant foods.",
+        "highlights": [
+          "Spray-dried directly from organic pulp",
+          "No added sugars, sulfites or colorants",
+          "Highly soluble in hot and cold liquids",
+          "Nutrient-dense superfood selections"
+        ],
+        "benefits": [
+          "Pure fruit aroma and sweet tang",
+          "High Vitamin C and bioactive retention",
+          "Perfect blending for dairy and baking",
+          "Clean-label compliant ingredients"
+        ],
+        "packaging": "Aluminum foil vacuum sealed pouches inside corrugated master boxes.",
+        "capability": "8-10 Metric Tons per FCL. Private label packaging support.",
+        "shippingInfo": "Express air cargo or temperature-monitored sea container transport.",
+        "features": [
+          {
+            "title": "Cavendish Banana",
+            "desc": "Green and ripe banana powder rich in resistant starches, perfect for gluten-free blends."
+          },
+          {
+            "title": "Kesar Mango",
+            "desc": "Golden fruit solids capturing the sweet aroma of hand-harvested Indian mangoes."
+          },
+          {
+            "title": "Ascorbic Amla",
+            "desc": "Organically sourced gooseberry powder containing highly concentrated natural Vitamin C."
+          },
+          {
+            "title": "Antioxidant Pomegranate",
+            "desc": "Spray-dried pomegranate juice powder providing rich polyphenols and visual pink hues."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Moringa Superfood Desk",
+        "title": "Premium Organic Moringa Products",
+        "description": "Organically cultivated Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free, high-yield Indian estates. Processed under shadow-drying protocols to protect essential amino acids.",
+        "highlights": [
+          "USDA & APEDA Organic certified crops",
+          "Strict shadow-dried leaf curing",
+          "Phytochemical and flavonoid standardized",
+          "99.9% clean leaf material, zero sand"
+        ],
+        "benefits": [
+          "Complete plant protein with 9 amino acids",
+          "Extreme iron, calcium, and vitamin counts",
+          "Highly stable shelf life in vacuum seal",
+          "Ideal for supplements and cosmetics"
+        ],
+        "packaging": "Vacuum barrier bags with silica gel inserts, packed in reinforced boxes.",
+        "capability": "5-8 Metric Tons per batch. Customizable leaf cuts and wholesale packs.",
+        "shippingInfo": "Sealed dry containers, priority air freight forwarding to global wellness distributors.",
+        "features": [
+          {
+            "title": "Organics Leaf Powder",
+            "desc": "Finely milled moringa leaf powder with deep emerald color and grassy flavor."
+          },
+          {
+            "title": "Clean Cured Leaves",
+            "desc": "Whole shadow-dried leaves sorted mechanically to remove twigs, stems, and dust."
+          },
+          {
+            "title": "Herbal Moringa Tea",
+            "desc": "Uniformly cut leaves optimized for tea bags, offering a fresh wellness herbal infusion."
+          },
+          {
+            "title": "Standardized Extract",
+            "desc": "Concentrated moringa leaf extract standardized for total bioflavonoids for clinical formulations."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Oil Seeds Desk",
+        "title": "Premium Sorted Oil & Dietary Seeds",
+        "description": "Elite export-quality organic oil and nutritional seeds, systematically cleaned, sorted, and packed under absolute phytosanitary controls. High oil yield and clean Sortex purity make these ideal for food and industrial processing.",
+        "highlights": [
+          "99.9% Sortex optical color sorted",
+          "Rigorous fumigation and cleaning audits",
+          "Certified pesticide and residue free",
+          "High content of polyunsaturated fatty acids"
+        ],
+        "benefits": [
+          "High natural oil extraction ratios",
+          "Extremely clean seeds with zero dirt",
+          "Uniform seed dimensions and color profiles",
+          "Packed to block atmospheric moisture"
+        ],
+        "packaging": "Woven polypropylene sacks or multi-ply paper bags (25 kg / 50 kg).",
+        "capability": "18-22 Metric Tons per container (FCL). Custom moisture specs.",
+        "shippingInfo": "Direct ocean liners, bulk cargo routing to commercial bakeries and distributors.",
+        "features": [
+          {
+            "title": "Hulled Sesame",
+            "desc": "Auto-cleaned white sesame seeds packing high oil yields and sweet nutty flavors."
+          },
+          {
+            "title": "Golden Flax",
+            "desc": "Premium flax seeds rich in dietary fiber and essential Omega-3 fatty acids."
+          },
+          {
+            "title": "Gel-Forming Chia",
+            "desc": "Organic black chia seeds with excellent swelling indices and mucilage quality."
+          },
+          {
+            "title": "Green Pumpkin",
+            "desc": "Clean-hulled pumpkin seed kernels sorted for uniform bold green color and crunch."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Hygienic Dehydrated Vegetables",
+        "description": "Clean-sliced onions, garlic, ginger, and other vegetables dehydrated under advanced air-flow chambers. Sourced directly from phytocompliant agricultural belts for excellent rehydration and flavor performance.",
+        "highlights": [
+          "No sulfites, sulfurs or preservatives used",
+          "Low residual moisture content (<5%)",
+          "Pristine rehydration and texture recovery",
+          "Phytosanitary certified export cargo"
+        ],
+        "benefits": [
+          "Drastically reduces culinary prep times",
+          "Saves transit weight and storage space",
+          "Retains natural color and visual appeal",
+          "Consistent flavor strength in food mixes"
+        ],
+        "packaging": "HDPE lined master cartons with double heat-sealed poly inserts.",
+        "capability": "10-12 Metric Tons per FCL. Customizable slicing and dicing.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
+        "features": [
+          {
+            "title": "Onion Slices",
+            "desc": "Dehydrated red and white onion slices with strong pungency and high reconstitution."
+          },
+          {
+            "title": "Garlic Cloves",
+            "desc": "Dried split garlic cloves, meticulously de-skinned and Sortex sorted to remove soot."
+          },
+          {
+            "title": "Sliced Ginger",
+            "desc": "Clean dried ginger slices holding zesty heat and high active gingerol content."
+          },
+          {
+            "title": "Vine Tomato",
+            "desc": "Dried organic tomato slices rich in natural lycopene, dried without chemical sulfites."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Dehydrated Fruits Desk",
+        "title": "Sun-Sheltered Dehydrated Fruits",
+        "description": "Premium slices and long-cut dehydrated fruits prepared from hand-harvested organic orchards. Preserves natural fructose sugars, chewy textures, and vital vitamins without chemical preservatives.",
+        "highlights": [
+          "Zero added cane sugars or sweeteners",
+          "Sulfite-free, zero chemical colorants",
+          "Flexible slicing shapes and custom moisture",
+          "Pesticide-free certified orchards"
+        ],
+        "benefits": [
+          "Natural sweetness and chewy mouthfeel",
+          "Excellent shelf stability in dry storage",
+          "Ideal for snacking and baked goods",
+          "Low residue and clean-label processing"
+        ],
+        "packaging": "BOPP laminated pouches with inner oxygen absorbers and carton master packs.",
+        "capability": "6-8 Metric Tons per FCL. Tailored cut sizes available.",
+        "shippingInfo": "Low-humidity dry containers and temperature-stable air freight.",
+        "features": [
+          {
+            "title": "Apricot Slices",
+            "desc": "Soft, naturally sweet apricot slices preserved with concentrated fruit flavor and vivid color."
+          },
+          {
+            "title": "Fig Pieces",
+            "desc": "Chewy sun-dried fig pieces with high soluble fiber and caramelized sweetness."
+          },
+          {
+            "title": "Mango Strips",
+            "desc": "Long-cut dried mango strips locking in tropical aroma and bright golden color."
+          },
+          {
+            "title": "Papaya Chips",
+            "desc": "Dehydrated papaya slices prized for premium texture and micronutrient richness."
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "HARMONIZATION CLINICS",
@@ -199,7 +482,9 @@ export const translations: StaticTranslations = {
     "placeholderMessage": "Describe your bulk spices cargo requirements, clinical therapy intents, or secure scheduling queries...",
     "submit": "Transmit Dispatch",
     "transmitting": "Transmitting Dispatch...",
-    "errorFields": "Please fill out all mandatory fields."
+    "errorFields": "Please fill out all mandatory fields.",
+    "addressLine1": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
     "extendedCatalogue": "EXTENDED CATALOGUE",
@@ -301,11 +586,11 @@ export const translations: StaticTranslations = {
   },
   "seo": {
     "homeTitle": "DharaAveda Sanctuary | Restorative Quantum Healing & Premium Wellness Exports",
-    "homeDesc": "DharaAveda Sanctuary blends classical Bach wildflower therapy, Rekkhanoho Therapy chakra alignment, Aura-Soma chromo-essential oils, and sound attunements.",
+    "homeDesc": "DharaAveda Sanctuary blends classical Bach wildflower therapy, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and sound attunements.",
     "exportTitle": "Agricultural Trade Division | DharaAveda Sanctuary",
     "exportDesc": "Direct-source premium green cardamom, pure Shilajit resin, and organic aromatherapy extracts. Authorized APEDA and SGS compliance.",
     "wellnessTitle": "Restorative Quantum Sanctuary & Therapies | DharaAveda",
-    "wellnessDesc": "Experience Rekkhanoho Therapy, Bach flower consultations, and 432Hz sound therapy at our Wayanad sanctuary in Kerala.",
+    "wellnessDesc": "Experience Usui Reiki, Bach flower consultations, and 432Hz sound therapy at our Wayanad sanctuary in Kerala.",
     "bookingTitle": "Schedule Your Attunement Residency | DharaAveda",
     "bookingDesc": "Reserve your confidential intake session for Reiki alignment, Bach flower consultations, or deep sound healing.",
     "contactTitle": "Contact the Council Desk | DharaAveda",

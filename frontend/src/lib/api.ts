@@ -304,5 +304,20 @@ export const api = {
       method: "POST",
       body: JSON.stringify(paymentData),
     });
+  },
+  async createPaymentOrder(amount: number): Promise<{ orderId: string; amount: number; currency: string; keyId: string; isMock: boolean }> {
+    return fetchApi<{ orderId: string; amount: number; currency: string; keyId: string; isMock: boolean }>("/api/payment/create-order", {
+      method: "POST",
+      body: JSON.stringify({ amount }),
+    });
+  },
+  async verifyPaymentAndBook(
+    paymentData: { razorpayOrderId: string; razorpayPaymentId: string; razorpaySignature?: string },
+    bookingDetails: Partial<Booking>
+  ): Promise<{ success: boolean; booking: Booking }> {
+    return fetchApi<{ success: boolean; booking: Booking }>("/api/payment/verify", {
+      method: "POST",
+      body: JSON.stringify({ ...paymentData, ...bookingDetails }),
+    });
   }
 };

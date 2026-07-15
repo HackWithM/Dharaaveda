@@ -2,1226 +2,1510 @@ import { StaticTranslations } from "../translations";
 
 export const translations: StaticTranslations = {
   "navbar": {
-    "home": "Home",
-    "export": "Export",
-    "therapy": "Therapy",
-    "contact": "Contact",
-    "admin": "Admin",
-    "console": "Console",
-    "language": "Language",
-    "selectLanguage": "Select Sacred Language",
-    "subTitle": "Agriculture & Aura Clinic",
-    "searchPlaceholder": "Search language..."
+    "home": "บ้าน",
+    "export": "ส่งออก",
+    "therapy": "การบำบัด",
+    "contact": "ติดต่อ",
+    "myBookings": "การจองของฉัน",
+    "admin": "ผู้ดูแลระบบ",
+    "console": "คอนโซล",
+    "language": "ภาษา",
+    "selectLanguage": "เลือกภาษาศักดิ์สิทธิ์",
+    "subTitle": "คลินิกเกษตรและออร่า",
+    "searchPlaceholder": "ค้นหาภาษา...",
+    "toggleMenu": "สลับขอบเขตการนำทาง",
+    "adminTitle": "คณะกรรมการควบคุมผู้ดูแลระบบ"
   },
   "footer": {
-    "desc": "An elite, high-vibrational ecosystem merging enterprise agricultural supply-chain and global spice distribution with high-end quantum sound and floral bio-frequency wellness clinics.",
-    "agriTitle": "Agricultural Division",
-    "wellnessTitle": "Wellness Division",
-    "corpTitle": "Corporate Desk",
-    "agriLink1": "Elite Spices & Culinary Gems",
-    "agriLink2": "Purified Himalayan Shilajit Resin",
-    "agriLink3": "Pure Organic Aromatherapy Extracts",
-    "agriLink4": "Custom Phytosanitary Certification",
-    "agriStatus": "● 100% Trace-Audited",
-    "wellnessLink1": "Edward Bach Floral Consultations",
-    "wellnessLink2": "Usui Reiki Chromatic Harmony",
-    "wellnessLink3": "432Hz Quartz Polyphonic Attunements",
-    "wellnessLink4": "Schedule Private Residency Session",
-    "corpOffice": "Global Trade Office:",
-    "corpSanctuary": "Wellness Sanctuary:",
-    "rights": "All rights reserved. Registered Trade Entity."
+    "desc": "ระบบนิเวศที่มีการสั่นสะเทือนสูงชั้นยอดที่ผสานห่วงโซ่อุปทานทางการเกษตรขององค์กรและการจำหน่ายเครื่องเทศทั่วโลก เข้ากับเสียงควอนตัมระดับไฮเอนด์และคลินิกสุขภาพความถี่ชีวภาพดอกไม้",
+    "agriTitle": "กองเกษตร",
+    "wellnessTitle": "กองสุขภาพ",
+    "corpTitle": "โต๊ะทำงานของบริษัท",
+    "agriLink1": "เครื่องเทศชั้นยอดและอัญมณีแห่งการทำอาหาร",
+    "agriLink2": "เรซินหิมาลัยชิลาจิตบริสุทธิ์",
+    "agriLink3": "สารสกัดอโรมาเธอราพีออร์แกนิคบริสุทธิ์",
+    "agriLink4": "การรับรองสุขอนามัยพืชแบบกำหนดเอง",
+    "agriStatus": "● ตรวจสอบติดตาม 100%",
+    "wellnessLink1": "ที่ปรึกษาด้านดอกไม้ของ Edward Bach",
+    "wellnessLink2": "เรคคาโนโหบำบัด",
+    "wellnessLink3": "การปรับควอตซ์โพลีโฟนิก 432Hz",
+    "wellnessLink4": "กำหนดเวลาเซสชั่นการอยู่อาศัยส่วนตัว",
+    "corpOffice": "สำนักงานการค้าโลก:",
+    "corpSanctuary": "เขตรักษาพันธุ์สุขภาพ:",
+    "rights": "สงวนลิขสิทธิ์. นิติบุคคลการค้าจดทะเบียน",
+    "myBookings": "การจองของฉัน",
+    "badgeApeda": "ได้รับการรับรองจาก APEDA",
+    "badgeFssai": "การส่งออกมาตรฐาน FSSAI",
+    "badgeUsda": "เป็นไปตามมาตรฐาน USDA ORGANIC"
   },
   "home": {
-    "heroTitle": "การบรรจบกันของการค้าระดับโลกและการบำบัดแบบองค์รวม",
-    "heroSubtitle": "Dharaaveda ประสานห่วงโซ่อุปทานทางการเกษตรระดับพรีเมียมเข้ากับการบำบัดด้วยพลังงานฟื้นฟู",
+    "heroTitle": "การบรรจบกันของการค้าโลกและการรักษาแบบองค์รวม",
+    "heroSubtitle": "ดาราเวดาประสานห่วงโซ่อุปทานทางการเกษตรระดับพรีเมี่ยมเข้ากับการบำบัดด้วยการฟื้นฟูอย่างมีพลัง",
     "ctaExports": "สำรวจการส่งออก",
     "ctaTherapies": "สำรวจการบำบัด",
-    "aboutTitle": "เชื่อมโยงความอุดมสมบูรณ์ของโลกและการฟื้นฟูของแต่ละบุคคล",
-    "aboutSubtitle": "ปรัชญาการทำงานแบบสองส่วนของเรา",
-    "aboutDesc1": "Dharaaveda ดำเนินงานที่จุดตัดของการค้าระหว่างประเทศและสุขภาพแบบองค์รวม เราเชื่อว่าความเป็นอยู่ที่ดีที่แท้จริงคือทั้งในระดับโลกและระดับส่วนบุคคลอย่างลึกซึ้ง",
-    "aboutDesc2": "แผนกเกษตรกรรมของเราเป็นพันธมิตรโดยตรงกับฟาร์มเกษตรอินทรีย์เพื่อกระจายเครื่องเทศระดับพรีเมียมไปทั่วโลก ในเวลาเดียวกัน แผนกบำบัดของเราได้สร้างสถานที่พักผ่อนที่ปราศจากคลื่นแม่เหล็กไฟฟ้าในเวยานาด",
+    "aboutTitle": "เชื่อมโยงความโปรดปรานของโลกและการฟื้นฟูส่วนบุคคล",
+    "aboutSubtitle": "ปรัชญาสองแผนกของเรา",
+    "aboutDesc1": "ดาราเวดาดำเนินงานที่จุดตัดระหว่างการค้าระหว่างประเทศและการดูแลสุขภาพแบบองค์รวม เราเชื่อว่าความเป็นอยู่ที่ดีที่แท้จริงนั้นเป็นไปในระดับโลกและเป็นส่วนตัวอย่างลึกซึ้ง",
+    "aboutDesc2": "แผนกการเกษตรของเราเป็นพันธมิตรโดยตรงกับที่ดินของเกษตรกรรายย่อยแบบออร์แกนิกเพื่อจัดจำหน่ายเครื่องเทศระดับพรีเมียมและผลิตภัณฑ์อบแห้งไปทั่วโลก ในขณะเดียวกัน แผนกการบำบัดของเราได้สร้างเขตรักษาพันธุ์สัตว์ป่าที่ไร้คลื่นแม่เหล็กไฟฟ้าใน Wayanad เพื่อคืนความสมดุลของระบบประสาทและความมีชีวิตชีวาของเซลล์",
     "showcaseTitle": "สำรวจแผนกของเรา",
-    "showcaseSubtitle": "เลือกแผนกเพื่อเข้าสู่พื้นที่เฉพาะของเรา",
+    "showcaseSubtitle": "เลือกประเภทธุรกิจเพื่อเข้าสู่พื้นที่เฉพาะของเรา",
     "exportCardTitle": "แผนกส่งออก",
-    "exportCardDesc": "เชื่อมโยงฟาร์มพืชสมุนไพรของอินเดียกับผู้ผลิตยาระดับโลก เครื่องสำอาง และผู้นำเข้าอาหาร เครื่องเทศพรีเมียมและสารสกัดที่ส่งออกภายใต้การปฏิบัติตามสุขอนามัยพืชอย่างสมบูรณ์",
-    "exportHighlight1": "ได้รับการรับรอง APEDA & SGS",
-    "exportHighlight2": "จัดหาโดยตรงจากฟาร์ม",
-    "exportHighlight3": "เส้นทางการขนส่งทางเรือ & ทางอากาศทั่วโลก",
-    "exportHighlight4": "บรรจุภัณฑ์ขนาดใหญ่ตามความต้องการ",
+    "exportCardDesc": "เชื่อมต่อฟาร์มพฤกษศาสตร์อันล้ำลึกของอินเดียกับร้านขายยาระดับพรีเมียมระดับโลก ร้านขายเครื่องสำอาง และผู้นำเข้าอาหาร เครื่องเทศ ธัญพืช และสารสกัดดัดแปลงระดับพรีเมียมที่จัดส่งภายใต้การปฏิบัติตามสุขอนามัยพืชโดยสมบูรณ์",
+    "exportHighlight1": "ได้รับการรับรองจาก APEDA และ SGS",
+    "exportHighlight2": "การจัดหาฟาร์มโดยตรง",
+    "exportHighlight3": "เส้นทางทะเลและอากาศทั่วโลก",
+    "exportHighlight4": "บรรจุภัณฑ์แบบกำหนดเองจำนวนมาก",
     "exportCardBtn": "ดูบริการส่งออก",
-    "therapyCardTitle": "แผนกบำบัด",
-    "therapyCardDesc": "ปรับจูนสนามพลังงานชีวิตของคุณ ล้างความบอบช้ำทางจิตใจที่ลึกซึ้ง และฟื้นฟูความสงบทางกายอย่างสมบูรณ์ การให้คำปรึกษาดอกไม้ป่าของบัค การจัดตำแหน่งจักระเรกิ และการบำบัดด้วยเสียง",
-    "therapyHighlight1": "การบำบัดด้วยดอกไม้บัค",
-    "therapyHighlight2": "การจัดตำแหน่งเรกิอุซุอิ",
+    "therapyCardTitle": "กองบำบัด",
+    "therapyCardDesc": "ปรับสนามพลังชีวภาพของคุณ ลดอาการบาดเจ็บวงจรชีวิตที่ลึกล้ำ และฟื้นฟูความสงบสุขทางร่างกายอย่างแท้จริง การให้คำปรึกษาอย่างดื่มด่ำโดยผสมผสานสาระสำคัญของดอกไม้ การจัดตำแหน่งจักระเรกิ และการบำบัดด้วยเสียงโพลีโฟนิกควอทซ์",
+    "therapyHighlight1": "การบำบัดด้วยดอกไม้บาค",
+    "therapyHighlight2": "การจัดตำแหน่งอุซุยเรอิกิ",
     "therapyHighlight3": "สุขภาพทางอารมณ์",
     "therapyHighlight4": "การบำบัดด้วยเสียง 432Hz",
     "therapyCardBtn": "ดูบริการบำบัด",
-    "whyTitle": "ทำไมต้องเลือก Dharaaveda",
-    "whySubtitle": "มาตรฐานที่ไม่มีการประนีประนอมในการขนส่งและสุขภาพ",
-    "whyTrustTitle": "ความไว้วางใจอย่างสมบูรณ์",
-    "whyTrustDesc": "ความโปร่งใสทั้งหมด การปฏิบัติตามสุขอนามัยพืชอย่างครบถ้วน และข้อตกลงการรักษาความลับที่ได้รับการรับรอง",
-    "whyQualityTitle": "คุณภาพระดับพระเวท",
-    "whyQualityDesc": "การตรวจสอบย้อนกลับโดยตรงจากฟาร์มไปยังท่าเรือ และสูตรการบำบัดด้วยความถี่ชีวภาพที่ปรับแต่งเป็นพิเศษ",
-    "whyExpertiseTitle": "ความเชี่ยวชาญที่พิสูจน์แล้ว",
-    "whyExpertiseDesc": "มรดกทางเกษตรกรรมหลายชั่วอายุคน ผสานกับผู้เชี่ยวชาญด้านพลังงานที่ได้รับการรับรอง",
+    "whyTitle": "ทำไมถึงเลือกดาราเวดา",
+    "whySubtitle": "มาตรฐานที่แน่วแน่ในด้านโลจิสติกส์และสุขภาพ",
+    "whyTrustTitle": "ความไว้วางใจแบบสัมบูรณ์",
+    "whyTrustDesc": "ความโปร่งใสโดยรวม การปฏิบัติตามสุขอนามัยพืชโดยสมบูรณ์ และระเบียบการไม่เปิดเผยข้อมูลที่ผ่านการรับรอง",
+    "whyQualityTitle": "คุณภาพเวท",
+    "whyQualityDesc": "การตรวจสอบย้อนกลับจากฟาร์มถึงท่าเรือโดยตรงและการแก้ไขความถี่ชีวภาพตามสูตรเฉพาะ",
+    "whyExpertiseTitle": "ความเชี่ยวชาญที่ได้รับการพิสูจน์แล้ว",
+    "whyExpertiseDesc": "มรดกทางการเกษตรรุ่นต่อรุ่นจับคู่กับผู้ประกอบวิชาชีพที่มีพลังที่ผ่านการรับรอง",
     "whyReachTitle": "การเข้าถึงทั่วโลก",
-    "whyReachDesc": "เส้นทางการขนส่งสินค้าที่เชื่อถือได้ ส่งมอบให้กับผู้นำเข้ารายใหญ่ในกว่า 34 ประเทศ",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
     "whyHolisticTitle": "สุขภาพแบบองค์รวม",
-    "whyHolisticDesc": "การรักษาลึกถึงระดับเซลล์ภายในสถานที่พักผ่อนบนภูเขาที่บริสุทธิ์และเป็นธรรมชาติ",
-    "highlightsTitle": "ไฮไลท์สำคัญ",
-    "highlightsSubtitle": "จุดเน้นหลักในการดำเนินงานของเรา",
-    "exportHighlightTitle": "จุดเน้นของแผนกส่งออก",
-    "therapyHighlightTitle": "จุดเน้นของแผนกบำบัด",
-    "highlightsExport1": "ผลิตภัณฑ์ทางการเกษตร",
+    "whyHolisticDesc": "การบำบัดระดับเซลล์ลึกภายในเขตรักษาพันธุ์สัตว์ป่าภูเขาที่บริสุทธิ์และเป็นธรรมชาติ",
+    "highlightsTitle": "ไฮไลท์ที่โดดเด่น",
+    "highlightsSubtitle": "ประเด็นสำคัญในการดำเนินงานของเรา",
+    "exportHighlightTitle": "เน้นแผนกส่งออก",
+    "therapyHighlightTitle": "แผนกบำบัดโฟกัส",
+    "highlightsExport1": "สินค้าเกษตร",
     "highlightsExport1Desc": "กล้วยคาเวนดิชที่เก็บเกี่ยวด้วยมือ มะม่วงอัลฟอนโซ และสารสกัดจากอ้อยออร์แกนิก",
-    "highlightsExport2": "เครื่องเทศชั้นยอด",
-    "highlightsExport2Desc": "ขมิ้นเซเลม กระวานเม็ดใหญ่ พริกกันตูร์ และพริกไทยดำมาลาบาร์",
+    "highlightsExport2": "เครื่องเทศชั้นสูง",
+    "highlightsExport2Desc": "ขมิ้นซาเลม กระวานหนา พริก Guntur และพริกไทยดำหูกวาง",
     "highlightsExport3": "ผลิตภัณฑ์อบแห้ง",
-    "highlightsExport3Desc": "หอมหัวใหญ่แผ่นอบแห้งอุณหภูมิต่ำ มะเขือเทศอบแห้งแบบสเปรย์ดราย และผงบีทรูท",
+    "highlightsExport3Desc": "หัวหอมอุณหภูมิต่ำ มะเขือเทศแห้งแบบสเปรย์ และผงบีทรูท",
     "highlightsExport4": "โลจิสติกส์ระดับโลก",
-    "highlightsExport4Desc": "บรรจุภัณฑ์สูญญากาศป้องกันตามความต้องการ ใบรับรอง SGS และการดำเนินพิธีการศุลกากรที่รวดเร็ว",
-    "highlightsTherapy1": "การบำบัดด้วยดอกไม้บัค",
-    "highlightsTherapy1Desc": "สูตรน้ำยาปรับสภาพเฉพาะบุคคลที่คัดสรรมาเพื่อคลายความเครียดและผ่อนคลายระบบประสาท",
-    "highlightsTherapy2": "การจัดตำแหน่งเรกิ",
-    "highlightsTherapy2Desc": "การปรับสมดุลจักระและการฟื้นฟูสนามพลังงานชีวภาพโดยไม่รุกล้ำร่างกาย",
+    "highlightsExport4Desc": "การซีลกั้นสุญญากาศแบบกำหนดเอง การรับรอง SGS และการตะไบพอร์ตแบบกำหนดเอง",
+    "highlightsTherapy1": "การบำบัดด้วยดอกไม้บาค",
+    "highlightsTherapy1Desc": "การบำบัดด้วยของเหลวแบบกำหนดเองที่เลือกไว้สำหรับความเครียดทางการรับรู้และการปลดปล่อยประสาท",
+    "highlightsTherapy2": "เรคคาโนโฮ / เรอิกิ",
+    "highlightsTherapy2Desc": "การปรับสมดุลจักระสนามพลังชีวภาพแบบไม่รุกรานและการฟื้นฟูสนามพลังงานสี",
     "highlightsTherapy3": "สุขภาพทางอารมณ์",
-    "highlightsTherapy3Desc": "โปรโตคอลการฟื้นฟูระบบประสาทที่ออกแบบมาเพื่อขจัดความเหนื่อยล้าในการดำเนินชีวิต",
+    "highlightsTherapy3Desc": "โปรโตคอลการฟื้นฟูระบบประสาทที่ออกแบบมาเพื่อคลายความเหนื่อยล้าจากการใช้ชีวิต",
     "highlightsTherapy4": "การบำบัดด้วยพลังงาน",
-    "highlightsTherapy4Desc": "การบำบัดด้วยเสียงขันคริสตัลควอตซ์ 432Hz ในห้องที่ปราศจากคลื่นแม่เหล็กไฟฟ้ารบกวน",
-    "statsTitle": "ขอบเขตการดำเนินงานของเรา",
-    "statsSubtitle": "วัดผลกระทบระดับโลกและอัตราความสำเร็จของการบำบัดของเรา",
+    "highlightsTherapy4Desc": "การปรับเสียงร้องเพลงโพลีโฟนิกควอทซ์ 432Hz ภายในห้องปลอดแม่เหล็กไฟฟ้า",
+    "statsTitle": "รอยเท้าการดำเนินงานของเรา",
+    "statsSubtitle": "การวัดผลกระทบระดับโลกและความสำเร็จทางคลินิกของเรา",
     "statCountries": "ประเทศที่ให้บริการ",
-    "statProducts": "หมวดหมู่ผลิตภัณฑ์",
-    "statSessions": "จำนวนเซสชันการบำบัด",
+    "statProducts": "หมวดหมู่สินค้า",
+    "statSessions": "เซสชันการบำบัด",
     "statSatisfaction": "ความพึงพอใจของลูกค้า",
-    "testimonialsTitle": "เสียงสะท้อนแห่งความไว้วางใจ",
-    "testimonialsSubtitle": "ข้อเสนอแนะจากพันธมิตรทางการค้าและผู้เยี่ยมชมสถานที่พักผ่อนของเรา",
+    "testimonialsTitle": "เสียงสะท้อน",
+    "testimonialsSubtitle": "เสียงตอบรับจากคู่ค้าและผู้เยี่ยมชมสถานที่ศักดิ์สิทธิ์ของเรา",
     "ctaTitle": "เริ่มต้นการเดินทางของคุณ",
-    "ctaSubtitle": "ติดต่อเจ้าหน้าที่แผนกเฉพาะของเรา",
-    "ctaExportBoxTitle": "กำลังมองหาโซูชันการส่งออกอยู่ใช่ไหม?",
-    "ctaExportBoxDesc": "ติดต่อฝ่ายการค้าสินค้าเกษตรของเรา สำหรับสัญญาการจัดส่งตู้คอนเทนเนอร์ขนาดใหญ่ หรือการบรรจุภัณฑ์เฉพาะตัว",
-    "ctaExportBoxBtn": "พูดคุยกับแผนกส่งออก",
-    "ctaTherapyBoxTitle": "กำลังมองหาการบำบัดแบบองค์รวมอยู่ใช่ไหม?",
-    "ctaTherapyBoxDesc": "นัดหมายการปรึกษาส่วนตัว หรือจองที่พักวิลล่าในสถานที่พักผ่อนบนภูเขาเวยานาดของเรา",
-    "ctaTherapyBoxBtn": "จองเซสชันการบำบัดในสถานพักผ่อน"
+    "ctaSubtitle": "เชื่อมต่อกับแผนกเฉพาะของเรา",
+    "ctaExportBoxTitle": "กำลังมองหาโซลูชั่นการส่งออกอยู่ใช่ไหม?",
+    "ctaExportBoxDesc": "เชื่อมต่อกับแผนกอนุญาโตตุลาการสินค้าของเราสำหรับสัญญาคอนเทนเนอร์จำนวนมาก บรรจุภัณฑ์ที่ปรับแต่งเอง หรือการปฏิบัติตามข้อกำหนดด้านลอจิสติกส์",
+    "ctaExportBoxBtn": "พูดคุยกับฝ่ายส่งออก",
+    "ctaTherapyBoxTitle": "กำลังมองหาการรักษาแบบองค์รวมอยู่ใช่ไหม?",
+    "ctaTherapyBoxDesc": "กำหนดเวลาการให้คำปรึกษาส่วนตัวหรือจองบ้านพักในเขตรักษาพันธุ์สัตว์ป่าบนภูเขา Wayanad ของเราเพื่อการปรับสนามพลังชีวภาพ",
+    "ctaTherapyBoxBtn": "จองเขตรักษาพันธุ์สัตว์ป่า"
   },
   "export": {
-    "division": "International Trade Division",
-    "heroTitle": "Elite Crop Logistical Logistics",
-    "heroDesc": "DharaAveda connects deep Indian botanical farms with premium global pharmacies, cosmetics houses, and food importers. Our systems guarantee trace-verified bulk shipping of authentic Himalayan shilajit, bold cardamom, vetiver base oils, and adaptogenic extracts under absolute phytosanitary compliance.",
-    "apedaAuth": "APEDA Authorized",
-    "sgsPurity": "SGS Purity Lab Tested",
-    "cargoTransit": "GLOBAL CARGO TRANSIT",
-    "cargoDesc": "Ocean & Air Freight Cargo Routing",
-    "secure": "SECURE",
-    "catalogue": "DYNAMIC CATALOGUE",
-    "selectGoods": "Select Agricultural Goods",
-    "searchPlaceholder": "Search categories or products...",
-    "noMatch": "No categories or products match your parameter.",
-    "adjustSearch": "Try adjusting the search query.",
-    "freightNetworks": "Global Freight Networks",
-    "operationsTitle": "Trade Operations Built on Integrity",
-    "sgsTitle": "Full SGS Verification",
-    "sgsDesc": "Every trace lot undergoes gas chromatography & analytical purity tests. Phitosanitary compliance guarantees hassle-free harbor custom routing.",
-    "isoTitle": "ISO Reciprocal Standard",
-    "isoDesc": "Operating under rigorous international hygiene guidelines. Vacuum-tight packing blocks cosmic UV light, keeping freshness intact during transit.",
-    "originTitle": "Wayanad Direct Origin",
-    "originDesc": "Our spice estate cuts out unnecessary trading middlemen, ensuring maximum fair-wage compensation to local Vedic smallholder farmers directly.",
-    "fastTrack": "FAST TRACK QUOTE",
-    "speakArbitrage": "Speak with our Commodity Arbitrage desk",
-    "arbitrageDesc": "Need specialized custom moisture content, high volume tons, or sea container shipping contracts? Connect directly for priority trade handling.",
-    "cargoTimelines": "Typical Cargo Timelines",
-    "sgsClearance": "SGS analysis clearance:",
-    "sgsDays": "4-5 Working Days",
-    "packagingPrep": "Custom packaging prep:",
-    "packagingDays": "5-7 Working Days",
-    "portOfLoad": "FOB port of load:",
-    "portName": "Nhava Sheva, Mumbai"
+    "division": "กองการค้าระหว่างประเทศ",
+    "heroTitle": "ลอจิสติกส์พืชผลยอด",
+    "heroDesc": "DharaAveda เชื่อมโยงฟาร์มพฤกษศาสตร์ในอินเดียกับร้านขายยาระดับพรีเมียมระดับโลก ร้านขายเครื่องสำอาง และผู้นำเข้าอาหาร ระบบของเรารับประกันการจัดส่งจำนวนมากที่ได้รับการตรวจสอบย้อนกลับสำหรับชิลาจิตหิมาลัยของแท้ กระวานเข้มข้น น้ำมันพื้นฐานจากหญ้าแฝก และสารสกัดดัดแปลงภายใต้การปฏิบัติตามสุขอนามัยพืชโดยเด็ดขาด",
+    "apedaAuth": "APEDA ได้รับอนุญาต",
+    "sgsPurity": "ผ่านการทดสอบ SGS Purity Lab",
+    "cargoTransit": "การขนส่งสินค้าทั่วโลก",
+    "cargoDesc": "เส้นทางการขนส่งสินค้าทางทะเลและทางอากาศ",
+    "secure": "ปลอดภัย",
+    "catalogue": "แคตตาล็อกแบบไดนามิก",
+    "selectGoods": "เลือกสินค้าเกษตร",
+    "searchPlaceholder": "ค้นหาหมวดหมู่หรือผลิตภัณฑ์...",
+    "noMatch": "ไม่มีหมวดหมู่หรือผลิตภัณฑ์ที่ตรงกับพารามิเตอร์ของคุณ",
+    "adjustSearch": "ลองปรับคำค้นหา",
+    "freightNetworks": "เครือข่ายการขนส่งสินค้าทั่วโลก",
+    "operationsTitle": "การดำเนินการทางการค้าที่สร้างขึ้นบนความซื่อสัตย์",
+    "sgsTitle": "การตรวจสอบ SGS แบบเต็ม",
+    "sgsDesc": "ทุกล็อตทดสอบต้องผ่านการทดสอบแก๊สโครมาโทกราฟีและความบริสุทธิ์เชิงวิเคราะห์ การปฏิบัติตามข้อกำหนดด้านสุขอนามัยพิษรับประกันการกำหนดเส้นทางท่าเรือแบบกำหนดเองที่ไม่ยุ่งยาก",
+    "isoTitle": "มาตรฐานส่วนกลับ ISO",
+    "isoDesc": "ดำเนินงานภายใต้แนวทางด้านสุขอนามัยสากลที่เข้มงวด การบรรจุแบบสุญญากาศจะปิดกั้นแสง UV คอสมิก ทำให้คงความสดใหม่ในระหว่างการขนส่ง",
+    "originTitle": "Wayanad กำเนิดโดยตรง",
+    "originDesc": "แหล่งเครื่องเทศของเราตัดพ่อค้าคนกลางที่ไม่จำเป็นออก เพื่อให้มั่นใจว่าได้รับค่าตอบแทนค่าจ้างที่ยุติธรรมสูงสุดแก่เกษตรกรรายย่อย Vedic ในท้องถิ่นโดยตรง",
+    "fastTrack": "ติดตามอย่างรวดเร็ว",
+    "speakArbitrage": "พูดคุยกับแผนก Commodity Arbitrage ของเรา",
+    "arbitrageDesc": "ต้องการปริมาณความชื้นแบบกำหนดเองเฉพาะทาง ตันปริมาณมาก หรือสัญญาขนส่งตู้คอนเทนเนอร์ทางทะเลหรือไม่ เชื่อมต่อโดยตรงเพื่อการจัดการการค้าที่มีลำดับความสำคัญ",
+    "cargoTimelines": "ระยะเวลาการขนส่งสินค้าทั่วไป",
+    "sgsClearance": "การกวาดล้างการวิเคราะห์ SGS:",
+    "sgsDays": "4-5 วันทำการ",
+    "packagingPrep": "การเตรียมบรรจุภัณฑ์แบบกำหนดเอง:",
+    "packagingDays": "5-7 วันทำการ",
+    "portOfLoad": "พอร์ต FOB ของการโหลด:",
+    "portName": "นาวา เชวา, มุมไบ",
+    "secureTransit": "การขนส่งที่ปลอดภัย",
+    "readyStatus": "พร้อม 100%",
+    "qualityHighlights": "จุดเด่นด้านคุณภาพส่งออก",
+    "keyBenefits": "ประโยชน์ที่สำคัญ",
+    "shippingPacking": "การจัดส่งและการบรรจุทั่วโลก",
+    "packageLabel": "บรรจุุภัณฑ์:",
+    "capabilityLabel": "ความสามารถ:",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "แผนกเครื่องเทศและเครื่องปรุงรส",
+        "title": "เครื่องเทศชั้นยอดและเครื่องปรุงรสแท้",
+        "description": "อะโรเมติกส์เกรดพระเวท พริกร้อน และผงปรุงอาหารที่ซับซ้อน ผ่านการบดให้ได้มาตรฐานความปลอดภัยทางจุลชีววิทยาโดยสมบูรณ์ การจัดหาจากฟาร์มโดยตรงรับประกันปริมาณน้ำมันที่แข็งแกร่งและรสชาติที่เข้มข้น",
+        "highlights": [
+          "การคัดเลือกขมิ้นเคอร์คูมินโกลด์ (>5%)",
+          "พริกไทยดำ Tellicherry ตรวจสอบ Piperine",
+          "ซูดานย้อมติดลบพริกกุนตูร์",
+          "การกัดที่ถูกสุขอนามัยที่อุณหภูมิต่ำด้วยไครโอเจนิกส์"
+        ],
+        "benefits": [
+          "กักเก็บน้ำมันหอมระเหยระเหยได้สูง",
+          "ความคงตัวของกลิ่นหอมและความคงตัวของรสชาติ",
+          "ออร์แกนิค 100% ไร้สารปรุงแต่ง",
+          "การปฏิบัติตามข้อกำหนดระดับโลกที่ปลอดภัยต่ออะฟลาทอกซิน"
+        ],
+        "packaging": "ถุงคราฟท์หลายชั้นขนาด 25 กก. พร้อมโพลีไลเนอร์ ตัวเลือกการบรรจุสูญญากาศ",
+        "capability": "รวมการจัดส่งตู้คอนเทนเนอร์ LCL แบบผสมหรือสูงสุด 20 เมตริกตันต่อ FCL",
+        "shippingInfo": "FOB Nhava Sheva (มุมไบ) หรือท่าเรือ Mundra เส้นทางลำดับความสำคัญของการขนส่งสินค้าทางอากาศ",
+        "features": [
+          {
+            "title": "เคอร์คูมินโกลด์",
+            "desc": "ผงขมิ้นทองที่มีระดับเคอร์คูมินที่ออกฤทธิ์เกิน 5% สำหรับใช้ในอาหารและทางคลินิก"
+          },
+          {
+            "title": "พริกไทยหูกวาง",
+            "desc": "ผลเบอร์รี่พริกไทยดำที่เข้มข้นเป็นพิเศษให้ความร้อนจากพิเพอรีนที่ลึกและกลิ่นไม้ที่ซับซ้อน"
+          },
+          {
+            "title": "พริกขี้หนูบด",
+            "desc": "ผงพริก Guntur Sannam บดภายใต้การควบคุมด้วยความเย็นจัดเพื่อป้องกันการสูญเสียน้ำมันที่เกิดจากความร้อน"
+          },
+          {
+            "title": "ผักชีฝรั่ง",
+            "desc": "เมล็ดมัลวาระดับพรีเมี่ยมบดเป็นตาข่ายละเอียด บรรจุเศษส่วนระเหยอุ่นของซิตรัส"
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "โต๊ะผงผัก",
+        "title": "ผงผักอบแห้งบริสุทธิ์",
+        "description": "ผักทางการเกษตรจะถูกทำให้แห้งที่อุณหภูมิต่ำซึ่งควบคุมอย่างเข้มงวดเพื่อปกป้องสารอาหารที่ออกฤทธิ์ทางชีวภาพ โปรไฟล์สี และความลึกของรสชาติ เหมาะสำหรับอาหารพร้อมรับประทาน เครื่องผสม และสูตรยา",
+        "highlights": [
+          "ผลิตจากผักแท้ 100% ไม่มีสารปรุงแต่ง",
+          "การอบแห้งที่อุณหภูมิต่ำแบบกักเซลล์",
+          "ละลายและกระจายตัวได้ดีเยี่ยม",
+          "เกรดธรรมชาติที่ไหลลื่นไม่จับตัวเป็นก้อน"
+        ],
+        "benefits": [
+          "อัตราส่วนการคืนสภาพน้ำทันที",
+          "ความเข้มข้นของรสชาติออร์แกนิก",
+          "คงวิตามินและเส้นใยจากธรรมชาติ",
+          "การเก็บรักษาเม็ดสีที่มองเห็นได้บริสุทธิ์"
+        ],
+        "packaging": "ถังไฟเบอร์พร้อมถุงโพลีเอทิลีนคู่ด้านใน (20 กก. / 25 กก.)",
+        "capability": "12-15 เมตริกตันต่อ FCL สูตรผสมเครื่องเทศ/ผักแบบกำหนดเอง",
+        "shippingInfo": "การขนส่งทางทะเลผ่านตู้คอนเทนเนอร์ห้องเย็นแบบควบคุมอุณหภูมิไปยังท่าเรือทั่วโลก",
+        "features": [
+          {
+            "title": "มะเขือเทศอบแห้งแบบสเปรย์",
+            "desc": "ผงเนื้อมะเขือเทศสีแดงที่ละลายน้ำได้ อุดมไปด้วยไลโคปีน ช่วยให้รสอูมามิเข้มข้นทันที"
+          },
+          {
+            "title": "เบตาเลน บีทรูท",
+            "desc": "ผงบีทรูทบดละเอียดให้สีแดงเข้มตามธรรมชาติและไนเตรตเข้มข้น"
+          },
+          {
+            "title": "ผักโขมคลอโรฟิลล์",
+            "desc": "ผงผักโขมละลายน้ำสีเขียวสดใส ล็อคธาตุเหล็กและคลอโรฟิลล์ในอาหาร"
+          },
+          {
+            "title": "อัลลิซินกระเทียม",
+            "desc": "ผงกระเทียมฉุนบดจากกานพลูที่คัดสรร ให้การกระจายตัวและรสชาติที่รวดเร็ว"
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "โต๊ะผงผลไม้",
+        "title": "ผงผลไม้ออร์ชาร์ดและสารละลายน้ำ",
+        "description": "ผงผลไม้ตากแห้งแบบสเปรย์และอบแห้งที่อุณหภูมิต่ำ กักเก็บความหวานที่แท้จริง น้ำตาลออร์แกนิก และวิตามินของผลไม้ในสวนที่สุกงอมด้วยแสงแดด เป็นที่นิยมอย่างสูงในเครื่องดื่ม ขนม และอาหารสำหรับทารก",
+        "highlights": [
+          "พ่นแห้งโดยตรงจากเยื่ออินทรีย์",
+          "ไม่มีการเติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "ละลายได้ดีในของเหลวร้อนและเย็น",
+          "การเลือกซุปเปอร์ฟู้ดที่มีสารอาหารหนาแน่น"
+        ],
+        "benefits": [
+          "กลิ่นผลไม้บริสุทธิ์และรสหวาน",
+          "วิตามินซีสูงและการเก็บรักษาสารออกฤทธิ์ทางชีวภาพ",
+          "การผสมผสานที่สมบูรณ์แบบสำหรับผลิตภัณฑ์นมและการอบ",
+          "ส่วนผสมที่ได้มาตรฐานฉลากสะอาด"
+        ],
+        "packaging": "ถุงอลูมิเนียมฟอยล์ปิดผนึกสูญญากาศภายในกล่องกระดาษลูกฟูก",
+        "capability": "8-10 เมตริกตันต่อ FCL การสนับสนุนบรรจุภัณฑ์ฉลากส่วนตัว",
+        "shippingInfo": "การขนส่งสินค้าทางอากาศด่วนหรือการขนส่งตู้คอนเทนเนอร์ทางทะเลแบบควบคุมอุณหภูมิ",
+        "features": [
+          {
+            "title": "กล้วยคาเวนดิช",
+            "desc": "ผงกล้วยดิบและสุกที่อุดมไปด้วยแป้งทน เหมาะสำหรับการผสมแบบไม่มีกลูเตน"
+          },
+          {
+            "title": "เกศร มะม่วง",
+            "desc": "เนื้อผลไม้สีทองจับกลิ่นหอมหวานของมะม่วงอินเดียที่เก็บเกี่ยวด้วยมือ"
+          },
+          {
+            "title": "แอสคอร์บิก แอมลา",
+            "desc": "ผงมะยมออร์แกนิกที่มีวิตามินซีธรรมชาติเข้มข้นสูง"
+          },
+          {
+            "title": "ทับทิมต้านอนุมูลอิสระ",
+            "desc": "ผงน้ำทับทิมแบบสเปรย์แห้ง ให้โพลีฟีนอลเข้มข้นและสีชมพูที่มองเห็นได้"
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "โต๊ะมะรุมซุปเปอร์ฟู้ด",
+        "title": "ผลิตภัณฑ์มะรุมออร์แกนิกระดับพรีเมียม",
+        "description": "ใบมะรุม oleifera ผง ชา และสารสกัดที่ปลูกแบบออร์แกนิกที่มาจากพื้นที่อินเดียที่ให้ผลผลิตสูงปลอดสารกำจัดศัตรูพืช ประมวลผลภายใต้โปรโตคอลการทำให้แห้งในเงาเพื่อปกป้องกรดอะมิโนที่จำเป็น",
+        "highlights": [
+          "พืชผลออร์แกนิคที่ได้รับการรับรองจาก USDA และ APEDA",
+          "การบ่มใบแห้งเงาอย่างเข้มงวด",
+          "ไฟโตเคมีคอลและฟลาโวนอยด์ได้มาตรฐาน",
+          "วัสดุใบสะอาด 99.9% ไม่มีทราย"
+        ],
+        "benefits": [
+          "โปรตีนจากพืชครบถ้วนด้วยกรดอะมิโน 9 ชนิด",
+          "มีธาตุเหล็ก แคลเซียม และวิตามินสูง",
+          "อายุการเก็บรักษามีความเสถียรสูงในซีลสูญญากาศ",
+          "เหมาะสำหรับอาหารเสริมและเครื่องสำอาง"
+        ],
+        "packaging": "ถุงกั้นสุญญากาศพร้อมไส้ซิลิกาเจล บรรจุในกล่องเสริมความแข็งแรง",
+        "capability": "5-8 เมตริกตันต่อชุด การตัดใบไม้ที่ปรับแต่งได้และแพ็คขายส่ง",
+        "shippingInfo": "ภาชนะแห้งปิดผนึก ส่งต่อการขนส่งทางอากาศแบบมีลำดับความสำคัญไปยังผู้จัดจำหน่ายด้านสุขภาพทั่วโลก",
+        "features": [
+          {
+            "title": "ผงใบออร์แกนิก",
+            "desc": "ผงใบมะรุมบดละเอียด มีสีมรกตเข้มและมีกลิ่นหญ้า"
+          },
+          {
+            "title": "ทำความสะอาดใบที่หายแล้ว",
+            "desc": "ใบไม้แห้งเงาทั้งหมดจะถูกจัดเรียงโดยเครื่องจักรเพื่อกำจัดกิ่ง ก้าน และฝุ่นออก"
+          },
+          {
+            "title": "ชามะรุมสมุนไพร",
+            "desc": "ใบที่ตัดสม่ำเสมอเหมาะสำหรับถุงชา มอบการแช่สมุนไพรเพื่อสุขภาพที่สดใหม่"
+          },
+          {
+            "title": "สารสกัดที่ได้มาตรฐาน",
+            "desc": "สารสกัดใบมะรุมเข้มข้นที่ได้มาตรฐานสำหรับไบโอฟลาโวนอยด์รวมสำหรับสูตรทางคลินิก"
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "โต๊ะเมล็ดพืชน้ำมัน",
+        "title": "น้ำมันคัดพิเศษและเมล็ดพืชอาหาร",
+        "description": "น้ำมันออร์แกนิกคุณภาพส่งออกและเมล็ดพืชโภชนาการ ทำความสะอาด คัดแยก และบรรจุอย่างเป็นระบบภายใต้การควบคุมสุขอนามัยพืชที่สมบูรณ์ ผลผลิตน้ำมันที่สูงและความบริสุทธิ์ของซอร์เท็กซ์ที่สะอาดทำให้สิ่งเหล่านี้เหมาะสำหรับการแปรรูปอาหารและอุตสาหกรรม",
+        "highlights": [
+          "เรียงลำดับสีแสง Sortex 99.9%",
+          "การตรวจสอบการรมควันและการทำความสะอาดอย่างเข้มงวด",
+          "รับรองปลอดสารกำจัดศัตรูพืชและสารตกค้าง",
+          "มีกรดไขมันไม่อิ่มตัวเชิงซ้อนในปริมาณสูง"
+        ],
+        "benefits": [
+          "อัตราส่วนการสกัดน้ำมันธรรมชาติสูง",
+          "เมล็ดสะอาดมากไม่มีสิ่งสกปรก",
+          "ขนาดเมล็ดและโปรไฟล์สีสม่ำเสมอ",
+          "บรรจุเพื่อป้องกันความชื้นในบรรยากาศ"
+        ],
+        "packaging": "กระสอบทอโพลีโพรพีลีนหรือถุงกระดาษหลายชั้น (25 กก. / 50 กก.)",
+        "capability": "18-22 เมตริกตันต่อคอนเทนเนอร์ (FCL) ข้อกำหนดความชื้นแบบกำหนดเอง",
+        "shippingInfo": "เดินเรือเดินสมุทรโดยตรง กำหนดเส้นทางขนส่งสินค้าเทกองไปยังร้านเบเกอรี่และผู้จัดจำหน่ายเชิงพาณิชย์",
+        "features": [
+          {
+            "title": "งาขาว",
+            "desc": "เมล็ดงาขาวทำความสะอาดอัตโนมัติ ให้ผลผลิตน้ำมันสูงและมีรสหวานคล้ายถั่ว"
+          },
+          {
+            "title": "โกลเด้นแฟลกซ์",
+            "desc": "เมล็ดแฟลกซ์ระดับพรีเมียม อุดมไปด้วยเส้นใยอาหารและกรดไขมันโอเมก้า 3 ที่จำเป็น"
+          },
+          {
+            "title": "เจียขึ้นรูปเจล",
+            "desc": "เมล็ดเชียดำออร์แกนิกที่มีดัชนีการบวมและคุณภาพเมือกที่ดีเยี่ยม"
+          },
+          {
+            "title": "ฟักทองเขียว",
+            "desc": "เมล็ดฟักทองที่ปอกเปลือกสะอาด คัดแยกเพื่อให้ได้สีเขียวเข้มสม่ำเสมอและกรุบกรอบ"
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "โต๊ะผักอบแห้ง",
+        "title": "ผักอบแห้งที่ถูกสุขลักษณะ",
+        "description": "หัวหอม กระเทียม ขิง และผักอื่นๆ ที่หั่นเป็นชิ้นสะอาด ตากให้แห้งภายใต้ช่องระบายอากาศขั้นสูง ได้มาจากสายพานทางการเกษตรที่สอดคล้องกับไฟโตโดยตรงเพื่อประสิทธิภาพในการคืนน้ำและรสชาติที่ดีเยี่ยม",
+        "highlights": [
+          "ไม่ใช้ซัลไฟต์ ซัลเฟอร์ หรือสารกันบูด",
+          "มีความชื้นตกค้างต่ำ (<5%)",
+          "การคืนความชุ่มชื้นและการฟื้นฟูเนื้อสัมผัสที่บริสุทธิ์",
+          "สินค้าส่งออกที่ได้รับการรับรองสุขอนามัยพืช"
+        ],
+        "benefits": [
+          "ลดเวลาการเตรียมอาหารลงอย่างมาก",
+          "ช่วยประหยัดน้ำหนักการขนส่งและพื้นที่จัดเก็บ",
+          "คงสีธรรมชาติและดึงดูดสายตา",
+          "ความแรงของรสชาติที่สม่ำเสมอในส่วนผสมอาหาร"
+        ],
+        "packaging": "กล่องหลักบุด้วย HDPE พร้อมเม็ดมีดโพลีปิดผนึกด้วยความร้อนสองชั้น",
+        "capability": "10-12 เมตริกตันต่อ FCL การหั่นและหั่นลูกเต๋าที่ปรับแต่งได้",
+        "shippingInfo": "ภาชนะบรรจุแห้งมาตรฐานหรือเส้นทางตู้เย็นไปยังห้องครัวเครื่องปรุงรสอุตสาหกรรม",
+        "features": [
+          {
+            "title": "หัวหอมชิ้น",
+            "desc": "หัวหอมแดงและขาวอบแห้ง มีกลิ่นฉุนรุนแรงและคืนสภาพได้สูง"
+          },
+          {
+            "title": "กลีบกระเทียม",
+            "desc": "กานพลูกระเทียมแห้ง ปอกเปลือกออกอย่างพิถีพิถัน และซอร์เท็กซ์คัดแยกเพื่อขจัดเขม่า"
+          },
+          {
+            "title": "ขิงหั่นบาง ๆ",
+            "desc": "ขิงแห้งหั่นเป็นชิ้นที่สะอาดและคงความร้อนแรงและมีจินเจอร์อลสูง"
+          },
+          {
+            "title": "เถามะเขือเทศ",
+            "desc": "มะเขือเทศออร์แกนิกอบแห้ง อุดมไปด้วยไลโคปีนธรรมชาติ อบแห้งโดยไม่ใช้สารเคมีซัลไฟต์"
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "โต๊ะผลไม้อบแห้ง",
+        "title": "ผลไม้อบแห้งตากแดด",
+        "description": "ชิ้นพรีเมียมและผลไม้อบแห้งหั่นยาว ปรุงจากสวนออร์แกนิกที่เก็บเกี่ยวด้วยมือ รักษาน้ำตาลฟรุกโตสตามธรรมชาติ เนื้อสัมผัสที่เคี้ยวหนึบ และวิตามินที่สำคัญ โดยไม่มีสารกันบูดทางเคมี",
+        "highlights": [
+          "ไม่เติมน้ำตาลอ้อยหรือสารให้ความหวาน",
+          "ปราศจากซัลไฟต์ ไร้สีผสมสารเคมี",
+          "รูปร่างการหั่นที่ยืดหยุ่นและความชื้นแบบกำหนดเอง",
+          "สวนผลไม้ที่ผ่านการรับรองปลอดสารกำจัดศัตรูพืช"
+        ],
+        "benefits": [
+          "ความหวานจากธรรมชาติและสัมผัสที่เคี้ยวหนึบ",
+          "ความคงตัวของชั้นวางที่ดีเยี่ยมในการจัดเก็บในที่แห้ง",
+          "เหมาะสำหรับเป็นของว่างและขนมอบ",
+          "สารตกค้างต่ำและการประมวลผลฉลากที่สะอาด"
+        ],
+        "packaging": "ถุงเคลือบ BOPP พร้อมตัวดูดซับออกซิเจนภายในและกล่องหลัก",
+        "capability": "6-8 เมตริกตันต่อ FCL มีขนาดตัดตามต้องการ",
+        "shippingInfo": "ภาชนะแห้งที่มีความชื้นต่ำและการขนส่งทางอากาศที่มีอุณหภูมิคงที่",
+        "features": [
+          {
+            "title": "แอปริคอทชิ้น",
+            "desc": "แอปริคอตชิ้นเนื้อนุ่มหวานตามธรรมชาติ เก็บรักษาไว้ด้วยรสชาติผลไม้เข้มข้นและสีสันสดใส"
+          },
+          {
+            "title": "ชิ้นมะเดื่อ",
+            "desc": "ลูกฟิกตากแดดเคี้ยวหนึบมีไฟเบอร์ละลายน้ำสูงและมีรสหวานคาราเมล"
+          },
+          {
+            "title": "แถบมะม่วง",
+            "desc": "มะม่วงอบแห้งหั่นยาว มีกลิ่นหอมของเขตร้อนและมีสีทองสดใส"
+          },
+          {
+            "title": "มะละกอชิป",
+            "desc": "มะละกออบแห้งมีคุณค่าสำหรับเนื้อสัมผัสระดับพรีเมียมและอุดมไปด้วยสารอาหารรอง"
+          }
+        ]
+      }
+    }
   },
   "booking": {
-    "clinic": "HARMONIZATION CLINICS",
-    "sanctuary": "Vibrational Sanctuary",
-    "desc": "All consultations are conducted in complete secrecy. Our therapists custom formulate remedies to match active stress fields, facilitating physical release and recovery.",
-    "confidential": "Confidential Intake",
-    "confidentialDesc": "Your biofields mapping, thermal diagnostics, and case histories remain sealed.",
-    "private": "Private Residences",
-    "privateDesc": "Chambers are isolated inside our deep Wayanad forest gardens in Kerala, India.",
-    "aligning": "Aligning Aura Diagnostics...",
-    "scheduler": "Harmonic Residency Scheduler",
-    "title": "Schedule Your Therapy",
-    "formDesc": "Reserve custom-blended Bach flower, Reiki alignment, or deep quartz therapeutic sound healing.",
-    "successTitle": "Residency Reservation Initiated",
-    "successDesc": "Thank you, {name}. Your appointment request for {service} has been logged in our secure sanctuary ledger.",
-    "slipTitle": "Requested Session Slip",
-    "date": "Date",
-    "hour": "Hour",
-    "note": "Our clinic coordinator will call or email you to finalize the bio-resonance intake files.",
-    "anotherBtn": "Book Another Session",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Contact Email Address *",
-    "labelPhone": "Direct Phone *",
-    "labelService": "Therapeutic Attunement Service *",
-    "labelDate": "Intake Residency Date *",
-    "labelTime": "Preferred Arrival Time *",
-    "labelNotes": "Energetic Symptoms, Stress Triggers or Food Preferences",
-    "placeholderName": "e.g. Heinrich Müller",
+    "clinic": "คลินิกประสานกัน",
+    "sanctuary": "เขตรักษาพันธุ์การสั่นสะเทือน",
+    "desc": "การให้คำปรึกษาทั้งหมดดำเนินการอย่างเป็นความลับ นักบำบัดของเราจะคิดค้นวิธีการรักษาที่เหมาะกับความเครียดที่เกิดขึ้น ช่วยให้ร่างกายได้ผ่อนคลายและฟื้นตัว",
+    "confidential": "การบริโภคที่เป็นความลับ",
+    "confidentialDesc": "การทำแผนที่สนามพลังชีวภาพ การวินิจฉัยความร้อน และประวัติเคสของคุณยังคงถูกปิดผนึก",
+    "private": "บ้านพักส่วนตัว",
+    "privateDesc": "ห้องต่างๆ ถูกแยกออกไปภายในสวนป่า Wayanad ที่อยู่ลึกของเราในเมือง Kerala ประเทศอินเดีย",
+    "aligning": "การจัดตำแหน่งการวินิจฉัยออร่า...",
+    "scheduler": "ตัวจัดตารางเวลาที่อยู่อาศัยแบบฮาร์มอนิก",
+    "title": "กำหนดเวลาการบำบัดของคุณ",
+    "formDesc": "สำรองดอกไม้ Bach ที่ผสมผสานแบบกำหนดเอง การจัดแนวเรกิ หรือการบำบัดด้วยเสียงบำบัดด้วยควอตซ์ลึก",
+    "successTitle": "เริ่มการจองที่อยู่อาศัยแล้ว",
+    "successDesc": "ขอบคุณ {ชื่อ} คำขอนัดหมายของคุณสำหรับ {service} ได้รับการบันทึกไว้ในบัญชีแยกประเภทเขตรักษาพันธุ์ที่ปลอดภัยของเรา",
+    "slipTitle": "สลิปเซสชันที่ร้องขอ",
+    "date": "วันที่",
+    "hour": "ชั่วโมง",
+    "note": "ผู้ประสานงานคลินิกของเราจะโทรหรือส่งอีเมลถึงคุณเพื่อสรุปไฟล์การรับเสียงสะท้อนทางชีวภาพ",
+    "anotherBtn": "จองเซสชั่นอื่น",
+    "labelName": "ชื่อนามสกุลของคุณ *",
+    "labelEmail": "อีเมล์ติดต่อ *",
+    "labelPhone": "โทรศัพท์สายตรง *",
+    "labelService": "บริการปรับการรักษา *",
+    "labelDate": "วันที่เข้าพักอาศัย *",
+    "labelTime": "เวลามาถึงที่ต้องการ *",
+    "labelNotes": "อาการที่กระฉับกระเฉง สิ่งกระตุ้นความเครียด หรือความชอบด้านอาหาร",
+    "placeholderName": "เช่น ไฮน์ริช มุลเลอร์",
     "placeholderEmail": "e.g. sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderNotes": "Mention any physical pain, life blockages, emotional distress patterns, or if you prefer a female/male practitioner...",
-    "errorFields": "Please fill in all required fields marked with *.",
-    "submitting": "Submitting Ledger Reservation...",
-    "submit": "Attune Booking Ledgers",
-    "loadingModalities": "Loading Sacred Modalities...",
-    "pickSlot": "Pick Slot...",
-    "slot1": "08:00 AM - Sunrise Dew Intake",
-    "slot2": "11:00 AM - Solar Zenith Sync",
-    "slot3": "02:30 PM - Afternoon Starlight",
-    "slot4": "05:30 PM - Wayanad Sunset Calm"
+    "placeholderNotes": "กล่าวถึงความเจ็บปวดทางร่างกาย ชีวิตที่อุดตัน รูปแบบความทุกข์ทางอารมณ์ หรือหากคุณชอบแพทย์หญิง/ชาย...",
+    "errorFields": "กรุณากรอกข้อมูลในช่องที่ต้องกรอกที่มีเครื่องหมาย * ให้ครบถ้วน",
+    "submitting": "กำลังส่งการจองบัญชีแยกประเภท...",
+    "submit": "บัญชีแยกประเภทการจอง Atune",
+    "loadingModalities": "กำลังโหลดวิธีการศักดิ์สิทธิ์...",
+    "pickSlot": "เลือกสล็อต...",
+    "slot1": "08:00 น. - ดูดน้ำค้างพระอาทิตย์ขึ้น",
+    "slot2": "11:00 น. - Solar Zenith Sync",
+    "slot3": "14:30 น. - แสงดาวยามบ่าย",
+    "slot4": "17:30 น. - เวยานาท ชมพระอาทิตย์ตกอันเงียบสงบ"
   },
   "contact": {
-    "accessLines": "DIRECT ACCESS LINES",
-    "council": "Contact the DharaAveda Council",
-    "desc": "Whether arranging shipping vessels for bulk spice operations or planning custom clinical healing admissions, our representatives provide elite corporate care.",
-    "exportDesk": "EXPORT LOGISTICS DESK",
-    "cargoAffairs": "Commodity & Sea Cargo Affairs",
-    "sanctuaryAdmissions": "SANCTUARY VILLA ADMISSIONS",
-    "healingReserves": "Holistic Healing Reserves",
-    "responseRate": "Average response rate of commodity contract brokers is 24 business hours.",
-    "transmissionSealed": "Transmission Sealed",
-    "transmissionDesc": "Your message, {name}, has been processed. A council coordinate advisor from the appropriate division will contact you shortly.",
-    "sendAnother": "Send Another Message",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Email Address *",
-    "labelPhone": "Direct Contact Phone",
-    "labelMessage": "Your Inquiries / Requirements *",
-    "placeholderName": "e.g. Heinrich Müller",
+    "accessLines": "เส้นการเข้าถึงโดยตรง",
+    "council": "ติดต่อสภาดาราอเวดา",
+    "desc": "ไม่ว่าจะเป็นการจัดเรือขนส่งสำหรับการดำเนินการเกี่ยวกับเครื่องเทศจำนวนมาก หรือการวางแผนการรับการรักษาทางคลินิกแบบกำหนดเอง ตัวแทนของเราจะให้การดูแลระดับองค์กรชั้นยอด",
+    "exportDesk": "แผนกโลจิสติกส์ส่งออก",
+    "cargoAffairs": "กิจการสินค้าโภคภัณฑ์และขนส่งทางทะเล",
+    "sanctuaryAdmissions": "การรับเข้า SANCTUARY VILLA",
+    "healingReserves": "สำรองการรักษาแบบองค์รวม",
+    "responseRate": "อัตราการตอบกลับโดยเฉลี่ยของนายหน้าซื้อขายสินค้าโภคภัณฑ์คือ 24 ชั่วโมงทำการ",
+    "transmissionSealed": "เกียร์ปิดผนึก",
+    "transmissionDesc": "ข้อความของคุณ {name} ได้รับการประมวลผลแล้ว ที่ปรึกษาประสานงานสภาจากแผนกที่เหมาะสมจะติดต่อคุณในไม่ช้า",
+    "sendAnother": "ส่งข้อความอื่น",
+    "labelName": "ชื่อนามสกุลของคุณ *",
+    "labelEmail": "ที่อยู่อีเมล *",
+    "labelPhone": "โทรศัพท์ติดต่อโดยตรง",
+    "labelMessage": "คำถามของคุณ / ข้อกำหนด *",
+    "placeholderName": "เช่น ไฮน์ริช มุลเลอร์",
     "placeholderEmail": "sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderMessage": "Describe your bulk spices cargo requirements, clinical therapy intents, or secure scheduling queries...",
-    "submit": "Transmit Dispatch",
-    "transmitting": "Transmitting Dispatch...",
-    "errorFields": "Please fill out all mandatory fields."
+    "placeholderMessage": "อธิบายข้อกำหนดในการขนส่งสินค้าเครื่องเทศจำนวนมาก จุดประสงค์ในการรักษาทางคลินิก หรือสอบถามเกี่ยวกับกำหนดการที่ปลอดภัย...",
+    "submit": "ส่งของ",
+    "transmitting": "กำลังส่งของ...",
+    "errorFields": "กรุณากรอกข้อมูลในช่องบังคับทั้งหมด",
+    "addressLine1": "B 501 Springwood ใกล้ปั๊มน้ำมัน HP, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood ใกล้ปั๊มน้ำมัน HP, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
-    "extendedCatalogue": "EXTENDED CATALOGUE",
-    "premiumItems": "Premium Items",
-    "viewProducts": "View Products",
-    "titleCatalogue": "Catalogue",
-    "availableCargo": "Available Cargo Lots",
-    "minOrder": "Min Order",
-    "pricingModel": "Pricing Model",
-    "sendInquiry": "Send Inquiry / Quote",
-    "close": "Close",
-    "apedaCompliant": "APEDA Compliant Export Cargo Standard",
-    "inquiryRequestQuote": "Request Quotation",
-    "inquiryDirectAccess": "Direct access to our Agricultural Export Desk for",
-    "inquirySuccessTitle": "Quotation Request Logged",
-    "inquirySuccessDesc": "Your trade desk ticket has been initialized. A dedicated cargo specialist will review your cargo specifications within 24 standard business hours.",
-    "inquiryCloseWindow": "Close Window",
-    "inquiryLabelName": "Full Name *",
-    "inquiryLabelEmail": "Corporate Email *",
-    "inquiryLabelCompany": "Company / Organization",
-    "inquiryLabelQuantity": "Target Quantity (e.g. Tons) *",
-    "inquiryPlaceholderName": "e.g. Elena Rostova",
+    "extendedCatalogue": "แคตตาล็อกขยาย",
+    "premiumItems": "รายการพรีเมี่ยม",
+    "viewProducts": "ดูผลิตภัณฑ์",
+    "titleCatalogue": "แคตตาล็อก",
+    "availableCargo": "มีสินค้าจำนวนมาก",
+    "minOrder": "สั่งซื้อขั้นต่ำ",
+    "pricingModel": "รูปแบบการกำหนดราคา",
+    "sendInquiry": "ส่งคำถาม / ใบเสนอราคา",
+    "close": "ปิด",
+    "apedaCompliant": "มาตรฐานสินค้าส่งออกที่ได้มาตรฐาน APEDA",
+    "inquiryRequestQuote": "ขอใบเสนอราคา",
+    "inquiryDirectAccess": "เข้าถึงโดยตรงไปยังแผนกส่งออกสินค้าเกษตรของเราสำหรับ",
+    "inquirySuccessTitle": "บันทึกคำขอใบเสนอราคาแล้ว",
+    "inquirySuccessDesc": "ตั๋วโต๊ะซื้อขายของคุณได้รับการเริ่มต้นแล้ว ผู้เชี่ยวชาญด้านการขนส่งสินค้าโดยเฉพาะจะตรวจสอบข้อกำหนดเฉพาะของสินค้าของคุณภายใน 24 ชั่วโมงทำการมาตรฐาน",
+    "inquiryCloseWindow": "ปิดหน้าต่าง",
+    "inquiryLabelName": "ชื่อเต็ม *",
+    "inquiryLabelEmail": "อีเมลบริษัท *",
+    "inquiryLabelCompany": "บริษัท/องค์กร",
+    "inquiryLabelQuantity": "ปริมาณเป้าหมาย (เช่น ตัน) *",
+    "inquiryPlaceholderName": "เช่น เอเลนา รอสโตวา",
     "inquiryPlaceholderEmail": "sales@dharaaveda.com",
-    "inquiryPlaceholderCompany": "e.g. Hanseatic Spices GmbH",
-    "inquiryPlaceholderQuantity": "e.g. 5 Metric Tons",
-    "inquiryPlaceholderMessage": "Mention specific vacuum-seal requests, harbor ports of choice (e.g. Rotterdam, Hamburg), and phytosanitary certificate needs...",
-    "inquiryLoggingSpecs": "Logging Cargo Specs...",
-    "inquirySubmit": "Transmit Inquiry",
-    "inquiryErrorFields": "Please fill out all mandatory fields."
+    "inquiryPlaceholderCompany": "เช่น บริษัท Hanseatic Spices GmbH",
+    "inquiryPlaceholderQuantity": "เช่น 5 เมตริกตัน",
+    "inquiryPlaceholderMessage": "กล่าวถึงคำขอปิดผนึกสุญญากาศเฉพาะ ท่าเรือท่าเรือที่เลือก (เช่น รอตเตอร์ดัม ฮัมบูร์ก) และความต้องการใบรับรองสุขอนามัยพืช...",
+    "inquiryLoggingSpecs": "การบันทึกข้อมูลจำเพาะของสินค้า...",
+    "inquirySubmit": "ส่งคำถาม",
+    "inquiryErrorFields": "กรุณากรอกข้อมูลในช่องบังคับทั้งหมด"
   },
   "wellness": {
-    "floatingCTAText": "Attune Session",
-    "heroBadge": "Restorative Quantum Sanctuary",
-    "heroTitle": "Calming Quantum Harmony",
-    "heroDesc": "True longevity begins where structural stress dissolves. DharaAveda Sanctuary blends classical Edward Bach wildflower remedies, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and immersive 432Hz quartz singing sound waves. Align your auric frequency, cleanse deep lifecycle trauma, and restore absolute biological peace.",
-    "heroExploreBtn": "Explore Sanctuary Modalities",
-    "modalitiesBadge": "ANCIENT KNOWLEDGE RESTORED",
-    "modalitiesTitle": "Our Therapeutic Modalities",
-    "modalitiesDesc": "Each clinical residency session is customized on intake, blending specialized frequencies for physical and emotional release.",
-    "modalityNoServices": "Attuning vibrational healing schedules...",
-    "modalityTimelineTitle": "Chronological Session Pathway",
-    "modalityRequestBtn": "Request Residency",
-    "testimonialsBadge": "HARMONIC VOWS",
-    "testimonialsTitle": "Voices of Attuned Relief",
-    "testimonialsNoData": "Testimonials loaded upon client non-disclosure release files.",
-    "reviewsBadge": "AUTHENTIC ECHOES",
-    "reviewsTitle": "Social Media Directives",
-    "reviewsDesc": "Direct snapshots of digital conversations and public feedback from clients experiencing our energetic attunements.",
-    "reviewsEmpty": "No social screenshot reviews uploaded yet.",
-    "reviewsExpand": "Expand Image",
-    "badgeWhatsapp": "WhatsApp Review",
-    "badgeInstagram": "Instagram Review",
-    "aboutBadge": "FOUNDER & MASTER PRACTITIONER",
-    "aboutPhilosophyTitle": "Our Resonance Philosophy",
-    "faqBadge": "SACRED KNOWLEDGE FAQ",
-    "faqTitle": "Attunement Inquiries",
-    "faqDesc": "Answers to recurring contemplations regarding our energy and adaptogenic therapeutic residency programs.",
+    "floatingCTAText": "เซสชั่นการปรับ",
+    "heroBadge": "เขตรักษาพันธุ์ควอนตัมบูรณะ",
+    "heroTitle": "ความสามัคคีควอนตัมที่สงบเงียบ",
+    "heroDesc": "อายุยืนยาวที่แท้จริงเริ่มต้นเมื่อความเครียดจากโครงสร้างสลายไป DharaAveda Sanctuary ผสมผสานการรักษาดอกไม้ป่า Edward Bach แบบคลาสสิก การจัดตำแหน่งจักระ Usui Reiki น้ำมันที่จำเป็นต่อโครโมของ Aura-Soma และคลื่นเสียงร้องควอทซ์ 432Hz ที่ดื่มด่ำ ปรับความถี่คลื่นเสียงของคุณ ทำความสะอาดบาดแผลวงจรชีวิตที่ลึกล้ำ และฟื้นฟูความสงบทางชีวภาพอย่างแท้จริง",
+    "heroExploreBtn": "สำรวจรูปแบบเขตรักษาพันธุ์สัตว์ป่า",
+    "modalitiesBadge": "ความรู้โบราณได้รับการฟื้นฟู",
+    "modalitiesTitle": "รูปแบบการรักษาของเรา",
+    "modalitiesDesc": "เซสชั่นการรักษาพยาบาลแต่ละครั้งได้รับการปรับแต่งตามการรับเข้า โดยผสมผสานความถี่เฉพาะทางเพื่อการปลดปล่อยทางร่างกายและอารมณ์",
+    "modalityNoServices": "กำลังปรับตารางการรักษาแบบสั่น...",
+    "modalityTimelineTitle": "Pathway เซสชันตามลำดับเวลา",
+    "modalityRequestBtn": "ขอที่อยู่อาศัย",
+    "testimonialsBadge": "คำสาบานฮาร์โมนิก",
+    "testimonialsTitle": "เสียงแห่งความโล่งใจที่พร้อมเพรียง",
+    "testimonialsNoData": "ข้อความรับรองที่โหลดตามไฟล์เผยแพร่ที่ไม่เปิดเผยข้อมูลของลูกค้า",
+    "reviewsBadge": "เสียงสะท้อนของแท้",
+    "reviewsTitle": "คำสั่งโซเชียลมีเดีย",
+    "reviewsDesc": "ภาพรวมโดยตรงของการสนทนาทางดิจิทัลและการตอบรับสาธารณะจากลูกค้าที่ประสบกับการปรับจูนอย่างกระตือรือร้นของเรา",
+    "reviewsEmpty": "ยังไม่มีการอัปโหลดบทวิจารณ์ภาพหน้าจอโซเชียล",
+    "reviewsExpand": "ขยายรูปภาพ",
+    "badgeWhatsapp": "รีวิว WhatsApp",
+    "badgeInstagram": "รีวิวอินสตาแกรม",
+    "aboutBadge": "ผู้ก่อตั้งและผู้ปฏิบัติงานหลัก",
+    "aboutPhilosophyTitle": "ปรัชญาการสะท้อนของเรา",
+    "faqBadge": "คำถามที่พบบ่อยเกี่ยวกับความรู้อันศักดิ์สิทธิ์",
+    "faqTitle": "สอบถามการปรับจูน",
+    "faqDesc": "คำตอบของการไตร่ตรองที่เกิดขึ้นซ้ำๆ เกี่ยวกับพลังงานและโปรแกรมการบำบัดรักษาแบบปรับตัวของเรา",
     "faqItems": [
       {
-        "question": "How do I choose between Reiki, Bach Flower, and Sound alignment?",
-        "answer": "We recommend sharing your immediate emotional or physical challenges during our initial booking consultation. Dr. Vikranti and team will scan your energetic biofield to weave custom modalities tailored to your resonant frequency."
+        "question": "ฉันจะเลือกระหว่าง Rekkanoho Therapy และ Bach Flower ได้อย่างไร",
+        "answer": "เราขอแนะนำให้คุณแบ่งปันความท้าทายทางอารมณ์หรือทางกายภาพของคุณในระหว่างการให้คำปรึกษาการจองครั้งแรกของเรา ดร. Vikranti และทีมงานจะสแกนสนามพลังชีวภาพของคุณเพื่อสานต่อรูปแบบที่กำหนดเองซึ่งปรับให้เหมาะกับความถี่เรโซแนนซ์ของคุณ"
       },
       {
-        "question": "Are these therapy cycles held in-person or online?",
-        "answer": "While Usui Reiki and Sound Attunement are highly immersive in our pure Wayanad Villa retreat, Bach Flower emotional consultations and selective energy biofield support can be performed online with equal spiritual potency."
+        "question": "รอบการบำบัดเหล่านี้จัดขึ้นด้วยตนเองหรือทางออนไลน์หรือไม่",
+        "answer": "แม้ว่าการบำบัด Rekkhanoho และการปรับเสียงให้เหมาะสมจะดื่มด่ำไปกับการพักผ่อนใน Wayanad Villa อันบริสุทธิ์ของเรา แต่การให้คำปรึกษาทางอารมณ์ของ Bach Flower และการสนับสนุนสนามพลังชีวภาพที่คัดเลือกมาสามารถทำได้ทางออนไลน์ด้วยพลังทางจิตวิญญาณที่เท่าเทียมกัน"
       },
       {
-        "question": "Can these therapies be integrated with modern conventional treatments?",
-        "answer": "Absolutely. Our methods operate on the subtle energy bodies (pranamaya kosha) and emotional fields, complementing conventional clinical medicine by unlocking cellular stress and facilitating accelerated somatic self-healing loops."
+        "question": "การรักษาเหล่านี้สามารถผสมผสานกับการรักษาแบบเดิมๆ สมัยใหม่ได้หรือไม่?",
+        "answer": "อย่างแน่นอน. วิธีการของเราดำเนินการกับร่างกายที่มีพลังงานอันละเอียดอ่อน (ปรานามายา โคชา) และสาขาด้านอารมณ์ เป็นการเสริมการแพทย์ทางคลินิกทั่วไปโดยการปลดล็อกความเครียดของเซลล์ และอำนวยความสะดวกให้กับลูปการรักษาตนเองทางร่างกายแบบเร่ง"
       }
     ],
-    "locationBadge": "WAYANAD MOUNTAIN CLIME",
-    "locationTitle": "The Wayanad Villa Retreat",
-    "locationDesc": "Our main clinical chambers lie in the misty highlands of Wayanad, Kerala. The clinical estate features high negative ion levels, natural running mountain spring water, and absolute absence of electromagnetic radiation noise to ensure deep biofield recovery.",
-    "locationBanner": "Wayanad, Kerala Sanctuary",
-    "writeReview": "Write a Review",
-    "ratingTitle": "Attuned Satisfaction Rating",
-    "ratingSub": "Based on verified spiritual resonance testimonials.",
-    "visitorEcho": "Visitor Sanctuary Echo",
-    "shareReview": "Share Your Sanctuary Review",
-    "feedbackGuideline": "Your sacred feedback directs our communal path and is approved by our master alchemist.",
-    "labelResonanceRating": "Quantum Resonance Rating*",
-    "labelSilhouette": "Select Silhouette Portrait (Optional)",
-    "placeholderReview": "Describe your feelings, emotional balance or physical relief...",
-    "btnSubmitReview": "Submit Review",
-    "btnDiscard": "Discard",
-    "reviewSuccessTitle": "Echo Received!",
-    "reviewSuccessDesc": "Thank you for sharing your attuned experience. Your review has been saved in the registry and will appear live once reviewed and approved by our Sanctuary Moderator.",
-    "btnPerfect": "Perfect",
-    "reviewTransmitting": "Transmitting...",
-    "reviewNameLabel": "Full Name*",
-    "reviewCityLabel": "City / Country (Optional)",
-    "reviewAvatarLabel": "Or input custom photo URL...",
-    "reviewTitleDefault": "Wellness Visitor",
-    "reviewErrorName": "Full Name is required",
-    "reviewErrorContent": "Review Message is required",
-    "reviewErrorRating": "Rating must be between 1 and 5 stars",
-    "reviewsModality": "MODALITY RESIDENCE"
+    "locationBadge": "ภูมิอากาศบนภูเขาเวยานาท",
+    "locationTitle": "เดอะ เวยานาท วิลล่า รีทรีต",
+    "locationDesc": "ห้องคลินิกหลักของเราตั้งอยู่ในที่ราบสูงที่มีหมอกหนาของ Wayanad รัฐ Kerala คุณสมบัติทางคลินิกมีระดับไอออนลบสูง น้ำจากน้ำพุธรรมชาติจากภูเขา และไม่มีสัญญาณรบกวนจากรังสีแม่เหล็กไฟฟ้าเพื่อให้แน่ใจว่าสนามพลังชีวภาพจะฟื้นตัวได้ในระดับลึก",
+    "locationBanner": "Wayanad, เขตรักษาพันธุ์สัตว์ป่า Kerala",
+    "writeReview": "เขียนรีวิว",
+    "ratingTitle": "คะแนนความพึงพอใจที่ปรับให้เหมาะสม",
+    "ratingSub": "อิงจากคำรับรองการสั่นพ้องทางจิตวิญญาณที่ได้รับการยืนยันแล้ว",
+    "visitorEcho": "เขตรักษาพันธุ์ผู้มาเยือนเอคโค่",
+    "shareReview": "แบ่งปันรีวิวสถานที่ศักดิ์สิทธิ์ของคุณ",
+    "feedbackGuideline": "ข้อเสนอแนะอันศักดิ์สิทธิ์ของคุณกำหนดเส้นทางชุมชนของเราและได้รับการอนุมัติจากนักเล่นแร่แปรธาตุระดับปรมาจารย์ของเรา",
+    "labelResonanceRating": "คะแนนควอนตัมเรโซแนนซ์*",
+    "labelSilhouette": "เลือกภาพเงาดำ (ไม่บังคับ)",
+    "placeholderReview": "อธิบายความรู้สึก ความสมดุลทางอารมณ์ หรือการบรรเทาทางกายภาพของคุณ...",
+    "btnSubmitReview": "ส่งรีวิว",
+    "btnDiscard": "ทิ้ง",
+    "reviewSuccessTitle": "ได้รับเสียงสะท้อนแล้ว!",
+    "reviewSuccessDesc": "ขอบคุณที่แบ่งปันประสบการณ์ตรงของคุณ ความเห็นของคุณได้รับการบันทึกไว้ในรีจิสทรีแล้ว และจะปรากฏทันทีเมื่อได้รับการตรวจสอบและอนุมัติโดยผู้ดูแลเขตรักษาพันธุ์สัตว์ป่าของเรา",
+    "btnPerfect": "สมบูรณ์แบบ",
+    "reviewTransmitting": "กำลังส่งสัญญาณ...",
+    "reviewNameLabel": "ชื่อเต็ม*",
+    "reviewCityLabel": "เมือง / ประเทศ (ไม่บังคับ)",
+    "reviewAvatarLabel": "หรือป้อน URL รูปภาพที่กำหนดเอง...",
+    "reviewTitleDefault": "ผู้เยี่ยมชมด้านสุขภาพ",
+    "reviewErrorName": "จำเป็นต้องระบุชื่อเต็ม",
+    "reviewErrorContent": "ต้องมีข้อความตรวจสอบ",
+    "reviewErrorRating": "การให้คะแนนต้องอยู่ระหว่าง 1 ถึง 5 ดาว",
+    "reviewsModality": "ที่อยู่อาศัยแบบโมดาลิตี้"
   },
   "seo": {
-    "homeTitle": "DharaAveda สถานพักผ่อน | การบำบัดแบบองค์รวมและการส่งออกระดับพรีเมียม",
-    "homeDesc": "DharaAveda สถานพักผ่อนให้บริการคำปรึกษาดอกไม้บัค การจัดตำแหน่งเรกิอุซุอิ และการบำบัดด้วยเสียง 432Hz",
-    "exportTitle": "แผนกส่งออกสินค้าเกษตร | DharaAveda",
-    "exportDesc": "เครื่องเทศพรีเมียม ชิลาจิตบริสุทธิ์ และสารสกัดอโรมาเธอราพีออร์แกนิก ได้รับการรับรอง APEDA & SGS",
-    "wellnessTitle": "การบำบัดสุขภาพแบบองค์รวม & สถานพักผ่อน | DharaAveda",
-    "wellnessDesc": "สัมผัสประสบการณ์เรกิ ดอกไม้บัค และการบำบัดด้วยเสียงที่สถานพักผ่อนเวยานาดของเราในเคราลา",
-    "bookingTitle": "จองเซสชันสุขภาพของคุณ | DharaAveda",
-    "bookingDesc": "สำรองที่นั่งสำหรับการจัดตำแหน่งเรกิส่วนตัว การปรึกษาดอกไม้บัค หรือการบำบัดด้วยเสียง",
-    "contactTitle": "ติดต่อเรา | DharaAveda",
-    "contactDesc": "ติดต่อเราสำหรับการส่งออกสินค้าเกษตรขนาดใหญ่ สัญญาการค้า หรือขอเข้าพักในสถานบำบัด"
+    "homeTitle": "วิหารดาราอเวดา | การบำบัดด้วยควอนตัมเชิงบูรณะและการส่งออกด้านสุขภาพระดับพรีเมียม",
+    "homeDesc": "DharaAveda Sanctuary ผสมผสานการบำบัดด้วยดอกไม้ป่า Bach แบบคลาสสิก การจัดตำแหน่งจักระ Usui Reiki น้ำมันที่จำเป็นต่อโครโมของ Aura-Soma และการปรับเสียง",
+    "exportTitle": "กองการค้าสินค้าเกษตร | วิหารดาราอเวดา",
+    "exportDesc": "กระวานสีเขียวระดับพรีเมียมจากแหล่งโดยตรง เรซินชิลาจิตบริสุทธิ์ และสารสกัดอโรมาเทอราพีออร์แกนิก ได้รับอนุญาตตาม APEDA และ SGS",
+    "wellnessTitle": "เขตรักษาพันธุ์สัตว์ป่าและการบำบัดด้วยควอนตัมเชิงบูรณะ | ดาราอเวดา",
+    "wellnessDesc": "สัมผัสประสบการณ์ Usui Reiki การให้คำปรึกษาเกี่ยวกับดอกไม้ Bach และการบำบัดด้วยเสียง 432Hz ที่สถานที่ศักดิ์สิทธิ์ Wayanad ใน Kerala",
+    "bookingTitle": "กำหนดเวลาการอยู่อาศัยในการปรับของคุณ | ดาราอเวดา",
+    "bookingDesc": "จองเซสชันการรักษาความลับของคุณเพื่อปรับแนวเรอิกิ ปรึกษาเรื่องดอกไม้ Bach หรือการบำบัดด้วยเสียงอย่างล้ำลึก",
+    "contactTitle": "ติดต่อโต๊ะสภา | ดาราอเวดา",
+    "contactDesc": "ติดต่อสำหรับการขนส่งทางการเกษตรจำนวนมาก สัญญาสินค้าโภคภัณฑ์ หรือการรับเข้ารักษาสุขภาพในเขตรักษาพันธุ์สัตว์ป่า"
   },
   "products": {
     "categories": {
       "spices": {
-        "title": "Spices & Seasonings",
-        "desc": "Vedas-grade aromatics, hot spices, and complex culinary powders milled to absolute microbiological safety standards."
+        "title": "เครื่องเทศและเครื่องปรุงรส",
+        "desc": "อะโรเมติกส์เกรดพระเวท เครื่องเทศเผ็ด และผงปรุงอาหารที่ซับซ้อน ผ่านการบดให้ได้มาตรฐานความปลอดภัยด้านจุลชีววิทยาอย่างแท้จริง"
       },
       "veg_powders": {
-        "title": "Dehydrated Vegetable Powders",
-        "desc": "Fine agricultural vegetable powders dehydrated at low temperatures to lock in bioactive nutrients, colors, and intense flavors."
+        "title": "ผงผักอบแห้ง",
+        "desc": "ผงผักเกษตรชั้นดีถูกทำให้แห้งที่อุณหภูมิต่ำเพื่อกักเก็บสารอาหารที่มีฤทธิ์ทางชีวภาพ สี และรสชาติที่เข้มข้น"
       },
       "fruit_powders": {
-        "title": "Dehydrated Fruit Powders",
-        "desc": "Premium spray-dried and low-temp dehydrated fruit powders capturing the pure sweetness, vitamins, and tang of fresh orchards."
+        "title": "ผงผลไม้อบแห้ง",
+        "desc": "ผงผลไม้อบแห้งแบบสเปรย์ระดับพรีเมียมและอบแห้งที่อุณหภูมิต่ำ จับความหวาน วิตามิน และรสเปรี้ยวของสวนผลไม้สด"
       },
       "moringa": {
-        "title": "Moringa Products",
-        "desc": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation."
+        "title": "ผลิตภัณฑ์มะรุม",
+        "desc": "ใบมะรุมโอเลเฟราทางพฤกษศาสตร์บริสุทธิ์ ผง ชา และสารสกัดที่มาจากการเพาะปลูกที่ให้ผลผลิตสูงปลอดสารกำจัดศัตรูพืช"
       },
       "seeds": {
-        "title": "Seeds Category",
-        "desc": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls."
+        "title": "หมวดหมู่เมล็ดพันธุ์",
+        "desc": "น้ำมันออร์แกนิกคุณภาพส่งออกและเมล็ดพืชโภชนาการได้รับการทำความสะอาด คัดแยก และบรรจุภายใต้การควบคุมสุขอนามัยพืชที่สมบูรณ์"
       },
       "dehydrated_veg": {
-        "title": "Dehydrated Vegetables",
-        "desc": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life."
+        "title": "ผักอบแห้ง",
+        "desc": "หัวหอม กระเทียม ขิง และผักอื่นๆ ที่ผ่านการหั่นเป็นชิ้นสะอาด ผ่านการแปรรูปเพื่อให้คืนสภาพได้สูงและมีอายุการเก็บรักษายาวนาน"
       },
       "dehydrated_fruits": {
-        "title": "Dehydrated Fruits",
-        "desc": "Premium long-cut and slices of sun-sheltered dehydrated fruits preserving natural sugars, texture, and vitamins."
+        "title": "ผลไม้อบแห้ง",
+        "desc": "ผลไม้ตากแห้งหั่นยาวแบบพรีเมียมหั่นเป็นชิ้นตากแดด โดยรักษาน้ำตาล เนื้อสัมผัส และวิตามินตามธรรมชาติ"
       },
       "flakes": {
-        "title": "Flakes Category",
-        "desc": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes."
+        "title": "หมวดเกล็ด",
+        "desc": "เกล็ดผักเกรดอุตสาหกรรมและกูร์เมต์แห้งสม่ำเสมอเพื่อให้ความชุ่มชื้นอย่างรวดเร็วในอาหารสะดวกซื้อและของผสมแห้ง"
       }
     },
     "items": {
       "s-turmeric": {
-        "name": "Turmeric Powder",
-        "desc": "Vibrant golden-yellow turmeric powder ground from choice Erode rhizomes, offering high active curcumin levels suitable for B2B pharmaceutical and gourmet use.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงขมิ้น",
+        "desc": "ผงขมิ้นเหลืองทองที่มีชีวิตชีวาจากเหง้ากัดกร่อนที่คัดสรร มีระดับเคอร์คิวมินที่ออกฤทธิ์สูง เหมาะสำหรับการใช้ทางเภสัชกรรมแบบ B2B และร้านอาหาร",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Erode & Salem Estates, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Curcumin > 5% Certified, Pure",
+          "origin": "ที่ดินกัดเซาะและซาเลม ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "เคอร์คูมิน > 5% ได้รับการรับรอง บริสุทธิ์",
           "grade": "A++ High-Curcumin Gold",
-          "minOrder": "500 Kilograms"
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-redchilli": {
-        "name": "Red Chilli Powder",
-        "desc": "Guntur Sannam red chilli powder offering a deep color and customizable heat ratings for international kitchens.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงพริกแดง",
+        "desc": "พริกป่น Guntur Sannam ให้สีเข้มและระดับความร้อนที่ปรับแต่งได้สำหรับครัวนานาชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Guntur Region, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Aflatoxin & Sudan Dye Negative",
-          "grade": "Kashmiri Bright Red Selection",
-          "minOrder": "500 Kilograms"
+          "origin": "แคว้นกุนตูร์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "อะฟลาทอกซินและสีย้อมซูดานเป็นลบ",
+          "grade": "แคชเมียร์ แดงสด คัดสรร",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-coriander": {
-        "name": "Coriander Powder",
-        "desc": "Traditional whole and ground coriander powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงผักชี",
+        "desc": "ผงผักชีทั้งต้นและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-cumin": {
-        "name": "Cumin Powder",
-        "desc": "Traditional whole and ground cumin powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงยี่หร่า",
+        "desc": "ผงยี่หร่าทั้งเมล็ดและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องส่วนที่เป็นอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-blackpepper": {
-        "name": "Black Pepper",
-        "desc": "Grade-1 whole black pepper berries harvested from historic Malabar slopes, delivering intense piperine heat and a complex woody aroma.",
-        "pricing": "Contact Trade Desk",
+        "name": "พริกไทยดำ",
+        "desc": "ผลเบอร์รี่พริกไทยดำเกรด 1 เก็บเกี่ยวจากเนิน Malabar อันเก่าแก่ ให้ความร้อนจากพิเพอรีนเข้มข้นและกลิ่นหอมของไม้ที่ซับซ้อน",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Wayanad Highland Forests, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Moisture < 11.5% Certified",
+          "origin": "ป่าที่ราบสูง Wayanad ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ความชื้น < 11.5% ได้รับการรับรอง",
           "grade": "Tellicherry Extra Bold (TGSEB)",
-          "minOrder": "500 Kilograms"
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-cardamom": {
-        "name": "Cardamom",
-        "desc": "Plump, premium green cardamom pods displaying beautiful natural emerald shells and high essential seed-oil levels.",
-        "pricing": "Contact Trade Desk",
+        "name": "กระวาน",
+        "desc": "ฝักกระวานสีเขียวพรีเมี่ยมอวบอ้วน แสดงเปลือกมรกตธรรมชาติที่สวยงามและมีน้ำมันเมล็ดที่จำเป็นสูง",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Cardamom Hills, Kerala, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Free from artificial polishers",
+          "origin": "เนินเขากระวาน รัฐเกรละ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ปราศจากสารขัดเงาเทียม",
           "grade": "Bold Premium Extra Emerald (8mm+)",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "s-cloves": {
-        "name": "Cloves",
-        "desc": "Whole brown cloves dried to optimal moisture levels to preserve aromatic eugenol compounds.",
-        "pricing": "Contact Trade Desk",
+        "name": "กานพลู",
+        "desc": "กานพลูสีน้ำตาลทั้งหมดทำให้แห้งจนถึงระดับความชื้นที่เหมาะสมเพื่อรักษาสารประกอบอะโรมาติกยูเกนอลไว้",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Nilgiris Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Hand selected prime whole cloves",
-          "minOrder": "200 Kilograms"
+          "origin": "แถบนิลกิริส ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "กานพลูคัดพิเศษด้วยมือ",
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "s-cinnamon": {
-        "name": "Cinnamon",
-        "desc": "Ceylon-type sweet cinnamon quills harvested sustainably, carrying very low coumarin and a delicate woody sweetness.",
-        "pricing": "Contact Trade Desk",
+        "name": "อบเชย",
+        "desc": "ขนนกอบเชยชนิดซีลอนเก็บเกี่ยวอย่างยั่งยืน มีคูมารินต่ำมากและให้ความหวานจากไม้ที่ละเอียดอ่อน",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Western Ghats, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Fine Grade Alba quills",
-          "minOrder": "500 Kilograms"
+          "origin": "Ghats ตะวันตก, อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "ปากกาอัลบาเกรดดี",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-nutmeg": {
-        "name": "Nutmeg",
-        "desc": "Traditional whole and ground nutmeg processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "ลูกจันทน์เทศ",
+        "desc": "ลูกจันทน์เทศทั้งลูกและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษส่วนอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-staranise": {
-        "name": "Star Anise",
-        "desc": "Traditional whole and ground star anise processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "โป๊ยกั้ก",
+        "desc": "โป๊ยกั้กทั้งเมล็ดและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษส่วนอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-fennel": {
-        "name": "Fennel Seeds",
-        "desc": "Traditional whole and ground fennel seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดยี่หร่า",
+        "desc": "เมล็ดยี่หร่าทั้งเมล็ดและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องส่วนที่เป็นอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-mustard": {
-        "name": "Mustard Seeds",
-        "desc": "Traditional whole and ground mustard seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดมัสตาร์ด",
+        "desc": "เมล็ดมัสตาร์ดทั้งเมล็ดและบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-bayleaves": {
-        "name": "Bay Leaves",
-        "desc": "Traditional whole and ground bay leaves processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "ใบกระวาน",
+        "desc": "ใบกระวานทั้งใบและใบบดแบบดั้งเดิมผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษส่วนอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-garammasala": {
-        "name": "Garam Masala",
-        "desc": "Traditional whole and ground garam masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "การัม มาซาลา",
+        "desc": "Garam Masala แบบดั้งเดิมทั้งแบบบดและแบบบดผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องเศษส่วนอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "s-mixedspice": {
-        "name": "Mixed Spice Blends",
-        "desc": "Traditional whole and ground mixed spice blends processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "ส่วนผสมเครื่องเทศผสม",
+        "desc": "เครื่องเทศผสมแบบดั้งเดิมทั้งแบบบดและแบบบดผ่านกระบวนการโม่ด้วยอุณหภูมิต่ำเพื่อปกป้องส่วนที่เป็นอะโรมาติก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "เข็มขัดเครื่องเทศ Kerala อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "บริสุทธิ์ 100% ปราศจากโลหะหนัก",
+          "grade": "คุณภาพส่งออกระดับพรีเมี่ยม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-beetroot": {
-        "name": "Beetroot Powder",
-        "desc": "Rich crimson beetroot powder retaining high natural betalains, nitrates, and dietary fibers for health blends.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงบีทรูท",
+        "desc": "ผงบีทรูทสีแดงเข้มที่อุดมไปด้วยเบตาเลนธรรมชาติ ไนเตรต และเส้นใยอาหารเพื่อสุขภาพ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Vedic Plains, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบเวท อินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-tomato": {
-        "name": "Tomato Powder",
-        "desc": "Fine spray-dried red tomato powder prepared from ripe organic tomatoes, ideal for instant soups, sauces, and seasoning rubs.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมะเขือเทศ",
+        "desc": "ผงมะเขือเทศสีแดงแห้งแบบสเปรย์ละเอียด ปรุงจากมะเขือเทศออร์แกนิกสุก เหมาะสำหรับทำซุปสำเร็จรูป ซอส และซอสปรุงรส",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Karnataka Farms, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "ฟาร์มกรณาฏกะอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-potato": {
-        "name": "Potato Powder",
-        "desc": "High-purity dehydrated potato powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมันฝรั่ง",
+        "desc": "ผงมันฝรั่งอบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-garlic": {
-        "name": "Garlic Powder",
-        "desc": "Concentrated garlic powder milled from aromatic bulbs, delivering robust allicin flavor and dispersibility.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงกระเทียม",
+        "desc": "ผงกระเทียมเข้มข้นบดจากหัวอะโรมาติก ให้กลิ่นอัลลิซินเข้มข้นและกระจายตัวได้",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "มัธยประเทศ, อินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-ginger": {
-        "name": "Ginger Powder",
-        "desc": "Fine ginger root powder packing potent gingerol warmth, widely utilized in confectionery and herbal tea blending.",
-        "pricing": "Contact Trade Desk",
+        "name": "ขิงผง",
+        "desc": "ผงรากขิงชั้นดีบรรจุความอบอุ่นของขิง มีการใช้กันอย่างแพร่หลายในการผสมขนมและชาสมุนไพร",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Northeast Hills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "เนินเขาตะวันออกเฉียงเหนือ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-onion": {
-        "name": "Onion Powder",
-        "desc": "Dehydrated white/red onion powder bringing quick savory onion sweetness and zest to food mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงหัวหอม",
+        "desc": "ผงหัวหอมสีขาว/แดงอบแห้งนำความหวานของหัวหอมที่เผ็ดร้อนและเพิ่มความเอร็ดอร่อยให้กับส่วนผสมอาหาร",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "แคว้นนาสิก ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-spinach": {
-        "name": "Spinach Powder",
-        "desc": "Fine green powder dried from high-grade spinach leaves, locking in dietary iron and natural chlorophyll color.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงผักโขม",
+        "desc": "ผงละเอียดสีเขียวแห้งจากใบผักโขมคุณภาพสูง ล็อคธาตุเหล็กและสีคลอโรฟิลล์ตามธรรมชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Himalayan Foothills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "เชิงเขาหิมาลัย ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-carrot": {
-        "name": "Carrot Powder",
-        "desc": "High-purity dehydrated carrot powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงแครอท",
+        "desc": "ผงแครอทอบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-cabbage": {
-        "name": "Cabbage Powder",
-        "desc": "High-purity dehydrated cabbage powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงกะหล่ำปลี",
+        "desc": "ผงกะหล่ำปลีอบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-moringa": {
-        "name": "Drumstick (Moringa) Powder",
-        "desc": "Nutritive moringa pod and leaf powder processed in cleanrooms to maintain extreme vitamin and antioxidant counts.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงไม้ตีกลอง (มะรุม)",
+        "desc": "ฝักมะรุมและผงใบมีคุณค่าทางโภชนาการผ่านกระบวนการในห้องปลอดเชื้อเพื่อรักษาปริมาณวิตามินและสารต้านอนุมูลอิสระในระดับสูงสุด",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Latur Valley, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "หุบเขาลาตูร์ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-greenchilli": {
-        "name": "Green Chilli Powder",
-        "desc": "High-purity dehydrated green chilli powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงพริกเขียว",
+        "desc": "ผงพริกเขียวอบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-corianderleaf": {
-        "name": "Coriander Leaf Powder",
-        "desc": "High-purity dehydrated coriander leaf powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงใบผักชี",
+        "desc": "ผงใบผักชีอบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "vp-mint": {
-        "name": "Mint Powder",
-        "desc": "High-purity dehydrated mint powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมิ้นท์",
+        "desc": "ผงมิ้นต์อบแห้งที่มีความบริสุทธิ์สูงบดตามมาตรฐานไมโครเมชเพื่อการละลายที่รวดเร็วและการกระจายรสชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถังเคลือบกันความชื้น (20กก.)",
+          "purity": "ผักอบแห้งบริสุทธิ์ 100% ไม่มีสารปรุงแต่ง",
+          "grade": "สเปรย์แห้งระดับพรีเมียม / บดที่อุณหภูมิต่ำ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-banana": {
-        "name": "Banana Powder",
-        "desc": "Dehydrated green banana powder rich in resistant starches, utilized in healthy gluten-free flour formulations.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงกล้วย",
+        "desc": "ผงกล้วยเขียวอบแห้งที่อุดมไปด้วยแป้งทน ใช้ในสูตรแป้งปลอดกลูเตนเพื่อสุขภาพ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบสูงเวยานาท ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-mango": {
-        "name": "Mango Powder",
-        "desc": "Spray-dried Kesar and Alphonso mango pulp powder, preserving authentic tropical flavor, golden color, and natural sugars.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมะม่วง",
+        "desc": "ผงเนื้อมะม่วง Kesar และ Alphonso แห้งแบบสเปรย์ คงรสชาติเขตร้อนแท้ๆ สีทอง และน้ำตาลธรรมชาติ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "สวนผลไม้รัตนคีรี ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-guava": {
-        "name": "Guava Powder",
-        "desc": "Spray-dried premium fruit juice powder of guava powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงฝรั่ง",
+        "desc": "ผงน้ำผลไม้พรีเมี่ยมแบบสเปรย์แห้งจากผงฝรั่ง จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมและการอบอาหารรสเลิศ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-pomegranate": {
-        "name": "Pomegranate Powder",
-        "desc": "Antioxidant-rich pomegranate juice powder spray-dried to retain high brix and beautiful pink-red coloring.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงทับทิม",
+        "desc": "ผงน้ำทับทิมที่อุดมด้วยสารต้านอนุมูลอิสระ อบแห้งแบบสเปรย์เพื่อรักษาปริมาณบริกซ์สูงและสีชมพูแดงสวยงาม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Deccan Plateau, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบเดกคาน ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-pineapple": {
-        "name": "Pineapple Powder",
-        "desc": "Spray-dried premium fruit juice powder of pineapple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงสับปะรด",
+        "desc": "ผงน้ำผลไม้สับปะรดเกรดพรีเมี่ยมแบบสเปรย์แห้ง จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมและการอบอาหารรสเลิศ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-papaya": {
-        "name": "Papaya Powder",
-        "desc": "Spray-dried premium fruit juice powder of papaya powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมะละกอ",
+        "desc": "ผงน้ำผลไม้พรีเมี่ยมแบบสเปรย์แห้งจากผงมะละกอ ให้กลิ่นหอมตามธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมอาหารและการอบขนม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-apple": {
-        "name": "Apple Powder",
-        "desc": "Spray-dried premium fruit juice powder of apple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงแอปเปิ้ล",
+        "desc": "ผงน้ำผลไม้พรีเมี่ยมแบบสเปรย์แห้งจากผงแอปเปิ้ล จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมอาหารและการอบขนม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-orange": {
-        "name": "Orange Powder",
-        "desc": "Spray-dried premium fruit juice powder of orange powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงส้ม",
+        "desc": "ผงน้ำผลไม้เกรดพรีเมี่ยมแบบสเปรย์แห้งจากผงส้ม จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมและการอบอาหารระดับกูร์เมต์",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-lemon": {
-        "name": "Lemon Powder",
-        "desc": "Spray-dried premium fruit juice powder of lemon powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมะนาว",
+        "desc": "ผงน้ำผลไม้ระดับพรีเมียมแบบสเปรย์แห้งจากผงมะนาว จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมอาหารและการอบขนม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-strawberry": {
-        "name": "Strawberry Powder",
-        "desc": "Spray-dried premium fruit juice powder of strawberry powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงสตรอเบอร์รี่",
+        "desc": "ผงน้ำผลไม้สตรอเบอร์รี่เกรดพรีเมี่ยมแบบสเปรย์แห้ง จับกลิ่นหอมธรรมชาติและเฉดสีที่มองเห็นได้สำหรับเครื่องผสมและการอบอาหารรสเลิศ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "สเปรย์ดรายจากเนื้อผลไม้ออร์แกนิก 100%",
+          "grade": "อาหารและเครื่องดื่มเกรดเอ",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fp-amla": {
-        "name": "Amla Powder",
-        "desc": "Dehydrated Indian gooseberry (Amla) powder offering exceptional Vitamin C levels, highly suitable for dietary supplements.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงอัมลา",
+        "desc": "ผงมะยมอินเดียอบแห้ง (แอมลา) มีวิตามินซีสูง เหมาะมากสำหรับเป็นผลิตภัณฑ์เสริมอาหาร",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "100% Pure Amla, high Vitamin C",
-          "grade": "Nutraceutical Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "สวนผลไม้คุชราต ประเทศอินเดีย",
+          "packaging": "เม็ดมีดฟอยล์สูญญากาศอลูมิเนียมในกล่องหลัก",
+          "purity": "มะขามป้อมบริสุทธิ์ 100% มีวิตามินซีสูง",
+          "grade": "มาตรฐานโภชนเภสัช",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "m-powder": {
-        "name": "Moringa Powder",
-        "desc": "Finely milled raw leaf powder from organically grown Moringa oleifera trees, boasting rich protein, iron, and multivitamin indexes.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผงมะรุม",
+        "desc": "ผงใบดิบบดละเอียดจากต้นมะรุมโอเลเฟราที่ปลูกแบบออร์แกนิก อุดมไปด้วยโปรตีน ธาตุเหล็ก และดัชนีวิตามินรวม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Vacuum sealed UV barrier bags (20 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "ฟาร์มออร์แกนิกลาตูร์ ประเทศอินเดีย",
+          "packaging": "ถุงกั้นรังสียูวีปิดผนึกสุญญากาศ (20 กก.)",
+          "purity": "ได้รับการรับรองจาก USDA และ APEDA ออร์แกนิก",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "m-leaves": {
-        "name": "Moringa Leaves",
-        "desc": "Shadow-dried, whole moringa leaves systematically cleaned of stems and organic residue, keeping vital chlorophyll intact.",
-        "pricing": "Contact Trade Desk",
+        "name": "ใบมะรุม",
+        "desc": "ใบมะรุมแห้งทั้งใบจะถูกทำความสะอาดลำต้นและสารอินทรีย์ตกค้างอย่างเป็นระบบ โดยคงคลอโรฟิลล์ที่สำคัญไว้ครบถ้วน",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Double poly-lined woven sacks (15 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "ฟาร์มออร์แกนิกลาตูร์ ประเทศอินเดีย",
+          "packaging": "กระสอบสานโพลีโพลีสองชั้น (15 กก.)",
+          "purity": "ได้รับการรับรองจาก USDA และ APEDA ออร์แกนิก",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "m-tea": {
-        "name": "Moringa Tea",
-        "desc": "Premium cut moringa leaves blended with aromatic herbs to create a high-antioxidant, caffeine-free daily wellness infusion.",
-        "pricing": "Contact Trade Desk",
+        "name": "ชามะรุม",
+        "desc": "ใบมะรุมหั่นคุณภาพเยี่ยมผสมกับสมุนไพรที่มีกลิ่นหอมเพื่อสร้างสารต้านอนุมูลอิสระสูงและปราศจากคาเฟอีนเพื่อสุขภาพที่ดีในแต่ละวัน",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Customized filter tea bags in composite tins",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "ฟาร์มออร์แกนิกลาตูร์ ประเทศอินเดีย",
+          "packaging": "ถุงกรองชาแบบกำหนดเองในกระป๋องคอมโพสิต",
+          "purity": "ได้รับการรับรองจาก USDA และ APEDA ออร์แกนิก",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "m-extract": {
-        "name": "Moringa Extract",
-        "desc": "High-potency bioactive moringa leaf extract standardized for total flavonoids and saponin ratios, for clinical use.",
-        "pricing": "Contact Trade Desk",
+        "name": "สารสกัดจากมะรุม",
+        "desc": "สารสกัดใบมะรุมออกฤทธิ์ทางชีวภาพประสิทธิภาพสูงที่ได้มาตรฐานสำหรับอัตราส่วนฟลาโวนอยด์และซาโปนินทั้งหมด สำหรับการใช้งานทางคลินิก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Food-grade HDPE canisters",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "ฟาร์มออร์แกนิกลาตูร์ ประเทศอินเดีย",
+          "packaging": "ถัง HDPE เกรดอาหาร",
+          "purity": "ได้รับการรับรองจาก USDA และ APEDA ออร์แกนิก",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 กิโลกรัม"
         }
       },
       "sd-flax": {
-        "name": "Flax Seeds",
-        "desc": "Dark brown organic flax seeds loaded with Omega-3 fatty acids, processed with advanced optical graders to guarantee purity.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดแฟลกซ์",
+        "desc": "เมล็ดแฟลกซ์ออร์แกนิกสีน้ำตาลเข้มที่เต็มไปด้วยกรดไขมันโอเมก้า 3 แปรรูปด้วยเครื่องคัดเกรดแสงขั้นสูงเพื่อรับประกันความบริสุทธิ์",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-pumpkin": {
-        "name": "Pumpkin Seeds",
-        "desc": "Export-ready premium pumpkin seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดฟักทอง",
+        "desc": "เมล็ดฟักทองพรีเมี่ยมพร้อมส่งออกทำความสะอาดและคัดเกรดอย่างระมัดระวังสำหรับเมล็ดพันธุ์อาหาร ซีเรียล และการสกัดน้ำมันทางอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-sesame": {
-        "name": "Sesame Seeds",
-        "desc": "Crispy, white hulled sesame seeds Auto-Sortex graded, boasting high oil content and nuttiness for global bakery imports.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดงา",
+        "desc": "เมล็ดงาขาวปอกเปลือกกรอบ Auto-Sortex คัดเกรด มีปริมาณน้ำมันสูงและมีคุณค่าทางโภชนาการสูงสำหรับการนำเข้าเบเกอรี่ทั่วโลก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Premium Hulled Auto-Cleaned Sortex",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ซอร์เท็กซ์ทำความสะอาดอัตโนมัติแบบพรีเมียม",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-sunflower": {
-        "name": "Sunflower Seeds",
-        "desc": "Export-ready premium sunflower seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดทานตะวัน",
+        "desc": "เมล็ดทานตะวันพรีเมี่ยมพร้อมส่งออกทำความสะอาดและคัดเกรดอย่างระมัดระวังสำหรับเมล็ดพืชอาหาร ธัญพืช และการสกัดน้ำมันทางอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-chia": {
-        "name": "Chia Seeds",
-        "desc": "High-swelling organic black and white chia seeds, sorted to remove all foreign plant matter, rich in mucilage fibers.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดเจีย",
+        "desc": "เมล็ดเจียออร์แกนิกสีดำและสีขาวบวมสูง คัดแยกเพื่อกำจัดพืชแปลกปลอมทั้งหมด ซึ่งอุดมไปด้วยเส้นใยเมือก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "มัธยประเทศ, อินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-watermelon": {
-        "name": "Watermelon Seeds",
-        "desc": "Export-ready premium watermelon seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดแตงโม",
+        "desc": "เมล็ดแตงโมพรีเมี่ยมพร้อมส่งออกได้รับการทำความสะอาดและคัดเกรดอย่างระมัดระวังสำหรับเมล็ดพันธุ์อาหาร ธัญพืช และการสกัดน้ำมันทางอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "sd-basil": {
-        "name": "Basil Seeds",
-        "desc": "Export-ready premium basil seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "เมล็ดแมงลัก",
+        "desc": "เมล็ดแมงลักเกรดพรีเมี่ยมพร้อมส่งออกทำความสะอาดอย่างระมัดระวังและคัดแยกเกรดสำหรับเมล็ดพันธุ์อาหาร ธัญพืช และการสกัดน้ำมันอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "คุชราต ดรายแลนด์ ประเทศอินเดีย",
+          "packaging": "ถุงกระดาษคราฟท์หลายชั้น (25 กก.)",
+          "purity": "ทำความสะอาดเครื่อง 99.9% / ทำความสะอาด Sortex",
+          "grade": "ส่งออกเมล็ดหนาเกรด AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-onion": {
-        "name": "Dehydrated Onion",
-        "desc": "Air-dried red and white onion slices with excellent texture, preserving essential pungent flavors for immediate food formulation.",
-        "pricing": "Contact Trade Desk",
+        "name": "หัวหอมอบแห้ง",
+        "desc": "หัวหอมสีแดงและสีขาวตากแห้งด้วยเนื้อสัมผัสที่ดีเยี่ยม โดยคงรสชาติฉุนที่จำเป็นสำหรับการกำหนดสูตรอาหารได้ทันที",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "แคว้นนาสิก ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-garlic": {
-        "name": "Dehydrated Garlic",
-        "desc": "Premium dehydrated garlic cloves split to speed up rehydration in instant spice rubs, canned stews, and noodles.",
-        "pricing": "Contact Trade Desk",
+        "name": "กระเทียมอบแห้ง",
+        "desc": "กลีบกระเทียมอบแห้งแบบพรีเมียมแยกออกเพื่อเร่งการคืนน้ำในเครื่องเทศปรุงสำเร็จ สตูว์กระป๋อง และบะหมี่",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Malwa Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "แคว้นมัลวา ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-ginger": {
-        "name": "Dehydrated Ginger",
-        "desc": "Low-temperature dehydrated dehydrated ginger slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "ขิงอบแห้ง",
+        "desc": "ชิ้นขิงอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-tomato": {
-        "name": "Dehydrated Tomato",
-        "desc": "Dried organic tomato slices with rich natural lycopene counts and zero sulfite treatment, for gourmet culinary packs.",
-        "pricing": "Contact Trade Desk",
+        "name": "มะเขือเทศอบแห้ง",
+        "desc": "มะเขือเทศออร์แกนิกตากแห้งที่มีปริมาณไลโคปีนตามธรรมชาติเข้มข้นและมีซัลไฟต์เป็นศูนย์ สำหรับเป็นชุดอาหารกูร์เมต์",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบสูงเวยานาท ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-carrot": {
-        "name": "Dehydrated Carrot",
-        "desc": "Low-temperature dehydrated dehydrated carrot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "แครอทอบแห้ง",
+        "desc": "แครอทฝานอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุภัณฑ์อาหารอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-beetroot": {
-        "name": "Dehydrated Beetroot",
-        "desc": "Low-temperature dehydrated dehydrated beetroot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "บีทรูทอบแห้ง",
+        "desc": "บีทรูทหั่นเป็นชิ้นอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีที่สม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-spinach": {
-        "name": "Dehydrated Spinach",
-        "desc": "Low-temperature dehydrated dehydrated spinach slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผักโขมอบแห้ง",
+        "desc": "ชิ้นผักโขมอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "dv-cabbage": {
-        "name": "Dehydrated Cabbage",
-        "desc": "Low-temperature dehydrated dehydrated cabbage slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "กะหล่ำปลีอบแห้ง",
+        "desc": "กะหล่ำปลีอบแห้งที่อุณหภูมิต่ำ คัดแยกอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
+          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
+          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-banana": {
-        "name": "Banana Slices",
-        "desc": "Sweet Cavendish banana rounds dehydrated naturally without chemical preservatives, perfect for organic snacking mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "ชิ้นกล้วย",
+        "desc": "กล้วยหอมคาเวนดิชอบแห้งตามธรรมชาติโดยไม่มีสารกันบูดเคมี เหมาะสำหรับเป็นของว่างออร์แกนิก",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบสูงเวยานาท ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-mango": {
-        "name": "Mango Slices",
-        "desc": "Hand-sliced Alphonso and Kesar mango strips air-dried to retain sweet tropical fragrance and soft, chewy gourmet texture.",
-        "pricing": "Contact Trade Desk",
+        "name": "มะม่วงฝาน",
+        "desc": "มะม่วงอัลฟอนโซและเกซาร์สไลซ์ด้วยมือตากแห้งเพื่อคงกลิ่นหอมหวานของเขตร้อนและเนื้อสัมผัสที่นุ่มเคี้ยวหนุบหนับ",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "สวนผลไม้รัตนคีรี ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-pineapple": {
-        "name": "Pineapple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic pineapple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "ชิ้นสับปะรด",
+        "desc": "สับปะรดออร์แกนิกอบแห้งระดับพรีเมียมอบแห้ง จัดทำขึ้นสำหรับถุงอาหารกูร์เมต์และสารเติมแต่งจากธัญพืช",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-apple": {
-        "name": "Apple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic apple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "ชิ้นแอปเปิ้ล",
+        "desc": "ชิ้นแอปเปิ้ลออร์แกนิกอบแห้งระดับพรีเมียมตากแดด จัดทำขึ้นสำหรับถุงอาหารกูร์เมต์และสารเติมแต่งจากธัญพืช",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-papaya": {
-        "name": "Papaya Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic papaya slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "มะละกอฝาน",
+        "desc": "มะละกอออร์แกนิกตากแดดแบบพรีเมียมอบแห้ง จัดทำขึ้นสำหรับถุงอาหารกูร์เมต์และสารเติมแต่งจากธัญพืช",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-strawberry": {
-        "name": "Strawberry Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic strawberry slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "สตรอเบอร์รี่ชิ้น",
+        "desc": "สตรอเบอร์รี่ออร์แกนิกอบแห้งระดับพรีเมียมตากแดด จัดทำขึ้นสำหรับถุงอาหารกูร์เมต์และสารเติมแต่งจากธัญพืช",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "df-guava": {
-        "name": "Guava Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic guava slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "ชิ้นฝรั่ง",
+        "desc": "ฝรั่งออร์แกนิกอบแห้งระดับพรีเมียมตากแดด จัดทำขึ้นสำหรับถุงอาหารกูร์เมต์และสารเติมแต่งจากธัญพืช",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "ถุงโพลีปิดผนึกสูญญากาศในกล่องหลัก (10 กก.)",
+          "purity": "ไม่เติมน้ำตาล ซัลไฟต์ หรือสารแต่งสี",
+          "grade": "พรีเมี่ยมสไลซ์ตัดยาว",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-onion": {
-        "name": "Onion Flakes",
-        "desc": "Perfectly cut 10mm red and white onion flakes, systematically air-dried to retain natural sweet allicin, ideal for fast food noodles and sauces.",
-        "pricing": "Contact Trade Desk",
+        "name": "หัวหอมเกล็ด",
+        "desc": "หั่นหัวหอมสีแดงและสีขาวขนาด 10 มม. ได้อย่างสมบูรณ์แบบ ตากให้แห้งอย่างเป็นระบบเพื่อรักษาอัลลิซินที่มีรสหวานตามธรรมชาติ เหมาะสำหรับบะหมี่และซอสอาหารจานด่วน",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Nashik Valley, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "หุบเขานาชิก ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-garlic": {
-        "name": "Garlic Flakes",
-        "desc": "Dehydrated garlic flakes split clean, offering sharp allium zest and rapid hydration for ready-meal packets.",
-        "pricing": "Contact Trade Desk",
+        "name": "เกล็ดกระเทียม",
+        "desc": "เกล็ดกระเทียมอบแห้งแยกส่วนอย่างสะอาด มอบผิวของอัลเลียมที่คมชัดและให้ความชุ่มชื้นอย่างรวดเร็วสำหรับแพ็คเก็ตพร้อมอาหาร",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Malwa Plateau, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "ที่ราบสูงมัลวา ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-potato": {
-        "name": "Potato Flakes",
-        "desc": "Premium dehydrated potato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "เกล็ดมันฝรั่ง",
+        "desc": "เกล็ดมันฝรั่งอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารรสเลิศอย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-tomato": {
-        "name": "Tomato Flakes",
-        "desc": "Premium dehydrated tomato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "มะเขือเทศเกล็ด",
+        "desc": "เกล็ดมะเขือเทศอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารกูร์เมต์อย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-beetroot": {
-        "name": "Beetroot Flakes",
-        "desc": "Premium dehydrated beetroot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "บีทรูทเกล็ด",
+        "desc": "เกล็ดบีทรูทอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารกูร์เมต์อย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-carrot": {
-        "name": "Carrot Flakes",
-        "desc": "Premium dehydrated carrot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "แครอทเกล็ด",
+        "desc": "เกล็ดแครอทอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารรสเลิศอย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-spinach": {
-        "name": "Spinach Flakes",
-        "desc": "Premium dehydrated spinach flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "ผักโขมเกล็ด",
+        "desc": "เกล็ดผักโขมอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารรสเลิศอย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       },
       "fl-mixedveg": {
-        "name": "Mixed Vegetable Flakes",
-        "desc": "Premium dehydrated mixed vegetable flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "เกล็ดผักรวม",
+        "desc": "เกล็ดผักรวมอบแห้งระดับพรีเมี่ยมอบแห้งเพื่อรักษาความเข้มของสีและเนื้อสัมผัสระดับเซลล์สำหรับมื้ออาหารรสเลิศอย่างรวดเร็ว",
+        "pricing": "ติดต่อฝ่ายการค้า",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
+          "packaging": "กล่องกระดาษลูกฟูกสองชั้นพร้อมไลเนอร์ปิดผนึกด้วยความร้อน",
+          "purity": "รับประกันความชื้น < 5% ไร้ฝุ่น",
+          "grade": "Gourmet Flake Cut (10-12มม.)",
+          "minOrder": "500 กิโลกรัม"
         }
       }
     }

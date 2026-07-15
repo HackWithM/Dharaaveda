@@ -69,7 +69,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ category, onClose, onInquir
             <button
               onClick={onClose}
               className="cursor-pointer p-2 rounded-full text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors border border-gray-200 active:scale-95"
-              title="Close Catalogue"
+              title={t.product.modalCloseTitle || "Close Catalogue"}
             >
               <X className="w-5 h-5" />
             </button>
@@ -145,19 +145,19 @@ const ProductModal: React.FC<ProductModalProps> = ({ category, onClose, onInquir
                       {/* Metadata specs table */}
                       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 p-3 bg-slate-50 rounded-xl border border-gray-200 text-[10px] font-mono text-gray-600">
                         <div>
-                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">ORIGIN</span>
+                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">{t.product.metadataOrigin || "ORIGIN"}</span>
                           <span className="text-gray-800 font-sans">{pOrigin}</span>
                         </div>
                         <div>
-                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">PURITY</span>
+                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">{t.product.metadataPurity || "PURITY"}</span>
                           <span className="text-gray-800 font-sans">{pPurity}</span>
                         </div>
                         <div>
-                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">GRADE</span>
+                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">{t.product.metadataGrade || "GRADE"}</span>
                           <span className="text-gray-800 font-sans">{pGrade}</span>
                         </div>
                         <div>
-                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">PACKAGING</span>
+                          <span className="uppercase text-gray-500 block text-[8px] mb-0.5">{t.product.metadataPackaging || "PACKAGING"}</span>
                           <span className="text-gray-800 font-sans">{pPackaging}</span>
                         </div>
                       </div>

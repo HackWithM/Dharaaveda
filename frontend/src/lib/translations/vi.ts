@@ -2,1226 +2,1510 @@ import { StaticTranslations } from "../translations";
 
 export const translations: StaticTranslations = {
   "navbar": {
-    "home": "Home",
-    "export": "Export",
-    "therapy": "Therapy",
-    "contact": "Contact",
-    "admin": "Admin",
-    "console": "Console",
-    "language": "Language",
-    "selectLanguage": "Select Sacred Language",
-    "subTitle": "Agriculture & Aura Clinic",
-    "searchPlaceholder": "Search language..."
+    "home": "Trang chủ",
+    "export": "Xuất khẩu",
+    "therapy": "trị liệu",
+    "contact": "Liên hệ",
+    "myBookings": "Đặt chỗ của tôi",
+    "admin": "Quản trị viên",
+    "console": "Bảng điều khiển",
+    "language": "Ngôn ngữ",
+    "selectLanguage": "Chọn ngôn ngữ thiêng liêng",
+    "subTitle": "Phòng khám Nông nghiệp & Aura",
+    "searchPlaceholder": "Tìm kiếm ngôn ngữ...",
+    "toggleMenu": "Chuyển đổi phạm vi điều hướng",
+    "adminTitle": "Ban kiểm soát quản trị viên"
   },
   "footer": {
-    "desc": "An elite, high-vibrational ecosystem merging enterprise agricultural supply-chain and global spice distribution with high-end quantum sound and floral bio-frequency wellness clinics.",
-    "agriTitle": "Agricultural Division",
-    "wellnessTitle": "Wellness Division",
-    "corpTitle": "Corporate Desk",
-    "agriLink1": "Elite Spices & Culinary Gems",
-    "agriLink2": "Purified Himalayan Shilajit Resin",
-    "agriLink3": "Pure Organic Aromatherapy Extracts",
-    "agriLink4": "Custom Phytosanitary Certification",
-    "agriStatus": "● 100% Trace-Audited",
-    "wellnessLink1": "Edward Bach Floral Consultations",
-    "wellnessLink2": "Usui Reiki Chromatic Harmony",
-    "wellnessLink3": "432Hz Quartz Polyphonic Attunements",
-    "wellnessLink4": "Schedule Private Residency Session",
-    "corpOffice": "Global Trade Office:",
-    "corpSanctuary": "Wellness Sanctuary:",
-    "rights": "All rights reserved. Registered Trade Entity."
+    "desc": "Một hệ sinh thái ưu tú, có độ rung cao kết hợp chuỗi cung ứng nông nghiệp của doanh nghiệp và phân phối gia vị toàn cầu với các phòng khám chăm sóc sức khỏe tần số sinh học và âm thanh lượng tử cao cấp.",
+    "agriTitle": "Phòng nông nghiệp",
+    "wellnessTitle": "Phòng chăm sóc sức khỏe",
+    "corpTitle": "Bàn làm việc doanh nghiệp",
+    "agriLink1": "Gia vị ưu tú & Đá quý ẩm thực",
+    "agriLink2": "Nhựa Shilajit Himalaya tinh khiết",
+    "agriLink3": "Chiết xuất hương liệu hữu cơ nguyên chất",
+    "agriLink4": "Chứng nhận kiểm dịch thực vật tùy chỉnh",
+    "agriStatus": "● Đã kiểm tra theo dõi 100%",
+    "wellnessLink1": "Tư vấn hoa Edward Bach",
+    "wellnessLink2": "Liệu pháp Rekkhanoho",
+    "wellnessLink3": "Sự hòa âm đa âm thạch anh 432Hz",
+    "wellnessLink4": "Lên lịch phiên cư trú tư nhân",
+    "corpOffice": "Văn phòng Thương mại Toàn cầu:",
+    "corpSanctuary": "Khu bảo tồn sức khỏe:",
+    "rights": "Mọi quyền được bảo lưu. Thực thể thương mại đã đăng ký.",
+    "myBookings": "Đặt chỗ của tôi",
+    "badgeApeda": "APEDA CHỨNG NHẬN",
+    "badgeFssai": "TIÊU CHUẨN FSSAI XUẤT KHẨU",
+    "badgeUsda": "Tuân thủ USDA HỮU CƠ"
   },
   "home": {
-    "heroTitle": "Sự hội tụ của thương mại toàn cầu & chữa lành toàn diện",
+    "heroTitle": "Sự hội tụ của thương mại toàn cầu và chữa bệnh toàn diện",
     "heroSubtitle": "Dharaaveda hài hòa chuỗi cung ứng nông nghiệp cao cấp với các liệu pháp năng lượng phục hồi.",
-    "ctaExports": "Khám Phá Xuất Khẩu",
-    "ctaTherapies": "Khám Phá Liệu Pháp",
-    "aboutTitle": "Kết nối tinh hoa của đất mẹ và phục hồi cá nhân",
-    "aboutSubtitle": "TRIẾT LÝ PHÂN CHIA KÉP CỦA CHÚNG TÔI",
-    "aboutDesc1": "Dharaaveda hoạt động tại giao lộ của thương mại quốc tế và sức khỏe toàn diện. Chúng tôi tin rằng sức khỏe thực sự vừa mang tính toàn cầu vừa mang tính cá nhân sâu sắc.",
-    "aboutDesc2": "Phân khúc Nông nghiệp của chúng tôi hợp tác trực tiếp với các điền trang hữu cơ để phân phối các loại gia vị cao cấp trên toàn cầu. Đồng thời, Phân khúc Trị liệu của chúng tôi tạo ra các khu bảo tồn yên tĩnh không có sóng điện từ ở Wayanad.",
-    "showcaseTitle": "Khám Phá Các Phân Khúc",
-    "showcaseSubtitle": "Chọn một lĩnh vực để vào không gian chuyên dụng của chúng tôi",
-    "exportCardTitle": "Phân Khúc Xuất Khẩu",
-    "exportCardDesc": "Kết nối các trang trại thực vật Ấn Độ với các hiệu thuốc toàn cầu, các hãng mỹ phẩm và các nhà nhập khẩu thực phẩm. Gia vị cao cấp và chiết xuất thảo dược được vận chuyển tuân thủ kiểm dịch thực vật tuyệt đối.",
+    "ctaExports": "Khám phá xuất khẩu",
+    "ctaTherapies": "Khám phá liệu pháp",
+    "aboutTitle": "Kết nối tiền thưởng của Trái đất và sự phục hồi cá nhân",
+    "aboutSubtitle": "TRIẾT LÝ DU LỊCH CỦA CHÚNG TÔI",
+    "aboutDesc1": "Dharaaveda hoạt động ở điểm giao thoa giữa thương mại quốc tế và sức khỏe toàn diện. Chúng tôi tin rằng hạnh phúc thực sự mang tính toàn cầu và mang tính cá nhân sâu sắc.",
+    "aboutDesc2": "Bộ phận Nông nghiệp của chúng tôi hợp tác trực tiếp với các hộ sản xuất hữu cơ nhỏ để phân phối các loại gia vị cao cấp và các sản phẩm khử nước trên toàn thế giới. Đồng thời, Bộ phận Trị liệu của chúng tôi xây dựng các khu bảo tồn im lặng điện từ ở Wayanad để khôi phục sự cân bằng hệ thần kinh và sức sống của tế bào.",
+    "showcaseTitle": "Khám phá các bộ phận của chúng tôi",
+    "showcaseSubtitle": "Chọn ngành dọc để vào không gian dành riêng của chúng tôi",
+    "exportCardTitle": "Phòng xuất khẩu",
+    "exportCardDesc": "Kết nối các trang trại thực vật sâu rộng của Ấn Độ với các hiệu thuốc cao cấp trên toàn cầu, các hãng mỹ phẩm và nhà nhập khẩu thực phẩm. Các loại gia vị, ngũ cốc và chiết xuất Adaptogen cao cấp được vận chuyển tuân thủ tuyệt đối kiểm dịch thực vật.",
     "exportHighlight1": "Chứng nhận APEDA & SGS",
-    "exportHighlight2": "Nguồn cung trực tiếp từ trang trại",
-    "exportHighlight3": "Tuyến đường biển & hàng không toàn cầu",
-    "exportHighlight4": "Đóng gói số lượng lớn theo yêu cầu",
-    "exportCardBtn": "Xem Dịch Vụ Xuất Khẩu",
-    "therapyCardTitle": "Phân Khúc Trị Liệu",
-    "therapyCardDesc": "Điều chỉnh trường sinh học của bạn, xóa sạch các chấn thương sâu sắc và khôi phục sự bình yên thể xác tuyệt đối. Tư vấn hoa Bach, căn chỉnh luân xa Reiki và trị liệu bằng âm thanh.",
-    "therapyHighlight1": "Liệu Pháp Hoa Bach",
-    "therapyHighlight2": "Căn Chỉnh Usui Reiki",
-    "therapyHighlight3": "Sức Khỏe Cảm Xúc",
-    "therapyHighlight4": "Trị Liệu Âm Thanh 432Hz",
-    "therapyCardBtn": "Xem Dịch Vụ Trị Liệu",
+    "exportHighlight2": "Nguồn cung ứng trang trại trực tiếp",
+    "exportHighlight3": "Định tuyến đường biển và đường hàng không toàn cầu",
+    "exportHighlight4": "Bao bì tùy chỉnh số lượng lớn",
+    "exportCardBtn": "Xem dịch vụ xuất khẩu",
+    "therapyCardTitle": "Phòng trị liệu",
+    "therapyCardDesc": "Điều chỉnh năng suất sinh học của bạn, xóa bỏ tổn thương sâu sắc trong vòng đời và khôi phục lại sự bình yên tuyệt đối cho cơ thể. Tư vấn chuyên sâu pha trộn tinh chất hoa, liên kết luân xa Reiki và chữa bệnh bằng âm thanh thạch anh đa âm.",
+    "therapyHighlight1": "Bạch Hoa Trị Liệu",
+    "therapyHighlight2": "Sắp xếp Usui Reiki",
+    "therapyHighlight3": "Sức khỏe cảm xúc",
+    "therapyHighlight4": "Chữa bệnh bằng âm thanh 432Hz",
+    "therapyCardBtn": "Xem dịch vụ trị liệu",
     "whyTitle": "Tại sao chọn Dharaaveda",
-    "whySubtitle": "Tiêu chuẩn không thỏa hiệp trong hậu cần và sức khỏe",
-    "whyTrustTitle": "Tin Tưởng Tuyệt Đối",
-    "whyTrustDesc": "Minh bạch hoàn toàn, tuân thủ kiểm dịch thực vật đầy đủ và các giao thức bảo mật được chứng nhận.",
-    "whyQualityTitle": "Chất Lượng Veda",
-    "whyQualityDesc": "Truy xuất nguồn gốc trực tiếp từ trang trại đến cảng và các phương thuốc sinh học được bào chế riêng.",
-    "whyExpertiseTitle": "Chuyên Môn Được Chứng Minh",
-    "whyExpertiseDesc": "Thế hệ di sản nông nghiệp kết hợp với các chuyên gia năng lượng được chứng nhận.",
-    "whyReachTitle": "Phạm Vi Toàn Cầu",
-    "whyReachDesc": "Các tuyến vận tải đáng tin cậy cung cấp cho các nhà nhập khẩu hàng đầu tại hơn 34 quốc gia.",
-    "whyHolisticTitle": "Sức Khỏe Toàn Diện",
-    "whyHolisticDesc": "Chữa lành tế bào sâu sắc bên trong các khu bảo tồn núi thuần khiết và tự nhiên.",
-    "highlightsTitle": "Điểm Nhấn Nổi Bật",
-    "highlightsSubtitle": "Các lĩnh vực trọng tâm trong hoạt động của chúng tôi",
-    "exportHighlightTitle": "Trọng Tâm Phân Khúc Xuất Khẩu",
-    "therapyHighlightTitle": "Trọng Tâm Phân Khúc Trị Liệu",
-    "highlightsExport1": "Sản Phẩm Nông Nghiệp",
-    "highlightsExport1Desc": "Chuối Cavendish thu hoạch thủ công, xoài Alphonso và chiết xuất mía hữu cơ.",
-    "highlightsExport2": "Gia Vị Thượng Hạng",
-    "highlightsExport2Desc": "Nghệ Salem, bạch đậu khấu lớn, ớt Guntur và hạt tiêu đen Malabar.",
-    "highlightsExport3": "Sản Phẩm Khô",
-    "highlightsExport3Desc": "Hành tây lát sấy nhiệt độ thấp, cà chua spray-dried và bột củ dền.",
-    "highlightsExport4": "Hậu Cần Toàn Cầu",
-    "highlightsExport4Desc": "Đóng gói chân không bảo vệ theo yêu cầu, chứng nhận SGS và thủ tục hải quan nhanh chóng.",
-    "highlightsTherapy1": "Liệu Pháp Hoa Bach",
-    "highlightsTherapy1Desc": "Các phương thuốc dạng lỏng tùy chỉnh được chọn lọc cho căng thẳng nhận thức và thư giãn thần kinh.",
-    "highlightsTherapy2": "Căn Chỉnh Reiki",
-    "highlightsTherapy2Desc": "Cân bằng luân xa trường sinh học phi xâm lấn và khôi phục dòng năng lượng sinh học.",
-    "highlightsTherapy3": "Sức Khỏe Cảm Xúc",
-    "highlightsTherapy3Desc": "Các giao thức phục hồi hệ thần kinh được thiết kế để xóa tan mệt mỏi trong cuộc sống.",
-    "highlightsTherapy4": "Chữa Lành Năng Lượng",
-    "highlightsTherapy4Desc": "Căn chỉnh âm thanh chuông xoay thạch anh 432Hz bên trong các phòng không có sóng điện từ.",
-    "statsTitle": "Quy Mô Hoạt Động Của Chúng Tôi",
-    "statsSubtitle": "Đo lường tác động toàn cầu và tỷ lệ thành công của các liệu pháp trị liệu",
-    "statCountries": "Quốc Gia Được Phục Vụ",
-    "statProducts": "Danh Mục Sản Phẩm",
-    "statSessions": "Số Buổi Trị Liệu",
-    "statSatisfaction": "Sự Hài Lòng Của Khách Hàng",
-    "testimonialsTitle": "Âm Hưởng Đồng Điệu",
-    "testimonialsSubtitle": "Phản hồi từ các đối tác thương mại và khách ghé thăm khu bảo tồn của chúng tôi",
-    "ctaTitle": "Bắt Đầu Hành Trình Của Bạn",
-    "ctaSubtitle": "Liên hệ với các bàn phân khúc chuyên dụng của chúng tôi",
-    "ctaExportBoxTitle": "Tìm Kiếm Giải Pháp Xuất Khẩu?",
-    "ctaExportBoxDesc": "Kết nối với bàn Trọng tài Hàng hóa của chúng tôi cho các hợp đồng container số lượng lớn hoặc tuân thủ hậu cần.",
-    "ctaExportBoxBtn": "Nói Chuyện Với Bàn Xuất Khẩu",
-    "ctaTherapyBoxTitle": "Tìm Kiếm Sự Chữa Lành Toàn Diện?",
-    "ctaTherapyBoxDesc": "Đặt lịch tư vấn riêng hoặc đặt phòng biệt thự tại khu bảo tồn núi Wayanad của chúng tôi.",
-    "ctaTherapyBoxBtn": "Đặt Lịch Trị Liệu Tại Khu Bảo Tồn"
+    "whySubtitle": "Các tiêu chuẩn không khoan nhượng trong lĩnh vực hậu cần và chăm sóc sức khỏe",
+    "whyTrustTitle": "Niềm tin tuyệt đối",
+    "whyTrustDesc": "Tính minh bạch hoàn toàn, tuân thủ kiểm dịch thực vật hoàn chỉnh và các quy trình không tiết lộ được chứng nhận.",
+    "whyQualityTitle": "Chất lượng Vệ Đà",
+    "whyQualityDesc": "Truy xuất nguồn gốc trực tiếp từ trang trại đến bến cảng và các biện pháp khắc phục tần số sinh học được xây dựng tùy chỉnh.",
+    "whyExpertiseTitle": "Chuyên môn đã được chứng minh",
+    "whyExpertiseDesc": "Các thế hệ di sản nông nghiệp kết hợp với những người hành nghề năng động được chứng nhận.",
+    "whyReachTitle": "Phạm vi tiếp cận toàn cầu",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
+    "whyHolisticTitle": "Sức khỏe toàn diện",
+    "whyHolisticDesc": "Chữa lành tế bào sâu bên trong các khu bảo tồn núi tự nhiên, tinh khiết.",
+    "highlightsTitle": "Điểm nổi bật nổi bật",
+    "highlightsSubtitle": "Các lĩnh vực trọng tâm chính trong hoạt động của chúng tôi",
+    "exportHighlightTitle": "Trọng tâm bộ phận xuất khẩu",
+    "therapyHighlightTitle": "Trọng tâm của bộ phận trị liệu",
+    "highlightsExport1": "Sản phẩm nông nghiệp",
+    "highlightsExport1Desc": "Chuối Cavendish, xoài Alphonso và chiết xuất mía hữu cơ được thu hoạch bằng tay.",
+    "highlightsExport2": "Gia vị ưu tú",
+    "highlightsExport2Desc": "Nghệ Salem, bạch đậu khấu đậm, ớt Guntur và tiêu đen Malabar.",
+    "highlightsExport3": "Sản phẩm khử nước",
+    "highlightsExport3Desc": "Bột hành tây, cà chua sấy khô và bột củ cải đường ở nhiệt độ thấp.",
+    "highlightsExport4": "Hậu cần toàn cầu",
+    "highlightsExport4Desc": "Niêm phong hàng rào chân không tùy chỉnh, chứng nhận của SGS và hồ sơ cổng tùy chỉnh.",
+    "highlightsTherapy1": "Bạch Hoa Trị Liệu",
+    "highlightsTherapy1Desc": "Các biện pháp khắc phục chất lỏng tùy chỉnh được lựa chọn để giảm căng thẳng nhận thức tích cực và giải phóng thần kinh.",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
+    "highlightsTherapy2Desc": "Cân bằng luân xa năng lượng sinh học không xâm lấn và phục hồi trường năng lượng màu.",
+    "highlightsTherapy3": "Sức khỏe cảm xúc",
+    "highlightsTherapy3Desc": "Các giao thức phục hồi hệ thần kinh được thiết kế để giải quyết sự mệt mỏi trong lối sống.",
+    "highlightsTherapy4": "Chữa bệnh bằng năng lượng",
+    "highlightsTherapy4Desc": "Sự hòa hợp âm thanh thạch anh đa âm sắc 432Hz bên trong các buồng không có điện từ.",
+    "statsTitle": "Dấu chân hoạt động của chúng tôi",
+    "statsSubtitle": "Đo lường tác động toàn cầu và thành công lâm sàng của chúng tôi",
+    "statCountries": "Các quốc gia được phục vụ",
+    "statProducts": "Danh mục sản phẩm",
+    "statSessions": "Buổi trị liệu",
+    "statSatisfaction": "Sự hài lòng của khách hàng",
+    "testimonialsTitle": "Tiếng nói cộng hưởng",
+    "testimonialsSubtitle": "Phản hồi từ các đối tác thương mại và khách tham quan khu bảo tồn của chúng tôi",
+    "ctaTitle": "Bắt đầu hành trình của bạn",
+    "ctaSubtitle": "Kết nối với các bàn phân chia chuyên biệt của chúng tôi",
+    "ctaExportBoxTitle": "Bạn đang tìm giải pháp xuất khẩu?",
+    "ctaExportBoxDesc": "Kết nối với bộ phận Trọng tài hàng hóa của chúng tôi để biết các hợp đồng container số lượng lớn, đóng gói tùy chỉnh hoặc tuân thủ hậu cần.",
+    "ctaExportBoxBtn": "Nói chuyện với Bộ phận Xuất khẩu",
+    "ctaTherapyBoxTitle": "Bạn đang tìm kiếm sự chữa lành toàn diện?",
+    "ctaTherapyBoxDesc": "Lên lịch tư vấn riêng hoặc đặt một biệt thự tại khu bảo tồn núi Wayanad của chúng tôi để hòa hợp năng suất sinh học.",
+    "ctaTherapyBoxBtn": "Khu bảo tồn sách"
   },
   "export": {
-    "division": "International Trade Division",
-    "heroTitle": "Elite Crop Logistical Logistics",
-    "heroDesc": "DharaAveda connects deep Indian botanical farms with premium global pharmacies, cosmetics houses, and food importers. Our systems guarantee trace-verified bulk shipping of authentic Himalayan shilajit, bold cardamom, vetiver base oils, and adaptogenic extracts under absolute phytosanitary compliance.",
-    "apedaAuth": "APEDA Authorized",
-    "sgsPurity": "SGS Purity Lab Tested",
-    "cargoTransit": "GLOBAL CARGO TRANSIT",
-    "cargoDesc": "Ocean & Air Freight Cargo Routing",
-    "secure": "SECURE",
-    "catalogue": "DYNAMIC CATALOGUE",
-    "selectGoods": "Select Agricultural Goods",
-    "searchPlaceholder": "Search categories or products...",
-    "noMatch": "No categories or products match your parameter.",
-    "adjustSearch": "Try adjusting the search query.",
-    "freightNetworks": "Global Freight Networks",
-    "operationsTitle": "Trade Operations Built on Integrity",
-    "sgsTitle": "Full SGS Verification",
-    "sgsDesc": "Every trace lot undergoes gas chromatography & analytical purity tests. Phitosanitary compliance guarantees hassle-free harbor custom routing.",
-    "isoTitle": "ISO Reciprocal Standard",
-    "isoDesc": "Operating under rigorous international hygiene guidelines. Vacuum-tight packing blocks cosmic UV light, keeping freshness intact during transit.",
-    "originTitle": "Wayanad Direct Origin",
-    "originDesc": "Our spice estate cuts out unnecessary trading middlemen, ensuring maximum fair-wage compensation to local Vedic smallholder farmers directly.",
-    "fastTrack": "FAST TRACK QUOTE",
-    "speakArbitrage": "Speak with our Commodity Arbitrage desk",
-    "arbitrageDesc": "Need specialized custom moisture content, high volume tons, or sea container shipping contracts? Connect directly for priority trade handling.",
-    "cargoTimelines": "Typical Cargo Timelines",
-    "sgsClearance": "SGS analysis clearance:",
-    "sgsDays": "4-5 Working Days",
-    "packagingPrep": "Custom packaging prep:",
-    "packagingDays": "5-7 Working Days",
-    "portOfLoad": "FOB port of load:",
-    "portName": "Nhava Sheva, Mumbai"
+    "division": "Phòng Thương mại Quốc tế",
+    "heroTitle": "Elite Crop Logistics Logistics",
+    "heroDesc": "DharaAveda kết nối các trang trại thực vật sâu rộng của Ấn Độ với các hiệu thuốc, hãng mỹ phẩm và nhà nhập khẩu thực phẩm cao cấp trên toàn cầu. Hệ thống của chúng tôi đảm bảo vận chuyển số lượng lớn đã được xác minh dấu vết của shilajit Himalayan đích thực, bạch đậu khấu đậm, dầu gốc cỏ vetiver và chiết xuất Adaptogen tuân thủ tuyệt đối kiểm dịch thực vật.",
+    "apedaAuth": "APEDA ủy quyền",
+    "sgsPurity": "Phòng thí nghiệm độ tinh khiết của SGS đã được thử nghiệm",
+    "cargoTransit": "VẬN CHUYỂN HÀNG HÓA TOÀN CẦU",
+    "cargoDesc": "Định tuyến hàng hóa đường biển và đường hàng không",
+    "secure": "CHẮC CHẮN",
+    "catalogue": "DANH MỤC NĂNG ĐỘNG",
+    "selectGoods": "Chọn nông sản",
+    "searchPlaceholder": "Tìm kiếm danh mục hoặc sản phẩm...",
+    "noMatch": "Không có danh mục hoặc sản phẩm nào phù hợp với thông số của bạn.",
+    "adjustSearch": "Hãy thử điều chỉnh truy vấn tìm kiếm.",
+    "freightNetworks": "Mạng lưới vận chuyển hàng hóa toàn cầu",
+    "operationsTitle": "Hoạt động thương mại được xây dựng trên tính chính trực",
+    "sgsTitle": "Xác minh đầy đủ của SGS",
+    "sgsDesc": "Mỗi lô vết đều trải qua các bài kiểm tra sắc ký khí và độ tinh khiết phân tích. Việc tuân thủ kiểm dịch thực vật đảm bảo việc định tuyến tùy chỉnh tại bến cảng không gặp rắc rối.",
+    "isoTitle": "Tiêu chuẩn đối ứng ISO",
+    "isoDesc": "Hoạt động theo hướng dẫn vệ sinh quốc tế nghiêm ngặt. Đóng gói chân không ngăn chặn tia UV vũ trụ, giữ nguyên độ tươi trong quá trình vận chuyển.",
+    "originTitle": "Nguồn gốc trực tiếp của Wayanad",
+    "originDesc": "Công ty sản xuất gia vị của chúng tôi loại bỏ những người trung gian buôn bán không cần thiết, đảm bảo mức lương công bằng tối đa được đền bù trực tiếp cho nông dân sản xuất nhỏ ở địa phương.",
+    "fastTrack": "BÁO GIÁ THEO DÕI NHANH",
+    "speakArbitrage": "Nói chuyện với bàn Trọng tài Hàng hóa của chúng tôi",
+    "arbitrageDesc": "Cần độ ẩm tùy chỉnh chuyên dụng, tấn khối lượng lớn hoặc hợp đồng vận chuyển container đường biển? Kết nối trực tiếp để xử lý giao dịch ưu tiên.",
+    "cargoTimelines": "Lịch trình vận chuyển hàng hóa điển hình",
+    "sgsClearance": "Giải phóng mặt bằng phân tích của SGS:",
+    "sgsDays": "4-5 ngày làm việc",
+    "packagingPrep": "Chuẩn bị đóng gói tùy chỉnh:",
+    "packagingDays": "5-7 ngày làm việc",
+    "portOfLoad": "Cảng bốc hàng FOB:",
+    "portName": "Nhava Sheva, Mumbai",
+    "secureTransit": "GIAO THÔNG AN TOÀN",
+    "readyStatus": "SẴN SÀNG 100%",
+    "qualityHighlights": "Điểm nổi bật về chất lượng xuất khẩu",
+    "keyBenefits": "Lợi ích chính",
+    "shippingPacking": "Vận chuyển & Đóng gói Toàn cầu",
+    "packageLabel": "Bưu kiện:",
+    "capabilityLabel": "Khả năng:",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Bộ phận Gia vị & Gia vị",
+        "title": "Gia vị ưu tú & Gia vị đích thực",
+        "description": "Chất thơm cấp Vedas, ớt cay và bột ẩm thực phức hợp được xay theo tiêu chuẩn an toàn vi sinh tuyệt đối. Nguồn cung ứng trực tiếp từ trang trại đảm bảo hàm lượng dầu cao và hương vị đậm đà.",
+        "highlights": [
+          "Lựa chọn nghệ vàng Curcumin (>5%)",
+          "Tiêu đen Tellicherry kiểm tra Piperine",
+          "Sudan Thuốc nhuộm ớt Guntur âm tính",
+          "Phay hợp vệ sinh nhiệt độ thấp đông lạnh"
+        ],
+        "benefits": [
+          "Khả năng giữ tinh dầu dễ bay hơi cao",
+          "Hương thơm nguyên sơ và ổn định hương vị",
+          "Chế biến 100% hữu cơ, không chứa chất phụ gia",
+          "Tuân thủ toàn cầu về an toàn với aflatoxin"
+        ],
+        "packaging": "Túi Kraft nhiều lớp 25kg có lớp lót poly, tùy chọn đóng gói chân không.",
+        "capability": "Các lô hàng container LCL hỗn hợp hợp nhất hoặc lên tới 20 tấn mỗi FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) hoặc Cảng Mundra. Định tuyến ưu tiên hàng hóa hàng không.",
+        "features": [
+          {
+            "title": "Tinh bột nghệ vàng",
+            "desc": "Bột nghệ vàng mang hàm lượng hoạt chất curcumin vượt quá 5% dùng làm thực phẩm và sử dụng trong lâm sàng."
+          },
+          {
+            "title": "Tiêu Malabar",
+            "desc": "Quả tiêu đen đậm đà hơn được đánh giá cao nhờ sức nóng piperine sâu và hương rừng phức tạp."
+          },
+          {
+            "title": "Ớt xay đông lạnh",
+            "desc": "Bột ớt Guntur Sannam được xay dưới sự kiểm soát đông lạnh để ngăn chặn sự thất thoát dầu do nhiệt."
+          },
+          {
+            "title": "rau mùi cam quýt",
+            "desc": "Hạt Malwa cao cấp được xay thành lưới mịn, chứa các phần dễ bay hơi có mùi cam quýt."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Bàn bột rau củ",
+        "title": "Bột thực vật khử nước nguyên chất",
+        "description": "Rau nông nghiệp được khử nước ở nhiệt độ thấp được kiểm soát chặt chẽ để bảo vệ các chất dinh dưỡng có hoạt tính sinh học, màu sắc và độ sâu của hương vị. Lý tưởng cho thực phẩm ăn liền, máy trộn và công thức dược phẩm.",
+        "highlights": [
+          "100% chất rắn thực vật, không có chất phụ gia",
+          "Sấy khô ở nhiệt độ thấp có khả năng giữ lại tế bào",
+          "Độ hòa tan và phân tán khô tuyệt vời",
+          "Lớp tự nhiên chảy tự do, không đóng bánh"
+        ],
+        "benefits": [
+          "Tỷ lệ hoàn nguyên nước tức thời",
+          "Nồng độ cao của hương vị hữu cơ",
+          "Giữ lại vitamin và chất xơ tự nhiên",
+          "Duy trì sắc tố thị giác nguyên sơ"
+        ],
+        "packaging": "Thùng sợi có túi bên trong bằng polyetylen đôi (20 kg / 25 kg).",
+        "capability": "12-15 tấn mỗi FCL. Công thức pha trộn gia vị/rau tùy chỉnh.",
+        "shippingInfo": "Vận chuyển đường biển thông qua các container lạnh được kiểm soát nhiệt độ đến các cảng toàn cầu.",
+        "features": [
+          {
+            "title": "Cà chua sấy phun",
+            "desc": "Bột cà chua đỏ hòa tan giàu lycopene, mang lại vị umami thơm ngon ngay lập tức."
+          },
+          {
+            "title": "Củ cải đường Betalain",
+            "desc": "Bột củ cải đường nghiền mịn mang lại màu đỏ thẫm tự nhiên đậm đà và giàu nitrat."
+          },
+          {
+            "title": "Rau bina diệp lục",
+            "desc": "Bột rau bina hòa tan màu xanh tươi có chứa chất sắt và chất diệp lục trong chế độ ăn uống."
+          },
+          {
+            "title": "Tỏi Allicin",
+            "desc": "Bột tỏi cay được xay từ những tép tỏi chọn lọc, mang lại hương vị và khả năng phân tán nhanh."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Bàn bột trái cây",
+        "title": "Bột trái cây Orchard & chất hòa tan",
+        "description": "Bột trái cây sấy khô và sấy khô ở nhiệt độ thấp cao cấp giữ lại vị ngọt thực sự, đường hữu cơ và vitamin của trái cây chín trong nắng. Rất phổ biến trong đồ uống, bánh kẹo và thực phẩm dành cho trẻ sơ sinh.",
+        "highlights": [
+          "Phun sấy trực tiếp từ bột giấy hữu cơ",
+          "Không thêm đường, sulfit hoặc chất tạo màu",
+          "Hòa tan cao trong chất lỏng nóng và lạnh",
+          "Lựa chọn siêu thực phẩm giàu dinh dưỡng"
+        ],
+        "benefits": [
+          "Hương trái cây nguyên chất và vị ngọt",
+          "Vitamin C cao và khả năng duy trì hoạt tính sinh học",
+          "Sự pha trộn hoàn hảo cho sữa và nướng bánh",
+          "Thành phần tuân thủ nhãn sạch"
+        ],
+        "packaging": "Túi nhôm kín hút chân không bên trong hộp sóng chính.",
+        "capability": "8-10 tấn mỗi FCL. Hỗ trợ đóng gói nhãn hiệu riêng.",
+        "shippingInfo": "Vận chuyển hàng hóa bằng đường hàng không hoặc vận chuyển container đường biển được giám sát nhiệt độ.",
+        "features": [
+          {
+            "title": "Chuối Cavendish",
+            "desc": "Bột chuối xanh và chín giàu tinh bột kháng, hoàn hảo cho hỗn hợp không chứa gluten."
+          },
+          {
+            "title": "xoài Kesar",
+            "desc": "Chất rắn màu vàng thu hút hương thơm ngọt ngào của xoài Ấn Độ được thu hoạch bằng tay."
+          },
+          {
+            "title": "Amla ascorbic",
+            "desc": "Bột quả lý gai có nguồn gốc hữu cơ chứa Vitamin C tự nhiên đậm đặc."
+          },
+          {
+            "title": "Lựu chống oxy hóa",
+            "desc": "Bột nước ép lựu sấy phun cung cấp hàm lượng polyphenol phong phú và màu hồng trực quan."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Bàn siêu thực phẩm Moringa",
+        "title": "Sản phẩm Moringa hữu cơ cao cấp",
+        "description": "Lá, bột, trà và chiết xuất Moringa oleifera được trồng hữu cơ có nguồn gốc từ các khu đất năng suất cao, không dùng thuốc trừ sâu ở Ấn Độ. Được xử lý theo quy trình sấy khô trong bóng để bảo vệ các axit amin thiết yếu.",
+        "highlights": [
+          "Cây trồng được chứng nhận hữu cơ USDA & APEDA",
+          "Chữa lá khô trong bóng nghiêm ngặt",
+          "Phytochemical và flavonoid được tiêu chuẩn hóa",
+          "Chất liệu lá sạch 99,9%, không có cát"
+        ],
+        "benefits": [
+          "Protein thực vật hoàn chỉnh với 9 axit amin",
+          "Lượng sắt, canxi và vitamin cực cao",
+          "Thời hạn sử dụng ổn định cao trong con dấu chân không",
+          "Lý tưởng cho thực phẩm bổ sung và mỹ phẩm"
+        ],
+        "packaging": "Túi chắn chân không có chèn silica gel, đóng gói trong hộp gia cố.",
+        "capability": "5-8 tấn mỗi đợt. Cắt lá có thể tùy chỉnh và gói bán buôn.",
+        "shippingInfo": "Container khô kín, ưu tiên vận chuyển hàng không cho các nhà phân phối chăm sóc sức khỏe toàn cầu.",
+        "features": [
+          {
+            "title": "Bột lá hữu cơ",
+            "desc": "Bột lá chùm ngây nghiền mịn có màu ngọc lục bảo đậm và hương cỏ."
+          },
+          {
+            "title": "Lá khô sạch",
+            "desc": "Toàn bộ lá khô được phân loại một cách máy móc để loại bỏ cành, thân và bụi."
+          },
+          {
+            "title": "Trà chùm ngây thảo mộc",
+            "desc": "Lá được cắt đồng đều được tối ưu hóa cho túi trà, mang đến một loại thảo dược tươi tốt cho sức khỏe."
+          },
+          {
+            "title": "Chiết xuất tiêu chuẩn",
+            "desc": "Chiết xuất lá chùm ngây cô đặc được chuẩn hóa cho tổng lượng bioflavonoid cho các công thức lâm sàng."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Bàn hạt có dầu",
+        "title": "Dầu và hạt dinh dưỡng được phân loại cao cấp",
+        "description": "Dầu hữu cơ và hạt dinh dưỡng chất lượng xuất khẩu cao cấp, được làm sạch, phân loại và đóng gói một cách có hệ thống dưới sự kiểm soát kiểm dịch thực vật tuyệt đối. Hiệu suất dầu cao và độ tinh khiết Sortex sạch khiến chúng trở nên lý tưởng cho chế biến thực phẩm và công nghiệp.",
+        "highlights": [
+          "Phân loại màu quang học 99,9% Sortex",
+          "Kiểm tra khử trùng và làm sạch nghiêm ngặt",
+          "Được chứng nhận không chứa thuốc trừ sâu và dư lượng",
+          "Hàm lượng axit béo không bão hòa đa cao"
+        ],
+        "benefits": [
+          "Tỷ lệ chiết xuất dầu tự nhiên cao",
+          "Hạt cực kỳ sạch không có bụi bẩn",
+          "Kích thước hạt giống thống nhất và cấu hình màu sắc",
+          "Được đóng gói để chặn độ ẩm trong khí quyển"
+        ],
+        "packaging": "Bao PP dệt hoặc túi giấy nhiều lớp (25 kg/50 kg).",
+        "capability": "18-22 tấn mỗi container (FCL). Thông số độ ẩm tùy chỉnh",
+        "shippingInfo": "Các hãng tàu biển trực tiếp, định tuyến hàng rời đến các tiệm bánh mì và nhà phân phối thương mại.",
+        "features": [
+          {
+            "title": "Vừng bỏ vỏ",
+            "desc": "Hạt vừng trắng được tự động làm sạch, mang lại sản lượng dầu cao và hương vị hạt dẻ ngọt ngào."
+          },
+          {
+            "title": "Cây lanh vàng",
+            "desc": "Hạt lanh cao cấp giàu chất xơ và axit béo Omega-3 thiết yếu."
+          },
+          {
+            "title": "Chia tạo gel",
+            "desc": "Hạt chia đen hữu cơ có chỉ số trương nở và chất lượng chất nhầy tuyệt vời."
+          },
+          {
+            "title": "Bí ngô xanh",
+            "desc": "Hạt bí ngô có vỏ sạch được phân loại để có màu xanh đậm và giòn đồng đều."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Bàn rau củ khử nước",
+        "title": "Rau củ khử nước hợp vệ sinh",
+        "description": "Hành, tỏi, gừng và các loại rau khác được cắt lát sạch sẽ được khử nước trong buồng luồng khí tiên tiến. Có nguồn gốc trực tiếp từ vành đai nông nghiệp tuân thủ Phyto để mang lại hiệu quả bù nước và hương vị tuyệt vời.",
+        "highlights": [
+          "Không sử dụng sulfit, lưu huỳnh hoặc chất bảo quản",
+          "Độ ẩm còn lại thấp (<5%)",
+          "Phục hồi kết cấu và bù nước nguyên chất",
+          "Hàng xuất khẩu được chứng nhận kiểm dịch thực vật"
+        ],
+        "benefits": [
+          "Giảm đáng kể thời gian chuẩn bị ẩm thực",
+          "Tiết kiệm trọng lượng vận chuyển và không gian lưu trữ",
+          "Giữ lại màu sắc tự nhiên và hấp dẫn thị giác",
+          "Hương vị đồng nhất trong hỗn hợp thực phẩm"
+        ],
+        "packaging": "Thùng carton lót nhựa HDPE có lớp lót poly kín nhiệt đôi.",
+        "capability": "10-12 tấn mỗi FCL. Tùy chỉnh cắt và thái hạt lựu.",
+        "shippingInfo": "Các thùng chứa khô tiêu chuẩn hoặc hàng lạnh được vận chuyển tới các bếp gia vị công nghiệp.",
+        "features": [
+          {
+            "title": "Hành tây lát",
+            "desc": "Những lát hành tây đỏ và trắng đã khử nước có vị cay nồng và độ hoàn nguyên cao."
+          },
+          {
+            "title": "tép tỏi",
+            "desc": "Tỏi khô tách đôi, bóc vỏ tỉ mỉ và phân loại Sortex để loại bỏ bồ hóng."
+          },
+          {
+            "title": "Gừng thái lát",
+            "desc": "Những lát gừng khô sạch giữ nhiệt nồng và hàm lượng hoạt chất gingerol cao."
+          },
+          {
+            "title": "cà chua nho",
+            "desc": "Cà chua lát hữu cơ sấy khô giàu lycopene tự nhiên, sấy khô không chứa sulfit hóa học."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Bàn trái cây khử nước",
+        "title": "Trái cây khử nước được che nắng",
+        "description": "Những lát cắt cao cấp và trái cây khử nước cắt dài được chế biến từ vườn cây ăn quả hữu cơ được thu hoạch bằng tay. Bảo quản đường fructose tự nhiên, kết cấu dai và các vitamin quan trọng mà không cần chất bảo quản hóa học.",
+        "highlights": [
+          "Không thêm đường mía hoặc chất làm ngọt",
+          "Không chứa sulfite, không chất tạo màu hóa học",
+          "Hình dạng cắt linh hoạt và độ ẩm tùy chỉnh",
+          "Vườn cây được chứng nhận không có thuốc trừ sâu"
+        ],
+        "benefits": [
+          "Vị ngọt tự nhiên và cảm giác dai dai trong miệng",
+          "Độ ổn định kệ tuyệt vời trong kho khô",
+          "Lý tưởng cho các món ăn vặt và đồ nướng",
+          "Xử lý nhãn sạch và dư lượng thấp"
+        ],
+        "packaging": "Túi nhiều lớp BOPP có lớp hấp thụ oxy bên trong và bao bì carton.",
+        "capability": "6-8 tấn mỗi FCL. Kích thước cắt phù hợp có sẵn.",
+        "shippingInfo": "Container khô có độ ẩm thấp và vận chuyển hàng không ổn định nhiệt độ.",
+        "features": [
+          {
+            "title": "lát mơ",
+            "desc": "Những lát mơ mềm, ngọt tự nhiên được bảo quản với hương vị trái cây đậm đặc và màu sắc sống động."
+          },
+          {
+            "title": "miếng sung",
+            "desc": "Những miếng sung khô dai, có hàm lượng chất xơ hòa tan cao và vị ngọt caramen."
+          },
+          {
+            "title": "dải xoài",
+            "desc": "Xoài sấy cắt dài mang hương thơm nhiệt đới và màu vàng tươi."
+          },
+          {
+            "title": "Khoai tây chiên đu đủ",
+            "desc": "Những lát đu đủ khử nước được đánh giá cao vì kết cấu cao cấp và giàu vi chất dinh dưỡng."
+          }
+        ]
+      }
+    }
   },
   "booking": {
-    "clinic": "HARMONIZATION CLINICS",
-    "sanctuary": "Vibrational Sanctuary",
-    "desc": "All consultations are conducted in complete secrecy. Our therapists custom formulate remedies to match active stress fields, facilitating physical release and recovery.",
-    "confidential": "Confidential Intake",
-    "confidentialDesc": "Your biofields mapping, thermal diagnostics, and case histories remain sealed.",
-    "private": "Private Residences",
-    "privateDesc": "Chambers are isolated inside our deep Wayanad forest gardens in Kerala, India.",
-    "aligning": "Aligning Aura Diagnostics...",
-    "scheduler": "Harmonic Residency Scheduler",
-    "title": "Schedule Your Therapy",
-    "formDesc": "Reserve custom-blended Bach flower, Reiki alignment, or deep quartz therapeutic sound healing.",
-    "successTitle": "Residency Reservation Initiated",
-    "successDesc": "Thank you, {name}. Your appointment request for {service} has been logged in our secure sanctuary ledger.",
-    "slipTitle": "Requested Session Slip",
-    "date": "Date",
-    "hour": "Hour",
-    "note": "Our clinic coordinator will call or email you to finalize the bio-resonance intake files.",
-    "anotherBtn": "Book Another Session",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Contact Email Address *",
-    "labelPhone": "Direct Phone *",
-    "labelService": "Therapeutic Attunement Service *",
-    "labelDate": "Intake Residency Date *",
-    "labelTime": "Preferred Arrival Time *",
-    "labelNotes": "Energetic Symptoms, Stress Triggers or Food Preferences",
-    "placeholderName": "e.g. Heinrich Müller",
+    "clinic": "PHÒNG KHÁM HÀI HÒA",
+    "sanctuary": "Thánh địa rung động",
+    "desc": "Tất cả các cuộc tham vấn được thực hiện trong bí mật hoàn toàn. Các nhà trị liệu của chúng tôi tùy chỉnh xây dựng các biện pháp khắc phục để phù hợp với các trường căng thẳng đang hoạt động, tạo điều kiện giải phóng và phục hồi thể chất.",
+    "confidential": "Thông tin bí mật",
+    "confidentialDesc": "Bản đồ năng suất sinh học, chẩn đoán nhiệt và lịch sử trường hợp của bạn vẫn được giữ kín.",
+    "private": "Nhà ở riêng",
+    "privateDesc": "Các phòng được cách ly bên trong khu vườn rừng sâu Wayanad của chúng tôi ở Kerala, Ấn Độ.",
+    "aligning": "Căn chỉnh chẩn đoán hào quang...",
+    "scheduler": "Bộ lập lịch cư trú hài hòa",
+    "title": "Lên lịch trị liệu của bạn",
+    "formDesc": "Dự trữ hoa Bạch được pha trộn tùy chỉnh, căn chỉnh Reiki hoặc chữa bệnh bằng âm thanh trị liệu bằng thạch anh sâu.",
+    "successTitle": "Đã bắt đầu đặt chỗ cư trú",
+    "successDesc": "Cảm ơn bạn, {name}. Yêu cầu cuộc hẹn của bạn cho {service} đã được ghi vào sổ cái bảo mật an toàn của chúng tôi.",
+    "slipTitle": "Phiếu phiên yêu cầu",
+    "date": "Ngày",
+    "hour": "Giờ",
+    "note": "Điều phối viên phòng khám của chúng tôi sẽ gọi điện hoặc gửi email cho bạn để hoàn thiện hồ sơ tiếp nhận cộng hưởng sinh học.",
+    "anotherBtn": "Đặt một buổi khác",
+    "labelName": "Tên đầy đủ của bạn *",
+    "labelEmail": "Địa chỉ Email liên hệ *",
+    "labelPhone": "Điện thoại trực tiếp *",
+    "labelService": "Dịch vụ trị liệu hòa hợp *",
+    "labelDate": "Ngày cư trú tiếp nhận *",
+    "labelTime": "Thời gian đến mong muốn *",
+    "labelNotes": "Triệu chứng tràn đầy năng lượng, nguyên nhân gây căng thẳng hoặc sở thích ăn uống",
+    "placeholderName": "ví dụ. Heinrich Muller",
     "placeholderEmail": "e.g. sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderNotes": "Mention any physical pain, life blockages, emotional distress patterns, or if you prefer a female/male practitioner...",
-    "errorFields": "Please fill in all required fields marked with *.",
-    "submitting": "Submitting Ledger Reservation...",
-    "submit": "Attune Booking Ledgers",
-    "loadingModalities": "Loading Sacred Modalities...",
-    "pickSlot": "Pick Slot...",
-    "slot1": "08:00 AM - Sunrise Dew Intake",
-    "slot2": "11:00 AM - Solar Zenith Sync",
-    "slot3": "02:30 PM - Afternoon Starlight",
-    "slot4": "05:30 PM - Wayanad Sunset Calm"
+    "placeholderNotes": "Đề cập đến bất kỳ nỗi đau thể xác nào, sự tắc nghẽn trong cuộc sống, những cảm xúc đau khổ hoặc nếu bạn muốn một học viên nam/nữ...",
+    "errorFields": "Vui lòng điền vào tất cả các trường bắt buộc được đánh dấu *.",
+    "submitting": "Đang gửi sổ cái đặt chỗ...",
+    "submit": "Sổ cái đặt phòng Attune",
+    "loadingModalities": "Đang tải các phương thức thiêng liêng...",
+    "pickSlot": "Chọn khe...",
+    "slot1": "08:00 AM - Lượng sương mặt trời mọc",
+    "slot2": "11:00 sáng - Đồng bộ hóa thiên đỉnh năng lượng mặt trời",
+    "slot3": "02:30 chiều - Ánh Sao Chiều",
+    "slot4": "05:30 chiều - Hoàng hôn Wayanad Bình yên"
   },
   "contact": {
-    "accessLines": "DIRECT ACCESS LINES",
-    "council": "Contact the DharaAveda Council",
-    "desc": "Whether arranging shipping vessels for bulk spice operations or planning custom clinical healing admissions, our representatives provide elite corporate care.",
-    "exportDesk": "EXPORT LOGISTICS DESK",
-    "cargoAffairs": "Commodity & Sea Cargo Affairs",
-    "sanctuaryAdmissions": "SANCTUARY VILLA ADMISSIONS",
-    "healingReserves": "Holistic Healing Reserves",
-    "responseRate": "Average response rate of commodity contract brokers is 24 business hours.",
-    "transmissionSealed": "Transmission Sealed",
-    "transmissionDesc": "Your message, {name}, has been processed. A council coordinate advisor from the appropriate division will contact you shortly.",
-    "sendAnother": "Send Another Message",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Email Address *",
-    "labelPhone": "Direct Contact Phone",
-    "labelMessage": "Your Inquiries / Requirements *",
-    "placeholderName": "e.g. Heinrich Müller",
+    "accessLines": "ĐƯỜNG DÂY TRUY CẬP TRỰC TIẾP",
+    "council": "Liên hệ với Hội đồng DharaAveda",
+    "desc": "Cho dù sắp xếp các tàu vận chuyển cho các hoạt động gia vị số lượng lớn hay lập kế hoạch tiếp nhận chữa bệnh lâm sàng tùy chỉnh, các đại diện của chúng tôi đều cung cấp dịch vụ chăm sóc doanh nghiệp ưu tú.",
+    "exportDesk": "BÀN LOGISTICS XUẤT KHẨU",
+    "cargoAffairs": "Vấn đề Hàng hóa & Vận tải Đường biển",
+    "sanctuaryAdmissions": "TUYỂN SINH BIỆT THỰ SANCTUARY",
+    "healingReserves": "Dự trữ chữa bệnh toàn diện",
+    "responseRate": "Tỷ lệ phản hồi trung bình của các nhà môi giới hợp đồng hàng hóa là 24 giờ làm việc.",
+    "transmissionSealed": "Truyền kín",
+    "transmissionDesc": "Tin nhắn của bạn, {name}, đã được xử lý. Cố vấn điều phối hội đồng từ bộ phận thích hợp sẽ sớm liên hệ với bạn.",
+    "sendAnother": "Gửi tin nhắn khác",
+    "labelName": "Tên đầy đủ của bạn *",
+    "labelEmail": "Địa chỉ email *",
+    "labelPhone": "Điện thoại liên hệ trực tiếp",
+    "labelMessage": "Thắc mắc/Yêu cầu của bạn *",
+    "placeholderName": "ví dụ. Heinrich Muller",
     "placeholderEmail": "sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderMessage": "Describe your bulk spices cargo requirements, clinical therapy intents, or secure scheduling queries...",
-    "submit": "Transmit Dispatch",
-    "transmitting": "Transmitting Dispatch...",
-    "errorFields": "Please fill out all mandatory fields."
+    "placeholderMessage": "Mô tả các yêu cầu vận chuyển hàng hóa gia vị số lượng lớn, ý định trị liệu lâm sàng hoặc các truy vấn lên lịch an toàn...",
+    "submit": "Truyền công văn",
+    "transmitting": "Đang truyền công văn...",
+    "errorFields": "Vui lòng điền vào tất cả các trường bắt buộc.",
+    "addressLine1": "B 501 Springwood, Gần máy bơm xăng HP, Mharunji, Pune – 411057, Maharashtra, Ấn Độ",
+    "addressLine2": "B 501 Springwood, Gần máy bơm xăng HP, Mharunji, Pune – 411057, Maharashtra, Ấn Độ"
   },
   "product": {
-    "extendedCatalogue": "EXTENDED CATALOGUE",
-    "premiumItems": "Premium Items",
-    "viewProducts": "View Products",
-    "titleCatalogue": "Catalogue",
-    "availableCargo": "Available Cargo Lots",
-    "minOrder": "Min Order",
-    "pricingModel": "Pricing Model",
-    "sendInquiry": "Send Inquiry / Quote",
-    "close": "Close",
-    "apedaCompliant": "APEDA Compliant Export Cargo Standard",
-    "inquiryRequestQuote": "Request Quotation",
-    "inquiryDirectAccess": "Direct access to our Agricultural Export Desk for",
-    "inquirySuccessTitle": "Quotation Request Logged",
-    "inquirySuccessDesc": "Your trade desk ticket has been initialized. A dedicated cargo specialist will review your cargo specifications within 24 standard business hours.",
-    "inquiryCloseWindow": "Close Window",
-    "inquiryLabelName": "Full Name *",
-    "inquiryLabelEmail": "Corporate Email *",
-    "inquiryLabelCompany": "Company / Organization",
-    "inquiryLabelQuantity": "Target Quantity (e.g. Tons) *",
-    "inquiryPlaceholderName": "e.g. Elena Rostova",
+    "extendedCatalogue": "DANH MỤC MỞ RỘNG",
+    "premiumItems": "Vật phẩm cao cấp",
+    "viewProducts": "Xem sản phẩm",
+    "titleCatalogue": "Danh mục",
+    "availableCargo": "Lô hàng có sẵn",
+    "minOrder": "Đơn hàng tối thiểu",
+    "pricingModel": "Mô hình định giá",
+    "sendInquiry": "Gửi yêu cầu / báo giá",
+    "close": "Đóng",
+    "apedaCompliant": "Tiêu chuẩn hàng hóa xuất khẩu tuân thủ APEDA",
+    "inquiryRequestQuote": "Yêu cầu báo giá",
+    "inquiryDirectAccess": "Truy cập trực tiếp vào Bàn xuất khẩu nông nghiệp của chúng tôi để biết",
+    "inquirySuccessTitle": "Yêu cầu báo giá đã được ghi lại",
+    "inquirySuccessDesc": "Vé bàn giao dịch của bạn đã được khởi tạo. Một chuyên gia hàng hóa tận tâm sẽ xem xét các thông số kỹ thuật hàng hóa của bạn trong vòng 24 giờ làm việc tiêu chuẩn.",
+    "inquiryCloseWindow": "Đóng cửa sổ",
+    "inquiryLabelName": "Tên đầy đủ *",
+    "inquiryLabelEmail": "Email công ty *",
+    "inquiryLabelCompany": "Công ty/Tổ chức",
+    "inquiryLabelQuantity": "Số lượng mục tiêu (ví dụ: Tấn) *",
+    "inquiryPlaceholderName": "ví dụ. Elena Rostova",
     "inquiryPlaceholderEmail": "sales@dharaaveda.com",
-    "inquiryPlaceholderCompany": "e.g. Hanseatic Spices GmbH",
-    "inquiryPlaceholderQuantity": "e.g. 5 Metric Tons",
-    "inquiryPlaceholderMessage": "Mention specific vacuum-seal requests, harbor ports of choice (e.g. Rotterdam, Hamburg), and phytosanitary certificate needs...",
-    "inquiryLoggingSpecs": "Logging Cargo Specs...",
-    "inquirySubmit": "Transmit Inquiry",
-    "inquiryErrorFields": "Please fill out all mandatory fields."
+    "inquiryPlaceholderCompany": "ví dụ. Công ty gia vị Hanseatic",
+    "inquiryPlaceholderQuantity": "ví dụ. 5 tấn số liệu",
+    "inquiryPlaceholderMessage": "Đề cập đến các yêu cầu niêm phong chân không cụ thể, các cảng lựa chọn (ví dụ: Rotterdam, Hamburg) và các nhu cầu về chứng nhận kiểm dịch thực vật...",
+    "inquiryLoggingSpecs": "Ghi lại thông số hàng hóa...",
+    "inquirySubmit": "Truyền yêu cầu",
+    "inquiryErrorFields": "Vui lòng điền vào tất cả các trường bắt buộc."
   },
   "wellness": {
-    "floatingCTAText": "Attune Session",
-    "heroBadge": "Restorative Quantum Sanctuary",
-    "heroTitle": "Calming Quantum Harmony",
-    "heroDesc": "True longevity begins where structural stress dissolves. DharaAveda Sanctuary blends classical Edward Bach wildflower remedies, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and immersive 432Hz quartz singing sound waves. Align your auric frequency, cleanse deep lifecycle trauma, and restore absolute biological peace.",
-    "heroExploreBtn": "Explore Sanctuary Modalities",
-    "modalitiesBadge": "ANCIENT KNOWLEDGE RESTORED",
-    "modalitiesTitle": "Our Therapeutic Modalities",
-    "modalitiesDesc": "Each clinical residency session is customized on intake, blending specialized frequencies for physical and emotional release.",
-    "modalityNoServices": "Attuning vibrational healing schedules...",
-    "modalityTimelineTitle": "Chronological Session Pathway",
-    "modalityRequestBtn": "Request Residency",
-    "testimonialsBadge": "HARMONIC VOWS",
-    "testimonialsTitle": "Voices of Attuned Relief",
-    "testimonialsNoData": "Testimonials loaded upon client non-disclosure release files.",
-    "reviewsBadge": "AUTHENTIC ECHOES",
-    "reviewsTitle": "Social Media Directives",
-    "reviewsDesc": "Direct snapshots of digital conversations and public feedback from clients experiencing our energetic attunements.",
-    "reviewsEmpty": "No social screenshot reviews uploaded yet.",
-    "reviewsExpand": "Expand Image",
-    "badgeWhatsapp": "WhatsApp Review",
-    "badgeInstagram": "Instagram Review",
-    "aboutBadge": "FOUNDER & MASTER PRACTITIONER",
-    "aboutPhilosophyTitle": "Our Resonance Philosophy",
-    "faqBadge": "SACRED KNOWLEDGE FAQ",
-    "faqTitle": "Attunement Inquiries",
-    "faqDesc": "Answers to recurring contemplations regarding our energy and adaptogenic therapeutic residency programs.",
+    "floatingCTAText": "Phiên hòa hợp",
+    "heroBadge": "Khu bảo tồn lượng tử phục hồi",
+    "heroTitle": "Làm dịu sự hài hòa lượng tử",
+    "heroDesc": "Tuổi thọ thực sự bắt đầu khi căng thẳng về cấu trúc tan biến. Khu bảo tồn DharaAveda kết hợp các phương pháp điều trị hoa dại Edward Bach cổ điển, liên kết luân xa Usui Reiki, tinh dầu nhiễm sắc thể Aura-Soma và sóng âm thanh thạch anh 432Hz đắm chìm. Căn chỉnh tần số hào quang của bạn, làm sạch những tổn thương sâu sắc trong vòng đời và khôi phục lại sự bình yên sinh học tuyệt đối.",
+    "heroExploreBtn": "Khám phá phương thức thánh địa",
+    "modalitiesBadge": "KIẾN THỨC CỔ ĐẠI ĐƯỢC PHỤC HỒI",
+    "modalitiesTitle": "Phương thức trị liệu của chúng tôi",
+    "modalitiesDesc": "Mỗi buổi nội trú lâm sàng được tùy chỉnh theo lượng tiếp nhận, kết hợp các tần số chuyên biệt để giải phóng thể chất và cảm xúc.",
+    "modalityNoServices": "Điều chỉnh lịch trình chữa bệnh bằng rung động...",
+    "modalityTimelineTitle": "Lộ trình phiên theo trình tự thời gian",
+    "modalityRequestBtn": "Yêu cầu cư trú",
+    "testimonialsBadge": "HUYỀN THỨ HÀI HÒA",
+    "testimonialsTitle": "Tiếng nói của sự nhẹ nhõm hòa hợp",
+    "testimonialsNoData": "Lời chứng thực được tải trên các tệp phát hành không tiết lộ của khách hàng.",
+    "reviewsBadge": "TIẾNG VỌNG Đích thực",
+    "reviewsTitle": "Chỉ thị truyền thông xã hội",
+    "reviewsDesc": "Ảnh chụp nhanh trực tiếp các cuộc trò chuyện kỹ thuật số và phản hồi công khai từ khách hàng trải nghiệm sự hòa hợp tràn đầy năng lượng của chúng tôi.",
+    "reviewsEmpty": "Chưa có đánh giá ảnh chụp màn hình xã hội nào được tải lên.",
+    "reviewsExpand": "Mở rộng hình ảnh",
+    "badgeWhatsapp": "Đánh giá WhatsApp",
+    "badgeInstagram": "Đánh giá trên Instagram",
+    "aboutBadge": "NGƯỜI SÁNG LẬP & THỰC HÀNH CHÍNH",
+    "aboutPhilosophyTitle": "Triết lý cộng hưởng của chúng tôi",
+    "faqBadge": "KIẾN THỨC THIÊNG Câu hỏi thường gặp",
+    "faqTitle": "Thắc mắc về sự hòa hợp",
+    "faqDesc": "Câu trả lời cho những suy ngẫm định kỳ về các chương trình cư trú trị liệu thích ứng và năng lượng của chúng tôi.",
     "faqItems": [
       {
-        "question": "How do I choose between Reiki, Bach Flower, and Sound alignment?",
-        "answer": "We recommend sharing your immediate emotional or physical challenges during our initial booking consultation. Dr. Vikranti and team will scan your energetic biofield to weave custom modalities tailored to your resonant frequency."
+        "question": "Làm cách nào để chọn giữa Trị liệu Rekkhanoho và Bạch Hoa?",
+        "answer": "Chúng tôi khuyên bạn nên chia sẻ những thách thức về mặt cảm xúc hoặc thể chất trước mắt của mình trong quá trình tư vấn đặt phòng ban đầu. Tiến sĩ Vikranti và nhóm sẽ quét năng suất sinh học tràn đầy năng lượng của bạn để tạo ra các phương thức tùy chỉnh phù hợp với tần số cộng hưởng của bạn."
       },
       {
-        "question": "Are these therapy cycles held in-person or online?",
-        "answer": "While Usui Reiki and Sound Attunement are highly immersive in our pure Wayanad Villa retreat, Bach Flower emotional consultations and selective energy biofield support can be performed online with equal spiritual potency."
+        "question": "Những chu trình trị liệu này được tổ chức trực tiếp hay trực tuyến?",
+        "answer": "Trong khi Trị liệu Rekkhanoho và Hòa hợp Âm thanh mang lại cảm giác đắm chìm trong khóa tu Wayanad Villa thuần túy của chúng tôi, thì các cuộc tư vấn về cảm xúc của Bach Flower và hỗ trợ năng lượng sinh học chọn lọc có thể được thực hiện trực tuyến với tiềm năng tinh thần tương đương."
       },
       {
-        "question": "Can these therapies be integrated with modern conventional treatments?",
-        "answer": "Absolutely. Our methods operate on the subtle energy bodies (pranamaya kosha) and emotional fields, complementing conventional clinical medicine by unlocking cellular stress and facilitating accelerated somatic self-healing loops."
+        "question": "Những liệu pháp này có thể được tích hợp với các phương pháp điều trị thông thường hiện đại không?",
+        "answer": "Tuyệt đối. Phương pháp của chúng tôi hoạt động trên các cơ thể năng lượng tinh tế (pranamaya kosha) và các trường cảm xúc, bổ sung cho y học lâm sàng thông thường bằng cách giải phóng căng thẳng tế bào và tạo điều kiện cho các vòng tự phục hồi cơ thể được tăng tốc."
       }
     ],
-    "locationBadge": "WAYANAD MOUNTAIN CLIME",
-    "locationTitle": "The Wayanad Villa Retreat",
-    "locationDesc": "Our main clinical chambers lie in the misty highlands of Wayanad, Kerala. The clinical estate features high negative ion levels, natural running mountain spring water, and absolute absence of electromagnetic radiation noise to ensure deep biofield recovery.",
-    "locationBanner": "Wayanad, Kerala Sanctuary",
-    "writeReview": "Write a Review",
-    "ratingTitle": "Attuned Satisfaction Rating",
-    "ratingSub": "Based on verified spiritual resonance testimonials.",
-    "visitorEcho": "Visitor Sanctuary Echo",
-    "shareReview": "Share Your Sanctuary Review",
-    "feedbackGuideline": "Your sacred feedback directs our communal path and is approved by our master alchemist.",
-    "labelResonanceRating": "Quantum Resonance Rating*",
-    "labelSilhouette": "Select Silhouette Portrait (Optional)",
-    "placeholderReview": "Describe your feelings, emotional balance or physical relief...",
-    "btnSubmitReview": "Submit Review",
-    "btnDiscard": "Discard",
-    "reviewSuccessTitle": "Echo Received!",
-    "reviewSuccessDesc": "Thank you for sharing your attuned experience. Your review has been saved in the registry and will appear live once reviewed and approved by our Sanctuary Moderator.",
-    "btnPerfect": "Perfect",
-    "reviewTransmitting": "Transmitting...",
-    "reviewNameLabel": "Full Name*",
-    "reviewCityLabel": "City / Country (Optional)",
-    "reviewAvatarLabel": "Or input custom photo URL...",
-    "reviewTitleDefault": "Wellness Visitor",
-    "reviewErrorName": "Full Name is required",
-    "reviewErrorContent": "Review Message is required",
-    "reviewErrorRating": "Rating must be between 1 and 5 stars",
-    "reviewsModality": "MODALITY RESIDENCE"
+    "locationBadge": "CLIME NÚI WAYANAD",
+    "locationTitle": "Khu nghỉ dưỡng biệt thự Wayanad",
+    "locationDesc": "Phòng khám lâm sàng chính của chúng tôi nằm ở vùng cao nguyên mù sương Wayanad, Kerala. Khu vực lâm sàng có nồng độ ion âm cao, nước suối trên núi chảy tự nhiên và tuyệt đối không có tiếng ồn bức xạ điện từ để đảm bảo phục hồi năng suất sinh học sâu.",
+    "locationBanner": "Wayanad, Khu bảo tồn Kerala",
+    "writeReview": "Viết đánh giá",
+    "ratingTitle": "Đánh giá mức độ hài lòng phù hợp",
+    "ratingSub": "Dựa trên những lời chứng thực cộng hưởng tinh thần đã được xác minh.",
+    "visitorEcho": "Tiếng vang khu bảo tồn du khách",
+    "shareReview": "Chia sẻ đánh giá về thánh địa của bạn",
+    "feedbackGuideline": "Phản hồi thiêng liêng của bạn định hướng con đường chung của chúng tôi và được nhà giả kim bậc thầy của chúng tôi chấp thuận.",
+    "labelResonanceRating": "Xếp hạng cộng hưởng lượng tử*",
+    "labelSilhouette": "Chọn Chân dung Silhouette (Tùy chọn)",
+    "placeholderReview": "Mô tả cảm xúc của bạn, sự cân bằng cảm xúc hoặc sự nhẹ nhõm về thể chất...",
+    "btnSubmitReview": "Gửi đánh giá",
+    "btnDiscard": "Loại bỏ",
+    "reviewSuccessTitle": "Đã nhận được tiếng vang!",
+    "reviewSuccessDesc": "Cảm ơn bạn đã chia sẻ kinh nghiệm hòa hợp của bạn. Đánh giá của bạn đã được lưu trong sổ đăng ký và sẽ xuất hiện trực tiếp sau khi được Người điều hành Khu bảo tồn của chúng tôi xem xét và phê duyệt.",
+    "btnPerfect": "Hoàn hảo",
+    "reviewTransmitting": "Đang truyền...",
+    "reviewNameLabel": "Tên đầy đủ*",
+    "reviewCityLabel": "Thành phố / Quốc gia (Tùy chọn)",
+    "reviewAvatarLabel": "Hoặc nhập URL ảnh tùy chỉnh...",
+    "reviewTitleDefault": "Khách thăm quan chăm sóc sức khỏe",
+    "reviewErrorName": "Tên đầy đủ là bắt buộc",
+    "reviewErrorContent": "Tin nhắn đánh giá là bắt buộc",
+    "reviewErrorRating": "Xếp hạng phải từ 1 đến 5 sao",
+    "reviewsModality": "PHƯƠNG THỨC CƯ TRÚ"
   },
   "seo": {
-    "homeTitle": "Khu Bảo Tồn DharaAveda | Chữa Lành Toàn Diện & Xuất Khẩu Cao Cấp",
-    "homeDesc": "Khu bảo tồn DharaAveda cung cấp các liệu pháp hoa Bach cổ điển, căn chỉnh Reiki và liệu pháp âm thanh 432Hz.",
-    "exportTitle": "Phân Khúc Xuất Khẩu Nông Nghiệp | DharaAveda",
-    "exportDesc": "Gia vị cao cấp, Shilajit tinh khiết và chiết xuất dầu thơm hữu cơ. Tiêu chuẩn APEDA & SGS.",
-    "wellnessTitle": "Liệu Pháp Trị Liệu Sức Khỏe Toàn Diện & Khu Bảo Tồn | DharaAveda",
-    "wellnessDesc": "Trải nghiệm Usui Reiki, tư vấn hoa Bach và trị liệu bằng âm thanh tại khu bảo tồn Wayanad của chúng tôi ở Kerala.",
-    "bookingTitle": "Đặt Lịch Buổi Trị Liệu Của Bạn | DharaAveda",
-    "bookingDesc": "Đặt lịch hẹn riêng cho căn chỉnh Reiki, tư vấn hoa Bach hoặc chữa lành bằng âm thanh.",
-    "contactTitle": "Liên Hệ | DharaAveda",
-    "contactDesc": "Liên hệ với chúng tôi cho các lô hàng nông nghiệp lớn, hợp đồng thương mại hoặc đăng ký ở lại khu bảo tồn."
+    "homeTitle": "Khu bảo tồn DharaAveda | Chữa bệnh lượng tử phục hồi & Xuất khẩu chăm sóc sức khỏe cao cấp",
+    "homeDesc": "Khu bảo tồn DharaAveda kết hợp liệu pháp hoa dại Bach cổ điển, liên kết luân xa Usui Reiki, tinh dầu nhiễm sắc thể Aura-Soma và sự hòa hợp âm thanh.",
+    "exportTitle": "Phòng Thương mại Nông nghiệp | Khu bảo tồn DharaAveda",
+    "exportDesc": "Bạch đậu khấu xanh cao cấp có nguồn trực tiếp, nhựa Shilajit nguyên chất và chiết xuất hương liệu hữu cơ. Tuân thủ APEDA và SGS được ủy quyền.",
+    "wellnessTitle": "Khu bảo tồn & trị liệu lượng tử phục hồi | DharaAveda",
+    "wellnessDesc": "Trải nghiệm Usui Reiki, tư vấn hoa Bach và liệu pháp âm thanh 432Hz tại khu bảo tồn Wayanad của chúng tôi ở Kerala.",
+    "bookingTitle": "Lên lịch cư trú hòa hợp của bạn | DharaAveda",
+    "bookingDesc": "Đặt phiên tiếp nhận bí mật của bạn để căn chỉnh Reiki, tư vấn về hoa Bạch hoặc chữa bệnh bằng âm thanh sâu sắc.",
+    "contactTitle": "Liên hệ với Bàn Hội đồng | DharaAveda",
+    "contactDesc": "Hãy liên hệ để biết các lô hàng nông sản số lượng lớn, các hợp đồng hàng hóa hoặc các đợt tuyển sinh chăm sóc sức khỏe tại khu bảo tồn."
   },
   "products": {
     "categories": {
       "spices": {
-        "title": "Spices & Seasonings",
-        "desc": "Vedas-grade aromatics, hot spices, and complex culinary powders milled to absolute microbiological safety standards."
+        "title": "Gia vị & Gia vị",
+        "desc": "Chất thơm cấp Vedas, gia vị nóng và bột ẩm thực phức hợp được xay theo tiêu chuẩn an toàn vi sinh tuyệt đối."
       },
       "veg_powders": {
-        "title": "Dehydrated Vegetable Powders",
-        "desc": "Fine agricultural vegetable powders dehydrated at low temperatures to lock in bioactive nutrients, colors, and intense flavors."
+        "title": "Bột rau củ khử nước",
+        "desc": "Bột rau nông nghiệp mịn được khử nước ở nhiệt độ thấp để giữ lại các chất dinh dưỡng có hoạt tính sinh học, màu sắc và hương vị đậm đà."
       },
       "fruit_powders": {
-        "title": "Dehydrated Fruit Powders",
-        "desc": "Premium spray-dried and low-temp dehydrated fruit powders capturing the pure sweetness, vitamins, and tang of fresh orchards."
+        "title": "Bột trái cây khử nước",
+        "desc": "Bột trái cây sấy phun và khử nước ở nhiệt độ thấp cao cấp giữ được vị ngọt nguyên chất, vitamin và vị thơm của vườn cây ăn quả tươi."
       },
       "moringa": {
-        "title": "Moringa Products",
-        "desc": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation."
+        "title": "Sản phẩm chùm ngây",
+        "desc": "Lá, bột, trà và chiết xuất Moringa oleifera thực vật nguyên chất có nguồn gốc từ canh tác năng suất cao không dùng thuốc trừ sâu."
       },
       "seeds": {
-        "title": "Seeds Category",
-        "desc": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls."
+        "title": "Danh mục hạt giống",
+        "desc": "Dầu hữu cơ và hạt dinh dưỡng chất lượng xuất khẩu cao cấp được làm sạch, phân loại và đóng gói dưới sự kiểm soát kiểm dịch thực vật tuyệt đối."
       },
       "dehydrated_veg": {
-        "title": "Dehydrated Vegetables",
-        "desc": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life."
+        "title": "Rau mất nước",
+        "desc": "Hành, tỏi, gừng và các loại rau khác đã được khử nước thái lát sạch đã được chế biến để có độ hoàn nguyên cao và thời hạn sử dụng lâu."
       },
       "dehydrated_fruits": {
-        "title": "Dehydrated Fruits",
-        "desc": "Premium long-cut and slices of sun-sheltered dehydrated fruits preserving natural sugars, texture, and vitamins."
+        "title": "Trái cây khử nước",
+        "desc": "Những lát trái cây khô cắt dài và cắt lát cao cấp được phơi nắng bảo quản lượng đường, kết cấu và vitamin tự nhiên."
       },
       "flakes": {
-        "title": "Flakes Category",
-        "desc": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes."
+        "title": "Loại mảnh",
+        "desc": "Các mảnh rau củ dành cho người sành ăn và cấp công nghiệp được sấy khô đồng đều để hydrat hóa nhanh chóng trong thực phẩm tiện lợi và hỗn hợp khô."
       }
     },
     "items": {
       "s-turmeric": {
-        "name": "Turmeric Powder",
-        "desc": "Vibrant golden-yellow turmeric powder ground from choice Erode rhizomes, offering high active curcumin levels suitable for B2B pharmaceutical and gourmet use.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột nghệ",
+        "desc": "Bột nghệ màu vàng rực rỡ được nghiền từ thân rễ Erode được lựa chọn, cung cấp hàm lượng curcumin hoạt tính cao phù hợp cho mục đích sử dụng dược phẩm B2B và người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Erode & Salem Estates, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Curcumin > 5% Certified, Pure",
+          "origin": "Erode & Salem Estates, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Curcumin > 5% được chứng nhận, nguyên chất",
           "grade": "A++ High-Curcumin Gold",
-          "minOrder": "500 Kilograms"
+          "minOrder": "500 kg"
         }
       },
       "s-redchilli": {
-        "name": "Red Chilli Powder",
-        "desc": "Guntur Sannam red chilli powder offering a deep color and customizable heat ratings for international kitchens.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột ớt đỏ",
+        "desc": "Bột ớt đỏ Guntur Sannam mang lại màu sắc đậm và mức nhiệt có thể tùy chỉnh cho các nhà bếp quốc tế.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Guntur Region, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Aflatoxin & Sudan Dye Negative",
-          "grade": "Kashmiri Bright Red Selection",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng Guntur, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Aflatoxin & Thuốc nhuộm Sudan âm tính",
+          "grade": "Lựa chọn màu đỏ tươi Kashmiri",
+          "minOrder": "500 kg"
         }
       },
       "s-coriander": {
-        "name": "Coriander Powder",
-        "desc": "Traditional whole and ground coriander powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột rau mùi",
+        "desc": "Bột rau mùi nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-cumin": {
-        "name": "Cumin Powder",
-        "desc": "Traditional whole and ground cumin powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột thì là",
+        "desc": "Bột thì là nguyên hạt và bột xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-blackpepper": {
-        "name": "Black Pepper",
-        "desc": "Grade-1 whole black pepper berries harvested from historic Malabar slopes, delivering intense piperine heat and a complex woody aroma.",
-        "pricing": "Contact Trade Desk",
+        "name": "Tiêu đen",
+        "desc": "Quả tiêu đen nguyên hạt loại 1 được thu hoạch từ sườn Malabar lịch sử, mang lại sức nóng piperine mãnh liệt và mùi thơm gỗ phức hợp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Wayanad Highland Forests, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Moisture < 11.5% Certified",
+          "origin": "Rừng cao nguyên Wayanad, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Độ ẩm < 11,5% được chứng nhận",
           "grade": "Tellicherry Extra Bold (TGSEB)",
-          "minOrder": "500 Kilograms"
+          "minOrder": "500 kg"
         }
       },
       "s-cardamom": {
-        "name": "Cardamom",
-        "desc": "Plump, premium green cardamom pods displaying beautiful natural emerald shells and high essential seed-oil levels.",
-        "pricing": "Contact Trade Desk",
+        "name": "bạch đậu khấu",
+        "desc": "Vỏ bạch đậu khấu xanh cao cấp, đầy đặn có lớp vỏ ngọc lục bảo tự nhiên tuyệt đẹp và hàm lượng dầu hạt thiết yếu cao.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Cardamom Hills, Kerala, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Free from artificial polishers",
+          "origin": "Đồi Cardamom, Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Không có chất đánh bóng nhân tạo",
           "grade": "Bold Premium Extra Emerald (8mm+)",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 kg"
         }
       },
       "s-cloves": {
-        "name": "Cloves",
-        "desc": "Whole brown cloves dried to optimal moisture levels to preserve aromatic eugenol compounds.",
-        "pricing": "Contact Trade Desk",
+        "name": "đinh hương",
+        "desc": "Toàn bộ đinh hương nâu được sấy khô đến độ ẩm tối ưu để bảo quản các hợp chất eugenol thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Nilgiris Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Hand selected prime whole cloves",
-          "minOrder": "200 Kilograms"
+          "origin": "Vành đai Nilgiris, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Toàn bộ tép nguyên chất được tuyển chọn thủ công",
+          "minOrder": "200 kg"
         }
       },
       "s-cinnamon": {
-        "name": "Cinnamon",
-        "desc": "Ceylon-type sweet cinnamon quills harvested sustainably, carrying very low coumarin and a delicate woody sweetness.",
-        "pricing": "Contact Trade Desk",
+        "name": "quế",
+        "desc": "Những loại quế ngọt kiểu Ceylon được thu hoạch bền vững, chứa hàm lượng coumarin rất thấp và vị ngọt nhẹ của gỗ.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Western Ghats, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Fine Grade Alba quills",
-          "minOrder": "500 Kilograms"
+          "origin": "Tây Ghats, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Bút lông Alba loại tốt",
+          "minOrder": "500 kg"
         }
       },
       "s-nutmeg": {
-        "name": "Nutmeg",
-        "desc": "Traditional whole and ground nutmeg processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "hạt nhục đậu khấu",
+        "desc": "Hạt nhục đậu khấu nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-staranise": {
-        "name": "Star Anise",
-        "desc": "Traditional whole and ground star anise processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Sao hồi",
+        "desc": "Hoa hồi nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-fennel": {
-        "name": "Fennel Seeds",
-        "desc": "Traditional whole and ground fennel seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt thì là",
+        "desc": "Hạt thì là nguyên hạt và xay truyền thống được xử lý trong quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-mustard": {
-        "name": "Mustard Seeds",
-        "desc": "Traditional whole and ground mustard seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt mù tạt",
+        "desc": "Hạt mù tạt nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-bayleaves": {
-        "name": "Bay Leaves",
-        "desc": "Traditional whole and ground bay leaves processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Lá nguyệt quế",
+        "desc": "Lá nguyệt quế nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Traditional whole and ground garam masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "desc": "Garam masala nguyên hạt và xay truyền thống được chế biến dưới quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "s-mixedspice": {
-        "name": "Mixed Spice Blends",
-        "desc": "Traditional whole and ground mixed spice blends processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hỗn hợp gia vị hỗn hợp",
+        "desc": "Hỗn hợp gia vị hỗn hợp nguyên hạt và xay truyền thống được xử lý dưới quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Vành đai gia vị Kerala, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "100% nguyên chất, không chứa kim loại nặng",
+          "grade": "Chất lượng xuất khẩu cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-beetroot": {
-        "name": "Beetroot Powder",
-        "desc": "Rich crimson beetroot powder retaining high natural betalains, nitrates, and dietary fibers for health blends.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột củ cải đường",
+        "desc": "Bột củ cải đỏ đậm đặc giữ lại hàm lượng betalain, nitrat và chất xơ tự nhiên cao cho hỗn hợp tốt cho sức khỏe.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vedic Plains, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Đồng bằng Vệ đà, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-tomato": {
-        "name": "Tomato Powder",
-        "desc": "Fine spray-dried red tomato powder prepared from ripe organic tomatoes, ideal for instant soups, sauces, and seasoning rubs.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột cà chua",
+        "desc": "Bột cà chua đỏ sấy phun mịn được chế biến từ cà chua hữu cơ chín, lý tưởng cho các món súp ăn liền, nước sốt và gia vị trộn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Karnataka Farms, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Trang trại Karnataka, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-potato": {
-        "name": "Potato Powder",
-        "desc": "High-purity dehydrated potato powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột khoai tây",
+        "desc": "Bột khoai tây khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-garlic": {
-        "name": "Garlic Powder",
-        "desc": "Concentrated garlic powder milled from aromatic bulbs, delivering robust allicin flavor and dispersibility.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột tỏi",
+        "desc": "Bột tỏi cô đặc được xay từ củ thơm, mang lại hương vị allicin mạnh mẽ và khả năng phân tán.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Madhya Pradesh, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-ginger": {
-        "name": "Ginger Powder",
-        "desc": "Fine ginger root powder packing potent gingerol warmth, widely utilized in confectionery and herbal tea blending.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột gừng",
+        "desc": "Bột rễ gừng mịn đóng gói chất gừng có tác dụng làm ấm mạnh, được sử dụng rộng rãi trong pha chế bánh kẹo và trà thảo dược.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Northeast Hills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Đồi Đông Bắc, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-onion": {
-        "name": "Onion Powder",
-        "desc": "Dehydrated white/red onion powder bringing quick savory onion sweetness and zest to food mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột hành tây",
+        "desc": "Bột hành trắng/đỏ đã khử nước mang lại vị ngọt và hương thơm thơm ngon nhanh chóng của hành tây cho các món ăn hỗn hợp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng Nashik, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-spinach": {
-        "name": "Spinach Powder",
-        "desc": "Fine green powder dried from high-grade spinach leaves, locking in dietary iron and natural chlorophyll color.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột rau chân vịt",
+        "desc": "Bột mịn màu xanh được sấy khô từ lá rau muống cao cấp, khóa chất sắt và màu diệp lục tự nhiên.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Himalayan Foothills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Chân đồi Himalaya, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-carrot": {
-        "name": "Carrot Powder",
-        "desc": "High-purity dehydrated carrot powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột cà rốt",
+        "desc": "Bột cà rốt khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-cabbage": {
-        "name": "Cabbage Powder",
-        "desc": "High-purity dehydrated cabbage powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột bắp cải",
+        "desc": "Bột bắp cải khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-moringa": {
-        "name": "Drumstick (Moringa) Powder",
-        "desc": "Nutritive moringa pod and leaf powder processed in cleanrooms to maintain extreme vitamin and antioxidant counts.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột dùi trống (Moringa)",
+        "desc": "Vỏ và bột lá chùm ngây dinh dưỡng được chế biến trong phòng sạch để duy trì lượng vitamin và chất chống oxy hóa cực cao.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Latur Valley, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Thung lũng Latur, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-greenchilli": {
-        "name": "Green Chilli Powder",
-        "desc": "High-purity dehydrated green chilli powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột ớt xanh",
+        "desc": "Bột ớt xanh khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-corianderleaf": {
-        "name": "Coriander Leaf Powder",
-        "desc": "High-purity dehydrated coriander leaf powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột lá rau mùi",
+        "desc": "Bột lá rau mùi khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "vp-mint": {
-        "name": "Mint Powder",
-        "desc": "High-purity dehydrated mint powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột bạc hà",
+        "desc": "Bột bạc hà khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
+          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
+          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "minOrder": "500 kg"
         }
       },
       "fp-banana": {
-        "name": "Banana Powder",
-        "desc": "Dehydrated green banana powder rich in resistant starches, utilized in healthy gluten-free flour formulations.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột chuối",
+        "desc": "Bột chuối xanh khử nước giàu tinh bột kháng, được sử dụng trong các công thức bột không chứa gluten tốt cho sức khỏe.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Cao nguyên Wayanad, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-mango": {
-        "name": "Mango Powder",
-        "desc": "Spray-dried Kesar and Alphonso mango pulp powder, preserving authentic tropical flavor, golden color, and natural sugars.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột xoài",
+        "desc": "Bột xoài Kesar và Alphonso sấy phun, bảo quản hương vị nhiệt đới đích thực, màu vàng và đường tự nhiên.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Vườn cây ăn trái Ratnagiri, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-guava": {
-        "name": "Guava Powder",
-        "desc": "Spray-dried premium fruit juice powder of guava powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột ổi",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột ổi, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-pomegranate": {
-        "name": "Pomegranate Powder",
-        "desc": "Antioxidant-rich pomegranate juice powder spray-dried to retain high brix and beautiful pink-red coloring.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột lựu",
+        "desc": "Bột nước ép lựu giàu chất chống oxy hóa được sấy phun để giữ được độ brix cao và màu đỏ hồng đẹp mắt.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Deccan Plateau, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Cao nguyên Deccan, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-pineapple": {
-        "name": "Pineapple Powder",
-        "desc": "Spray-dried premium fruit juice powder of pineapple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột Dứa",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột dứa, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-papaya": {
-        "name": "Papaya Powder",
-        "desc": "Spray-dried premium fruit juice powder of papaya powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột đu đủ",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột đu đủ, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-apple": {
-        "name": "Apple Powder",
-        "desc": "Spray-dried premium fruit juice powder of apple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột táo",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột táo, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-orange": {
-        "name": "Orange Powder",
-        "desc": "Spray-dried premium fruit juice powder of orange powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột cam",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột cam, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-lemon": {
-        "name": "Lemon Powder",
-        "desc": "Spray-dried premium fruit juice powder of lemon powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột chanh",
+        "desc": "Bột chanh ép trái cây cao cấp được sấy phun, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-strawberry": {
-        "name": "Strawberry Powder",
-        "desc": "Spray-dried premium fruit juice powder of strawberry powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột dâu tây",
+        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột dâu tây, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
+          "grade": "Thực phẩm & Đồ uống hạng A",
+          "minOrder": "500 kg"
         }
       },
       "fp-amla": {
-        "name": "Amla Powder",
-        "desc": "Dehydrated Indian gooseberry (Amla) powder offering exceptional Vitamin C levels, highly suitable for dietary supplements.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bột Amla",
+        "desc": "Bột quả lý gai Ấn Độ (Amla) khử nước cung cấp hàm lượng Vitamin C đặc biệt, rất thích hợp để bổ sung vào chế độ ăn uống.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "100% Pure Amla, high Vitamin C",
-          "grade": "Nutraceutical Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Vườn cây ăn quả Gujarat, Ấn Độ",
+          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "purity": "100% Amla nguyên chất, hàm lượng Vitamin C cao",
+          "grade": "Tiêu chuẩn dinh dưỡng",
+          "minOrder": "500 kg"
         }
       },
       "m-powder": {
-        "name": "Moringa Powder",
-        "desc": "Finely milled raw leaf powder from organically grown Moringa oleifera trees, boasting rich protein, iron, and multivitamin indexes.",
-        "pricing": "Contact Trade Desk",
+        "name": "bột chùm ngây",
+        "desc": "Bột lá thô được nghiền mịn từ cây Moringa oleifera được trồng hữu cơ, có chỉ số giàu protein, sắt và vitamin tổng hợp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Vacuum sealed UV barrier bags (20 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
+          "packaging": "Túi chống tia UV hút chân không (20 kg)",
+          "purity": "Chứng nhận hữu cơ USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 kg"
         }
       },
       "m-leaves": {
-        "name": "Moringa Leaves",
-        "desc": "Shadow-dried, whole moringa leaves systematically cleaned of stems and organic residue, keeping vital chlorophyll intact.",
-        "pricing": "Contact Trade Desk",
+        "name": "Lá chùm ngây",
+        "desc": "Lá chùm ngây được phơi khô trong bóng râm, được làm sạch một cách có hệ thống khỏi thân và cặn hữu cơ, giữ nguyên chất diệp lục quan trọng.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Double poly-lined woven sacks (15 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
+          "packaging": "Bao dệt 2 lớp (15kg)",
+          "purity": "Chứng nhận hữu cơ USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 kg"
         }
       },
       "m-tea": {
-        "name": "Moringa Tea",
-        "desc": "Premium cut moringa leaves blended with aromatic herbs to create a high-antioxidant, caffeine-free daily wellness infusion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Trà chùm ngây",
+        "desc": "Lá chùm ngây cắt cao cấp trộn với các loại thảo mộc thơm để tạo ra một loại dịch truyền chăm sóc sức khỏe hàng ngày có chất chống oxy hóa cao, không chứa caffeine.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Customized filter tea bags in composite tins",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
+          "packaging": "Túi trà lọc tùy chỉnh trong hộp thiếc composite",
+          "purity": "Chứng nhận hữu cơ USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 kg"
         }
       },
       "m-extract": {
-        "name": "Moringa Extract",
-        "desc": "High-potency bioactive moringa leaf extract standardized for total flavonoids and saponin ratios, for clinical use.",
-        "pricing": "Contact Trade Desk",
+        "name": "Chiết xuất Moringa",
+        "desc": "Chiết xuất từ ​​lá chùm ngây có hoạt tính sinh học cao được chuẩn hóa cho tổng tỷ lệ flavonoid và saponin để sử dụng trong lâm sàng.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Food-grade HDPE canisters",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
+          "packaging": "Hộp nhựa HDPE cấp thực phẩm",
+          "purity": "Chứng nhận hữu cơ USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 kg"
         }
       },
       "sd-flax": {
-        "name": "Flax Seeds",
-        "desc": "Dark brown organic flax seeds loaded with Omega-3 fatty acids, processed with advanced optical graders to guarantee purity.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt lanh",
+        "desc": "Hạt lanh hữu cơ màu nâu sẫm chứa axit béo Omega-3, được xử lý bằng máy phân loại quang học tiên tiến để đảm bảo độ tinh khiết.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "sd-pumpkin": {
-        "name": "Pumpkin Seeds",
-        "desc": "Export-ready premium pumpkin seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt bí ngô",
+        "desc": "Hạt bí ngô cao cấp sẵn sàng xuất khẩu được làm sạch và phân loại cẩn thận để làm hạt ăn kiêng, ngũ cốc và chiết xuất dầu công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "sd-sesame": {
-        "name": "Sesame Seeds",
-        "desc": "Crispy, white hulled sesame seeds Auto-Sortex graded, boasting high oil content and nuttiness for global bakery imports.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt mè",
+        "desc": "Hạt vừng vỏ trắng, giòn, được phân loại bằng Auto-Sortex, có hàm lượng dầu và độ bùi cao để nhập khẩu bánh mì toàn cầu.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Premium Hulled Auto-Cleaned Sortex",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Sortex có vỏ tự động làm sạch cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "sd-sunflower": {
-        "name": "Sunflower Seeds",
-        "desc": "Export-ready premium sunflower seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt hướng dương",
+        "desc": "Hạt hướng dương cao cấp sẵn sàng xuất khẩu được làm sạch và phân loại cẩn thận để làm hạt ăn kiêng, ngũ cốc và chiết xuất dầu công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "sd-chia": {
-        "name": "Chia Seeds",
-        "desc": "High-swelling organic black and white chia seeds, sorted to remove all foreign plant matter, rich in mucilage fibers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt Chia",
+        "desc": "Hạt chia đen trắng hữu cơ có độ trương nở cao, được phân loại để loại bỏ tạp chất lạ, giàu chất xơ.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Madhya Pradesh, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "sd-watermelon": {
-        "name": "Watermelon Seeds",
-        "desc": "Export-ready premium watermelon seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt dưa hấu",
+        "desc": "Hạt dưa hấu cao cấp sẵn sàng xuất khẩu được làm sạch và phân loại cẩn thận để làm hạt ăn kiêng, ngũ cốc và chiết xuất dầu công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "sd-basil": {
-        "name": "Basil Seeds",
-        "desc": "Export-ready premium basil seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hạt húng quế",
+        "desc": "Hạt húng quế cao cấp sẵn sàng xuất khẩu được làm sạch và phân loại cẩn thận để làm hạt ăn kiêng, ngũ cốc và chiết xuất dầu công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng đất khô Gujarat, Ấn Độ",
+          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
+          "purity": "Làm sạch bằng máy 99,9% / Làm sạch Sortex",
+          "grade": "Xuất khẩu hạt đậm hạng AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-onion": {
-        "name": "Dehydrated Onion",
-        "desc": "Air-dried red and white onion slices with excellent texture, preserving essential pungent flavors for immediate food formulation.",
-        "pricing": "Contact Trade Desk",
+        "name": "hành tây khử nước",
+        "desc": "Các lát hành tây đỏ và trắng được sấy khô trong không khí có kết cấu tuyệt vời, giữ được hương vị cay nồng cần thiết cho công thức nấu ăn ngay.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng Nashik, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-garlic": {
-        "name": "Dehydrated Garlic",
-        "desc": "Premium dehydrated garlic cloves split to speed up rehydration in instant spice rubs, canned stews, and noodles.",
-        "pricing": "Contact Trade Desk",
+        "name": "Tỏi khử nước",
+        "desc": "Tách tép tỏi khử nước cao cấp để tăng tốc độ bù nước trong các loại gia vị ăn liền, món hầm đóng hộp và mì.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Malwa Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Vùng Malwa, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-ginger": {
-        "name": "Dehydrated Ginger",
-        "desc": "Low-temperature dehydrated dehydrated ginger slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Gừng khử nước",
+        "desc": "Các lát gừng khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-tomato": {
-        "name": "Dehydrated Tomato",
-        "desc": "Dried organic tomato slices with rich natural lycopene counts and zero sulfite treatment, for gourmet culinary packs.",
-        "pricing": "Contact Trade Desk",
+        "name": "Cà chua khử nước",
+        "desc": "Những lát cà chua hữu cơ sấy khô với lượng lycopene tự nhiên phong phú và không xử lý sulfite, dành cho các gói ẩm thực dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Cao nguyên Wayanad, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-carrot": {
-        "name": "Dehydrated Carrot",
-        "desc": "Low-temperature dehydrated dehydrated carrot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Cà rốt khử nước",
+        "desc": "Các lát cà rốt khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-beetroot": {
-        "name": "Dehydrated Beetroot",
-        "desc": "Low-temperature dehydrated dehydrated beetroot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Củ cải đường khử nước",
+        "desc": "Các lát củ cải đường khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-spinach": {
-        "name": "Dehydrated Spinach",
-        "desc": "Low-temperature dehydrated dehydrated spinach slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Rau bina khử nước",
+        "desc": "Các lát rau bina khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "dv-cabbage": {
-        "name": "Dehydrated Cabbage",
-        "desc": "Low-temperature dehydrated dehydrated cabbage slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bắp cải khử nước",
+        "desc": "Các lát bắp cải đã khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất dành cho các nhà đóng gói thực phẩm công nghiệp.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
+          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
+          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
+          "minOrder": "500 kg"
         }
       },
       "df-banana": {
-        "name": "Banana Slices",
-        "desc": "Sweet Cavendish banana rounds dehydrated naturally without chemical preservatives, perfect for organic snacking mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "lát chuối",
+        "desc": "Những viên chuối Cavendish ngọt được khử nước tự nhiên mà không có chất bảo quản hóa học, hoàn hảo cho hỗn hợp đồ ăn nhẹ hữu cơ.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Cao nguyên Wayanad, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-mango": {
-        "name": "Mango Slices",
-        "desc": "Hand-sliced Alphonso and Kesar mango strips air-dried to retain sweet tropical fragrance and soft, chewy gourmet texture.",
-        "pricing": "Contact Trade Desk",
+        "name": "lát xoài",
+        "desc": "Xoài Alphonso và Kesar cắt lát bằng tay được sấy khô trong không khí để giữ lại hương thơm nhiệt đới ngọt ngào và kết cấu dai, mềm dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Vườn cây ăn trái Ratnagiri, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-pineapple": {
-        "name": "Pineapple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic pineapple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Dứa lát",
+        "desc": "Những lát dứa hữu cơ chín phơi nắng đã khử nước cao cấp, được cấu trúc dành cho túi thực phẩm dành cho người sành ăn và phụ gia ngũ cốc.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-apple": {
-        "name": "Apple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic apple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Những lát táo",
+        "desc": "Những lát táo hữu cơ chín phơi nắng đã khử nước cao cấp, được cấu trúc dành cho túi thực phẩm dành cho người sành ăn và phụ gia ngũ cốc.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-papaya": {
-        "name": "Papaya Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic papaya slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Đu đủ lát",
+        "desc": "Những lát đu đủ hữu cơ chín dưới nắng đã khử nước cao cấp, được cấu trúc dành cho túi thực phẩm dành cho người sành ăn và phụ gia ngũ cốc.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-strawberry": {
-        "name": "Strawberry Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic strawberry slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "lát dâu tây",
+        "desc": "Những lát dâu tây hữu cơ chín phơi nắng đã khử nước cao cấp, được cấu trúc dành cho túi thực phẩm dành cho người sành ăn và phụ gia ngũ cốc.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "df-guava": {
-        "name": "Guava Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic guava slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Lá ổi",
+        "desc": "Những lát ổi hữu cơ chín phơi nắng đã khử nước cao cấp, được cấu trúc dành cho túi thực phẩm dành cho người sành ăn và phụ gia ngũ cốc.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Túi poly hút chân không đựng trong thùng master (10kg)",
+          "purity": "Không thêm đường, sulfites hoặc chất tạo màu",
+          "grade": "Lát cắt dài cao cấp",
+          "minOrder": "500 kg"
         }
       },
       "fl-onion": {
-        "name": "Onion Flakes",
-        "desc": "Perfectly cut 10mm red and white onion flakes, systematically air-dried to retain natural sweet allicin, ideal for fast food noodles and sauces.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh hành tây",
+        "desc": "Cắt mảnh hành tây đỏ và trắng 10 mm một cách hoàn hảo, sấy khô trong không khí một cách có hệ thống để giữ lại chất allicin ngọt tự nhiên, lý tưởng cho mì và nước sốt thức ăn nhanh.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Nashik Valley, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Thung lũng Nashik, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-garlic": {
-        "name": "Garlic Flakes",
-        "desc": "Dehydrated garlic flakes split clean, offering sharp allium zest and rapid hydration for ready-meal packets.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh tỏi",
+        "desc": "Tỏi khô được tách sạch sẽ, mang lại vỏ tỏi sắc nét và hydrat hóa nhanh chóng cho các gói bữa ăn sẵn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Malwa Plateau, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Cao nguyên Malwa, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-potato": {
-        "name": "Potato Flakes",
-        "desc": "Premium dehydrated potato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh khoai tây",
+        "desc": "Mảnh khoai tây khử nước cao cấp được sấy khô để bảo quản cường độ màu sắc và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-tomato": {
-        "name": "Tomato Flakes",
-        "desc": "Premium dehydrated tomato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh cà chua",
+        "desc": "Mảnh cà chua khử nước cao cấp được sấy khô để bảo quản cường độ màu và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-beetroot": {
-        "name": "Beetroot Flakes",
-        "desc": "Premium dehydrated beetroot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh củ cải đường",
+        "desc": "Mảnh củ cải đường khử nước cao cấp được sấy khô để bảo quản cường độ màu sắc và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-carrot": {
-        "name": "Carrot Flakes",
-        "desc": "Premium dehydrated carrot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh cà rốt",
+        "desc": "Mảnh cà rốt khử nước cao cấp được sấy khô để bảo quản cường độ màu sắc và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-spinach": {
-        "name": "Spinach Flakes",
-        "desc": "Premium dehydrated spinach flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "mảnh rau bina",
+        "desc": "Mảnh rau bina khử nước cao cấp được sấy khô để bảo quản cường độ màu sắc và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       },
       "fl-mixedveg": {
-        "name": "Mixed Vegetable Flakes",
-        "desc": "Premium dehydrated mixed vegetable flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Hỗn hợp rau củ",
+        "desc": "Mảnh rau trộn hỗn hợp khử nước cao cấp được sấy khô để bảo quản cường độ màu sắc và kết cấu tế bào cho những bữa ăn nhanh dành cho người sành ăn.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Maharashtra, Ấn Độ",
+          "packaging": "Hộp sóng đôi có lớp lót kín nhiệt",
+          "purity": "Đảm bảo độ ẩm < 5%, không bụi",
+          "grade": "Cắt vảy dành cho người sành ăn (10-12mm)",
+          "minOrder": "500 kg"
         }
       }
     }

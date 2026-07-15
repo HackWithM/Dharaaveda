@@ -203,25 +203,15 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
       return;
     }
 
-
-
     setLoading(true);
 
     try {
-      const initRes = await api.initiateBooking({
-        service: activeServiceName,
-        date,
-        time,
-        name,
-        email,
-        phone,
-        notes: notes || "Standard therapy residency request."
-      });
+      const orderRes = await api.createPaymentOrder(2000);
 
-      setRzpOrderId(initRes.booking.razorpayOrderId || "");
-      setPaymentKeyId(initRes.keyId);
+      setRzpOrderId(orderRes.orderId);
+      setPaymentKeyId(orderRes.keyId);
 
-      if (initRes.isMock) {
+      if (orderRes.isMock) {
         setIsMockPayment(true);
         setStep(5);
       } else {
@@ -231,19 +221,28 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         }
 
         const options = {
-          key: initRes.keyId,
-          amount: initRes.booking.amount * 100, // paise
-          currency: "INR",
+          key: orderRes.keyId,
+          amount: orderRes.amount,
+          currency: orderRes.currency,
           name: "DharaAveda Sanctuary",
           description: `${activeServiceName} Booking`,
-          order_id: initRes.booking.razorpayOrderId,
+          order_id: orderRes.orderId,
           handler: async function (response: any) {
             setLoading(true);
             try {
-              const verifyRes = await api.verifyPayment({
-                razorpayOrderId: initRes.booking.razorpayOrderId!,
+              const verifyRes = await api.verifyPaymentAndBook({
+                razorpayOrderId: orderRes.orderId,
                 razorpayPaymentId: response.razorpay_payment_id,
                 razorpaySignature: response.razorpay_signature
+              }, {
+                name,
+                email,
+                phone,
+                service: activeServiceName,
+                date,
+                time,
+                notes: notes || "Standard therapy residency request.",
+                amount: 2000
               });
 
               if (verifyRes.success) {
@@ -291,10 +290,19 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
     setError("");
     try {
       if (isSuccess) {
-        const verifyRes = await api.verifyPayment({
+        const verifyRes = await api.verifyPaymentAndBook({
           razorpayOrderId: rzpOrderId,
           razorpayPaymentId: "pay_mock_" + Math.random().toString(36).substring(2, 10),
           razorpaySignature: "sig_mock_" + Math.random().toString(36).substring(2, 10)
+        }, {
+          name,
+          email,
+          phone,
+          service: activeServiceName,
+          date,
+          time,
+          notes: notes || "Standard therapy residency request.",
+          amount: 2000
         });
 
         if (verifyRes.success) {

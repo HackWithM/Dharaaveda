@@ -37,10 +37,13 @@ export default function Export() {
   }, []);
 
   const filteredCategories = EXPORT_CATEGORIES.filter((cat) => {
-    const catTrans = t.products?.categories?.[cat.id] || { title: cat.title, desc: cat.description };
+    const catTrans = t.products?.categories?.[cat.id];
+    const showcaseTrans = t.export?.showcaseCategories?.[cat.id];
+    const resolvedTitle = catTrans?.title || showcaseTrans?.title || cat.title;
+    const resolvedDesc = catTrans?.desc || showcaseTrans?.description || cat.description;
     const matchesSearch =
-      catTrans.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      catTrans.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      resolvedTitle.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      resolvedDesc.toLowerCase().includes(searchQuery.toLowerCase()) ||
       cat.products.some((p) => {
         const pTrans = t.products?.items?.[p.id] || { name: p.name };
         return pTrans.name.toLowerCase().includes(searchQuery.toLowerCase());
@@ -191,61 +194,7 @@ export default function Export() {
         </Suspense>
       )}
 
-      {/* 3. COHESIVE TRUST / SHIPPING BADGES SECTION */}
-      <section className="py-20 px-4 bg-[#f8fafc] border-t border-b border-gray-200 relative z-10">
-        <div className="max-w-6xl mx-auto text-center space-y-12">
-          <div className="space-y-3">
-            <span className="text-[10px] font-mono tracking-[0.4em] uppercase text-orange-600 font-bold">
-              {t.export.freightNetworks || "Global Freight Networks"}
-            </span>
-            <h2 className="font-serif text-2xl sm:text-4xl text-gray-900">
-              {t.export.operationsTitle || "Trade Operations Built on Integrity"}
-            </h2>
-          </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-            <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-sm space-y-4 hover:border-orange-500/30 transition-all duration-300">
-              <div className="w-12 h-12 bg-orange-50 border border-orange-200 rounded-full flex items-center justify-center mx-auto text-orange-500">
-                <ShieldCheck className="w-6 h-6" />
-              </div>
-              <h3 className="font-serif text-lg text-gray-900 font-bold">
-                {t.export.sgsTitle || "Full SGS Verification"}
-              </h3>
-              <p className="text-xs text-gray-500 leading-relaxed font-sans text-center">
-                {t.export.sgsDesc || "Every trace lot undergoes gas chromatography & analytical purity tests. Phytosanitary compliance guarantees hassle-free harbor custom routing."}
-              </p>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-sm space-y-4 hover:border-orange-500/30 transition-all duration-300">
-              <div className="w-12 h-12 bg-orange-50 border border-orange-200 rounded-full flex items-center justify-center mx-auto text-orange-500">
-                <ScrollText className="w-6 h-6" />
-              </div>
-              <h3 className="font-serif text-lg text-gray-900 font-bold">
-                {t.export.isoTitle || "APEDA Registered Exporter"}
-              </h3>
-              <p className="text-xs text-gray-500 leading-relaxed font-sans text-center">
-                {t.export.isoDesc || "RCMC-certified and APEDA-registered exporter, complying with India's agricultural export regulations and international quality standards. Ensuring traceability, regulatory compliance, and seamless global trade operations for all Dharaaveda products."}
-              </p>
-              {/* Registration number slot — uncomment and fill when available:
-              <p className="text-[10px] font-mono text-orange-600 text-center tracking-widest uppercase">
-                APEDA Reg. No: XXXX-XXXX &nbsp;|&nbsp; RCMC No: XXXX
-              </p> */}
-            </div>
-
-            <div className="p-6 rounded-2xl bg-white border border-gray-200 shadow-sm space-y-4 hover:border-orange-500/30 transition-all duration-300">
-              <div className="w-12 h-12 bg-orange-50 border border-orange-200 rounded-full flex items-center justify-center mx-auto text-orange-500">
-                <Compass className="w-6 h-6" />
-              </div>
-              <h3 className="font-serif text-lg text-gray-900 font-bold">
-                {t.export.originTitle || "Wayanad Direct Origin"}
-              </h3>
-              <p className="text-xs text-gray-500 leading-relaxed font-sans text-center">
-                {t.export.originDesc || "Our spice estate cuts out unnecessary trading middlemen, ensuring maximum fair-wage compensation to local Vedic smallholder farmers directly."}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* 4. EXPORT DESK DIRECT CONTACT CARD */}
       <section className="py-20 px-4 bg-white relative z-10">
@@ -280,10 +229,6 @@ export default function Export() {
                 {t.export.cargoTimelines || "Typical Cargo Timelines"}
               </h4>
               <div className="space-y-2 font-mono text-gray-500">
-                <div className="flex justify-between">
-                  <span>{t.export.sgsClearance || "SGS analysis clearance:"}</span>
-                  <span className="text-gray-900">{t.export.sgsDays || "4-5 Working Days"}</span>
-                </div>
                 <div className="flex justify-between">
                   <span>{t.export.packagingPrep || "Custom packaging prep:"}</span>
                   <span className="text-gray-900">{t.export.packagingDays || "5-7 Working Days"}</span>
@@ -321,16 +266,27 @@ interface ShowcaseCategorySectionProps {
   matchingCategory: ProductCategory | undefined;
 }
 
-const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
-  cat,
-  idx,
-  onOpenModal,
-  onRequestQuote,
-  lang,
-  t,
-  matchingCategory
-}) => {
+const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>((
+  {cat, idx, onOpenModal, onRequestQuote, lang, t, matchingCategory}
+) => {
   const isEven = idx % 2 === 0;
+
+  // Resolve translated text with priority order:
+  // 1. t.export.showcaseCategories[id] — full rich showcase translation (added after run of translate script)
+  // 2. t.products.categories[id]       — always translated in all languages (title + desc)
+  // 3. cat.*                           — English hardcoded fallback
+  const showcaseTrans = t.export?.showcaseCategories?.[cat.id];
+  const catTrans = t.products?.categories?.[cat.id];
+
+  const resolvedBadge = showcaseTrans?.badge || catTrans?.title || cat.badge;
+  const resolvedTitle = showcaseTrans?.title || catTrans?.title || cat.title;
+  const resolvedDesc = showcaseTrans?.description || catTrans?.desc || cat.description;
+  const resolvedFeatures = showcaseTrans?.features || cat.features;
+  const resolvedHighlights = showcaseTrans?.highlights || cat.highlights;
+  const resolvedBenefits = showcaseTrans?.benefits || cat.benefits;
+  const resolvedPackaging = showcaseTrans?.packaging || cat.packaging;
+  const resolvedCapability = showcaseTrans?.capability || cat.capability;
+  const resolvedShippingInfo = showcaseTrans?.shippingInfo || cat.shippingInfo;
 
   return (
     <section
@@ -356,19 +312,19 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
             <div className="space-y-4">
               <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-[10px] font-mono text-orange-600 font-bold uppercase tracking-widest">
                 <Sparkles className="w-3.5 h-3.5 text-orange-500 animate-pulse" />
-                <span>{cat.badge}</span>
+                <span>{resolvedBadge}</span>
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 tracking-wide leading-tight">
-                {cat.title}
+                {resolvedTitle}
               </h2>
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-light max-w-2xl">
-                {cat.description}
+                {resolvedDesc}
               </p>
             </div>
 
             {/* 2x2 Grid of Feature Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {cat.features.map((feat, fIdx) => (
+              {resolvedFeatures.map((feat, fIdx) => (
                 <div
                   key={fIdx}
                   className="p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:border-orange-500/30 transition-all duration-300 space-y-1.5"
@@ -388,10 +344,10 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-gray-200/60 text-xs">
               <div className="space-y-2">
                 <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                  Export Quality Highlights
+                  {t.export.qualityHighlights || "Export Quality Highlights"}
                 </h4>
                 <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
-                  {cat.highlights.map((h, hIdx) => (
+                  {resolvedHighlights.map((h, hIdx) => (
                     <li key={hIdx} className="flex items-center space-x-2">
                       <ShieldCheck className="w-3.5 h-3.5 text-orange-500 shrink-0" />
                       <span>{h}</span>
@@ -402,10 +358,10 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
 
               <div className="space-y-2">
                 <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                  Key Benefits
+                  {t.export.keyBenefits || "Key Benefits"}
                 </h4>
                 <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
-                  {cat.benefits.map((b, bIdx) => (
+                  {resolvedBenefits.map((b, bIdx) => (
                     <li key={bIdx} className="flex items-center space-x-2">
                       <Award className="w-3.5 h-3.5 text-orange-500 shrink-0" />
                       <span>{b}</span>
@@ -416,16 +372,16 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
 
               <div className="space-y-2">
                 <h4 className="font-serif font-bold text-gray-900 uppercase tracking-wider text-[10px] tracking-wide">
-                  Global Shipping & Packing
+                  {t.export.shippingPacking || "Global Shipping & Packing"}
                 </h4>
                 <ul className="space-y-1.5 font-mono text-[10px] text-gray-600">
                   <li className="flex items-start space-x-2">
                     <MapPin className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
-                    <span><strong>Package:</strong> {cat.packaging}</span>
+                    <span><strong>{t.export.packageLabel || "Package:"}</strong> {resolvedPackaging}</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <Compass className="w-3.5 h-3.5 text-orange-500 shrink-0 mt-0.5" />
-                    <span><strong>Capability:</strong> {cat.capability}</span>
+                    <span><strong>{t.export.capabilityLabel || "Capability:"}</strong> {resolvedCapability}</span>
                   </li>
                 </ul>
               </div>
@@ -439,7 +395,7 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
                   className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded shadow-md shadow-orange-500/10"
                 >
                   <Search className="w-4 h-4" />
-                  <span>View Products</span>
+                  <span>{t.product?.viewProducts || "View Products"}</span>
                 </button>
               )}
               <a
@@ -448,7 +404,7 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
                 className="cursor-pointer inline-flex items-center space-x-2 px-6 py-3 border border-gray-300 hover:border-orange-500 hover:text-orange-500 text-gray-600 font-bold text-xs font-mono uppercase tracking-widest transition-all duration-300 rounded"
               >
                 <Mail className="w-4 h-4" />
-                <span>Request Quote</span>
+                <span>{t.product?.inquiryRequestQuote || "Request Quote"}</span>
               </a>
             </div>
           </motion.div>
@@ -464,7 +420,7 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
             <div className="relative rounded-3xl overflow-hidden border border-gray-200/80 shadow-2xl h-[340px] lg:h-[450px] group">
               <OptimizedImage
                 src={cat.image}
-                alt={cat.title}
+                alt={resolvedTitle}
                 className="w-full h-full"
                 imgClassName="filter brightness-95 transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 40vw"
@@ -475,14 +431,14 @@ const ShowcaseCategorySection = React.memo<ShowcaseCategorySectionProps>(({
               <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md border border-gray-200/80 p-4 rounded-xl flex items-center justify-between shadow-lg">
                 <div className="text-left space-y-0.5">
                   <span className="text-[8px] font-mono font-bold text-orange-600 tracking-wider uppercase block">
-                    SECURE TRANSIT
+                    {t.export.secureTransit || "SECURE TRANSIT"}
                   </span>
                   <p className="text-[10px] font-mono text-gray-500">
-                    {cat.shippingInfo}
+                    {resolvedShippingInfo}
                   </p>
                 </div>
                 <span className="text-[8px] font-mono font-bold bg-emerald-50 border border-emerald-100 text-emerald-600 px-2 py-1 rounded">
-                  100% READY
+                  {t.export.readyStatus || "100% READY"}
                 </span>
               </div>
             </div>

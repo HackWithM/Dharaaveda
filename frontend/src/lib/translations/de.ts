@@ -32,78 +32,78 @@ export const translations: StaticTranslations = {
     "rights": "Alle Rechte vorbehalten. Eingetragene Handelsgesellschaft."
   },
   "home": {
-    "heroTitle": "Die Konvergenz von globalem Handel & ganzheitlicher Heilung",
-    "heroSubtitle": "Dharaaveda harmonisiert erstklassige landwirtschaftliche Lieferketten mit regenerativen Energietherapien.",
-    "ctaExports": "Exporte Erkunden",
-    "ctaTherapies": "Therapien Erkunden",
-    "aboutTitle": "Die Verbindung von Mutter Erde und individueller Genesung",
-    "aboutSubtitle": "UNSERE DOPPELTE PHILOSOPHIE",
-    "aboutDesc1": "Dharaaveda arbeitet an der Schnittstelle von internationalem Handel und ganzheitlichem Wohlbefinden. Wir glauben, dass wahres Wohlbefinden sowohl global als auch zutiefst persönlich ist.",
-    "aboutDesc2": "Unsere landwirtschaftliche Abteilung arbeitet direkt mit Bio-Betrieben zusammen, um Premium-Gewürze weltweit zu vertreiben. Gleichzeitig schafft unsere Therapieabteilung elektrosmogfreie Zufluchtsorte in Wayanad.",
-    "showcaseTitle": "Entdecken Sie Unsere Bereiche",
-    "showcaseSubtitle": "Wählen Sie einen Bereich aus, um unsere speziellen Räume zu betreten",
+    "heroTitle": "Die Konvergenz von globalem Handel und ganzheitlicher Heilung",
+    "heroSubtitle": "Dharaaveda harmoniert erstklassige landwirtschaftliche Lieferketten mit erholsamen Energietherapien.",
+    "ctaExports": "Entdecken Sie Exporte",
+    "ctaTherapies": "Entdecken Sie Therapien",
+    "aboutTitle": "Überbrückung der Fülle der Erde und der individuellen Genesung",
+    "aboutSubtitle": "UNSERE DUAL-DIVISION-PHILOSOPHIE",
+    "aboutDesc1": "Dharaaveda agiert an der Schnittstelle zwischen internationalem Handel und ganzheitlichem Wohlbefinden. Wir glauben, dass wahres Wohlbefinden sowohl global als auch zutiefst persönlich ist.",
+    "aboutDesc2": "Unsere Agrarabteilung arbeitet direkt mit Bio-Kleinbauern zusammen, um weltweit Premium-Gewürze und dehydrierte Produkte zu vertreiben. Gleichzeitig errichtet unsere Therapieabteilung in Wayanad elektromagnetisch-stille Zufluchtsorte, um das Gleichgewicht des Nervensystems und die Zellvitalität wiederherzustellen.",
+    "showcaseTitle": "Entdecken Sie unsere Abteilungen",
+    "showcaseSubtitle": "Wählen Sie eine Branche aus, um unsere speziellen Bereiche zu betreten",
     "exportCardTitle": "Exportabteilung",
-    "exportCardDesc": "Verbindung indischer Farmen mit globalen Apotheken und Kosmetikherstellern. Premium-Gewürze und Extrakte, die unter absoluter phytosanitärer Konformität versandt werden.",
-    "exportHighlight1": "APEDA & SGS zertifiziert",
-    "exportHighlight2": "Direkter Farmbezug",
-    "exportHighlight3": "See- und Luftfrachtrouten",
-    "exportHighlight4": "Bulk-Verpackungen nach Maß",
-    "exportCardBtn": "Exportdienstleistungen anzeigen",
+    "exportCardDesc": "Verbindung tiefgründiger indischer Botanikfarmen mit erstklassigen globalen Apotheken, Kosmetikhäusern und Lebensmittelimporteuren. Premium-Gewürze, Getreide und adaptogene Extrakte werden unter absoluter Einhaltung der Pflanzenschutzvorschriften versandt.",
+    "exportHighlight1": "APEDA- und SGS-zertifiziert",
+    "exportHighlight2": "Direkte Beschaffung vom Bauernhof",
+    "exportHighlight3": "Globale See- und Luftrouten",
+    "exportHighlight4": "Maßgeschneiderte Massenverpackung",
+    "exportCardBtn": "Exportdienste anzeigen",
     "therapyCardTitle": "Therapieabteilung",
-    "therapyCardDesc": "Harmonisieren Sie Ihr Biofeld, lösen Sie Lebenszyklustraumata auf und finden Sie tiefen Frieden. Bachblüten, Reiki-Chakra-Ausrichtung und Klangheilung.",
+    "therapyCardDesc": "Stimmen Sie Ihr Biofeld ab, klären Sie tiefe Traumata im Lebenszyklus und stellen Sie absoluten körperlichen Frieden wieder her. Intensive Beratungen, bei denen Blütenessenzen, Reiki-Chakra-Ausrichtung und polyphone Quarzklangheilung kombiniert werden.",
     "therapyHighlight1": "Bachblütentherapie",
-    "therapyHighlight2": "Usui Reiki Ausrichtung",
+    "therapyHighlight2": "Usui-Reiki-Ausrichtung",
     "therapyHighlight3": "Emotionales Wohlbefinden",
     "therapyHighlight4": "432Hz Klangheilung",
-    "therapyCardBtn": "Therapiedienstleistungen anzeigen",
-    "whyTitle": "Warum Dharaaveda wählen",
-    "whySubtitle": "Kompromisslose Standards in Logistik und Wohlbefinden",
+    "therapyCardBtn": "Therapieangebote ansehen",
+    "whyTitle": "Warum Dharaaveda wählen?",
+    "whySubtitle": "Kompromisslose Standards in den Bereichen Logistik und Wellness",
     "whyTrustTitle": "Absolutes Vertrauen",
-    "whyTrustDesc": "Volle Transparenz, phytosanitäre Konformität und zertifizierte Geheimhaltungsprotokolle.",
+    "whyTrustDesc": "Völlige Transparenz, vollständige Einhaltung der Pflanzenschutzvorschriften und zertifizierte Geheimhaltungsprotokolle.",
     "whyQualityTitle": "Vedische Qualität",
-    "whyQualityDesc": "Direkte Rückverfolgbarkeit von der Farm bis zum Hafen und maßgeschneiderte Biofrequenzmittel.",
-    "whyExpertiseTitle": "Nachgewiesene Expertise",
-    "whyExpertiseDesc": "Generationen von landwirtschaftlichem Erbe kombiniert mit zertifizierten Energetikern.",
+    "whyQualityDesc": "Direkte Rückverfolgbarkeit vom Bauernhof bis zum Hafen und maßgeschneiderte Biofrequenz-Heilmittel.",
+    "whyExpertiseTitle": "Bewährte Expertise",
+    "whyExpertiseDesc": "Generationen landwirtschaftlicher Tradition gepaart mit zertifizierten Energiefachkräften.",
     "whyReachTitle": "Globale Reichweite",
-    "whyReachDesc": "Zuverlässige Frachtrouten, die führende Importeure in über 34 Ländern beliefern.",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
     "whyHolisticTitle": "Ganzheitliches Wohlbefinden",
-    "whyHolisticDesc": "Tiefenzelluläre Heilung in reinen, natürlichen Zufluchtsorten in den Bergen.",
-    "highlightsTitle": "Featured Highlights",
-    "highlightsSubtitle": "Hauptschwerpunkte unserer Geschäftstätigkeit",
-    "exportHighlightTitle": "Fokus Exportabteilung",
-    "therapyHighlightTitle": "Fokus Therapieabteilung",
-    "highlightsExport1": "Landwirtschaftliche Produkte",
-    "highlightsExport1Desc": "Handgeerntete Cavendish-Bananen, Alphonso-Mangos und Bio-Zuckerrohrextrakte.",
+    "whyHolisticDesc": "Tiefe Zellheilung in reinen, natürlichen Bergheiligtümern.",
+    "highlightsTitle": "Besondere Highlights",
+    "highlightsSubtitle": "Schwerpunkte unserer Geschäftstätigkeit",
+    "exportHighlightTitle": "Schwerpunkt der Exportabteilung",
+    "therapyHighlightTitle": "Schwerpunkt der Therapieabteilung",
+    "highlightsExport1": "Agrarprodukte",
+    "highlightsExport1Desc": "Von Hand geerntete Cavendish-Bananen, Alphonso-Mangos und Bio-Zuckerrohrextrakte.",
     "highlightsExport2": "Elite-Gewürze",
-    "highlightsExport2Desc": "Salem-Kurkuma, kräftiger Kardamom, Guntur-Chilis und Malabar-Pfeffer.",
+    "highlightsExport2Desc": "Salem-Kurkuma, kräftiger Kardamom, Guntur-Chilis und schwarzer Malabar-Pfeffer.",
     "highlightsExport3": "Dehydrierte Produkte",
     "highlightsExport3Desc": "Niedrigtemperatur-Zwiebelflocken, sprühgetrocknete Tomaten und Rote-Bete-Pulver.",
     "highlightsExport4": "Globale Logistik",
-    "highlightsExport4Desc": "Vakuumverpackung, SGS-Zertifizierungen und Zollabwicklungen.",
+    "highlightsExport4Desc": "Kundenspezifische Vakuum-Barriere-Versiegelung, SGS-Zertifizierungen und kundenspezifische Port-Anmeldungen.",
     "highlightsTherapy1": "Bachblütentherapie",
-    "highlightsTherapy1Desc": "Maßgeschneiderte flüssige Heilmittel, ausgewählt bei kognitivem Stress und zur neuralen Entspannung.",
-    "highlightsTherapy2": "Reiki Ausrichtung",
-    "highlightsTherapy2Desc": "Sanfter Biofeld-Chakra-Ausgleich und Wiederherstellung des Energieflusses.",
+    "highlightsTherapy1Desc": "Maßgeschneiderte flüssige Heilmittel, ausgewählt für aktiven kognitiven Stress und neuronale Freisetzung.",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
+    "highlightsTherapy2Desc": "Nicht-invasiver Biofeld-Chakra-Ausgleich und Wiederherstellung des chromatischen Energiefeldes.",
     "highlightsTherapy3": "Emotionales Wohlbefinden",
-    "highlightsTherapy3Desc": "Regenerationsprotokolle für das Nervensystem, um chronische Müdigkeit abzubauen.",
+    "highlightsTherapy3Desc": "Protokolle zur Wiederherstellung des Nervensystems zur Beseitigung von Lifestyle-Müdigkeit.",
     "highlightsTherapy4": "Energieheilung",
-    "highlightsTherapy4Desc": "432Hz Quarz-Klangschalen-Harmonisierung in elektrosmogfreien Räumen.",
+    "highlightsTherapy4Desc": "432 Hz polyphone Quarz-Gesangsklang-Einstimmungen in elektromagnetisch freien Kammern.",
     "statsTitle": "Unser operativer Fußabdruck",
-    "statsSubtitle": "Messung unseres globalen Einflusses und klinischen Erfolgs",
+    "statsSubtitle": "Messung unserer globalen Wirkung und unseres klinischen Erfolgs",
     "statCountries": "Belieferte Länder",
     "statProducts": "Produktkategorien",
     "statSessions": "Therapiesitzungen",
     "statSatisfaction": "Kundenzufriedenheit",
     "testimonialsTitle": "Stimmen der Resonanz",
-    "testimonialsSubtitle": "Feedback von unseren Handelspartnern und Zufluchtsort-Besuchern",
+    "testimonialsSubtitle": "Feedback von unseren Handelspartnern und Schutzgebietsbesuchern",
     "ctaTitle": "Beginnen Sie Ihre Reise",
-    "ctaSubtitle": "Verbinden Sie sich mit unseren Fachabteilungen",
+    "ctaSubtitle": "Nehmen Sie Kontakt zu unseren spezialisierten Abteilungsschaltern auf",
     "ctaExportBoxTitle": "Suchen Sie nach Exportlösungen?",
-    "ctaExportBoxDesc": "Wenden Sie sich an unseren Commodity Arbitrage Desk für Bulk-Lieferverträge oder Zollkonformität.",
-    "ctaExportBoxBtn": "Mit dem Export Desk sprechen",
-    "ctaTherapyBoxTitle": "Suchen Sie ganzheitliche Heilung?",
-    "ctaTherapyBoxDesc": "Vereinbaren Sie eine private Beratung oder buchen Sie eine Villa in unserem Wayanad-Naturreservat.",
-    "ctaTherapyBoxBtn": "Zufluchtsort-Sitzung buchen"
+    "ctaExportBoxDesc": "Kontaktieren Sie unseren Commodity Arbitrage Desk für Großcontainerverträge, maßgeschneiderte Verpackungen oder Logistik-Compliance.",
+    "ctaExportBoxBtn": "Sprechen Sie mit dem Export Desk",
+    "ctaTherapyBoxTitle": "Auf der Suche nach ganzheitlicher Heilung?",
+    "ctaTherapyBoxDesc": "Vereinbaren Sie einen privaten Beratungstermin oder reservieren Sie einen Villa-Aufenthalt in unserem Wayanad-Bergschutzgebiet zur Einstimmung auf das Biofeld.",
+    "ctaTherapyBoxBtn": "Buchen Sie Sanctuary Intake"
   },
   "export": {
     "division": "Internationale Handelsabteilung",
@@ -136,7 +136,275 @@ export const translations: StaticTranslations = {
     "packagingPrep": "Kundenspezifische Verpackungsvorbereitung:",
     "packagingDays": "5-7 Werktage",
     "portOfLoad": "FOB-Ladehafen:",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Abteilung für Gewürze und Gewürze",
+        "title": "Elite-Gewürze und authentische Gewürze",
+        "description": "Aromen in Vedas-Qualität, scharfe Chilis und komplexe kulinarische Pulver, gemahlen nach absoluten mikrobiologischen Sicherheitsstandards. Die direkte Beschaffung vom Bauernhof garantiert kräftige Ölgehalte und intensive Geschmacksprofile.",
+        "highlights": [
+          "Curcumin Gold Kurkuma-Auswahl (>5%)",
+          "Mit Piperin geprüfter schwarzer Tellicherry-Pfeffer",
+          "Sudan Farbstoff-negative Guntur-Chilis",
+          "Kryogenes, hygienisches Mahlen bei niedriger Temperatur"
+        ],
+        "benefits": [
+          "Hohe Retention flüchtiger ätherischer Öle",
+          "Unberührte Aroma- und Geschmacksstabilität",
+          "100 % biologisch, ohne Zusatzstoffe verarbeitet",
+          "Aflatoxinsichere weltweite Einhaltung"
+        ],
+        "packaging": "25-kg-Mehrschicht-Kraftpapierbeutel mit Polyliner, vakuumverpackt.",
+        "capability": "Konsolidierte gemischte LCL-Containersendungen oder bis zu 20 Tonnen pro FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) oder Mundra Port. Vorrangiges Routing für Luftfracht.",
+        "features": [
+          {
+            "title": "Curcumin-Gold",
+            "desc": "Goldenes Kurkumapulver mit einem aktiven Curcumingehalt von über 5 % für Lebensmittel und klinische Zwecke."
+          },
+          {
+            "title": "Malabar-Pfeffer",
+            "desc": "Besonders kräftige schwarze Pfefferbeeren, die für ihre tiefe Piperin-Härte und komplexe Waldnoten geschätzt werden."
+          },
+          {
+            "title": "Kryo-gemahlenes Chili",
+            "desc": "Guntur Sannam-Chilipulver, unter kryogener Kontrolle gemahlen, um hitzebedingten Ölverlust zu verhindern."
+          },
+          {
+            "title": "Zitrus-Koriander",
+            "desc": "Hochwertige Malwa-Samen, zu feinen Maschen gemahlen, enthalten zitruswarme flüchtige Anteile."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Schreibtisch für Gemüsepulver",
+        "title": "Reine dehydrierte Gemüsepulver",
+        "description": "Landwirtschaftliches Gemüse, das bei streng kontrollierten niedrigen Temperaturen dehydriert wird, um bioaktive Nährstoffe, Farbprofile und Geschmackstiefe zu schützen. Ideal für verzehrfertige Lebensmittel, Mixer und pharmazeutische Formulierungen.",
+        "highlights": [
+          "100 % echte pflanzliche Feststoffe, keine Zusatzstoffe",
+          "Zellerhaltende Trocknung bei niedriger Temperatur",
+          "Hervorragende Trockenlöslichkeit und Dispersion",
+          "Freifließende, nicht zusammenbackende Natursorte"
+        ],
+        "benefits": [
+          "Sofortige Wasserrekonstitutionsverhältnisse",
+          "Intensive Konzentration an Bio-Aromen",
+          "Behält natürliche Vitamine und Ballaststoffe",
+          "Makellose visuelle Pigmentretention"
+        ],
+        "packaging": "Faserfässer mit doppelten Polyethylen-Innensäcken (20 kg / 25 kg).",
+        "capability": "12-15 Tonnen pro FCL. Kundenspezifische Rezepturen für Gewürz-/Gemüsemischungen.",
+        "shippingInfo": "Seetransport über temperaturkontrollierte Kühlcontainer zu globalen Häfen.",
+        "features": [
+          {
+            "title": "Sprühgetrocknete Tomate",
+            "desc": "Lösliches rotes Tomatenmarkpulver, reich an Lycopin, verleiht sofort herzhafte Umami-Tiefe."
+          },
+          {
+            "title": "Betalain Rote Bete",
+            "desc": "Fein gemahlenes Rote-Bete-Pulver für intensive natürliche purpurrote Farben und Nitratreichtum."
+          },
+          {
+            "title": "Chlorophyll-Spinat",
+            "desc": "Hellgrünes lösliches Spinatpulver, das Eisen und Chlorophyll aus der Nahrung enthält."
+          },
+          {
+            "title": "Allicin-Knoblauch",
+            "desc": "Scharfes Knoblauchpulver, gemahlen aus erlesenen Nelken, das sich schnell verteilt und schmeckt."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Schreibtisch für Fruchtpulver",
+        "title": "Obstgartenfruchtpulver und lösliche Produkte",
+        "description": "Hochwertige sprühgetrocknete und bei niedriger Temperatur dehydrierte Fruchtpulver, die die wahre Süße, den organischen Zucker und die Vitamine sonnengereifter Obstgärten einfangen. Sehr beliebt in Getränken, Süßwaren und Kindernahrung.",
+        "highlights": [
+          "Direkt aus Bio-Fruchtfleisch sprühgetrocknet",
+          "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "In heißen und kalten Flüssigkeiten gut löslich",
+          "Nährstoffreiche Superfood-Auswahl"
+        ],
+        "benefits": [
+          "Reines Fruchtaroma und süßer Geschmack",
+          "Hohe Vitamin-C- und bioaktive Retention",
+          "Perfekte Mischung für Milchprodukte und Backen",
+          "Clean-Label-konforme Inhaltsstoffe"
+        ],
+        "packaging": "Vakuumversiegelte Beutel aus Aluminiumfolie in gewellten Umkartons.",
+        "capability": "8-10 Tonnen pro FCL. Unterstützung bei der Verpackung von Eigenmarken.",
+        "shippingInfo": "Express-Luftfracht oder temperaturüberwachter Seecontainertransport.",
+        "features": [
+          {
+            "title": "Cavendish-Banane",
+            "desc": "Grünes und reifes Bananenpulver, reich an resistenter Stärke, perfekt für glutenfreie Mischungen."
+          },
+          {
+            "title": "Kesar-Mango",
+            "desc": "Goldene Fruchtfeststoffe, die das süße Aroma handgeernteter indischer Mangos einfangen."
+          },
+          {
+            "title": "Ascorbinsäure Amla",
+            "desc": "Stachelbeerpulver aus biologischem Anbau mit hochkonzentriertem natürlichem Vitamin C."
+          },
+          {
+            "title": "Antioxidativer Granatapfel",
+            "desc": "Sprühgetrocknetes Granatapfelsaftpulver mit reichhaltigen Polyphenolen und visuellen Rosatönen."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Moringa Superfood Schreibtisch",
+        "title": "Premium-Bio-Moringa-Produkte",
+        "description": "Biologisch angebaute Moringa oleifera-Blätter, -Pulver, -Tees und -Extrakte, die von pestizidfreien, ertragreichen indischen Plantagen stammen. Nach Schattentrocknungsprotokollen verarbeitet, um essentielle Aminosäuren zu schützen.",
+        "highlights": [
+          "USDA & APEDA Bio-zertifizierte Pflanzen",
+          "Strenge schattengetrocknete Blatthärtung",
+          "Phytochemisch und Flavonoid standardisiert",
+          "99,9 % sauberes Blattmaterial, kein Sand"
+        ],
+        "benefits": [
+          "Komplettes Pflanzenprotein mit 9 Aminosäuren",
+          "Extremer Eisen-, Kalzium- und Vitamingehalt",
+          "Hochstabile Haltbarkeit im Vakuumverschluss",
+          "Ideal für Nahrungsergänzungsmittel und Kosmetika"
+        ],
+        "packaging": "Vakuum-Barrierebeutel mit Kieselgel-Einlagen, verpackt in verstärkten Kartons.",
+        "capability": "5–8 Tonnen pro Charge. Anpassbare Blattzuschnitte und Großhandelspackungen.",
+        "shippingInfo": "Versiegelte Trockencontainer, bevorzugte Luftfrachtweiterleitung an globale Wellness-Händler.",
+        "features": [
+          {
+            "title": "Bio-Blattpulver",
+            "desc": "Fein gemahlenes Moringa-Blattpulver mit tiefer Smaragdfarbe und grasigem Geschmack."
+          },
+          {
+            "title": "Saubere, ausgehärtete Blätter",
+            "desc": "Ganze, im Schatten getrocknete Blätter werden mechanisch sortiert, um Zweige, Stängel und Staub zu entfernen."
+          },
+          {
+            "title": "Kräuter-Moringa-Tee",
+            "desc": "Gleichmäßig geschnittene Blätter, optimiert für Teebeutel, bieten einen frischen Wellness-Kräuteraufguss."
+          },
+          {
+            "title": "Standardisierter Extrakt",
+            "desc": "Konzentrierter Moringa-Blattextrakt, standardisiert auf Gesamtbioflavonoide, für klinische Formulierungen."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Schreibtisch für Ölsaaten",
+        "title": "Hochwertiges sortiertes Öl und diätetische Samen",
+        "description": "Hochwertige Bio-Öl- und Nährsaaten in Exportqualität, systematisch gereinigt, sortiert und unter absoluten pflanzengesundheitlichen Kontrollen verpackt. Hohe Ölausbeute und saubere Sortex-Reinheit machen diese ideal für die Lebensmittel- und Industrieverarbeitung.",
+        "highlights": [
+          "99,9 % optische Farbsortierung von Sortex",
+          "Strenge Begasungs- und Reinigungsprüfungen",
+          "Zertifiziert frei von Pestiziden und Rückständen",
+          "Hoher Gehalt an mehrfach ungesättigten Fettsäuren"
+        ],
+        "benefits": [
+          "Hohe natürliche Ölextraktionsraten",
+          "Extrem sauberes Saatgut ohne Schmutz",
+          "Einheitliche Saatgutabmessungen und Farbprofile",
+          "Verpackt, um Luftfeuchtigkeit zu blockieren"
+        ],
+        "packaging": "Gewebte Säcke aus Polypropylen oder mehrlagige Papiersäcke (25 kg / 50 kg).",
+        "capability": "18–22 Tonnen pro Container (FCL). Benutzerdefinierte Feuchtigkeitsspezifikationen.",
+        "shippingInfo": "Direkte Ozeandampfer, Weiterleitung von Massengütern an gewerbliche Bäckereien und Großhändler.",
+        "features": [
+          {
+            "title": "Geschälter Sesam",
+            "desc": "Automatisch gereinigte weiße Sesamkörner mit hoher Ölausbeute und süßen, nussigen Aromen."
+          },
+          {
+            "title": "Goldener Flachs",
+            "desc": "Hochwertige Leinsamen, reich an Ballaststoffen und essentiellen Omega-3-Fettsäuren."
+          },
+          {
+            "title": "Gelbildendes Chia",
+            "desc": "Bio-Schwarz-Chiasamen mit hervorragenden Quellwerten und Schleimqualität."
+          },
+          {
+            "title": "Grüner Kürbis",
+            "desc": "Sauber geschälte Kürbiskerne, sortiert nach einheitlicher kräftiger grüner Farbe und Knusprigkeit."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Schreibtisch mit dehydriertem Gemüse",
+        "title": "Hygienisch dehydriertes Gemüse",
+        "description": "Sauber geschnittene Zwiebeln, Knoblauch, Ingwer und anderes Gemüse, getrocknet in fortschrittlichen Luftstromkammern. Direkt aus phytokonformen landwirtschaftlichen Betrieben bezogen für hervorragende Rehydrierung und Geschmacksleistung.",
+        "highlights": [
+          "Keine Sulfite, Schwefel oder Konservierungsstoffe verwendet",
+          "Niedriger Restfeuchtegehalt (<5%)",
+          "Makellose Rehydrierung und Wiederherstellung der Textur",
+          "Pflanzengesundheitlich zertifizierte Exportfracht"
+        ],
+        "benefits": [
+          "Reduziert die kulinarischen Zubereitungszeiten drastisch",
+          "Spart Transportgewicht und Lagerplatz",
+          "Behält natürliche Farbe und optische Attraktivität",
+          "Gleichbleibende Geschmacksstärke in Lebensmittelmischungen"
+        ],
+        "packaging": "Mit HDPE ausgekleidete Umkartons mit doppelt heißversiegelten Polyeinsätzen.",
+        "capability": "10-12 Tonnen pro FCL. Anpassbares Schneiden und Würfeln.",
+        "shippingInfo": "Standard-Trockencontainer oder Kühlcontainer für industrielle Gewürzküchen.",
+        "features": [
+          {
+            "title": "Zwiebelscheiben",
+            "desc": "Getrocknete rote und weiße Zwiebelscheiben mit starker Schärfe und hoher Rekonstitution."
+          },
+          {
+            "title": "Knoblauchzehen",
+            "desc": "Getrocknete, gespaltene Knoblauchzehen, sorgfältig enthäutet und Sortex sortiert, um Ruß zu entfernen."
+          },
+          {
+            "title": "Geschnittener Ingwer",
+            "desc": "Saubere, getrocknete Ingwerscheiben mit pikanter Schärfe und hohem Gehalt an aktivem Gingerol."
+          },
+          {
+            "title": "Strauchtomate",
+            "desc": "Getrocknete Bio-Tomatenscheiben, reich an natürlichem Lycopin, getrocknet ohne chemische Sulfite."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Schreibtisch mit getrockneten Früchten",
+        "title": "Sonnengeschützte, dehydrierte Früchte",
+        "description": "Hochwertige Scheiben und lang geschnittene, dehydrierte Früchte aus handgeernteten Bio-Obstgärten. Bewahrt natürlichen Fruktosezucker, zähe Texturen und lebenswichtige Vitamine ohne chemische Konservierungsstoffe.",
+        "highlights": [
+          "Kein Zusatz von Rohrzucker oder Süßungsmitteln",
+          "Sulfitfrei, ohne chemische Farbstoffe",
+          "Flexible Schnittformen und individuelle Feuchtigkeit",
+          "Pestizidfreie, zertifizierte Obstgärten"
+        ],
+        "benefits": [
+          "Natürliche Süße und zähes Mundgefühl",
+          "Hervorragende Lagerstabilität bei trockener Lagerung",
+          "Ideal für Snacks und Backwaren",
+          "Rückstandsarme und Clean-Label-Verarbeitung"
+        ],
+        "packaging": "BOPP-laminierte Beutel mit inneren Sauerstoffabsorbern und Karton-Masterpackungen.",
+        "capability": "6-8 Tonnen pro FCL. Maßgeschneiderte Schnittgrößen verfügbar.",
+        "shippingInfo": "Trockene Container mit geringer Luftfeuchtigkeit und temperaturstabile Luftfracht.",
+        "features": [
+          {
+            "title": "Aprikosenscheiben",
+            "desc": "Weiche, natürlich süße Aprikosenscheiben, konserviert mit konzentriertem Fruchtgeschmack und lebendiger Farbe."
+          },
+          {
+            "title": "Feigenstücke",
+            "desc": "Zähe, sonnengetrocknete Feigenstücke mit hohem Gehalt an löslichen Ballaststoffen und karamellisierter Süße."
+          },
+          {
+            "title": "Mangostreifen",
+            "desc": "Lang geschnittene getrocknete Mangostreifen mit tropischem Aroma und leuchtend goldener Farbe."
+          },
+          {
+            "title": "Papaya-Chips",
+            "desc": "Dehydrierte Papayascheiben, die für ihre erstklassige Textur und ihren Mikronährstoffreichtum geschätzt werden."
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "HARMONISIERUNGSKLINIKEN",
@@ -302,420 +570,928 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "Früchte",
-        "desc": "Erstklassige, sonnengereifte Früchte aus Obstgärten und tropische Früchte aus Hochlagen, direkt von Bio-Bauernhöfen geerntet."
-      },
       "spices": {
-        "title": "Gewürze & Würzmittel",
-        "desc": "Aromen im Veda-Grad, scharfe Gewürze und komplexe kulinarische Pulver, die nach höchsten mikrobiologischen Sicherheitsstandards gemahlen werden."
+        "title": "Gewürze und Gewürze",
+        "desc": "Aromastoffe, scharfe Gewürze und komplexe kulinarische Pulver in Vedas-Qualität, gemahlen nach absoluten mikrobiologischen Sicherheitsstandards."
       },
-      "dehydrated": {
-        "title": "Gefriergetrocknete Produkte",
-        "desc": "Erstklassiges, sonnengeschütztes und bei niedriger Temperatur getrocknetes Gemüse sowie therapeutische Superfood-Pflanzenpulver mit zellschonender Farb- und Nährstofferhaltung."
+      "veg_powders": {
+        "title": "Dehydrierte Gemüsepulver",
+        "desc": "Feine landwirtschaftliche Gemüsepulver, die bei niedrigen Temperaturen dehydriert werden, um bioaktive Nährstoffe, Farben und intensive Aromen einzuschließen."
       },
-      "jaggery": {
-        "title": "Jaggery-Produkte",
-        "desc": "Traditionelle Zuckerrohr-Nektare, geklärt mit organischen Wildpflanzenextrakten und zu kristallinen, reichhaltigen Karamellen eingedampft."
+      "fruit_powders": {
+        "title": "Dehydrierte Fruchtpulver",
+        "desc": "Hochwertige sprühgetrocknete und bei niedriger Temperatur dehydrierte Fruchtpulver, die die reine Süße, Vitamine und den Geschmack frischer Obstgärten einfangen."
+      },
+      "moringa": {
+        "title": "Moringa-Produkte",
+        "desc": "Reine botanische Moringa oleifera-Blätter, Pulver, Tees und Extrakte aus pestizidfreiem, ertragreichem Anbau."
+      },
+      "seeds": {
+        "title": "Kategorie „Samen“.",
+        "desc": "Hochwertige Bio-Öl- und Nährsaaten in Exportqualität, gereinigt, sortiert und verpackt unter strengen pflanzengesundheitlichen Kontrollen."
+      },
+      "dehydrated_veg": {
+        "title": "Dehydriertes Gemüse",
+        "desc": "Sauber geschnittene, dehydrierte Zwiebeln, Knoblauch, Ingwer und anderes Gemüse, verarbeitet für eine hohe Rekonstitution und lange Haltbarkeit."
+      },
+      "dehydrated_fruits": {
+        "title": "Dehydrierte Früchte",
+        "desc": "Hochwertige, lang geschnittene und in Scheiben geschnittene, sonnengeschützte, dehydrierte Früchte, die den natürlichen Zucker, die Textur und die Vitamine bewahren."
+      },
+      "flakes": {
+        "title": "Kategorie Flocken",
+        "desc": "Gleichmäßig getrocknete Gourmet-Gemüseflocken in Industriequalität für eine schnelle Hydratation in Fertiggerichten und Trockenmischungen."
       }
     },
     "items": {
-      "f-banana": {
-        "name": "Banane",
-        "desc": "Natürlich süße Grand-Naine- und Cavendish-Bananen, angebaut in nährstoffreichem vulkanischem Boden von Wayanad, exportiert in schützender, temperaturkontrollierter Atmosphäre.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Wayanad Highlands, Indien",
-          "packaging": "Wellpappkarton mit Polyethylen-Liner",
-          "purity": "100% biologisch angebaut",
-          "grade": "Premium Klasse A",
-          "minOrder": "1 Metrische Tonne"
-        }
-      },
-      "f-pomegranate": {
-        "name": "Granatapfel",
-        "desc": "Saftige, tiefrote Bhagwa-Granatäpfel mit weichen Kernen, hohem BRIX-Gehalt und reichen antioxidativen Eigenschaften, systematisch sortiert durch optoelektronische Sortierer.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Deccan Plateau, Indien",
-          "packaging": "Systembelüftete 4kg Kartons",
-          "purity": "Phytosanitär zertifiziert",
-          "grade": "Exportqualität Klasse I",
-          "minOrder": "1 Metrische Tonne"
-        }
-      },
-      "f-grapes": {
-        "name": "Trauben",
-        "desc": "Ausgewählte kernlose grüne Thompson- und schwarze Sharad-Trauben. Knackige Textur mit ausgewogener Süße und optimaler Lagerhaltbarkeit.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Nashik Valley Boden, Indien",
-          "packaging": "Beutelpackung + Masterkarton mit SO2-Pads",
-          "purity": "Null-Rückstands-verifiziert",
-          "grade": "Extra Klasse Superior",
-          "minOrder": "2 Metrische Tonnen"
-        }
-      },
-      "f-guava": {
-        "name": "Guave",
-        "desc": "Lebhaft rosafleischige VNR Bihi- und weißfleischige Lalit-Guaven, bekannt für ihr außergewöhnliches Gewicht, minimale Kerne und ihr exquisiten tropischen Aroma.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Vedic Farming Estates, Indien",
-          "packaging": "Schaumstoffnetze & verstärkte Kartons",
-          "purity": "Bio-Rückverfolgbar",
-          "grade": "Premium Super",
-          "minOrder": "1 Metrische Tonne"
-        }
-      },
-      "f-mango": {
-        "name": "Mango",
-        "desc": "Die erlesensten Alphonso (Hapus) und Kesar Mangos. Weltweit geschätzt für intensive goldene Farbe, faserloses Fruchtfleisch und reiches, cremiges Geschmacksprofil.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Ratnagiri Küsten-Obstgärten, Indien",
-          "packaging": "Dampf-Hitze-behandelt / Geschenkverpackung",
-          "purity": "APEDA-zugelassen Phytosanitär",
-          "grade": "AAA-Grade Prime Selection",
-          "minOrder": "1 Metrische Tonne"
-        }
-      },
       "s-turmeric": {
         "name": "Kurkumapulver",
-        "desc": "Goldgelbes Pulver aus handverlesenen Salem-Kurkuma-Rhizomen. Extra hohe Curcumin-Werte (typischerweise >5%), speziell für pharmazeutische Anwendungen kuratiert.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Lebendiges goldgelbes Kurkumapulver, gemahlen aus erlesenen Erode-Rhizomen, bietet einen hohen aktiven Curcumingehalt und eignet sich für den B2B-Pharma- und Gourmetgebrauch.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Erode & Salem Anbaugebiete, Indien",
-          "packaging": "Mehrlagige Kraftpapiertüten (25 kg)",
-          "purity": "100% rein, schwermetallfrei",
-          "grade": "A++ Premium Curcumin Gold",
+          "origin": "Erode & Salem Estates, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "Curcumin > 5 % zertifiziert, rein",
+          "grade": "A++ High-Curcumin Gold",
           "minOrder": "500 Kilogramm"
         }
       },
       "s-redchilli": {
-        "name": "Chilipulver Rot",
-        "desc": "Leuchtend rotes Chilipulver aus ganzen stiellosen Guntur Sannam und Kashmiri Chilis, mit tiefem Aroma und anpassbaren SHU-Schärfegraden.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "name": "Rotes Chilipulver",
+        "desc": "Rotes Chilipulver von Guntur Sannam bietet eine tiefe Farbe und anpassbare Schärfewerte für internationale Küchen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Guntur Region, Indien",
-          "packaging": "Luftdichte Beutel mit Sauerstoffabsorbern",
-          "purity": "Aflatoxin & Sudan-Farbstoff-negativ",
-          "grade": "Premium Single Origin",
+          "origin": "Guntur-Region, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "Aflatoxin und Sudan-Farbstoff negativ",
+          "grade": "Kashmiri Bright Red Selection",
           "minOrder": "500 Kilogramm"
         }
       },
       "s-coriander": {
         "name": "Korianderpulver",
-        "desc": "Aromatisches Pulver aus Koriandersamen mit hohem ätherischen Öl-Gehalt. Verleiht süß-warme, zitrusartige Untertöne für Gourmetmischungen.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Traditionelles ganzes und gemahlenes Korianderpulver, das bei niedriger Temperatur gemahlen wird, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Malwa Plateau, Indien",
-          "packaging": "HDPE PP-Beutel mit innerem LDPE-Liner",
-          "purity": "Keine zugesetzten Füllstoffe",
-          "grade": "Fein gemahlenes reines indisches Ursprung",
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
           "minOrder": "500 Kilogramm"
         }
       },
       "s-cumin": {
-        "name": "Kreuzkümmelsamen",
-        "desc": "Kräftige, staubgereinigte Kreuzkümmelsamen (Jeera) mit optimalem Cuminaldehyd-Gehalt. Bietet erdige und nussige Geschmacksprofile.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "name": "Kreuzkümmelpulver",
+        "desc": "Traditionelles ganzes und gemahlenes Kreuzkümmelpulver, das bei niedriger Temperatur gemahlen wird, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Gujarat Trockengebiete, Indien",
-          "packaging": "Jutebeutel oder Verbundpapierkartons",
-          "purity": "99,5% maschinell gereinigt (Sortex)",
-          "grade": "Singapore Quality Hohe Reinheit",
-          "minOrder": "1 Metrische Tonne"
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
+          "minOrder": "500 Kilogramm"
         }
       },
       "s-blackpepper": {
         "name": "Schwarzer Pfeffer",
-        "desc": "Kräftige Malabar Tellicherry Extra Bold Garbled Pfefferkörner (TGSEB). Geschätzt für seine reiche Piperin-Schärfe und komplexe Waldduftnote.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Ganze schwarze Pfefferbeeren der Güteklasse 1, geerntet an historischen Malabar-Hängen, liefern intensive Piperin-Schärfe und ein komplexes Holzaroma.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Wayanad Wälder, Indien",
-          "packaging": "Dual laminiertes Polybeutel (25/50 kg)",
-          "purity": "Feuchtigkeitsgehalt <11,5% zertifiziert",
-          "grade": "Klasse MG1 (Tellicherry Supreme)",
+          "origin": "Wayanad-Hochlandwälder, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "Feuchtigkeit < 11,5 % zertifiziert",
+          "grade": "Tellicherry Extra Bold (TGSEB)",
           "minOrder": "500 Kilogramm"
         }
       },
       "s-cardamom": {
         "name": "Kardamom",
-        "desc": "Stattliche 8mm+ große grüne Kardamomkapseln, sorgfältig getrocknet, um tiefe smaragdgrüne Farbe und tiefes, komplexes harzig-kampferartiges Aroma zu bewahren.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Pralle, hochwertige grüne Kardamomkapseln mit wunderschönen natürlichen Smaragdschalen und einem hohen Gehalt an ätherischen Samenölen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Kardamom-Hügel, Kerala, Indien",
-          "packaging": "Aluminiumfolien-ausgelegte Masterkartons",
+          "origin": "Kardamomhügel, Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
           "purity": "Frei von künstlichen Poliermitteln",
-          "grade": "Groß Premium Extra Smaragd (8mm+)",
+          "grade": "Bold Premium Extra Emerald (8mm+)",
+          "minOrder": "200 Kilogramm"
+        }
+      },
+      "s-cloves": {
+        "name": "Nelken",
+        "desc": "Ganze braune Nelken, auf optimalen Feuchtigkeitsgehalt getrocknet, um aromatische Eugenolverbindungen zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Nilgiris-Gürtel, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Handverlesene erstklassige ganze Nelken",
           "minOrder": "200 Kilogramm"
         }
       },
       "s-cinnamon": {
         "name": "Zimt",
-        "desc": "Duftende, handgeschälte Stangen echten Ceylon-Zimt. Süßes, sanftes holziges Aroma mit sehr geringem Cumarin-Gehalt, optimal für Premium-Süßwaren.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Süße Zimtstangen vom Ceylon-Typ, nachhaltig geerntet, enthalten sehr wenig Cumarin und eine zarte holzige Süße.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Western Ghats Bio-Bauernhöfe, Indien",
-          "packaging": "Jutefaserbündel oder Masterboxen",
-          "purity": "100% authentische Rindenstangen",
-          "grade": "Feine Klasse Alba/C5 Auswahl",
-          "minOrder": "200 Kilogramm"
+          "origin": "Western Ghats, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Hochwertige Alba-Federn",
+          "minOrder": "500 Kilogramm"
         }
       },
-      "s-cloves": {
-        "name": "Gewürznelken",
-        "desc": "Reiche, aromatische ganze Gewürznelken mit hohem Eugenol-Ölgehalt. Köpfe von kräftiger Form und tief rotbrauner Farbe.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+      "s-nutmeg": {
+        "name": "Muskatnuss",
+        "desc": "Traditionelle ganze und gemahlene Muskatnuss, die bei niedriger Temperatur gemahlen wird, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Nilgiris Gürtel, Indien",
-          "packaging": "Sackeinlage innerhalb von Kartontrennern",
-          "purity": "Sortex-sortiert, minimale Stiele",
-          "grade": "Handverlesene Premium-Gewürznelken",
-          "minOrder": "200 Kilogramm"
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "s-staranise": {
+        "name": "Sternanis",
+        "desc": "Traditioneller ganzer und gemahlener Sternanis, der bei niedriger Temperatur gemahlen wird, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
+          "minOrder": "500 Kilogramm"
         }
       },
       "s-fennel": {
         "name": "Fenchelsamen",
-        "desc": "Kräftige, süße Fenchelsamen (Saunf) mit heller grüner Farbe. Ideal für Digestif-Aufgüsse und handwerkliches Backen.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Traditionelle ganze und gemahlene Fenchelsamen, die bei niedriger Temperatur gemahlen werden, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Rajasthan Ebenen, Indien",
-          "packaging": "PP-Beutel oder kundenspezifische Fasersäcke",
-          "purity": "99% rein, nach Farbgleichmäßigkeit sortiert",
-          "grade": "Premium Bold Green",
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
           "minOrder": "500 Kilogramm"
         }
       },
       "s-mustard": {
-        "name": "Senfsamen",
-        "desc": "Kräftige schwarze und gelbe Senfsamen mit hohem Ölgehalt. Erzeugen eine scharfe Schärfe für Gewürzpasten, Essig und Tafelschmierer.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "name": "Senfkörner",
+        "desc": "Traditionelle ganze und gemahlene Senfkörner, die bei niedriger Temperatur gemahlen werden, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Indo-Gangetic Boden, Indien",
-          "packaging": "Gewebe-Mehrlagen-Kraftpapierkartons",
-          "purity": "Mikrobiologisch gereinigt",
-          "grade": "Klasse-A Bold Sortex",
-          "minOrder": "1 Metrische Tonne"
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "s-bayleaves": {
+        "name": "Lorbeerblätter",
+        "desc": "Traditionelle ganze und gemahlene Lorbeerblätter, die bei niedriger Temperatur gemahlen werden, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
+          "minOrder": "500 Kilogramm"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Klassische Mischung aus geröstetem Kardamom, Zimt, schwarzem Pfeffer, Nelken, Muskatblüte, Muskatnuss und Kreuzkümmel. Kalt gemahlen, um flüchtige Ester zu bewahren.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Traditionelles ganzes und gemahlenes Garam Masala, verarbeitet bei niedriger Temperatur, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Königliche Veda-Mischung, Indien",
-          "packaging": "Hochwertige Barriere-Beutel in Masterboxen",
-          "purity": "100% traditionelle Formulierung",
-          "grade": "Gourmet Culinary-Grade",
-          "minOrder": "200 Kilogramm"
-        }
-      },
-      "s-currypowder": {
-        "name": "Currypulver",
-        "desc": "Internationale Madras-Currypulver-Mischung. Perfekt ausbalancierte Noten von Koriander, mildem Chili, Bockshornklee und hoch-curcuminhaltiger Kurkuma.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Madras Heritage Blend, Indien",
-          "packaging": "Mehrlagige metallisierte Feuchtigkeitsbarriere-Verpackung",
-          "purity": "Keine künstlichen Lebensmittelfarben",
-          "grade": "Premium Exportqualität",
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
           "minOrder": "500 Kilogramm"
         }
       },
-      "s-gingerpowder": {
-        "name": "Ingwerpulver",
-        "desc": "Getrocknetes und fein gemahlenes Ingwerwurzelpulver, das starke Gingerol-Wärme und würzige Schärfe liefert. Sehr gefragt in der Getränke- und Backindustrie.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+      "s-mixedspice": {
+        "name": "Gemischte Gewürzmischungen",
+        "desc": "Traditionelle ganze und gemahlene Gewürzmischungen, die bei niedriger Temperatur gemahlen werden, um aromatische Anteile zu schützen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Nordost-Hügel, Indien",
-          "packaging": "Vakuumversiegelte Folienbeutel (25 kg)",
-          "purity": "Reine Zingiber officinale Wurzel",
-          "grade": "Select Grade Fine",
-          "minOrder": "300 Kilogramm"
-        }
-      },
-      "s-garlicpowder": {
-        "name": "Knoblauchpulver",
-        "desc": "Getrocknetes, feines Knoblauchpulver aus starken lokalen indischen Knoblauchklonen, das ein starkes Allicin-getriebenes Aroma und sofortige Geschmacksverteilung bietet.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Madhya Pradesh Agrar-Gürtel, Indien",
-          "packaging": "Laminierte feuchtigkeitsgeschützte Fässer",
-          "purity": "Frei von Zusatzstoffen, nicht verklumpend",
-          "grade": "A-Grade Culinary Powder",
+          "origin": "Gewürzgürtel Kerala, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "100 % rein, frei von Schwermetallen",
+          "grade": "Premium-Exportqualität",
           "minOrder": "500 Kilogramm"
         }
       },
-      "s-onionpowder": {
-        "name": "Zwiebelflocken / -pulver",
-        "desc": "Erstklassige getrocknete rote und weiße Zwiebeln, zu Pulver gemahlen. Liefert konzentrierten süßen, scharfen Zwiebelgeschmack sofort ohne Feuchtigkeitsbelastung.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Maharashtra Agro Belt, Indien",
-          "packaging": "Doppelt versiegelte lebensmittelechte Beutel in Kartons",
-          "purity": "Feuchtigkeitsgehalt <4,0% Standard",
-          "grade": "Hohe Maschenweite Gourmet-Standard",
-          "minOrder": "500 Kilogramm"
-        }
-      },
-      "d-onion": {
-        "name": "Zwiebelflocken",
-        "desc": "Sorgfältig geschnittene und luftgetrocknete Premium-rote Zwiebeln. Behält hohe Schärfe, leichte Textur und makellose visuelle Flocken mit langfristiger Haltbarkeit.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Nashik Region, Indien",
-          "packaging": "Feuchtigkeitsgeschützte lebensmittelechte Fässer (20 kg)",
-          "purity": "Frei von äußeren Schalen / Ruß",
-          "grade": "Choice Grade AA Flocken",
-          "minOrder": "500 Kilogramm"
-        }
-      },
-      "d-garlic": {
-        "name": "Knoblauchflocken",
-        "desc": "Goldweiße, bei niedriger Temperatur getrocknete, geschnittene Knoblauchflocken. Robuster Allicin-Gehalt, perfekt für schnelle Rekonstitution in Convenience Foods.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Malwa Region, Indien",
-          "packaging": "Polyethylen-ausgelegte Wellpappkartons",
-          "purity": "100% reine Knoblauchzehen, keine Schalen",
-          "grade": "AAA-Grade Sortex-sortiert",
-          "minOrder": "500 Kilogramm"
-        }
-      },
-      "d-tomato": {
-        "name": "Tomatenpulver",
-        "desc": "Reichhaltiges rotes Pulver aus sprühgetrockneten, sonnengereiften Bio-Tomaten. Verleiht Suppen, Saucen und herzhaften Mischungen sofortige Umami-Tiefe und klassischen Tomaten-Tang.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "DharaAveda bezogene Bauernhöfe, Indien",
-          "packaging": "Aluminium-Vakuum-Folien-Fass-Einsätze",
-          "purity": "100% natürliches Lycopin, keine Synthetika",
-          "grade": "Premium Sprühgetrocknet",
-          "minOrder": "300 Kilogramm"
-        }
-      },
-      "d-beetroot": {
+      "vp-beetroot": {
         "name": "Rote-Bete-Pulver",
-        "desc": "Fein gemahlenes Pulver aus dehydrierten Premium-Roten Beten, das intensive karmesinrote Betalain-Farben zusammen mit süßen, natürlichen nitratreichen Profilen liefert.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Reichhaltiges purpurrotes Rote-Bete-Pulver mit hohem natürlichen Gehalt an Betalainen, Nitraten und Ballaststoffen für Gesundheitsmischungen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Vedic Ebenen, Indien",
-          "packaging": "Versiegelte Barriererohre oder doppelte Polybeutel",
-          "purity": "Keine künstlichen Farbstoffe",
-          "grade": "Nutraceutical Grade",
-          "minOrder": "200 Kilogramm"
+          "origin": "Vedische Ebenen, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
         }
       },
-      "d-spinach": {
+      "vp-tomato": {
+        "name": "Tomatenpulver",
+        "desc": "Feines sprühgetrocknetes rotes Tomatenpulver, hergestellt aus reifen Bio-Tomaten, ideal für Instant-Suppen, Saucen und Gewürzmischungen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Karnataka Farms, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-potato": {
+        "name": "Kartoffelpulver",
+        "desc": "Hochreines, dehydriertes Kartoffelpulver, gemahlen nach Mikromaschen-Standards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-garlic": {
+        "name": "Knoblauchpulver",
+        "desc": "Konzentriertes Knoblauchpulver, gemahlen aus aromatischen Knollen, sorgt für kräftigen Allicin-Geschmack und gute Dispergierbarkeit.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Madhya Pradesh, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-ginger": {
+        "name": "Ingwerpulver",
+        "desc": "Feines Ingwerwurzelpulver mit starker Gingerolwärme, weit verbreitet in Süßwaren und Kräuterteemischungen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Northeast Hills, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-onion": {
+        "name": "Zwiebelpulver",
+        "desc": "Dehydriertes weißes/rotes Zwiebelpulver verleiht Lebensmittelmischungen schnell die pikante Süße und Würze der Zwiebeln.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Nashik-Region, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-spinach": {
         "name": "Spinatpulver",
-        "desc": "Brillant grünes Pulver aus eisenreichem frischem Spinat, luftgetrocknet. Hoch löslich, liefert sofortige Chlorophyllanreicherung.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Feines grünes Pulver, getrocknet aus hochwertigen Spinatblättern, das Nahrungseisen und natürliche Chlorophyllfarbe enthält.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Himalaya-Vorfeld, Indien",
-          "packaging": "Stickstoffgespülte Vakuumbeutel",
-          "purity": "100% reines Spinacia oleracea",
-          "grade": "Superfood Futter- und Lebensmittelqualität",
-          "minOrder": "200 Kilogramm"
+          "origin": "Ausläufer des Himalaya, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
         }
       },
-      "d-carrot": {
+      "vp-carrot": {
         "name": "Karottenpulver",
-        "desc": "Reichhaltiges orangefarbenes Pulver aus süßen, dehydrierten Babykarotten, das hohe Beta-Carotin-Retention und sanfte Ballaststoffreichhaltigkeit aufweist.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+        "desc": "Hochreines, dehydriertes Karottenpulver, gemahlen nach Micro-Mesh-Standards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Punjab Agrarfelder, Indien",
-          "packaging": "Feuchtigkeitsversiegelte Fässer (20 kg)",
-          "purity": "100% Karotten-Hauptwurzeln, keine Zuckerzusätze",
-          "grade": "U.S. FDA-konforme Klasse",
-          "minOrder": "300 Kilogramm"
-        }
-      },
-      "d-greenchilli": {
-        "name": "Grüne Chiliflocken",
-        "desc": "Zitronig-grüne Flocken, geschnitten aus frischen Capsicum und Chilis, die saftige Kräuterwärme, Capsaicinoide und knackige grüne Farbe bewahren.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Nimar Valley, Indien",
-          "packaging": "Luftdichte Mehrlagen-Papierverpackungen",
-          "purity": "Rückstandsfrei, hoher Reinheitsstandard",
-          "grade": "Premium Pungency Flakes",
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
           "minOrder": "500 Kilogramm"
         }
       },
-      "d-drumstick": {
-        "name": "Moringapulver",
-        "desc": "Trocknung nährstoffreicher botanischer Trommelstockhülsen. Reich an essentiellen Aminosäuren und Mikronährstoffen; exzellent für tägliche Gesundheitsformulierungen.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+      "vp-cabbage": {
+        "name": "Kohlpulver",
+        "desc": "Hochreines, dehydriertes Kohlpulver, gemahlen nach Mikromaschen-Standards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Deccan Biofarm, Indien",
-          "packaging": "Barriere-Folienauskleidungen in Fässern",
-          "purity": "100% reine Moringa Oleifera Hülsen",
-          "grade": "Gourmet Functional",
-          "minOrder": "200 Kilogramm"
-        }
-      },
-      "d-moringa": {
-        "name": "Moringapulver",
-        "desc": "Zertifiziert biologisch geerntete, schattentrocknete Blätter des Wunderbaums (Moringa oleifera). Tief smaragdgrünes Pulver, beladen mit essentiellen Vitaminen, Polyphenolen und vollständigen Proteinen.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Latur Organic Valley, Indien",
-          "packaging": "Vakuum-Barriere-Verpackung mit Trockenmittelpacks",
-          "purity": "99,9% rohes Blattpulver, keine Zusatzstoffe",
-          "grade": "AAA+ Premium Nutraceutical",
-          "minOrder": "200 Kilogramm"
-        }
-      },
-      "d-curryleaves": {
-        "name": "Curryblätterpulver",
-        "desc": "Hergestellt aus frischen botanischen Curryblättern, die unmittelbar nach der Ernte schattengtrocknet werden. Bewahrt aromatische, therapeutische Terpenöle für Gesundheitsformulierungen und Luxuskosmetik.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Kerala Gewürzgürtel, Indien",
-          "packaging": "Versiegelte Kraft-Poly-Liner",
-          "purity": "Bio-Sorte Murraya Koenigii",
-          "grade": "Klasse-1 Herbal Standard",
-          "minOrder": "200 Kilogramm"
-        }
-      },
-      "j-powder": {
-        "name": "Jaggery-Pulver",
-        "desc": "Freifließendes, nicht klebriges Bio-Jaggery-Pulver, verarbeitet ohne chemische Bleichmittel oder giftige Verarbeitungshilfsstoffe. Bietet gesunde mineralische Süßungsprofile.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
-        "spec": {
-          "origin": "Kolhapur Zuckerrohr-Gürtel, Indien",
-          "packaging": "Stand-up feuchtigkeitsgeschützte Öko-Beutel",
-          "purity": "100% biologisch, chemisch gereinigt",
-          "grade": "Premium Kristalline Stufe",
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
           "minOrder": "500 Kilogramm"
         }
       },
-      "j-cubes": {
-        "name": "Jaggery-Würfel",
-        "desc": "Vorgemessene, gleichmäßige Blöcke und Würfel aus authentischem Jaggery hoher Reinheit. Löst sich sauber auf und setzt tiefes Melasse-Aroma frei.",
-        "pricing": "Kontaktieren Sie unseren Handelstisch",
+      "vp-moringa": {
+        "name": "Trommelstockpulver (Moringa).",
+        "desc": "Nährendes Moringa-Schoten- und Blattpulver, das in Reinräumen verarbeitet wird, um einen extrem hohen Vitamin- und Antioxidantiengehalt aufrechtzuerhalten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
         "spec": {
-          "origin": "Mandya Agrar-Gürtel, Indien",
-          "packaging": "Kammergeteilte Vakuum-Schalenpackungen",
-          "purity": "Traditionelle Zuckerrohr-Extraktion",
-          "grade": "Klasse-A Gleichmäßige Würfel",
+          "origin": "Latur Valley, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-greenchilli": {
+        "name": "Grünes Chilipulver",
+        "desc": "Hochreines, dehydriertes grünes Chilipulver, gemahlen nach Mikromaschen-Standards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-corianderleaf": {
+        "name": "Korianderblattpulver",
+        "desc": "Hochreines, dehydriertes Korianderblattpulver, gemahlen nach Mikromaschenstandards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "vp-mint": {
+        "name": "Minzpulver",
+        "desc": "Hochreines, dehydriertes Minzpulver, gemahlen nach Mikromaschen-Standards für schnelle Löslichkeit und Geschmacksverteilung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Laminierte feuchtigkeitsbeständige Fässer (20 kg)",
+          "purity": "100 % reines dehydriertes Gemüse, ohne Zusatzstoffe",
+          "grade": "Erstklassig sprühgetrocknet/bei niedriger Temperatur gemahlen",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-banana": {
+        "name": "Bananenpulver",
+        "desc": "Dehydriertes grünes Bananenpulver, reich an resistenter Stärke, verwendet in gesunden glutenfreien Mehlformulierungen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Wayanad-Hochland, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-mango": {
+        "name": "Mangopulver",
+        "desc": "Sprühgetrocknetes Kesar- und Alphonso-Mangopulpepulver, das den authentischen tropischen Geschmack, die goldene Farbe und den natürlichen Zucker bewahrt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Ratnagiri-Obstgärten, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-guava": {
+        "name": "Guavenpulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Guavenpulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-pomegranate": {
+        "name": "Granatapfelpulver",
+        "desc": "Antioxidantienreiches Granatapfelsaftpulver, sprühgetrocknet, um den hohen Brix und die schöne rosarote Färbung zu erhalten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Deccan-Plateau, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-pineapple": {
+        "name": "Ananaspulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Ananaspulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-papaya": {
+        "name": "Papaya-Pulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Papayapulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-apple": {
+        "name": "Apfelpulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Apfelpulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-orange": {
+        "name": "Orangenpulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Orangenpulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-lemon": {
+        "name": "Zitronenpulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Zitronenpulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-strawberry": {
+        "name": "Erdbeerpulver",
+        "desc": "Sprühgetrocknetes Premium-Fruchtsaftpulver aus Erdbeerpulver, das natürliche Aromen und visuelle Farbtöne für Gourmet-Mixer und Backwaren einfängt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "Sprühgetrocknet aus 100 % Bio-Fruchtmark",
+          "grade": "Lebensmittel- und Getränkeklasse A",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fp-amla": {
+        "name": "Amla-Pulver",
+        "desc": "Dehydriertes Pulver der Indischen Stachelbeere (Amla) mit außergewöhnlichem Vitamin-C-Gehalt, hervorragend geeignet als Nahrungsergänzungsmittel.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Obstgärten, Indien",
+          "packaging": "Aluminium-Vakuumfolieneinsätze in Umkartons",
+          "purity": "100 % reines Amla, hoher Vitamin C-Gehalt",
+          "grade": "Nutrazeutischer Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "m-powder": {
+        "name": "Moringa-Pulver",
+        "desc": "Fein gemahlenes rohes Blattpulver von Moringa oleifera-Bäumen aus biologischem Anbau mit hohem Protein-, Eisen- und Multivitamingehalt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Latur Organic Farms, Indien",
+          "packaging": "Vakuumversiegelte UV-Barrierebeutel (20 kg)",
+          "purity": "USDA- und APEDA-Bio-zertifiziert",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogramm"
+        }
+      },
+      "m-leaves": {
+        "name": "Moringa-Blätter",
+        "desc": "Im Schatten getrocknete, ganze Moringa-Blätter werden systematisch von Stielen und organischen Rückständen gereinigt, sodass das lebenswichtige Chlorophyll intakt bleibt.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Latur Organic Farms, Indien",
+          "packaging": "Doppelt ausgekleidete, gewebte Säcke (15 kg)",
+          "purity": "USDA- und APEDA-Bio-zertifiziert",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogramm"
+        }
+      },
+      "m-tea": {
+        "name": "Moringa-Tee",
+        "desc": "Erstklassig geschnittene Moringa-Blätter, gemischt mit aromatischen Kräutern, ergeben einen hochantioxidativen, koffeinfreien täglichen Wellness-Aufguss.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Latur Organic Farms, Indien",
+          "packaging": "Maßgeschneiderte Filterteebeutel in Verbunddosen",
+          "purity": "USDA- und APEDA-Bio-zertifiziert",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogramm"
+        }
+      },
+      "m-extract": {
+        "name": "Moringa-Extrakt",
+        "desc": "Hochwirksamer bioaktiver Moringa-Blattextrakt, standardisiert auf Gesamtflavonoide und Saponinverhältnisse, für die klinische Anwendung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Latur Organic Farms, Indien",
+          "packaging": "HDPE-Kanister in Lebensmittelqualität",
+          "purity": "USDA- und APEDA-Bio-zertifiziert",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogramm"
+        }
+      },
+      "sd-flax": {
+        "name": "Leinsamen",
+        "desc": "Dunkelbraune Bio-Leinsamen voller Omega-3-Fettsäuren, verarbeitet mit fortschrittlichen optischen Sortierern, um Reinheit zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-pumpkin": {
+        "name": "Kürbiskerne",
+        "desc": "Exportfertige Premium-Kürbiskerne, sorgfältig gereinigt und sortiert für Diätsaaten, Getreide und die industrielle Ölgewinnung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-sesame": {
+        "name": "Sesamsamen",
+        "desc": "Knusprige, weiße, geschälte Sesamkörner der Auto-Sortex-Qualität mit hohem Ölgehalt und Nussgeschmack für weltweite Bäckereiimporte.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Premium geschälte, automatisch gereinigte Sortex",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-sunflower": {
+        "name": "Sonnenblumenkerne",
+        "desc": "Exportfertige Premium-Sonnenblumenkerne, sorgfältig gereinigt und sortiert für Nahrungssaaten, Getreide und die industrielle Ölgewinnung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-chia": {
+        "name": "Chia-Samen",
+        "desc": "Hochquellende schwarze und weiße Bio-Chiasamen, sortiert, um alle fremden Pflanzenteile zu entfernen, reich an Schleimfasern.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Madhya Pradesh, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-watermelon": {
+        "name": "Wassermelonenkerne",
+        "desc": "Exportfertige, sorgfältig gereinigte und sortierte Premium-Wassermelonenkerne für Nahrungssamen, Getreide und die industrielle Ölgewinnung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "sd-basil": {
+        "name": "Basilikumsamen",
+        "desc": "Exportfertige, sorgfältig gereinigte und sortierte Premium-Basilikumsamen für Nahrungssamen, Getreide und die industrielle Ölgewinnung.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Gujarat-Trockengebiete, Indien",
+          "packaging": "Mehrschichtige Kraftpapiertüten (25 kg)",
+          "purity": "99,9 % maschinengereinigt/Sortex-gereinigt",
+          "grade": "Exportieren Sie Bold-Samen der Güteklasse AAA",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-onion": {
+        "name": "Dehydrierte Zwiebel",
+        "desc": "Luftgetrocknete rote und weiße Zwiebelscheiben mit ausgezeichneter Textur, die den wesentlichen scharfen Geschmack für die sofortige Zubereitung von Speisen bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Nashik-Region, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-garlic": {
+        "name": "Dehydrierter Knoblauch",
+        "desc": "Hochwertige dehydrierte Knoblauchzehen werden gespalten, um die Rehydrierung in Instant-Gewürzmischungen, Eintöpfen in Dosen und Nudeln zu beschleunigen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Malwa-Region, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-ginger": {
+        "name": "Dehydrierter Ingwer",
+        "desc": "Bei niedriger Temperatur getrocknete, dehydrierte Ingwerscheiben, sorgfältig sortiert, um eine einheitliche Form und Farbe für industrielle Lebensmittelverpacker zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-tomato": {
+        "name": "Dehydrierte Tomate",
+        "desc": "Getrocknete Bio-Tomatenscheiben mit hohem natürlichen Lycopingehalt und ohne Sulfitbehandlung für kulinarische Gourmet-Pakete.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Wayanad-Hochland, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-carrot": {
+        "name": "Dehydrierte Karotte",
+        "desc": "Bei niedriger Temperatur getrocknete, dehydrierte Karottenscheiben, sorgfältig sortiert, um eine einheitliche Form und Farbe für industrielle Lebensmittelverpacker zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-beetroot": {
+        "name": "Dehydrierte Rote Bete",
+        "desc": "Bei niedriger Temperatur getrocknete, dehydrierte Rote-Bete-Scheiben, sorgfältig sortiert, um eine einheitliche Form und Farbe für industrielle Lebensmittelverpacker zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-spinach": {
+        "name": "Dehydrierter Spinat",
+        "desc": "Bei niedriger Temperatur getrocknete, dehydrierte Spinatscheiben, sorgfältig sortiert, um eine einheitliche Form und Farbe für industrielle Lebensmittelverpacker zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "dv-cabbage": {
+        "name": "Dehydrierter Kohl",
+        "desc": "Bei niedriger Temperatur getrocknete, dehydrierte Kohlscheiben, sorgfältig sortiert, um eine einheitliche Form und Farbe für industrielle Lebensmittelverpacker zu gewährleisten.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Mit Polyethylen ausgekleidete Wellpappkartons (15/20 kg)",
+          "purity": "Ohne Zusatz von Salz, Konservierungsmitteln oder Sulfiten",
+          "grade": "AAA Premium Rehydration Standard",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-banana": {
+        "name": "Bananenscheiben",
+        "desc": "Süße Cavendish-Bananenrunden, natürlich dehydriert, ohne chemische Konservierungsstoffe, perfekt für Bio-Snackmischungen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Wayanad-Hochland, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-mango": {
+        "name": "Mangoscheiben",
+        "desc": "Von Hand geschnittene Alphonso- und Kesar-Mangostreifen, luftgetrocknet, um den süßen tropischen Duft und die weiche, zähe Gourmet-Textur zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Ratnagiri-Obstgärten, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-pineapple": {
+        "name": "Ananasscheiben",
+        "desc": "Hochwertige dehydrierte Scheiben sonnengereifter Bio-Ananasscheiben, strukturiert für Feinkostbeutel und Getreidezusätze.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-apple": {
+        "name": "Apfelscheiben",
+        "desc": "Hochwertige dehydrierte Scheiben sonnengereifter Bio-Apfelscheiben, strukturiert für Feinkostbeutel und Müslizusätze.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-papaya": {
+        "name": "Papayascheiben",
+        "desc": "Hochwertige dehydrierte Scheiben sonnengereifter Bio-Papayascheiben, strukturiert für Gourmet-Lebensmittelbeutel und Getreidezusätze.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-strawberry": {
+        "name": "Erdbeerscheiben",
+        "desc": "Hochwertige dehydrierte Scheiben sonnengereifter Bio-Erdbeerscheiben, strukturiert für Gourmet-Lebensmittelbeutel und Müslizusätze.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "df-guava": {
+        "name": "Guavenscheiben",
+        "desc": "Hochwertige dehydrierte Scheiben aus sonnengereiften Bio-Guavenscheiben, strukturiert für Gourmet-Lebensmittelbeutel und Getreidezusätze.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Vakuumversiegelte Polybeutel in Umkartons (10 kg)",
+          "purity": "Ohne Zusatz von Zucker, Sulfiten oder Farbstoffen",
+          "grade": "Premium-Langschnittscheiben",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-onion": {
+        "name": "Zwiebelflocken",
+        "desc": "Perfekt geschnittene 10 mm dicke rote und weiße Zwiebelflocken, systematisch an der Luft getrocknet, um das natürliche süße Allicin zu erhalten, ideal für Fast-Food-Nudeln und Soßen.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Nashik-Tal, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-garlic": {
+        "name": "Knoblauchflocken",
+        "desc": "Dehydrierte Knoblauchflocken spalten sich sauber und bieten eine scharfe Alliumschale und eine schnelle Hydratation für Fertiggerichte.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Malwa-Plateau, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-potato": {
+        "name": "Kartoffelflocken",
+        "desc": "Hochwertige dehydrierte Kartoffelflocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-tomato": {
+        "name": "Tomatenflocken",
+        "desc": "Hochwertige dehydrierte Tomatenflocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-beetroot": {
+        "name": "Rote-Bete-Flocken",
+        "desc": "Hochwertige dehydrierte Rote-Bete-Flocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-carrot": {
+        "name": "Karottenflocken",
+        "desc": "Hochwertige dehydrierte Karottenflocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-spinach": {
+        "name": "Spinatflocken",
+        "desc": "Hochwertige dehydrierte Spinatflocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
+          "minOrder": "500 Kilogramm"
+        }
+      },
+      "fl-mixedveg": {
+        "name": "Gemischte Gemüseflocken",
+        "desc": "Hochwertige, dehydrierte, gemischte Gemüseflocken, getrocknet, um die Farbintensität und Zellstruktur für schnelle Gourmet-Mahlzeiten zu bewahren.",
+        "pricing": "Kontaktieren Sie Trade Desk",
+        "spec": {
+          "origin": "Maharashtra, Indien",
+          "packaging": "Kartons aus Doppelwellpappe mit heißversiegelter Einlage",
+          "purity": "Feuchtigkeit < 5 % garantiert, kein Staub",
+          "grade": "Gourmet-Flockenschnitt (10–12 mm)",
           "minOrder": "500 Kilogramm"
         }
       }
     }
   },
   "seo": {
-    "homeTitle": "DharaAveda Heiligtum | Ganzheitliche Heilung & Premium Exporte",
-    "homeDesc": "Das DharaAveda Heiligtum bietet Bachblütentherapie, Reiki-Chakra-Ausrichtung und 432Hz Klangheilung.",
-    "exportTitle": "Agrar-Exportabteilung | DharaAveda",
-    "exportDesc": "Erstklassige Gewürze, reines Shilajit und biologische Aromatherapie-Extrakte. APEDA- und SGS-konform.",
-    "wellnessTitle": "Ganzheitliche Wohlfühltherapien & Heiligtum | DharaAveda",
-    "wellnessDesc": "Erleben Sie Usui Reiki, Bachblüten-Konsultationen und Klangtherapie in unserem Wayanad-Heiligtum.",
-    "bookingTitle": "Buchen Sie Ihre Wohlfühlsitzung | DharaAveda",
-    "bookingDesc": "Reservieren Sie Ihre Sitzung für Reiki, Bachblüten oder Klangheilung in unserem Bergheiligtum.",
-    "contactTitle": "Kontakt | DharaAveda",
-    "contactDesc": "Kontaktieren Sie uns für Agrar-Großlieferungen, Handelsverträge oder Aufnahme im Heiligtum."
+    "homeTitle": "DharaAveda-Heiligtum | Restaurative Quantenheilung und Premium-Wellness-Exporte",
+    "homeDesc": "Das DharaAveda Sanctuary vereint klassische Bach-Wildblumentherapie, Usui-Reiki-Chakra-Ausrichtung, chromoätherische Aura-Soma-Öle und Klangeinstimmungen.",
+    "exportTitle": "Abteilung Agrarhandel | DharaAveda-Heiligtum",
+    "exportDesc": "Hochwertiger grüner Kardamom aus direkter Quelle, reines Shilajit-Harz und Bio-Aromatherapie-Extrakte. Autorisierte APEDA- und SGS-Konformität.",
+    "wellnessTitle": "Wiederherstellendes Quantenheiligtum und Therapien | DharaAveda",
+    "wellnessDesc": "Erleben Sie Usui Reiki, Bachblüten-Beratungen und 432-Hz-Klangtherapie in unserem Wayanad-Heiligtum in Kerala.",
+    "bookingTitle": "Planen Sie Ihren Einstimmungsaufenthalt | DharaAveda",
+    "bookingDesc": "Reservieren Sie Ihre vertrauliche Aufnahmesitzung für Reiki-Ausrichtung, Bachblüten-Beratungen oder tiefe Klangheilung.",
+    "contactTitle": "Kontaktieren Sie den Ratsschalter | DharaAveda",
+    "contactDesc": "Kontaktieren Sie uns für landwirtschaftliche Massenlieferungen, Rohstoffverträge oder Wellness-Eintritte in Schutzgebiete."
   }
 };

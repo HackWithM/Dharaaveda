@@ -32,78 +32,78 @@ export const translations: StaticTranslations = {
     "rights": "Tüm hakları saklıdır. Tescilli Ticari Kuruluş."
   },
   "home": {
-    "heroTitle": "Küresel Ticaret ve Bütünsel İyileşmenin Birleşimi",
-    "heroSubtitle": "Dharaaveda, birinci sınıf tarımsal tedarik zincirlerini yenileyici enerji terapileriyle uyumlu hale getirir.",
+    "heroTitle": "Küresel Ticaret ve Bütünsel Şifanın Yakınsaması",
+    "heroSubtitle": "Dharaaveda, birinci sınıf tarımsal tedarik zincirlerini onarıcı enerji terapileriyle uyumlu hale getiriyor.",
     "ctaExports": "İhracatı Keşfedin",
     "ctaTherapies": "Terapileri Keşfedin",
-    "aboutTitle": "Toprağın Bereketini ve Bireysel İyileşmeyi Birleştirmek",
-    "aboutSubtitle": "ÇİFT BÖLÜMLÜ FELSEFEMİZ",
-    "aboutDesc1": "Dharaaveda, uluslararası ticaret ile bütünsel sağlığın kesişim noktasında faaliyet göstermektedir. Gerçek sağlığın hem küresel hem de son derece kişisel olduğuna inanıyoruz.",
-    "aboutDesc2": "Tarım Bölümümüz, birinci sınıf baharatları dünya çapında dağıtmak için doğrudan organik çiftliklerle ortaklık yapmaktadır. Eş zamanlı olarak Terapi Bölümümüz Wayanad'da sessiz inziva yerleri sunar.",
+    "aboutTitle": "Dünyanın Ödül ve Bireysel İyileşme Arasında Köprü Kurmak",
+    "aboutSubtitle": "ÇİFT BÖLÜM FELSEFEMİZ",
+    "aboutDesc1": "Dharaaveda, uluslararası ticaret ve bütünsel sağlıklı yaşamın kesiştiği noktada faaliyet göstermektedir. Gerçek refahın hem küresel hem de son derece kişisel olduğuna inanıyoruz.",
+    "aboutDesc2": "Tarım Bölümümüz, birinci sınıf baharatları ve kurutulmuş ürünleri dünya çapında dağıtmak için doğrudan organik küçük mülklerle ortaklık yapmaktadır. Aynı zamanda Terapi Bölümümüz, sinir sistemi dengesini ve hücresel canlılığı yeniden sağlamak için Wayanad'da elektromanyetik sessiz sığınaklar inşa ediyor.",
     "showcaseTitle": "Bölümlerimizi Keşfedin",
-    "showcaseSubtitle": "Özel alanlarımıza girmek için bir bölüm seçin",
+    "showcaseSubtitle": "Özel alanlarımıza girmek için bir sektör seçin",
     "exportCardTitle": "İhracat Bölümü",
-    "exportCardDesc": "Hint botanik çiftliklerini küresel eczaneler ve kozmetik markaları ile buluşturuyoruz. Bitki sağlığı kurallarına uygun olarak gönderilen birinci sınıf baharatlar ve özler.",
+    "exportCardDesc": "Hindistan'ın derin botanik çiftliklerini birinci sınıf global eczaneler, kozmetik mağazaları ve gıda ithalatçılarıyla birleştirmek. Mutlak bitki sağlığı uyumluluğu altında gönderilen birinci sınıf baharatlar, tahıllar ve adaptojenik özler.",
     "exportHighlight1": "APEDA ve SGS Sertifikalı",
-    "exportHighlight2": "Doğrudan çiftlik tedariği",
-    "exportHighlight3": "Küresel deniz ve hava yolları",
-    "exportHighlight4": "Dökme özel paketleme",
+    "exportHighlight2": "Doğrudan çiftlik kaynak kullanımı",
+    "exportHighlight3": "Küresel deniz ve hava rotası",
+    "exportHighlight4": "Toplu özel ambalaj",
     "exportCardBtn": "İhracat Hizmetlerini Görüntüle",
     "therapyCardTitle": "Terapi Bölümü",
-    "therapyCardDesc": "Biyoalanınızı uyumlu hale getirin, derin yaşam döngüsü travmalarını temizleyin ve mutlak bedensel huzuru geri kazanın. Bach çiçekleri, Reiki ve kristal ses terapisi.",
-    "therapyHighlight1": "Bach Çiçekleri Terapisi",
-    "therapyHighlight2": "Usui Reiki Uyumlaması",
+    "therapyCardDesc": "Biyolojik alanınızı uyumlu hale getirin, derin yaşam döngüsü travmasını temizleyin ve mutlak bedensel huzuru yeniden sağlayın. Çiçek özlerini, Reiki çakra hizalamasını ve polifonik kuvars sesi şifasını harmanlayan kapsamlı danışmanlık.",
+    "therapyHighlight1": "Bach Çiçek Terapisi",
+    "therapyHighlight2": "Usui Reiki Hizalanması",
     "therapyHighlight3": "Duygusal Sağlık",
-    "therapyHighlight4": "432Hz Ses Terapisi",
+    "therapyHighlight4": "432Hz Sesle İyileşme",
     "therapyCardBtn": "Terapi Hizmetlerini Görüntüle",
-    "whyTitle": "Neden Dharaaveda?",
-    "whySubtitle": "Lojistik ve sağlıkta tavizsiz standartlar",
+    "whyTitle": "Neden Dharaaveda'yı Seçmelisiniz?",
+    "whySubtitle": "Lojistik ve sağlıklı yaşamda tavizsiz standartlar",
     "whyTrustTitle": "Mutlak Güven",
-    "whyTrustDesc": "Tam şeffaflık, eksiksiz bitki sağlığı uyumu ve sertifikalı gizlilik protokolleri.",
+    "whyTrustDesc": "Tam şeffaflık, tam bitki sağlığı uyumu ve sertifikalı gizlilik protokolleri.",
     "whyQualityTitle": "Vedik Kalite",
-    "whyQualityDesc": "Çiftlikten limana doğrudan izlenebilirlik ve özel formüle edilmiş biyofrekans çözümleri.",
+    "whyQualityDesc": "Doğrudan çiftlikten limana izlenebilirlik ve özel formüle edilmiş biyo-frekans çözümleri.",
     "whyExpertiseTitle": "Kanıtlanmış Uzmanlık",
-    "whyExpertiseDesc": "Sertifikalı enerji pratisyenleri ile birleşen nesiller boyu tarımsal miras.",
+    "whyExpertiseDesc": "Nesiller boyu süren tarımsal miras, sertifikalı enerjik uygulayıcılarla eşleştirildi.",
     "whyReachTitle": "Küresel Erişim",
-    "whyReachDesc": "34'ten fazla ülkedeki lider ithalatçılara teslimat yapan güvenilir navlun hatları.",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
     "whyHolisticTitle": "Bütünsel Sağlık",
-    "whyHolisticDesc": "Saf, doğal dağ inziva yerlerinde derin hücresel iyileşme.",
+    "whyHolisticDesc": "Saf, doğal dağ sığınaklarında derin hücresel şifa.",
     "highlightsTitle": "Öne Çıkanlar",
-    "highlightsSubtitle": "Operasyonlarımızın temel odak alanları",
-    "exportHighlightTitle": "İhracat Bölümü Odak Alanı",
-    "therapyHighlightTitle": "Terapi Bölümü Odak Alanı",
-    "highlightsExport1": "Tarımsal Ürünler",
-    "highlightsExport1Desc": "Elde hasat edilmiş Cavendish muzları, Alphonso mangoları ve organik şeker kamışı özleri.",
+    "highlightsSubtitle": "Faaliyetlerimizin temel odak alanları",
+    "exportHighlightTitle": "İhracat Bölümü Odak Noktası",
+    "therapyHighlightTitle": "Terapi Bölümü Odak Noktası",
+    "highlightsExport1": "Tarım Ürünleri",
+    "highlightsExport1Desc": "Elle hasat edilmiş Cavendish muzları, Alphonso mangoları ve organik şeker kamışı özleri.",
     "highlightsExport2": "Elit Baharatlar",
-    "highlightsExport2Desc": "Salem zerdeçalı, iri kakule, Guntur biberi ve Malabar siyah biberi.",
+    "highlightsExport2Desc": "Salem zerdeçalı, koyu kakule, Guntur biberi ve Malabar karabiberi.",
     "highlightsExport3": "Kurutulmuş Ürünler",
-    "highlightsExport3Desc": "Düşük sıcaklıkta kurutulmuş soğan dilimleri, sprey kurutmalı domates ve pancar tozları.",
+    "highlightsExport3Desc": "Düşük sıcaklıkta soğan gevreği, püskürtülerek kurutulmuş domates ve pancar tozları.",
     "highlightsExport4": "Küresel Lojistik",
-    "highlightsExport4Desc": "Özel vakumlu koruyucu paketleme, SGS sertifikaları ve hızlı gümrükleme işlemleri.",
-    "highlightsTherapy1": "Bach Çiçekleri Terapisi",
-    "highlightsTherapy1Desc": "Zihinsel stresin giderilmesi ve sinirsel rahatlama için özel formüle edilmiş sıvı esanslar.",
-    "highlightsTherapy2": "Reiki Uyumlaması",
-    "highlightsTherapy2Desc": "Girişimsel olmayan biyoalan çakra dengelemesi ve yaşam enerjisi restorasyonu.",
+    "highlightsExport4Desc": "Özel vakum bariyeri yalıtımı, SGS sertifikaları ve özel bağlantı noktası dosyaları.",
+    "highlightsTherapy1": "Bach Çiçek Terapisi",
+    "highlightsTherapy1Desc": "Aktif bilişsel stres ve sinir salımı için seçilmiş özel sıvı ilaçlar.",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
+    "highlightsTherapy2Desc": "Non-invazif biyoalan çakra dengelemesi ve kromatik enerji alanı restorasyonu.",
     "highlightsTherapy3": "Duygusal Sağlık",
-    "highlightsTherapy3Desc": "Yaşam tarzı yorgunluğunu gidermek için tasarlanmış sinir sistemi kurtarma protokolleri.",
-    "highlightsTherapy4": "Enerji İyileşmesi",
-    "highlightsTherapy4Desc": "Elektromanyetik kirlilik içermeyen odalarda 432Hz kuvars kristal kase ses terapisi.",
+    "highlightsTherapy3Desc": "Yaşam tarzı yorgunluğunu ortadan kaldırmak için tasarlanmış sinir sistemi iyileşme protokolleri.",
+    "highlightsTherapy4": "Enerji Şifası",
+    "highlightsTherapy4Desc": "Elektromanyetik içermeyen odalar içinde 432Hz polifonik kuvars şarkı söyleyen ses uyumları.",
     "statsTitle": "Operasyonel Ayak İzimiz",
-    "statsSubtitle": "Küresel etkimizi ve terapötik başarı oranlarımızı ölçüyoruz",
+    "statsSubtitle": "Küresel etkimizi ve klinik başarımızı ölçmek",
     "statCountries": "Hizmet Verilen Ülkeler",
     "statProducts": "Ürün Kategorileri",
     "statSessions": "Terapi Seansları",
     "statSatisfaction": "Müşteri Memnuniyeti",
-    "testimonialsTitle": "Yankılanan Sesler",
-    "testimonialsSubtitle": "Ticari ortaklarımızdan ve inziva yeri ziyaretçilerimizden geri bildirimler",
+    "testimonialsTitle": "Rezonans Sesleri",
+    "testimonialsSubtitle": "Ticari ortaklarımızdan ve kutsal alan ziyaretçilerimizden geri bildirimler",
     "ctaTitle": "Yolculuğunuza Başlayın",
-    "ctaSubtitle": "Özel bölüm masalarımızla iletişime geçin",
+    "ctaSubtitle": "Özel bölüm masalarımızla bağlantı kurun",
     "ctaExportBoxTitle": "İhracat Çözümleri mi Arıyorsunuz?",
-    "ctaExportBoxDesc": "Toplu konteyner sözleşmeleri, özel paketleme veya lojistik uyumluluk için emtia masamızla görüşün.",
-    "ctaExportBoxBtn": "İhracat Masasıyla Konuşun",
-    "ctaTherapyBoxTitle": "Bütünsel İyileşme mi Arıyorsunuz?",
-    "ctaTherapyBoxDesc": "Özel bir konsültasyon planlayın veya Wayanad dağ inziva yerimizdeki villalarda konaklama rezervasyonu yapın.",
-    "ctaTherapyBoxBtn": "İnziva Seansı Rezervasyonu Yap"
+    "ctaExportBoxDesc": "Toplu konteyner sözleşmeleri, özelleştirilmiş paketleme veya lojistik uyumluluğu için Emtia Arbitraj masamızla bağlantı kurun.",
+    "ctaExportBoxBtn": "İhracat Masası ile konuşun",
+    "ctaTherapyBoxTitle": "Bütünsel Şifa mı arıyorsunuz?",
+    "ctaTherapyBoxDesc": "Özel bir danışmanlık randevusu alın veya biyolojik alan uyumu için Wayanad dağ sığınağımızda bir villada konaklama rezervasyonu yapın.",
+    "ctaTherapyBoxBtn": "Kitap Sığınağı Alımı"
   },
   "export": {
     "division": "Uluslararası Ticaret Bölümü",
@@ -136,7 +136,275 @@ export const translations: StaticTranslations = {
     "packagingPrep": "Özel paketleme hazırlığı:",
     "packagingDays": "5-7 İş Günü",
     "portOfLoad": "FOB yükleme limanı:",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Baharatlar ve Çeşniler Bölümü",
+        "title": "Elit Baharatlar ve Otantik Baharatlar",
+        "description": "Mutlak mikrobiyolojik güvenlik standartlarına göre öğütülmüş Veda sınıfı aromatikler, sıcak biberler ve karmaşık mutfak tozları. Doğrudan çiftlikten kaynak kullanımı, güçlü yağ içeriklerini ve yoğun lezzet profillerini garanti eder.",
+        "highlights": [
+          "Kurkumin Altın zerdeçal seçimi (>%5)",
+          "Piperin kontrollü Tellicherry karabiber",
+          "Sudan Boyası negatif Guntur biberleri",
+          "Kriyojenik düşük sıcaklıkta hijyenik frezeleme"
+        ],
+        "benefits": [
+          "Yüksek uçucu uçucu yağ tutma",
+          "Bozulmamış aroma ve lezzet stabilitesi",
+          "%100 organik, katkısız işleme",
+          "Aflatoksin açısından güvenli küresel uyumluluk"
+        ],
+        "packaging": "Poli astarlı 25 kg'lık çok katmanlı Kraft torbalar, vakumlu paket seçenekleri.",
+        "capability": "Konsolide karışık LCL konteyner gönderileri veya FCL başına 20 Metrik Ton'a kadar.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) veya Mundra Limanı. Hava kargo öncelikli yönlendirme.",
+        "features": [
+          {
+            "title": "Kurkumin Altın",
+            "desc": "Gıda ve klinik kullanımlar için %5'i aşan aktif kurkumin seviyeleri taşıyan altın zerdeçal tozu."
+          },
+          {
+            "title": "Malabar Biberi",
+            "desc": "Derin piperine sıcaklığı ve karmaşık orman notaları için ödüllendirilen ekstra koyu karabiber meyveleri."
+          },
+          {
+            "title": "Dondurularak Öğütülmüş Biber",
+            "desc": "Guntur Sannam biber tozu, ısının neden olduğu yağ kaybını engellemek için kriyojenik kontroller altında öğütülür."
+          },
+          {
+            "title": "Narenciye Kişniş",
+            "desc": "Premium Malwa tohumları, ince elek halinde öğütülerek narenciye sıcaklığındaki uçucu fraksiyonları paketler."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Bitkisel Tozlar Masası",
+        "title": "Saf Kurutulmuş Bitkisel Tozlar",
+        "description": "Biyoaktif besinleri, renk profillerini ve lezzet derinliğini korumak için sıkı bir şekilde kontrol edilen düşük sıcaklıklarda kurutulan tarım sebzeleri. Tüketime hazır gıdalar, karıştırıcılar ve farmasötik formülasyonlar için idealdir.",
+        "highlights": [
+          "%100 gerçek bitkisel katılar, sıfır katkı maddesi",
+          "Hücreyi koruyan düşük sıcaklıkta kurutma",
+          "Mükemmel kuru çözünürlük ve dağılım",
+          "Serbest akışlı, topaklanmayan doğal kalite"
+        ],
+        "benefits": [
+          "Anlık su sulandırma oranları",
+          "Organik tatların yoğun konsantrasyonu",
+          "Doğal vitaminleri ve lifleri korur",
+          "Kusursuz görsel pigment tutma"
+        ],
+        "packaging": "Çift polietilen iç torbalı fiber variller (20 kg / 25 kg).",
+        "capability": "FCL başına 12-15 Metrik Ton. Özel baharat/sebze karışımı formülasyonları.",
+        "shippingInfo": "Sıcaklık kontrollü soğutuculu konteynerler aracılığıyla küresel limanlara okyanus geçişi.",
+        "features": [
+          {
+            "title": "Sprey Kurutulmuş Domates",
+            "desc": "Likopen açısından zengin, anında lezzetli umami derinliği veren, çözünebilir kırmızı domates posası tozu."
+          },
+          {
+            "title": "Betalain Pancar",
+            "desc": "Yoğun doğal kırmızı renkler ve nitrat zenginliği sağlayan ince öğütülmüş pancar tozu."
+          },
+          {
+            "title": "Klorofil Ispanak",
+            "desc": "Parlak yeşil çözünür ıspanak tozu, diyetteki demir ve klorofilde kilitlenir."
+          },
+          {
+            "title": "Allisin Sarımsak",
+            "desc": "Seçilmiş karanfillerden öğütülen keskin sarımsak tozu, hızlı dağılma ve tat sunar."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Meyve Tozu Masası",
+        "title": "Orchard Meyve Tozları ve Çözünürleri",
+        "description": "Güneşte olgunlaşmış meyve bahçesi meyvelerinin gerçek tatlılığını, organik şekerlerini ve vitaminlerini yakalayan birinci sınıf püskürtülerek kurutulmuş ve düşük sıcaklıkta suyu alınmış meyve tozları. İçeceklerde, şekerlemelerde ve bebek mamalarında oldukça popülerdir.",
+        "highlights": [
+          "Doğrudan organik hamurdan püskürtülerek kurutulur",
+          "İlave şeker, sülfit veya renklendirici yok",
+          "Sıcak ve soğuk sıvılarda yüksek oranda çözünür",
+          "Besin açısından yoğun süper yiyecek seçimleri"
+        ],
+        "benefits": [
+          "Saf meyve aroması ve tatlı tang",
+          "Yüksek C Vitamini ve biyoaktif tutma",
+          "Süt ürünleri ve fırıncılık için mükemmel karışım",
+          "Temiz etikete uygun bileşenler"
+        ],
+        "packaging": "Oluklu ana kutuların içindeki alüminyum folyo vakumlu torbalar.",
+        "capability": "FCL başına 8-10 Metrik Ton. Özel etiket paketleme desteği.",
+        "shippingInfo": "Ekspres hava kargo veya sıcaklık kontrollü deniz konteyneri taşımacılığı.",
+        "features": [
+          {
+            "title": "Cavendish Muzu",
+            "desc": "Dirençli nişastalar açısından zengin, glutensiz karışımlar için mükemmel olan yeşil ve olgun muz tozu."
+          },
+          {
+            "title": "Kesar Mango",
+            "desc": "Elle hasat edilen Hint mangolarının tatlı aromasını yakalayan altın rengi meyve katıları."
+          },
+          {
+            "title": "Askorbik Amla",
+            "desc": "Yüksek konsantrasyonlu doğal C Vitamini içeren, organik kaynaklı bektaşi üzümü tozu."
+          },
+          {
+            "title": "Antioksidan Nar",
+            "desc": "Zengin polifenoller ve görsel pembe tonlar sağlayan spreyle kurutulmuş nar suyu tozu."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Moringa Süper Yiyecek Masası",
+        "title": "Premium Organik Moringa Ürünleri",
+        "description": "Organik olarak yetiştirilen Moringa oleifera yaprakları, tozları, çayları ve pestisit içermeyen, yüksek verimli Hint mülklerinden elde edilen özler. Esansiyel amino asitleri korumak için gölgede kurutma protokolleri altında işlenir.",
+        "highlights": [
+          "USDA ve APEDA Organik sertifikalı ürünler",
+          "Sıkı gölgede kurutulmuş yaprak kürü",
+          "Fitokimyasal ve flavonoid standartlaştırılmış",
+          "%99,9 temiz yaprak malzemesi, sıfır kum"
+        ],
+        "benefits": [
+          "9 aminoasitli tam bitki proteini",
+          "Aşırı demir, kalsiyum ve vitamin sayıları",
+          "Vakumlu contada son derece stabil raf ömrü",
+          "Takviyeler ve kozmetikler için idealdir"
+        ],
+        "packaging": "Takviyeli kutularda paketlenmiş, silika jelli vakum bariyerli torbalar.",
+        "capability": "Parti başına 5-8 Metrik Ton. Özelleştirilebilir yaprak kesimleri ve toptan paketler.",
+        "shippingInfo": "Mühürlü kuru konteynerler, küresel sağlıklı yaşam distribütörlerine öncelikli hava taşımacılığı gönderimi.",
+        "features": [
+          {
+            "title": "Organik Yaprak Tozu",
+            "desc": "Derin zümrüt rengi ve çimen tadında ince öğütülmüş moringa yaprağı tozu."
+          },
+          {
+            "title": "Kürlenmiş Yaprakları Temizleyin",
+            "desc": "Bütün gölgede kurutulmuş yapraklar, ince dalları, gövdeleri ve tozu çıkarmak için mekanik olarak ayrılır."
+          },
+          {
+            "title": "Bitkisel Moringa Çayı",
+            "desc": "Çay poşetleri için optimize edilmiş, eşit şekilde kesilmiş yapraklar, taze bir sağlıklı bitkisel infüzyon sunar."
+          },
+          {
+            "title": "Standartlaştırılmış Ekstrakt",
+            "desc": "Klinik formülasyonlar için toplam biyoflavonoidler için standartlaştırılmış konsantre moringa yaprağı ekstresi."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Yağlı Tohumlar Masası",
+        "title": "Premium Sınıflandırılmış Yağlı ve Diyet Tohumlar",
+        "description": "Elit ihracat kalitesinde organik yağlar ve besleyici tohumlar, mutlak bitki sağlığı kontrolleri altında sistematik olarak temizlenir, ayrılır ve paketlenir. Yüksek yağ verimi ve temiz Sortex saflığı, bunları gıda ve endüstriyel işleme için ideal kılar.",
+        "highlights": [
+          "%99,9 Sortex optik renk sınıflandırması",
+          "Titiz ilaçlama ve temizlik denetimleri",
+          "Sertifikalı pestisit ve kalıntı içermez",
+          "Çoklu doymamış yağ asitlerinin yüksek içeriği"
+        ],
+        "benefits": [
+          "Yüksek doğal yağ çıkarma oranları",
+          "Sıfır kirle son derece temiz tohumlar",
+          "Tek tip tohum boyutları ve renk profilleri",
+          "Atmosferdeki nemi engelleyecek şekilde paketlenmiştir"
+        ],
+        "packaging": "Dokuma polipropilen çuvallar veya çok katlı kağıt torbalar (25 kg / 50 kg).",
+        "capability": "Konteyner başına 18-22 Metrik Ton (FCL). Özel nem özellikleri.",
+        "shippingInfo": "Doğrudan okyanus gemileri, ticari fırınlara ve distribütörlere toplu kargo yönlendirmesi.",
+        "features": [
+          {
+            "title": "Kabuklu Susam",
+            "desc": "Yüksek yağ verimi ve tatlı fındıksı tatlar sunan, otomatik olarak temizlenen beyaz susam tohumları."
+          },
+          {
+            "title": "Altın Keten",
+            "desc": "Diyet lifi ve esansiyel Omega-3 yağ asitleri açısından zengin birinci sınıf keten tohumları."
+          },
+          {
+            "title": "Jel Oluşturan Chia",
+            "desc": "Mükemmel şişme endekslerine ve müsilaj kalitesine sahip organik siyah chia tohumları."
+          },
+          {
+            "title": "Yeşil Balkabağı",
+            "desc": "Temiz kabuklu kabak çekirdeği çekirdekleri, tekdüze koyu yeşil renk ve çıtırlık için sıralanmıştır."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Kurutulmuş Sebze Tezgahı",
+        "title": "Hijyenik Kurutulmuş Sebzeler",
+        "description": "Temiz dilimlenmiş soğan, sarımsak, zencefil ve diğer sebzeler, gelişmiş hava akışı odaları altında kurutulur. Mükemmel rehidrasyon ve lezzet performansı için doğrudan bitki uyumlu tarım bantlarından elde edilir.",
+        "highlights": [
+          "Sülfit, kükürt veya koruyucu madde kullanılmaz",
+          "Düşük artık nem içeriği (<%5)",
+          "Kusursuz rehidrasyon ve doku iyileşmesi",
+          "Bitki sağlığı sertifikalı ihracat kargosu"
+        ],
+        "benefits": [
+          "Mutfak hazırlık sürelerini büyük ölçüde azaltır",
+          "Taşıma ağırlığından ve depolama alanından tasarruf sağlar",
+          "Doğal rengi ve görsel çekiciliği korur",
+          "Gıda karışımlarında tutarlı lezzet gücü"
+        ],
+        "packaging": "Çift ısı yalıtımlı poli ara parçalı HDPE kaplı ana kartonlar.",
+        "capability": "FCL başına 10-12 Metrik Ton. Özelleştirilebilir dilimleme ve dilimleme.",
+        "shippingInfo": "Endüstriyel baharat mutfaklarına standart kuru kaplar veya soğutuculu yönlendirme.",
+        "features": [
+          {
+            "title": "Soğan Dilimleri",
+            "desc": "Güçlü keskinliğe ve yüksek sulandırma özelliğine sahip, suyu alınmış kırmızı ve beyaz soğan dilimleri."
+          },
+          {
+            "title": "Sarımsak karanfilleri",
+            "desc": "Kurutulmuş bölünmüş sarımsak dişleri, titizlikle kabuğu soyulmuş ve isi çıkarmak için Sortex'e ayrılmıştır."
+          },
+          {
+            "title": "dilimlenmiş zencefil",
+            "desc": "Lezzetli ısı ve yüksek aktif gingerol içeriğine sahip temiz kurutulmuş zencefil dilimleri."
+          },
+          {
+            "title": "Asma Domates",
+            "desc": "Doğal likopen açısından zengin, kimyasal sülfitler olmadan kurutulmuş kurutulmuş organik domates dilimleri."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Kurutulmuş Meyve Masası",
+        "title": "Güneşten Korunan Kurutulmuş Meyveler",
+        "description": "Elle hasat edilen organik meyve bahçelerinden hazırlanan birinci sınıf dilimler ve uzun kesilmiş kurutulmuş meyveler. Doğal fruktoz şekerlerini, çiğnenebilir dokuları ve hayati vitaminleri kimyasal koruyucu maddeler olmadan korur.",
+        "highlights": [
+          "Sıfır ilave şeker kamışı veya tatlandırıcılar",
+          "Sülfit içermeyen, sıfır kimyasal renklendirici",
+          "Esnek dilimleme şekilleri ve özel nem",
+          "Pestisit içermeyen sertifikalı meyve bahçeleri"
+        ],
+        "benefits": [
+          "Doğal tatlılık ve çiğneme hissi",
+          "Kuru depolamada mükemmel raf stabilitesi",
+          "Atıştırmalıklar ve fırınlanmış ürünler için idealdir",
+          "Düşük kalıntı ve temiz etiket işleme"
+        ],
+        "packaging": "İç oksijen emicilere ve karton ana paketlere sahip BOPP lamine torbalar.",
+        "capability": "FCL başına 6-8 Metrik Ton. Özel kesim boyutları mevcuttur.",
+        "shippingInfo": "Düşük nemli kuru konteynerler ve sıcaklığa dayanıklı hava taşımacılığı.",
+        "features": [
+          {
+            "title": "Kayısı Dilimleri",
+            "desc": "Konsantre meyve aroması ve canlı rengiyle korunmuş, yumuşak, doğal tatlı kayısı dilimleri."
+          },
+          {
+            "title": "İncir Parçaları",
+            "desc": "Çözünürlüğü yüksek lifli ve karamelize tatlılığa sahip çiğnenebilir güneşte kurutulmuş incir parçaları."
+          },
+          {
+            "title": "Mango Şeritleri",
+            "desc": "Uzun kesilmiş kurutulmuş mango şeritleri tropik aromayı ve parlak altın rengini kilitler."
+          },
+          {
+            "title": "Papaya Cipsi",
+            "desc": "Birinci sınıf dokusu ve mikro besin zenginliği nedeniyle ödüllendirilen kurutulmuş papaya dilimleri."
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "UYUMLAMA KLİNİKLERİ",
@@ -302,420 +570,928 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "Meyveler",
-        "desc": "Organik çiftliklerden doğrudan hasat edilen, güneşin tüm enerjisiyle olgunlaşmış yüksek rakımlı tropikal meyveler ve seçkin bahçe ürünleri."
-      },
       "spices": {
         "title": "Baharatlar ve Çeşniler",
-        "desc": "Veda standartlarında aromatik bitkiler, yoğun baharatlar ve kesin mikrobiyolojik güvenlik protokollerine göre öğütülmüş rafine mutfak tozları."
+        "desc": "Mutlak mikrobiyolojik güvenlik standartlarına göre öğütülmüş Veda sınıfı aromatikler, sıcak baharatlar ve karmaşık mutfak tozları."
       },
-      "dehydrated": {
-        "title": "Kurutulmuş Ürünler",
-        "desc": "Güneş görmeyen ortamlarda, düşük ısıda kurutulmuş sebzeler ve hücre yapısını koruyan renk ve besin değerlerine sahip terapötik süper gıda tozları."
+      "veg_powders": {
+        "title": "Kurutulmuş Bitkisel Tozlar",
+        "desc": "Biyoaktif besin maddelerini, renkleri ve yoğun tatları hapsetmek için düşük sıcaklıklarda kurutulan ince tarım sebze tozları."
       },
-      "jaggery": {
-        "title": "Jaggery (Pancar/Şeker Kamışı Pekmezi) Ürünleri",
-        "desc": "Organik yabani bitki özleriyle saflaştırılan ve kristalize karamel formuna getirilen geleneksel şeker kamışı nektarları."
+      "fruit_powders": {
+        "title": "Kurutulmuş Meyve Tozları",
+        "desc": "Taze meyve bahçelerinin saf tatlılığını, vitaminlerini ve keskin tadını yakalayan birinci sınıf püskürtmeyle kurutulmuş ve düşük sıcaklıkta suyu alınmış meyve tozları."
+      },
+      "moringa": {
+        "title": "Moringa Ürünleri",
+        "desc": "Saf botanik Moringa oleifera yaprakları, tozları, çayları ve pestisit içermeyen yüksek verimli ekimden elde edilen özler."
+      },
+      "seeds": {
+        "title": "Tohum Kategorisi",
+        "desc": "Elit ihracat kalitesinde organik yağlar ve besleyici tohumlar, mutlak bitki sağlığı kontrolleri altında temizlenir, ayrılır ve paketlenir."
+      },
+      "dehydrated_veg": {
+        "title": "Kurutulmuş Sebzeler",
+        "desc": "Temiz dilimlenmiş kurutulmuş soğan, sarımsak, zencefil ve diğer sebzeler, yüksek sulandırma ve uzun raf ömrü için işlenir."
+      },
+      "dehydrated_fruits": {
+        "title": "Kurutulmuş Meyveler",
+        "desc": "Doğal şekerleri, dokuyu ve vitaminleri koruyan, güneşten korunan, kurutulmuş, birinci sınıf uzun kesilmiş ve dilimlenmiş meyveler."
+      },
+      "flakes": {
+        "title": "Pul Kategorisi",
+        "desc": "Hazır yiyeceklerde ve kuru karışımlarda hızlı hidrasyon için eşit şekilde kurutulan endüstriyel sınıf ve gurme sebze pulları."
       }
     },
     "items": {
-      "f-banana": {
-        "name": "Muz",
-        "desc": "Wayanad'ın besin değeri yüksek volkanik topraklarında yetişen, doğal tatlılığa sahip Grand Naine ve Cavendish muzları, kontrollü atmosferli koruyucu ambalajlarla ihraç edilmektedir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Wayanad Dağlık Bölgesi, Hindistan",
-          "packaging": "Polietilen astarlı oluklu mukavva kutu",
-          "purity": "100% Organik Yetiştirilmiş",
-          "grade": "Premium A Sınıfı",
-          "minOrder": "1 Metrik Ton"
-        }
-      },
-      "f-pomegranate": {
-        "name": "Nar",
-        "desc": "Yumuşak çekirdekli, yüksek brix oranına ve zengin antioksidan özelliklere sahip, opto-elektronik ayıklama sistemleriyle sınıflandırılmış, sulu ve koyu kırmızı Bhagwa narları.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Dekkan Platosu, Hindistan",
-          "packaging": "Havalandırmalı 4 kg'lık kartonlar",
-          "purity": "Fitosaniter Sertifikalı",
-          "grade": "İhracat Kalitesi 1. Sınıf",
-          "minOrder": "1 Metrik Ton"
-        }
-      },
-      "f-grapes": {
-        "name": "Üzüm",
-        "desc": "Seçkin çekirdeksiz yeşil Thompson ve siyah Sharad üzümleri. Dengeli tatlılık, çıtır doku ve optimum raf ömrü ile sunulmaktadır.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Nashik Vadisi Toprakları, Hindistan",
-          "packaging": "Poşet paket + SO2 pedli ana karton",
-          "purity": "Sıfır Kalıntı Onaylı",
-          "grade": "Ekstra Sınıf Üstün",
-          "minOrder": "2 Metrik Ton"
-        }
-      },
-      "f-guava": {
-        "name": "Guava (Guayaba)",
-        "desc": "Olağanüstü ağırlıkları, minimum çekirdek sayıları ve enfes tropikal aromalarıyla bilinen canlı pembe etli VNR Bihi ve beyaz etli Lalit guava çeşitleri.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Vedic Tarım Arazileri, Hindistan",
-          "packaging": "Köpük file ve güçlendirilmiş kartonlar",
-          "purity": "İzlenebilir Organik",
-          "grade": "Premium Süper",
-          "minOrder": "1 Metrik Ton"
-        }
-      },
-      "f-mango": {
-        "name": "Mango",
-        "desc": "Dünya çapında yoğun altın rengi, lifsiz dokusu ve kremsi lezzet profiliyle ödüllendirilen üstün Alphonso (Hapus) ve Kesar mangoları.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Ratnagiri Kıyı Bahçeleri, Hindistan",
-          "packaging": "Buhar-Isıl İşlemli / Hediye Paketlemeli",
-          "purity": "APEDA Onaylı Fitosaniter",
-          "grade": "AAA Sınıfı Seçkin Seçim",
-          "minOrder": "1 Metrik Ton"
-        }
-      },
       "s-turmeric": {
         "name": "Zerdeçal Tozu",
-        "desc": "Elle seçilmiş Salem zerdeçal rizomlarından elde edilen altın sarısı toz. Farmasötik uygulamalar için özel olarak küratörlüğünde hazırlanan yüksek kurkumin (%5'in üzerinde) seviyeleri.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Tercih edilen öğütülmüş canlı altın sarısı zerdeçal tozu B2B farmasötik ve gurme kullanımına uygun yüksek aktif kurkumin seviyeleri sunan rizomları aşındırır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Erode & Salem Arazileri, Hindistan",
-          "packaging": "Çok katmanlı kraft kağıt torbalar (25 kg)",
-          "purity": "100% Saf, Ağır Metal İçermez",
-          "grade": "A++ Premium Kurkumin Altın",
+          "origin": "Erode & Salem Estates, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "Kurkumin > %5 Sertifikalı, Saf",
+          "grade": "A++ High-Curcumin Gold",
           "minOrder": "500 Kilogram"
         }
       },
       "s-redchilli": {
         "name": "Kırmızı Biber Tozu",
-        "desc": "Sapı temizlenmiş Guntur Sannam ve Kashmiri biberlerinden elde edilen, derin aroma ve özelleştirilebilir SHU acılık seviyelerine sahip canlı kırmızı toz biber.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Guntur Sannam kırmızı biber tozu, uluslararası mutfaklar için derin bir renk ve özelleştirilebilir ısı dereceleri sunar.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
           "origin": "Guntur Bölgesi, Hindistan",
-          "packaging": "Oksijen tutuculu hava geçirmeyen torbalar",
-          "purity": "Aflatoksin ve Sudan Boyası Negatif",
-          "grade": "Premium Tek Bölge Menşeli",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "Aflatoksin ve Sudan Boya Negatif",
+          "grade": "Keşmir Parlak Kırmızı Seçimi",
           "minOrder": "500 Kilogram"
         }
       },
       "s-coriander": {
         "name": "Kişniş Tozu",
-        "desc": "Yüksek uçucu yağ oranına sahip kişniş tohumlarından üretilen aromatik toz. Gurme karışımlara tatlı-sıcak ve narenciye notaları katar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş kişniş tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Malwa Platosu, Hindistan",
-          "packaging": "İç LDPE astarlı HDPE PP torba",
-          "purity": "Dolgu Maddesi İçermez",
-          "grade": "İnce Öğütülmüş Saf Hindistan Menşeli",
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
           "minOrder": "500 Kilogram"
         }
       },
       "s-cumin": {
-        "name": "Kimyon Tohumu",
-        "desc": "Optimum kümünaldehit içeriğine sahip, tozdan arındırılmış dolgun kimyon tohumları (Jeera). Topraksı ve fındıksı lezzet imzaları sunar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "name": "Kimyon Tozu",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş kimyon tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Gujarat Kurak Arazileri, Hindistan",
-          "packaging": "Jüt çuvallar veya kompozit kağıt kartonlar",
-          "purity": "99.5% Makine Temizlemeli (Sortex)",
-          "grade": "Singapur Kalitesi Yüksek Saflık",
-          "minOrder": "1 Metrik Ton"
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-blackpepper": {
         "name": "Karabiber",
-        "desc": "Dolgun Malabar Tellicherry Extra Bold Garbled (TGSEB) biber taneleri. Zengin piperin acısı ve karmaşık orman rayihası ile ödüllendirilmiştir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Tarihi Malabar yamaçlarından toplanan 1. sınıf bütün karabiber meyveleri, yoğun pipet sıcaklığı ve karmaşık odunsu bir aroma sunar.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Wayanad Ormanları, Hindistan",
-          "packaging": "Çift laminasyonlu poli torbalar (25/50 kg)",
-          "purity": "Nem <%11.5 Sertifikalı",
-          "grade": "MG1 Sınıfı (Tellicherry Supreme)",
+          "origin": "Wayanad Yayla Ormanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "Nem <%11,5 Sertifikalı",
+          "grade": "Tellicherry Ekstra Kalın (TGSEB)",
           "minOrder": "500 Kilogram"
         }
       },
       "s-cardamom": {
         "name": "Kakule",
-        "desc": "8mm+ büyüklüğünde, derin zümrüt rengini koruması için titizlikle kurutulmuş, tatlı ve karmaşık reçineli kafur aromasına sahip ihtişamlı yeşil kakule kapsülleri.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Güzel doğal zümrüt kabukları ve yüksek esansiyel tohum yağı seviyelerini sergileyen dolgun, birinci sınıf yeşil kakule kapsülleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Kakule Tepeleri, Kerala, Hindistan",
-          "packaging": "Alüminyum folyo astarlı ana kartonlar",
-          "purity": "Yapay parlatıcı maddeler içermez",
+          "origin": "Cardamom Hills, Kerala, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "Yapay parlatıcı içermez",
           "grade": "Bold Premium Extra Emerald (8mm+)",
-          "minOrder": "200 Kilogram"
-        }
-      },
-      "s-cinnamon": {
-        "name": "Tarçın",
-        "desc": "Gerçek Seylan tipi tarçından elde edilen, elle soyulmuş mis kokulu çubuklar. Gurme şekerlemeler için ideal, çok düşük kumarin seviyeli tatlı ve pürüzsüz odunsu koku.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Batı Gatlar organik çiftlikleri, Hindistan",
-          "packaging": "Kenevir lifli demetler veya ana kutular",
-          "purity": "100% Orijinal kabuk çubuklar",
-          "grade": "İnce Sınıf Alba/C5 seçimi",
           "minOrder": "200 Kilogram"
         }
       },
       "s-cloves": {
         "name": "Karanfil",
-        "desc": "Yüksek öjenol uçucu yağ verimine sahip, zengin ve aromatik bütün karanfiller. Dolgun şekilli ve koyu kırmızımsı kahverengi tomurcuklar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Aromatik öjenol bileşiklerini korumak için bütün kahverengi karanfiller optimum nem seviyelerine kadar kurutuldu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Nilgiris Bölgesi, Hindistan",
-          "packaging": "Karton bölmeler içinde çuval astarı",
-          "purity": "Sortex ayıklamalı, minimum saplı",
-          "grade": "Elle seçilmiş seçkin karanfil",
+          "origin": "Nilgiris Kuşağı, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Elle seçilmiş birinci sınıf bütün karanfiller",
           "minOrder": "200 Kilogram"
         }
       },
-      "s-fennel": {
-        "name": "Rezene Tohumu",
-        "desc": "Parlak yeşil renge sahip dolgun, tatlı rezene tohumları (Saunf). Sindirim çayları ve artizan fırın ürünleri için mükemmeldir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "s-cinnamon": {
+        "name": "Tarçın",
+        "desc": "Sürdürülebilir bir şekilde hasat edilen Seylan tipi tatlı tarçın tüyleri, çok düşük kumarin ve hassas odunsu bir tatlılık taşır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Rajasthan Ovaları, Hindistan",
-          "packaging": "PP torbalar veya özel lifli çuvallar",
-          "purity": "99% Saf, renk bütünlüğü için ayıklanmış",
-          "grade": "Premium Bold Green",
+          "origin": "Batı Ghats, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "İnce Sınıf Alba tüyleri",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "s-nutmeg": {
+        "name": "Küçük hindistan cevizi",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş hindistan cevizi.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "s-staranise": {
+        "name": "Yıldız Anason",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş yıldız anason.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "s-fennel": {
+        "name": "Rezene Tohumları",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş rezene tohumları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
           "minOrder": "500 Kilogram"
         }
       },
       "s-mustard": {
-        "name": "Hardal Tohumu",
-        "desc": "Yağ oranı yüksek, dolgun siyah ve sarı hardal tohumları. Baharat macunları, sirkeler ve soslar için keskin bir acılık sağlar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "name": "Hardal Tohumları",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş hardal tohumları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Hint-Ganj Toprakları, Hindistan",
-          "packaging": "Dokuma çok katmanlı kraft kağıt kutular",
-          "purity": "Mikrobiyolojik olarak temizlenmiş",
-          "grade": "A Sınıfı Bold Sortex",
-          "minOrder": "1 Metrik Ton"
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "s-bayleaves": {
+        "name": "Defne Yaprağı",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş defne yaprakları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Kavrulmuş kakule, tarçın, karabiber, karanfil, muskat çiçeği, muskat cevizi ve kimyonun klasik karışımı. Uçucu esterleri korumak için soğuk öğütülmüştür.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş garam masala.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Kraliyet Vedik Karışımı, Hindistan",
-          "packaging": "Ana kutularda yüksek bariyerli paketler",
-          "purity": "100% Geleneksel Formülasyon",
-          "grade": "Gurme Mutfak Sınıfı",
-          "minOrder": "200 Kilogram"
-        }
-      },
-      "s-currypowder": {
-        "name": "Köri Tozu",
-        "desc": "Uluslararası standartlarda Madras tarzı köri tozu karışımı. Kişniş, hafif acı biber, çemen otu ve yüksek kurkuminli zerdeçalın mükemmel dengesi.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Madras Mirası Karışımı, Hindistan",
-          "packaging": "Çok katlı metalize nem bariyerli ambalaj",
-          "purity": "Yapay gıda renklendiricisi içermez",
-          "grade": "Premium İhracat Kalitesi",
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
           "minOrder": "500 Kilogram"
         }
       },
-      "s-gingerpowder": {
+      "s-mixedspice": {
+        "name": "Karışık Baharat Karışımları",
+        "desc": "Aromatik fraksiyonları korumak için düşük sıcaklıkta öğütme altında işlenen geleneksel bütün ve öğütülmüş karışık baharat karışımları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Kerala Baharat Kemeri, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%100 Saf, Ağır Metal İçermez",
+          "grade": "Üstün İhracat Kalitesi",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-beetroot": {
+        "name": "Pancar Tozu",
+        "desc": "Sağlık karışımları için yüksek doğal betalainler, nitratlar ve diyet lifleri içeren zengin kırmızı pancar tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Vedik Ovalar, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-tomato": {
+        "name": "Domates Tozu",
+        "desc": "Hazır çorbalar, soslar ve baharat losyonları için ideal, olgun organik domateslerden hazırlanan ince püskürtülerek kurutulmuş kırmızı domates tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Karnataka Çiftlikleri, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-potato": {
+        "name": "Patates Tozu",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş patates tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-garlic": {
+        "name": "Sarımsak Tozu",
+        "desc": "Güçlü allisin aroması ve dağılabilirlik sağlayan, aromatik ampullerden öğütülmüş konsantre sarımsak tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Madya Pradeş, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-ginger": {
         "name": "Zencefil Tozu",
-        "desc": "Kurutulmuş ve ince öğütülmüş zencefil kökü tozu; güçlü zencefilol sıcaklığı ve baharatlı bir keskinlik sunar. İçecek ve unlu mamul endüstrileri tarafından oldukça tercih edilir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Şekerleme ve bitki çayı harmanlamasında yaygın olarak kullanılan, güçlü gingerol sıcaklığını paketleyen ince zencefil kökü tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
           "origin": "Kuzeydoğu Tepeleri, Hindistan",
-          "packaging": "Vakum mühürlü folyo torbalar (25 kg)",
-          "purity": "Saf Zingiber officinale kökü",
-          "grade": "Seçkin İnce Sınıf",
-          "minOrder": "300 Kilogram"
-        }
-      },
-      "s-garlicpowder": {
-        "name": "Sarımsak Tozu",
-        "desc": "Güçlü yerel Hint sarımsak klonlarından elde edilen, kuvvetli allisin kaynaklı aroma ve anında lezzet dağılımı sağlayan kurutulmuş ince sarımsak tozu.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Madhya Pradesh Tarım Kuşağı, Hindistan",
-          "packaging": "Lamine neme dayanıklı variller",
-          "purity": "Katkı maddesi içermez, topaklanmaz",
-          "grade": "A Sınıfı Mutfak Tozu",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
           "minOrder": "500 Kilogram"
         }
       },
-      "s-onionpowder": {
-        "name": "Soğan Gevreği / Tozu",
-        "desc": "Toz haline getirilmiş birinci sınıf kurutulmuş kırmızı ve beyaz soğan. Nem yükü olmadan yoğun, tatlı ve keskin soğan rayihasını anında sunar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Maharashtra Tarım Kuşağı, Hindistan",
-          "packaging": "Karton içinde çift mühürlü gıda sınıfı torbalar",
-          "purity": "Nem <%4.0 Standart",
-          "grade": "Yüksek mesh gurme standardı",
-          "minOrder": "500 Kilogram"
-        }
-      },
-      "d-onion": {
-        "name": "Soğan Gevreği",
-        "desc": "Özenle dilimlenmiş ve hava ile kurutulmuş birinci sınıf kırmızı soğan. Uzun raf ömrü ile yüksek keskinlik, hafif doku ve kusursuz görsel gevreklik sağlar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "vp-onion": {
+        "name": "Soğan Tozu",
+        "desc": "Kurutulmuş beyaz/kırmızı soğan tozu, yiyecek karışımlarına çabuk lezzetli soğan tatlılığı ve lezzeti katar.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
           "origin": "Nashik Bölgesi, Hindistan",
-          "packaging": "Neme dayanıklı gıda sınıfı variller (20kg)",
-          "purity": "Dış kabuk/kurum içermez",
-          "grade": "Seçkin AA Sınıfı Gevrekler",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
           "minOrder": "500 Kilogram"
         }
       },
-      "d-garlic": {
-        "name": "Sarımsak Gevreği",
-        "desc": "Altın-beyaz renkli, düşük sıcaklıkta kurutulmuş dilim sarımsak gevreği. Güçlü allisin içeriğiyle hazır gıdalarda hızlı rekonstitüsyon için mükemmeldir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Malwa Bölgesi, Hindistan",
-          "packaging": "Polietilen astarlı oluklu kutular",
-          "purity": "100% Saf Sarımsak, kabuksuz",
-          "grade": "AAA Sınıfı Sortex Ayıklamalı",
-          "minOrder": "500 Kilogram"
-        }
-      },
-      "d-tomato": {
-        "name": "Domates Tozu",
-        "desc": "Dalında olgunlaşmış organik domateslerin sprey ile kurutulmasıyla elde edilen zengin kırmızı toz. Çorbalara, soslara ve tuzlu karışımlara anında umami derinliği ve klasik domates tadı katar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "DharaAveda Kaynaklı Çiftlikler, Hindistan",
-          "packaging": "Alüminyum vakumlu folyo varil astarları",
-          "purity": "100% Doğal Likopen, sentetik içermez",
-          "grade": "Premium Sprey-Kurutulmuş",
-          "minOrder": "300 Kilogram"
-        }
-      },
-      "d-beetroot": {
-        "name": "Pancar Tozu",
-        "desc": "Kurutulmuş birinci sınıf kırmızı pancarların ince öğütülmüş hali; yoğun kızıl betalain boyaları ve tatlı, doğal nitrat zengini profiller sunar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Vedik Ovaları, Hindistan",
-          "packaging": "Mühürlü bariyer tüpleri veya çift poli torbalar",
-          "purity": "Sıfır Yapay Pigment",
-          "grade": "Nutrasötik Sınıf",
-          "minOrder": "200 Kilogram"
-        }
-      },
-      "d-spinach": {
+      "vp-spinach": {
         "name": "Ispanak Tozu",
-        "desc": "Demir açısından zengin taze ıspanak yapraklarının kurutulmasıyla elde edilen parlak yeşil toz. Yüksek çözünürlükle anında klorofil zenginleştirmesi sağlar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Yüksek dereceli ıspanak yapraklarından kurutulmuş ince yeşil toz, diyet demirini ve doğal klorofil rengini kilitler.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
           "origin": "Himalaya Etekleri, Hindistan",
-          "packaging": "Azot basılmış vakumlu torbalar",
-          "purity": "100% Saf Spinacia oleracea",
-          "grade": "Süper Gıda ve Gıda Sınıfı",
-          "minOrder": "200 Kilogram"
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
         }
       },
-      "d-carrot": {
+      "vp-carrot": {
         "name": "Havuç Tozu",
-        "desc": "Tatlı kurutulmuş bebek havuçlardan elde edilen, yüksek Beta-Karoten tutumu ve nazik diyet lifi zenginliğini sergileyen zengin turuncu toz.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş havuç tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Punjab Tarım Sahaları, Hindistan",
-          "packaging": "Nem kilitli variller (20kg)",
-          "purity": "100% Havuç kökü, şeker eklenmemiş",
-          "grade": "U.S. FDA Uyumlu Sınıf",
-          "minOrder": "300 Kilogram"
-        }
-      },
-      "d-greenchilli": {
-        "name": "Yeşil Biber Gevreği",
-        "desc": "Taze yeşil biberlerden doğranmış; temiz bitkisel sıcaklığı, kapsaisinoidleri ve canlı yeşil rengi koruyan lezzetli yeşil gevrekler.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
-        "spec": {
-          "origin": "Nimar Vadisi, Hindistan",
-          "packaging": "Hava geçirmez çok katmanlı kağıt paketler",
-          "purity": "Kalıntı içermez, yüksek saflık standardı",
-          "grade": "Premium Acılıkta Gevrekler",
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
           "minOrder": "500 Kilogram"
         }
       },
-      "d-drumstick": {
-        "name": "Drumstick (Moringa) Tozu",
-        "desc": "Besleyici botanik Drumstick baklalarının kurutulmuş hali. Esansiyel amino asitler ve mikro besinlerle yüklü; günlük sağlık formülleri için mükemmeldir.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "vp-cabbage": {
+        "name": "Lahana Tozu",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş lahana tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Dekkan Bioçiftliği, Hindistan",
-          "packaging": "Variller içinde bariyer folyo astarlar",
-          "purity": "100% Saf Moringa Oleifera baklaları",
-          "grade": "Gurme Fonksiyonel",
-          "minOrder": "200 Kilogram"
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
         }
       },
-      "d-moringa": {
+      "vp-moringa": {
+        "name": "Baget (Moringa) Tozu",
+        "desc": "Besleyici moringa kabuğu ve yaprak tozu, aşırı vitamin ve antioksidan miktarını korumak için temiz odalarda işlenir.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Latur Vadisi, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-greenchilli": {
+        "name": "Yeşil Biber Tozu",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş yeşil biber tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-corianderleaf": {
+        "name": "Kişniş Yaprağı Tozu",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş kişniş yaprağı tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "vp-mint": {
+        "name": "Nane Tozu",
+        "desc": "Hızlı çözünürlük ve lezzet dağılımı için mikro gözenek standartlarına göre öğütülmüş yüksek saflıkta kurutulmuş nane tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Lamine neme dayanıklı variller (20kg)",
+          "purity": "%100 Saf Kurutulmuş Sebze, Katkı Maddesi Yok",
+          "grade": "Premium Püskürterek Kurutulmuş / Düşük Sıcaklıkta Öğütülmüş",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-banana": {
+        "name": "Muz Tozu",
+        "desc": "Sağlıklı glutensiz un formülasyonlarında kullanılan, dirençli nişastalar açısından zengin, kurutulmuş yeşil muz tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Wayanad Yaylaları, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-mango": {
+        "name": "Mango Tozu",
+        "desc": "Otantik tropikal tadı, altın rengini ve doğal şekerleri koruyan, püskürtülerek kurutulmuş Kesar ve Alphonso mango posası tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Ratnagiri Meyve Bahçeleri, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-guava": {
+        "name": "Guava Tozu",
+        "desc": "Gurme karıştırıcılar ve fırınlama için doğal aromayı ve görsel tonları yakalayan guava tozunun püskürtülerek kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-pomegranate": {
+        "name": "Nar Tozu",
+        "desc": "Antioksidan bakımından zengin nar suyu tozu, yüksek brix'i ve güzel pembe-kırmızı rengi korumak için püskürtülerek kurutulur.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Deccan Platosu, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-pineapple": {
+        "name": "Ananas Tozu",
+        "desc": "Gurme mikserler ve fırınlama için doğal aromayı ve görsel tonları yakalayan ananas tozunun spreyle kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-papaya": {
+        "name": "Papaya Tozu",
+        "desc": "Gurme karıştırıcılar ve pişirme için doğal aromayı ve görsel tonları yakalayan papaya tozunun püskürtülerek kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-apple": {
+        "name": "Elma Tozu",
+        "desc": "Gurme karıştırıcılar ve fırınlama için doğal aromayı ve görsel tonları yakalayan, elma tozunun püskürtülerek kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-orange": {
+        "name": "Portakal Tozu",
+        "desc": "Gurme mikserler ve fırınlama için doğal aromayı ve görsel tonları yakalayan portakal tozundan spreyle kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-lemon": {
+        "name": "Limon Tozu",
+        "desc": "Gurme karıştırıcılar ve fırınlama için doğal aromayı ve görsel tonları yakalayan, püskürtülerek kurutulmuş birinci sınıf meyve suyu tozu ve limon tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-strawberry": {
+        "name": "Çilek Tozu",
+        "desc": "Gurme karıştırıcılar ve fırınlama için doğal aromayı ve görsel tonları yakalayan, çilek tozunun püskürtülerek kurutulmuş birinci sınıf meyve suyu tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Organik Meyve Pulpundan Püskürterek Kurutulmuş",
+          "grade": "Yiyecek ve İçecek A Sınıfı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fp-amla": {
+        "name": "Amla Tozu",
+        "desc": "Olağanüstü C vitamini seviyeleri sunan, besin takviyeleri için son derece uygun, kurutulmuş Hint bektaşi üzümü (Amla) tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Meyve Bahçeleri, Hindistan",
+          "packaging": "Ana kartonlarda alüminyum vakum folyosu ekler",
+          "purity": "%100 Saf Amla, yüksek C Vitamini",
+          "grade": "Nutrasötik Standart",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "m-powder": {
         "name": "Moringa Tozu",
-        "desc": "Sertifikalı organik olarak hasat edilmiş, gölgede kurutulmuş Mucize Ağaç (Moringa oleifera) yaprakları. Hayati vitaminler, polifenoller ve tam proteinlerle dolu derin zümrüt tozu.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+        "desc": "Organik olarak yetiştirilen Moringa oleifera ağaçlarından elde edilen, zengin protein, demir ve multivitamin indekslerine sahip, ince öğütülmüş ham yaprak tozu.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Latur Organik Vadisi, Hindistan",
-          "packaging": "Nem alıcı paketler içeren vakumlu bariyer ambalaj",
-          "purity": "99.9% Ham yaprak tozu, sıfır katkı maddesi",
-          "grade": "AAA+ Premium Nutrasötik",
+          "origin": "Latur Organik Çiftlikleri, Hindistan",
+          "packaging": "Vakumlu UV bariyerli torbalar (20 kg)",
+          "purity": "USDA ve APEDA Organik Sertifikalı",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
           "minOrder": "200 Kilogram"
         }
       },
-      "d-curryleaves": {
-        "name": "Köri Yaprağı Tozu",
-        "desc": "Hasattan hemen sonra gölgede kurutulmuş taze botanik köri yapraklarından yapılmıştır. Sağlık formülleri ve lüks kozmetikler için aromatik, terapötik terpen yağlarını korur.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "m-leaves": {
+        "name": "Moringa Yaprakları",
+        "desc": "Gölgede kurutulmuş, bütün moringa yaprakları sistematik olarak saplardan ve organik kalıntılardan temizlenir, hayati klorofil bozulmadan kalır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Kerala Baharat Kuşağı, Hindistan",
-          "packaging": "Mühürlü Kraft-poli astarlar",
-          "purity": "Organik Murraya koenigii türü",
-          "grade": "1. Sınıf Bitkisel Standart",
+          "origin": "Latur Organik Çiftlikleri, Hindistan",
+          "packaging": "Çift poli-astarlı dokuma çuval (15 kg)",
+          "purity": "USDA ve APEDA Organik Sertifikalı",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
           "minOrder": "200 Kilogram"
         }
       },
-      "j-powder": {
-        "name": "Jaggery Tozu",
-        "desc": "Kimyasal ağartıcılar veya toksik işleme yardımcıları olmadan işlenmiş, akışkan, yapışkan olmayan organik jaggery tozu. Sağlıklı mineral tatlandırıcı profilleri sunar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "m-tea": {
+        "name": "Moringa Çayı",
+        "desc": "Yüksek antioksidan, kafeinsiz günlük sağlıklı yaşam infüzyonu oluşturmak için aromatik bitkilerle harmanlanmış birinci sınıf kesilmiş moringa yaprakları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Kolhapur Şeker Kamışı Kuşağı, Hindistan",
-          "packaging": "Ayakta duran neme dayanıklı eko poşetler",
-          "purity": "100% Organik, Kimyasal İçermeyen Saflaştırma",
-          "grade": "Premium Kristal Seviyesi",
+          "origin": "Latur Organik Çiftlikleri, Hindistan",
+          "packaging": "Kompozit kutularda özelleştirilmiş filtre çay poşetleri",
+          "purity": "USDA ve APEDA Organik Sertifikalı",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "m-extract": {
+        "name": "Moringa Özü",
+        "desc": "Klinik kullanım için toplam flavonoidler ve saponin oranlarına göre standartlaştırılmış yüksek etkili biyoaktif moringa yaprağı ekstresi.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Latur Organik Çiftlikleri, Hindistan",
+          "packaging": "Gıdaya uygun HDPE bidonlar",
+          "purity": "USDA ve APEDA Organik Sertifikalı",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "sd-flax": {
+        "name": "Keten tohumu",
+        "desc": "Omega-3 yağ asitleriyle yüklü koyu kahverengi organik keten tohumları, saflığı garanti etmek için gelişmiş optik sınıflandırıcılarla işlenir.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
           "minOrder": "500 Kilogram"
         }
       },
-      "j-cubes": {
-        "name": "Jaggery Küpleri",
-        "desc": "Otantik, yüksek saflıkta jaggery'den yapılmış önceden ölçülmüş, tek tip bloklar ve küpler. Temiz bir şekilde çözünür ve derin pekmez aroması yayar.",
-        "pricing": "Ticaret Masası ile İletişime Geçin",
+      "sd-pumpkin": {
+        "name": "Kabak Çekirdeği",
+        "desc": "İhracata hazır birinci sınıf kabak çekirdeği, diyet tohumları, tahıllar ve endüstriyel yağ çıkarımı için özenle temizlenmiş ve sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
         "spec": {
-          "origin": "Mandya Tarım Kuşağı, Hindistan",
-          "packaging": "Bölmeli vakumlu tepsi paketleri",
-          "purity": "Geleneksel şeker kamışı ekstraksiyonu",
-          "grade": "A Sınıfı Standart Küpler",
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "sd-sesame": {
+        "name": "Susam tohumları",
+        "desc": "Otomatik Sortex dereceli çıtır, beyaz kabuklu susam tohumları, küresel fırıncılık ithalatı için yüksek yağ içeriği ve fındık tadı sunar.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "Premium Kabuklu Otomatik Temizlenen Sortex",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "sd-sunflower": {
+        "name": "Ayçiçeği tohumları",
+        "desc": "Diyet tohumları, tahıllar ve endüstriyel yağ çıkarımı için özenle temizlenmiş ve sınıflandırılmış, ihracata hazır birinci sınıf ayçiçeği tohumları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "sd-chia": {
+        "name": "Chia Tohumları",
+        "desc": "Müsilaj lifleri açısından zengin, tüm yabancı bitki maddelerini uzaklaştıracak şekilde sınıflandırılmış, yüksek oranda şişen organik siyah ve beyaz chia tohumları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Madya Pradeş, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "sd-watermelon": {
+        "name": "Karpuz Çekirdeği",
+        "desc": "İhracata hazır birinci sınıf karpuz tohumları, diyet tohumları, tahıllar ve endüstriyel yağ çıkarımı için özenle temizlenmiş ve sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "sd-basil": {
+        "name": "Fesleğen Tohumları",
+        "desc": "İhracata hazır birinci sınıf fesleğen tohumları, diyet tohumları, tahıllar ve endüstriyel yağ çıkarımı için özenle temizlenmiş ve sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Gujarat Kurak Alanları, Hindistan",
+          "packaging": "Çok Katlı Kraft Kağıt Torbalar (25 kg)",
+          "purity": "%99,9 Makine Temizliği / Sortex Temizliği",
+          "grade": "İhracat Sınıfı AAA Kalın Tohumlar",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-onion": {
+        "name": "Kurutulmuş Soğan",
+        "desc": "Mükemmel dokuya sahip, havayla kurutulmuş kırmızı ve beyaz soğan dilimleri, anında gıda formülasyonu için temel keskin tatları korur.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Nashik Bölgesi, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-garlic": {
+        "name": "Kurutulmuş Sarımsak",
+        "desc": "Hazır baharat losyonlarında, konserve güveçlerde ve eriştelerde rehidrasyonu hızlandırmak için bölünmüş premium kurutulmuş sarımsak dişleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Malwa Bölgesi, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-ginger": {
+        "name": "Kurutulmuş Zencefil",
+        "desc": "Düşük sıcaklıkta kurutulan kurutulmuş zencefil dilimleri, endüstriyel gıda paketleyicilere yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sıralanmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-tomato": {
+        "name": "Kurutulmuş Domates",
+        "desc": "Gurme mutfak paketleri için zengin doğal likopen içeren ve sıfır sülfit işlemine tabi tutulan kurutulmuş organik domates dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Wayanad Yaylaları, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-carrot": {
+        "name": "Kurutulmuş Havuç",
+        "desc": "Düşük sıcaklıkta kurutulmuş kurutulmuş havuç dilimleri, endüstriyel gıda paketleyicileri için tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-beetroot": {
+        "name": "Kurutulmuş Pancar",
+        "desc": "Düşük sıcaklıkta kurutulmuş, kurutulmuş pancar dilimleri, endüstriyel gıda paketleyicileri için tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-spinach": {
+        "name": "Kurutulmuş Ispanak",
+        "desc": "Düşük sıcaklıkta kurutulmuş, suyu alınmış ıspanak dilimleri, endüstriyel gıda paketleyicilerine yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "dv-cabbage": {
+        "name": "Kurutulmuş Lahana",
+        "desc": "Düşük sıcaklıkta kurutulan kurutulmuş lahana dilimleri, endüstriyel gıda paketleyicilere yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sıralanmıştır.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
+          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
+          "grade": "AAA Premium Rehidrasyon Standardı",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-banana": {
+        "name": "Muz Dilimleri",
+        "desc": "Organik atıştırmalık karışımları için mükemmel olan, kimyasal koruyucular olmadan doğal olarak kurutulan Sweet Cavendish muz turtaları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Wayanad Yaylaları, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-mango": {
+        "name": "Mango Dilimleri",
+        "desc": "Elle dilimlenmiş Alphonso ve Kesar mango şeritleri, tatlı tropik kokuyu ve yumuşak, çiğnenebilir gurme dokusunu korumak için havayla kurutulur.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Ratnagiri Meyve Bahçeleri, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-pineapple": {
+        "name": "Ananas Dilimleri",
+        "desc": "Gurme gıda torbaları ve tahıl katkı maddeleri için yapılandırılmış, güneşte olgunlaştırılmış organik ananas dilimlerinin birinci sınıf kurutulmuş dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-apple": {
+        "name": "Elma Dilimleri",
+        "desc": "Gurme gıda torbaları ve tahıl katkı maddeleri için yapılandırılmış, güneşte olgunlaştırılmış birinci sınıf kurutulmuş organik elma dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-papaya": {
+        "name": "Papaya Dilimleri",
+        "desc": "Gurme gıda torbaları ve tahıl katkı maddeleri için yapılandırılmış, güneşte olgunlaştırılmış birinci sınıf kurutulmuş organik papaya dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-strawberry": {
+        "name": "Çilek Dilimleri",
+        "desc": "Gurme gıda torbaları ve tahıl katkı maddeleri için yapılandırılmış, güneşte olgunlaştırılmış birinci sınıf kurutulmuş organik çilek dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "df-guava": {
+        "name": "Guava Dilimleri",
+        "desc": "Gurme gıda torbaları ve tahıl katkı maddeleri için yapılandırılmış, güneşte olgunlaştırılmış birinci sınıf kurutulmuş organik guava dilimleri.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Ana kartonlarda vakumla kapatılmış poli torbalar (10kg)",
+          "purity": "İlave Şeker, Sülfit veya Renklendirici Yok",
+          "grade": "Premium Uzun Kesim Dilimler",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-onion": {
+        "name": "Soğan Gevreği",
+        "desc": "Fast food erişteleri ve sosları için ideal olan doğal tatlı allisin'i korumak için sistematik olarak havayla kurutulan 10 mm'lik kırmızı ve beyaz soğan pullarını mükemmel şekilde kesin.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Nashik Vadisi, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-garlic": {
+        "name": "Sarımsak Gevreği",
+        "desc": "Kurutulmuş sarımsak pulları temiz bir şekilde bölünerek, keskin allium lezzeti ve hazır yemek paketleri için hızlı nemlendirme sunar.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Malwa Platosu, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-potato": {
+        "name": "Patates Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulmuş birinci sınıf kurutulmuş patates pulları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-tomato": {
+        "name": "Domates Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulmuş birinci sınıf kurutulmuş domates pulları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-beetroot": {
+        "name": "Pancar Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulan birinci sınıf kurutulmuş pancar gevreği.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-carrot": {
+        "name": "Havuç Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulan birinci sınıf kurutulmuş havuç pulları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-spinach": {
+        "name": "Ispanak Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulmuş birinci sınıf kurutulmuş ıspanak pulları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
+          "minOrder": "500 Kilogram"
+        }
+      },
+      "fl-mixedveg": {
+        "name": "Karışık Sebze Gevreği",
+        "desc": "Hızlı gurme yemekler için renk yoğunluğunu ve hücresel dokuyu korumak üzere kurutulmuş birinci sınıf kurutulmuş karışık sebze pulları.",
+        "pricing": "Ticaret Masası ile iletişime geçin",
+        "spec": {
+          "origin": "Maharashtra, Hindistan",
+          "packaging": "Isıyla kapatılmış astarlı çift oluklu kutular",
+          "purity": "Nem < %5 garantili, sıfır toz",
+          "grade": "Gurme Pul Kesim (10-12mm)",
           "minOrder": "500 Kilogram"
         }
       }
     }
   },
   "seo": {
-    "homeTitle": "DharaAveda İnziva Yeri | Bütünsel İyileşme & Premium İhracat",
-    "homeDesc": "DharaAveda İnziva Yeri, Bach çiçekleri terapisi, Reiki çakra dengelemesi ve 432Hz ses terapisi sunmaktadır.",
-    "exportTitle": "Tarımsal İhracat Bölümü | DharaAveda",
-    "exportDesc": "Birinci sınıf baharatlar, saf Himalaya Shilajiti ve organik aromaterapi özleri. APEDA ve SGS uyumlu.",
-    "wellnessTitle": "Bütünsel Sağlık Terapileri & İnziva | DharaAveda",
-    "wellnessDesc": "Wayanad, Kerala'daki orman inziva yerimizde Reiki, Bach çiçekleri konsültasyonları ve ses terapisini deneyimleyin.",
-    "bookingTitle": "Sağlık Seansınızı Ayarlayın | DharaAveda",
-    "bookingDesc": "Reiki uyumlaması, Bach çiçekleri veya ses terapisi seansınız için özel randevunuzu ayırtın.",
-    "contactTitle": "İletişim | DharaAveda",
-    "contactDesc": "Toplu tarımsal sevkiyatlar, ticari sözleşmeler veya inziva yeri kabulleri için bizimle iletişime geçin."
+    "homeTitle": "DharaAveda Tapınağı | Onarıcı Kuantum Şifa ve Premium Wellness İhracatı",
+    "homeDesc": "DharaAveda Sanctuary, klasik Bach kır çiçeği terapisini, Usui Reiki çakra hizalamasını, Aura-Soma kromo-esansiyel yağlarını ve ses uyumlamalarını harmanlıyor.",
+    "exportTitle": "Tarımsal Ticaret Bölümü | DharaAveda Tapınağı",
+    "exportDesc": "Doğrudan kaynaklı birinci sınıf yeşil kakule, saf Shilajit reçinesi ve organik aromaterapi özleri. Yetkili APEDA ve SGS uyumluluğu.",
+    "wellnessTitle": "Onarıcı Kuantum Tapınağı ve Terapileri | Dhara Aveda",
+    "wellnessDesc": "Kerala'daki Wayanad tapınağımızda Usui Reiki, Bach çiçek danışmanlıkları ve 432Hz ses terapisini deneyimleyin.",
+    "bookingTitle": "Uyumlama Uzmanlığınızı Programlayın | Dhara Aveda",
+    "bookingDesc": "Reiki uyumlaması, Bach çiçek konsültasyonları veya derin ses şifası için gizli alım seansınızı ayırın.",
+    "contactTitle": "Konsey Masasıyla İletişime Geçin | Dhara Aveda",
+    "contactDesc": "Toplu tarımsal gönderiler, emtia sözleşmeleri veya sığınak sağlıklı yaşam kabulleri için iletişime geçin."
   }
 };

@@ -14,8 +14,14 @@ const ProductCategoryCard: React.FC<ProductCategoryCardProps> = ({ category, onO
   const { lang } = useLanguage();
   const t = staticTranslations[lang] || staticTranslations.en;
 
-  const title = t.products?.categories?.[category.id]?.title || category.title;
-  const description = t.products?.categories?.[category.id]?.desc || category.description;
+  const title =
+    t.products?.categories?.[category.id]?.title ||
+    t.export?.showcaseCategories?.[category.id]?.title ||
+    category.title;
+  const description =
+    t.products?.categories?.[category.id]?.desc ||
+    t.export?.showcaseCategories?.[category.id]?.description ||
+    category.description;
 
   return (
     <div

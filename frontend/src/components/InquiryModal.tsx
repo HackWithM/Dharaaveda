@@ -86,7 +86,7 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
         <div className="flex justify-between items-start mb-6">
           <div className="text-left">
             <span className="text-[10px] font-mono tracking-[0.3em] text-orange-600 font-semibold uppercase block mb-1">
-              INT TRADE ENQUIRY
+              {t.product.inquiryBadge || "INT TRADE ENQUIRY"}
             </span>
             <h3 className="font-serif text-xl sm:text-2xl text-gray-900 font-bold">
               {t.product.inquiryRequestQuote || "Request Quotation"}
@@ -203,7 +203,7 @@ export default function InquiryModal({ product, onClose }: InquiryModalProps) {
 
             <div className="text-left">
               <label className="block text-[10px] font-mono uppercase tracking-widest text-gray-600 mb-1.5">
-                Custom Port Destination / Packing Demands
+                {t.product.inquiryMessageLabel || "Custom Port Destination / Packing Demands"}
               </label>
               <textarea
                 rows={3}

@@ -139,32 +139,60 @@ async function translateText(text, targetLang) {
 }
 
 async function translateObject(obj, targetLang) {
-  if (Array.isArray(obj)) {
-    const arr = [];
-    for (const item of obj) {
-      arr.push(await translateObject(item, targetLang));
-    }
-    return arr;
-  } else if (typeof obj === "object" && obj !== null) {
-    const result = {};
-    for (const key in obj) {
-      const val = obj[key];
-      if (typeof val === "string") {
-        if (val.trim() === "" || val.includes("http") || val.includes("@") || val.includes("+") || /^\d+$/.test(val)) {
-          result[key] = val;
-        } else {
-          result[key] = await translateText(val, targetLang);
-          await new Promise(resolve => setTimeout(resolve, 100)); // 100ms spacing
-        }
-      } else if (typeof val === "object" && val !== null) {
-        result[key] = await translateObject(val, targetLang);
-      } else {
-        result[key] = val;
+  const stringsToTranslate = [];
+  
+  function collect(item, path) {
+    if (Array.isArray(item)) {
+      item.forEach((val, idx) => collect(val, [...path, idx]));
+    } else if (typeof item === "object" && item !== null) {
+      for (const key in item) {
+        collect(item[key], [...path, key]);
+      }
+    } else if (typeof item === "string") {
+      const val = item;
+      if (val.trim() !== "" && !val.includes("http") && !val.includes("@") && !val.includes("+") && !/^\d+$/.test(val)) {
+        stringsToTranslate.push({ path, val });
       }
     }
-    return result;
   }
-  return obj;
+  
+  collect(obj, []);
+  
+  const limit = 25;
+  const translatedValues = new Array(stringsToTranslate.length);
+  
+  for (let i = 0; i < stringsToTranslate.length; i += limit) {
+    const batch = stringsToTranslate.slice(i, i + limit);
+    const promises = batch.map(async (item, batchIdx) => {
+      const trans = await translateText(item.val, targetLang);
+      translatedValues[i + batchIdx] = trans;
+    });
+    await Promise.all(promises);
+    await new Promise(resolve => setTimeout(resolve, 50));
+  }
+  
+  function cloneAndReassemble(item, path) {
+    if (Array.isArray(item)) {
+      return item.map((val, idx) => cloneAndReassemble(val, [...path, idx]));
+    } else if (typeof item === "object" && item !== null) {
+      const result = {};
+      for (const key in item) {
+        result[key] = cloneAndReassemble(item[key], [...path, key]);
+      }
+      return result;
+    } else if (typeof item === "string") {
+      const matchIdx = stringsToTranslate.findIndex(entry => 
+        entry.path.length === path.length && entry.path.every((p, idx) => p === path[idx])
+      );
+      if (matchIdx !== -1) {
+        return translatedValues[matchIdx];
+      }
+      return item;
+    }
+    return item;
+  }
+  
+  return cloneAndReassemble(obj, []);
 }
 
 async function translateSingleDbLanguage(db, lang) {
@@ -291,6 +319,28 @@ async function run() {
           translatedObj.home = await translateObject(homeKeys, lang.code);
           // Translate seo section
           translatedObj.seo = await translateObject(seoKeys, lang.code);
+          
+          // Translate products section if missing or incomplete
+          const expectedCatIds = Object.keys(enMaster.products?.categories || {});
+          const translatedCatIds = translatedObj.products && translatedObj.products.categories ? Object.keys(translatedObj.products.categories) : [];
+          const hasAllCategories = expectedCatIds.every(id => translatedCatIds.includes(id));
+          
+          if (!hasAllCategories || !translatedObj.products || !translatedObj.products.items) {
+            console.log(`  Translating missing/outdated "products" section for ${lang.name}...`);
+            translatedObj.products = await translateObject(enMaster.products, lang.code);
+          }
+
+          // Translate export.showcaseCategories if missing or incomplete
+          const expectedShowcaseIds = Object.keys(enMaster.export?.showcaseCategories || {});
+          const translatedShowcaseIds = translatedObj.export?.showcaseCategories ? Object.keys(translatedObj.export.showcaseCategories) : [];
+          const hasAllShowcase = expectedShowcaseIds.length > 0 && expectedShowcaseIds.every(id => translatedShowcaseIds.includes(id));
+
+          if (!hasAllShowcase && enMaster.export?.showcaseCategories) {
+            console.log(`  Translating missing/outdated "export.showcaseCategories" for ${lang.name}...`);
+            const translatedShowcase = await translateObject(enMaster.export.showcaseCategories, lang.code);
+            if (!translatedObj.export) translatedObj.export = {};
+            translatedObj.export.showcaseCategories = translatedShowcase;
+          }
           
           fs.writeFileSync(
             filePath,

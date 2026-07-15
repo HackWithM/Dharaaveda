@@ -32,78 +32,78 @@ export const translations: StaticTranslations = {
     "rights": "版权所有。注册贸易实体。"
   },
   "home": {
-    "heroTitle": "全球贸易与整体疗法的融合",
-    "heroSubtitle": "Dharaaveda 将优质的农业供应链与恢复活力的能量疗法相融合。",
+    "heroTitle": "全球贸易与整体治疗的融合",
+    "heroSubtitle": "Dharaaveda 将优质农业供应链与恢复性能量疗法相结合。",
     "ctaExports": "探索出口",
     "ctaTherapies": "探索疗法",
-    "aboutTitle": "连接大地恩赐与个人康复",
-    "aboutSubtitle": "我们的双重理念",
-    "aboutDesc1": "Dharaaveda 处于国际贸易与整体健康的交汇点。我们相信真正的健康既是全球性的，也是深切个人的。",
-    "aboutDesc2": "我们的农业部门直接与有机农场合作，在全球分销优质香料。同时，我们的治疗部门在瓦亚纳德提供电磁静噪的静修所。",
+    "aboutTitle": "连接地球的恩赐和个人康复",
+    "aboutSubtitle": "我们的双部门理念",
+    "aboutDesc1": "Dharaaveda 处于国际贸易和整体健康的交叉点。我们相信，真正的福祉既是全球性的，也是个人的。",
+    "aboutDesc2": "我们的农业部门直接与有机小农庄园合作，在全球范围内分销优质香料和脱水产品。与此同时，我们的治疗部门在瓦亚纳德打造了电磁静音庇护所，以恢复神经系统平衡和细胞活力。",
     "showcaseTitle": "探索我们的部门",
-    "showcaseSubtitle": "选择一个部门进入我们的专用空间",
-    "exportCardTitle": "出口部门",
-    "exportCardDesc": "将印度本土的农场连接到全球制药、化妆品和食品进口商。在绝对符合植物检疫要求的情况下运输香料和提取物。",
-    "exportHighlight1": "APEDA & SGS 认证",
-    "exportHighlight2": "农场直接采购",
-    "exportHighlight3": "全球海运与空运",
-    "exportHighlight4": "大宗定制包装",
+    "showcaseSubtitle": "选择一个垂直方向进入我们的专用空间",
+    "exportCardTitle": "出口事业部",
+    "exportCardDesc": "将印度深入的植物农场与全球优质药店、化妆品公司和食品进口商联系起来。优质香料、谷物和适应性提取物的运输绝对符合植物检疫要求。",
+    "exportHighlight1": "APEDA 和 SGS 认证",
+    "exportHighlight2": "直接农场采购",
+    "exportHighlight3": "全球海空航线",
+    "exportHighlight4": "散装定制包装",
     "exportCardBtn": "查看出口服务",
-    "therapyCardTitle": "疗法部门",
-    "therapyCardDesc": "协调您的生物场，清除深层的生命周期创伤，恢复绝对的躯体和平。融合巴赫花精、雷气脉轮调整和水晶磬音疗。",
-    "therapyHighlight1": "巴赫花精疗法",
-    "therapyHighlight2": "乌苏伊雷气调整",
+    "therapyCardTitle": "治疗科",
+    "therapyCardDesc": "调整您的生物场，清除深层的生命周期创伤，并恢复绝对的躯体平静。沉浸式咨询融合了花精、灵气脉轮排列和和弦石英声音治疗。",
+    "therapyHighlight1": "巴赫花疗",
+    "therapyHighlight2": "臼井灵气对齐",
     "therapyHighlight3": "情绪健康",
-    "therapyHighlight4": "432Hz 磬音疗法",
-    "therapyCardBtn": "查看疗法服务",
-    "whyTitle": "为什么选择 Dharaaveda",
-    "whySubtitle": "在物流和健康方面坚持毫不妥协的标准",
+    "therapyHighlight4": "432Hz 声音疗愈",
+    "therapyCardBtn": "查看治疗服务",
+    "whyTitle": "为什么选择达拉维达",
+    "whySubtitle": "物流和健康方面毫不妥协的标准",
     "whyTrustTitle": "绝对信任",
-    "whyTrustDesc": "高度透明、完全符合检疫规定并签署经认证的保密协议。",
-    "whyQualityTitle": "吠陀质量",
-    "whyQualityDesc": "从农场到港口的直接可追溯性，以及定制调配的生物频率疗愈配方。",
-    "whyExpertiseTitle": "卓越专业",
-    "whyExpertiseDesc": "数代农业传承，与获得认证的资深能量疗愈师团队强强联手。",
-    "whyReachTitle": "全球网络",
-    "whyReachDesc": "可靠的货运航线，向全球 34 个以上的国家和地区的主要进口商交货。",
-    "whyHolisticTitle": "身心健康",
-    "whyHolisticDesc": "在纯净、自然的深山疗愈所进行深层的细胞修复与静养。",
+    "whyTrustDesc": "完全透明、完全符合植物检疫规定以及经过认证的保密协议。",
+    "whyQualityTitle": "吠陀品质",
+    "whyQualityDesc": "直接从农场到港口的可追溯性和定制的生物频率疗法。",
+    "whyExpertiseTitle": "成熟的专业知识",
+    "whyExpertiseDesc": "几代人的农业遗产与经过认证的精力充沛的从业者相结合。",
+    "whyReachTitle": "全球影响力",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
+    "whyHolisticTitle": "整体健康",
+    "whyHolisticDesc": "在纯净、自然的山区保护区内进行深层细胞治疗。",
     "highlightsTitle": "特色亮点",
-    "highlightsSubtitle": "我们运营的关键焦点领域",
-    "exportHighlightTitle": "出口部门重点",
+    "highlightsSubtitle": "我们运营的重点领域",
+    "exportHighlightTitle": "出口事业部重点",
     "therapyHighlightTitle": "治疗部门重点",
-    "highlightsExport1": "农业产品",
-    "highlightsExport1Desc": "手工采摘的香蕉、阿尔方索芒果和有机甘蔗提取物。",
-    "highlightsExport2": "优质香料",
-    "highlightsExport2Desc": "塞勒姆姜黄、精选小豆蔻、贡土尔辣椒和马拉巴尔黑胡椒。",
+    "highlightsExport1": "农产品",
+    "highlightsExport1Desc": "手工采摘的卡文迪什香蕉、阿方索芒果和有机甘蔗提取物。",
+    "highlightsExport2": "精英香料",
+    "highlightsExport2Desc": "塞勒姆姜黄、大胆豆蔻、贡图尔辣椒和马拉巴尔黑胡椒。",
     "highlightsExport3": "脱水产品",
-    "highlightsExport3Desc": "低温洋葱片、喷雾干燥番茄粉和甜菜根粉。",
+    "highlightsExport3Desc": "低温洋葱片、喷雾干燥番茄和甜菜根粉。",
     "highlightsExport4": "全球物流",
-    "highlightsExport4Desc": "定制真空密封包装、SGS 认证和高效海关申报。",
-    "highlightsTherapy1": "巴赫花精疗法",
-    "highlightsTherapy1Desc": "专为缓解脑部压力与促进神经放松而调制的个性化花精滴剂。",
-    "highlightsTherapy2": "雷气调整",
-    "highlightsTherapy2Desc": "非侵入性的生物场脉轮平衡，与生命能量场的重新调谐。",
+    "highlightsExport4Desc": "定制真空屏障密封、SGS 认证和定制端口备案。",
+    "highlightsTherapy1": "巴赫花疗",
+    "highlightsTherapy1Desc": "针对主动认知压力和神经释放而选择的定制液体疗法。",
+    "highlightsTherapy2": "雷卡诺霍/灵气",
+    "highlightsTherapy2Desc": "非侵入性生物场脉轮平衡和色能量场恢复。",
     "highlightsTherapy3": "情绪健康",
-    "highlightsTherapy3Desc": "神经系统恢复规程，专为缓解慢性劳损和亚健康状态设计。",
+    "highlightsTherapy3Desc": "旨在消除生活方式疲劳的神经系统恢复方案。",
     "highlightsTherapy4": "能量疗愈",
-    "highlightsTherapy4Desc": "在无电磁波干扰的静室中，使用 432Hz 水晶磬进行多音阶音疗谐振。",
-    "statsTitle": "我们的运营版图",
-    "statsSubtitle": "衡量我们的全球影响力和临床康复率",
-    "statCountries": "服务国家/地区",
+    "highlightsTherapy4Desc": "无电磁室内的 432Hz 和弦石英歌唱声音调谐。",
+    "statsTitle": "我们的运营足迹",
+    "statsSubtitle": "衡量我们的全球影响力和临床成功",
+    "statCountries": "服务国家",
     "statProducts": "产品类别",
-    "statSessions": "疗愈疗程数",
+    "statSessions": "治疗疗程",
     "statSatisfaction": "客户满意度",
     "testimonialsTitle": "共鸣之声",
-    "testimonialsSubtitle": "来自我们的贸易伙伴和疗愈所客人的真实反馈",
-    "ctaTitle": "开启您的旅程",
-    "ctaSubtitle": "联系我们的专业部门服务台",
-    "ctaExportBoxTitle": "正在寻找出口解决方案？",
-    "ctaExportBoxDesc": "联系我们的商品套利台，获取大宗集装箱合同、定制包装或物流合规服务。",
-    "ctaExportBoxBtn": "联系出口服务台",
-    "ctaTherapyBoxTitle": "寻求整体疗愈？",
-    "ctaTherapyBoxDesc": "安排私人咨询，或预订我们位于瓦亚纳德山区的疗愈别墅套房。",
-    "ctaTherapyBoxBtn": "预订疗愈行程"
+    "testimonialsSubtitle": "来自我们的贸易伙伴和保护区游客的反馈",
+    "ctaTitle": "开始你的旅程",
+    "ctaSubtitle": "与我们的专业部门联系",
+    "ctaExportBoxTitle": "寻找出口解决方案？",
+    "ctaExportBoxDesc": "与我们的商品套利服务台联系，了解散装集装箱合同、定制包装或物流合规性。",
+    "ctaExportBoxBtn": "与出口服务台交谈",
+    "ctaTherapyBoxTitle": "寻找整体治疗？",
+    "ctaTherapyBoxDesc": "安排私人咨询或在我们的瓦亚纳德山保护区预订别墅住宿，以进行生物场协调。",
+    "ctaTherapyBoxBtn": "预订庇护所入场人数"
   },
   "export": {
     "division": "国际贸易部",
@@ -136,7 +136,275 @@ export const translations: StaticTranslations = {
     "packagingPrep": "定制包装准备:",
     "packagingDays": "5-7 个工作日",
     "portOfLoad": "起运港 FOB:",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "香料及调味料事业部",
+        "title": "精选香料和正宗调味料",
+        "description": "吠陀级芳香剂、辣椒和复杂烹饪粉末均按照绝对微生物安全标准研磨。直接从农场采购，保证了丰富的油含量和浓郁的风味。",
+        "highlights": [
+          "姜黄素 黄金姜黄精选 (>5%)",
+          "胡椒碱检查的 Tellicherry 黑胡椒",
+          "苏丹染料阴性贡土尔辣椒",
+          "低温低温卫生研磨"
+        ],
+        "benefits": [
+          "高挥发性精油保留",
+          "原始的香气和风味稳定性",
+          "100%有机、无添加加工",
+          "黄曲霉毒素安全全球合规性"
+        ],
+        "packaging": "25 公斤多层牛皮纸袋，带聚乙烯内衬，真空包装选项。",
+        "capability": "合并混合拼箱集装箱装运或每整箱最多 20 公吨。",
+        "shippingInfo": "FOB Nhava Sheva（孟买）或蒙德拉港。航空货运优先路线。",
+        "features": [
+          {
+            "title": "姜黄素金",
+            "desc": "金黄姜黄粉的活性姜黄素含量超过 5%，可用于食品和临床用途。"
+          },
+          {
+            "title": "马拉巴尔胡椒",
+            "desc": "格外浓郁的黑胡椒浆果因深邃的胡椒辛辣味和复杂的林地气息而备受推崇。"
+          },
+          {
+            "title": "冷冻研磨辣椒",
+            "desc": "Guntur Sannam 辣椒粉在低温控制下研磨，以阻止热引起的油脂损失。"
+          },
+          {
+            "title": "柑橘香菜",
+            "desc": "优质 Malwa 种子研磨成细网状，含有柑橘温暖的挥发性成分。"
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "蔬菜粉台",
+        "title": "纯脱水蔬菜粉",
+        "description": "农业蔬菜在严格控制的低温下脱水，以保护生物活性营养素、颜色特征和风味深度。非常适合即食食品、搅拌机和药物配方。",
+        "highlights": [
+          "100%真正的植物固体，零添加剂",
+          "细胞保留低温干燥",
+          "优异的干溶性和分散性",
+          "自由流动、不结块的天然等级"
+        ],
+        "benefits": [
+          "即时水重构比例",
+          "有机香料的浓缩",
+          "保留天然维生素和纤维",
+          "原始视觉色素保留"
+        ],
+        "packaging": "带双层聚乙烯内袋的纤维桶（20 公斤/25 公斤）。",
+        "capability": "每整箱 12-15 公吨。定制香料/蔬菜混合配方。",
+        "shippingInfo": "通过温控冷藏集装箱进行海洋运输至全球港口。",
+        "features": [
+          {
+            "title": "喷雾干燥番茄",
+            "desc": "可溶性红色番茄果肉粉富含番茄红素，瞬间赋予美味深度。"
+          },
+          {
+            "title": "甜菜碱甜菜根",
+            "desc": "精细研磨的甜菜根粉提供浓郁的天然深红色和丰富的硝酸盐。"
+          },
+          {
+            "title": "叶绿素菠菜",
+            "desc": "亮绿色可溶菠菜粉锁定膳食铁和叶绿素。"
+          },
+          {
+            "title": "大蒜素",
+            "desc": "由精选丁香研磨而成的辛辣大蒜粉，可快速分散和品尝。"
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "水果粉台",
+        "title": "果园水果粉和可溶物",
+        "description": "优质喷雾干燥和低温脱水果粉，捕捉阳光成熟果园水果的真正甜味、有机糖和维生素。在饮料、糖果和婴儿食品中非常受欢迎。",
+        "highlights": [
+          "直接从有机纸浆喷雾干燥",
+          "不添加糖、亚硫酸盐或着色剂",
+          "高度溶于热和冷液体",
+          "营养丰富的超级食品选择"
+        ],
+        "benefits": [
+          "纯正的果香和甜甜的味道",
+          "高维生素 C 和生物活性保留",
+          "乳制品和烘焙的完美混合",
+          "符合清洁标签的成分"
+        ],
+        "packaging": "铝箔真空密封袋装在瓦楞纸箱内。",
+        "capability": "每整箱 8-10 公吨。自有品牌包装支持。",
+        "shippingInfo": "快速空运货物或温度监控海运集装箱运输。",
+        "features": [
+          {
+            "title": "卡文迪什香蕉",
+            "desc": "绿色成熟的香蕉粉富含抗性淀粉，非常适合无麸质混合物。"
+          },
+          {
+            "title": "凯萨芒果",
+            "desc": "金色的水果固体捕捉手工采摘的印度芒果的甜香。"
+          },
+          {
+            "title": "抗坏血酸醋栗",
+            "desc": "有机来源的醋栗粉含有高浓度的天然维生素 C。"
+          },
+          {
+            "title": "抗氧化石榴",
+            "desc": "喷雾干燥的石榴汁粉提供丰富的多酚和视觉粉红色调。"
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "辣木超级食品台",
+        "title": "优质有机辣木产品",
+        "description": "有机种植的辣木叶、粉末、茶和提取物均来自无农药、高产的印度庄园。根据阴影干燥方案进行处理，以保护必需氨基酸。",
+        "highlights": [
+          "美国农业部和 APEDA 有机认证作物",
+          "严格阴干叶养护",
+          "植物化学物质和类黄酮标准化",
+          "99.9%洁净叶料，零沙"
+        ],
+        "benefits": [
+          "含 9 种氨基酸的完整植物蛋白",
+          "铁、钙和维生素含量极高",
+          "真空密封保质期高度稳定",
+          "补充剂和化妆品的理想选择"
+        ],
+        "packaging": "带有硅胶衬垫的真空阻隔袋，装在加固盒中。",
+        "capability": "每批 5-8 公吨。可定制的切叶和批发包装。",
+        "shippingInfo": "密封干货集装箱，优先空运至全球健康经销商。",
+        "features": [
+          {
+            "title": "有机叶粉",
+            "desc": "精细研磨的辣木叶粉，具有深翠色和青草味。"
+          },
+          {
+            "title": "清洁腌制的叶子",
+            "desc": "对阴干的整片叶子进行机械分类，去除树枝、茎和灰尘。"
+          },
+          {
+            "title": "辣木花草茶",
+            "desc": "均匀切割的叶子针对茶包进行了优化，提供新鲜的健康草药浸液。"
+          },
+          {
+            "title": "标准化提取物",
+            "desc": "浓缩辣木叶提取物标准化用于临床制剂的总生物类黄酮。"
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "油料种子台",
+        "title": "优质分选油和膳食种子",
+        "description": "精英出口品质的有机油和营养种子，在绝对的植物检疫控制下进行系统的清洁、分类和包装。高出油率和清洁的 Sortex 纯度使其成为食品和工业加工的理想选择。",
+        "highlights": [
+          "99.9% Sortex 光学颜色分类",
+          "严格的熏蒸和清洁审核",
+          "经认证无农药、无残留",
+          "高含量的多不饱和脂肪酸"
+        ],
+        "benefits": [
+          "高天然油提取率",
+          "极其干净的种子，零污垢",
+          "统一的种子尺寸和颜色配置文件",
+          "包装以阻挡大气湿气"
+        ],
+        "packaging": "聚丙烯编织袋或多层纸袋（25 公斤/50 公斤）。",
+        "capability": "每个集装箱 (FCL) 18-22 公吨。定制湿度规格。",
+        "shippingInfo": "直接远洋班轮、散装货物运送至商业面包店和分销商。",
+        "features": [
+          {
+            "title": "去壳芝麻",
+            "desc": "自动清洗的白芝麻，出油率高，坚果味甜。"
+          },
+          {
+            "title": "金色亚麻",
+            "desc": "优质亚麻籽富含膳食纤维和必需的 Omega-3 脂肪酸。"
+          },
+          {
+            "title": "凝胶形成奇亚籽",
+            "desc": "有机黑奇亚籽具有优异的膨胀指数和粘液质量。"
+          },
+          {
+            "title": "绿色南瓜",
+            "desc": "去壳干净的南瓜籽仁经过筛选，颜色均匀，颜色深绿，松脆可口。"
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "脱水蔬菜台",
+        "title": "卫生脱水蔬菜",
+        "description": "将洋葱、大蒜、生姜和其他蔬菜切片干净，在先进的气流室中脱水。直接源自符合植物标准的农业带，具有出色的补水和风味性能。",
+        "highlights": [
+          "不使用亚硫酸盐、硫磺或防腐剂",
+          "残留水分含量低（<5%）",
+          "原始补水和质地恢复",
+          "出口货物经植物检疫认证"
+        ],
+        "benefits": [
+          "大大减少烹饪准备时间",
+          "节省运输重量和存储空间",
+          "保留自然色彩和视觉吸引力",
+          "食品混合物中一致的风味强度"
+        ],
+        "packaging": "HDPE 内衬主纸箱，带有双层热封聚乙烯插件。",
+        "capability": "每整箱 10-12 公吨。可定制切片和切丁。",
+        "shippingInfo": "标准干燥集装箱或冷藏路由至工业调味厨房。",
+        "features": [
+          {
+            "title": "洋葱片",
+            "desc": "脱水红洋葱和白洋葱片，具有强烈的刺激性和高复原性。"
+          },
+          {
+            "title": "蒜瓣",
+            "desc": "干燥的蒜瓣经过精心去皮和排序以去除烟灰。"
+          },
+          {
+            "title": "姜片",
+            "desc": "洗净的干姜片具有辛辣的热量和高活性姜辣素含量。"
+          },
+          {
+            "title": "藤番茄",
+            "desc": "干燥的有机番茄片富含天然番茄红素，干燥时不含化学亚硫酸盐。"
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "脱水水果台",
+        "title": "防晒脱水水果",
+        "description": "由手工采摘的有机果园制成的优质切片和长切脱水水果。保留天然果糖、耐嚼的质地和重要的维生素，不含化学防腐剂。",
+        "highlights": [
+          "零添加蔗糖或甜味剂",
+          "不含亚硫酸盐、零化学着色剂",
+          "灵活的切片形状和定制湿度",
+          "无农药认证果园"
+        ],
+        "benefits": [
+          "天然的甜味和耐嚼的口感",
+          "干燥储存时具有出色的货架稳定性",
+          "零食和烘焙食品的理想选择",
+          "低残留和清洁标签加工"
+        ],
+        "packaging": "BOPP 层压袋，内含氧气吸收剂和纸箱主包装。",
+        "capability": "每整箱 6-8 公吨。可提供定制切割尺寸。",
+        "shippingInfo": "低湿度干货集装箱和温度稳定的空运。",
+        "features": [
+          {
+            "title": "杏片",
+            "desc": "柔软天然的甜杏片，果香浓郁，色泽鲜艳。"
+          },
+          {
+            "title": "无花果片",
+            "desc": "耐嚼的晒干无花果片，具有高可溶性纤维和焦糖甜味。"
+          },
+          {
+            "title": "芒果条",
+            "desc": "长切芒果干条锁住热带香气和明亮的金黄色。"
+          },
+          {
+            "title": "木瓜片",
+            "desc": "脱水木瓜片因其优质的质地和丰富的微量营养素而备受推崇。"
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "和谐疗愈诊所",
@@ -302,420 +570,928 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "珍果",
-        "desc": "精选阳光充足的果园与高海拔热带水果，直接从有机农场采摘。"
-      },
       "spices": {
-        "title": "香料与调味品",
-        "desc": "吠陀级芳香料、辛辣香料及复合烹饪粉末，经研磨至绝对微生物安全标准。"
+        "title": "香料和调味料",
+        "desc": "吠陀级芳香剂、辛辣香料和复杂烹饪粉末均按照绝对微生物安全标准研磨。"
       },
-      "dehydrated": {
-        "title": "脱水产品",
-        "desc": "精选阳光庇护、低温脱水蔬菜与疗愈性超级食品植物粉末，保留细胞色彩与营养。"
+      "veg_powders": {
+        "title": "脱水蔬菜粉",
+        "desc": "精细农业蔬菜粉在低温下脱水，以锁住生物活性营养素、颜色和浓郁的风味。"
       },
-      "jaggery": {
-        "title": "古法糖蜜产品",
-        "desc": "传统甘蔗蜜，采用有机野植物提取物澄清，并蒸发成富含结晶的焦糖。"
+      "fruit_powders": {
+        "title": "脱水水果粉",
+        "desc": "优质喷雾干燥和低温脱水果粉，捕捉新鲜果园的纯净甜味、维生素和味道。"
+      },
+      "moringa": {
+        "title": "辣木产品",
+        "desc": "纯植物辣木叶、粉末、茶和提取物源自无农药高产栽培。"
+      },
+      "seeds": {
+        "title": "种子类别",
+        "desc": "优质出口品质的有机油和营养种子在绝对的植物检疫控制下进行清洁、分类和包装。"
+      },
+      "dehydrated_veg": {
+        "title": "脱水蔬菜",
+        "desc": "干净切片的脱水洋葱、大蒜、生姜和其他经过加工的蔬菜，具有高复原性和长保质期。"
+      },
+      "dehydrated_fruits": {
+        "title": "脱水水果",
+        "desc": "优质长切和切片的防晒脱水水果，保留天然糖分、质地和维生素。"
+      },
+      "flakes": {
+        "title": "薄片类",
+        "desc": "工业级和美食蔬菜片均匀干燥，可在方便食品和干混合物中快速水合。"
       }
     },
     "items": {
-      "f-banana": {
-        "name": "香蕉",
-        "desc": "产自瓦亚纳德（Wayanad）肥沃火山土壤的天然甜美Grand Naine和Cavendish香蕉，以保护性温控环境出口。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，瓦亚纳德高地",
-          "packaging": "带聚乙烯内衬的瓦楞纸箱",
-          "purity": "100% 有机种植",
-          "grade": "特级 A 级",
-          "minOrder": "1 公吨"
-        }
-      },
-      "f-pomegranate": {
-        "name": "石榴",
-        "desc": "多汁、深红色的Bhagwa石榴，籽粒柔软，果糖含量高，富含抗氧化特性，通过光电分级机系统性分拣。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，德干高原",
-          "packaging": "系统通风 4公斤纸箱",
-          "purity": "经植物检疫认证",
-          "grade": "出口级 I 级",
-          "minOrder": "1 公吨"
-        }
-      },
-      "f-grapes": {
-        "name": "葡萄",
-        "desc": "精选无籽汤普森绿葡萄和莎拉黑色葡萄。口感酥脆，甜度均衡，储存期长。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，纳西克谷土壤",
-          "packaging": "袋装 + 带二氧化硫垫片的组合纸箱",
-          "purity": "零残留验证",
-          "grade": "特级优良",
-          "minOrder": "2 公吨"
-        }
-      },
-      "f-guava": {
-        "name": "番石榴",
-        "desc": "鲜艳的粉红果肉VNR Bihi番石榴和白肉Lalit番石榴，以其卓越的重量、极少的籽粒和精致的热带香气而闻名。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，吠陀农场",
-          "packaging": "泡沫网套及加固纸箱",
-          "purity": "有机可追溯",
-          "grade": "特级 超级",
-          "minOrder": "1 公吨"
-        }
-      },
-      "f-mango": {
-        "name": "芒果",
-        "desc": "至尊阿方索（Hapus）和凯萨（Kesar）芒果。以其浓郁的金黄色泽、无纤维果肉和丰富奶油般的风味，享誉全球。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，拉特纳吉里沿海果园",
-          "packaging": "蒸汽热处理 / 礼品盒装",
-          "purity": "经APEDA批准的植物检疫",
-          "grade": "AAA级 精选",
-          "minOrder": "1 公吨"
-        }
-      },
       "s-turmeric": {
         "name": "姜黄粉",
-        "desc": "精选手工挑选的塞勒姆（Salem）姜黄根茎制成的金黄色粉末。姜黄素含量极高（通常>5%），专为制药应用而调配。",
-        "pricing": "请联系贸易部门",
+        "desc": "充满活力的金黄色姜黄粉，由精选的侵蚀根茎研磨而成，提供高活性姜黄素水平，适合 B2B 制药和美食用途。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，埃罗德和塞勒姆农场",
+          "origin": "印度埃罗德和塞勒姆庄园",
           "packaging": "多层牛皮纸袋（25公斤）",
-          "purity": "100%纯净，无重金属",
-          "grade": "A++ 特级姜黄金",
-          "minOrder": "500 公斤"
+          "purity": "姜黄素 > 5% 经过认证，纯正",
+          "grade": "A++ High-Curcumin Gold",
+          "minOrder": "500公斤"
         }
       },
       "s-redchilli": {
-        "name": "辣椒粉",
-        "desc": "来自无梗Guntur Sannam和克什米尔辣椒的鲜红色辣椒粉，散发浓郁香气，可定制SHU辣度。",
-        "pricing": "请联系贸易部门",
+        "name": "红辣椒粉",
+        "desc": "Guntur Sannam 红辣椒粉为国际厨房提供深颜色和可定制的耐热等级。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，Guntur地区",
-          "packaging": "带氧气吸收剂的气密袋",
-          "purity": "黄曲霉毒素和苏丹红染料阴性",
-          "grade": "特级单一来源",
-          "minOrder": "500 公斤"
+          "origin": "印度贡土尔地区",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "黄曲霉毒素和苏丹染料阴性",
+          "grade": "克什米尔亮红色精选",
+          "minOrder": "500公斤"
         }
       },
       "s-coriander": {
-        "name": "香菜籽粉",
-        "desc": "由高挥发油含量的香菜籽制成的芳香粉末。为精致的混合调味料增添甜暖、柑橘般的风味。",
-        "pricing": "请联系贸易部门",
+        "name": "香菜粉",
+        "desc": "传统的整体香菜粉和研磨香菜粉经过低温研磨加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，马尔瓦高原",
-          "packaging": "带内层LDPE衬里的HDPE PP袋",
-          "purity": "无添加填充物",
-          "grade": "细磨纯印度原产",
-          "minOrder": "500 公斤"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
       "s-cumin": {
-        "name": "孜然籽",
-        "desc": "饱满、除尘的孜然籽（Jeera），含有最佳含量的枯茗醛。提供泥土和坚果风味。",
-        "pricing": "请联系贸易部门",
+        "name": "孜然粉",
+        "desc": "传统的全孜然粉和磨碎孜然粉在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，古吉拉特干旱地区",
-          "packaging": "麻袋或复合纸盒",
-          "purity": "99.5%机器清洁（Sortex）",
-          "grade": "新加坡品质高纯度",
-          "minOrder": "1 公吨"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
       "s-blackpepper": {
         "name": "黑胡椒",
-        "desc": "饱满的马拉巴尔泰利切里特级大颗粒去壳胡椒豆（TGSEB）。以其丰富的胡椒碱热量和复杂的林地香气而备受推崇。",
-        "pricing": "请联系贸易部门",
+        "desc": "一级全黑胡椒浆果采自历史悠久的马拉巴尔山坡，散发出强烈的胡椒辛辣味和复杂的木香。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，瓦亚纳德森林",
-          "packaging": "双层复合聚乙烯袋（25/50公斤）",
-          "purity": "水分<11.5%认证",
-          "grade": "MG1级（泰利切里特级）",
-          "minOrder": "500 公斤"
+          "origin": "印度瓦亚纳德高地森林",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "水分 < 11.5% 经认证",
+          "grade": "Tellicherry 超粗体 (TGSEB)",
+          "minOrder": "500公斤"
         }
       },
       "s-cardamom": {
         "name": "小豆蔻",
-        "desc": "挺拔的8毫米以上巨型绿色小豆蔻荚，精心干燥以保留深翠绿色泽、甜美、高度复杂的树脂樟脑香气。",
-        "pricing": "请联系贸易部门",
+        "desc": "饱满、优质的绿色小豆蔻荚展现出美丽的天然祖母绿贝壳和高精油含量。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，喀拉拉邦小豆蔻山",
-          "packaging": "铝箔衬里的组合纸箱",
+          "origin": "豆蔻山，喀拉拉邦，印度",
+          "packaging": "多层牛皮纸袋（25公斤）",
           "purity": "不含人工抛光剂",
-          "grade": "特大绿色特级（8毫米+）",
-          "minOrder": "200 公斤"
-        }
-      },
-      "s-cinnamon": {
-        "name": "肉桂",
-        "desc": "芬芳的手剥肉桂卷，为真正的锡兰式肉桂。甜美、柔和的木质香气，香豆素含量极低，最适合高级糖果。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，西部山脉有机农场",
-          "packaging": "黄麻纤维束或组合盒",
-          "purity": "100%纯正树皮卷",
-          "grade": "精细级Alba/C5精选",
-          "minOrder": "200 公斤"
+          "grade": "Bold Premium Extra Emerald (8mm+)",
+          "minOrder": "200公斤"
         }
       },
       "s-cloves": {
         "name": "丁香",
-        "desc": "丰富芳香的整粒丁香，具有高丁子香酚精油产量。花蕾饱满，呈深红褐色。",
-        "pricing": "请联系贸易部门",
+        "desc": "将整个棕色丁香干燥至最佳水分含量，以保存芳香丁香酚化合物。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，尼尔吉里区",
-          "packaging": "麻袋内衬装于分隔纸箱",
-          "purity": "Sortex分选，茎部极少",
-          "grade": "手工精选特级丁香",
-          "minOrder": "200 公斤"
+          "origin": "印度尼尔吉里斯带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "手工精选优质整丁香",
+          "minOrder": "200公斤"
+        }
+      },
+      "s-cinnamon": {
+        "name": "肉桂",
+        "desc": "以可持续方式采收的锡兰型甜肉桂刺，香豆素含量极低，具有细腻的木质甜味。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度西高止山脉",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质阿尔巴羽毛笔",
+          "minOrder": "500公斤"
+        }
+      },
+      "s-nutmeg": {
+        "name": "肉豆蔻",
+        "desc": "传统的整粒肉豆蔻和磨碎肉豆蔻在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
+        }
+      },
+      "s-staranise": {
+        "name": "八角",
+        "desc": "传统的整颗和磨碎的八角茴香在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
       "s-fennel": {
         "name": "茴香籽",
-        "desc": "饱满、甜美的茴香籽（Saunf），呈鲜绿色。最适合用于消化茶饮和手工烘焙。",
-        "pricing": "请联系贸易部门",
+        "desc": "传统的完整茴香籽和磨碎的茴香籽在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，拉贾斯坦平原",
-          "packaging": "PP袋或定制纤维袋",
-          "purity": "99%纯净，按颜色均匀度分选",
-          "grade": "特级饱满绿色",
-          "minOrder": "500 公斤"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
       "s-mustard": {
-        "name": "芥末籽",
-        "desc": "饱满的黑、黄芥末籽，油含量高。用于香料酱、醋和餐桌酱料，提供辛辣风味。",
-        "pricing": "请联系贸易部门",
+        "name": "芥菜籽",
+        "desc": "传统的完整芥菜籽和磨碎芥菜籽经过低温研磨加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，印度-恒河平原土壤",
-          "packaging": "编织多层牛皮纸盒",
-          "purity": "微生物净化",
-          "grade": "A级饱满Sortex",
-          "minOrder": "1 公吨"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
+        }
+      },
+      "s-bayleaves": {
+        "name": "月桂叶",
+        "desc": "传统的整片和磨碎的月桂叶经过低温研磨加工，以保护芳香成分。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
       "s-garammasala": {
-        "name": "玛萨拉香料",
-        "desc": "经典的烤小豆蔻、肉桂、黑胡椒、丁香、肉豆蔻、肉豆蔻和孜然混合。冷磨以保存挥发性酯类。",
-        "pricing": "请联系贸易部门",
+        "name": "加拉姆·马沙拉",
+        "desc": "传统的整粒加拉姆玛萨拉在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，皇家吠陀调配",
-          "packaging": "高等级阻隔袋装于组合纸箱",
-          "purity": "100%传统配方",
-          "grade": "美食级",
-          "minOrder": "200 公斤"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
-      "s-currypowder": {
-        "name": "咖喱粉",
-        "desc": "国际标准马德拉斯式咖喱粉混合。香菜、温和辣椒、葫芦巴和高姜黄素姜黄的完美均衡风味。",
-        "pricing": "请联系贸易部门",
+      "s-mixedspice": {
+        "name": "混合香料混合物",
+        "desc": "传统的整体和研磨混合香料混合物在低温研磨下加工，以保护芳香成分。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，马德拉斯传统调配",
-          "packaging": "多层金属化防潮包装",
-          "purity": "无人工食用色素",
-          "grade": "特级出口品质",
-          "minOrder": "500 公斤"
+          "origin": "印度喀拉拉邦香料带",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "100% 纯净，不含重金属",
+          "grade": "优质出口品质",
+          "minOrder": "500公斤"
         }
       },
-      "s-gingerpowder": {
-        "name": "姜粉",
-        "desc": "脱水并精细研磨的姜根粉，提供强烈的姜辣素温暖和辛辣的刺激感。备受饮料和烘焙行业青睐。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，东北山丘",
-          "packaging": "真空密封箔袋（25公斤）",
-          "purity": "纯姜科植物根",
-          "grade": "精选级细磨",
-          "minOrder": "300 公斤"
-        }
-      },
-      "s-garlicpowder": {
-        "name": "蒜粉",
-        "desc": "采用本地强效印度大蒜克隆调配的脱水精细蒜粉，提供强大的烯丙基硫化物驱动香气和即时风味分布。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，中央邦农耕区",
-          "packaging": "层压防潮桶",
-          "purity": "无添加剂，不结块",
-          "grade": "A级烹饪粉",
-          "minOrder": "500 公斤"
-        }
-      },
-      "s-onionpowder": {
-        "name": "洋葱片/粉",
-        "desc": "高级脱水红白洋葱研磨成粉。无需水分即可立即提供浓缩的甜、辛洋葱风味。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，马哈拉施特拉邦农业区",
-          "packaging": "双层密封食品级袋装于纸箱",
-          "purity": "水分<4.0%标准",
-          "grade": "高目数美食标准",
-          "minOrder": "500 公斤"
-        }
-      },
-      "d-onion": {
-        "name": "洋葱片",
-        "desc": "精心切片并风干的高级红洋葱。保留高辛辣度、轻盈的质地和原始的片状外观，具有长期的货架稳定性。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，纳西克地区",
-          "packaging": "防潮食品级桶（20公斤）",
-          "purity": "无外部表皮/污垢",
-          "grade": "优选 AA 级片",
-          "minOrder": "500 公斤"
-        }
-      },
-      "d-garlic": {
-        "name": "蒜片",
-        "desc": "金白色、低温脱水分裂蒜片。具有强大的蒜素含量，非常适合在方便食品中快速复水。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，马尔瓦地区",
-          "packaging": "聚乙烯内衬瓦楞纸箱",
-          "purity": "100%纯大蒜瓣，无表皮",
-          "grade": "AAA级Sortex分选",
-          "minOrder": "500 公斤"
-        }
-      },
-      "d-tomato": {
-        "name": "番茄粉",
-        "desc": "通过喷雾干燥的成熟有机番茄制成的丰富红色粉末。为汤、酱汁和风味混合物带来即时的鲜味深度和经典的番茄风味。",
-        "pricing": "请联系贸易部门",
-        "spec": {
-          "origin": "印度，DharaAveda采购农场",
-          "packaging": "铝箔真空包装内衬桶",
-          "purity": "100%天然番茄红素，无合成物",
-          "grade": "特级喷雾干燥",
-          "minOrder": "300 公斤"
-        }
-      },
-      "d-beetroot": {
+      "vp-beetroot": {
         "name": "甜菜根粉",
-        "desc": "脱水高级红甜菜根精细研磨的粉末，提供浓郁的 Crimson 甜菜红素染料以及甜美、天然的富含硝酸盐的特性。",
-        "pricing": "请联系贸易部门",
+        "desc": "浓郁的深红色甜菜根粉保留了高天然甜菜碱、硝酸盐和膳食纤维，适合健康混合物。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，吠陀平原",
-          "packaging": "密封阻隔管或双层聚乙烯袋",
-          "purity": "零人工色素",
-          "grade": "营养保健品级",
-          "minOrder": "200 公斤"
+          "origin": "印度吠陀平原",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
         }
       },
-      "d-spinach": {
+      "vp-tomato": {
+        "name": "番茄粉",
+        "desc": "由成熟的有机番茄制成的精细喷雾干燥红色番茄粉，非常适合速溶汤、酱汁和调味料。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度卡纳塔克邦农场",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-potato": {
+        "name": "马铃薯粉",
+        "desc": "高纯度脱水马铃薯粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-garlic": {
+        "name": "大蒜粉",
+        "desc": "由芳香球茎研磨而成的浓缩大蒜粉，具有浓郁的大蒜素风味和分散性。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度中央邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-ginger": {
+        "name": "姜粉",
+        "desc": "精细的姜根粉含有强效姜辣素的温暖，广泛用于糖果和花草茶的混合。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度东北山",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-onion": {
+        "name": "洋葱粉",
+        "desc": "脱水白洋葱/红洋葱粉为食物混合物带来快速的洋葱味甜味和热情。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度纳西克地区",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-spinach": {
         "name": "菠菜粉",
-        "desc": "由富含铁的新鲜菠菜叶脱水制成的亮绿色粉末。高度可溶，可提供即时叶绿素强化。",
-        "pricing": "请联系贸易部门",
+        "desc": "由高级菠菜叶干燥而成的绿色细粉，锁住膳食铁和天然叶绿素颜色。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，喜马拉雅山麓",
-          "packaging": "氮气冲洗真空袋",
-          "purity": "100%纯菠菜",
-          "grade": "超级食品饲料和食品级",
-          "minOrder": "200 公斤"
+          "origin": "印度喜马拉雅山麓",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
         }
       },
-      "d-carrot": {
+      "vp-carrot": {
         "name": "胡萝卜粉",
-        "desc": "甜美脱水嫩胡萝卜制成的丰富橙色粉末，展现高β-胡萝卜素保留率和温和的膳食纤维丰富度。",
-        "pricing": "请联系贸易部门",
+        "desc": "高纯度脱水胡萝卜粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，旁遮普邦农田",
-          "packaging": "防潮桶（20公斤）",
-          "purity": "100%胡萝卜根，无添加糖",
-          "grade": "符合美国FDA标准",
-          "minOrder": "300 公斤"
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
         }
       },
-      "d-greenchilli": {
-        "name": "青辣椒片",
-        "desc": "由新鲜辣椒和青椒切成的鲜绿片，保留干净的草本温暖、辣椒素和鲜亮的绿色。",
-        "pricing": "请联系贸易部门",
+      "vp-cabbage": {
+        "name": "卷心菜粉",
+        "desc": "高纯度脱水卷心菜粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，尼马尔谷",
-          "packaging": "气密多层纸包装",
-          "purity": "无残留，高纯度标准",
-          "grade": "特级辣味片",
-          "minOrder": "500 公斤"
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
         }
       },
-      "d-drumstick": {
-        "name": "辣木根粉",
-        "desc": "营养植物辣木荚的干燥品。富含必需氨基酸和微量营养素；非常适合日常健康配方。",
-        "pricing": "请联系贸易部门",
+      "vp-moringa": {
+        "name": "鸡腿（辣木）粉",
+        "desc": "营养辣木豆荚和叶粉在洁净室中加工，以保持极高的维生素和抗氧化剂含量。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，德干生物农场",
-          "packaging": "带内衬的阻隔箔桶",
-          "purity": "100%纯辣木",
-          "grade": "美食功能",
-          "minOrder": "200 公斤"
+          "origin": "印度拉图尔谷",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
         }
       },
-      "d-moringa": {
+      "vp-greenchilli": {
+        "name": "青辣椒粉",
+        "desc": "高纯度脱水青辣椒粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-corianderleaf": {
+        "name": "芫荽叶粉",
+        "desc": "高纯度脱水芫荽叶粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "vp-mint": {
+        "name": "薄荷粉",
+        "desc": "高纯度脱水薄荷粉，研磨至微目标准，可快速溶解和风味分散。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "层压防潮桶（20kg）",
+          "purity": "100%纯脱水蔬菜，无添加剂",
+          "grade": "优质喷雾干燥/低温研磨",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-banana": {
+        "name": "香蕉粉",
+        "desc": "富含抗性淀粉的脱水青香蕉粉，用于健康的无麸质面粉配方。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度瓦亚纳德高地",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-mango": {
+        "name": "芒果粉",
+        "desc": "喷雾干燥的凯萨尔和阿方索芒果果肉粉，保留了正宗的热带风味、金黄色和天然糖分。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度拉特纳吉里果园",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-guava": {
+        "name": "番石榴粉",
+        "desc": "喷雾干燥的优质番石榴粉果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-pomegranate": {
+        "name": "石榴粉",
+        "desc": "富含抗氧化剂的石榴汁粉末经过喷雾干燥，可保持高糖度和美丽的粉红色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度德干高原",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-pineapple": {
+        "name": "菠萝粉",
+        "desc": "喷雾干燥的菠萝粉优质果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-papaya": {
+        "name": "木瓜粉",
+        "desc": "喷雾干燥的木瓜粉优质果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-apple": {
+        "name": "苹果粉",
+        "desc": "喷雾干燥的优质苹果粉果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-orange": {
+        "name": "橙粉",
+        "desc": "喷雾干燥的优质橙粉果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-lemon": {
+        "name": "柠檬粉",
+        "desc": "喷雾干燥的优质柠檬粉果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-strawberry": {
+        "name": "草莓粉",
+        "desc": "喷雾干燥的优质草莓粉果汁粉，捕捉自然香气和视觉色调，适合美食搅拌机和烘焙。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "由 100% 有机果浆喷雾干燥而成",
+          "grade": "食品饮料A级",
+          "minOrder": "500公斤"
+        }
+      },
+      "fp-amla": {
+        "name": "印度醋栗粉",
+        "desc": "脱水印度醋栗 (Amla) 粉提供卓越的维生素 C 含量，非常适合膳食补充剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦果园",
+          "packaging": "铝真空箔插入主纸箱中",
+          "purity": "100% 纯印度醋栗，高维生素 C",
+          "grade": "营养保健品标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "m-powder": {
         "name": "辣木粉",
-        "desc": "经过认证有机采摘、阴凉干燥的神奇树（辣木）叶片。深翠绿色粉末，富含重要的维生素、多酚和完全蛋白质。",
-        "pricing": "请联系贸易部门",
+        "desc": "来自有机种植的辣木树的精细研磨的生叶粉，拥有丰富的蛋白质、铁和多种维生素指数。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，拉图尔有机谷",
-          "packaging": "带干燥剂包的真空阻隔包装",
-          "purity": "99.9%生叶粉，无添加剂",
-          "grade": "AAA+ 特级营养保健品",
-          "minOrder": "200 公斤"
+          "origin": "印度拉图尔有机农场",
+          "packaging": "真空密封防紫外线袋（20公斤）",
+          "purity": "美国农业部和 APEDA 有机认证",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200公斤"
         }
       },
-      "d-curryleaves": {
-        "name": "咖喱叶粉",
-        "desc": "由新鲜的咖喱叶采摘后立即阴凉脱水制成。保留芳香、药用的萜烯油，用于健康配方和奢华化妆品。",
-        "pricing": "请联系贸易部门",
+      "m-leaves": {
+        "name": "辣木叶",
+        "desc": "阴干的整个辣木叶经过系统清除茎和有机残留物，保持重要的叶绿素完整。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，喀拉拉邦香料区",
-          "packaging": "密封牛皮纸-聚乙烯内衬",
-          "purity": "有机月桂叶品种",
-          "grade": "一级草本标准",
-          "minOrder": "200 公斤"
+          "origin": "印度拉图尔有机农场",
+          "packaging": "双层多衬编织袋（15公斤）",
+          "purity": "美国农业部和 APEDA 有机认证",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200公斤"
         }
       },
-      "j-powder": {
-        "name": "古法糖蜜粉",
-        "desc": "自由流动、不粘的有机糖蜜粉，未经化学漂白剂或有毒加工助剂处理。提供健康的矿物质甜味。",
-        "pricing": "请联系贸易部门",
+      "m-tea": {
+        "name": "辣木茶",
+        "desc": "优质切好的辣木叶与芳香草本混合，制成高抗氧化、不含咖啡因的日常健康输液。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，科尔哈普尔甘蔗区",
-          "packaging": "立式防潮环保袋",
-          "purity": "100%有机，化学品澄清",
-          "grade": "特级结晶级",
-          "minOrder": "500 公斤"
+          "origin": "印度拉图尔有机农场",
+          "packaging": "定制复合罐滤茶袋",
+          "purity": "美国农业部和 APEDA 有机认证",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200公斤"
         }
       },
-      "j-cubes": {
-        "name": "古法糖蜜块",
-        "desc": "预先测量、均匀的块状和立方体，由正宗高纯度糖蜜制成。溶解干净，释放深沉的糖蜜香气。",
-        "pricing": "请联系贸易部门",
+      "m-extract": {
+        "name": "辣木提取物",
+        "desc": "高效生物活性辣木叶提取物经过标准化总黄酮和皂苷比例，可供临床使用。",
+        "pricing": "联系交易台",
         "spec": {
-          "origin": "印度，曼迪亚农业区",
-          "packaging": "隔间分隔的真空托盘包装",
-          "purity": "传统甘蔗提取",
-          "grade": "A级均匀方块",
-          "minOrder": "500 公斤"
+          "origin": "印度拉图尔有机农场",
+          "packaging": "食品级HDPE罐",
+          "purity": "美国农业部和 APEDA 有机认证",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200公斤"
+        }
+      },
+      "sd-flax": {
+        "name": "亚麻籽",
+        "desc": "深棕色有机亚麻籽富含 Omega-3 脂肪酸，经过先进的光学分级机加工以保证纯度。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-pumpkin": {
+        "name": "南瓜子",
+        "desc": "可供出口的优质南瓜籽经过仔细清洗和分级，用于膳食种子、谷物和工业榨油。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-sesame": {
+        "name": "芝麻",
+        "desc": "香脆的白色带壳芝麻经过 Auto-Sortex 分级，具有高油含量和坚果味，适合全球烘焙进口。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "优质带壳自动清洁 Sortex",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-sunflower": {
+        "name": "葵花籽",
+        "desc": "可供出口的优质葵花籽经过仔细清洗和分级，用于膳食种子、谷物和工业榨油。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-chia": {
+        "name": "奇亚籽",
+        "desc": "高膨胀有机黑白奇亚籽，经过分类去除所有外来植物物质，富含粘液纤维。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度中央邦",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-watermelon": {
+        "name": "西瓜籽",
+        "desc": "准备出口的优质西瓜种子经过仔细清洗和分级，用于膳食种子、谷物和工业榨油。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "sd-basil": {
+        "name": "罗勒种子",
+        "desc": "可供出口的优质罗勒种子经过仔细清洗和分级，用于膳食种子、谷物和工业榨油。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度古吉拉特邦旱地",
+          "packaging": "多层牛皮纸袋（25公斤）",
+          "purity": "99.9% 机洗/Sortex 清洁",
+          "grade": "出口级 AAA 大胆种子",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-onion": {
+        "name": "脱水洋葱",
+        "desc": "风干的红洋葱和白洋葱片质地优良，保留了直接食品配方所需的基本辛辣风味。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度纳西克地区",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-garlic": {
+        "name": "脱水大蒜",
+        "desc": "优质脱水蒜瓣可在即食香料磨料、罐头炖菜和面条中分裂，以加速再水化。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马尔瓦地区",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-ginger": {
+        "name": "脱水姜",
+        "desc": "低温脱水的脱水生姜片，经过仔细分类，以匹配工业食品包装机的均匀形状和颜色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-tomato": {
+        "name": "脱水番茄",
+        "desc": "干燥的有机番茄片，含有丰富的天然番茄红素，经过零亚硫酸盐处理，适用于美食包装。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度瓦亚纳德高地",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-carrot": {
+        "name": "脱水胡萝卜",
+        "desc": "低温脱水的脱水胡萝卜片，经过仔细分类，以匹配工业食品包装机的均匀形状和颜色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-beetroot": {
+        "name": "脱水甜菜根",
+        "desc": "低温脱水的脱水甜菜根片经过仔细分类，以匹配工业食品包装机的均匀形状和颜色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-spinach": {
+        "name": "脱水菠菜",
+        "desc": "低温脱水的脱水菠菜片，经过仔细分类，以匹配工业食品包装机的均匀形状和颜色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "dv-cabbage": {
+        "name": "脱水卷心菜",
+        "desc": "低温脱水的脱水卷心菜片，经过仔细分类，以匹配工业食品包装机的均匀形状和颜色。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "聚乙烯内衬瓦楞纸箱（15/20kg）",
+          "purity": "不添加盐、防腐剂或亚硫酸盐",
+          "grade": "AAA 高级补液标准",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-banana": {
+        "name": "香蕉片",
+        "desc": "甜卡文迪什香蕉圆自然脱水，不含化学防腐剂，非常适合有机零食混合​​物。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度瓦亚纳德高地",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-mango": {
+        "name": "芒果片",
+        "desc": "手工切片的阿方索和凯萨尔芒果条风干，保留甜美的热带香味和柔软、耐嚼的美味质地。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度拉特纳吉里果园",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-pineapple": {
+        "name": "菠萝片",
+        "desc": "优质脱水有机菠萝片，用于制作美食袋和谷物添加剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-apple": {
+        "name": "苹果片",
+        "desc": "优质脱水有机苹果片，适合美食袋和谷物添加剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-papaya": {
+        "name": "木瓜片",
+        "desc": "优质脱水有机木瓜片，用于制作美食袋和谷物添加剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-strawberry": {
+        "name": "草莓片",
+        "desc": "优质脱水有机草莓片，适合美食袋和谷物添加剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "df-guava": {
+        "name": "番石榴片",
+        "desc": "优质脱水有机番石榴片，用于制作美食袋和谷物添加剂。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "真空密封塑料袋装在大纸箱中（10 公斤）",
+          "purity": "不添加糖、亚硫酸盐或着色剂",
+          "grade": "优质长切片",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-onion": {
+        "name": "洋葱片",
+        "desc": "完美切割 10 毫米红洋葱片和白洋葱片，系统风干以保留天然甜蒜素，是快餐面条和酱汁的理想选择。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度纳西克谷",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-garlic": {
+        "name": "蒜片",
+        "desc": "脱水大蒜片干净地裂开，为即食包装提供尖锐的葱皮和快速水合作用。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马尔瓦高原",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-potato": {
+        "name": "土豆片",
+        "desc": "优质脱水马铃薯片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-tomato": {
+        "name": "番茄片",
+        "desc": "优质脱水番茄片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-beetroot": {
+        "name": "甜菜根片",
+        "desc": "优质脱水甜菜根片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-carrot": {
+        "name": "胡萝卜片",
+        "desc": "优质脱水胡萝卜片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-spinach": {
+        "name": "菠菜片",
+        "desc": "优质脱水菠菜片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
+        }
+      },
+      "fl-mixedveg": {
+        "name": "混合蔬菜片",
+        "desc": "优质脱水混合蔬菜片经过干燥，可保持颜色强度和细胞质地，适合快速享用美食。",
+        "pricing": "联系交易台",
+        "spec": {
+          "origin": "印度马哈拉施特拉邦",
+          "packaging": "带热封衬里的双瓦楞纸箱",
+          "purity": "保证水分<5%，零粉尘",
+          "grade": "美食片状切割 (10-12mm)",
+          "minOrder": "500公斤"
         }
       }
     }
   },
   "seo": {
-    "homeTitle": "DharaAveda 疗愈所 | 整体健康与优质出口",
-    "homeDesc": "DharaAveda 疗愈所提供经典的巴赫花精咨询、乌苏伊雷气调谐和 432Hz 水晶磬音疗。",
-    "exportTitle": "农业出口部门 | DharaAveda",
-    "exportDesc": "优质香料、纯正喜马拉雅喜来芝和有机精油提取物。符合 APEDA 与 SGS 认证标准。",
-    "wellnessTitle": "整体健康疗法与疗愈所 | DharaAveda",
-    "wellnessDesc": "在位于印度喀拉拉邦瓦亚纳德的森林疗愈所，体验雷气、巴赫花精和磬音疗法。",
-    "bookingTitle": "预约您的健康行程 | DharaAveda",
-    "bookingDesc": "预订雷气能量协调、花精咨询或深层音疗的保密咨询服务。",
-    "contactTitle": "联系我们 | DharaAveda",
-    "contactDesc": "关于大宗农业货物运输、贸易合同或疗愈所入住的咨询与联系渠道。"
+    "homeTitle": "DharaAveda 保护区 |恢复性量子治疗和优质健康出口",
+    "homeDesc": "DharaAveda Sanctuary 融合了经典的巴赫野花疗法、臼井灵气脉轮排列、Aura-Soma 色精油和声音调谐。",
+    "exportTitle": "农贸事业部|达拉阿吠陀保护区",
+    "exportDesc": "直接来源的优质绿色小豆蔻、纯喜来芝树脂和有机香薰提取物。获得 APEDA 和 SGS 授权合规性。",
+    "wellnessTitle": "恢复性量子庇护所和疗法|达罗吠陀",
+    "wellnessDesc": "在我们位于喀拉拉邦的瓦亚纳德保护区体验臼井灵气、巴赫花咨询和 432Hz 声音疗法。",
+    "bookingTitle": "安排您的协调驻地|达罗吠陀",
+    "bookingDesc": "预约您的秘密治疗疗程，以进行灵气调整、巴赫花咨询或深度声音治疗。",
+    "contactTitle": "联系理事会服务台 |达罗吠陀",
+    "contactDesc": "请联系大宗农产品运输、商品合同或庇护所健康入场。"
   }
 };

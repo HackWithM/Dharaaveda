@@ -33,77 +33,77 @@ export const translations: StaticTranslations = {
   },
   "home": {
     "heroTitle": "La convergence du commerce mondial et de la guérison holistique",
-    "heroSubtitle": "Dharaaveda harmonise les chaînes d'approvisionnement agricole premium avec des thérapies énergétiques réparatrices.",
-    "ctaExports": "Explorer les Exportations",
-    "ctaTherapies": "Explorer les Thérapies",
-    "aboutTitle": "Relier la générosité de la terre et la guérison individuelle",
-    "aboutSubtitle": "NOTRE PHILOSOPHIE DOUBLE",
-    "aboutDesc1": "Dharaaveda opère à l'intersection du commerce international et du bien-être holistique. Nous croyons que le vrai bien-être est à la fois mondial et profondément personnel.",
-    "aboutDesc2": "Notre division agricole s'associe directement avec des domaines biologiques pour distribuer des épices de qualité supérieure dans le monde entier. Simultanément, notre division de thérapie crée des sanctuaires calmes en Wayanad.",
-    "showcaseTitle": "Explorez Nos Divisions",
-    "showcaseSubtitle": "Sélectionnez une division pour entrer dans nos espaces dédiés",
+    "heroSubtitle": "Dharaaveda harmonise les chaînes d'approvisionnement agricoles haut de gamme avec des thérapies énergétiques réparatrices.",
+    "ctaExports": "Explorer les exportations",
+    "ctaTherapies": "Explorez les thérapies",
+    "aboutTitle": "Relier la générosité de la Terre et le rétablissement individuel",
+    "aboutSubtitle": "NOTRE PHILOSOPHIE DOUBLE DIVISION",
+    "aboutDesc1": "Dharaaveda opère à l'intersection du commerce international et du bien-être holistique. Nous pensons que le véritable bien-être est à la fois global et profondément personnel.",
+    "aboutDesc2": "Notre division agricole s'associe directement aux petits domaines biologiques pour distribuer des épices et des produits déshydratés de qualité supérieure dans le monde entier. Parallèlement, notre division de thérapie crée des sanctuaires électromagnétiques silencieux à Wayanad pour restaurer l'équilibre du système nerveux et la vitalité cellulaire.",
+    "showcaseTitle": "Explorez nos divisions",
+    "showcaseSubtitle": "Sélectionnez une verticale pour accéder à nos espaces dédiés",
     "exportCardTitle": "Division Exportation",
-    "exportCardDesc": "Connecter les fermes botaniques indiennes aux pharmacies mondiales et importateurs de produits alimentaires. Épices premium expédiées en conformité phytosanitaire absolue.",
+    "exportCardDesc": "Connecter les fermes botaniques indiennes avec des pharmacies mondiales haut de gamme, des maisons de cosmétiques et des importateurs de produits alimentaires. Épices, céréales et extraits adaptogènes de qualité supérieure expédiés dans le respect d'une conformité phytosanitaire absolue.",
     "exportHighlight1": "Certifié APEDA et SGS",
-    "exportHighlight2": "Approvisionnement direct",
-    "exportHighlight3": "Routage maritime et aérien",
+    "exportHighlight2": "Approvisionnement direct à la ferme",
+    "exportHighlight3": "Acheminement maritime et aérien mondial",
     "exportHighlight4": "Emballage personnalisé en vrac",
-    "exportCardBtn": "Voir les Services d'Exportation",
+    "exportCardBtn": "Voir les services d'exportation",
     "therapyCardTitle": "Division Thérapie",
-    "therapyCardDesc": "Harmonisez votre biochamp, effacez les traumatismes profonds et restaurez la paix somatique absolue. Fleurs de Bach, Reiki et thérapie par le son.",
-    "therapyHighlight1": "Thérapie par les Fleurs de Bach",
-    "therapyHighlight2": "Alignement Usui Reiki",
-    "therapyHighlight3": "Bien-être Émotionnel",
-    "therapyHighlight4": "Thérapie par le Son 432Hz",
-    "therapyCardBtn": "Voir les Services de Thérapie",
-    "whyTitle": "Pourquoi Choisir Dharaaveda",
-    "whySubtitle": "Des normes intransigeantes en logistique et bien-être",
-    "whyTrustTitle": "Confiance Absolue",
-    "whyTrustDesc": "Transparence totale, conformité phytosanitaire et protocoles certifiés de confidentialité.",
-    "whyQualityTitle": "Qualité Védique",
-    "whyQualityDesc": "Traçabilité directe de la ferme au port et remèdes de bio-fréquence sur mesure.",
-    "whyExpertiseTitle": "Expertise Établie",
-    "whyExpertiseDesc": "Des générations d'héritage agricole combinées à des praticiens énergétiques certifiés.",
-    "whyReachTitle": "Portée Mondiale",
-    "whyReachDesc": "Des voies de fret fiables desservant les principaux importateurs dans plus de 34 pays.",
-    "whyHolisticTitle": "Bien-être Holistique",
-    "whyHolisticDesc": "Guérison cellulaire profonde au sein de sanctuaires de montagne purs et naturels.",
-    "highlightsTitle": "Points Forts",
-    "highlightsSubtitle": "Principaux domaines d'intervention de nos opérations",
-    "exportHighlightTitle": "Focus Division Exportation",
-    "therapyHighlightTitle": "Focus Division Thérapie",
-    "highlightsExport1": "Produits Agricoles",
-    "highlightsExport1Desc": "Bananes Cavendish récoltées à la main, mangues Alphonso et extraits de canne à sucre bio.",
-    "highlightsExport2": "Épices d'Élite",
-    "highlightsExport2Desc": "Curcuma de Salem, cardamome de caractère, piments de Guntur et poivre noir de Malabar.",
-    "highlightsExport3": "Produits Déshydratés",
-    "highlightsExport3Desc": "Flocons d'oignon à basse température, tomate séchée par pulvérisation et betterave en poudre.",
-    "highlightsExport4": "Logistique Globale",
-    "highlightsExport4Desc": "Scellage sous vide personnalisé, certifications SGS et déclarations en douane.",
-    "highlightsTherapy1": "Fleurs de Bach",
-    "highlightsTherapy1Desc": "Remèdes liquides sur mesure sélectionnés pour le stress cognitif actif et la libération neurale.",
-    "highlightsTherapy2": "Alignement Reiki",
-    "highlightsTherapy2Desc": "Équilibrage non invasif des chakras et restauration du champ bioénergétique.",
-    "highlightsTherapy3": "Bien-être Émotionnel",
-    "highlightsTherapy3Desc": "Protocoles de récupération du système nerveux pour dissoudre la fatigue liée au mode de vie.",
+    "therapyCardDesc": "Harmonisez votre champ biologique, éliminez les traumatismes profonds du cycle de vie et restaurez la paix somatique absolue. Consultations immersives mêlant essences florales, alignement des chakras Reiki et guérison sonore polyphonique à quartz.",
+    "therapyHighlight1": "Thérapie par les fleurs de Bach",
+    "therapyHighlight2": "Alignement Reiki Usui",
+    "therapyHighlight3": "Bien-être émotionnel",
+    "therapyHighlight4": "Guérison sonore 432 Hz",
+    "therapyCardBtn": "Voir les services de thérapie",
+    "whyTitle": "Pourquoi choisir Dharaaveda",
+    "whySubtitle": "Des normes sans compromis en matière de logistique et de bien-être",
+    "whyTrustTitle": "Confiance absolue",
+    "whyTrustDesc": "Transparence totale, conformité phytosanitaire complète et protocoles de non-divulgation certifiés.",
+    "whyQualityTitle": "Qualité védique",
+    "whyQualityDesc": "Traçabilité directe de la ferme au port et remèdes de biofréquence formulés sur mesure.",
+    "whyExpertiseTitle": "Une expertise éprouvée",
+    "whyExpertiseDesc": "Des générations d'héritage agricole associées à des praticiens énergiques certifiés.",
+    "whyReachTitle": "Portée mondiale",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
+    "whyHolisticTitle": "Bien-être holistique",
+    "whyHolisticDesc": "Guérison cellulaire profonde dans des sanctuaires de montagne purs et naturels.",
+    "highlightsTitle": "Faits saillants",
+    "highlightsSubtitle": "Domaines d’intervention clés de nos opérations",
+    "exportHighlightTitle": "Focus sur la division Export",
+    "therapyHighlightTitle": "Objectif de la division Thérapie",
+    "highlightsExport1": "Produits agricoles",
+    "highlightsExport1Desc": "Bananes Cavendish récoltées à la main, mangues Alphonso et extraits de canne à sucre biologique.",
+    "highlightsExport2": "Épices d'élite",
+    "highlightsExport2Desc": "Curcuma Salem, cardamome audacieuse, piments Guntur et poivre noir Malabar.",
+    "highlightsExport3": "Produits déshydratés",
+    "highlightsExport3Desc": "Flocons d'oignon à basse température, poudres de tomates séchées par pulvérisation et de betterave rouge.",
+    "highlightsExport4": "Logistique mondiale",
+    "highlightsExport4Desc": "Scellage de barrière sous vide personnalisé, certifications SGS et dépôts de ports personnalisés.",
+    "highlightsTherapy1": "Thérapie par les fleurs de Bach",
+    "highlightsTherapy1Desc": "Remèdes liquides personnalisés sélectionnés pour le stress cognitif actif et la libération neuronale.",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
+    "highlightsTherapy2Desc": "Équilibrage non invasif des chakras du champ biologique et restauration du champ énergétique chromatique.",
+    "highlightsTherapy3": "Bien-être émotionnel",
+    "highlightsTherapy3Desc": "Protocoles de récupération du système nerveux conçus pour dissoudre la fatigue liée au mode de vie.",
     "highlightsTherapy4": "Guérison Énergétique",
-    "highlightsTherapy4Desc": "Harmonisation par le son des bols de quartz à 432Hz dans des chambres sans ondes.",
-    "statsTitle": "Notre Empreinte Opérationnelle",
+    "highlightsTherapy4Desc": "Harmonisations sonores de chant polyphonique à quartz à 432 Hz à l'intérieur de chambres sans électromagnétisme.",
+    "statsTitle": "Notre empreinte opérationnelle",
     "statsSubtitle": "Mesurer notre impact mondial et notre succès clinique",
-    "statCountries": "Pays Desservis",
-    "statProducts": "Catégories de Produits",
-    "statSessions": "Sessions de Thérapie",
-    "statSatisfaction": "Satisfaction Client",
-    "testimonialsTitle": "Voix de Résonance",
-    "testimonialsSubtitle": "Retours de nos partenaires commerciaux et visiteurs du sanctuaire",
-    "ctaTitle": "Commencez Votre Voyage",
-    "ctaSubtitle": "Contactez nos bureaux de division spécialisés",
-    "ctaExportBoxTitle": "Vous Recherchez des Solutions d'Exportation ?",
-    "ctaExportBoxDesc": "Contactez notre bureau d'arbitrage de matières premières pour des contrats de vrac ou de conteneurs.",
-    "ctaExportBoxBtn": "Parler au Bureau Export",
-    "ctaTherapyBoxTitle": "Vous Recherchez une Guérison Holistique ?",
-    "ctaTherapyBoxDesc": "Planifiez une consultation privée ou réservez un séjour dans notre sanctuaire de Wayanad.",
-    "ctaTherapyBoxBtn": "Réserver un Séjour au Sanctuaire"
+    "statCountries": "Pays desservis",
+    "statProducts": "Catégories de produits",
+    "statSessions": "Séances de thérapie",
+    "statSatisfaction": "Satisfaction des clients",
+    "testimonialsTitle": "Voix de résonance",
+    "testimonialsSubtitle": "Retours d’expérience de nos partenaires commerciaux et visiteurs du sanctuaire",
+    "ctaTitle": "Commencez votre voyage",
+    "ctaSubtitle": "Connectez-vous avec nos bureaux de division spécialisés",
+    "ctaExportBoxTitle": "Vous recherchez des solutions d’exportation ?",
+    "ctaExportBoxDesc": "Connectez-vous à notre bureau d'arbitrage sur matières premières pour les contrats de conteneurs en vrac, les emballages personnalisés ou la conformité logistique.",
+    "ctaExportBoxBtn": "Parlez avec le bureau d'exportation",
+    "ctaTherapyBoxTitle": "Vous recherchez une guérison holistique ?",
+    "ctaTherapyBoxDesc": "Planifiez une consultation privée ou réservez un séjour en villa dans notre sanctuaire de montagne Wayanad pour une initiation au biofield.",
+    "ctaTherapyBoxBtn": "Réserver l'admission au sanctuaire"
   },
   "export": {
     "division": "Division du Commerce International",
@@ -136,7 +136,275 @@ export const translations: StaticTranslations = {
     "packagingPrep": "Préparation emballage personnalisé :",
     "packagingDays": "5-7 Jours Ouvrables",
     "portOfLoad": "Port d'embarquement FOB :",
-    "portName": "Nhava Sheva, Mumbai"
+    "portName": "Nhava Sheva, Mumbai",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Division des épices et assaisonnements",
+        "title": "Épices Elite et assaisonnements authentiques",
+        "description": "Aromates de qualité Vedas, piments forts et poudres culinaires complexes moulues selon des normes de sécurité microbiologique absolues. L'approvisionnement direct à la ferme garantit des teneurs en huile robustes et des profils de saveur intenses.",
+        "highlights": [
+          "Sélection de curcuma Curcumin Gold (>5%)",
+          "Poivre noir Tellicherry vérifié à la pipérine",
+          "Piments Guntur Soudan Dye négatif",
+          "Broyage hygiénique cryogénique à basse température"
+        ],
+        "benefits": [
+          "Rétention élevée d’huiles essentielles volatiles",
+          "Stabilité intacte de l'arôme et de la saveur",
+          "Transformation 100% biologique et sans additif",
+          "Conformité mondiale sans danger pour les aflatoxines"
+        ],
+        "packaging": "Sacs Kraft multicouches de 25 kg avec doublures en polyéthylène, options emballées sous vide.",
+        "capability": "Expéditions de conteneurs LCL mixtes consolidées ou jusqu'à 20 tonnes métriques par FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) ou Mundra Port. Acheminement prioritaire du fret aérien.",
+        "features": [
+          {
+            "title": "Curcumine Or",
+            "desc": "Poudre de curcuma doré contenant des niveaux de curcumine active supérieurs à 5 % pour des usages alimentaires et cliniques."
+          },
+          {
+            "title": "Poivre de Malabar",
+            "desc": "Baies de poivre noir extra audacieuses appréciées pour leur chaleur profonde de pipérine et leurs notes boisées complexes."
+          },
+          {
+            "title": "Piment cryo-moulu",
+            "desc": "Poudre de piment Guntur Sannam moulue sous contrôle cryogénique pour bloquer la perte d'huile induite par la chaleur."
+          },
+          {
+            "title": "Coriandre aux agrumes",
+            "desc": "Graines de Malwa de qualité supérieure moulues en mailles fines, contenant des fractions volatiles chaudes et citronnées."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Bureau des poudres végétales",
+        "title": "Poudres végétales pures déshydratées",
+        "description": "Légumes agricoles déshydratés à basses températures strictement contrôlées pour protéger les nutriments bioactifs, les profils de couleur et la profondeur de la saveur. Idéal pour les aliments prêts à consommer, les mélangeurs et les formulations pharmaceutiques.",
+        "highlights": [
+          "100 % de vrais solides végétaux, sans additifs",
+          "Séchage à basse température avec rétention cellulaire",
+          "Excellente solubilité et dispersion à sec",
+          "Qualité naturelle fluide et non agglomérante"
+        ],
+        "benefits": [
+          "Taux de reconstitution instantanée de l'eau",
+          "Concentration intense de saveurs bio",
+          "Conserve les vitamines et les fibres naturelles",
+          "Rétention visuelle impeccable des pigments"
+        ],
+        "packaging": "Fûts en fibre avec doubles sacs intérieurs en polyéthylène (20 kg / 25 kg).",
+        "capability": "12-15 tonnes métriques par FCL. Formulations personnalisées de mélanges d’épices et de légumes.",
+        "shippingInfo": "Transit maritime via des conteneurs frigorifiques à température contrôlée vers des ports mondiaux.",
+        "features": [
+          {
+            "title": "Tomate séchée par pulvérisation",
+            "desc": "Poudre de pulpe de tomate rouge soluble riche en lycopène, donnant une profondeur umami savoureuse instantanée."
+          },
+          {
+            "title": "Betterave Bétalaïne",
+            "desc": "Poudre de betterave finement moulue offrant des couleurs pourpres naturelles intenses et une richesse en nitrates."
+          },
+          {
+            "title": "Épinards à la chlorophylle",
+            "desc": "Poudre d'épinards solubles vert vif retenant le fer alimentaire et la chlorophylle."
+          },
+          {
+            "title": "Allicine Ail",
+            "desc": "Poudre d'ail piquante moulue à partir de gousses de choix, offrant une dispersion et un goût rapides."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Bureau des poudres de fruits",
+        "title": "Poudres et solubles de fruits du verger",
+        "description": "Poudres de fruits séchées par pulvérisation et déshydratées à basse température capturant la véritable douceur, les sucres biologiques et les vitamines des fruits du verger mûris au soleil. Très populaire dans les boissons, les confiseries et les aliments pour nourrissons.",
+        "highlights": [
+          "Séché par pulvérisation directement à partir de pulpe biologique",
+          "Sans sucres, sulfites ou colorants ajoutés",
+          "Très soluble dans les liquides chauds et froids",
+          "Sélections de superaliments riches en nutriments"
+        ],
+        "benefits": [
+          "Arôme de fruit pur et saveur sucrée",
+          "Haute teneur en vitamine C et rétention bioactive",
+          "Mélange parfait pour les produits laitiers et la pâtisserie",
+          "Ingrédients conformes au Clean Label"
+        ],
+        "packaging": "Sachets scellés sous vide en papier d'aluminium à l'intérieur de boîtes principales en carton ondulé.",
+        "capability": "8 à 10 tonnes métriques par FCL. Prise en charge des emballages de marque privée.",
+        "shippingInfo": "Transport de fret aérien express ou de conteneurs maritimes à température contrôlée.",
+        "features": [
+          {
+            "title": "Banane Cavendish",
+            "desc": "Poudre de banane verte et mûre riche en amidons résistants, parfaite pour les mélanges sans gluten."
+          },
+          {
+            "title": "Mangue Kesar",
+            "desc": "Solides de fruits dorés capturant le doux arôme des mangues indiennes récoltées à la main."
+          },
+          {
+            "title": "Amla ascorbique",
+            "desc": "Poudre de groseille d'origine biologique contenant de la vitamine C naturelle hautement concentrée."
+          },
+          {
+            "title": "Grenade antioxydante",
+            "desc": "Poudre de jus de grenade séchée par pulvérisation fournissant de riches polyphénols et des teintes roses visuelles."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Bureau des superaliments Moringa",
+        "title": "Produits de Moringa biologiques de qualité supérieure",
+        "description": "Feuilles, poudres, thés et extraits de Moringa oleifera cultivés biologiquement provenant de domaines indiens à haut rendement et sans pesticides. Traité selon des protocoles de séchage à l'ombre pour protéger les acides aminés essentiels.",
+        "highlights": [
+          "Cultures certifiées biologiques USDA et APEDA",
+          "Séchage strict des feuilles séchées à l'ombre",
+          "Standardisation phytochimique et flavonoïde",
+          "Feuilles propres à 99,9 %, sans sable"
+        ],
+        "benefits": [
+          "Protéine végétale complète avec 9 acides aminés",
+          "Nombre extrême de fer, de calcium et de vitamines",
+          "Durée de conservation très stable sous vide",
+          "Idéal pour les suppléments et les cosmétiques"
+        ],
+        "packaging": "Sacs barrière sous vide avec inserts en gel de silice, emballés dans des boîtes renforcées.",
+        "capability": "5 à 8 tonnes métriques par lot. Coupes de feuilles personnalisables et packs en gros.",
+        "shippingInfo": "Conteneurs secs scellés, expédition prioritaire par fret aérien vers des distributeurs mondiaux de bien-être.",
+        "features": [
+          {
+            "title": "Poudre de feuilles biologiques",
+            "desc": "Poudre de feuilles de moringa finement moulue avec une couleur émeraude profonde et une saveur herbacée."
+          },
+          {
+            "title": "Feuilles séchées propres",
+            "desc": "Feuilles entières séchées à l'ombre, triées mécaniquement pour éliminer les brindilles, les tiges et la poussière."
+          },
+          {
+            "title": "Thé aux herbes Moringa",
+            "desc": "Feuilles coupées uniformément optimisées pour les sachets de thé, offrant une infusion fraîche de plantes bien-être."
+          },
+          {
+            "title": "Extrait Standardisé",
+            "desc": "Extrait concentré de feuilles de moringa standardisé en bioflavonoïdes totaux pour les formulations cliniques."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Bureau des graines oléagineuses",
+        "title": "Huiles et graines diététiques triées de qualité supérieure",
+        "description": "Huile biologique et graines nutritionnelles d'élite de qualité export, systématiquement nettoyées, triées et emballées sous des contrôles phytosanitaires absolus. Le rendement élevé en huile et la pureté propre du Sortex les rendent idéaux pour la transformation alimentaire et industrielle.",
+        "highlights": [
+          "99,9 % de couleurs optiques Sortex triées",
+          "Audits rigoureux de fumigation et de nettoyage",
+          "Certifié sans pesticides ni résidus",
+          "Teneur élevée en acides gras polyinsaturés"
+        ],
+        "benefits": [
+          "Taux d’extraction d’huile naturelle élevés",
+          "Semences extrêmement propres et sans saleté",
+          "Dimensions des graines et profils de couleur uniformes",
+          "Emballé pour bloquer l'humidité atmosphérique"
+        ],
+        "packaging": "Sacs en polypropylène tissé ou sacs en papier multicouches (25 kg / 50 kg).",
+        "capability": "18-22 tonnes métriques par conteneur (FCL). Spécifications d'humidité personnalisées.",
+        "shippingInfo": "Paquebots directs, acheminement des marchandises en vrac vers les boulangeries commerciales et les distributeurs.",
+        "features": [
+          {
+            "title": "Sésame décortiqué",
+            "desc": "Graines de sésame blanches auto-nettoyées offrant des rendements élevés en huile et des saveurs sucrées de noisette."
+          },
+          {
+            "title": "Lin doré",
+            "desc": "Graines de lin de qualité supérieure riches en fibres alimentaires et en acides gras essentiels oméga-3."
+          },
+          {
+            "title": "Chia gélifiant",
+            "desc": "Graines de chia noir bio présentant d'excellents indices de gonflement et une qualité de mucilage."
+          },
+          {
+            "title": "Citrouille verte",
+            "desc": "Graines de citrouille décortiquées proprement, triées pour une couleur verte vive et un croquant uniformes."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Bureau Légumes Déshydratés",
+        "title": "Légumes déshydratés hygiéniques",
+        "description": "Oignons, ail, gingembre et autres légumes tranchés proprement, déshydratés dans des chambres à circulation d'air avancées. Provenant directement de ceintures agricoles phytoconformes pour une excellente performance de réhydratation et de saveur.",
+        "highlights": [
+          "Aucun sulfite, soufre ou conservateur utilisé",
+          "Faible teneur en humidité résiduelle (<5%)",
+          "Réhydratation impeccable et récupération de texture",
+          "Cargaison d'exportation certifiée phytosanitaire"
+        ],
+        "benefits": [
+          "Réduit considérablement les temps de préparation culinaire",
+          "Permet d'économiser du poids de transport et de l'espace de stockage",
+          "Conserve la couleur naturelle et l’attrait visuel",
+          "Force de saveur constante dans les mélanges alimentaires"
+        ],
+        "packaging": "Cartons principaux doublés de PEHD avec doubles inserts en poly thermoscellés.",
+        "capability": "10 à 12 tonnes métriques par FCL. Tranchage et découpage en dés personnalisables.",
+        "shippingInfo": "Conteneurs secs standards ou acheminement des conteneurs frigorifiques vers les cuisines d'assaisonnement industrielles.",
+        "features": [
+          {
+            "title": "Tranches d'oignon",
+            "desc": "Tranches d'oignons rouges et blancs déshydratés avec un fort piquant et une reconstitution élevée."
+          },
+          {
+            "title": "Gousses d'ail",
+            "desc": "Gousses d'ail fendues séchées, méticuleusement décortiquées et triées au Sortex pour éliminer la suie."
+          },
+          {
+            "title": "Gingembre tranché",
+            "desc": "Tranches de gingembre séchées et propres retenant une chaleur piquante et une teneur élevée en gingérol actif."
+          },
+          {
+            "title": "Tomate de vigne",
+            "desc": "Tranches de tomates séchées biologiques riches en lycopène naturel, séchées sans sulfites chimiques."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Bureau de fruits déshydratés",
+        "title": "Fruits déshydratés à l’abri du soleil",
+        "description": "Tranches de qualité supérieure et fruits déshydratés coupés en long préparés à partir de vergers biologiques récoltés à la main. Préserve les sucres naturels de fructose, les textures moelleuses et les vitamines vitales sans conservateurs chimiques.",
+        "highlights": [
+          "Zéro sucre de canne ou édulcorant ajouté",
+          "Sans sulfites, sans colorants chimiques",
+          "Formes de coupe flexibles et humidité personnalisée",
+          "Vergers certifiés sans pesticides"
+        ],
+        "benefits": [
+          "Douceur naturelle et sensation moelleuse en bouche",
+          "Excellente stabilité de conservation en stockage sec",
+          "Idéal pour les snacks et les pâtisseries",
+          "Faible résidu et traitement clean label"
+        ],
+        "packaging": "Pochettes laminées BOPP avec absorbeurs d'oxygène internes et emballages principaux en carton.",
+        "capability": "6 à 8 tonnes métriques par FCL. Tailles de coupe sur mesure disponibles.",
+        "shippingInfo": "Conteneurs secs à faible humidité et fret aérien à température stable.",
+        "features": [
+          {
+            "title": "Tranches d'abricot",
+            "desc": "Tranches d'abricot douces et naturellement sucrées conservées avec une saveur de fruit concentrée et une couleur vive."
+          },
+          {
+            "title": "Morceaux de figues",
+            "desc": "Morceaux moelleux de figues séchées au soleil avec une teneur élevée en fibres solubles et une douceur caramélisée."
+          },
+          {
+            "title": "Lanières de mangue",
+            "desc": "Lanières de mangue séchées coupées en longueur, emprisonnant un arôme tropical et une couleur dorée brillante."
+          },
+          {
+            "title": "Chips de papaye",
+            "desc": "Tranches de papaye déshydratées appréciées pour leur texture premium et leur richesse en micronutriments."
+          }
+        ]
+      }
+    }
   },
   "booking": {
     "clinic": "CLINIQUES D'HARMONISATION",
@@ -302,420 +570,928 @@ export const translations: StaticTranslations = {
   },
   "products": {
     "categories": {
-      "fruits": {
-        "title": "Fruits",
-        "desc": "Orchards de première qualité, mûris au soleil, et fruits tropicaux d'altitude, récoltés directement dans des fermes biologiques."
-      },
       "spices": {
-        "title": "Épices et Condiments",
-        "desc": "Aromates de grade védique, épices piquantes et poudres culinaires complexes, moulues selon des normes de sécurité microbiologique absolues."
+        "title": "Épices et assaisonnements",
+        "desc": "Aromates de qualité Vedas, épices piquantes et poudres culinaires complexes moulues selon des normes de sécurité microbiologique absolues."
       },
-      "dehydrated": {
-        "title": "Produits Déshydratés",
-        "desc": "Légumes déshydratés de première qualité, séchés au soleil et à basse température, et poudres de plantes thérapeutiques superalimentaires, conservant leur couleur et leurs nutriments."
+      "veg_powders": {
+        "title": "Poudres végétales déshydratées",
+        "desc": "Fines poudres de légumes agricoles déshydratées à basse température pour emprisonner les nutriments bioactifs, les couleurs et les saveurs intenses."
       },
-      "jaggery": {
-        "title": "Produits de Jaggery",
-        "desc": "Nectars de canne à sucre traditionnels, clarifiés à l'aide d'extraits de plantes sauvages biologiques et évaporés en caramels cristallins riches."
+      "fruit_powders": {
+        "title": "Poudres de fruits déshydratés",
+        "desc": "Poudres de fruits séchées par pulvérisation et déshydratées à basse température capturant la douceur pure, les vitamines et le piquant des vergers frais."
+      },
+      "moringa": {
+        "title": "Produits Moringa",
+        "desc": "Feuilles, poudres, thés et extraits botaniques purs de Moringa oleifera provenant d'une culture à haut rendement sans pesticides."
+      },
+      "seeds": {
+        "title": "Catégorie de graines",
+        "desc": "Huile biologique d'élite de qualité export et graines nutritionnelles nettoyées, triées et emballées sous des contrôles phytosanitaires absolus."
+      },
+      "dehydrated_veg": {
+        "title": "Légumes déshydratés",
+        "desc": "Oignons, ail, gingembre et autres légumes déshydratés tranchés proprement et traités pour une reconstitution élevée et une longue durée de conservation."
+      },
+      "dehydrated_fruits": {
+        "title": "Fruits déshydratés",
+        "desc": "Coupes longues de qualité supérieure et tranches de fruits déshydratés à l'abri du soleil préservant les sucres naturels, la texture et les vitamines."
+      },
+      "flakes": {
+        "title": "Catégorie de flocons",
+        "desc": "Flocons de légumes de qualité industrielle et gastronomiques séchés uniformément pour une hydratation rapide dans les plats cuisinés et les mélanges secs."
       }
     },
     "items": {
-      "f-banana": {
-        "name": "Banane",
-        "desc": "Bananes Grand Naine et Cavendish naturellement sucrées, cultivées dans un sol volcanique riche en nutriments à Wayanad, exportées dans des atmosphères protectrices à température contrôlée.",
-        "pricing": "Contacter le Bureau Commercial",
-        "spec": {
-          "origin": "Hautes Terres de Wayanad, Inde",
-          "packaging": "Boîte en carton ondulé avec doublure en polyéthylène",
-          "purity": "100% Cultivé Biologiquement",
-          "grade": "Classe A Premium",
-          "minOrder": "1 Tonne Métrique"
-        }
-      },
-      "f-pomegranate": {
-        "name": "Grenade",
-        "desc": "Grenades Bhagwa juteuses, rouge profond, aux pépins tendres, à haute teneur en Brix et riches en propriétés antioxydantes, triées systématiquement via des calibreurs opto-électroniques.",
-        "pricing": "Contacter le Bureau Commercial",
-        "spec": {
-          "origin": "Plateau du Deccan, Inde",
-          "packaging": "Cartons ventilés de 4 kg",
-          "purity": "Certifié Phytosanitaire",
-          "grade": "Qualité Export Grade I",
-          "minOrder": "1 Tonne Métrique"
-        }
-      },
-      "f-grapes": {
-        "name": "Raisins",
-        "desc": "Raisins verts Thompson et noirs Sharad sans pépins de choix. Texture croquante avec une douceur équilibrée et une longévité de conservation optimale.",
-        "pricing": "Contacter le Bureau Commercial",
-        "spec": {
-          "origin": "Sol de la Vallée de Nashik, Inde",
-          "packaging": "Pochette + Carton Maître avec tampons SO2",
-          "purity": "Vérifié Sans Résidus",
-          "grade": "Extra Classe Supérieure",
-          "minOrder": "2 Tonnes Métriques"
-        }
-      },
-      "f-guava": {
-        "name": "Goyave",
-        "desc": "Goyaves VNR Bihi à chair rose vibrante et Lalit à chair blanche, réputées pour leur poids exceptionnel, leur faible teneur en pépins et leur arôme tropical exquis.",
-        "pricing": "Contacter le Bureau Commercial",
-        "spec": {
-          "origin": "Domaines Agricoles Védiques, Inde",
-          "packaging": "Filet en mousse et cartons renforcés",
-          "purity": "Traçabilité Biologique",
-          "grade": "Super Premium",
-          "minOrder": "1 Tonne Métrique"
-        }
-      },
-      "f-mango": {
-        "name": "Mangue",
-        "desc": "Les suprêmes mangues Alphonso (Hapus) et Kesar. Prisées mondialement pour leur couleur dorée intense, leur chair sans fibres et leur profil gustatif riche et crémeux.",
-        "pricing": "Contacter le Bureau Commercial",
-        "spec": {
-          "origin": "Orchards Côtiers de Ratnagiri, Inde",
-          "packaging": "Traité à la Vapeur-Chaleur / Coffret Cadeau",
-          "purity": "Phytosanitaire Approuvé par l'APEDA",
-          "grade": "Sélection AAA Prime",
-          "minOrder": "1 Tonne Métrique"
-        }
-      },
       "s-turmeric": {
-        "name": "Poudre de Curcuma",
-        "desc": "Poudre jaune d'or issue de rhizomes de curcuma de Salem sélectionnés à la main. Teneurs en curcumine extra-élevées (typiquement >5%) spécialement sélectionnées pour les applications pharmaceutiques.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Poudre de curcuma",
+        "desc": "Poudre de curcuma jaune doré vibrant moulue à partir de rhizomes Erode de choix, offrant des niveaux élevés de curcumine active adaptés à une utilisation pharmaceutique et gastronomique B2B.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Domaines d'Erode et Salem, Inde",
-          "packaging": "Sacs en papier kraft multicouches (25 kg)",
-          "purity": "100% Pur, Sans Métaux Lourds",
-          "grade": "Or Curcumine Premium A++",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Domaines Erode et Salem, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "Curcumine > 5% Certifiée, Pure",
+          "grade": "A++ High-Curcumin Gold",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-redchilli": {
-        "name": "Poudre de Piment Rouge",
-        "desc": "Poudre rouge vibrante issue de piments Guntur Sannam et Kashmiri entiers et sans tige, présentant un arôme profond et des niveaux de chaleur SHU personnalisables.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Poudre de piment rouge",
+        "desc": "Poudre de piment rouge Guntur Sannam offrant une couleur profonde et des indices de chaleur personnalisables pour les cuisines internationales.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
           "origin": "Région de Guntur, Inde",
-          "packaging": "Sacs hermétiques avec absorbeurs d'oxygène",
-          "purity": "Négatif Aflatoxine et Sudan Dye",
-          "grade": "Premium Origine Unique",
-          "minOrder": "500 Kilogrammes"
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "Aflatoxine et colorant Soudan négatif",
+          "grade": "Sélection rouge vif du Cachemire",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-coriander": {
-        "name": "Poudre de Coriandre",
-        "desc": "Poudre aromatique issue de graines de coriandre riches en huile essentielle. Ajoute des notes douces-chaudes et citronnées aux mélanges gastronomiques.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Coriandre en poudre",
+        "desc": "Poudre de coriandre traditionnelle entière et moulue traitée à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Plateau de Malwa, Inde",
-          "packaging": "Sac HDPE PP avec doublure intérieure LDPE",
-          "purity": "Sans Agents de Charge Ajoutés",
-          "grade": "Fine Mesh Pure Origine Indienne",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-cumin": {
-        "name": "Graines de Cumin",
-        "desc": "Graines de cumin (Jeera) audacieuses et dépoussiérées, présentant une teneur optimale en cuminaldéhyde. Offre des signatures gustatives terreuses et noisettées.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Poudre de cumin",
+        "desc": "Poudre de cumin traditionnelle entière et moulue traitée à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Zones Sèches du Gujarat, Inde",
-          "packaging": "Sacs en jute ou cartons en papier composite",
-          "purity": "99.5% Nettoyé à la Machine (Sortex)",
-          "grade": "Haute Pureté Qualité Singapour",
-          "minOrder": "1 Tonne Métrique"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-blackpepper": {
         "name": "Poivre Noir",
-        "desc": "Grains de poivre Malabar Tellicherry Extra Bold Garbled (TGSEB) audacieux. Apprécié pour sa chaleur poivrée riche et son parfum boisé complexe.",
-        "pricing": "Contacter le Bureau Commercial",
+        "desc": "Baies de poivre noir entières de première qualité récoltées sur les pentes historiques de Malabar, délivrant une chaleur intense de pipérine et un arôme boisé complexe.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Forêts de Wayanad, Inde",
-          "packaging": "Sacs poly laminés doubles (25/50 kg)",
-          "purity": "Certifié Humidité <11.5%",
-          "grade": "Grade MG1 (Tellicherry Suprême)",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Forêts des hautes terres de Wayanad, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "Humidité < 11,5 % Certifié",
+          "grade": "Tellicherry Extra Bold (TGSEB)",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-cardamom": {
         "name": "Cardamome",
-        "desc": "Gousses de cardamome verte géante majestueuses de 8 mm+, méticuleusement séchées pour conserver une couleur émeraude profonde, une saveur douce, complexe et résineuse de camphre.",
-        "pricing": "Contacter le Bureau Commercial",
+        "desc": "Gousses de cardamome vertes dodues et de qualité supérieure présentant de belles coquilles d'émeraude naturelles et des niveaux élevés d'huile essentielle de graines.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Collines de Cardamome, Kerala, Inde",
-          "packaging": "Cartons maîtres doublés de papier aluminium",
-          "purity": "Exempt de Poly-Vainqueurs Artificiels",
-          "grade": "Extra Émeraude Premium Audacieuse (8mm+)",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Collines des Cardamomes, Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "Sans polisseurs artificiels",
+          "grade": "Bold Premium Extra Emerald (8mm+)",
+          "minOrder": "200 kilogrammes"
+        }
+      },
+      "s-cloves": {
+        "name": "clous de girofle",
+        "desc": "clous de girofle bruns entiers séchés à des niveaux d'humidité optimaux pour préserver les composés aromatiques de l'eugénol.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Ceinture Nilgiris, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "clous de girofle entiers sélectionnés à la main",
+          "minOrder": "200 kilogrammes"
         }
       },
       "s-cinnamon": {
         "name": "Cannelle",
-        "desc": "Quilles parfumées, épluchées à la main, de véritable cannelle de type Ceylan. Parfum boisé doux et onctueux avec des niveaux de coumarine très bas, optimal pour la confiserie de luxe.",
-        "pricing": "Contacter le Bureau Commercial",
+        "desc": "Piquants de cannelle douce de type Ceylan récoltés de manière durable, contenant une très faible teneur en coumarine et une délicate douceur boisée.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Fermes biologiques des Ghats occidentaux, Inde",
-          "packaging": "Fagots de fibres de jute ou boîtes maîtres",
-          "purity": "100% Quilles d'écorce authentiques",
-          "grade": "Sélection Fine Alba/C5",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Ghats occidentaux, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Piquants Alba de qualité supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "s-cloves": {
-        "name": "Clous de Girofle",
-        "desc": "Clous de girofle entiers riches et aromatiques avec un rendement élevé en huile essentielle d'eugénol. Bourgeons à forme audacieuse et couleur brun-rouge profond.",
-        "pricing": "Contacter le Bureau Commercial",
+      "s-nutmeg": {
+        "name": "Noix de muscade",
+        "desc": "Noix de muscade traditionnelle entière et moulue traitée à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture des Nilgiris, Inde",
-          "packaging": "Doublure de sac dans des séparateurs de carton",
-          "purity": "Trié Sortex, tiges minimales",
-          "grade": "Clous de girofle prime sélectionnés à la main",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "s-staranise": {
+        "name": "Anis étoilé",
+        "desc": "Anis étoilé traditionnel entier et moulu transformé par broyage à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-fennel": {
-        "name": "Graines de Fenouil",
-        "desc": "Graines de fenouil (Saunf) audacieuses et sucrées, d'une couleur vert vif. Idéales pour les infusions digestives et la boulangerie artisanale.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Graines de fenouil",
+        "desc": "Graines de fenouil traditionnelles entières et moulues traitées à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Plaines du Rajasthan, Inde",
-          "packaging": "Sacs PP ou sacs en fibre personnalisés",
-          "purity": "99% Pur, trié pour uniformité de couleur",
-          "grade": "Vert Audacieux Premium",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-mustard": {
-        "name": "Graines de Moutarde",
-        "desc": "Graines de moutarde noires et jaunes audacieuses, riches en huile. Produit une pungence piquante pour les pâtes d'épices, les vinaigres et les tartinades.",
-        "pricing": "Contacter le Bureau Commercial",
+        "name": "Graines de moutarde",
+        "desc": "Graines de moutarde traditionnelles entières et moulues traitées à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Sol Indo-Gangétique, Inde",
-          "packaging": "Boîtes en carton kraft multicouches tissées",
-          "purity": "Nettoyé Microbiologiquement",
-          "grade": "Grade-A Audacieux Sortex",
-          "minOrder": "1 Tonne Métrique"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "s-bayleaves": {
+        "name": "Feuilles de laurier",
+        "desc": "Feuilles de laurier traditionnelles entières et moulues traitées à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Mélange classique de cardamome grillée, cannelle, poivre noir, clous de girofle, macis, noix de muscade et cumin. Moulé à froid pour préserver les esters volatils essentiels.",
-        "pricing": "Contacter le Bureau Commercial",
+        "desc": "Garam masala traditionnel entier et moulu traité sous broyage à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Mélange Royal Védique, Inde",
-          "packaging": "Sachets barrière de haute qualité dans des boîtes maîtres",
-          "purity": "100% Formulation Traditionnelle",
-          "grade": "Culinaire Gastronomique",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "s-currypowder": {
-        "name": "Poudre de Curry",
-        "desc": "Mélange de poudre de curry style Madras conforme aux normes internationales. Notes parfaitement équilibrées de coriandre, piment doux, fenugrec et curcuma riche en curcumine.",
-        "pricing": "Contacter le Bureau Commercial",
+      "s-mixedspice": {
+        "name": "Mélanges d'épices mélangées",
+        "desc": "Mélanges d'épices traditionnels entiers et moulus traités sous broyage à basse température pour protéger les fractions aromatiques.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Mélange Patrimonial de Madras, Inde",
-          "packaging": "Emballage barrière métallisé multicouches",
-          "purity": "Sans Colorant Alimentaire Artificiel",
-          "grade": "Premium Qualité Export",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Ceinture d'épices du Kerala, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "100 % pur, sans métaux lourds",
+          "grade": "Qualité d'exportation supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "s-gingerpowder": {
-        "name": "Poudre de Gingembre",
-        "desc": "Poudre de racine de gingembre déshydratée et finement moulue, produisant une chaleur de gingérol intense et une pointe épicée. Très recherchée par les industries des boissons et de la boulangerie.",
-        "pricing": "Contacter le Bureau Commercial",
+      "vp-beetroot": {
+        "name": "Poudre de betterave",
+        "desc": "Riche poudre de betterave cramoisie retenant des bétalaïnes, des nitrates et des fibres alimentaires naturelles élevées pour des mélanges santé.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Hautes Terres du Nord-Est, Inde",
-          "packaging": "Sacs en aluminium scellés sous vide (25 kg)",
-          "purity": "Racine pure de Zingiber officinale",
-          "grade": "Fine Sélection Grade",
-          "minOrder": "300 Kilogrammes"
+          "origin": "Plaines védiques, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "s-garlicpowder": {
-        "name": "Poudre d'Ail",
-        "desc": "Poudre d'ail fine déshydratée, issue de clones d'ail indiens forts, fournissant un puissant arôme basé sur l'allicine et une distribution instantanée de saveur.",
-        "pricing": "Contacter le Bureau Commercial",
+      "vp-tomato": {
+        "name": "Poudre de tomate",
+        "desc": "Fine poudre de tomate rouge séchée par pulvérisation préparée à partir de tomates biologiques mûres, idéale pour les soupes instantanées, les sauces et les assaisonnements.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture Agricole du Madhya Pradesh, Inde",
-          "packaging": "Fûts laminés résistants à l'humidité",
-          "purity": "Sans Additifs, Anti-agglomérant",
-          "grade": "Poudre Culinaire Grade A",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Fermes du Karnataka, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "s-onionpowder": {
-        "name": "Oignon en Flocons / Poudre",
-        "desc": "Oignons rouges déshydratés de première qualité, moulus en poudre. Délivre une saveur concentrée d'oignon sucré et piquant immédiatement, sans charge d'humidité.",
-        "pricing": "Contacter le Bureau Commercial",
+      "vp-potato": {
+        "name": "Poudre de pomme de terre",
+        "desc": "Poudre de pomme de terre déshydratée de haute pureté broyée selon les normes de micro-maille pour une solubilité et une dispersion rapides des arômes.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture Agroalimentaire du Maharashtra, Inde",
-          "packaging": "Sacs alimentaires doublement scellés dans un carton",
-          "purity": "Humidité < 4.0% Standard",
-          "grade": "Standard gastronomique haute maille",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-onion": {
-        "name": "Flocons d'Oignon",
-        "desc": "Oignons rouges de première qualité soigneusement tranchés et déshydratés à l'air. Conserve une pungence élevée, une texture légère, des flocons visuellement impeccables avec une longue stabilité au stockage.",
-        "pricing": "Contacter le Bureau Commercial",
+      "vp-garlic": {
+        "name": "Ail en poudre",
+        "desc": "Poudre d'ail concentrée moulue à partir de bulbes aromatiques, offrant une saveur d'allicine robuste et une dispersibilité.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Madhya Pradesh, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-ginger": {
+        "name": "Gingembre en poudre",
+        "desc": "Poudre fine de racine de gingembre contenant une puissante chaleur de gingérol, largement utilisée dans les mélanges de confiserie et de tisanes.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Collines du nord-est, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-onion": {
+        "name": "Poudre d'oignon",
+        "desc": "Poudre d'oignon blanc/rouge déshydraté apportant une douceur et un zeste d'oignon salés rapides aux mélanges alimentaires.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
           "origin": "Région de Nashik, Inde",
-          "packaging": "Fûts alimentaires de 20 kg protégeant de l'humidité",
-          "purity": "Sans peaux externes / suie",
-          "grade": "Flocons Choix AA",
-          "minOrder": "500 Kilogrammes"
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-garlic": {
-        "name": "Flocons d'Ail",
-        "desc": "Flocons d'ail divisés, blanc doré, déshydratés à basse température. Teneur en allicine robuste, parfaits pour une reconstitution rapide dans les plats préparés.",
-        "pricing": "Contacter le Bureau Commercial",
+      "vp-spinach": {
+        "name": "Poudre d'épinards",
+        "desc": "Fine poudre verte séchée à partir de feuilles d'épinards de haute qualité, bloquant le fer alimentaire et la couleur naturelle de la chlorophylle.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Contreforts de l'Himalaya, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-carrot": {
+        "name": "Poudre de carotte",
+        "desc": "Poudre de carotte déshydratée de haute pureté moulue selon les normes micro-mailles pour une solubilité et une dispersion rapides des arômes.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-cabbage": {
+        "name": "Poudre de chou",
+        "desc": "Poudre de chou déshydratée de haute pureté moulue selon les normes de micro-maille pour une solubilité et une dispersion rapides des arômes.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-moringa": {
+        "name": "Poudre de Pilon (Moringa)",
+        "desc": "Poudre nutritive de gousses et de feuilles de moringa transformées en salles blanches pour maintenir un nombre extrême de vitamines et d'antioxydants.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Vallée de Latur, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-greenchilli": {
+        "name": "Poudre de piment vert",
+        "desc": "Poudre de piment vert déshydraté de haute pureté moulue selon les normes des micro-mailles pour une solubilité et une dispersion rapides des saveurs.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-corianderleaf": {
+        "name": "Poudre de feuilles de coriandre",
+        "desc": "Poudre de feuilles de coriandre déshydratée de haute pureté moulue selon les normes de micro-maille pour une solubilité et une dispersion rapides des arômes.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "vp-mint": {
+        "name": "Menthe en poudre",
+        "desc": "Poudre de menthe déshydratée de haute pureté moulue selon les normes micro-mailles pour une solubilité et une dispersion rapides des arômes.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Fûts laminés résistants à l'humidité (20kg)",
+          "purity": "100 % pur légume déshydraté, sans additifs",
+          "grade": "Séché par pulvérisation de qualité supérieure/broyé à basse température",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-banana": {
+        "name": "Poudre de banane",
+        "desc": "Poudre de banane verte déshydratée riche en amidons résistants, utilisée dans des formulations de farine saines sans gluten.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Wayanad Highlands, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-mango": {
+        "name": "Poudre de mangue",
+        "desc": "Poudre de pulpe de mangue Kesar et Alphonso séchée par pulvérisation, préservant la saveur tropicale authentique, la couleur dorée et les sucres naturels.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Vergers de Ratnagiri, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-guava": {
+        "name": "Poudre de goyave",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, contenant de la poudre de goyave, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-pomegranate": {
+        "name": "Poudre de Grenade",
+        "desc": "Poudre de jus de grenade riche en antioxydants, séchée par pulvérisation pour conserver un degré Brix élevé et une belle coloration rose-rouge.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Plateau du Deccan, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-pineapple": {
+        "name": "Poudre d'ananas",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, contenant de la poudre d'ananas, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-papaya": {
+        "name": "Poudre de papaye",
+        "desc": "Poudre de jus de fruits de qualité supérieure séchée par pulvérisation, contenant de la poudre de papaye, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-apple": {
+        "name": "Poudre de pomme",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-orange": {
+        "name": "Poudre d'orange",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, contenant de la poudre d'orange, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-lemon": {
+        "name": "Citron en poudre",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, contenant de la poudre de citron, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-strawberry": {
+        "name": "Poudre de fraise",
+        "desc": "Poudre de jus de fruit de qualité supérieure séchée par pulvérisation, contenant de la poudre de fraise, capturant l'arôme naturel et les teintes visuelles pour les mélangeurs gastronomiques et la pâtisserie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Séché par pulvérisation à partir de pulpe de fruit 100 % biologique",
+          "grade": "Aliments et boissons de catégorie A",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fp-amla": {
+        "name": "Poudre d'Amla",
+        "desc": "Poudre de groseille indienne (Amla) déshydratée offrant des taux exceptionnels de vitamine C, parfaitement adaptée aux compléments alimentaires.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Vergers du Gujarat, Inde",
+          "packaging": "Inserts en aluminium sous vide dans des cartons principaux",
+          "purity": "Amla 100 % pure, riche en vitamine C",
+          "grade": "Norme nutraceutique",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "m-powder": {
+        "name": "Poudre de Moringa",
+        "desc": "Poudre de feuilles crues finement moulues provenant d'arbres Moringa oleifera cultivés de manière biologique, offrant de riches indices en protéines, en fer et en multivitamines.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Fermes biologiques de Latur, Inde",
+          "packaging": "Sacs barrière UV sous vide (20 kg)",
+          "purity": "Certifié biologique USDA et APEDA",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogrammes"
+        }
+      },
+      "m-leaves": {
+        "name": "Feuilles de Moringa",
+        "desc": "Feuilles entières de moringa séchées à l'ombre, systématiquement nettoyées des tiges et des résidus organiques, gardant ainsi la chlorophylle vitale intacte.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Fermes biologiques de Latur, Inde",
+          "packaging": "Sacs tissés double doublure poly (15 kg)",
+          "purity": "Certifié biologique USDA et APEDA",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogrammes"
+        }
+      },
+      "m-tea": {
+        "name": "Thé Moringa",
+        "desc": "Feuilles de moringa coupées de qualité supérieure mélangées à des herbes aromatiques pour créer une infusion de bien-être quotidienne riche en antioxydants et sans caféine.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Fermes biologiques de Latur, Inde",
+          "packaging": "Sachets de thé filtres personnalisés en boîtes composites",
+          "purity": "Certifié biologique USDA et APEDA",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogrammes"
+        }
+      },
+      "m-extract": {
+        "name": "Extrait de Moringa",
+        "desc": "Extrait de feuilles de moringa bioactif à haute puissance standardisé pour les ratios totaux de flavonoïdes et de saponines, pour usage clinique.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Fermes biologiques de Latur, Inde",
+          "packaging": "Bidons en PEHD de qualité alimentaire",
+          "purity": "Certifié biologique USDA et APEDA",
+          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "minOrder": "200 kilogrammes"
+        }
+      },
+      "sd-flax": {
+        "name": "Graines de lin",
+        "desc": "Graines de lin biologiques brun foncé chargées d'acides gras oméga-3, traitées avec des calibreurs optiques avancés pour garantir la pureté.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-pumpkin": {
+        "name": "Graines de citrouille",
+        "desc": "Graines de citrouille de qualité supérieure, prêtes à l'exportation, soigneusement nettoyées et classées pour l'extraction de graines alimentaires, de céréales et d'huile industrielle.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-sesame": {
+        "name": "Graines de sésame",
+        "desc": "Graines de sésame croustillantes à coque blanche, classées Auto-Sortex, avec une teneur élevée en huile et un goût de noisette pour les importations mondiales de boulangerie.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Sortex à coque de qualité supérieure et auto-nettoyé",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-sunflower": {
+        "name": "Graines de tournesol",
+        "desc": "Graines de tournesol de qualité supérieure, prêtes à l'exportation, soigneusement nettoyées et classées pour l'extraction de graines alimentaires, de céréales et d'huile industrielle.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-chia": {
+        "name": "Graines de Chia",
+        "desc": "Graines de chia noires et blanches bio très gonflantes, triées pour éliminer toutes les matières végétales étrangères, riches en fibres de mucilage.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Madhya Pradesh, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-watermelon": {
+        "name": "Graines de pastèque",
+        "desc": "Graines de pastèque de qualité supérieure, prêtes à l'exportation, soigneusement nettoyées et classées pour l'extraction de graines alimentaires, de céréales et d'huile industrielle.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "sd-basil": {
+        "name": "Graines de basilic",
+        "desc": "Graines de basilic de qualité supérieure, prêtes à l'exportation, soigneusement nettoyées et classées pour l'extraction de graines alimentaires, de céréales et d'huile industrielle.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Zones arides du Gujarat, Inde",
+          "packaging": "Sacs en papier kraft multicouche (25 kg)",
+          "purity": "99,9 % nettoyé en machine / nettoyé par Sortex",
+          "grade": "Graines audacieuses de qualité AAA pour l'exportation",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "dv-onion": {
+        "name": "Oignon déshydraté",
+        "desc": "Tranches d'oignons rouges et blancs séchées à l'air avec une excellente texture, préservant les saveurs piquantes essentielles pour une formulation alimentaire immédiate.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Région de Nashik, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "dv-garlic": {
+        "name": "Ail déshydraté",
+        "desc": "Gousses d'ail déshydratées de qualité supérieure divisées pour accélérer la réhydratation dans les épices instantanées, les ragoûts en conserve et les nouilles.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
           "origin": "Région de Malwa, Inde",
-          "packaging": "Boîtes en carton ondulé avec doublure en polyéthylène",
-          "purity": "Gousses d'ail 100% pures, sans peau",
-          "grade": "Trié Sortex AAA",
-          "minOrder": "500 Kilogrammes"
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-tomato": {
-        "name": "Poudre de Tomate",
-        "desc": "Poudre rouge riche obtenue par séchage par atomisation de tomates biologiques mûries sur pied. Confère une profondeur umami instantanée et une saveur de tomate classique aux soupes, sauces et mélanges salés.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-ginger": {
+        "name": "Gingembre déshydraté",
+        "desc": "Tranches de gingembre déshydratées à basse température, soigneusement triées pour correspondre à une forme et une couleur uniformes pour les conditionneurs alimentaires industriels.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Fermes Sourcées DharaAveda, Inde",
-          "packaging": "Inserts de fûts sous vide en aluminium",
-          "purity": "100% Lycopène Naturel, sans synthétiques",
-          "grade": "Premium Séché par Atomisation",
-          "minOrder": "300 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-beetroot": {
-        "name": "Poudre de Betterave",
-        "desc": "Poudre finement moulue de betteraves rouges premium déshydratées, offrant des colorants bétalaïnes rouge intense aux côtés de profils sucrés et naturels riches en nitrates.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-tomato": {
+        "name": "Tomate déshydratée",
+        "desc": "Tranches de tomates biologiques séchées riches en lycopène naturel et traitement sans sulfite, pour des packs culinaires gourmands.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Plaines Védiques, Inde",
-          "packaging": "Tubes barrière scellés ou double pochettes",
-          "purity": "Zéro Pigment Artificiel",
-          "grade": "Grade Nutraceutique",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Wayanad Highlands, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-spinach": {
-        "name": "Poudre d'Épinard",
-        "desc": "Poudre vert brillant déshydratée à partir de feuilles d'épinard fraîches riches en fer. Hautement soluble, offrant un enrichissement instantané en chlorophylle.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-carrot": {
+        "name": "Carotte déshydratée",
+        "desc": "Tranches de carottes déshydratées à basse température, soigneusement triées pour correspondre à une forme et une couleur uniformes pour les conditionneurs alimentaires industriels.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Pieds de l'Himalaya, Inde",
-          "packaging": "Sacs sous vide purgés à l'azote",
-          "purity": "100% Spinacia oleracea pur",
-          "grade": "Superaliment Catégorie Aliment & Nourriture",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-carrot": {
-        "name": "Poudre de Carotte",
-        "desc": "Poudre orange riche issue de jeunes carottes déshydratées sucrées, présentant une rétention élevée de Bêta-Carotène et une richesse douce en fibres alimentaires.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-beetroot": {
+        "name": "Betterave déshydratée",
+        "desc": "Tranches de betterave déshydratées à basse température, soigneusement triées pour correspondre à une forme et une couleur uniformes pour les conditionneurs alimentaires industriels.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Champs Agraires du Punjab, Inde",
-          "packaging": "Fûts hermétiques (20 kg)",
-          "purity": "Racines de carotte 100%, sans sucres ajoutés",
-          "grade": "Conforme FDA U.S.",
-          "minOrder": "300 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-greenchilli": {
-        "name": "Flocons de Piment Vert",
-        "desc": "Flocons verts acidulés coupés à partir de capsicum et de piments frais, préservant une chaleur herbacée nette, des capsaïcinoïdes et une couleur verte croquante.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-spinach": {
+        "name": "Épinards déshydratés",
+        "desc": "Tranches d'épinards déshydratées à basse température, soigneusement triées pour correspondre à une forme et une couleur uniformes pour les conditionneurs alimentaires industriels.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Vallée de Nimar, Inde",
-          "packaging": "Emballages en papier multicouches hermétiques",
-          "purity": "Sans résidus, norme de haute pureté",
-          "grade": "Flocons Piquants Premium",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-drumstick": {
-        "name": "Poudre de Moringa",
-        "desc": "Séchage de gousses de Moringa nutritives. Riche en acides aminés essentiels et micronutriments ; excellent pour les formulations de santé quotidiennes.",
-        "pricing": "Contacter le Bureau Commercial",
+      "dv-cabbage": {
+        "name": "Chou déshydraté",
+        "desc": "Tranches de chou déshydratées à basse température, soigneusement triées pour correspondre à une forme et une couleur uniformes pour les conditionneurs alimentaires industriels.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Bio-Ferme du Deccan, Inde",
-          "packaging": "Doublures barrière en aluminium dans des fûts",
-          "purity": "Gousses de Moringa Oleifera 100% pures",
-          "grade": "Fonctionnel Gastronomique",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes en carton ondulé doublées de polyéthylène (15/20kg)",
+          "purity": "Sans sel, conservateurs ou sulfites ajoutés",
+          "grade": "Norme de réhydratation AAA Premium",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-moringa": {
-        "name": "Poudre de Moringa",
-        "desc": "Feuilles d'Arbre Miracle (Moringa oleifera) récoltées biologiquement certifiées, séchées à l'ombre. Poudre vert émeraude foncé chargée de vitamines vitales, de polyphénols et de protéines complètes.",
-        "pricing": "Contacter le Bureau Commercial",
+      "df-banana": {
+        "name": "Tranches de banane",
+        "desc": "Rondelles de banane Sweet Cavendish déshydratées naturellement sans conservateurs chimiques, parfaites pour les mélanges de snacks bio.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Vallée Biologique de Latur, Inde",
-          "packaging": "Emballage barrière sous vide avec sachets déshydratants",
-          "purity": "Poudre de feuille brute à 99.9%, sans additifs",
-          "grade": "Nutraceutique Premium AAA+",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Wayanad Highlands, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "d-curryleaves": {
-        "name": "Poudre de Feuilles de Curry",
-        "desc": "Fabriquée à partir de feuilles de curry botaniques fraîches, ombrées et déshydratées immédiatement après récolte. Préserve les huiles aromatiques et thérapeutiques de terpènes pour les formulations de santé et les cosmétiques de luxe.",
-        "pricing": "Contacter le Bureau Commercial",
+      "df-mango": {
+        "name": "Tranches de mangue",
+        "desc": "Lanières de mangue Alphonso et Kesar tranchées à la main et séchées à l'air pour conserver le doux parfum tropical et la texture gourmande douce et moelleuse.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture des Épices du Kerala, Inde",
-          "packaging": "Doublures Kraft-poly scellées",
-          "purity": "Espèce biologique Murraya koenigii",
-          "grade": "Standard Herbe Grade-1",
-          "minOrder": "200 Kilogrammes"
+          "origin": "Vergers de Ratnagiri, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "j-powder": {
-        "name": "Poudre de Jaggery",
-        "desc": "Poudre de jaggery biologique fluide, non collante, traitée sans agents de blanchiment chimiques ni auxiliaires de traitement toxiques. Fournit des profils d'édulcoration minérale sains.",
-        "pricing": "Contacter le Bureau Commercial",
+      "df-pineapple": {
+        "name": "Tranches d'Ananas",
+        "desc": "Tranches déshydratées de première qualité de tranches d'ananas biologiques mûries au soleil, structurées pour les sacs de produits gastronomiques et les additifs céréaliers.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture de Canne à Sucre de Kolhapur, Inde",
-          "packaging": "Pochettes écologiques anti-humidité autonomes",
-          "purity": "100% Biologique, Clarifié Sans Chimiques",
-          "grade": "Niveau Cristallin Premium",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
         }
       },
-      "j-cubes": {
-        "name": "Cubes de Jaggery",
-        "desc": "Blocs et cubes uniformes pré-mesurés fabriqués à partir de jaggery authentique de haute pureté. Se dissout proprement, libérant un arôme profond de mélasse.",
-        "pricing": "Contacter le Bureau Commercial",
+      "df-apple": {
+        "name": "Tranches de pomme",
+        "desc": "Tranches de pomme biologique déshydratées de qualité supérieure mûries au soleil, structurées pour les sacs de produits gastronomiques et les additifs céréaliers.",
+        "pricing": "Contacter le bureau commercial",
         "spec": {
-          "origin": "Ceinture Agricole de Mandya, Inde",
-          "packaging": "Packs plateau sous vide compartimentés",
-          "purity": "Extraction traditionnelle de canne à sucre",
-          "grade": "Cubes Uniformes Grade A",
-          "minOrder": "500 Kilogrammes"
+          "origin": "Maharashtra, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "df-papaya": {
+        "name": "Tranches de papaye",
+        "desc": "Tranches déshydratées de qualité supérieure de papaye biologique mûries au soleil, structurées pour les sacs de produits gastronomiques et les additifs céréaliers.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "df-strawberry": {
+        "name": "Tranches de fraises",
+        "desc": "Tranches de fraises biologiques déshydratées de qualité supérieure mûries au soleil, structurées pour les sacs de produits gastronomiques et les additifs céréaliers.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "df-guava": {
+        "name": "Tranches de goyave",
+        "desc": "Tranches déshydratées de qualité supérieure de tranches de goyave biologique mûries au soleil, structurées pour les sacs de produits gastronomiques et les additifs céréaliers.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Sacs en polyéthylène scellés sous vide dans des cartons principaux (10 kg)",
+          "purity": "Sans sucre, sulfites ou colorants ajoutés",
+          "grade": "Tranches longues de qualité supérieure",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-onion": {
+        "name": "Flocons d'oignon",
+        "desc": "Flocons d'oignon rouge et blanc de 10 mm parfaitement coupés, systématiquement séchés à l'air pour conserver l'allicine douce naturelle, idéaux pour les nouilles et les sauces de restauration rapide.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Vallée de Nashik, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-garlic": {
+        "name": "Flocons d'ail",
+        "desc": "Les flocons d'ail déshydratés se fendent proprement, offrant un zeste d'allium piquant et une hydratation rapide pour les sachets de plats cuisinés.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Plateau de Malwa, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-potato": {
+        "name": "Flocons de pommes de terre",
+        "desc": "Flocons de pomme de terre déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-tomato": {
+        "name": "Flocons de tomates",
+        "desc": "Flocons de tomates déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-beetroot": {
+        "name": "Flocons de betterave",
+        "desc": "Flocons de betterave déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-carrot": {
+        "name": "Flocons de carottes",
+        "desc": "Flocons de carottes déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-spinach": {
+        "name": "Flocons d'épinards",
+        "desc": "Flocons d'épinards déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
+        }
+      },
+      "fl-mixedveg": {
+        "name": "Flocons de légumes mélangés",
+        "desc": "Flocons de légumes mélangés déshydratés de qualité supérieure séchés pour préserver l'intensité de la couleur et la texture cellulaire pour des repas gastronomiques rapides.",
+        "pricing": "Contacter le bureau commercial",
+        "spec": {
+          "origin": "Maharashtra, Inde",
+          "packaging": "Boîtes doubles en carton ondulé avec doublure thermosoudée",
+          "purity": "Humidité < 5% garantie, zéro poussière",
+          "grade": "Coupe en flocons gourmands (10-12 mm)",
+          "minOrder": "500 kilogrammes"
         }
       }
     }
   },
   "seo": {
-    "homeTitle": "Sanctuaire DharaAveda | Soins Holistiques & Exportations Premium",
-    "homeDesc": "Le Sanctuaire DharaAveda propose des thérapies par les fleurs de Bach, le Reiki et la sonothérapie à 432Hz.",
-    "exportTitle": "Division Exportation Agricole | DharaAveda",
-    "exportDesc": "Épices de qualité, Shilajit pur et extraits d'aromathérapie biologique. Conformité APEDA et SGS.",
-    "wellnessTitle": "Soins de Bien-être Holistique & Sanctuaire | DharaAveda",
-    "wellnessDesc": "Découvrez le Reiki Usui, les fleurs de Bach et la thérapie par le son dans notre sanctuaire de Wayanad.",
-    "bookingTitle": "Réservez Votre Session de Bien-être | DharaAveda",
-    "bookingDesc": "Réservez votre séance de Reiki, de fleurs de Bach ou de sonothérapie dans notre sanctuaire.",
-    "contactTitle": "Contact | DharaAveda",
-    "contactDesc": "Contactez-nous pour des expéditions de vrac, contrats commerciaux ou admissions au sanctuaire."
+    "homeTitle": "Sanctuaire DharaAveda | Guérison quantique réparatrice et exportations de bien-être haut de gamme",
+    "homeDesc": "Le sanctuaire DharaAveda associe la thérapie classique aux fleurs sauvages de Bach, l'alignement des chakras Usui Reiki, les huiles chromo-essentielles Aura-Soma et les harmonisations sonores.",
+    "exportTitle": "Division du commerce agricole | Sanctuaire DharaAveda",
+    "exportDesc": "Cardamome verte de qualité supérieure de source directe, résine Shilajit pure et extraits d'aromathérapie biologiques. Conformité autorisée APEDA et SGS.",
+    "wellnessTitle": "Sanctuaire quantique réparateur et thérapies | DharaAveda",
+    "wellnessDesc": "Découvrez le Reiki Usui, les consultations de fleurs de Bach et la thérapie sonore à 432 Hz dans notre sanctuaire Wayanad au Kerala.",
+    "bookingTitle": "Planifiez votre résidence d'initiation | DharaAveda",
+    "bookingDesc": "Réservez votre séance d'admission confidentielle pour un alignement Reiki, des consultations de fleurs de Bach ou une guérison sonore profonde.",
+    "contactTitle": "Contacter le Bureau du Conseil | DharaAveda",
+    "contactDesc": "Contactez-nous pour des expéditions agricoles en vrac, des contrats de produits de base ou des admissions au bien-être du sanctuaire."
   }
 };

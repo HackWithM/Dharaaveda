@@ -2,1226 +2,1510 @@ import { StaticTranslations } from "../translations";
 
 export const translations: StaticTranslations = {
   "navbar": {
-    "home": "Home",
-    "export": "Export",
-    "therapy": "Therapy",
-    "contact": "Contact",
+    "home": "Rumah",
+    "export": "Ekspor",
+    "therapy": "Terapi",
+    "contact": "Kontak",
+    "myBookings": "Pemesanan Saya",
     "admin": "Admin",
-    "console": "Console",
-    "language": "Language",
-    "selectLanguage": "Select Sacred Language",
-    "subTitle": "Agriculture & Aura Clinic",
-    "searchPlaceholder": "Search language..."
+    "console": "Menghibur",
+    "language": "Bahasa",
+    "selectLanguage": "Pilih Bahasa Suci",
+    "subTitle": "Klinik Pertanian & Aura",
+    "searchPlaceholder": "Bahasa pencarian...",
+    "toggleMenu": "Alihkan cakupan navigasi",
+    "adminTitle": "Dewan Pengendalian Administrator"
   },
   "footer": {
-    "desc": "An elite, high-vibrational ecosystem merging enterprise agricultural supply-chain and global spice distribution with high-end quantum sound and floral bio-frequency wellness clinics.",
-    "agriTitle": "Agricultural Division",
-    "wellnessTitle": "Wellness Division",
-    "corpTitle": "Corporate Desk",
-    "agriLink1": "Elite Spices & Culinary Gems",
-    "agriLink2": "Purified Himalayan Shilajit Resin",
-    "agriLink3": "Pure Organic Aromatherapy Extracts",
-    "agriLink4": "Custom Phytosanitary Certification",
-    "agriStatus": "● 100% Trace-Audited",
-    "wellnessLink1": "Edward Bach Floral Consultations",
-    "wellnessLink2": "Usui Reiki Chromatic Harmony",
-    "wellnessLink3": "432Hz Quartz Polyphonic Attunements",
-    "wellnessLink4": "Schedule Private Residency Session",
-    "corpOffice": "Global Trade Office:",
-    "corpSanctuary": "Wellness Sanctuary:",
-    "rights": "All rights reserved. Registered Trade Entity."
+    "desc": "Ekosistem elit dengan getaran tinggi yang menggabungkan rantai pasokan pertanian perusahaan dan distribusi rempah-rempah global dengan klinik kesehatan suara kuantum dan bio-frekuensi bunga kelas atas.",
+    "agriTitle": "Divisi Pertanian",
+    "wellnessTitle": "Divisi Kesehatan",
+    "corpTitle": "Meja Perusahaan",
+    "agriLink1": "Rempah-rempah & Permata Kuliner Elit",
+    "agriLink2": "Resin Shilajit Himalaya yang dimurnikan",
+    "agriLink3": "Ekstrak Aromaterapi Organik Murni",
+    "agriLink4": "Sertifikasi Phytosanitary Khusus",
+    "agriStatus": "● 100% Diaudit Jejak",
+    "wellnessLink1": "Konsultasi Bunga Edward Bach",
+    "wellnessLink2": "Terapi Rekkhanoho",
+    "wellnessLink3": "Attunement Polifonik Kuarsa 432Hz",
+    "wellnessLink4": "Jadwalkan Sesi Residensi Pribadi",
+    "corpOffice": "Kantor Perdagangan Global:",
+    "corpSanctuary": "Suaka Kesehatan:",
+    "rights": "Semua hak dilindungi undang-undang. Badan Dagang Terdaftar.",
+    "myBookings": "Pemesanan Saya",
+    "badgeApeda": "BERSERTIFIKAT APEDA",
+    "badgeFssai": "STANDAR EKSPOR FSSAI",
+    "badgeUsda": "Sesuai dengan USDA ORGANIK"
   },
   "home": {
-    "heroTitle": "Konvergensi Perdagangan Global & Penyembuhan Holistik",
-    "heroSubtitle": "Dharaaveda menyelaraskan rantai pasokan pertanian premium dengan terapi energi restoratif.",
+    "heroTitle": "Konvergensi Perdagangan Global & Pemulihan Holistik",
+    "heroSubtitle": "Dharaaveda menyelaraskan rantai pasokan pertanian premium dengan terapi energik restoratif.",
     "ctaExports": "Jelajahi Ekspor",
     "ctaTherapies": "Jelajahi Terapi",
-    "aboutTitle": "Menjembatani Kelimpahan Bumi & Pemulihan Individu",
-    "aboutSubtitle": "FILOSOFI DIVISI GANDA KAMI",
-    "aboutDesc1": "Dharaaveda beroperasi di titik temu antara perdagangan internasional dan kesehatan holistik. Kami percaya bahwa kesehatan sejati bersifat global sekaligus sangat pribadi.",
-    "aboutDesc2": "Divisi Pertanian kami bermitra langsung dengan perkebunan organik untuk mendistribusikan rempah-rempah premium secara global. Secara bersamaan, Divisi Terapi kami menciptakan tempat perlindungan sunyi elektromagnetik di Wayanad.",
+    "aboutTitle": "Menjembatani Karunia Bumi & Pemulihan Individu",
+    "aboutSubtitle": "FILOSOFI DUAL-DIVISI KAMI",
+    "aboutDesc1": "Dharaaveda beroperasi di persimpangan perdagangan internasional dan kesehatan holistik. Kami percaya bahwa kesejahteraan sejati bersifat global dan sangat pribadi.",
+    "aboutDesc2": "Divisi Pertanian kami bermitra langsung dengan perkebunan rakyat organik untuk mendistribusikan rempah-rempah premium dan produk dehidrasi ke seluruh dunia. Pada saat yang sama, Divisi Terapi kami membuat tempat perlindungan senyap elektromagnetik di Wayanad untuk memulihkan keseimbangan sistem saraf dan vitalitas sel.",
     "showcaseTitle": "Jelajahi Divisi Kami",
-    "showcaseSubtitle": "Pilih divisi untuk memasuki ruang khusus kami",
+    "showcaseSubtitle": "Pilih vertikal untuk memasuki ruang khusus kami",
     "exportCardTitle": "Divisi Ekspor",
-    "exportCardDesc": "Menghubungkan pertanian botani India dengan farmasi global, industri kosmetik, dan importir makanan. Rempah-rempah premium dan ekstrak adaptogenik dikirim di bawah kepatuhan fitosanitasi mutlak.",
-    "exportHighlight1": "Sertifikasi APEDA & SGS",
-    "exportHighlight2": "Sumber langsung dari pertanian",
+    "exportCardDesc": "Menghubungkan perkebunan botani India dengan apotek global premium, rumah kosmetik, dan importir makanan. Rempah-rempah premium, biji-bijian, dan ekstrak adaptogenik dikirimkan berdasarkan kepatuhan fitosanitasi mutlak.",
+    "exportHighlight1": "Bersertifikat APEDA & SGS",
+    "exportHighlight2": "Sumber pertanian langsung",
     "exportHighlight3": "Rute laut & udara global",
-    "exportHighlight4": "Kemasan curah kustom",
+    "exportHighlight4": "Kemasan khusus massal",
     "exportCardBtn": "Lihat Layanan Ekspor",
     "therapyCardTitle": "Divisi Terapi",
-    "therapyCardDesc": "Laras biang energi Anda, bersihkan trauma siklus hidup yang mendalam, dan pulihkan kedamaian somatik mutlak. Konsultasi bunga Bach, penyelarasan cakra Reiki, dan terapi suara.",
+    "therapyCardDesc": "Sesuaikan biofield Anda, hilangkan trauma siklus hidup yang mendalam, dan pulihkan kedamaian somatik mutlak. Konsultasi mendalam yang memadukan esensi bunga, penyelarasan chakra Reiki, dan penyembuhan suara kuarsa polifonik.",
     "therapyHighlight1": "Terapi Bunga Bach",
-    "therapyHighlight2": "Penyelarasan Usui Reiki",
+    "therapyHighlight2": "Penyelarasan Reiki Usui",
     "therapyHighlight3": "Kesehatan Emosional",
-    "therapyHighlight4": "Terapi Suara 432Hz",
+    "therapyHighlight4": "Penyembuhan Suara 432Hz",
     "therapyCardBtn": "Lihat Layanan Terapi",
     "whyTitle": "Mengapa Memilih Dharaaveda",
-    "whySubtitle": "Standar tanpa kompromi dalam logistik dan kesehatan",
+    "whySubtitle": "Standar tanpa kompromi di bidang logistik dan kesehatan",
     "whyTrustTitle": "Kepercayaan Mutlak",
-    "whyTrustDesc": "Transparansi total, kepatuhan fitosanitasi penuh, dan protokol kerahasiaan bersertifikat.",
-    "whyQualityTitle": "Kualitas Vedik",
-    "whyQualityDesc": "Ketertelusuran langsung dari pertanian ke pelabuhan dan ramuan bio-frekuensi yang diformulasikan khusus.",
-    "whyExpertiseTitle": "Keahlian Terbukti",
-    "whyExpertiseDesc": "Warisan pertanian turun-temurun berpadu dengan praktisi energi bersertifikat.",
+    "whyTrustDesc": "Transparansi total, kepatuhan fitosanitasi menyeluruh, dan protokol kerahasiaan yang tersertifikasi.",
+    "whyQualityTitle": "Kualitas Weda",
+    "whyQualityDesc": "Ketertelusuran langsung dari peternakan ke pelabuhan dan solusi bio-frekuensi yang diformulasikan secara khusus.",
+    "whyExpertiseTitle": "Keahlian yang Terbukti",
+    "whyExpertiseDesc": "Generasi warisan pertanian dipadukan dengan praktisi energik bersertifikat.",
     "whyReachTitle": "Jangkauan Global",
-    "whyReachDesc": "Jalur kargo andal yang mengirimkan ke importir terkemuka di lebih dari 34 negara.",
+    "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
     "whyHolisticTitle": "Kesehatan Holistik",
-    "whyHolisticDesc": "Penyembuhan seluler yang mendalam di dalam tempat perlindungan gunung yang murni dan alami.",
-    "highlightsTitle": "Sorotan Utama",
-    "highlightsSubtitle": "Fokus utama dari operasi kami",
+    "whyHolisticDesc": "Penyembuhan sel yang mendalam di dalam cagar alam pegunungan yang murni dan alami.",
+    "highlightsTitle": "Sorotan Unggulan",
+    "highlightsSubtitle": "Area fokus utama operasi kami",
     "exportHighlightTitle": "Fokus Divisi Ekspor",
     "therapyHighlightTitle": "Fokus Divisi Terapi",
     "highlightsExport1": "Produk Pertanian",
     "highlightsExport1Desc": "Pisang Cavendish yang dipanen dengan tangan, mangga Alphonso, dan ekstrak tebu organik.",
     "highlightsExport2": "Rempah-rempah Elit",
-    "highlightsExport2Desc": "Kunyit Salem, kapulaga besar, cabai Guntur, dan lada hitam Malabar.",
+    "highlightsExport2Desc": "Kunyit salem, kapulaga tebal, cabai guntur, dan lada hitam malabar.",
     "highlightsExport3": "Produk Dehidrasi",
-    "highlightsExport3Desc": "Serpihan bawang bombai suhu rendah, tomat spray-dried, dan bubuk bit.",
+    "highlightsExport3Desc": "Serpihan bawang bombay bersuhu rendah, tomat kering semprot, dan bubuk bit.",
     "highlightsExport4": "Logistik Global",
-    "highlightsExport4Desc": "Penyegelan penghalang vakum kustom, sertifikasi SGS, dan dokumen pelabuhan kustom.",
+    "highlightsExport4Desc": "Penyegelan penghalang vakum khusus, sertifikasi SGS, dan pengarsipan port khusus.",
     "highlightsTherapy1": "Terapi Bunga Bach",
-    "highlightsTherapy1Desc": "Ramuan cair kustom yang dipilih untuk stres kognitif aktif dan pelepasan saraf.",
-    "highlightsTherapy2": "Penyelarasan Reiki",
-    "highlightsTherapy2Desc": "Penyeimbangan cakra biofield non-invasif dan pemulihan medan energi biologis.",
+    "highlightsTherapy1Desc": "Obat cair khusus dipilih untuk stres kognitif aktif dan pelepasan saraf.",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
+    "highlightsTherapy2Desc": "Penyeimbangan chakra biofield non-invasif dan pemulihan medan energi kromatik.",
     "highlightsTherapy3": "Kesehatan Emosional",
-    "highlightsTherapy3Desc": "Protokol pemulihan sistem saraf yang dirancang untuk melarutkan kelelahan gaya hidup.",
+    "highlightsTherapy3Desc": "Protokol pemulihan sistem saraf dirancang untuk menghilangkan kelelahan gaya hidup.",
     "highlightsTherapy4": "Penyembuhan Energi",
-    "highlightsTherapy4Desc": "Penyelarasan suara mangkuk kristal kuarsa 432Hz di dalam ruangan bebas elektromagnetik.",
+    "highlightsTherapy4Desc": "Attunement suara nyanyian kuarsa polifonik 432Hz di dalam ruang bebas elektromagnetik.",
     "statsTitle": "Jejak Operasional Kami",
-    "statsSubtitle": "Mengukur dampak global dan tingkat kesuksesan terapi kami",
+    "statsSubtitle": "Mengukur dampak global dan keberhasilan klinis kami",
     "statCountries": "Negara yang Dilayani",
     "statProducts": "Kategori Produk",
     "statSessions": "Sesi Terapi",
     "statSatisfaction": "Kepuasan Klien",
     "testimonialsTitle": "Suara Resonansi",
-    "testimonialsSubtitle": "Umpan balik dari mitra perdagangan dan pengunjung tempat perlindungan kami",
-    "ctaTitle": "Mulai Perjalanan Anda",
-    "ctaSubtitle": "Hubungi meja divisi khusus kami",
+    "testimonialsSubtitle": "Masukan dari mitra dagang dan pengunjung suaka kami",
+    "ctaTitle": "Mulailah Perjalanan Anda",
+    "ctaSubtitle": "Terhubung dengan meja divisi khusus kami",
     "ctaExportBoxTitle": "Mencari Solusi Ekspor?",
-    "ctaExportBoxDesc": "Hubungi meja Arbitrase Komoditas kami untuk kontrak kontainer curah, kemasan kustom, atau kepatuhan logistik.",
-    "ctaExportBoxBtn": "Bicara dengan Meja Ekspor",
+    "ctaExportBoxDesc": "Terhubung dengan meja Arbitrase Komoditas kami untuk kontrak kontainer curah, pengemasan khusus, atau kepatuhan logistik.",
+    "ctaExportBoxBtn": "Bicaralah dengan Meja Ekspor",
     "ctaTherapyBoxTitle": "Mencari Penyembuhan Holistik?",
-    "ctaTherapyBoxDesc": "Jadwalkan konsultasi pribadi atau pesan vila di tempat perlindungan gunung Wayanad kami.",
-    "ctaTherapyBoxBtn": "Pesan Sesi Sanctuary"
+    "ctaTherapyBoxDesc": "Jadwalkan konsultasi pribadi atau pesan penginapan vila di cagar alam gunung Wayanad kami untuk attunement biofield.",
+    "ctaTherapyBoxBtn": "Pesan Penerimaan Suaka"
   },
   "export": {
-    "division": "International Trade Division",
-    "heroTitle": "Elite Crop Logistical Logistics",
-    "heroDesc": "DharaAveda connects deep Indian botanical farms with premium global pharmacies, cosmetics houses, and food importers. Our systems guarantee trace-verified bulk shipping of authentic Himalayan shilajit, bold cardamom, vetiver base oils, and adaptogenic extracts under absolute phytosanitary compliance.",
-    "apedaAuth": "APEDA Authorized",
-    "sgsPurity": "SGS Purity Lab Tested",
-    "cargoTransit": "GLOBAL CARGO TRANSIT",
-    "cargoDesc": "Ocean & Air Freight Cargo Routing",
-    "secure": "SECURE",
-    "catalogue": "DYNAMIC CATALOGUE",
-    "selectGoods": "Select Agricultural Goods",
-    "searchPlaceholder": "Search categories or products...",
-    "noMatch": "No categories or products match your parameter.",
-    "adjustSearch": "Try adjusting the search query.",
-    "freightNetworks": "Global Freight Networks",
-    "operationsTitle": "Trade Operations Built on Integrity",
-    "sgsTitle": "Full SGS Verification",
-    "sgsDesc": "Every trace lot undergoes gas chromatography & analytical purity tests. Phitosanitary compliance guarantees hassle-free harbor custom routing.",
-    "isoTitle": "ISO Reciprocal Standard",
-    "isoDesc": "Operating under rigorous international hygiene guidelines. Vacuum-tight packing blocks cosmic UV light, keeping freshness intact during transit.",
-    "originTitle": "Wayanad Direct Origin",
-    "originDesc": "Our spice estate cuts out unnecessary trading middlemen, ensuring maximum fair-wage compensation to local Vedic smallholder farmers directly.",
-    "fastTrack": "FAST TRACK QUOTE",
-    "speakArbitrage": "Speak with our Commodity Arbitrage desk",
-    "arbitrageDesc": "Need specialized custom moisture content, high volume tons, or sea container shipping contracts? Connect directly for priority trade handling.",
-    "cargoTimelines": "Typical Cargo Timelines",
-    "sgsClearance": "SGS analysis clearance:",
-    "sgsDays": "4-5 Working Days",
-    "packagingPrep": "Custom packaging prep:",
-    "packagingDays": "5-7 Working Days",
-    "portOfLoad": "FOB port of load:",
-    "portName": "Nhava Sheva, Mumbai"
+    "division": "Divisi Perdagangan Internasional",
+    "heroTitle": "Logistik Logistik Tanaman Elit",
+    "heroDesc": "DharaAveda menghubungkan perkebunan botani di India dengan apotek global premium, rumah kosmetik, dan importir makanan. Sistem kami menjamin pengiriman massal shilajit Himalaya asli, kapulaga tebal, minyak dasar akar wangi, dan ekstrak adaptogenik yang terverifikasi penelusurannya berdasarkan kepatuhan fitosanitasi mutlak.",
+    "apedaAuth": "Resmi APEDA",
+    "sgsPurity": "Lab Kemurnian SGS Diuji",
+    "cargoTransit": "TRANSIT KARGO GLOBAL",
+    "cargoDesc": "Perutean Kargo Pengiriman Laut & Udara",
+    "secure": "AMAN",
+    "catalogue": "KATALOG DINAMIS",
+    "selectGoods": "Pilih Barang Pertanian",
+    "searchPlaceholder": "Cari kategori atau produk...",
+    "noMatch": "Tidak ada kategori atau produk yang cocok dengan parameter Anda.",
+    "adjustSearch": "Coba sesuaikan permintaan pencarian.",
+    "freightNetworks": "Jaringan Pengangkutan Global",
+    "operationsTitle": "Operasi Perdagangan Dibangun Berdasarkan Integritas",
+    "sgsTitle": "Verifikasi SGS Penuh",
+    "sgsDesc": "Setiap lot jejak menjalani kromatografi gas & uji kemurnian analitis. Kepatuhan terhadap fitosanitasi menjamin rute kustom pelabuhan tanpa kerumitan.",
+    "isoTitle": "Standar Timbal Balik ISO",
+    "isoDesc": "Beroperasi di bawah pedoman kebersihan internasional yang ketat. Pengemasan kedap vakum menghalangi sinar UV kosmik, menjaga kesegaran tetap utuh selama transit.",
+    "originTitle": "Wayanad Asal Langsung",
+    "originDesc": "Perkebunan rempah-rempah kami menghilangkan perantara perdagangan yang tidak diperlukan, sehingga memastikan kompensasi upah maksimum yang adil bagi petani kecil Weda lokal secara langsung.",
+    "fastTrack": "KUTIPAN JALUR CEPAT",
+    "speakArbitrage": "Bicaralah dengan meja Arbitrase Komoditas kami",
+    "arbitrageDesc": "Butuh konten khusus khusus kadar air, ton volume tinggi, atau kontrak pengiriman kontainer laut? Terhubung langsung untuk penanganan perdagangan prioritas.",
+    "cargoTimelines": "Garis Waktu Kargo Khas",
+    "sgsClearance": "Izin analisis SGS:",
+    "sgsDays": "4-5 Hari Kerja",
+    "packagingPrep": "Persiapan pengemasan khusus:",
+    "packagingDays": "5-7 Hari Kerja",
+    "portOfLoad": "Pelabuhan beban FOB:",
+    "portName": "Nhava Sheva, Mumbai",
+    "secureTransit": "TRANSIT AMAN",
+    "readyStatus": "100% SIAP",
+    "qualityHighlights": "Ikhtisar Kualitas Ekspor",
+    "keyBenefits": "Manfaat Utama",
+    "shippingPacking": "Pengiriman & Pengepakan Global",
+    "packageLabel": "Kemasan:",
+    "capabilityLabel": "Kemampuan:",
+    "showcaseCategories": {
+      "spices": {
+        "badge": "Divisi Bumbu & Bumbu",
+        "title": "Rempah-rempah Elit & Bumbu Asli",
+        "description": "Aromatik tingkat Veda, cabai pedas, dan bubuk kuliner kompleks digiling sesuai standar keamanan mikrobiologis mutlak. Pengadaan langsung dari pertanian menjamin kandungan minyak yang kuat dan profil rasa yang kuat.",
+        "highlights": [
+          "Pilihan Kunyit Emas Kurkumin (>5%)",
+          "Lada hitam Tellicherry yang diperiksa dengan piperin",
+          "Sudan Dye cabai Guntur negatif",
+          "Penggilingan higienis suhu rendah kriogenik"
+        ],
+        "benefits": [
+          "Retensi minyak atsiri yang mudah menguap tinggi",
+          "Aroma murni dan stabilitas rasa",
+          "100% organik, pemrosesan bebas aditif",
+          "Kepatuhan global yang aman terhadap aflatoksin"
+        ],
+        "packaging": "Tas Kraft multi-lapis 25kg dengan lapisan poli, opsi kemasan vakum.",
+        "capability": "Pengiriman kontainer LCL campuran terkonsolidasi atau hingga 20 Metrik Ton per FCL.",
+        "shippingInfo": "FOB Nhava Sheva (Mumbai) atau Pelabuhan Mundra. Rute prioritas kargo udara.",
+        "features": [
+          {
+            "title": "Emas Kurkumin",
+            "desc": "Bubuk Kunyit Emas yang mengandung kadar kurkumin aktif melebihi 5% untuk keperluan makanan dan klinis."
+          },
+          {
+            "title": "Lada Malabar",
+            "desc": "Buah lada hitam ekstra tebal dihargai karena panasnya piperin dan aroma hutan yang kompleks."
+          },
+          {
+            "title": "Cabai Giling Cryo",
+            "desc": "Bubuk cabai Guntur Sannam digiling di bawah kendali kriogenik untuk mencegah hilangnya minyak akibat panas."
+          },
+          {
+            "title": "ketumbar jeruk",
+            "desc": "Biji Malwa premium digiling hingga menjadi jaring halus, mengemas fraksi volatil hangat seperti jeruk."
+          }
+        ]
+      },
+      "veg_powders": {
+        "badge": "Meja Bubuk Sayur",
+        "title": "Bubuk Sayuran Dehidrasi Murni",
+        "description": "Sayuran pertanian mengalami dehidrasi pada suhu rendah yang dikontrol secara ketat untuk melindungi nutrisi bioaktif, profil warna, dan kedalaman rasa. Ideal untuk makanan siap saji, mixer, dan formulasi farmasi.",
+        "highlights": [
+          "100% padatan nabati asli, tanpa bahan tambahan apa pun",
+          "Pengeringan suhu rendah yang menyimpan sel",
+          "Kelarutan dan dispersi kering yang sangat baik",
+          "Kualitas alami yang mengalir bebas dan tidak menggumpal"
+        ],
+        "benefits": [
+          "Rasio pemulihan air instan",
+          "Konsentrasi rasa organik yang intens",
+          "Mempertahankan vitamin dan serat alami",
+          "Retensi pigmen visual murni"
+        ],
+        "packaging": "Drum fiber dengan kantong bagian dalam polietilen ganda (20 kg / 25 kg).",
+        "capability": "12-15 Metrik Ton per FCL. Formulasi campuran bumbu/sayuran khusus.",
+        "shippingInfo": "Transit laut melalui peti kemas berpendingin yang suhunya dikontrol ke pelabuhan global.",
+        "features": [
+          {
+            "title": "Tomat Semprot-Kering",
+            "desc": "Bubuk bubur tomat merah larut yang kaya akan likopen, memberikan rasa umami yang gurih secara instan."
+          },
+          {
+            "title": "Bit Betalain",
+            "desc": "Bubuk bit yang digiling halus memberikan warna merah tua alami dan kekayaan nitrat."
+          },
+          {
+            "title": "Klorofil Bayam",
+            "desc": "Bubuk bayam larut berwarna hijau terang mengunci zat besi dan klorofil dalam makanan."
+          },
+          {
+            "title": "Bawang Putih Allicin",
+            "desc": "Bubuk bawang putih pedas yang digiling dari siung pilihan, memberikan rasa dan penyebaran yang cepat."
+          }
+        ]
+      },
+      "fruit_powders": {
+        "badge": "Meja Bubuk Buah",
+        "title": "Bubuk & Pelarut Buah Orchard",
+        "description": "Bubuk buah kering semprot premium dan dehidrasi suhu rendah yang menangkap rasa manis sejati, gula organik, dan vitamin dari buah-buahan kebun yang matang di bawah sinar matahari. Sangat populer dalam minuman, kembang gula, dan makanan bayi.",
+        "highlights": [
+          "Semprot-kering langsung dari pulp organik",
+          "Tidak ada tambahan gula, sulfit atau pewarna",
+          "Sangat larut dalam cairan panas dan dingin",
+          "Pilihan makanan super padat nutrisi"
+        ],
+        "benefits": [
+          "Aroma buah murni dan bau manis",
+          "Vitamin C tinggi dan retensi bioaktif",
+          "Pencampuran sempurna untuk produk susu dan kue",
+          "Bahan-bahan yang memenuhi label bersih"
+        ],
+        "packaging": "Kantong tertutup vakum aluminium foil di dalam kotak utama bergelombang.",
+        "capability": "8-10 Metrik Ton per FCL. Dukungan pengemasan label pribadi.",
+        "shippingInfo": "Kargo udara ekspres atau transportasi kontainer laut dengan pemantauan suhu.",
+        "features": [
+          {
+            "title": "Pisang Cavendish",
+            "desc": "Bubuk pisang hijau dan matang kaya akan pati resisten, cocok untuk campuran bebas gluten."
+          },
+          {
+            "title": "Mangga Kesar",
+            "desc": "Padatan buah emas menangkap aroma manis mangga India yang dipanen dengan tangan."
+          },
+          {
+            "title": "Amla Askorbat",
+            "desc": "Bubuk gooseberry yang bersumber secara organik mengandung Vitamin C alami yang sangat terkonsentrasi."
+          },
+          {
+            "title": "Delima Antioksidan",
+            "desc": "Bubuk jus delima yang dikeringkan dengan semprotan menghasilkan polifenol yang kaya dan warna merah muda yang visual."
+          }
+        ]
+      },
+      "moringa": {
+        "badge": "Meja Makanan Super Kelor",
+        "title": "Produk Kelor Organik Premium",
+        "description": "Daun, bubuk, teh, dan ekstrak Kelor Moringa oleifera yang dibudidayakan secara organik bersumber dari perkebunan India dengan hasil tinggi dan bebas pestisida. Diproses di bawah protokol pengeringan bayangan untuk melindungi asam amino esensial.",
+        "highlights": [
+          "USDA & APEDA Tanaman bersertifikat organik",
+          "Perawatan daun kering bayangan yang ketat",
+          "Terstandar fitokimia dan flavonoid",
+          "Bahan daun bersih 99,9%, tanpa pasir"
+        ],
+        "benefits": [
+          "Protein nabati lengkap dengan 9 asam amino",
+          "Jumlah zat besi, kalsium, dan vitamin yang ekstrim",
+          "Umur simpan yang sangat stabil dalam segel vakum",
+          "Ideal untuk suplemen dan kosmetik"
+        ],
+        "packaging": "Kantong penghalang vakum dengan sisipan gel silika, dikemas dalam kotak yang diperkuat.",
+        "capability": "5-8 Metrik Ton per batch. Potongan daun dan paket grosir yang dapat disesuaikan.",
+        "shippingInfo": "Kontainer kering tertutup, pengiriman angkutan udara prioritas ke distributor kesehatan global.",
+        "features": [
+          {
+            "title": "Bubuk Daun Organik",
+            "desc": "Bubuk daun kelor yang digiling halus dengan warna zamrud yang dalam dan rasa berumput."
+          },
+          {
+            "title": "Bersihkan Daun Sembuh",
+            "desc": "Daun utuh yang dikeringkan di bawah naungan disortir secara mekanis untuk menghilangkan ranting, batang, dan debu."
+          },
+          {
+            "title": "Teh Herbal Kelor",
+            "desc": "Daun yang dipotong secara seragam dioptimalkan untuk kantong teh, menawarkan infus herbal kesehatan yang segar."
+          },
+          {
+            "title": "Ekstrak Standar",
+            "desc": "Ekstrak daun kelor pekat distandarisasi untuk total bioflavonoid untuk formulasi klinis."
+          }
+        ]
+      },
+      "seeds": {
+        "badge": "Meja Benih Minyak",
+        "title": "Minyak Sortir Premium & Benih Makanan",
+        "description": "Minyak organik dan benih nutrisi elit berkualitas ekspor, dibersihkan, disortir, dan dikemas secara sistematis di bawah pengawasan fitosanitasi mutlak. Hasil minyak yang tinggi dan kemurnian Sortex yang bersih menjadikannya ideal untuk pengolahan makanan dan industri.",
+        "highlights": [
+          "99,9% warna optik Sortex terurut",
+          "Audit fumigasi dan pembersihan yang ketat",
+          "Pestisida bersertifikat dan bebas residu",
+          "Kandungan asam lemak tak jenuh ganda yang tinggi"
+        ],
+        "benefits": [
+          "Rasio ekstraksi minyak alami yang tinggi",
+          "Benih yang sangat bersih tanpa kotoran",
+          "Dimensi benih dan profil warna seragam",
+          "Dikemas untuk memblokir kelembapan atmosfer"
+        ],
+        "packaging": "Karung anyaman polipropilen atau kantong kertas multi lapis (25 kg / 50 kg).",
+        "capability": "18-22 Metrik Ton per kontainer (FCL). Spesifikasi kelembaban khusus.",
+        "shippingInfo": "Kapal laut langsung, rute kargo curah ke toko roti komersial dan distributor.",
+        "features": [
+          {
+            "title": "wijen yang dikupas",
+            "desc": "Biji wijen putih yang dibersihkan secara otomatis menghasilkan hasil minyak yang tinggi dan rasa kacang yang manis."
+          },
+          {
+            "title": "Rami Emas",
+            "desc": "Biji rami premium kaya akan serat makanan dan asam lemak Omega-3 esensial."
+          },
+          {
+            "title": "Chia Pembentuk Gel",
+            "desc": "Biji chia hitam organik dengan indeks pembengkakan dan kualitas lendir yang sangat baik."
+          },
+          {
+            "title": "Labu Hijau",
+            "desc": "Biji labu yang dikupas bersih disortir untuk mendapatkan warna hijau cerah yang seragam dan renyah."
+          }
+        ]
+      },
+      "dehydrated_veg": {
+        "badge": "Meja Sayuran Dehidrasi",
+        "title": "Sayuran Dehidrasi Higienis",
+        "description": "Bawang bombay, bawang putih, jahe, dan sayuran lainnya yang diiris bersih mengalami dehidrasi di bawah ruang aliran udara canggih. Bersumber langsung dari sabuk pertanian yang sesuai dengan fitonutrien untuk kinerja rehidrasi dan rasa yang sangat baik.",
+        "highlights": [
+          "Tidak ada sulfit, belerang atau bahan pengawet yang digunakan",
+          "Kadar air sisa yang rendah (<5%)",
+          "Rehidrasi murni dan pemulihan tekstur",
+          "Kargo ekspor bersertifikat fitosanitasi"
+        ],
+        "benefits": [
+          "Mengurangi waktu persiapan kuliner secara drastis",
+          "Menghemat berat transit dan ruang penyimpanan",
+          "Mempertahankan warna alami dan daya tarik visual",
+          "Kekuatan rasa yang konsisten dalam campuran makanan"
+        ],
+        "packaging": "Karton induk berlapis HDPE dengan sisipan poli bersegel panas ganda.",
+        "capability": "10-12 Metrik Ton per FCL. Pengirisan dan pemotongan yang dapat disesuaikan.",
+        "shippingInfo": "Kontainer kering standar atau rute reefer ke dapur bumbu industri.",
+        "features": [
+          {
+            "title": "Irisan Bawang",
+            "desc": "Irisan bawang merah dan putih dehidrasi dengan rasa pedas yang kuat dan rekonstitusi yang tinggi."
+          },
+          {
+            "title": "Siung Bawang Putih",
+            "desc": "Siung bawang putih kering yang dibelah, dikupas dengan cermat dan disortir Sortex untuk menghilangkan jelaga."
+          },
+          {
+            "title": "Irisan Jahe",
+            "desc": "Irisan jahe kering yang bersih memiliki rasa panas yang menyengat dan kandungan gingerol aktif yang tinggi."
+          },
+          {
+            "title": "Tomat Anggur",
+            "desc": "Irisan tomat organik kering kaya akan likopen alami, dikeringkan tanpa sulfit kimia."
+          }
+        ]
+      },
+      "dehydrated_fruits": {
+        "badge": "Meja Buah Dehidrasi",
+        "title": "Buah Dehidrasi yang Terlindung dari Sinar Matahari",
+        "description": "Irisan premium dan buah-buahan kering yang dipotong panjang dibuat dari kebun organik yang dipanen dengan tangan. Mempertahankan gula fruktosa alami, tekstur kenyal, dan vitamin penting tanpa bahan pengawet kimia.",
+        "highlights": [
+          "Tidak ada tambahan gula tebu atau pemanis",
+          "Bebas sulfit, tanpa pewarna kimia",
+          "Bentuk irisan yang fleksibel dan kelembapan khusus",
+          "Kebun bersertifikat bebas pestisida"
+        ],
+        "benefits": [
+          "Rasa manis alami dan rasa kenyal di mulut",
+          "Stabilitas rak yang sangat baik dalam penyimpanan kering",
+          "Ideal untuk ngemil dan makanan yang dipanggang",
+          "Residu rendah dan pemrosesan label bersih"
+        ],
+        "packaging": "Kantong laminasi BOPP dengan peredam oksigen bagian dalam dan paket induk karton.",
+        "capability": "6-8 Metrik Ton per FCL. Tersedia ukuran potongan yang disesuaikan.",
+        "shippingInfo": "Kontainer kering dengan kelembapan rendah dan angkutan udara dengan suhu stabil.",
+        "features": [
+          {
+            "title": "Irisan Aprikot",
+            "desc": "Irisan aprikot yang lembut dan manis alami diawetkan dengan rasa buah pekat dan warna cerah."
+          },
+          {
+            "title": "Potongan Gambar",
+            "desc": "Potongan buah ara kenyal yang dijemur dengan serat larut tinggi dan rasa manis karamel."
+          },
+          {
+            "title": "Potongan Mangga",
+            "desc": "Potongan mangga kering yang dipotong panjang mengunci aroma tropis dan warna emas cerah."
+          },
+          {
+            "title": "Keripik Pepaya",
+            "desc": "Irisan pepaya dehidrasi dihargai karena tekstur premium dan kekayaan mikronutriennya."
+          }
+        ]
+      }
+    }
   },
   "booking": {
-    "clinic": "HARMONIZATION CLINICS",
-    "sanctuary": "Vibrational Sanctuary",
-    "desc": "All consultations are conducted in complete secrecy. Our therapists custom formulate remedies to match active stress fields, facilitating physical release and recovery.",
-    "confidential": "Confidential Intake",
-    "confidentialDesc": "Your biofields mapping, thermal diagnostics, and case histories remain sealed.",
-    "private": "Private Residences",
-    "privateDesc": "Chambers are isolated inside our deep Wayanad forest gardens in Kerala, India.",
-    "aligning": "Aligning Aura Diagnostics...",
-    "scheduler": "Harmonic Residency Scheduler",
-    "title": "Schedule Your Therapy",
-    "formDesc": "Reserve custom-blended Bach flower, Reiki alignment, or deep quartz therapeutic sound healing.",
-    "successTitle": "Residency Reservation Initiated",
-    "successDesc": "Thank you, {name}. Your appointment request for {service} has been logged in our secure sanctuary ledger.",
-    "slipTitle": "Requested Session Slip",
-    "date": "Date",
-    "hour": "Hour",
-    "note": "Our clinic coordinator will call or email you to finalize the bio-resonance intake files.",
-    "anotherBtn": "Book Another Session",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Contact Email Address *",
-    "labelPhone": "Direct Phone *",
-    "labelService": "Therapeutic Attunement Service *",
-    "labelDate": "Intake Residency Date *",
-    "labelTime": "Preferred Arrival Time *",
-    "labelNotes": "Energetic Symptoms, Stress Triggers or Food Preferences",
-    "placeholderName": "e.g. Heinrich Müller",
+    "clinic": "KLINIK HARMONISASI",
+    "sanctuary": "Suaka Getaran",
+    "desc": "Semua konsultasi dilakukan dengan sangat rahasia. Terapis kami secara khusus merumuskan pengobatan yang sesuai dengan medan stres aktif, memfasilitasi pelepasan dan pemulihan fisik.",
+    "confidential": "Penerimaan Rahasia",
+    "confidentialDesc": "Pemetaan biofield, diagnostik termal, dan riwayat kasus Anda tetap tersegel.",
+    "private": "Tempat Tinggal Pribadi",
+    "privateDesc": "Kamar-kamar diisolasi di dalam taman hutan Wayanad kami yang dalam di Kerala, India.",
+    "aligning": "Menyelaraskan Diagnostik Aura...",
+    "scheduler": "Penjadwal Residensi Harmonis",
+    "title": "Jadwalkan Terapi Anda",
+    "formDesc": "Cadangan bunga Bach campuran khusus, penyelarasan Reiki, atau penyembuhan suara terapi kuarsa dalam.",
+    "successTitle": "Reservasi Tempat Tinggal Dimulai",
+    "successDesc": "Terima kasih, {nama}. Permintaan janji temu Anda untuk {service} telah dicatat dalam buku besar perlindungan kami yang aman.",
+    "slipTitle": "Slip Sesi yang Diminta",
+    "date": "Tanggal",
+    "hour": "Jam",
+    "note": "Koordinator klinik kami akan menelepon atau mengirim email kepada Anda untuk menyelesaikan file asupan bio-resonansi.",
+    "anotherBtn": "Pesan Sesi Lain",
+    "labelName": "Nama Lengkap Anda *",
+    "labelEmail": "Alamat Email Kontak *",
+    "labelPhone": "Telepon Langsung *",
+    "labelService": "Layanan Attunement Terapi *",
+    "labelDate": "Tanggal Penerimaan Residensi *",
+    "labelTime": "Waktu Kedatangan Pilihan *",
+    "labelNotes": "Gejala Energik, Pemicu Stres, atau Preferensi Makanan",
+    "placeholderName": "misalnya Heinrich Muller",
     "placeholderEmail": "e.g. sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderNotes": "Mention any physical pain, life blockages, emotional distress patterns, or if you prefer a female/male practitioner...",
-    "errorFields": "Please fill in all required fields marked with *.",
-    "submitting": "Submitting Ledger Reservation...",
-    "submit": "Attune Booking Ledgers",
-    "loadingModalities": "Loading Sacred Modalities...",
-    "pickSlot": "Pick Slot...",
-    "slot1": "08:00 AM - Sunrise Dew Intake",
-    "slot2": "11:00 AM - Solar Zenith Sync",
-    "slot3": "02:30 PM - Afternoon Starlight",
-    "slot4": "05:30 PM - Wayanad Sunset Calm"
+    "placeholderNotes": "Sebutkan rasa sakit fisik, hambatan hidup, pola tekanan emosional, atau jika Anda lebih memilih praktisi wanita/pria...",
+    "errorFields": "Silakan isi semua kolom wajib yang ditandai dengan *.",
+    "submitting": "Mengirimkan Reservasi Buku Besar...",
+    "submit": "Sesuaikan Buku Besar Pemesanan",
+    "loadingModalities": "Memuat Modalitas Suci...",
+    "pickSlot": "Pilih Slot...",
+    "slot1": "08:00 - Pengambilan Embun Matahari Terbit",
+    "slot2": "11:00 - Sinkronisasi Zenith Surya",
+    "slot3": "14.30 - Cahaya Bintang Sore",
+    "slot4": "17:30 - Matahari Terbenam Wayanad Tenang"
   },
   "contact": {
-    "accessLines": "DIRECT ACCESS LINES",
-    "council": "Contact the DharaAveda Council",
-    "desc": "Whether arranging shipping vessels for bulk spice operations or planning custom clinical healing admissions, our representatives provide elite corporate care.",
-    "exportDesk": "EXPORT LOGISTICS DESK",
-    "cargoAffairs": "Commodity & Sea Cargo Affairs",
-    "sanctuaryAdmissions": "SANCTUARY VILLA ADMISSIONS",
-    "healingReserves": "Holistic Healing Reserves",
-    "responseRate": "Average response rate of commodity contract brokers is 24 business hours.",
-    "transmissionSealed": "Transmission Sealed",
-    "transmissionDesc": "Your message, {name}, has been processed. A council coordinate advisor from the appropriate division will contact you shortly.",
-    "sendAnother": "Send Another Message",
-    "labelName": "Your Full Name *",
-    "labelEmail": "Email Address *",
-    "labelPhone": "Direct Contact Phone",
-    "labelMessage": "Your Inquiries / Requirements *",
-    "placeholderName": "e.g. Heinrich Müller",
+    "accessLines": "GARIS AKSES LANGSUNG",
+    "council": "Hubungi Dewan DharaAveda",
+    "desc": "Baik mengatur kapal pengiriman untuk operasi rempah-rempah dalam jumlah besar atau merencanakan penerimaan penyembuhan klinis khusus, perwakilan kami menyediakan layanan korporat elit.",
+    "exportDesk": "MEJA LOGISTIK EKSPOR",
+    "cargoAffairs": "Urusan Komoditas & Kargo Laut",
+    "sanctuaryAdmissions": "PENDAFTARAN VILLA SUAM",
+    "healingReserves": "Cadangan Penyembuhan Holistik",
+    "responseRate": "Tingkat respons rata-rata broker kontrak komoditas adalah 24 jam kerja.",
+    "transmissionSealed": "Transmisi Disegel",
+    "transmissionDesc": "Pesan Anda, {name}, telah diproses. Penasihat koordinator dewan dari divisi terkait akan segera menghubungi Anda.",
+    "sendAnother": "Kirim Pesan Lain",
+    "labelName": "Nama Lengkap Anda *",
+    "labelEmail": "Alamat Surel *",
+    "labelPhone": "Telepon Kontak Langsung",
+    "labelMessage": "Pertanyaan / Persyaratan Anda *",
+    "placeholderName": "misalnya Heinrich Muller",
     "placeholderEmail": "sales@dharaaveda.com",
     "placeholderPhone": "+91 9175462485",
-    "placeholderMessage": "Describe your bulk spices cargo requirements, clinical therapy intents, or secure scheduling queries...",
-    "submit": "Transmit Dispatch",
-    "transmitting": "Transmitting Dispatch...",
-    "errorFields": "Please fill out all mandatory fields."
+    "placeholderMessage": "Jelaskan kebutuhan kargo rempah curah Anda, tujuan terapi klinis, atau pertanyaan penjadwalan yang aman...",
+    "submit": "Mengirimkan Pengiriman",
+    "transmitting": "Mengirimkan Pengiriman...",
+    "errorFields": "Silakan isi semua bidang wajib.",
+    "addressLine1": "B 501 Springwood, Dekat Pompa Bensin HP, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood, Dekat Pompa Bensin HP, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
-    "extendedCatalogue": "EXTENDED CATALOGUE",
-    "premiumItems": "Premium Items",
-    "viewProducts": "View Products",
-    "titleCatalogue": "Catalogue",
-    "availableCargo": "Available Cargo Lots",
-    "minOrder": "Min Order",
-    "pricingModel": "Pricing Model",
-    "sendInquiry": "Send Inquiry / Quote",
-    "close": "Close",
-    "apedaCompliant": "APEDA Compliant Export Cargo Standard",
-    "inquiryRequestQuote": "Request Quotation",
-    "inquiryDirectAccess": "Direct access to our Agricultural Export Desk for",
-    "inquirySuccessTitle": "Quotation Request Logged",
-    "inquirySuccessDesc": "Your trade desk ticket has been initialized. A dedicated cargo specialist will review your cargo specifications within 24 standard business hours.",
-    "inquiryCloseWindow": "Close Window",
-    "inquiryLabelName": "Full Name *",
-    "inquiryLabelEmail": "Corporate Email *",
-    "inquiryLabelCompany": "Company / Organization",
-    "inquiryLabelQuantity": "Target Quantity (e.g. Tons) *",
-    "inquiryPlaceholderName": "e.g. Elena Rostova",
+    "extendedCatalogue": "KATALOG YANG DIPERPANJANG",
+    "premiumItems": "Barang Premium",
+    "viewProducts": "Lihat Produk",
+    "titleCatalogue": "Katalog",
+    "availableCargo": "Banyak Kargo yang Tersedia",
+    "minOrder": "Pesanan Minimal",
+    "pricingModel": "Model Penetapan Harga",
+    "sendInquiry": "Kirim Pertanyaan / Penawaran",
+    "close": "Menutup",
+    "apedaCompliant": "Standar Kargo Ekspor Sesuai APEDA",
+    "inquiryRequestQuote": "Minta Penawaran",
+    "inquiryDirectAccess": "Akses langsung ke Meja Ekspor Pertanian kami untuk",
+    "inquirySuccessTitle": "Permintaan Penawaran Dicatat",
+    "inquirySuccessDesc": "Tiket meja perdagangan Anda telah diinisialisasi. Spesialis kargo khusus akan meninjau spesifikasi kargo Anda dalam waktu 24 jam kerja standar.",
+    "inquiryCloseWindow": "Tutup Jendela",
+    "inquiryLabelName": "Nama Lengkap *",
+    "inquiryLabelEmail": "Email Perusahaan *",
+    "inquiryLabelCompany": "Perusahaan / Organisasi",
+    "inquiryLabelQuantity": "Kuantitas Target (misalnya Ton) *",
+    "inquiryPlaceholderName": "misalnya Elena Rostova",
     "inquiryPlaceholderEmail": "sales@dharaaveda.com",
-    "inquiryPlaceholderCompany": "e.g. Hanseatic Spices GmbH",
-    "inquiryPlaceholderQuantity": "e.g. 5 Metric Tons",
-    "inquiryPlaceholderMessage": "Mention specific vacuum-seal requests, harbor ports of choice (e.g. Rotterdam, Hamburg), and phytosanitary certificate needs...",
-    "inquiryLoggingSpecs": "Logging Cargo Specs...",
-    "inquirySubmit": "Transmit Inquiry",
-    "inquiryErrorFields": "Please fill out all mandatory fields."
+    "inquiryPlaceholderCompany": "misalnya Rempah-rempah Hanseatic GmbH",
+    "inquiryPlaceholderQuantity": "misalnya 5 Metrik Ton",
+    "inquiryPlaceholderMessage": "Sebutkan permintaan segel vakum tertentu, pelabuhan pilihan (misalnya Rotterdam, Hamburg), dan kebutuhan sertifikat fitosanitasi...",
+    "inquiryLoggingSpecs": "Spesifikasi Kargo Pencatatan...",
+    "inquirySubmit": "Kirimkan Pertanyaan",
+    "inquiryErrorFields": "Silakan isi semua bidang wajib."
   },
   "wellness": {
-    "floatingCTAText": "Attune Session",
-    "heroBadge": "Restorative Quantum Sanctuary",
-    "heroTitle": "Calming Quantum Harmony",
-    "heroDesc": "True longevity begins where structural stress dissolves. DharaAveda Sanctuary blends classical Edward Bach wildflower remedies, Usui Reiki chakra alignment, Aura-Soma chromo-essential oils, and immersive 432Hz quartz singing sound waves. Align your auric frequency, cleanse deep lifecycle trauma, and restore absolute biological peace.",
-    "heroExploreBtn": "Explore Sanctuary Modalities",
-    "modalitiesBadge": "ANCIENT KNOWLEDGE RESTORED",
-    "modalitiesTitle": "Our Therapeutic Modalities",
-    "modalitiesDesc": "Each clinical residency session is customized on intake, blending specialized frequencies for physical and emotional release.",
-    "modalityNoServices": "Attuning vibrational healing schedules...",
-    "modalityTimelineTitle": "Chronological Session Pathway",
-    "modalityRequestBtn": "Request Residency",
-    "testimonialsBadge": "HARMONIC VOWS",
-    "testimonialsTitle": "Voices of Attuned Relief",
-    "testimonialsNoData": "Testimonials loaded upon client non-disclosure release files.",
-    "reviewsBadge": "AUTHENTIC ECHOES",
-    "reviewsTitle": "Social Media Directives",
-    "reviewsDesc": "Direct snapshots of digital conversations and public feedback from clients experiencing our energetic attunements.",
-    "reviewsEmpty": "No social screenshot reviews uploaded yet.",
-    "reviewsExpand": "Expand Image",
-    "badgeWhatsapp": "WhatsApp Review",
-    "badgeInstagram": "Instagram Review",
-    "aboutBadge": "FOUNDER & MASTER PRACTITIONER",
-    "aboutPhilosophyTitle": "Our Resonance Philosophy",
-    "faqBadge": "SACRED KNOWLEDGE FAQ",
-    "faqTitle": "Attunement Inquiries",
-    "faqDesc": "Answers to recurring contemplations regarding our energy and adaptogenic therapeutic residency programs.",
+    "floatingCTAText": "Sesi Penyelarasan",
+    "heroBadge": "Suaka Kuantum Restoratif",
+    "heroTitle": "Harmoni Kuantum yang Menenangkan",
+    "heroDesc": "Umur panjang yang sebenarnya dimulai ketika tekanan struktural hilang. DharaAveda Sanctuary memadukan pengobatan bunga liar klasik Edward Bach, penyelarasan chakra Usui Reiki, minyak esensial chromo Aura-Soma, dan gelombang suara nyanyian kuarsa 432Hz yang imersif. Sejajarkan frekuensi aura Anda, bersihkan trauma siklus hidup yang mendalam, dan pulihkan kedamaian biologis yang mutlak.",
+    "heroExploreBtn": "Jelajahi Modalitas Suaka",
+    "modalitiesBadge": "PENGETAHUAN KUNO DIPULIHKAN",
+    "modalitiesTitle": "Modalitas Terapi Kami",
+    "modalitiesDesc": "Setiap sesi residensi klinis disesuaikan dengan asupannya, memadukan frekuensi khusus untuk pelepasan fisik dan emosional.",
+    "modalityNoServices": "Menyesuaikan jadwal penyembuhan getaran...",
+    "modalityTimelineTitle": "Jalur Sesi Kronologis",
+    "modalityRequestBtn": "Minta Tempat Tinggal",
+    "testimonialsBadge": "Sumpah HARMONIS",
+    "testimonialsTitle": "Suara Kelegaan yang Selaras",
+    "testimonialsNoData": "Testimonial dimuat pada file rilis kerahasiaan klien.",
+    "reviewsBadge": "GEMA ASLI",
+    "reviewsTitle": "Arahan Media Sosial",
+    "reviewsDesc": "Cuplikan langsung percakapan digital dan masukan publik dari klien yang mengalami attunement energik kami.",
+    "reviewsEmpty": "Belum ada ulasan tangkapan layar sosial yang diunggah.",
+    "reviewsExpand": "Perluas Gambar",
+    "badgeWhatsapp": "Ulasan WhatsApp",
+    "badgeInstagram": "Ulasan Instagram",
+    "aboutBadge": "PENDIRI & PRAKTISI UTAMA",
+    "aboutPhilosophyTitle": "Filosofi Resonansi Kami",
+    "faqBadge": "FAQ PENGETAHUAN KUDUS",
+    "faqTitle": "Pertanyaan Attunement",
+    "faqDesc": "Jawaban atas perenungan berulang mengenai energi dan program residensi terapeutik adaptogenik kami.",
     "faqItems": [
       {
-        "question": "How do I choose between Reiki, Bach Flower, and Sound alignment?",
-        "answer": "We recommend sharing your immediate emotional or physical challenges during our initial booking consultation. Dr. Vikranti and team will scan your energetic biofield to weave custom modalities tailored to your resonant frequency."
+        "question": "Bagaimana cara memilih antara Terapi Rekkhanoho dan Bunga Bach?",
+        "answer": "Kami merekomendasikan untuk menceritakan tantangan emosional atau fisik yang Anda hadapi selama konsultasi pemesanan awal kami. Vikranti dan tim akan memindai biofield energik Anda untuk menyusun modalitas khusus yang disesuaikan dengan frekuensi resonansi Anda."
       },
       {
-        "question": "Are these therapy cycles held in-person or online?",
-        "answer": "While Usui Reiki and Sound Attunement are highly immersive in our pure Wayanad Villa retreat, Bach Flower emotional consultations and selective energy biofield support can be performed online with equal spiritual potency."
+        "question": "Apakah siklus terapi ini dilakukan secara tatap muka atau online?",
+        "answer": "Meskipun Terapi Rekkhanoho dan Penyelarasan Suara sangat mendalam dalam retret murni Wayanad Villa kami, konsultasi emosional Bach Flower dan dukungan biofield energi selektif dapat dilakukan secara online dengan potensi spiritual yang setara."
       },
       {
-        "question": "Can these therapies be integrated with modern conventional treatments?",
-        "answer": "Absolutely. Our methods operate on the subtle energy bodies (pranamaya kosha) and emotional fields, complementing conventional clinical medicine by unlocking cellular stress and facilitating accelerated somatic self-healing loops."
+        "question": "Bisakah terapi ini diintegrasikan dengan pengobatan konvensional modern?",
+        "answer": "Sangat. Metode kami beroperasi pada tubuh energi halus (pranamaya kosha) dan medan emosional, melengkapi pengobatan klinis konvensional dengan membuka kunci stres seluler dan memfasilitasi percepatan penyembuhan diri somatik."
       }
     ],
-    "locationBadge": "WAYANAD MOUNTAIN CLIME",
-    "locationTitle": "The Wayanad Villa Retreat",
-    "locationDesc": "Our main clinical chambers lie in the misty highlands of Wayanad, Kerala. The clinical estate features high negative ion levels, natural running mountain spring water, and absolute absence of electromagnetic radiation noise to ensure deep biofield recovery.",
-    "locationBanner": "Wayanad, Kerala Sanctuary",
-    "writeReview": "Write a Review",
-    "ratingTitle": "Attuned Satisfaction Rating",
-    "ratingSub": "Based on verified spiritual resonance testimonials.",
-    "visitorEcho": "Visitor Sanctuary Echo",
-    "shareReview": "Share Your Sanctuary Review",
-    "feedbackGuideline": "Your sacred feedback directs our communal path and is approved by our master alchemist.",
-    "labelResonanceRating": "Quantum Resonance Rating*",
-    "labelSilhouette": "Select Silhouette Portrait (Optional)",
-    "placeholderReview": "Describe your feelings, emotional balance or physical relief...",
-    "btnSubmitReview": "Submit Review",
-    "btnDiscard": "Discard",
-    "reviewSuccessTitle": "Echo Received!",
-    "reviewSuccessDesc": "Thank you for sharing your attuned experience. Your review has been saved in the registry and will appear live once reviewed and approved by our Sanctuary Moderator.",
-    "btnPerfect": "Perfect",
-    "reviewTransmitting": "Transmitting...",
-    "reviewNameLabel": "Full Name*",
-    "reviewCityLabel": "City / Country (Optional)",
-    "reviewAvatarLabel": "Or input custom photo URL...",
-    "reviewTitleDefault": "Wellness Visitor",
-    "reviewErrorName": "Full Name is required",
-    "reviewErrorContent": "Review Message is required",
-    "reviewErrorRating": "Rating must be between 1 and 5 stars",
-    "reviewsModality": "MODALITY RESIDENCE"
+    "locationBadge": "IKLIM GUNUNG WAYANAD",
+    "locationTitle": "Retret Vila Wayanad",
+    "locationDesc": "Ruang klinis utama kami terletak di dataran tinggi berkabut di Wayanad, Kerala. Kawasan klinis ini memiliki tingkat ion negatif yang tinggi, mata air pegunungan yang mengalir secara alami, dan tidak adanya kebisingan radiasi elektromagnetik untuk memastikan pemulihan biofield yang mendalam.",
+    "locationBanner": "Wayanad, Suaka Kerala",
+    "writeReview": "Tulis Ulasan",
+    "ratingTitle": "Peringkat Kepuasan yang Diselaraskan",
+    "ratingSub": "Berdasarkan kesaksian resonansi spiritual yang terverifikasi.",
+    "visitorEcho": "Gema Suaka Pengunjung",
+    "shareReview": "Bagikan Ulasan Suaka Anda",
+    "feedbackGuideline": "Umpan balik suci Anda mengarahkan jalur komunal kami dan disetujui oleh ahli alkimia kami.",
+    "labelResonanceRating": "Peringkat Resonansi Kuantum*",
+    "labelSilhouette": "Pilih Potret Siluet (Opsional)",
+    "placeholderReview": "Jelaskan perasaan Anda, keseimbangan emosional atau kelegaan fisik...",
+    "btnSubmitReview": "Kirim Ulasan",
+    "btnDiscard": "Membuang",
+    "reviewSuccessTitle": "Gema Diterima!",
+    "reviewSuccessDesc": "Terima kasih telah berbagi pengalaman selaras Anda. Ulasan Anda telah disimpan di registri dan akan ditayangkan setelah ditinjau dan disetujui oleh Moderator Sanctuary kami.",
+    "btnPerfect": "Sempurna",
+    "reviewTransmitting": "Mengirimkan...",
+    "reviewNameLabel": "Nama Lengkap*",
+    "reviewCityLabel": "Kota / Negara (Opsional)",
+    "reviewAvatarLabel": "Atau masukkan URL foto khusus...",
+    "reviewTitleDefault": "Pengunjung Kesehatan",
+    "reviewErrorName": "Nama Lengkap wajib diisi",
+    "reviewErrorContent": "Pesan Tinjauan diperlukan",
+    "reviewErrorRating": "Peringkat harus antara 1 dan 5 bintang",
+    "reviewsModality": "MODALITAS RESIDENCE"
   },
   "seo": {
-    "homeTitle": "Sanctuary DharaAveda | Penyembuhan Holistik & Ekspor Premium",
-    "homeDesc": "Sanctuary DharaAveda menawarkan terapi bunga Bach klasik, penyelarasan Reiki, dan terapi suara 432Hz.",
-    "exportTitle": "Divisi Ekspor Pertanian | DharaAveda",
-    "exportDesc": "Rempah-rempah premium, Shilajit murni, dan ekstrak aromaterapi organik. Bersertifikat APEDA & SGS.",
-    "wellnessTitle": "Terapi Kesehatan Holistik & Sanctuary | DharaAveda",
-    "wellnessDesc": "Rasakan Usui Reiki, konsultasi bunga Bach, dan terapi suara di tempat perlindungan Wayanad kami di Kerala.",
-    "bookingTitle": "Jadwalkan Sesi Pemulihan Anda | DharaAveda",
-    "bookingDesc": "Pesan sesi konsultasi pribadi untuk penyelarasan Reiki, bunga Bach, atau terapi suara.",
-    "contactTitle": "Hubungi Kami | DharaAveda",
-    "contactDesc": "Hubungi kami untuk pengiriman pertanian curah, kontrak komoditas, atau admisi tempat perlindungan."
+    "homeTitle": "Suaka DharaAveda | Penyembuhan Kuantum Restoratif & Ekspor Kesehatan Premium",
+    "homeDesc": "DharaAveda Sanctuary memadukan terapi bunga liar Bach klasik, penyelarasan chakra Usui Reiki, minyak esensial chromo Aura-Soma, dan attunement suara.",
+    "exportTitle": "Divisi Perdagangan Pertanian | Suaka DharaAveda",
+    "exportDesc": "Kapulaga hijau premium yang diperoleh langsung, resin Shilajit murni, dan ekstrak aromaterapi organik. Kepatuhan APEDA dan SGS resmi.",
+    "wellnessTitle": "Suaka & Terapi Kuantum Restoratif | Dhara Aveda",
+    "wellnessDesc": "Rasakan Usui Reiki, konsultasi bunga Bach, dan terapi suara 432Hz di cagar alam Wayanad kami di Kerala.",
+    "bookingTitle": "Jadwalkan Residensi Attunement Anda | Dhara Aveda",
+    "bookingDesc": "Cadangan sesi penerimaan rahasia Anda untuk penyelarasan Reiki, konsultasi bunga Bach, atau penyembuhan suara yang mendalam.",
+    "contactTitle": "Hubungi Meja Dewan | Dhara Aveda",
+    "contactDesc": "Hubungi kami untuk pengiriman pertanian massal, kontrak komoditas, atau tiket masuk kesehatan suaka."
   },
   "products": {
     "categories": {
       "spices": {
-        "title": "Spices & Seasonings",
-        "desc": "Vedas-grade aromatics, hot spices, and complex culinary powders milled to absolute microbiological safety standards."
+        "title": "Rempah-rempah & Bumbu",
+        "desc": "Aromatik tingkat Veda, rempah-rempah pedas, dan bubuk kuliner kompleks digiling sesuai standar keamanan mikrobiologis mutlak."
       },
       "veg_powders": {
-        "title": "Dehydrated Vegetable Powders",
-        "desc": "Fine agricultural vegetable powders dehydrated at low temperatures to lock in bioactive nutrients, colors, and intense flavors."
+        "title": "Bubuk Sayuran Dehidrasi",
+        "desc": "Bubuk sayuran pertanian halus mengalami dehidrasi pada suhu rendah untuk mengunci nutrisi bioaktif, warna, dan rasa yang kuat."
       },
       "fruit_powders": {
-        "title": "Dehydrated Fruit Powders",
-        "desc": "Premium spray-dried and low-temp dehydrated fruit powders capturing the pure sweetness, vitamins, and tang of fresh orchards."
+        "title": "Bubuk Buah Dehidrasi",
+        "desc": "Bubuk buah kering semprot premium dan dehidrasi suhu rendah yang menangkap rasa manis murni, vitamin, dan aroma kebun segar."
       },
       "moringa": {
-        "title": "Moringa Products",
-        "desc": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation."
+        "title": "Produk Kelor",
+        "desc": "Daun, bubuk, teh, dan ekstrak Kelor Moringa oleifera murni yang bersumber dari budidaya hasil tinggi bebas pestisida."
       },
       "seeds": {
-        "title": "Seeds Category",
-        "desc": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls."
+        "title": "Kategori Benih",
+        "desc": "Minyak organik elit dan benih nutrisi berkualitas ekspor dibersihkan, disortir, dan dikemas di bawah kendali fitosanitasi mutlak."
       },
       "dehydrated_veg": {
-        "title": "Dehydrated Vegetables",
-        "desc": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life."
+        "title": "Sayuran Dehidrasi",
+        "desc": "Bawang bombay kering, bawang putih, jahe, dan sayuran lainnya yang diiris bersih diproses untuk menghasilkan rekonstitusi tinggi dan umur simpan yang lama."
       },
       "dehydrated_fruits": {
-        "title": "Dehydrated Fruits",
-        "desc": "Premium long-cut and slices of sun-sheltered dehydrated fruits preserving natural sugars, texture, and vitamins."
+        "title": "Buah Dehidrasi",
+        "desc": "Potongan panjang premium dan irisan buah dehidrasi yang terlindung dari sinar matahari menjaga gula alami, tekstur, dan vitamin."
       },
       "flakes": {
-        "title": "Flakes Category",
-        "desc": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes."
+        "title": "Kategori Serpihan",
+        "desc": "Serpihan sayuran tingkat industri dan gourmet dikeringkan secara seragam untuk hidrasi cepat dalam makanan ringan dan campuran kering."
       }
     },
     "items": {
       "s-turmeric": {
-        "name": "Turmeric Powder",
-        "desc": "Vibrant golden-yellow turmeric powder ground from choice Erode rhizomes, offering high active curcumin levels suitable for B2B pharmaceutical and gourmet use.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Kunyit",
+        "desc": "Bubuk kunyit kuning keemasan yang digiling dari rimpang Erode pilihan, menawarkan tingkat kurkumin aktif tinggi yang cocok untuk penggunaan farmasi dan makanan B2B.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Erode & Salem Estates, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Curcumin > 5% Certified, Pure",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "Kurkumin > 5% Bersertifikat, Murni",
           "grade": "A++ High-Curcumin Gold",
-          "minOrder": "500 Kilograms"
+          "minOrder": "500 Kilogram"
         }
       },
       "s-redchilli": {
-        "name": "Red Chilli Powder",
-        "desc": "Guntur Sannam red chilli powder offering a deep color and customizable heat ratings for international kitchens.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Cabai Merah",
+        "desc": "Bubuk cabai merah Guntur Sannam menawarkan warna yang dalam dan tingkat panas yang dapat disesuaikan untuk dapur internasional.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Guntur Region, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Aflatoxin & Sudan Dye Negative",
-          "grade": "Kashmiri Bright Red Selection",
-          "minOrder": "500 Kilograms"
+          "origin": "Wilayah Guntur, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "Aflatoksin & Pewarna Sudan Negatif",
+          "grade": "Pilihan Merah Terang Kashmir",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-coriander": {
-        "name": "Coriander Powder",
-        "desc": "Traditional whole and ground coriander powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "bubuk ketumbar",
+        "desc": "Bubuk ketumbar utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-cumin": {
-        "name": "Cumin Powder",
-        "desc": "Traditional whole and ground cumin powder processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Jinten",
+        "desc": "Bubuk jintan utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-blackpepper": {
-        "name": "Black Pepper",
-        "desc": "Grade-1 whole black pepper berries harvested from historic Malabar slopes, delivering intense piperine heat and a complex woody aroma.",
-        "pricing": "Contact Trade Desk",
+        "name": "Lada Hitam",
+        "desc": "Buah lada hitam utuh kelas 1 yang dipanen dari lereng bersejarah Malabar, menghasilkan panas piperin yang menyengat dan aroma kayu yang kompleks.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Wayanad Highland Forests, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Moisture < 11.5% Certified",
-          "grade": "Tellicherry Extra Bold (TGSEB)",
-          "minOrder": "500 Kilograms"
+          "origin": "Hutan Dataran Tinggi Wayanad, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "Kelembapan <11,5% Bersertifikat",
+          "grade": "Tellicherry Ekstra Berani (TGSEB)",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-cardamom": {
-        "name": "Cardamom",
-        "desc": "Plump, premium green cardamom pods displaying beautiful natural emerald shells and high essential seed-oil levels.",
-        "pricing": "Contact Trade Desk",
+        "name": "Kapulaga",
+        "desc": "Buah kapulaga hijau premium yang montok menampilkan cangkang zamrud alami yang indah dan kadar minyak biji esensial yang tinggi.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Cardamom Hills, Kerala, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "Free from artificial polishers",
+          "origin": "Bukit Kapulaga, Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "Bebas dari pemoles buatan",
           "grade": "Bold Premium Extra Emerald (8mm+)",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 Kilogram"
         }
       },
       "s-cloves": {
-        "name": "Cloves",
-        "desc": "Whole brown cloves dried to optimal moisture levels to preserve aromatic eugenol compounds.",
-        "pricing": "Contact Trade Desk",
+        "name": "Cengkih",
+        "desc": "Cengkih coklat utuh dikeringkan hingga tingkat kelembapan optimal untuk mengawetkan senyawa eugenol aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Nilgiris Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Hand selected prime whole cloves",
-          "minOrder": "200 Kilograms"
+          "origin": "Sabuk Nilgiris, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Cengkih utuh pilihan tangan",
+          "minOrder": "200 Kilogram"
         }
       },
       "s-cinnamon": {
-        "name": "Cinnamon",
-        "desc": "Ceylon-type sweet cinnamon quills harvested sustainably, carrying very low coumarin and a delicate woody sweetness.",
-        "pricing": "Contact Trade Desk",
+        "name": "Kayu manis",
+        "desc": "Duri kayu manis jenis Ceylon yang dipanen secara lestari, mengandung kumarin yang sangat rendah dan rasa manis kayu yang lembut.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Western Ghats, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Fine Grade Alba quills",
-          "minOrder": "500 Kilograms"
+          "origin": "Ghats Barat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Duri Alba Kelas Halus",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-nutmeg": {
-        "name": "Nutmeg",
-        "desc": "Traditional whole and ground nutmeg processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Pala",
+        "desc": "Pala utuh dan pala tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-staranise": {
-        "name": "Star Anise",
-        "desc": "Traditional whole and ground star anise processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Adas Bintang",
+        "desc": "Adas bintang utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-fennel": {
-        "name": "Fennel Seeds",
-        "desc": "Traditional whole and ground fennel seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Adas",
+        "desc": "Biji adas utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-mustard": {
-        "name": "Mustard Seeds",
-        "desc": "Traditional whole and ground mustard seeds processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Sawi",
+        "desc": "Biji sawi utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-bayleaves": {
-        "name": "Bay Leaves",
-        "desc": "Traditional whole and ground bay leaves processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Daun salam",
+        "desc": "Daun salam utuh dan daun giling tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Traditional whole and ground garam masala processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "desc": "Garam masala utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "s-mixedspice": {
-        "name": "Mixed Spice Blends",
-        "desc": "Traditional whole and ground mixed spice blends processed under low temperature milling to protect aromatic fractions.",
-        "pricing": "Contact Trade Desk",
+        "name": "Campuran Rempah Campuran",
+        "desc": "Campuran bumbu tradisional utuh dan bubuk yang digiling diproses di bawah penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kerala Spice Belt, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "100% Pure, Heavy-Metal Free",
-          "grade": "Premium Export Quality",
-          "minOrder": "500 Kilograms"
+          "origin": "Sabuk Rempah Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "100% Murni, Bebas Logam Berat",
+          "grade": "Kualitas Ekspor Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-beetroot": {
-        "name": "Beetroot Powder",
-        "desc": "Rich crimson beetroot powder retaining high natural betalains, nitrates, and dietary fibers for health blends.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Bit",
+        "desc": "Bubuk bit merah kaya yang mempertahankan betalain alami, nitrat, dan serat makanan yang tinggi untuk campuran kesehatan.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Vedic Plains, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Weda, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-tomato": {
-        "name": "Tomato Powder",
-        "desc": "Fine spray-dried red tomato powder prepared from ripe organic tomatoes, ideal for instant soups, sauces, and seasoning rubs.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Tomat",
+        "desc": "Bubuk tomat merah kering semprot halus yang dibuat dari tomat organik matang, ideal untuk sup instan, saus, dan bumbu oles.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Karnataka Farms, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Peternakan Karnataka, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-potato": {
-        "name": "Potato Powder",
-        "desc": "High-purity dehydrated potato powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Kentang",
+        "desc": "Bubuk kentang dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-garlic": {
-        "name": "Garlic Powder",
-        "desc": "Concentrated garlic powder milled from aromatic bulbs, delivering robust allicin flavor and dispersibility.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Bawang Putih",
+        "desc": "Bubuk bawang putih pekat yang digiling dari umbi aromatik, menghasilkan rasa dan dispersibilitas allicin yang kuat.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Madhya Pradesh, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-ginger": {
-        "name": "Ginger Powder",
-        "desc": "Fine ginger root powder packing potent gingerol warmth, widely utilized in confectionery and herbal tea blending.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Jahe",
+        "desc": "Bubuk akar jahe halus mengemas kehangatan gingerol yang ampuh, banyak digunakan dalam pembuatan gula-gula dan campuran teh herbal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Northeast Hills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Perbukitan Timur Laut, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-onion": {
-        "name": "Onion Powder",
-        "desc": "Dehydrated white/red onion powder bringing quick savory onion sweetness and zest to food mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Bawang",
+        "desc": "Bubuk bawang putih/merah dehidrasi menghadirkan rasa manis dan semangat bawang bombay yang cepat ke dalam campuran makanan.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Wilayah Nashik, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-spinach": {
-        "name": "Spinach Powder",
-        "desc": "Fine green powder dried from high-grade spinach leaves, locking in dietary iron and natural chlorophyll color.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Bayam",
+        "desc": "Bubuk hijau halus yang dikeringkan dari daun bayam bermutu tinggi, mengunci zat besi makanan dan warna klorofil alami.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Himalayan Foothills, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Kaki Bukit Himalaya, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-carrot": {
-        "name": "Carrot Powder",
-        "desc": "High-purity dehydrated carrot powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Wortel",
+        "desc": "Bubuk wortel dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-cabbage": {
-        "name": "Cabbage Powder",
-        "desc": "High-purity dehydrated cabbage powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Kubis",
+        "desc": "Bubuk kubis dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-moringa": {
-        "name": "Drumstick (Moringa) Powder",
-        "desc": "Nutritive moringa pod and leaf powder processed in cleanrooms to maintain extreme vitamin and antioxidant counts.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Stik Drum (Kelor).",
+        "desc": "Polong kelor yang bergizi dan bubuk daunnya diproses di ruang bersih untuk mempertahankan jumlah vitamin dan antioksidan yang ekstrim.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Latur Valley, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "origin": "Lembah Latur, India",
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-greenchilli": {
-        "name": "Green Chilli Powder",
-        "desc": "High-purity dehydrated green chilli powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Cabai Hijau",
+        "desc": "Bubuk cabai hijau dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan dan penyebaran rasa yang cepat.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-corianderleaf": {
-        "name": "Coriander Leaf Powder",
-        "desc": "High-purity dehydrated coriander leaf powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Daun Ketumbar",
+        "desc": "Bubuk daun ketumbar dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "vp-mint": {
-        "name": "Mint Powder",
-        "desc": "High-purity dehydrated mint powder ground to micro-mesh standards for quick solubility and flavor dispersion.",
-        "pricing": "Contact Trade Desk",
+        "name": "bubuk mint",
+        "desc": "Bubuk mint dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Laminated moisture-proof drums (20kg)",
-          "purity": "100% Pure Dehydrated Vegetable, No Additives",
-          "grade": "Premium Spray-Dried / Low-Temp Milled",
-          "minOrder": "500 Kilograms"
+          "packaging": "Drum laminasi tahan lembab (20kg)",
+          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
+          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-banana": {
-        "name": "Banana Powder",
-        "desc": "Dehydrated green banana powder rich in resistant starches, utilized in healthy gluten-free flour formulations.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Pisang",
+        "desc": "Bubuk pisang hijau dehidrasi yang kaya akan pati resisten, digunakan dalam formulasi tepung bebas gluten yang sehat.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Tinggi Wayanad, India",
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-mango": {
-        "name": "Mango Powder",
-        "desc": "Spray-dried Kesar and Alphonso mango pulp powder, preserving authentic tropical flavor, golden color, and natural sugars.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Mangga",
+        "desc": "Bubuk pulp mangga Kesar dan Alphonso yang dikeringkan dengan semprotan, menjaga cita rasa tropis asli, warna emas, dan gula alami.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Kebun Ratnagiri, India",
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-guava": {
-        "name": "Guava Powder",
-        "desc": "Spray-dried premium fruit juice powder of guava powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Jambu Biji",
+        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk jambu biji, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-pomegranate": {
-        "name": "Pomegranate Powder",
-        "desc": "Antioxidant-rich pomegranate juice powder spray-dried to retain high brix and beautiful pink-red coloring.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Delima",
+        "desc": "Bubuk jus delima kaya antioksidan yang dikeringkan dengan semprotan untuk mempertahankan brix tinggi dan warna merah muda-merah yang indah.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Deccan Plateau, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Tinggi Deccan, India",
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-pineapple": {
-        "name": "Pineapple Powder",
-        "desc": "Spray-dried premium fruit juice powder of pineapple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Nanas",
+        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk nanas, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-papaya": {
-        "name": "Papaya Powder",
-        "desc": "Spray-dried premium fruit juice powder of papaya powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Pepaya",
+        "desc": "Bubuk jus buah premium kering semprot dari bubuk pepaya, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-apple": {
-        "name": "Apple Powder",
-        "desc": "Spray-dried premium fruit juice powder of apple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Apel",
+        "desc": "Bubuk jus buah premium kering-semprotan dari bubuk apel, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-orange": {
-        "name": "Orange Powder",
-        "desc": "Spray-dried premium fruit juice powder of orange powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Jeruk",
+        "desc": "Bubuk jus buah premium kering semprot dari bubuk jeruk, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-lemon": {
-        "name": "Lemon Powder",
-        "desc": "Spray-dried premium fruit juice powder of lemon powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Lemon",
+        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk lemon, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-strawberry": {
-        "name": "Strawberry Powder",
-        "desc": "Spray-dried premium fruit juice powder of strawberry powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Stroberi",
+        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk stroberi, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
-          "minOrder": "500 Kilograms"
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
+          "grade": "Makanan & Minuman Kelas A",
+          "minOrder": "500 Kilogram"
         }
       },
       "fp-amla": {
-        "name": "Amla Powder",
-        "desc": "Dehydrated Indian gooseberry (Amla) powder offering exceptional Vitamin C levels, highly suitable for dietary supplements.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Amla",
+        "desc": "Bubuk gooseberry India (Amla) dehidrasi menawarkan tingkat Vitamin C yang luar biasa, sangat cocok untuk suplemen makanan.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "100% Pure Amla, high Vitamin C",
-          "grade": "Nutraceutical Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Kebun Gujarat, India",
+          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "purity": "100% Amla Murni, tinggi Vitamin C",
+          "grade": "Standar Nutraceutical",
+          "minOrder": "500 Kilogram"
         }
       },
       "m-powder": {
-        "name": "Moringa Powder",
-        "desc": "Finely milled raw leaf powder from organically grown Moringa oleifera trees, boasting rich protein, iron, and multivitamin indexes.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bubuk Kelor",
+        "desc": "Bubuk daun mentah yang digiling halus dari pohon Moringa oleifera yang ditanam secara organik, kaya akan protein, zat besi, dan indeks multivitamin.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Vacuum sealed UV barrier bags (20 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Pertanian Organik Latur, India",
+          "packaging": "Tas penghalang UV bersegel vakum (20 kg)",
+          "purity": "Bersertifikat Organik USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 Kilogram"
         }
       },
       "m-leaves": {
-        "name": "Moringa Leaves",
-        "desc": "Shadow-dried, whole moringa leaves systematically cleaned of stems and organic residue, keeping vital chlorophyll intact.",
-        "pricing": "Contact Trade Desk",
+        "name": "Daun Kelor",
+        "desc": "Daun kelor utuh yang dikeringkan secara sistematis dibersihkan dari batang dan residu organik, menjaga klorofil penting tetap utuh.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Double poly-lined woven sacks (15 kg)",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Pertanian Organik Latur, India",
+          "packaging": "Karung Anyaman Poli Lapis Ganda (15 Kg)",
+          "purity": "Bersertifikat Organik USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 Kilogram"
         }
       },
       "m-tea": {
-        "name": "Moringa Tea",
-        "desc": "Premium cut moringa leaves blended with aromatic herbs to create a high-antioxidant, caffeine-free daily wellness infusion.",
-        "pricing": "Contact Trade Desk",
+        "name": "Teh Kelor",
+        "desc": "Daun kelor potong premium dicampur dengan herba aromatik untuk menghasilkan infus kesehatan harian yang tinggi antioksidan dan bebas kafein.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Customized filter tea bags in composite tins",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Pertanian Organik Latur, India",
+          "packaging": "Kantong teh filter khusus dalam kaleng komposit",
+          "purity": "Bersertifikat Organik USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 Kilogram"
         }
       },
       "m-extract": {
-        "name": "Moringa Extract",
-        "desc": "High-potency bioactive moringa leaf extract standardized for total flavonoids and saponin ratios, for clinical use.",
-        "pricing": "Contact Trade Desk",
+        "name": "Ekstrak Kelor",
+        "desc": "Ekstrak daun kelor bioaktif potensi tinggi distandarisasi untuk rasio total flavonoid dan saponin, untuk penggunaan klinis.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Food-grade HDPE canisters",
-          "purity": "USDA & APEDA Organic Certified",
+          "origin": "Pertanian Organik Latur, India",
+          "packaging": "Tabung HDPE food grade",
+          "purity": "Bersertifikat Organik USDA & APEDA",
           "grade": "AAA+ Raw Leaf / Concentrated Standard",
-          "minOrder": "200 Kilograms"
+          "minOrder": "200 Kilogram"
         }
       },
       "sd-flax": {
-        "name": "Flax Seeds",
-        "desc": "Dark brown organic flax seeds loaded with Omega-3 fatty acids, processed with advanced optical graders to guarantee purity.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Rami",
+        "desc": "Biji rami organik berwarna coklat tua yang mengandung asam lemak Omega-3, diproses dengan grader optik canggih untuk menjamin kemurnian.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-pumpkin": {
-        "name": "Pumpkin Seeds",
-        "desc": "Export-ready premium pumpkin seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Labu",
+        "desc": "Biji labu premium siap ekspor dibersihkan dan dinilai dengan cermat untuk benih makanan, sereal, dan ekstraksi minyak industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-sesame": {
-        "name": "Sesame Seeds",
-        "desc": "Crispy, white hulled sesame seeds Auto-Sortex graded, boasting high oil content and nuttiness for global bakery imports.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Wijen",
+        "desc": "Biji wijen renyah dan berkulit putih dengan kualitas Auto-Sortex, yang memiliki kandungan minyak tinggi dan rasa pedas untuk produk roti impor global.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Premium Hulled Auto-Cleaned Sortex",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Sortex Pembersihan Otomatis Hulled Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-sunflower": {
-        "name": "Sunflower Seeds",
-        "desc": "Export-ready premium sunflower seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Bunga Matahari",
+        "desc": "Biji bunga matahari premium siap ekspor dibersihkan dan dinilai dengan cermat untuk benih makanan, sereal, dan ekstraksi minyak industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-chia": {
-        "name": "Chia Seeds",
-        "desc": "High-swelling organic black and white chia seeds, sorted to remove all foreign plant matter, rich in mucilage fibers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Chia",
+        "desc": "Biji chia hitam dan putih organik dengan pembengkakan tinggi, disortir untuk menghilangkan semua materi tanaman asing, kaya akan serat lendir.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Madhya Pradesh, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-watermelon": {
-        "name": "Watermelon Seeds",
-        "desc": "Export-ready premium watermelon seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Semangka",
+        "desc": "Benih semangka premium siap ekspor dibersihkan dan dinilai dengan cermat untuk benih makanan, sereal, dan ekstraksi minyak industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "sd-basil": {
-        "name": "Basil Seeds",
-        "desc": "Export-ready premium basil seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
-        "pricing": "Contact Trade Desk",
+        "name": "Biji Kemangi",
+        "desc": "Biji kemangi premium siap ekspor dibersihkan dan dinilai dengan cermat untuk benih makanan, sereal, dan ekstraksi minyak industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
-          "minOrder": "500 Kilograms"
+          "origin": "Lahan Kering Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
+          "purity": "99,9% Mesin Dibersihkan / Sortex Dibersihkan",
+          "grade": "Biji Bold Grade AAA Ekspor",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-onion": {
-        "name": "Dehydrated Onion",
-        "desc": "Air-dried red and white onion slices with excellent texture, preserving essential pungent flavors for immediate food formulation.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bawang Dehidrasi",
+        "desc": "Irisan bawang merah dan putih yang dikeringkan di udara dengan tekstur luar biasa, menjaga rasa pedas yang penting untuk formulasi makanan instan.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Nashik Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Wilayah Nashik, India",
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-garlic": {
-        "name": "Dehydrated Garlic",
-        "desc": "Premium dehydrated garlic cloves split to speed up rehydration in instant spice rubs, canned stews, and noodles.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bawang Putih Dehidrasi",
+        "desc": "Siung bawang putih dehidrasi premium dibelah untuk mempercepat rehidrasi dalam bumbu instan, semur kalengan, dan mie.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Malwa Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Wilayah Malwa, India",
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-ginger": {
-        "name": "Dehydrated Ginger",
-        "desc": "Low-temperature dehydrated dehydrated ginger slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Jahe Dehidrasi",
+        "desc": "Irisan jahe dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemasan makanan industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-tomato": {
-        "name": "Dehydrated Tomato",
-        "desc": "Dried organic tomato slices with rich natural lycopene counts and zero sulfite treatment, for gourmet culinary packs.",
-        "pricing": "Contact Trade Desk",
+        "name": "Tomat dehidrasi",
+        "desc": "Irisan tomat organik kering dengan kandungan likopen alami yang kaya dan tanpa perlakuan sulfit, untuk paket kuliner gourmet.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Tinggi Wayanad, India",
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-carrot": {
-        "name": "Dehydrated Carrot",
-        "desc": "Low-temperature dehydrated dehydrated carrot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Wortel dehidrasi",
+        "desc": "Irisan wortel dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-beetroot": {
-        "name": "Dehydrated Beetroot",
-        "desc": "Low-temperature dehydrated dehydrated beetroot slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bit dehidrasi",
+        "desc": "Irisan bit dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemasan makanan industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-spinach": {
-        "name": "Dehydrated Spinach",
-        "desc": "Low-temperature dehydrated dehydrated spinach slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Bayam dehidrasi",
+        "desc": "Irisan bayam dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "dv-cabbage": {
-        "name": "Dehydrated Cabbage",
-        "desc": "Low-temperature dehydrated dehydrated cabbage slices, carefully sorted to match uniform shape and color for industrial food packers.",
-        "pricing": "Contact Trade Desk",
+        "name": "Kubis Dehidrasi",
+        "desc": "Irisan kubis dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
+          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
+          "grade": "Standar Rehidrasi Premium AAA",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-banana": {
-        "name": "Banana Slices",
-        "desc": "Sweet Cavendish banana rounds dehydrated naturally without chemical preservatives, perfect for organic snacking mixes.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Pisang",
+        "desc": "Pisang bulat Sweet Cavendish mengalami dehidrasi secara alami tanpa bahan pengawet kimia, cocok untuk campuran camilan organik.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Tinggi Wayanad, India",
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-mango": {
-        "name": "Mango Slices",
-        "desc": "Hand-sliced Alphonso and Kesar mango strips air-dried to retain sweet tropical fragrance and soft, chewy gourmet texture.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Mangga",
+        "desc": "Potongan mangga Alphonso dan Kesar yang diiris dengan tangan dikeringkan di udara untuk mempertahankan aroma tropis yang manis dan tekstur gourmet yang lembut dan kenyal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Ratnagiri Orchards, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "origin": "Kebun Ratnagiri, India",
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-pineapple": {
-        "name": "Pineapple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic pineapple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Nanas",
+        "desc": "Irisan nanas organik premium yang dikeringkan di bawah sinar matahari, disusun untuk kantong makanan gourmet dan bahan tambahan sereal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-apple": {
-        "name": "Apple Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic apple slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Apel",
+        "desc": "Irisan premium irisan apel organik yang dimatangkan di bawah sinar matahari, disusun untuk kantong makanan gourmet dan bahan tambahan sereal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-papaya": {
-        "name": "Papaya Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic papaya slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Pepaya",
+        "desc": "Irisan kering premium dari irisan pepaya organik yang dimatangkan di bawah sinar matahari, disusun untuk kantong makanan gourmet dan bahan tambahan sereal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-strawberry": {
-        "name": "Strawberry Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic strawberry slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Stroberi",
+        "desc": "Irisan premium dehidrasi dari irisan stroberi organik yang dimatangkan di bawah sinar matahari, disusun untuk kantong makanan gourmet dan bahan tambahan sereal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "df-guava": {
-        "name": "Guava Slices",
-        "desc": "Premium dehydrated slices of sun-ripened organic guava slices, structured for gourmet food bags and cereal additives.",
-        "pricing": "Contact Trade Desk",
+        "name": "Irisan Jambu Biji",
+        "desc": "Irisan jambu biji organik kering premium yang dimatangkan di bawah sinar matahari, disusun untuk kantong makanan gourmet dan bahan tambahan sereal.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Vacuum-sealed poly bags in master cartons (10kg)",
-          "purity": "No Added Sugar, Sulfites or Colorants",
-          "grade": "Premium Long-Cut Slices",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kantong poli bersegel vakum dalam karton induk (10kg)",
+          "purity": "Tanpa Tambahan Gula, Sulfit, atau Pewarna",
+          "grade": "Irisan Potong Panjang Premium",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-onion": {
-        "name": "Onion Flakes",
-        "desc": "Perfectly cut 10mm red and white onion flakes, systematically air-dried to retain natural sweet allicin, ideal for fast food noodles and sauces.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Bawang",
+        "desc": "Serpihan bawang merah dan putih berukuran 10 mm dipotong dengan sempurna, dikeringkan secara sistematis di udara untuk mempertahankan allicin manis alami, ideal untuk mie dan saus makanan cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Nashik Valley, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Lembah Nashik, India",
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-garlic": {
-        "name": "Garlic Flakes",
-        "desc": "Dehydrated garlic flakes split clean, offering sharp allium zest and rapid hydration for ready-meal packets.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Bawang Putih",
+        "desc": "Serpihan bawang putih dehidrasi terbelah hingga bersih, menghasilkan kulit allium yang tajam dan hidrasi cepat untuk paket makanan siap saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Malwa Plateau, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "Dataran Tinggi Malwa, India",
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-potato": {
-        "name": "Potato Flakes",
-        "desc": "Premium dehydrated potato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Kentang",
+        "desc": "Serpihan kentang dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-tomato": {
-        "name": "Tomato Flakes",
-        "desc": "Premium dehydrated tomato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Tomat",
+        "desc": "Serpihan tomat dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-beetroot": {
-        "name": "Beetroot Flakes",
-        "desc": "Premium dehydrated beetroot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Bit",
+        "desc": "Serpihan bit dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-carrot": {
-        "name": "Carrot Flakes",
-        "desc": "Premium dehydrated carrot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Wortel",
+        "desc": "Serpihan wortel dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-spinach": {
-        "name": "Spinach Flakes",
-        "desc": "Premium dehydrated spinach flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Bayam",
+        "desc": "Serpihan bayam dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       },
       "fl-mixedveg": {
-        "name": "Mixed Vegetable Flakes",
-        "desc": "Premium dehydrated mixed vegetable flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
-        "pricing": "Contact Trade Desk",
+        "name": "Serpihan Sayuran Campuran",
+        "desc": "Serpihan sayuran campuran dehidrasi premium dikeringkan untuk mempertahankan intensitas warna dan tekstur seluler untuk hidangan gourmet cepat saji.",
+        "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "packaging": "Kotak bergelombang ganda dengan lapisan bersegel panas",
+          "purity": "Kelembapan <5% terjamin, bebas debu",
+          "grade": "Potongan Serpihan Makanan (10-12mm)",
+          "minOrder": "500 Kilogram"
         }
       }
     }

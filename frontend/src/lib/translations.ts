@@ -30,6 +30,8 @@ export interface StaticTranslations {
     selectLanguage: string;
     subTitle: string;
     searchPlaceholder: string;
+    toggleMenu?: string;
+    adminTitle?: string;
   };
   footer: {
     desc: string;
@@ -48,6 +50,10 @@ export interface StaticTranslations {
     corpOffice: string;
     corpSanctuary: string;
     rights: string;
+    myBookings?: string;
+    badgeApeda?: string;
+    badgeFssai?: string;
+    badgeUsda?: string;
   };
   home: {
     [key: string]: string | undefined;
@@ -84,6 +90,27 @@ export interface StaticTranslations {
     packagingDays: string;
     portOfLoad: string;
     portName: string;
+    secureTransit?: string;
+    readyStatus?: string;
+    qualityHighlights?: string;
+    keyBenefits?: string;
+    shippingPacking?: string;
+    packageLabel?: string;
+    capabilityLabel?: string;
+    showcaseCategories?: Record<string, {
+      badge: string;
+      title: string;
+      description: string;
+      highlights: string[];
+      benefits: string[];
+      packaging: string;
+      capability: string;
+      shippingInfo: string;
+      features: Array<{
+        title: string;
+        desc: string;
+      }>;
+    }>;
   };
   booking: {
     clinic: string;
@@ -148,6 +175,8 @@ export interface StaticTranslations {
     submit: string;
     transmitting: string;
     errorFields: string;
+    addressLine1?: string;
+    addressLine2?: string;
   };
   product: {
     extendedCatalogue: string;
@@ -160,6 +189,7 @@ export interface StaticTranslations {
     sendInquiry: string;
     close: string;
     apedaCompliant: string;
+    inquiryBadge?: string;
     inquiryRequestQuote: string;
     inquiryDirectAccess: string;
     inquirySuccessTitle: string;
@@ -174,9 +204,15 @@ export interface StaticTranslations {
     inquiryPlaceholderCompany: string;
     inquiryPlaceholderQuantity: string;
     inquiryPlaceholderMessage: string;
+    inquiryMessageLabel?: string;
     inquiryLoggingSpecs: string;
     inquirySubmit: string;
     inquiryErrorFields: string;
+    metadataOrigin?: string;
+    metadataPurity?: string;
+    metadataGrade?: string;
+    metadataPackaging?: string;
+    modalCloseTitle?: string;
   };
   wellness: {
     floatingCTAText: string;
