@@ -19,7 +19,7 @@ type AsyncHandler = (req: Request, res: Response, next: NextFunction) => Promise
 const router = Router();
 
 const DEFAULT_PRODUCT_IMAGE =
-  "https://images.unsplash.com/photo-1599940778173-e270d47be24e?auto=format&fit=crop&q=80&w=800";
+  "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800";
 const DEFAULT_SERVICE_IMAGE =
   "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800";
 const DEFAULT_TESTIMONIAL_IMAGE =

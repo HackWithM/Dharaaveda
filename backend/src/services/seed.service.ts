@@ -14,7 +14,7 @@ const SEED_PRODUCTS = [
     _id: "p1",
     name: "Organic Indian Green Cardamom (Elaichi)",
     category: "Spices & Condiments",
-    images: ["https://images.unsplash.com/photo-1599940778173-e270d47be24e?auto=format&fit=crop&q=80&w=800"],
+    images: ["https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800"],
     description: "Handpicked premium green pods from the mist-covered valleys of Wayanad, Kerala. Uncompromised deep aroma and essential oils.",
     pricing: "$18.50 - $22.00 / kg (FOB)",
     specifications: {

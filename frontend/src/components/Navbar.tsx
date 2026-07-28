@@ -131,7 +131,7 @@ export default function Navbar() {
 
   const currentLanguageName = LANGUAGES.find(l => l.code === lang)?.nativeName || t.navbar.language || "Language";
 
-  const maxScale = isMobile ? 1.92 : 2.70;
+  const maxScale = isMobile ? 3.92 : 5.10;
   const logoScale = maxScale - scrollProgress * (maxScale - 1);
   const translateX = -(logoScale - 1) * 20;
   const translateY = (1 - scrollProgress) * (isMobile ? 5 : 12);

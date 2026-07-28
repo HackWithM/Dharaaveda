@@ -30,7 +30,7 @@ export const IMAGES = {
     /** Background image for the Export showcase card on Home */
     exportCardBg: "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
     /** Background image for the Therapy showcase card on Home */
-    therapyCardBg: "images/therapy/bachFlowerService.webp",
+    therapyCardBg: "/images/therapy/bachFlowerService.webp",
   },
 
   // ----------------------------------------------------------
@@ -38,11 +38,11 @@ export const IMAGES = {
   // ----------------------------------------------------------
   export: {
     /** Full-width hero background on the Export page */
-    heroBg: "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEzZTJkMTI1NDZjODE5MTg5ZDE3NDIzNGQ2MmNkNDQ6ZmlsZV8wMDAwMDAwMGM1ZjQ3MjBiYWNiMzhiYzM0YjM5ZWZhZiIsImdpem1vX2lkIjpudWxsLCJ0cyI6IjIwNjMwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI1MmY0MTM1YzNiM2JiMWM1MDY3ZDg5MGIwODgzNjQ1ZTM0MDE2NDg0ODExNGZhY2YwODdkOTEzZjExMTU5MzNkIiwidiI6IjAiLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=",
+    heroBg: "/images/export/heroBg.jpg",
     /** Cargo ship image used in the Export page about section */
     cargoShipAbout: "https://media.istockphoto.com/id/2123124996/photo/low-angle-aerial-shot-of-cranes-looming-over-container-ship.jpg?s=612x612&w=0&k=20&c=ple5acFVT_AT1SCZCbkXT0ZEXLMQ-3dFTCGRisGSYVA=",
     /** Fallback / placeholder image when no product image is available */
-    productFallback: "https://images.unsplash.com/photo-1599940778173-e270d47be24e?fm=webp&fit=crop&q=80&w=800",
+    productFallback: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
   },
 
   // ----------------------------------------------------------
@@ -85,7 +85,7 @@ export const IMAGES = {
     nutmeg: "https://cdn.britannica.com/77/170777-050-3A754B3D/Nutmeg-seeds-ground-spice.jpg",
     starAnise: "https://cdn.shopify.com/s/files/1/0686/4283/2583/files/star_anise_article_hero_copy.webp?v=1745522159",
     fennelSeeds: "https://cdn11.bigcommerce.com/s-7gw5qujusi/images/stencil/1280x1280/products/356/1391/102441__57402.1719401293.jpg?c=1",
-    mustardSeeds: "https://sharmaglobletrade.com/wp-content/uploads/2024/08/Mustard-Seeds.jpg",
+    mustardSeeds: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?fm=webp&fit=crop&q=80&w=800",
     bayLeaves: "https://sygsan.com/wp-content/uploads/2024/09/bayle.jpeg",
     garamMasala: "https://keralaspicecart.com/wp-content/uploads/2020/10/kerala-spice-cart-garam-masala.jpg",
     mixedSpiceBlends: "https://d1wv6w1iq7btjo.cloudfront.net/mm/2021/10/niQ4ze9XZwfAibEawspGLBtvAistockphoto-1297420369-170667a.jpg",
@@ -209,7 +209,7 @@ export const IMAGES = {
   // ----------------------------------------------------------
   admin: {
     /** Fallback for new export product when no image URL is provided */
-    newProductFallback: "https://images.unsplash.com/photo-1599940778173-e270d47be24e?fm=webp&fit=crop&q=80&w=800",
+    newProductFallback: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
     /** Fallback for new service/session when no image URL is provided */
     newServiceFallback: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=800",
     /** Fallback for new team member when no image URL is provided */
