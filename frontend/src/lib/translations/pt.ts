@@ -59,7 +59,7 @@ export const translations: StaticTranslations = {
     "whyTitle": "Por que escolher Dharaaveda",
     "whySubtitle": "Padrões intransigentes em logística e bem-estar",
     "whyTrustTitle": "Confiança Absoluta",
-    "whyTrustDesc": "Transparência total, total conformidade fitossanitária e protocolos de não divulgação certificados.",
+    "whyTrustDesc": "Transparência total, conformidade fitossanitária completa e protocolos de não divulgação certificados.",
     "whyQualityTitle": "Qualidade Védica",
     "whyQualityDesc": "Rastreabilidade direta da fazenda ao porto e remédios de biofrequência formulados sob medida.",
     "whyExpertiseTitle": "Experiência comprovada",
@@ -78,7 +78,7 @@ export const translations: StaticTranslations = {
     "highlightsExport2Desc": "Cúrcuma Salem, cardamomo ousado, pimenta Guntur e pimenta preta Malabar.",
     "highlightsExport3": "Produtos Desidratados",
     "highlightsExport3Desc": "Flocos de cebola em baixa temperatura, tomate seco e beterraba em pó.",
-    "highlightsExport4": "Logística Global",
+    "highlightsExport4": "Logística Mundial",
     "highlightsExport4Desc": "Vedação personalizada com barreira a vácuo, certificações SGS e registros portuários personalizados.",
     "highlightsTherapy1": "Terapia Floral de Bach",
     "highlightsTherapy1Desc": "Remédios líquidos personalizados selecionados para estresse cognitivo ativo e liberação neural.",
@@ -102,7 +102,7 @@ export const translations: StaticTranslations = {
     "ctaExportBoxDesc": "Conecte-se ao nosso balcão de arbitragem de commodities para contratos de contêineres a granel, embalagens personalizadas ou conformidade logística.",
     "ctaExportBoxBtn": "Fale com o Export Desk",
     "ctaTherapyBoxTitle": "Procurando Cura Holística?",
-    "ctaTherapyBoxDesc": "Agende uma consulta privada ou reserve uma estadia em uma villa em nosso santuário na montanha Wayanad para sintonização com biocampo.",
+    "ctaTherapyBoxDesc": "Agende uma consulta privada ou reserve uma estadia em uma villa em nosso santuário na montanha Wayanad para sintonização com o biocampo.",
     "ctaTherapyBoxBtn": "Reservar entrada no santuário"
   },
   "export": {

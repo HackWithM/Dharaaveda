@@ -634,13 +634,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.papayaPowder
         ],
-        "description": "Spray-dried premium fruit juice powder of papaya powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
+        "description": "Premium-quality dehydrated papaya powder made from carefully selected, ripe papaya. The fruit is hygienically processed and finely powdered to retain its natural colour, flavour, aroma, and nutritional properties.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Papaya Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -652,13 +652,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.applePowder
         ],
-        "description": "Spray-dried premium fruit juice powder of apple powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
+        "description": "Premium-quality dehydrated Apple Powder made from carefully selected fresh apples. The apples are hygienically processed and finely powdered to retain their natural fruity flavour, aroma, and characteristic apple taste. Suitable for food, beverage, bakery and nutraceutical applications.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Apple Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -670,13 +670,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.orangePowder
         ],
-        "description": "Spray-dried premium fruit juice powder of orange powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
+        "description": "Premium-quality dehydrated Orange Powder made from carefully selected fresh oranges. The fruit is hygienically processed and finely powdered to retain its natural citrus flavour, aroma, and characteristic orange taste. Suitable for food, beverage, bakery, confectionery and nutraceutical applications.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Orange Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -688,13 +688,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.lemonPowder
         ],
-        "description": "Spray-dried premium fruit juice powder of lemon powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
+        "description": "Premium-quality dehydrated Lemon Powder made from carefully selected fresh lemons. The lemons are hygienically processed and finely powdered to retain their characteristic citrus flavour, aroma, and natural tanginess. Suitable for food, beverage, bakery, seasoning and nutraceutical applications.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Lemon Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -706,13 +706,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.strawberryPowder
         ],
-        "description": "Spray-dried premium fruit juice powder of strawberry powder, capturing natural aroma and visual hues for gourmet mixers and baking.",
+        "description": "Premium-quality dehydrated Strawberry Powder made from carefully selected fresh strawberries. The fruit is hygienically processed and finely powdered to retain its characteristic strawberry flavour, aroma, colour, and natural fruity taste.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "Spray-Dried from 100% Organic Fruit Pulp",
-          "grade": "Food & Beverage Grade A",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Strawberry Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -724,13 +724,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.amlaPowder
         ],
-        "description": "Dehydrated Indian gooseberry (Amla) powder offering exceptional Vitamin C levels, highly suitable for dietary supplements.",
+        "description": "Premium-quality dehydrated Amla Powder (Indian Gooseberry Powder) made from carefully selected fresh amla fruits. The fruit is hygienically processed and finely powdered to retain its natural colour, characteristic tangy flavour, aroma, and valuable nutritional properties.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Orchards, India",
-          "packaging": "Aluminum vacuum foil inserts in master cartons",
-          "purity": "100% Pure Amla, high Vitamin C",
-          "grade": "Nutraceutical Standard",
+          "origin": "India",
+          "packaging": "100 g / 250 g / 500 g / 1 kg retail pouches • 5 kg / 10 kg / 20 kg / 25 kg bulk packs • Food-grade laminated pouches • Kraft paper bags with food-grade inner liner",
+          "purity": "100% Amla Powder — free from artificial colours, flavours and preservatives",
+          "grade": "Food Grade / Export Grade (Customized specifications available)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -740,41 +740,41 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
   {
     "id": "moringa",
     "title": "Moringa Products",
-    "description": "Pure botanical Moringa oleifera leaves, powders, teas, and extracts sourced from pesticide-free high-yield cultivation.",
+    "description": "We offer premium-quality Moringa-based products sourced from India, carefully processed and packed for food, nutraceutical, herbal, wellness, and international export markets.",
     "image": IMAGES.exportCategories.moringa,
     "products": [
       {
-        "id": "m-powder",
-        "name": "Moringa Powder",
+        "id": "m-leaf-powder",
+        "name": "Moringa Leaf Powder",
         "category": "Moringa Products",
         "images": [
           IMAGES.exportProducts.moringaPowder
         ],
-        "description": "Finely milled raw leaf powder from organically grown Moringa oleifera trees, boasting rich protein, iron, and multivitamin indexes.",
+        "description": "Finely processed powder made from carefully selected moringa leaves. Suitable for food, wellness, nutraceutical and herbal applications.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Vacuum sealed UV barrier bags (20 kg)",
-          "purity": "USDA & APEDA Organic Certified",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg & 25 kg",
+          "purity": "100% Moringa Leaf Powder",
+          "grade": "Food Grade / Export Grade",
           "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "m-leaves",
-        "name": "Moringa Leaves",
+        "id": "m-leaf-flakes",
+        "name": "Moringa Leaf Flakes",
         "category": "Moringa Products",
         "images": [
           IMAGES.exportProducts.moringaLeaves
         ],
-        "description": "Shadow-dried, whole moringa leaves systematically cleaned of stems and organic residue, keeping vital chlorophyll intact.",
+        "description": "Carefully dried moringa leaves processed into flakes while maintaining their natural green colour and characteristic aroma.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Double poly-lined woven sacks (15 kg)",
-          "purity": "USDA & APEDA Organic Certified",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "100 g–25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food Grade / Export Grade",
           "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -786,31 +786,103 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.moringaTea
         ],
-        "description": "Premium cut moringa leaves blended with aromatic herbs to create a high-antioxidant, caffeine-free daily wellness infusion.",
+        "description": "Premium dried moringa leaves selected and processed for use as a natural herbal tea ingredient.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Customized filter tea bags in composite tins",
-          "purity": "USDA & APEDA Organic Certified",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "Retail pouches, tea bags & bulk packs",
+          "purity": "100% Pure Moringa",
+          "grade": "Food Grade / Export Grade",
           "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "m-extract",
-        "name": "Moringa Extract",
+        "id": "m-seed-powder",
+        "name": "Moringa Seed Powder / Murungai Vidhai Powder l Drumstick Seed Powder",
         "category": "Moringa Products",
         "images": [
           IMAGES.exportProducts.moringaExtract
         ],
-        "description": "High-potency bioactive moringa leaf extract standardized for total flavonoids and saponin ratios, for clinical use.",
+        "description": "Finely processed moringa seed powder suitable for selected food, nutraceutical and industrial applications, subject to buyer specifications.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Latur Organic Farms, India",
-          "packaging": "Food-grade HDPE canisters",
-          "purity": "USDA & APEDA Organic Certified",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Industrial Grade depending on application",
+          "minOrder": "200 Kilograms"
+        },
+        "createdAt": "2026-05-31"
+      },
+      {
+        "id": "m-seeds",
+        "name": "Moringa Seeds",
+        "category": "Moringa Products",
+        "images": [
+          IMAGES.exportProducts.moringaExtract
+        ],
+        "description": "Carefully selected and cleaned moringa seeds sourced from India for food, agricultural, processing and other specified applications.",
+        "pricing": "Contact Trade Desk",
+        "specifications": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg & customized bulk packing",
+          "purity": "100% Pure Moringa",
+          "grade": "Export Grade",
+          "minOrder": "200 Kilograms"
+        },
+        "createdAt": "2026-05-31"
+      },
+      {
+        "id": "m-seed-oil",
+        "name": "Moringa Seed Oil",
+        "category": "Moringa Products",
+        "images": [
+          IMAGES.exportProducts.moringaExtract
+        ],
+        "description": "Premium oil obtained from moringa seeds, suitable for cosmetic, personal-care, wellness and industrial applications depending on specification.",
+        "pricing": "Contact Trade Desk",
+        "specifications": {
+          "origin": "India",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & bulk",
+          "purity": "100% Pure Moringa",
+          "grade": "Cosmetic / Industrial Grade",
+          "minOrder": "200 Kilograms"
+        },
+        "createdAt": "2026-05-31"
+      },
+      {
+        "id": "m-leaf-extract",
+        "name": "Moringa Leaf Extract",
+        "category": "Moringa Products",
+        "images": [
+          IMAGES.exportProducts.moringaExtract
+        ],
+        "description": "Concentrated moringa leaf extract designed for use as an ingredient in nutraceutical, herbal and functional-food formulations.",
+        "pricing": "Contact Trade Desk",
+        "specifications": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Nutraceutical Grade as specified",
+          "minOrder": "200 Kilograms"
+        },
+        "createdAt": "2026-05-31"
+      },
+      {
+        "id": "m-capsules",
+        "name": "Moringa Capsules / Tablets",
+        "category": "Moringa Products",
+        "images": [
+          IMAGES.exportProducts.moringaExtract
+        ],
+        "description": "Moringa-based dietary supplement products manufactured according to applicable specifications and regulatory requirements.",
+        "pricing": "Contact Trade Desk",
+        "specifications": {
+          "origin": "India",
+          "packaging": "Bottles, jars, cartons",
+          "purity": "100% Pure Moringa",
+          "grade": "Dietary Supplement Grade",
           "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"

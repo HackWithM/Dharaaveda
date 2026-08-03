@@ -304,7 +304,7 @@ router.post(
       return;
     }
 
-    const amount = 2000; // ₹2,000 per session
+    const amount = 1; // ₹1 per session (test amount)
 
     let orderId = "";
     const keyId = process.env.RAZORPAY_KEY_ID;
@@ -352,7 +352,7 @@ router.post(
 
     res.status(201).json({
       booking,
-      keyId: keyId || "rzp_test_mock_key_id",
+      keyId: keyId || "",
       isMock: !keyId
     });
   })
@@ -431,7 +431,7 @@ router.post(
       amount: reqAmount
     } = req.body;
 
-    const amount = reqAmount || 2000; // ₹2,000 per session
+    const amount = reqAmount || 1; // ₹1 per session (test amount)as per the sessionnbut it will be based on the services
 
     // Guard: reject if this time slot is already booked and paid
     if (service && date && time) {
@@ -489,7 +489,7 @@ router.post(
       orderId,
       amount: amount * 100,
       currency: "INR",
-      keyId: keyId || "rzp_test_mock_key_id",
+      keyId: keyId || "",
       isMock: !keyId
     });
   })
@@ -555,7 +555,7 @@ router.post(
     }
 
     // Save booking to MongoDB only after payment is verified successfully
-    const finalAmount = amount || 2000;
+    const finalAmount = amount || 1;
     const booking = await Booking.create({
       _id: "bk_" + Date.now().toString(),
       bookingId: "BK-" + Math.floor(100000 + Math.random() * 900000),
@@ -674,7 +674,7 @@ router.post(
     const date = notes.date || "";
     const time = notes.time || "";
     const bookingNotes = notes.booking_notes || "";
-    const finalAmount = parseInt(notes.amount || "2000", 10);
+    const finalAmount = parseInt(notes.amount || "1", 10);
 
     if (!email || !date || !time) {
       console.error("[Webhook] Critical booking details missing in order notes:", notes);

@@ -1486,7 +1486,7 @@ export const translations: StaticTranslations = {
     "homeTitle": "Santuario DharaAveda | Exportaciones de sanación cuántica restaurativa y bienestar premium",
     "homeDesc": "DharaAveda Sanctuary combina la terapia clásica de flores silvestres de Bach, la alineación de los chakras Usui Reiki, aceites cromoesenciales Aura-Soma y sintonías sonoras.",
     "exportTitle": "División de Comercio Agrícola | Santuario de Dhara Aveda",
-    "exportDesc": "Cardamomo verde premium de fuente directa, resina Shilajit pura y extractos de aromaterapia orgánicos. Cumplimiento autorizado APEDA y SGS.",
+    "exportDesc": "Cardamomo verde premium de fuente directa, resina pura de Shilajit y extractos de aromaterapia orgánicos. Cumplimiento autorizado APEDA y SGS.",
     "wellnessTitle": "Santuario y terapias cuánticas restaurativas | DharaAveda",
     "wellnessDesc": "Experimente Usui Reiki, consultas de flores de Bach y terapia de sonido de 432 Hz en nuestro santuario Wayanad en Kerala.",
     "bookingTitle": "Programe su residencia Attunement | DharaAveda",

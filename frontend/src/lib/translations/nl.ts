@@ -82,7 +82,7 @@ export const translations: StaticTranslations = {
     "highlightsExport4Desc": "Aangepaste vacuümbarrièreafdichting, SGS-certificeringen en aangepaste poortregistraties.",
     "highlightsTherapy1": "Bachbloesemtherapie",
     "highlightsTherapy1Desc": "Op maat gemaakte vloeibare remedies geselecteerd voor actieve cognitieve stress en neurale ontspanning.",
-    "highlightsTherapy2": "Rekkhanoho/Reiki",
+    "highlightsTherapy2": "Rekkhanoho / Reiki",
     "highlightsTherapy2Desc": "Niet-invasieve balans van bioveldchakra en herstel van chromatisch energieveld.",
     "highlightsTherapy3": "Emotioneel welzijn",
     "highlightsTherapy3Desc": "Herstelprotocollen voor het zenuwstelsel ontworpen om vermoeidheid in de levensstijl op te lossen.",
@@ -1492,6 +1492,6 @@ export const translations: StaticTranslations = {
     "bookingTitle": "Plan uw afstemmingsresidentie | DharaAveda",
     "bookingDesc": "Reserveer uw vertrouwelijke intakegesprek voor Reiki-afstemming, Bachbloesemconsulten of diepe klankhealing.",
     "contactTitle": "Neem contact op met de Raadsbalie | DharaAveda",
-    "contactDesc": "Neem contact op voor bulktransporten van landbouwproducten, grondstoffencontracten of wellness-opnames in heiligdommen."
+    "contactDesc": "Neem contact op voor bulktransporten van landbouwproducten, goederencontracten of wellness-opnames in heiligdommen."
   }
 };

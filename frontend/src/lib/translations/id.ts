@@ -74,7 +74,7 @@ export const translations: StaticTranslations = {
     "whyReachTitle": "Jangkauan Global",
     "whyReachDesc": "Reliable freight shipping lanes delivering to leading importers in 34+ countries.",
     "whyHolisticTitle": "Kesehatan Holistik",
-    "whyHolisticDesc": "Penyembuhan sel yang mendalam di dalam cagar alam pegunungan yang murni dan alami.",
+    "whyHolisticDesc": "Penyembuhan seluler mendalam di dalam cagar alam pegunungan yang murni.",
     "highlightsTitle": "Sorotan Unggulan",
     "highlightsSubtitle": "Area fokus utama operasi kami",
     "exportHighlightTitle": "Fokus Divisi Ekspor",
@@ -114,10 +114,10 @@ export const translations: StaticTranslations = {
   },
   "export": {
     "division": "Divisi Perdagangan Internasional",
-    "heroTitle": "Logistik Logistik Tanaman Elit",
-    "heroDesc": "DharaAveda menghubungkan perkebunan botani di India dengan apotek global premium, rumah kosmetik, dan importir makanan. Sistem kami menjamin pengiriman massal shilajit Himalaya asli, kapulaga tebal, minyak dasar akar wangi, dan ekstrak adaptogenik yang terverifikasi penelusurannya berdasarkan kepatuhan fitosanitasi mutlak.",
-    "apedaAuth": "Resmi APEDA",
-    "sgsPurity": "Lab Kemurnian SGS Diuji",
+    "heroTitle": "KEUNGGULAN RANTAI PASOKAN GLOBAL",
+    "heroDesc": "Dharaaveda Global Exim mengkhususkan diri dalam mengekspor produk pertanian premium, bahan makanan, dan produk kesehatan alami ke pelanggan di seluruh dunia. Sumber daya, jaminan kualitas, dan jaringan logistik kami yang terintegrasi memastikan pengiriman yang andal, ketertelusuran yang lengkap, dan kepatuhan terhadap peraturan perdagangan internasional dan keamanan pangan.",
+    "apedaAuth": "Sumber Etis",
+    "sgsPurity": "Logistik Seluruh Dunia",
     "cargoTransit": "TRANSIT KARGO GLOBAL",
     "cargoDesc": "Perutean Kargo Pengiriman Laut & Udara",
     "secure": "AMAN",
@@ -129,7 +129,7 @@ export const translations: StaticTranslations = {
     "freightNetworks": "Jaringan Pengangkutan Global",
     "operationsTitle": "Operasi Perdagangan Dibangun Berdasarkan Integritas",
     "sgsTitle": "Verifikasi SGS Penuh",
-    "sgsDesc": "Setiap lot jejak menjalani kromatografi gas & uji kemurnian analitis. Kepatuhan terhadap fitosanitasi menjamin rute kustom pelabuhan tanpa kerumitan.",
+    "sgsDesc": "Setiap lot jejak menjalani kromatografi gas & uji kemurnian analitis. Kepatuhan terhadap fitosanitasi menjamin perutean pelabuhan yang bebas kerumitan.",
     "isoTitle": "Standar Timbal Balik ISO",
     "isoDesc": "Beroperasi di bawah pedoman kebersihan internasional yang ketat. Pengemasan kedap vakum menghalangi sinar UV kosmik, menjaga kesegaran tetap utuh selama transit.",
     "originTitle": "Wayanad Asal Langsung",
@@ -178,7 +178,7 @@ export const translations: StaticTranslations = {
           },
           {
             "title": "Lada Malabar",
-            "desc": "Buah lada hitam ekstra tebal dihargai karena panasnya piperin dan aroma hutan yang kompleks."
+            "desc": "Buah lada hitam ekstra tebal dihargai karena panasnya piperine dan aroma hutan yang kompleks."
           },
           {
             "title": "Cabai Giling Cryo",
@@ -193,12 +193,14 @@ export const translations: StaticTranslations = {
       "veg_powders": {
         "badge": "Meja Bubuk Sayur",
         "title": "Bubuk Sayuran Dehidrasi Murni",
-        "description": "Sayuran pertanian mengalami dehidrasi pada suhu rendah yang dikontrol secara ketat untuk melindungi nutrisi bioaktif, profil warna, dan kedalaman rasa. Ideal untuk makanan siap saji, mixer, dan formulasi farmasi.",
+        "description": "Kebaikan Alam, Dilestarikan Secara Ahli\n\nDharaaveda Global Exim menawarkan rangkaian Bubuk Sayuran Dehidrasi premium yang dibuat dari sayuran segar pertanian yang dipilih dengan cermat menggunakan teknologi dehidrasi canggih. Produk kami mempertahankan warna, aroma, rasa, dan nilai gizi alaminya, menjadikannya ideal untuk berbagai pengolahan makanan dan aplikasi industri.\n\nDiproses dalam kondisi higienis yang ketat dan mematuhi standar kualitas internasional, bubuk nabati kami dipercaya oleh produsen makanan, perusahaan nutraceutical, produsen bumbu, dan eksportir di seluruh dunia. Kami berkomitmen untuk memberikan kualitas yang konsisten, pasokan yang andal, dan solusi pengemasan yang disesuaikan untuk memenuhi beragam kebutuhan pelanggan global.",
         "highlights": [
-          "100% padatan nabati asli, tanpa bahan tambahan apa pun",
-          "Pengeringan suhu rendah yang menyimpan sel",
-          "Kelarutan dan dispersi kering yang sangat baik",
-          "Kualitas alami yang mengalir bebas dan tidak menggumpal"
+          "100% Alami & Kualitas Premium",
+          "Diproses Secara Higienis",
+          "Tanpa Pewarna atau Pengawet Buatan",
+          "Kualitas yang Konsisten untuk Pasar Ekspor",
+          "Opsi Pengemasan Massal & Eceran",
+          "Spesifikasi Khusus Tersedia Berdasarkan Permintaan"
         ],
         "benefits": [
           "Rasio pemulihan air instan",
@@ -231,12 +233,15 @@ export const translations: StaticTranslations = {
       "fruit_powders": {
         "badge": "Meja Bubuk Buah",
         "title": "Bubuk & Pelarut Buah Orchard",
-        "description": "Bubuk buah kering semprot premium dan dehidrasi suhu rendah yang menangkap rasa manis sejati, gula organik, dan vitamin dari buah-buahan kebun yang matang di bawah sinar matahari. Sangat populer dalam minuman, kembang gula, dan makanan bayi.",
+        "description": "Bubuk Buah Premium untuk Industri Makanan Global\n\nDharaaveda Global Exim menawarkan rangkaian Bubuk Buah Dehidrasi premium yang diproduksi dari buah-buahan berkualitas tinggi yang dipilih dengan cermat menggunakan teknologi dehidrasi canggih. Bubuk buah kami menjaga rasa, aroma, warna, dan kebaikan nutrisi alami dari buah-buahan segar, menjadikannya bahan yang ideal untuk berbagai macam aplikasi makanan, minuman, nutraceutical, dan kembang gula.\n\nDiproduksi dalam kondisi higienis yang ketat dan sesuai dengan standar kualitas internasional, produk kami dipercaya oleh pengolah makanan, produsen minuman, perusahaan suplemen kesehatan, dan importir global. Kami berkomitmen untuk menyediakan kualitas yang konsisten, pasokan yang andal, dan solusi pengemasan yang disesuaikan untuk memenuhi kebutuhan pasar internasional yang terus berkembang.",
         "highlights": [
-          "Semprot-kering langsung dari pulp organik",
-          "Tidak ada tambahan gula, sulfit atau pewarna",
-          "Sangat larut dalam cairan panas dan dingin",
-          "Pilihan makanan super padat nutrisi"
+          "100% Alami & Kualitas Premium",
+          "Diproses Secara Higienis",
+          "Tanpa Pewarna, Perasa, atau Pengawet Buatan",
+          "Kaya Rasa & Aroma Alami",
+          "Produk Berkualitas Ekspor",
+          "Opsi Pengemasan Massal & Eceran",
+          "Spesifikasi Khusus Tersedia Berdasarkan Permintaan"
         ],
         "benefits": [
           "Aroma buah murni dan bau manis",
@@ -246,7 +251,7 @@ export const translations: StaticTranslations = {
         ],
         "packaging": "Kantong tertutup vakum aluminium foil di dalam kotak utama bergelombang.",
         "capability": "8-10 Metrik Ton per FCL. Dukungan pengemasan label pribadi.",
-        "shippingInfo": "Kargo udara ekspres atau transportasi kontainer laut dengan pemantauan suhu.",
+        "shippingInfo": "Kargo udara ekspres atau angkutan kontainer laut dengan pemantauan suhu.",
         "features": [
           {
             "title": "Pisang Cavendish",
@@ -272,7 +277,7 @@ export const translations: StaticTranslations = {
         "description": "Daun, bubuk, teh, dan ekstrak Kelor Moringa oleifera yang dibudidayakan secara organik bersumber dari perkebunan India dengan hasil tinggi dan bebas pestisida. Diproses di bawah protokol pengeringan bayangan untuk melindungi asam amino esensial.",
         "highlights": [
           "USDA & APEDA Tanaman bersertifikat organik",
-          "Perawatan daun kering bayangan yang ketat",
+          "Pengawetan daun kering bayangan yang ketat",
           "Terstandar fitokimia dan flavonoid",
           "Bahan daun bersih 99,9%, tanpa pasir"
         ],
@@ -345,7 +350,7 @@ export const translations: StaticTranslations = {
       "dehydrated_veg": {
         "badge": "Meja Sayuran Dehidrasi",
         "title": "Sayuran Dehidrasi Higienis",
-        "description": "Bawang bombay, bawang putih, jahe, dan sayuran lainnya yang diiris bersih mengalami dehidrasi di bawah ruang aliran udara canggih. Bersumber langsung dari sabuk pertanian yang sesuai dengan fitonutrien untuk kinerja rehidrasi dan rasa yang sangat baik.",
+        "description": "Bawang bombay, bawang putih, jahe, dan sayuran lainnya yang diiris bersih mengalami dehidrasi di bawah ruang aliran udara canggih. Bersumber langsung dari lahan pertanian yang sesuai dengan fitopatriat untuk kinerja rehidrasi dan rasa yang sangat baik.",
         "highlights": [
           "Tidak ada sulfit, belerang atau bahan pengawet yang digunakan",
           "Kadar air sisa yang rendah (<5%)",
@@ -368,11 +373,11 @@ export const translations: StaticTranslations = {
           },
           {
             "title": "Siung Bawang Putih",
-            "desc": "Siung bawang putih kering yang dibelah, dikupas dengan cermat dan disortir Sortex untuk menghilangkan jelaga."
+            "desc": "Siung bawang putih kering yang dibelah, dikupas dengan cermat dan disortir untuk menghilangkan jelaga."
           },
           {
             "title": "Irisan Jahe",
-            "desc": "Irisan jahe kering yang bersih memiliki rasa panas yang menyengat dan kandungan gingerol aktif yang tinggi."
+            "desc": "Irisan jahe kering yang bersih menahan panas yang kuat dan kandungan gingerol aktif yang tinggi."
           },
           {
             "title": "Tomat Anggur",
@@ -431,7 +436,7 @@ export const translations: StaticTranslations = {
     "aligning": "Menyelaraskan Diagnostik Aura...",
     "scheduler": "Penjadwal Residensi Harmonis",
     "title": "Jadwalkan Terapi Anda",
-    "formDesc": "Cadangan bunga Bach campuran khusus, penyelarasan Reiki, atau penyembuhan suara terapi kuarsa dalam.",
+    "formDesc": "Cadangan bunga Bach yang dicampur khusus, penyelarasan Reiki, atau penyembuhan suara terapi kuarsa dalam.",
     "successTitle": "Reservasi Tempat Tinggal Dimulai",
     "successDesc": "Terima kasih, {nama}. Permintaan janji temu Anda untuk {service} telah dicatat dalam buku besar perlindungan kami yang aman.",
     "slipTitle": "Slip Sesi yang Diminta",
@@ -496,7 +501,7 @@ export const translations: StaticTranslations = {
     "pricingModel": "Model Penetapan Harga",
     "sendInquiry": "Kirim Pertanyaan / Penawaran",
     "close": "Menutup",
-    "apedaCompliant": "Standar Kargo Ekspor Sesuai APEDA",
+    "apedaCompliant": "Produk Kualitas Premium|| Pengadaan yang Etis & Berkelanjutan|| Solusi Pengemasan yang Disesuaikan!",
     "inquiryRequestQuote": "Minta Penawaran",
     "inquiryDirectAccess": "Akses langsung ke Meja Ekspor Pertanian kami untuk",
     "inquirySuccessTitle": "Permintaan Penawaran Dicatat",
@@ -612,7 +617,7 @@ export const translations: StaticTranslations = {
       },
       "moringa": {
         "title": "Produk Kelor",
-        "desc": "Daun, bubuk, teh, dan ekstrak Kelor Moringa oleifera murni yang bersumber dari budidaya hasil tinggi bebas pestisida."
+        "desc": "Kami menawarkan produk berbahan dasar kelor berkualitas premium yang bersumber dari India, diproses dengan cermat dan dikemas untuk pasar makanan, nutraceutical, herbal, kesehatan, dan ekspor internasional."
       },
       "seeds": {
         "title": "Kategori Benih",
@@ -634,85 +639,85 @@ export const translations: StaticTranslations = {
     "items": {
       "s-turmeric": {
         "name": "Bubuk Kunyit",
-        "desc": "Bubuk kunyit kuning keemasan yang digiling dari rimpang Erode pilihan, menawarkan tingkat kurkumin aktif tinggi yang cocok untuk penggunaan farmasi dan makanan B2B.",
+        "desc": "Kunyit Bubuk adalah bumbu berkualitas premium yang terbuat dari rimpang kunyit pilihan, menawarkan warna kuning keemasan cerah, aroma kaya, dan rasa otentik. Banyak digunakan dalam aplikasi kuliner, farmasi, nutraceutical, kosmetik, dan Ayurveda, diproses secara higienis untuk memenuhi standar kualitas internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Erode & Salem Estates, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "Kurkumin > 5% Bersertifikat, Murni",
-          "grade": "A++ High-Curcumin Gold",
+          "origin": "Daerah Pertumbuhan Premium di India",
+          "packaging": "Bubuk Halus • Jari Kunyit Utuh • Jari Kunyit Poles • Butiran Kunyit • Ukuran Jaring Khusus",
+          "purity": "Lab NABL Diuji • Kualitas Terjamin",
+          "grade": "Makanan • Farmasi • Nutraceuticals • Kosmetika • Ayurveda",
           "minOrder": "500 Kilogram"
         }
       },
       "s-redchilli": {
         "name": "Bubuk Cabai Merah",
-        "desc": "Bubuk cabai merah Guntur Sannam menawarkan warna yang dalam dan tingkat panas yang dapat disesuaikan untuk dapur internasional.",
+        "desc": "Bubuk Cabai Merah kami terbuat dari cabai merah kering berkualitas premium yang dipilih dengan cermat, menawarkan warna merah alami yang cerah, aroma yang kaya, dan kepedasan yang seimbang. Diproses secara higienis untuk menjaga kesegaran dan citarasanya, sangat ideal untuk pengolahan makanan, racikan bumbu, bumbu penyedap, saus, makanan siap saji, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Wilayah Guntur, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "Aflatoksin & Pewarna Sudan Negatif",
-          "grade": "Pilihan Merah Terang Kashmir",
+          "packaging": "• Serbuk Halus • Penggilingan Sedang • Penggilingan Kasar • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis • Kualitas Terjamin",
+          "grade": "• Pengolahan Makanan • Campuran Rempah-rempah • Bumbu • Saus • Acar • Makanan Siap Saji",
           "minOrder": "500 Kilogram"
         }
       },
       "s-coriander": {
         "name": "bubuk ketumbar",
-        "desc": "Bubuk ketumbar utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Bubuk Ketumbar kami dibuat dari biji ketumbar premium, memberikan aroma yang kaya, rasa otentik, dan kualitas yang konsisten. Diproses dengan hati-hati dalam kondisi higienis, sangat ideal untuk produsen makanan, pencampur bumbu, dan pembeli global.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Rajasthan & Madhya Pradesh, India",
+          "packaging": "Kantong Kertas Kraft Multi Lapis 25 kg • Serbuk Halus • Serbuk Kasar • Biji Ketumbar Utuh",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Kelas Ekspor • Mesin Dibersihkan",
           "minOrder": "500 Kilogram"
         }
       },
       "s-cumin": {
         "name": "Bubuk Jinten",
-        "desc": "Bubuk jintan utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Bubuk Jintan kami digiling halus dari biji jintan premium yang dipilih dengan cermat, menghasilkan aroma tanah yang kaya, rasa hangat, dan kesegaran alami. Diproses secara higienis untuk menjaga cita rasa dan kualitas aslinya, banyak digunakan dalam campuran rempah-rempah, penyedap rasa, pengolahan makanan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Gujarat & Rajasthan, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Serbuk Halus • Penggilingan Sedang • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Bumbu • Makanan Siap Saji • Saus • Makanan Ringan",
           "minOrder": "500 Kilogram"
         }
       },
       "s-blackpepper": {
         "name": "Lada Hitam",
-        "desc": "Buah lada hitam utuh kelas 1 yang dipanen dari lereng bersejarah Malabar, menghasilkan panas piperin yang menyengat dan aroma kayu yang kompleks.",
+        "desc": "Lada Hitam kami bersumber dari merica premium yang dipilih dengan cermat, yang dikenal karena aromanya yang kuat, kepedasan yang tajam, dan rasa yang kaya. Diproses secara higienis dan kualitas terjamin, ideal untuk aplikasi kuliner, campuran rempah-rempah, pengolahan makanan, farmasi, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Hutan Dataran Tinggi Wayanad, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "Kelembapan <11,5% Bersertifikat",
-          "grade": "Tellicherry Ekstra Berani (TGSEB)",
+          "origin": "Kerala & Karnataka, India",
+          "packaging": "Kantong Kertas Kraft Multi Lapis 25 kg • Lada Hitam Utuh • Lada Hitam Pecah • Lada Hitam Giling • Giling Kasar",
+          "purity": "Lab NABL Diuji • Kelembapan sesuai Spesifikasi Pembeli",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Bumbu • Bumbu-bumbu • Obat-obatan • Nutraceuticals",
           "minOrder": "500 Kilogram"
         }
       },
       "s-cardamom": {
         "name": "Kapulaga",
-        "desc": "Buah kapulaga hijau premium yang montok menampilkan cangkang zamrud alami yang indah dan kadar minyak biji esensial yang tinggi.",
+        "desc": "Kapulaga premium kami bersumber dari daerah penghasil rempah-rempah terkenal di India, menawarkan aroma yang kaya, rasa yang khas, dan warna alami yang cerah. Diproses secara higienis dan kualitas terjamin, ideal untuk aplikasi kuliner, roti, kembang gula, minuman, farmasi, dan ekspor.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Bukit Kapulaga, Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "Bebas dari pemoles buatan",
-          "grade": "Bold Premium Extra Emerald (8mm+)",
+          "origin": "Idukki, Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi Lapis 25 kg • Kapulaga Hijau Utuh • Biji Kapulaga • Bubuk Kapulaga",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Roti • Kembang Gula • Minuman • Obat-obatan • Ayurveda",
           "minOrder": "200 Kilogram"
         }
       },
       "s-cloves": {
         "name": "Cengkih",
-        "desc": "Cengkih coklat utuh dikeringkan hingga tingkat kelembapan optimal untuk mengawetkan senyawa eugenol aromatik.",
+        "desc": "Cengkih premium kami diperoleh dengan hati-hati karena aromanya yang kaya, rasa yang kuat, dan kandungan minyak alami. Diproses secara higienis dan kualitas terjamin, ideal untuk aplikasi kuliner, farmasi, dan ekspor.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Nilgiris, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Cengkih utuh pilihan tangan",
+          "origin": "Kerala & Tamil Nadu, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Cengkih Utuh Pilihan",
           "minOrder": "200 Kilogram"
         }
       },
@@ -730,97 +735,97 @@ export const translations: StaticTranslations = {
       },
       "s-nutmeg": {
         "name": "Pala",
-        "desc": "Pala utuh dan pala tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Pala premium kami bersumber dari daerah penghasil rempah-rempah pilihan, menawarkan aroma yang kaya, rasa hangat, dan kesegaran alami. Diproses secara higienis dan kualitas terjamin, ideal untuk aplikasi kuliner, roti, kembang gula, farmasi, dan kesehatan.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Kerala, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Pala Utuh • Bubuk Pala • Pala Retak",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Roti • Kembang Gula • Minuman • Campuran Rempah-rempah • Obat-obatan • Ayurveda",
           "minOrder": "500 Kilogram"
         }
       },
       "s-staranise": {
         "name": "Adas Bintang",
-        "desc": "Adas bintang utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Star Anise adalah rempah aromatik premium dengan bentuk bintang yang khas dan rasa manis seperti licorice. Ideal untuk aplikasi kuliner, herbal, minuman, farmasi, dan minyak esensial, produk ini diperoleh dan diproses dengan cermat untuk memastikan kualitas dan kesegaran yang luar biasa.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Arunachal Pradesh & India Timur Laut",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Eceran Khusus • Utuh • Rusak • Bubuk",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Kuliner • Campuran Rempah-rempah • Produk Herbal • Minuman • Farmasi",
           "minOrder": "500 Kilogram"
         }
       },
       "s-fennel": {
         "name": "Biji Adas",
-        "desc": "Biji adas utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Biji Adas premium kami bersumber secara hati-hati dari daerah pertumbuhan terbaik di India, menawarkan aroma manis alami, rasa menyegarkan, dan warna hijau cerah. Diproses secara higienis dan kualitas terjamin, ideal untuk aplikasi kuliner, kembang gula, minuman, farmasi, dan kesehatan.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Rajasthan & Gujarat, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Eceran Khusus • Biji Adas Utuh • Bubuk Adas • Adas Hancur",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Roti • Kembang Gula • Minuman • Produk Herbal • Ayurveda",
           "minOrder": "500 Kilogram"
         }
       },
       "s-mustard": {
         "name": "Biji Sawi",
-        "desc": "Biji sawi utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Benih Mustard premium kami bersumber secara hati-hati dari daerah pertumbuhan terkemuka di India, menawarkan aroma yang kaya, kepedasan alami, dan kualitas unggul. Diproses secara higienis dan kualitas terjamin.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Rajasthan & Uttar Pradesh, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Eceran Khusus • Biji Mustard Utuh • Bubuk Mustard • Mustard Hancur",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Acar • Bumbu • Ekstraksi Minyak • Bumbu",
           "minOrder": "500 Kilogram"
         }
       },
       "s-bayleaves": {
         "name": "Daun salam",
-        "desc": "Daun salam utuh dan daun giling tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Daun Salam premium kami bersumber secara hati-hati dari daerah pertumbuhan terpilih, menawarkan aroma khas, rasa bersahaja yang lembut, dan kesegaran alami. Diproses secara higienis dan kualitasnya terjamin, ideal untuk kuliner, racikan bumbu, pengolahan makanan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "Uttarakhand & Himachal Pradesh, India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Eceran Khusus • Daun Salam Utuh • Daun Salam Hancur • Bubuk Daun Salam",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Rempah-rempah • Sup • Kari • Hidangan Nasi • Bumbu • Produk Herbal",
           "minOrder": "500 Kilogram"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Garam masala utuh dan bubuk tradisional diproses dengan penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Garam Masala premium kami diracik secara ahli menggunakan bumbu utuh yang dipilih dengan cermat untuk menghasilkan aroma yang kaya, rasa seimbang, dan rasa otentik. Diproses secara higienis dan kualitas terjamin, ideal untuk dapur rumah, pengolahan makanan, restoran, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Bubuk Halus • Campuran Kasar • Campuran Rempah Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Memasak • Kari • Kuah daging • Bumbu-bumbu • Makanan Ringan • Makanan Siap Saji • Pengolahan Makanan",
           "minOrder": "500 Kilogram"
         }
       },
       "s-mixedspice": {
         "name": "Campuran Rempah Campuran",
-        "desc": "Campuran bumbu tradisional utuh dan bubuk yang digiling diproses di bawah penggilingan suhu rendah untuk melindungi fraksi aromatik.",
+        "desc": "Campuran Rempah Campuran premium kami dibuat secara ahli menggunakan rempah-rempah yang dipilih dengan cermat untuk menghasilkan aroma yang konsisten, rasa otentik, dan kualitas unggul. Diproses secara higienis dan kualitas terjamin, ideal untuk produsen makanan, restoran, merek ritel, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Sabuk Rempah Kerala, India",
-          "packaging": "Kantong Kertas Kraft Multi-lapis (25 kg)",
-          "purity": "100% Murni, Bebas Logam Berat",
-          "grade": "Kualitas Ekspor Premium",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal, Retail & Private Label Khusus • Campuran yang Tersedia: Garam Masala, Kitchen King, Chaat Masala, Pav Bhaji, Biryani, Sabzi, Sambar, Rasam, Teh, Kala, Kanda Lasun, Peri Peri, Campuran Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Campuran Siap Masak • Bumbu • Bumbu Perendam • Makanan Ringan • Saus • Restoran & Katering",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-beetroot": {
         "name": "Bubuk Bit",
-        "desc": "Bubuk bit merah kaya yang mempertahankan betalain alami, nitrat, dan serat makanan yang tinggi untuk campuran kesehatan.",
+        "desc": "Bubuk Bit premium kami terbuat dari bit yang dipilih dengan cermat, menawarkan warna alami yang cerah, kaya rasa, dan kualitas unggul. Diproses secara higienis untuk menjaga kebaikan alaminya, sangat ideal untuk pengolahan makanan, minuman, roti, nutraceuticals, makanan kesehatan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Dataran Weda, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Makanan Kesehatan • Minuman • Smoothie • Roti • Pengolahan Makanan • Nutraceuticals • Pewarna Makanan Alami",
           "minOrder": "500 Kilogram"
         }
       },
@@ -838,121 +843,121 @@ export const translations: StaticTranslations = {
       },
       "vp-potato": {
         "name": "Bubuk Kentang",
-        "desc": "Bubuk kentang dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "desc": "Bubuk Kentang premium kami dihasilkan dari kentang pilihan, menawarkan tekstur halus, rasa alami, dan konsistensi luar biasa. Diproses secara higienis dan kualitas terjamin, sangat ideal untuk sup, saus, makanan ringan, produk roti, pengolahan makanan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Sup • Saus • Makanan Ringan • Roti • Campuran Instan • Makanan Siap Saji",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-garlic": {
         "name": "Bubuk Bawang Putih",
-        "desc": "Bubuk bawang putih pekat yang digiling dari umbi aromatik, menghasilkan rasa dan dispersibilitas allicin yang kuat.",
+        "desc": "Bubuk Bawang Putih premium kami terbuat dari siung bawang putih yang dipilih dengan cermat, memberikan aroma yang kaya, rasa otentik, dan konsistensi yang sangat baik. Diproses secara higienis dan kualitas terjamin, sangat ideal untuk bumbu masak, racikan rempah, saus, makanan ringan, pengolahan makanan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Serbuk Kasar • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Bumbu • Campuran Rempah-rempah • Saus • Makanan Ringan • Makanan Siap Saji • Roti",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-ginger": {
         "name": "Bubuk Jahe",
-        "desc": "Bubuk akar jahe halus mengemas kehangatan gingerol yang ampuh, banyak digunakan dalam pembuatan gula-gula dan campuran teh herbal.",
+        "desc": "Bubuk Jahe premium kami terbuat dari rimpang jahe pilihan, menawarkan aroma yang kaya, rasa hangat, dan kesegaran alami. Diproses secara higienis dan kualitas terjamin, sangat ideal untuk pengolahan makanan, minuman, roti, nutraceuticals, campuran rempah-rempah, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Perbukitan Timur Laut, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Serbuk Kasar • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Minuman • Roti • Campuran Rempah-rempah • Bumbu • Nutraceuticals • Ayurveda",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-onion": {
         "name": "Bubuk Bawang",
-        "desc": "Bubuk bawang putih/merah dehidrasi menghadirkan rasa manis dan semangat bawang bombay yang cepat ke dalam campuran makanan.",
+        "desc": "Bubuk Bawang premium kami terbuat dari bawang bombay pilihan, menawarkan aroma yang kaya, rasa otentik, dan konsistensi yang sangat baik. Diproses secara higienis dan kualitas terjamin, sangat ideal untuk bumbu masak, racikan rempah, sup, saus, makanan ringan, pengolahan makanan, dan pasar ekspor internasional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Wilayah Nashik, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Serbuk Kasar • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Pengolahan Makanan • Bumbu • Campuran Rempah-rempah • Sup • Saus • Makanan Ringan • Makanan Siap Saji",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-spinach": {
         "name": "Bubuk Bayam",
-        "desc": "Bubuk hijau halus yang dikeringkan dari daun bayam bermutu tinggi, mengunci zat besi makanan dan warna klorofil alami.",
+        "desc": "Bubuk Bayam kami dibuat dari daun bayam segar yang dipilih dengan cermat, didehidrasi dengan lembut dan digiling halus untuk mempertahankan warna hijau alami, nutrisi, dan aroma daun segar. Kaya akan zat besi, serat makanan, vitamin, dan klorofil alami, banyak digunakan dalam industri makanan, nutraceutical, roti, dan makanan kesehatan.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kaki Bukit Himalaya, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Massal & Eceran Khusus • Serbuk Halus • Ukuran Jaring Khusus (berdasarkan permintaan)",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Nutraceuticals • Smoothie & Minuman • Sup & Saus • Roti & Kue • Pasta & Mie • Bumbu",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-carrot": {
         "name": "Bubuk Wortel",
-        "desc": "Bubuk wortel dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "desc": "Bubuk Wortel kami dibuat dari wortel segar pilihan yang diproses secara higienis, didehidrasi dengan lembut, dan digiling halus untuk mempertahankan warna alami, rasa manis, dan nilai gizinya. Kaya akan beta-karoten alami, ia banyak digunakan dalam industri makanan, minuman, nutraceutical, dan roti.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Suplemen Kesehatan • Sup & Saus • Roti & Kembang Gula • Formulasi Makanan Bayi • Smoothie & Minuman",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-cabbage": {
         "name": "Bubuk Kubis",
-        "desc": "Bubuk kubis dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "desc": "Bubuk Kubis kami dihasilkan dari kubis segar pilihan yang diproses secara higienis, dikeringkan dengan lembut, dan digiling halus untuk menjaga rasa, warna, dan nilai gizi alaminya. Ini banyak digunakan dalam pengolahan makanan, campuran bumbu, sup, makanan siap saji, dan aplikasi makanan kesehatan.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Sup & Saus • Campuran Bumbu & Rempah-rempah • Campuran Makanan Instan • Makanan Siap Saji • Produk Roti • Makanan Ringan",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-moringa": {
-        "name": "Bubuk Stik Drum (Kelor).",
-        "desc": "Polong kelor yang bergizi dan bubuk daunnya diproses di ruang bersih untuk mempertahankan jumlah vitamin dan antioksidan yang ekstrim.",
+        "name": "Bubuk Stik Drum",
+        "desc": "Bubuk Stik Drum kami dibuat dari stik drum segar (Moringa Pods) yang dipilih dengan cermat, diproses secara higienis, didehidrasi dengan lembut, dan digiling halus untuk menjaga rasa, warna, dan nilai gizi alaminya. Ini banyak digunakan dalam pengolahan makanan, nutraceuticals, makanan kesehatan, dan aplikasi bumbu.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Lembah Latur, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Nutraceutical & Makanan Kesehatan • Sup & Saus • Campuran Makanan Instan • Campuran Bumbu & Rempah-rempah • Makanan Siap Saji",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-greenchilli": {
         "name": "Bubuk Cabai Hijau",
-        "desc": "Bubuk cabai hijau dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan dan penyebaran rasa yang cepat.",
+        "desc": "Bubuk Cabai Hijau kami dibuat dari cabai hijau segar pilihan, diproses secara higienis, didehidrasi dengan lembut, dan digiling halus untuk menjaga kepedasan alami, warna hijau cerah, dan aroma segar. Ini banyak digunakan dalam industri pengolahan makanan, bumbu, makanan ringan, dan makanan siap saji.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Campuran Bumbu & Rempah-rempah • Pabrikan Makanan Ringan • Campuran Makanan Instan • Sup & Saus • Persiapan Acar",
           "minOrder": "500 Kilogram"
         }
       },
       "vp-corianderleaf": {
         "name": "Bubuk Daun Ketumbar",
-        "desc": "Bubuk daun ketumbar dehidrasi dengan kemurnian tinggi digiling sesuai standar jaring mikro untuk kelarutan yang cepat dan dispersi rasa.",
+        "desc": "Bubuk Daun Ketumbar kami dibuat dari daun ketumbar (ketumbar) segar pilihan yang diproses secara higienis, didehidrasi dengan lembut, dan digiling halus untuk mempertahankan warna hijau alami, aroma segar, dan nilai gizinya. Ini banyak digunakan dalam campuran bumbu, sup, saus, makanan siap saji, dan berbagai aplikasi kuliner.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Drum laminasi tahan lembab (20kg)",
-          "purity": "100% Sayuran Dehidrasi Murni, Tanpa Bahan Tambahan",
-          "grade": "Kering Semprot Premium / Penggilingan Suhu Rendah",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Campuran Bumbu & Rempah-rempah • Sup & Saus • Campuran Makanan Instan • Makanan Siap Saji • Makanan Ringan & Produk Gurih",
           "minOrder": "500 Kilogram"
         }
       },
@@ -970,181 +975,229 @@ export const translations: StaticTranslations = {
       },
       "fp-banana": {
         "name": "Bubuk Pisang",
-        "desc": "Bubuk pisang hijau dehidrasi yang kaya akan pati resisten, digunakan dalam formulasi tepung bebas gluten yang sehat.",
+        "desc": "Bubuk Pisang kami dibuat dari pisang matang pilihan yang diproses secara higienis, dikeringkan dengan lembut, dan digiling halus untuk menjaga rasa manis, aroma, dan nilai gizi alaminya. Ini banyak digunakan dalam industri makanan, minuman, roti, nutraceutical, dan nutrisi bayi.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Dataran Tinggi Wayanad, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg • Tersedia Kemasan Massal & Ritel Khusus • Serbuk Halus • Ukuran Jaring Khusus",
+          "purity": "Kualitas Ekspor Premium • Diproses Secara Higienis",
+          "grade": "Suplemen Kesehatan • Makanan Bayi & Gizi Bayi • Smoothie & Minuman • Roti & Kembang Gula • Produk Susu • Campuran Makanan Instan",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-mango": {
         "name": "Bubuk Mangga",
-        "desc": "Bubuk pulp mangga Kesar dan Alphonso yang dikeringkan dengan semprotan, menjaga cita rasa tropis asli, warna emas, dan gula alami.",
+        "desc": "Bubuk Mangga kami dibuat dari mangga berkualitas premium yang dipilih dengan cermat, diproses secara higienis, didehidrasi dengan lembut, dan digiling halus untuk menjaga rasa manis alami, aroma tropis, warna cerah, dan nilai gizinya. Ini banyak digunakan dalam industri makanan, minuman, roti, gula-gula, dan nutraceutical.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Kebun Ratnagiri, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
+          "packaging": "Sisipan Aluminium Vacuum Foil dalam Karton Utama • Serbuk Halus • Ukuran Jaring Khusus",
           "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "grade": "Campuran Minuman & Smoothie • Roti & Kembang Gula • Produk Susu & Es Krim • Suplemen Kesehatan • Campuran Makanan Instan",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-guava": {
         "name": "Bubuk Jambu Biji",
-        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk jambu biji, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Jambu Biji kami diproduksi dari jambu biji matang yang dipilih dengan cermat, diproses secara higienis dan dikeringkan dengan semprotan untuk menjaga rasa, aroma, warna, dan nilai gizi tropis alaminya. Kaya akan Vitamin C alami dan serat makanan, banyak digunakan dalam aplikasi makanan, minuman, nutraceutical, susu, dan kembang gula.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India (Maharashtra, Uttar Pradesh & Andhra Pradesh)",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg dengan Lapisan Poli Food Grade • Paket Vakum Aluminium Foil untuk Ekspor Massal • Massal & Ritel Khusus",
+          "purity": "100% Bubuk Buah Jambu Biji Murni • Tanpa Pewarna Buatan • Tanpa Pengawet • Tanpa Tambahan Gula",
+          "grade": "Minuman & Smoothie • Suplemen Kesehatan • Roti & Gula-gula • Produk Susu • Campuran Makanan Instan",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-pomegranate": {
         "name": "Bubuk Delima",
-        "desc": "Bubuk jus delima kaya antioksidan yang dikeringkan dengan semprotan untuk mempertahankan brix tinggi dan warna merah muda-merah yang indah.",
+        "desc": "Bubuk Delima kami dibuat dari buah delima matang yang dipilih dengan cermat, diproses secara higienis dan dikeringkan dengan semprotan untuk mempertahankan warna merah delima alami, rasa buah, dan nilai gizinya. Kaya akan antioksidan alami, polifenol, dan Vitamin C, banyak digunakan dalam industri makanan, minuman, nutraceutical, dan makanan fungsional.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Dataran Tinggi Deccan, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India (Maharashtra, Karnataka & Gujarat)",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg dengan Lapisan Poli Food Grade • Paket Vakum Aluminium Foil untuk Ekspor Massal • Massal & Ritel Khusus",
+          "purity": "100% Bubuk Buah Delima Murni • Tanpa Pewarna Buatan • Tanpa Pengawet • Tanpa Tambahan Gula",
+          "grade": "Suplemen Kesehatan • Minuman Fungsional & Smoothie • Roti & Kembang Gula • Produk Susu & Es Krim • Campuran Makanan Instan",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-pineapple": {
         "name": "Bubuk Nanas",
-        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk nanas, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Nanas kami dibuat dari nanas matang yang dipilih dengan cermat, diproses secara higienis dan dikeringkan dengan semprotan untuk menjaga rasa, aroma, warna emas, dan nilai gizi tropis alaminya. Kaya akan Vitamin C dan bromelain secara alami, ia banyak digunakan dalam industri makanan, minuman, nutraceutical, roti, dan gula-gula.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India (Kerala, Assam, Benggala Barat & Tripura)",
+          "packaging": "Kantong Kertas Kraft Multi-lapis 25 kg dengan Lapisan Poli Food Grade • Paket Vakum Aluminium Foil untuk Ekspor Massal • Massal & Ritel Khusus",
+          "purity": "100% Bubuk Buah Nanas Murni • Tanpa Pewarna Buatan • Tanpa Pengawet • Tanpa Tambahan Gula",
+          "grade": "Minuman & Smoothie • Suplemen Kesehatan • Roti & Kembang Gula • Produk Susu & Es Krim • Campuran Makanan Instan",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-papaya": {
         "name": "Bubuk Pepaya",
-        "desc": "Bubuk jus buah premium kering semprot dari bubuk pepaya, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk pepaya dehidrasi kualitas premium terbuat dari pepaya matang yang dipilih dengan cermat. Buah ini diproses secara higienis dan dibubuk halus untuk mempertahankan warna alami, rasa, aroma, dan kandungan nutrisinya.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Pepaya — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-apple": {
         "name": "Bubuk Apel",
-        "desc": "Bubuk jus buah premium kering-semprotan dari bubuk apel, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Apel dehidrasi kualitas premium terbuat dari apel segar pilihan. Apel diproses secara higienis dan dibubuk halus untuk mempertahankan rasa buah alami, aroma, dan rasa khas apel. Cocok untuk aplikasi makanan, minuman, roti, dan nutraceutical.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Apel — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-orange": {
         "name": "Bubuk Jeruk",
-        "desc": "Bubuk jus buah premium kering semprot dari bubuk jeruk, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Jeruk Dehidrasi berkualitas premium terbuat dari jeruk segar pilihan. Buahnya diproses secara higienis dan dibubuk halus untuk mempertahankan rasa, aroma, dan rasa jeruk yang khas. Cocok untuk aplikasi makanan, minuman, roti, kembang gula, dan nutraceutical.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Jeruk — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-lemon": {
         "name": "Bubuk Lemon",
-        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk lemon, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Lemon dehidrasi kualitas premium terbuat dari lemon segar pilihan. Lemon diproses secara higienis dan dibubuk halus untuk mempertahankan ciri khas rasa jeruk, aroma, dan rasa tajam alaminya. Cocok untuk aplikasi makanan, minuman, roti, bumbu dan nutraceutical.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Lemon — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-strawberry": {
         "name": "Bubuk Stroberi",
-        "desc": "Bubuk jus buah premium yang dikeringkan dengan semprotan dari bubuk stroberi, menangkap aroma alami dan warna visual untuk pencampur gourmet dan pembuatan kue.",
+        "desc": "Bubuk Stroberi dehidrasi kualitas premium terbuat dari stroberi segar pilihan. Buah ini diproses secara higienis dan dibubuk halus untuk mempertahankan ciri khas rasa, aroma, warna, dan rasa buah alami stroberi.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "Semprot-Kering dari 100% Bubur Buah Organik",
-          "grade": "Makanan & Minuman Kelas A",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Stroberi — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
       "fp-amla": {
         "name": "Bubuk Amla",
-        "desc": "Bubuk gooseberry India (Amla) dehidrasi menawarkan tingkat Vitamin C yang luar biasa, sangat cocok untuk suplemen makanan.",
+        "desc": "Bubuk Amla dehidrasi kualitas premium (Bubuk Gooseberry India) terbuat dari buah amla segar pilihan. Buah ini diproses secara higienis dan dibubuk halus untuk mempertahankan warna alami, karakteristik rasa tajam, aroma, dan kandungan nutrisi yang berharga.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Kebun Gujarat, India",
-          "packaging": "Sisipan aluminium foil vakum dalam karton induk",
-          "purity": "100% Amla Murni, tinggi Vitamin C",
-          "grade": "Standar Nutraceutical",
+          "origin": "India",
+          "packaging": "Kantong eceran 100 g / 250 g / 500 g / 1 kg • Kemasan curah 5 kg / 10 kg / 20 kg / 25 kg • Kantong laminasi food grade • Kantong kertas kraft dengan lapisan dalam food grade",
+          "purity": "100% Bubuk Amla — bebas dari pewarna, perasa, dan pengawet buatan",
+          "grade": "Food Grade / Ekspor Grade (Spesifikasi khusus tersedia)",
           "minOrder": "500 Kilogram"
         }
       },
-      "m-powder": {
-        "name": "Bubuk Kelor",
-        "desc": "Bubuk daun mentah yang digiling halus dari pohon Moringa oleifera yang ditanam secara organik, kaya akan protein, zat besi, dan indeks multivitamin.",
+      "m-leaf-powder": {
+        "name": "Bubuk Daun Kelor",
+        "desc": "Bubuk olahan halus yang terbuat dari daun kelor pilihan. Cocok untuk aplikasi makanan, kesehatan, nutraceutical dan herbal.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Pertanian Organik Latur, India",
-          "packaging": "Tas penghalang UV bersegel vakum (20 kg)",
-          "purity": "Bersertifikat Organik USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "100 gr, 250 gr, 500 gr, 1 kg, 5 kg, 10 kg, 20 kg & 25 kg",
+          "purity": "100% Bubuk Daun Kelor",
+          "grade": "Kelas Makanan / Kelas Ekspor",
           "minOrder": "200 Kilogram"
         }
       },
-      "m-leaves": {
-        "name": "Daun Kelor",
-        "desc": "Daun kelor utuh yang dikeringkan secara sistematis dibersihkan dari batang dan residu organik, menjaga klorofil penting tetap utuh.",
+      "m-leaf-flakes": {
+        "name": "Serpihan Daun Kelor",
+        "desc": "Daun kelor yang dikeringkan dengan hati-hati diolah menjadi serpihan dengan tetap mempertahankan warna hijau alami dan aroma khasnya.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Pertanian Organik Latur, India",
-          "packaging": "Karung Anyaman Poli Lapis Ganda (15 Kg)",
-          "purity": "Bersertifikat Organik USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "100 gram–25kg",
+          "purity": "100% Kelor Murni",
+          "grade": "Kelas Makanan / Kelas Ekspor",
           "minOrder": "200 Kilogram"
         }
       },
       "m-tea": {
         "name": "Teh Kelor",
-        "desc": "Daun kelor potong premium dicampur dengan herba aromatik untuk menghasilkan infus kesehatan harian yang tinggi antioksidan dan bebas kafein.",
+        "desc": "Daun kelor kering premium dipilih dan diolah untuk digunakan sebagai bahan teh herbal alami.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Pertanian Organik Latur, India",
-          "packaging": "Kantong teh filter khusus dalam kaleng komposit",
-          "purity": "Bersertifikat Organik USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "Kantong eceran, kantong teh & kemasan curah",
+          "purity": "100% Kelor Murni",
+          "grade": "Kelas Makanan / Kelas Ekspor",
           "minOrder": "200 Kilogram"
         }
       },
-      "m-extract": {
-        "name": "Ekstrak Kelor",
-        "desc": "Ekstrak daun kelor bioaktif potensi tinggi distandarisasi untuk rasio total flavonoid dan saponin, untuk penggunaan klinis.",
+      "m-seed-powder": {
+        "name": "Bubuk Biji Kelor / Bubuk Murungai Vidhai l Bubuk Biji Paha",
+        "desc": "Bubuk biji kelor yang diproses secara halus cocok untuk makanan tertentu, nutraceutical dan aplikasi industri, sesuai dengan spesifikasi pembeli.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
-          "origin": "Pertanian Organik Latur, India",
-          "packaging": "Tabung HDPE food grade",
-          "purity": "Bersertifikat Organik USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "India",
+          "packaging": "1kg, 5kg, 10kg & 25kg",
+          "purity": "100% Kelor Murni",
+          "grade": "Food / Industrial Grade tergantung aplikasinya",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "m-seeds": {
+        "name": "Biji Kelor",
+        "desc": "Benih kelor yang dipilih dan dibersihkan dengan cermat yang bersumber dari India untuk makanan, pertanian, pemrosesan, dan aplikasi khusus lainnya.",
+        "pricing": "Hubungi Meja Perdagangan",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg & kemasan massal yang disesuaikan",
+          "purity": "100% Kelor Murni",
+          "grade": "Nilai Ekspor",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "m-seed-oil": {
+        "name": "Minyak Biji Kelor",
+        "desc": "Minyak premium yang diperoleh dari biji kelor, cocok untuk aplikasi kosmetik, perawatan pribadi, kesehatan dan industri tergantung spesifikasi.",
+        "pricing": "Hubungi Meja Perdagangan",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & curah",
+          "purity": "100% Kelor Murni",
+          "grade": "Kosmetik / Kelas Industri",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "m-leaf-extract": {
+        "name": "Ekstrak Daun Kelor",
+        "desc": "Ekstrak daun kelor pekat dirancang untuk digunakan sebagai bahan dalam formulasi nutraceutical, herbal dan makanan fungsional.",
+        "pricing": "Hubungi Meja Perdagangan",
+        "spec": {
+          "origin": "India",
+          "packaging": "1kg, 5kg, 10kg & 25kg",
+          "purity": "100% Kelor Murni",
+          "grade": "Kelas Makanan / Nutraceutical sebagaimana ditentukan",
+          "minOrder": "200 Kilogram"
+        }
+      },
+      "m-capsules": {
+        "name": "Kapsul / Tablet Kelor",
+        "desc": "Produk suplemen makanan berbahan dasar kelor diproduksi sesuai spesifikasi dan persyaratan peraturan yang berlaku.",
+        "pricing": "Hubungi Meja Perdagangan",
+        "spec": {
+          "origin": "India",
+          "packaging": "Botol, toples, karton",
+          "purity": "100% Kelor Murni",
+          "grade": "Kelas Suplemen Makanan",
           "minOrder": "200 Kilogram"
         }
       },
@@ -1246,7 +1299,7 @@ export const translations: StaticTranslations = {
       },
       "dv-garlic": {
         "name": "Bawang Putih Dehidrasi",
-        "desc": "Siung bawang putih dehidrasi premium dibelah untuk mempercepat rehidrasi dalam bumbu instan, semur kalengan, dan mie.",
+        "desc": "Siung bawang putih dehidrasi premium dibelah untuk mempercepat rehidrasi dalam bumbu instan, semur kaleng, dan mie.",
         "pricing": "Hubungi Meja Perdagangan",
         "spec": {
           "origin": "Wilayah Malwa, India",

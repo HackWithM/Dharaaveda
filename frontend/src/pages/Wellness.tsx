@@ -296,9 +296,9 @@ export default function Wellness() {
                       <h3 className="font-serif text-2xl sm:text-3xl text-gray-900 font-semibold text-left">
                         {srv.translations?.[lang]?.name || srv.name}
                       </h3>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-sans font-light text-left">
+                      <div className="whitespace-pre-wrap text-xs sm:text-sm text-gray-600 leading-relaxed font-sans font-light text-left">
                         {srv.translations?.[lang]?.story || srv.translations?.[lang]?.description || srv.story || srv.description}
-                      </p>
+                      </div>
 
                       {/* Benefits Tag Pills */}
                       <div className="flex flex-wrap gap-2.5 pt-2">

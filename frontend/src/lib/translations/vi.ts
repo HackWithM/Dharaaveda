@@ -114,10 +114,10 @@ export const translations: StaticTranslations = {
   },
   "export": {
     "division": "Phòng Thương mại Quốc tế",
-    "heroTitle": "Elite Crop Logistics Logistics",
-    "heroDesc": "DharaAveda kết nối các trang trại thực vật sâu rộng của Ấn Độ với các hiệu thuốc, hãng mỹ phẩm và nhà nhập khẩu thực phẩm cao cấp trên toàn cầu. Hệ thống của chúng tôi đảm bảo vận chuyển số lượng lớn đã được xác minh dấu vết của shilajit Himalayan đích thực, bạch đậu khấu đậm, dầu gốc cỏ vetiver và chiết xuất Adaptogen tuân thủ tuyệt đối kiểm dịch thực vật.",
-    "apedaAuth": "APEDA ủy quyền",
-    "sgsPurity": "Phòng thí nghiệm độ tinh khiết của SGS đã được thử nghiệm",
+    "heroTitle": "CHUỖI CUNG ỨNG TOÀN CẦU XUẤT SẮC",
+    "heroDesc": "Dharaaveda Global Exim chuyên xuất khẩu các sản phẩm nông nghiệp cao cấp, nguyên liệu thực phẩm và các sản phẩm chăm sóc sức khỏe tự nhiên cho khách hàng trên toàn thế giới. Mạng lưới tìm nguồn cung ứng, đảm bảo chất lượng và hậu cần tích hợp của chúng tôi đảm bảo việc giao hàng đáng tin cậy, truy xuất nguồn gốc đầy đủ và tuân thủ các quy định an toàn thực phẩm và thương mại quốc tế.",
+    "apedaAuth": "Tìm nguồn cung ứng có đạo đức",
+    "sgsPurity": "Hậu cần toàn cầu",
     "cargoTransit": "VẬN CHUYỂN HÀNG HÓA TOÀN CẦU",
     "cargoDesc": "Định tuyến hàng hóa đường biển và đường hàng không",
     "secure": "CHẮC CHẮN",
@@ -129,7 +129,7 @@ export const translations: StaticTranslations = {
     "freightNetworks": "Mạng lưới vận chuyển hàng hóa toàn cầu",
     "operationsTitle": "Hoạt động thương mại được xây dựng trên tính chính trực",
     "sgsTitle": "Xác minh đầy đủ của SGS",
-    "sgsDesc": "Mỗi lô vết đều trải qua các bài kiểm tra sắc ký khí và độ tinh khiết phân tích. Việc tuân thủ kiểm dịch thực vật đảm bảo việc định tuyến tùy chỉnh tại bến cảng không gặp rắc rối.",
+    "sgsDesc": "Mỗi lô vết đều trải qua các bài kiểm tra sắc ký khí và độ tinh khiết phân tích. Việc tuân thủ kiểm dịch vệ sinh đảm bảo việc định tuyến tùy chỉnh tại bến cảng không gặp rắc rối.",
     "isoTitle": "Tiêu chuẩn đối ứng ISO",
     "isoDesc": "Hoạt động theo hướng dẫn vệ sinh quốc tế nghiêm ngặt. Đóng gói chân không ngăn chặn tia UV vũ trụ, giữ nguyên độ tươi trong quá trình vận chuyển.",
     "originTitle": "Nguồn gốc trực tiếp của Wayanad",
@@ -193,12 +193,14 @@ export const translations: StaticTranslations = {
       "veg_powders": {
         "badge": "Bàn bột rau củ",
         "title": "Bột thực vật khử nước nguyên chất",
-        "description": "Rau nông nghiệp được khử nước ở nhiệt độ thấp được kiểm soát chặt chẽ để bảo vệ các chất dinh dưỡng có hoạt tính sinh học, màu sắc và độ sâu của hương vị. Lý tưởng cho thực phẩm ăn liền, máy trộn và công thức dược phẩm.",
+        "description": "Sự tốt lành của thiên nhiên, được bảo tồn một cách chuyên nghiệp\n\nDharaaveda Global Exim cung cấp nhiều loại Bột thực vật khử nước cao cấp được sản xuất từ các loại rau tươi trang trại được lựa chọn cẩn thận bằng công nghệ khử nước tiên tiến. Sản phẩm của chúng tôi giữ được màu sắc, mùi thơm, hương vị và giá trị dinh dưỡng tự nhiên, khiến chúng trở nên lý tưởng cho nhiều ứng dụng công nghiệp và chế biến thực phẩm.\n\nĐược chế biến trong điều kiện vệ sinh nghiêm ngặt và tuân thủ các tiêu chuẩn chất lượng quốc tế, bột rau củ của chúng tôi được các nhà sản xuất thực phẩm, công ty dinh dưỡng, nhà sản xuất gia vị và nhà xuất khẩu trên toàn thế giới tin tưởng. Chúng tôi cam kết cung cấp chất lượng ổn định, nguồn cung cấp đáng tin cậy và các giải pháp đóng gói tùy chỉnh để đáp ứng các yêu cầu đa dạng của khách hàng toàn cầu.",
         "highlights": [
-          "100% chất rắn thực vật, không có chất phụ gia",
-          "Sấy khô ở nhiệt độ thấp có khả năng giữ lại tế bào",
-          "Độ hòa tan và phân tán khô tuyệt vời",
-          "Lớp tự nhiên chảy tự do, không đóng bánh"
+          "100% tự nhiên & chất lượng cao cấp",
+          "Được xử lý hợp vệ sinh",
+          "Không có màu nhân tạo hoặc chất bảo quản",
+          "Chất lượng đồng nhất cho thị trường xuất khẩu",
+          "Tùy chọn đóng gói số lượng lớn và bán lẻ",
+          "Thông số kỹ thuật tùy chỉnh có sẵn theo yêu cầu"
         ],
         "benefits": [
           "Tỷ lệ hoàn nguyên nước tức thời",
@@ -231,12 +233,15 @@ export const translations: StaticTranslations = {
       "fruit_powders": {
         "badge": "Bàn bột trái cây",
         "title": "Bột trái cây Orchard & chất hòa tan",
-        "description": "Bột trái cây sấy khô và sấy khô ở nhiệt độ thấp cao cấp giữ lại vị ngọt thực sự, đường hữu cơ và vitamin của trái cây chín trong nắng. Rất phổ biến trong đồ uống, bánh kẹo và thực phẩm dành cho trẻ sơ sinh.",
+        "description": "Bột trái cây cao cấp cho ngành công nghiệp thực phẩm toàn cầu\n\nDharaaveda Global Exim cung cấp nhiều loại Bột trái cây khử nước cao cấp được sản xuất từ ​​trái cây chất lượng cao, được lựa chọn cẩn thận bằng công nghệ khử nước tiên tiến. Bột trái cây của chúng tôi bảo quản hương vị tự nhiên, mùi thơm, màu sắc và dinh dưỡng tốt của trái cây tươi, khiến chúng trở thành thành phần lý tưởng cho nhiều ứng dụng thực phẩm, đồ uống, dinh dưỡng và bánh kẹo.\n\nĐược sản xuất trong điều kiện vệ sinh nghiêm ngặt và tuân thủ các tiêu chuẩn chất lượng quốc tế, sản phẩm của chúng tôi được các nhà chế biến thực phẩm, nhà sản xuất đồ uống, công ty thực phẩm bổ sung sức khỏe và các nhà nhập khẩu toàn cầu tin cậy. Chúng tôi cam kết cung cấp chất lượng ổn định, nguồn cung cấp đáng tin cậy và các giải pháp đóng gói tùy chỉnh để đáp ứng nhu cầu ngày càng tăng của thị trường quốc tế.",
         "highlights": [
-          "Phun sấy trực tiếp từ bột giấy hữu cơ",
-          "Không thêm đường, sulfit hoặc chất tạo màu",
-          "Hòa tan cao trong chất lỏng nóng và lạnh",
-          "Lựa chọn siêu thực phẩm giàu dinh dưỡng"
+          "100% tự nhiên & chất lượng cao cấp",
+          "Được xử lý hợp vệ sinh",
+          "Không có màu nhân tạo, hương vị hoặc chất bảo quản",
+          "Hương vị và hương thơm tự nhiên phong phú",
+          "Sản phẩm chất lượng xuất khẩu",
+          "Tùy chọn đóng gói số lượng lớn và bán lẻ",
+          "Thông số kỹ thuật tùy chỉnh có sẵn theo yêu cầu"
         ],
         "benefits": [
           "Hương trái cây nguyên chất và vị ngọt",
@@ -292,7 +297,7 @@ export const translations: StaticTranslations = {
           },
           {
             "title": "Lá khô sạch",
-            "desc": "Toàn bộ lá khô được phân loại một cách máy móc để loại bỏ cành, thân và bụi."
+            "desc": "Toàn bộ lá khô trong bóng được phân loại một cách máy móc để loại bỏ cành, thân và bụi."
           },
           {
             "title": "Trà chùm ngây thảo mộc",
@@ -496,7 +501,7 @@ export const translations: StaticTranslations = {
     "pricingModel": "Mô hình định giá",
     "sendInquiry": "Gửi yêu cầu / báo giá",
     "close": "Đóng",
-    "apedaCompliant": "Tiêu chuẩn hàng hóa xuất khẩu tuân thủ APEDA",
+    "apedaCompliant": "Sản phẩm chất lượng cao cấp|| Tìm nguồn cung ứng có đạo đức và bền vững|| Giải pháp đóng gói tùy chỉnh!",
     "inquiryRequestQuote": "Yêu cầu báo giá",
     "inquiryDirectAccess": "Truy cập trực tiếp vào Bàn xuất khẩu nông nghiệp của chúng tôi để biết",
     "inquirySuccessTitle": "Yêu cầu báo giá đã được ghi lại",
@@ -608,11 +613,11 @@ export const translations: StaticTranslations = {
       },
       "fruit_powders": {
         "title": "Bột trái cây khử nước",
-        "desc": "Bột trái cây sấy phun và khử nước ở nhiệt độ thấp cao cấp giữ được vị ngọt nguyên chất, vitamin và vị thơm của vườn cây ăn quả tươi."
+        "desc": "Bột trái cây sấy phun và khử nước ở nhiệt độ thấp cao cấp thu được vị ngọt nguyên chất, vitamin và vị thơm của vườn cây ăn quả tươi."
       },
       "moringa": {
         "title": "Sản phẩm chùm ngây",
-        "desc": "Lá, bột, trà và chiết xuất Moringa oleifera thực vật nguyên chất có nguồn gốc từ canh tác năng suất cao không dùng thuốc trừ sâu."
+        "desc": "Chúng tôi cung cấp các sản phẩm làm từ Moringa chất lượng cao có nguồn gốc từ Ấn Độ, được chế biến và đóng gói cẩn thận cho thị trường thực phẩm, dược phẩm, thảo dược, sức khỏe và xuất khẩu quốc tế."
       },
       "seeds": {
         "title": "Danh mục hạt giống",
@@ -634,85 +639,85 @@ export const translations: StaticTranslations = {
     "items": {
       "s-turmeric": {
         "name": "bột nghệ",
-        "desc": "Bột nghệ màu vàng rực rỡ được nghiền từ thân rễ Erode được lựa chọn, cung cấp hàm lượng curcumin hoạt tính cao phù hợp cho mục đích sử dụng dược phẩm B2B và người sành ăn.",
+        "desc": "Bột nghệ là một loại gia vị chất lượng cao được làm từ thân rễ củ nghệ được lựa chọn cẩn thận, mang lại màu vàng vàng rực rỡ, hương thơm đậm đà và hương vị đích thực. Được sử dụng rộng rãi trong các ứng dụng ẩm thực, dược phẩm, dinh dưỡng, mỹ phẩm và Ayurvedic, nó được xử lý hợp vệ sinh để đáp ứng các tiêu chuẩn chất lượng quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Erode & Salem Estates, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "Curcumin > 5% được chứng nhận, nguyên chất",
-          "grade": "A++ High-Curcumin Gold",
+          "origin": "Các khu vực trồng trọt cao cấp của Ấn Độ",
+          "packaging": "Bột mịn • Củ nghệ nguyên hạt • Ngón tay nghệ được đánh bóng • Hạt nghệ • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Phòng thí nghiệm NABL đã được thử nghiệm • Đảm bảo chất lượng",
+          "grade": "Thực phẩm • Dược phẩm • Dinh dưỡng • Mỹ phẩm • Ayurveda",
           "minOrder": "500 kg"
         }
       },
       "s-redchilli": {
         "name": "Bột ớt đỏ",
-        "desc": "Bột ớt đỏ Guntur Sannam mang lại màu sắc đậm và mức nhiệt có thể tùy chỉnh cho các nhà bếp quốc tế.",
+        "desc": "Bột ớt đỏ của chúng tôi được làm từ ớt đỏ khô chất lượng cao được lựa chọn cẩn thận, mang lại màu đỏ tự nhiên rực rỡ, hương thơm đậm đà và độ cay cân bằng. Được chế biến hợp vệ sinh để bảo quản độ tươi và hương vị, nó rất lý tưởng cho chế biến thực phẩm, hỗn hợp gia vị, gia vị, nước sốt, thực phẩm ăn liền và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
           "origin": "Vùng Guntur, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "Aflatoxin & Thuốc nhuộm Sudan âm tính",
-          "grade": "Lựa chọn màu đỏ tươi Kashmiri",
+          "packaging": "• Bột mịn • Xay vừa • Xay thô • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh • Đảm bảo chất lượng",
+          "grade": "• Chế biến thực phẩm • Hỗn hợp gia vị • Gia vị • Nước sốt • Đồ chua • Thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "s-coriander": {
         "name": "Bột rau mùi",
-        "desc": "Bột rau mùi nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Bột rau mùi của chúng tôi được sản xuất từ ​​hạt rau mùi cao cấp, mang lại hương thơm đậm đà, hương vị đích thực và chất lượng ổn định. Được chế biến cẩn thận trong điều kiện vệ sinh, đây là sản phẩm lý tưởng cho các nhà sản xuất thực phẩm, máy xay gia vị và người mua toàn cầu.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Rajasthan & Madhya Pradesh, Ấn Độ",
+          "packaging": "25 kg Túi Giấy Kraft Nhiều Lớp • Bột mịn • Bột thô • Hạt ngò nguyên hạt",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Cấp xuất khẩu • Máy đã được làm sạch",
           "minOrder": "500 kg"
         }
       },
       "s-cumin": {
         "name": "bột thì là",
-        "desc": "Bột thì là nguyên hạt và bột xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Bột thì là của chúng tôi được nghiền mịn từ những hạt thì là cao cấp được lựa chọn cẩn thận, mang lại hương thơm đất đậm đà, hương vị ấm áp và độ tươi tự nhiên. Được chế biến hợp vệ sinh để bảo quản hương vị và chất lượng đích thực, nó được sử dụng rộng rãi trong hỗn hợp gia vị, gia vị, chế biến thực phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Gujarat & Rajasthan, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Bột mịn • Xay vừa • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Gia vị • Thực phẩm ăn liền • Nước sốt • Đồ ăn nhẹ",
           "minOrder": "500 kg"
         }
       },
       "s-blackpepper": {
         "name": "Tiêu đen",
-        "desc": "Quả tiêu đen nguyên hạt loại 1 được thu hoạch từ sườn Malabar lịch sử, mang lại sức nóng piperine mãnh liệt và mùi thơm gỗ phức hợp.",
+        "desc": "Hạt tiêu đen của chúng tôi có nguồn gốc từ những hạt tiêu hảo hạng được lựa chọn cẩn thận, nổi tiếng với hương thơm đậm đà, vị cay nồng và hương vị đậm đà. Được chế biến hợp vệ sinh và đảm bảo chất lượng, nó lý tưởng cho các ứng dụng ẩm thực, hỗn hợp gia vị, chế biến thực phẩm, dược phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Rừng cao nguyên Wayanad, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "Độ ẩm < 11,5% được chứng nhận",
-          "grade": "Tellicherry Extra Bold (TGSEB)",
+          "origin": "Kerala & Karnataka, Ấn Độ",
+          "packaging": "25 kg Túi Giấy Kraft Nhiều Lớp • Tiêu Đen Nguyên Hạt • Tiêu Đen Nứt • Tiêu Đen Xay • Xay Thô",
+          "purity": "Phòng thí nghiệm NABL đã được thử nghiệm • Độ ẩm theo thông số kỹ thuật của người mua",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Gia vị • Nước xốt • Dược phẩm • Dược phẩm dinh dưỡng",
           "minOrder": "500 kg"
         }
       },
       "s-cardamom": {
         "name": "bạch đậu khấu",
-        "desc": "Vỏ bạch đậu khấu xanh cao cấp, đầy đặn có lớp vỏ ngọc lục bảo tự nhiên tuyệt đẹp và hàm lượng dầu hạt thiết yếu cao.",
+        "desc": "Bạch đậu khấu cao cấp của chúng tôi có nguồn gốc cẩn thận từ các vùng trồng gia vị nổi tiếng của Ấn Độ, mang đến hương thơm đậm đà, hương vị đặc biệt và màu sắc tự nhiên rực rỡ. Được chế biến hợp vệ sinh và đảm bảo chất lượng, nó lý tưởng cho các ứng dụng ẩm thực, làm bánh, bánh kẹo, đồ uống, dược phẩm và xuất khẩu.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Đồi Cardamom, Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "Không có chất đánh bóng nhân tạo",
-          "grade": "Bold Premium Extra Emerald (8mm+)",
+          "origin": "Idukki, Kerala, Ấn Độ",
+          "packaging": "25 kg Túi giấy Kraft nhiều lớp • Bạch đậu khấu nguyên hạt • Hạt bạch đậu khấu • Bột bạch đậu khấu",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Bánh mì • Bánh kẹo • Đồ uống • Dược phẩm • Ayurveda",
           "minOrder": "200 kg"
         }
       },
       "s-cloves": {
         "name": "đinh hương",
-        "desc": "Toàn bộ đinh hương nâu được sấy khô đến độ ẩm tối ưu để bảo quản các hợp chất eugenol thơm.",
+        "desc": "Đinh hương cao cấp của chúng tôi có nguồn gốc cẩn thận để có hương thơm đậm đà, hương vị đậm đà và hàm lượng dầu tự nhiên. Được chế biến hợp vệ sinh và đảm bảo chất lượng, chúng rất lý tưởng cho các ứng dụng ẩm thực, dược phẩm và xuất khẩu.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai Nilgiris, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Toàn bộ tép nguyên chất được tuyển chọn thủ công",
+          "origin": "Kerala & Tamil Nadu, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Toàn bộ đinh hương được lựa chọn bằng tay",
           "minOrder": "200 kg"
         }
       },
@@ -730,97 +735,97 @@ export const translations: StaticTranslations = {
       },
       "s-nutmeg": {
         "name": "hạt nhục đậu khấu",
-        "desc": "Hạt nhục đậu khấu nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Hạt nhục đậu khấu cao cấp của chúng tôi có nguồn gốc cẩn thận từ các vùng trồng gia vị được chọn lọc, mang lại hương thơm đậm đà, hương vị ấm áp và độ tươi tự nhiên. Được chế biến hợp vệ sinh và đảm bảo chất lượng, nó lý tưởng cho các ứng dụng ẩm thực, làm bánh, bánh kẹo, dược phẩm và chăm sóc sức khỏe.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Kerala, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Hạt nhục đậu khấu nguyên hạt • Bột nhục đậu khấu • Hạt nhục đậu khấu nứt",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Bánh mì • Bánh kẹo • Đồ uống • Hỗn hợp gia vị • Dược phẩm • Ayurveda",
           "minOrder": "500 kg"
         }
       },
       "s-staranise": {
         "name": "Sao hồi",
-        "desc": "Hoa hồi nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Star Anise là một loại gia vị thơm cao cấp có hình ngôi sao đặc biệt và hương vị ngọt ngào như cam thảo. Lý tưởng cho các ứng dụng ẩm thực, thảo dược, đồ uống, dược phẩm và tinh dầu, nó được lấy nguồn và chế biến cẩn thận để đảm bảo chất lượng và độ tươi đặc biệt.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Arunachal Pradesh và Đông Bắc Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Nguyên con • Bị vỡ • Bột",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Ẩm thực • Hỗn hợp gia vị • Sản phẩm thảo mộc • Đồ uống • Dược phẩm",
           "minOrder": "500 kg"
         }
       },
       "s-fennel": {
         "name": "Hạt thì là",
-        "desc": "Hạt thì là nguyên hạt và xay truyền thống được xử lý trong quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Hạt thì là cao cấp của chúng tôi có nguồn gốc cẩn thận từ các vùng trồng trọt tốt nhất của Ấn Độ, mang lại hương thơm ngọt ngào tự nhiên, hương vị sảng khoái và màu xanh lá cây rực rỡ. Được chế biến hợp vệ sinh và đảm bảo chất lượng, chúng rất lý tưởng cho các ứng dụng ẩm thực, bánh kẹo, đồ uống, dược phẩm và chăm sóc sức khỏe.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Rajasthan và Gujarat, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Hạt thì là nguyên hạt • Bột thì là • Thì là nghiền",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Bánh mì • Bánh kẹo • Đồ uống • Sản phẩm thảo dược • Ayurveda",
           "minOrder": "500 kg"
         }
       },
       "s-mustard": {
         "name": "Hạt mù tạt",
-        "desc": "Hạt mù tạt nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Hạt mù tạt cao cấp của chúng tôi có nguồn gốc cẩn thận từ các vùng trồng trọt hàng đầu của Ấn Độ, mang lại hương thơm đậm đà, vị cay nồng tự nhiên và chất lượng vượt trội. Được chế biến hợp vệ sinh và đảm bảo chất lượng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Rajasthan & Uttar Pradesh, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Hạt mù tạt nguyên hạt • Bột mù tạt • Mù tạt nghiền",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Dưa chua • Gia vị • Chiết xuất dầu • Gia vị",
           "minOrder": "500 kg"
         }
       },
       "s-bayleaves": {
         "name": "Lá nguyệt quế",
-        "desc": "Lá nguyệt quế nguyên hạt và xay truyền thống được xử lý bằng phương pháp xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Lá Bay cao cấp của chúng tôi có nguồn gốc cẩn thận từ các vùng trồng trọt được chọn lọc, mang lại hương thơm đặc biệt, hương đất nhẹ và độ tươi tự nhiên. Được chế biến hợp vệ sinh và đảm bảo chất lượng, chúng rất lý tưởng cho ẩm thực, pha trộn gia vị, chế biến thực phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Uttarakhand & Himachal Pradesh, Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Lá nguyệt quế nguyên hạt • Lá nguyệt quế nghiền nát • Bột lá nguyệt quế",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp gia vị • Súp • Cà ri • Món cơm • Gia vị • Sản phẩm thảo dược",
           "minOrder": "500 kg"
         }
       },
       "s-garammasala": {
         "name": "Garam Masala",
-        "desc": "Garam masala nguyên hạt và xay truyền thống được chế biến dưới quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Garam Masala cao cấp của chúng tôi được pha trộn một cách chuyên nghiệp bằng cách sử dụng toàn bộ các loại gia vị được lựa chọn cẩn thận để mang lại hương thơm đậm đà, hương vị cân bằng và hương vị đích thực. Được chế biến hợp vệ sinh và đảm bảo chất lượng, đây là sản phẩm lý tưởng cho nhà bếp gia đình, chế biến thực phẩm, nhà hàng và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Hỗn hợp thô • Hỗn hợp gia vị tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Nấu ăn · Cà ri · Nước xốt · Nước xốt · Đồ ăn nhẹ · Thực phẩm ăn liền · Chế biến thực phẩm",
           "minOrder": "500 kg"
         }
       },
       "s-mixedspice": {
         "name": "Hỗn hợp gia vị hỗn hợp",
-        "desc": "Hỗn hợp gia vị hỗn hợp nguyên hạt và xay truyền thống được xử lý dưới quá trình xay xát ở nhiệt độ thấp để bảo vệ các phần thơm.",
+        "desc": "Hỗn hợp gia vị hỗn hợp cao cấp của chúng tôi được chế tạo một cách chuyên nghiệp bằng cách sử dụng các loại gia vị được lựa chọn cẩn thận để mang lại hương thơm nhất quán, hương vị đích thực và chất lượng vượt trội. Được chế biến hợp vệ sinh và đảm bảo chất lượng, chúng rất lý tưởng cho các nhà sản xuất thực phẩm, nhà hàng, thương hiệu bán lẻ và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vành đai gia vị Kerala, Ấn Độ",
-          "packaging": "Túi Giấy Kraft Nhiều Lớp (25 kg)",
-          "purity": "100% nguyên chất, không chứa kim loại nặng",
-          "grade": "Chất lượng xuất khẩu cao cấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì số lượng lớn, nhãn hiệu bán lẻ & nhãn hiệu riêng • Hỗn hợp có sẵn: Garam Masala, Kitchen King, Chaat Masala, Pav Bhaji, Biryani, Sabzi, Sambar, Rasam, Tea, Kala, Kanda Lasun, Peri Peri, Hỗn hợp tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Hỗn hợp nấu sẵn • Gia vị • Nước xốt • Đồ ăn nhẹ • Nước sốt • Nhà hàng & Dịch vụ ăn uống",
           "minOrder": "500 kg"
         }
       },
       "vp-beetroot": {
         "name": "Bột củ cải đường",
-        "desc": "Bột củ cải đỏ đậm đặc giữ lại hàm lượng betalain, nitrat và chất xơ tự nhiên cao cho hỗn hợp tốt cho sức khỏe.",
+        "desc": "Bột củ cải đường cao cấp của chúng tôi được làm từ củ cải đường được lựa chọn cẩn thận, mang lại màu sắc tự nhiên rực rỡ, hương vị phong phú và chất lượng vượt trội. Được chế biến hợp vệ sinh để bảo quản độ ngon tự nhiên của nó, nó rất lý tưởng cho chế biến thực phẩm, đồ uống, bánh mì, dược phẩm dinh dưỡng, thực phẩm tốt cho sức khỏe và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Đồng bằng Vệ đà, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Thực phẩm tốt cho sức khỏe • Đồ uống • Sinh tố • Bánh mì • Chế biến thực phẩm • Thực phẩm dinh dưỡng • Màu thực phẩm tự nhiên",
           "minOrder": "500 kg"
         }
       },
@@ -838,121 +843,121 @@ export const translations: StaticTranslations = {
       },
       "vp-potato": {
         "name": "bột khoai tây",
-        "desc": "Bột khoai tây khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "desc": "Bột khoai tây cao cấp của chúng tôi được sản xuất từ ​​khoai tây được lựa chọn cẩn thận, mang lại kết cấu mịn, hương vị tự nhiên và độ đặc tuyệt vời. Được chế biến hợp vệ sinh và đảm bảo chất lượng, đây là sản phẩm lý tưởng cho các món súp, nước sốt, đồ ăn nhẹ, sản phẩm bánh mì, chế biến thực phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Súp • Nước sốt • Đồ ăn nhẹ • Bánh mì • Hỗn hợp ăn liền • Thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "vp-garlic": {
         "name": "bột tỏi",
-        "desc": "Bột tỏi cô đặc được xay từ củ thơm, mang lại hương vị allicin mạnh mẽ và khả năng phân tán.",
+        "desc": "Bột tỏi cao cấp của chúng tôi được làm từ những tép tỏi được lựa chọn cẩn thận, mang lại hương thơm đậm đà, hương vị đích thực và độ đặc tuyệt vời. Được chế biến hợp vệ sinh và đảm bảo chất lượng, đây là sản phẩm lý tưởng để làm gia vị, hỗn hợp gia vị, nước sốt, đồ ăn nhẹ, chế biến thực phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Madhya Pradesh, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Bột thô • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Gia vị • Hỗn hợp gia vị • Nước xốt • Đồ ăn nhẹ • Thực phẩm ăn liền • Tiệm bánh",
           "minOrder": "500 kg"
         }
       },
       "vp-ginger": {
         "name": "bột gừng",
-        "desc": "Bột rễ gừng mịn đóng gói chất gừng có tác dụng làm ấm mạnh, được sử dụng rộng rãi trong pha chế bánh kẹo và trà thảo dược.",
+        "desc": "Bột gừng cao cấp của chúng tôi được làm từ thân rễ gừng được lựa chọn cẩn thận, mang lại hương thơm đậm đà, hương vị ấm áp và độ tươi tự nhiên. Được chế biến hợp vệ sinh và đảm bảo chất lượng, nó lý tưởng cho chế biến thực phẩm, đồ uống, bánh mì, dược phẩm dinh dưỡng, hỗn hợp gia vị và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Đồi Đông Bắc, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Bột thô • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Đồ uống • Bánh mì • Hỗn hợp gia vị • Gia vị • Dinh dưỡng • Ayurveda",
           "minOrder": "500 kg"
         }
       },
       "vp-onion": {
         "name": "bột hành tây",
-        "desc": "Bột hành trắng/đỏ đã khử nước mang lại vị ngọt và hương thơm thơm ngon nhanh chóng của hành tây cho các món ăn hỗn hợp.",
+        "desc": "Bột hành tây cao cấp của chúng tôi được làm từ những củ hành được lựa chọn cẩn thận, mang lại hương thơm đậm đà, hương vị đích thực và độ đặc tuyệt vời. Được chế biến hợp vệ sinh và đảm bảo chất lượng, đây là sản phẩm lý tưởng để làm gia vị, hỗn hợp gia vị, súp, nước sốt, đồ ăn nhẹ, chế biến thực phẩm và thị trường xuất khẩu quốc tế.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vùng Nashik, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Bột thô • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Chế biến thực phẩm • Gia vị • Hỗn hợp gia vị • Súp • Nước sốt • Đồ ăn nhẹ • Thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "vp-spinach": {
-        "name": "Bột rau chân vịt",
-        "desc": "Bột mịn màu xanh được sấy khô từ lá rau muống cao cấp, khóa chất sắt và màu diệp lục tự nhiên.",
+        "name": "Bột rau bina",
+        "desc": "Bột rau bina của chúng tôi được sản xuất từ ​​​​lá rau bina tươi được lựa chọn cẩn thận, được khử nước nhẹ nhàng và nghiền mịn để giữ được màu xanh tự nhiên, chất dinh dưỡng và mùi thơm của lá tươi. Giàu chất sắt, chất xơ, vitamin và chất diệp lục tự nhiên, nó được sử dụng rộng rãi trong ngành công nghiệp thực phẩm, dinh dưỡng, bánh mì và thực phẩm tốt cho sức khỏe.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Chân đồi Himalaya, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Tùy chỉnh số lượng lớn và bán lẻ • Bột mịn • Kích thước mắt lưới tùy chỉnh (theo yêu cầu)",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Dược phẩm dinh dưỡng • Sinh tố & Đồ uống • Súp & Nước sốt • Bánh mì & Bánh kẹo • Mì ống & Mỳ • Gia vị",
           "minOrder": "500 kg"
         }
       },
       "vp-carrot": {
         "name": "bột cà rốt",
-        "desc": "Bột cà rốt khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "desc": "Bột cà rốt của chúng tôi được sản xuất từ ​​những củ cà rốt tươi được lựa chọn cẩn thận, được chế biến hợp vệ sinh, khử nước nhẹ nhàng và nghiền mịn để giữ được màu sắc tự nhiên, vị ngọt và giá trị dinh dưỡng. Giàu beta-carotene tự nhiên, nó được sử dụng rộng rãi trong các ngành công nghiệp thực phẩm, đồ uống, dinh dưỡng và bánh mì.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Thực phẩm bổ sung cho sức khỏe • Súp & Nước sốt • Bánh mì & Bánh kẹo • Công thức thực phẩm cho trẻ em • Sinh tố & Đồ uống",
           "minOrder": "500 kg"
         }
       },
       "vp-cabbage": {
         "name": "bột bắp cải",
-        "desc": "Bột bắp cải khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "desc": "Bột bắp cải của chúng tôi được sản xuất từ ​​bắp cải tươi được lựa chọn cẩn thận, được chế biến hợp vệ sinh, khử nước nhẹ và nghiền mịn để giữ được hương vị, màu sắc và giá trị dinh dưỡng tự nhiên. Nó được sử dụng rộng rãi trong chế biến thực phẩm, hỗn hợp gia vị, súp, bữa ăn sẵn và các ứng dụng thực phẩm tốt cho sức khỏe.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Súp & Nước sốt • Hỗn hợp Gia vị & Gia vị • Hỗn hợp Thực phẩm Ăn liền • Thực phẩm Ăn liền • Sản phẩm Bánh mì • Đồ ăn nhẹ",
           "minOrder": "500 kg"
         }
       },
       "vp-moringa": {
-        "name": "Bột dùi trống (Moringa)",
-        "desc": "Vỏ và bột lá chùm ngây dinh dưỡng được chế biến trong phòng sạch để duy trì lượng vitamin và chất chống oxy hóa cực cao.",
+        "name": "Bột dùi trống",
+        "desc": "Bột dùi trống của chúng tôi được sản xuất từ ​​những chiếc dùi trống tươi được lựa chọn cẩn thận (Quả chùm ngây) được xử lý hợp vệ sinh, khử nước nhẹ nhàng và nghiền mịn để bảo quản hương vị, màu sắc và giá trị dinh dưỡng tự nhiên của chúng. Nó được sử dụng rộng rãi trong chế biến thực phẩm, dược phẩm dinh dưỡng, thực phẩm tốt cho sức khỏe và các ứng dụng gia vị.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Thung lũng Latur, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Thực phẩm dinh dưỡng & thực phẩm tốt cho sức khỏe • Súp & Nước sốt • Hỗn hợp thực phẩm ăn liền • Hỗn hợp gia vị & gia vị • Thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "vp-greenchilli": {
         "name": "Bột ớt xanh",
-        "desc": "Bột ớt xanh khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "desc": "Bột ớt xanh của chúng tôi được sản xuất từ ​​những quả ớt tươi được lựa chọn cẩn thận, được xử lý hợp vệ sinh, khử nước nhẹ và nghiền mịn để giữ được vị cay tự nhiên, màu xanh rực rỡ và hương thơm tươi mát. Nó được sử dụng rộng rãi trong các ngành công nghiệp chế biến thực phẩm, gia vị, đồ ăn nhẹ và thực phẩm ăn liền.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Hỗn hợp Gia vị & Gia vị • Sản xuất Thực phẩm Ăn nhẹ • Hỗn hợp Thực phẩm Ăn liền • Súp & Nước sốt • Chế phẩm Dưa chua",
           "minOrder": "500 kg"
         }
       },
       "vp-corianderleaf": {
         "name": "Bột lá rau mùi",
-        "desc": "Bột lá rau mùi khử nước có độ tinh khiết cao được nghiền theo tiêu chuẩn lưới vi mô để hòa tan nhanh và phân tán hương vị.",
+        "desc": "Bột lá rau mùi của chúng tôi được sản xuất từ ​​​​lá rau mùi tươi (ngò) được lựa chọn cẩn thận, được xử lý hợp vệ sinh, khử nước nhẹ và nghiền mịn để giữ được màu xanh tự nhiên, hương thơm tươi mát và giá trị dinh dưỡng. Nó được sử dụng rộng rãi trong hỗn hợp gia vị, súp, nước sốt, thực phẩm ăn liền và các ứng dụng ẩm thực khác nhau.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng chống ẩm nhiều lớp (20kg)",
-          "purity": "100% rau củ nguyên chất khử nước, không chất phụ gia",
-          "grade": "Sấy phun cao cấp / Xay ở nhiệt độ thấp",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Hỗn hợp Gia vị & Gia vị • Súp & Nước sốt • Hỗn hợp Thực phẩm Ăn liền • Thực phẩm Ăn liền • Đồ ăn nhẹ & Sản phẩm mặn",
           "minOrder": "500 kg"
         }
       },
@@ -970,181 +975,229 @@ export const translations: StaticTranslations = {
       },
       "fp-banana": {
         "name": "bột chuối",
-        "desc": "Bột chuối xanh khử nước giàu tinh bột kháng, được sử dụng trong các công thức bột không chứa gluten tốt cho sức khỏe.",
+        "desc": "Bột chuối của chúng tôi được sản xuất từ ​​những quả chuối chín được lựa chọn cẩn thận, được chế biến hợp vệ sinh, khử nước nhẹ nhàng và nghiền mịn để giữ được vị ngọt, mùi thơm và giá trị dinh dưỡng tự nhiên. Nó được sử dụng rộng rãi trong các ngành công nghiệp thực phẩm, đồ uống, bánh mì, dược phẩm và dinh dưỡng cho trẻ sơ sinh.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Cao nguyên Wayanad, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg • Có sẵn bao bì bán lẻ và số lượng lớn tùy chỉnh • Bột mịn • Kích thước mắt lưới tùy chỉnh",
+          "purity": "Chất lượng xuất khẩu cao cấp • Chế biến hợp vệ sinh",
+          "grade": "Thực phẩm bổ sung sức khỏe • Thực phẩm dành cho trẻ em & Dinh dưỡng cho trẻ sơ sinh • Sinh tố & đồ uống • Bánh mì & Bánh kẹo • Sản phẩm từ sữa • Hỗn hợp thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "fp-mango": {
         "name": "bột xoài",
-        "desc": "Bột xoài Kesar và Alphonso sấy phun, bảo quản hương vị nhiệt đới đích thực, màu vàng và đường tự nhiên.",
+        "desc": "Bột Xoài của chúng tôi được sản xuất từ ​​những quả xoài chất lượng cao được lựa chọn cẩn thận, được chế biến hợp vệ sinh, khử nước nhẹ và nghiền mịn để giữ được vị ngọt tự nhiên, hương thơm nhiệt đới, màu sắc sống động và giá trị dinh dưỡng. Nó được sử dụng rộng rãi trong các ngành công nghiệp thực phẩm, đồ uống, bánh mì, bánh kẹo và dinh dưỡng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
           "origin": "Vườn cây ăn trái Ratnagiri, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
+          "packaging": "Tấm nhôm chân không chèn vào thùng chính • Bột mịn • Kích thước mắt lưới tùy chỉnh",
           "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "grade": "Hỗn hợp nước giải khát & sinh tố • Bánh mì & Bánh kẹo • Sản phẩm từ sữa & Kem • Thực phẩm bổ sung sức khỏe • Hỗn hợp thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "fp-guava": {
         "name": "Bột ổi",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột ổi, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột ổi của chúng tôi được sản xuất từ ​​​​những quả ổi chín, được lựa chọn cẩn thận, được chế biến hợp vệ sinh và sấy khô để bảo quản hương vị nhiệt đới tự nhiên, mùi thơm, màu sắc và giá trị dinh dưỡng. Giàu Vitamin C tự nhiên và chất xơ, nó được sử dụng rộng rãi trong các ứng dụng thực phẩm, đồ uống, dinh dưỡng, sữa và bánh kẹo.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ (Maharashtra, Uttar Pradesh & Andhra Pradesh)",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg có lớp lót Poly cấp thực phẩm • Gói chân không bằng lá nhôm để xuất khẩu số lượng lớn • Số lượng lớn & bán lẻ tùy chỉnh",
+          "purity": "Bột trái ổi nguyên chất 100% • Không màu nhân tạo • Không chất bảo quản • Không thêm đường",
+          "grade": "Đồ uống & Sinh tố • Thực phẩm bổ sung sức khỏe • Bánh mì & Bánh kẹo • Sản phẩm từ sữa • Hỗn hợp thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "fp-pomegranate": {
         "name": "Bột lựu",
-        "desc": "Bột nước ép lựu giàu chất chống oxy hóa được sấy phun để giữ được độ brix cao và màu đỏ hồng đẹp mắt.",
+        "desc": "Bột lựu của chúng tôi được sản xuất từ ​​​​những quả lựu chín, được lựa chọn cẩn thận, được xử lý hợp vệ sinh và sấy khô để bảo quản màu đỏ ruby ​​​​tự nhiên, hương vị trái cây và giá trị dinh dưỡng. Giàu chất chống oxy hóa tự nhiên, polyphenol và Vitamin C, nó được sử dụng rộng rãi trong ngành công nghiệp thực phẩm, đồ uống, dinh dưỡng và thực phẩm chức năng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Cao nguyên Deccan, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ (Maharashtra, Karnataka & Gujarat)",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg có lớp lót Poly cấp thực phẩm • Gói chân không bằng lá nhôm để xuất khẩu số lượng lớn • Số lượng lớn & bán lẻ tùy chỉnh",
+          "purity": "Bột trái cây lựu nguyên chất 100% • Không màu nhân tạo • Không chất bảo quản • Không thêm đường",
+          "grade": "Thực phẩm bổ sung cho sức khỏe • Đồ uống chức năng & Sinh tố • Bánh mì & Bánh kẹo • Sản phẩm từ sữa & Kem • Hỗn hợp thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "fp-pineapple": {
         "name": "Bột Dứa",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột dứa, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột Dứa của chúng tôi được sản xuất từ ​​những quả dứa chín, được lựa chọn cẩn thận, được chế biến hợp vệ sinh và sấy khô để bảo quản hương vị nhiệt đới tự nhiên, mùi thơm, màu vàng và giá trị dinh dưỡng. Giàu vitamin C và bromelain tự nhiên, nó được sử dụng rộng rãi trong các ngành công nghiệp thực phẩm, đồ uống, dinh dưỡng, bánh mì và bánh kẹo.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ (Kerala, Assam, Tây Bengal & Tripura)",
+          "packaging": "Túi giấy Kraft nhiều lớp 25 kg có lớp lót Poly cấp thực phẩm • Gói chân không bằng lá nhôm để xuất khẩu số lượng lớn • Số lượng lớn & bán lẻ tùy chỉnh",
+          "purity": "Bột trái cây dứa nguyên chất 100% • Không màu nhân tạo • Không chất bảo quản • Không thêm đường",
+          "grade": "Đồ uống & Sinh tố • Thực phẩm bổ sung sức khỏe • Bánh mì & Bánh kẹo • Sản phẩm từ sữa & Kem • Hỗn hợp thực phẩm ăn liền",
           "minOrder": "500 kg"
         }
       },
       "fp-papaya": {
         "name": "Bột đu đủ",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột đu đủ, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột đu đủ khử nước chất lượng cao được làm từ đu đủ chín được lựa chọn cẩn thận. Trái cây được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được màu sắc, hương vị, mùi thơm và đặc tính dinh dưỡng tự nhiên.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "100% bột đu đủ - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
       "fp-apple": {
         "name": "bột táo",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột táo, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột táo khử nước chất lượng cao được làm từ táo tươi được lựa chọn cẩn thận. Táo được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được hương vị trái cây tự nhiên, mùi thơm và vị táo đặc trưng. Thích hợp cho các ứng dụng thực phẩm, đồ uống, bánh mì và dinh dưỡng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "100% bột táo - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
       "fp-orange": {
         "name": "bột cam",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột cam, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột cam khử nước chất lượng cao được làm từ cam tươi được lựa chọn cẩn thận. Quả được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được hương vị cam quýt tự nhiên, mùi thơm và vị cam đặc trưng. Thích hợp cho các ứng dụng thực phẩm, đồ uống, bánh mì, bánh kẹo và dinh dưỡng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "Bột cam 100% - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
       "fp-lemon": {
         "name": "bột chanh",
-        "desc": "Bột chanh ép trái cây cao cấp được sấy phun, giữ lại mùi thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột chanh khử nước chất lượng cao được làm từ chanh tươi được lựa chọn cẩn thận. Những quả chanh được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được hương vị cam quýt đặc trưng, ​​mùi thơm và vị bùi tự nhiên. Thích hợp cho các ứng dụng thực phẩm, đồ uống, bánh mì, gia vị và dinh dưỡng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "100% bột chanh - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
       "fp-strawberry": {
         "name": "Bột dâu tây",
-        "desc": "Bột nước ép trái cây cao cấp được sấy phun từ bột dâu tây, giữ lại hương thơm tự nhiên và màu sắc trực quan cho các món trộn và nướng dành cho người sành ăn.",
+        "desc": "Bột dâu tây khử nước chất lượng cao được làm từ dâu tây tươi được lựa chọn cẩn thận. Trái cây được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được hương vị, mùi thơm, màu sắc và hương vị trái cây tự nhiên đặc trưng của dâu tây.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "Sấy phun từ 100% bột trái cây hữu cơ",
-          "grade": "Thực phẩm & Đồ uống hạng A",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "100% bột dâu tây - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
       "fp-amla": {
         "name": "Bột Amla",
-        "desc": "Bột quả lý gai Ấn Độ (Amla) khử nước cung cấp hàm lượng Vitamin C đặc biệt, rất thích hợp để bổ sung vào chế độ ăn uống.",
+        "desc": "Bột Amla khử nước chất lượng cao (Bột quả lý gai Ấn Độ) được làm từ trái cây amla tươi được lựa chọn cẩn thận. Trái cây được chế biến hợp vệ sinh và nghiền thành bột mịn để giữ được màu sắc tự nhiên, hương vị thơm đặc trưng và các giá trị dinh dưỡng có giá trị.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Vườn cây ăn quả Gujarat, Ấn Độ",
-          "packaging": "Tấm nhôm chân không chèn vào thùng carton chính",
-          "purity": "100% Amla nguyên chất, hàm lượng Vitamin C cao",
-          "grade": "Tiêu chuẩn dinh dưỡng",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ 100 g / 250 g / 500 g / 1 kg • Gói số lượng lớn 5 kg / 10 kg / 20 kg / 25 kg • Túi nhiều lớp dành cho thực phẩm • Túi giấy kraft có lớp lót bên trong dành cho thực phẩm",
+          "purity": "100% bột Amla - không chứa màu nhân tạo, hương vị và chất bảo quản",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu (Có sẵn thông số kỹ thuật tùy chỉnh)",
           "minOrder": "500 kg"
         }
       },
-      "m-powder": {
-        "name": "bột chùm ngây",
-        "desc": "Bột lá thô được nghiền mịn từ cây Moringa oleifera được trồng hữu cơ, có chỉ số giàu protein, sắt và vitamin tổng hợp.",
+      "m-leaf-powder": {
+        "name": "Bột lá Moringa",
+        "desc": "Bột được chế biến tinh xảo làm từ lá chùm ngây được lựa chọn cẩn thận. Thích hợp cho các ứng dụng thực phẩm, chăm sóc sức khỏe, dinh dưỡng và thảo dược.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
-          "packaging": "Túi chống tia UV hút chân không (20 kg)",
-          "purity": "Chứng nhận hữu cơ USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "Ấn Độ",
+          "packaging": "100g, 250g, 500g, 1kg, 5kg, 10kg, 20kg & 25kg",
+          "purity": "100% Bột Lá Moringa",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu",
           "minOrder": "200 kg"
         }
       },
-      "m-leaves": {
-        "name": "Lá chùm ngây",
-        "desc": "Lá chùm ngây được phơi khô trong bóng râm, được làm sạch một cách có hệ thống khỏi thân và cặn hữu cơ, giữ nguyên chất diệp lục quan trọng.",
+      "m-leaf-flakes": {
+        "name": "Mảnh lá Moringa",
+        "desc": "Lá chùm ngây được sấy khô cẩn thận, chế biến thành dạng vảy mà vẫn giữ được màu xanh tự nhiên và mùi thơm đặc trưng.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
-          "packaging": "Bao dệt 2 lớp (15kg)",
-          "purity": "Chứng nhận hữu cơ USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "Ấn Độ",
+          "packaging": "100 g–25 kg",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu",
           "minOrder": "200 kg"
         }
       },
       "m-tea": {
         "name": "Trà chùm ngây",
-        "desc": "Lá chùm ngây cắt cao cấp trộn với các loại thảo mộc thơm để tạo ra một loại dịch truyền chăm sóc sức khỏe hàng ngày có chất chống oxy hóa cao, không chứa caffeine.",
+        "desc": "Lá chùm ngây khô cao cấp được chọn lọc và chế biến để sử dụng làm nguyên liệu trà thảo mộc thiên nhiên.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
-          "packaging": "Túi trà lọc tùy chỉnh trong hộp thiếc composite",
-          "purity": "Chứng nhận hữu cơ USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "Ấn Độ",
+          "packaging": "Túi bán lẻ, túi trà và gói số lượng lớn",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Cấp thực phẩm / Cấp xuất khẩu",
           "minOrder": "200 kg"
         }
       },
-      "m-extract": {
-        "name": "Chiết xuất Moringa",
-        "desc": "Chiết xuất từ ​​lá chùm ngây có hoạt tính sinh học cao được chuẩn hóa cho tổng tỷ lệ flavonoid và saponin để sử dụng trong lâm sàng.",
+      "m-seed-powder": {
+        "name": "Bột hạt Moringa / Bột Murungai Vidhai l Bột hạt dùi trống",
+        "desc": "Bột hạt chùm ngây được chế biến tinh xảo thích hợp cho các ứng dụng công nghiệp, dinh dưỡng và thực phẩm chọn lọc, tùy theo thông số kỹ thuật của người mua.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
-          "origin": "Trang trại hữu cơ Latur, Ấn Độ",
-          "packaging": "Hộp nhựa HDPE cấp thực phẩm",
-          "purity": "Chứng nhận hữu cơ USDA & APEDA",
-          "grade": "AAA+ Raw Leaf / Concentrated Standard",
+          "origin": "Ấn Độ",
+          "packaging": "1kg, 5kg, 10kg & 25kg",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Cấp thực phẩm / công nghiệp tùy thuộc vào ứng dụng",
+          "minOrder": "200 kg"
+        }
+      },
+      "m-seeds": {
+        "name": "Hạt chùm ngây",
+        "desc": "Hạt chùm ngây được lựa chọn và làm sạch cẩn thận có nguồn gốc từ Ấn Độ để dùng làm thực phẩm, nông nghiệp, chế biến và các ứng dụng cụ thể khác.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
+        "spec": {
+          "origin": "Ấn Độ",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg và đóng gói số lượng lớn tùy chỉnh",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Lớp xuất khẩu",
+          "minOrder": "200 kg"
+        }
+      },
+      "m-seed-oil": {
+        "name": "Dầu hạt chùm ngây",
+        "desc": "Dầu cao cấp thu được từ hạt chùm ngây, thích hợp cho các ứng dụng mỹ phẩm, chăm sóc cá nhân, sức khỏe và công nghiệp tùy theo thông số kỹ thuật.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
+        "spec": {
+          "origin": "Ấn Độ",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & số lượng lớn",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Cấp mỹ phẩm / công nghiệp",
+          "minOrder": "200 kg"
+        }
+      },
+      "m-leaf-extract": {
+        "name": "Chiết xuất lá Moringa",
+        "desc": "Chiết xuất lá chùm ngây cô đặc được thiết kế để sử dụng như một thành phần trong các công thức dinh dưỡng, thảo dược và thực phẩm chức năng.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
+        "spec": {
+          "origin": "Ấn Độ",
+          "packaging": "1kg, 5kg, 10kg & 25kg",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Cấp thực phẩm/dinh dưỡng theo quy định",
+          "minOrder": "200 kg"
+        }
+      },
+      "m-capsules": {
+        "name": "Viên nang / viên Moringa",
+        "desc": "Các sản phẩm bổ sung chế độ ăn uống dựa trên Moringa được sản xuất theo các thông số kỹ thuật hiện hành và yêu cầu quy định.",
+        "pricing": "Liên hệ với bộ phận giao dịch",
+        "spec": {
+          "origin": "Ấn Độ",
+          "packaging": "Chai, lọ, thùng carton",
+          "purity": "100% chùm ngây nguyên chất",
+          "grade": "Lớp bổ sung chế độ ăn uống",
           "minOrder": "200 kg"
         }
       },
@@ -1330,7 +1383,7 @@ export const translations: StaticTranslations = {
       },
       "df-banana": {
         "name": "lát chuối",
-        "desc": "Những viên chuối Cavendish ngọt được khử nước tự nhiên mà không có chất bảo quản hóa học, hoàn hảo cho hỗn hợp đồ ăn nhẹ hữu cơ.",
+        "desc": "Những viên chuối Cavendish ngọt ngào được khử nước tự nhiên mà không có chất bảo quản hóa học, hoàn hảo cho hỗn hợp đồ ăn nhẹ hữu cơ.",
         "pricing": "Liên hệ với bộ phận giao dịch",
         "spec": {
           "origin": "Cao nguyên Wayanad, Ấn Độ",

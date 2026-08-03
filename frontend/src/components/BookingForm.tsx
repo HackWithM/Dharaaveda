@@ -206,7 +206,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
     setLoading(true);
 
     try {
-      const orderRes = await api.createPaymentOrder(2000, {
+      const orderRes = await api.createPaymentOrder(1, {
         name,
         email,
         phone,
@@ -229,7 +229,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
         }
 
         const options = {
-          key: import.meta.env.VITE_RAZORPAY_KEY_ID || orderRes.keyId,
+          key: orderRes.keyId || import.meta.env.VITE_RAZORPAY_KEY_ID,
           amount: orderRes.amount,
           currency: orderRes.currency,
           name: "DharaAveda Sanctuary",
@@ -250,7 +250,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                 date,
                 time,
                 notes: notes || "Standard therapy residency request.",
-                amount: 2000
+                amount: 1
               });
 
               if (verifyRes.success) {
@@ -310,7 +310,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
           date,
           time,
           notes: notes || "Standard therapy residency request.",
-          amount: 2000
+          amount: 1
         });
 
         if (verifyRes.success) {
@@ -766,7 +766,7 @@ export default function BookingForm({ preselectedServiceId = "", onSuccess }: Bo
                   ) : (
                     <>
                       <ShieldCheck className="w-4 h-4" />
-                      <span>Proceed to Pay ₹2,000</span>
+                      <span>Proceed to Pay ₹1</span>
                     </>
                   )}
                 </button>

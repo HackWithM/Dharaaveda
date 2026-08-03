@@ -87,7 +87,7 @@ export const translations: StaticTranslations = {
     "highlightsTherapy3": "정서적 웰빙",
     "highlightsTherapy3Desc": "생활방식의 피로를 해소하기 위해 고안된 신경계 회복 프로토콜입니다.",
     "highlightsTherapy4": "에너지 힐링",
-    "highlightsTherapy4Desc": "전자기가 없는 챔버 내부에서 432Hz 다성 석영 노래 소리가 조율됩니다.",
+    "highlightsTherapy4Desc": "전자기가 없는 챔버 내부에서 432Hz 다성 석영 노래 소리 조율이 가능합니다.",
     "statsTitle": "우리의 운영 공간",
     "statsSubtitle": "글로벌 영향력과 임상 성공 측정",
     "statCountries": "서비스를 제공하는 국가",
@@ -103,7 +103,7 @@ export const translations: StaticTranslations = {
     "ctaExportBoxBtn": "수출 데스크에 문의하세요",
     "ctaTherapyBoxTitle": "전체적인 치유를 찾고 계십니까?",
     "ctaTherapyBoxDesc": "바이오필드 조정을 위해 개인 상담을 예약하거나 Wayanad 산 보호구역에 빌라 숙박을 예약하세요.",
-    "ctaTherapyBoxBtn": "보호구역 섭취 예약"
+    "ctaTherapyBoxBtn": "보호소 섭취 예약"
   },
   "export": {
     "division": "국제 무역 부문",
