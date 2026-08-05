@@ -196,11 +196,15 @@ export default function Wellness() {
 
       {/* 1. EMOTIONAL STORYTELLING HERO */}
       <section className="relative py-20 px-4 overflow-hidden bg-gradient-to-b from-slate-50 to-white border-b border-gray-200">
-        <img
+        <OptimizedImage
           src={IMAGES.therapy.heroBg}
           alt=""
-          loading="eager"
-          className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-5 pointer-events-none"
+          priority={true}
+          width={1200}
+          height={600}
+          aspectRatio="16/9"
+          className="absolute inset-0 w-full h-full mix-blend-overlay opacity-5 pointer-events-none"
+          imgClassName="object-cover"
         />
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
@@ -230,6 +234,9 @@ export default function Wellness() {
               src={IMAGES.therapy.heroAtmosphere}
               alt="Luxury Meditation Atmosphere"
               className="w-full h-full filter brightness-95"
+              width={800}
+              height={500}
+              aspectRatio="16/10"
               sizes="(max-width: 768px) 100vw, 50vw"
               priority={true}
             />
@@ -902,11 +909,13 @@ export default function Wellness() {
             className="max-w-4xl max-h-[85vh] relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <OptimizedImage
               src={previewImage}
               alt="Expanded Testimonial Screen"
-              referrerPolicy="no-referrer"
-              className="max-w-full max-h-[80vh] object-contain rounded-xl border border-therapy-500/20 shadow-2xl"
+              loading="lazy"
+              decoding="async"
+              className="max-w-full max-h-[80vh] rounded-xl border border-therapy-500/20 shadow-2xl"
+              imgClassName="object-contain"
             />
           </div>
         </div>

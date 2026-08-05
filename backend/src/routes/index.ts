@@ -19,11 +19,11 @@ type AsyncHandler = (req: Request, res: Response, next: NextFunction) => Promise
 const router = Router();
 
 const DEFAULT_PRODUCT_IMAGE =
-  "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800";
+  "/images/products/spices-catalog-fallback.webp?auto=format&fit=crop&q=80&w=800";
 const DEFAULT_SERVICE_IMAGE =
-  "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800";
+  "/images/therapy/sanctuary-meditation-retreat.webp?auto=format&fit=crop&q=80&w=800";
 const DEFAULT_TESTIMONIAL_IMAGE =
-  "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200";
+  "/images/products/spices-catalog-fallback.webp";
 
 const DEFAULT_ABOUT = {
   _id: "about_vikranti",
@@ -32,7 +32,7 @@ const DEFAULT_ABOUT = {
   philosophy:
     "Service, clarity, and care guide every DharaAveda offering, from export relationships to wellness consultations.",
   profileImage:
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800",
+    "/images/testimonials/client-avatar-default.webp?auto=format&fit=crop&q=80&w=800",
   name: "Vikranti Yogesh Sainee",
   role: "Technology Professional, Wellness Practitioner & Spiritual Teacher",
   showReviews: true,

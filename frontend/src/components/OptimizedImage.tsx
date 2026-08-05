@@ -13,7 +13,7 @@ export function getOptimizedUnsplashUrl(baseurl: string, width?: number, quality
     if (width) {
       url.searchParams.set("w", width.toString());
     } else if (!url.searchParams.has("w")) {
-      url.searchParams.set("w", "800"); // default width if none specified
+      url.searchParams.set("w", "800");
     }
     return url.toString();
   } catch (e) {
@@ -21,7 +21,7 @@ export function getOptimizedUnsplashUrl(baseurl: string, width?: number, quality
   }
 }
 
-// Helper to construct a standard dynamic srcSet for responsive scaling
+// Helper to construct a standard dynamic srcSet for Unsplash URLs
 export function getUnsplashSrcSet(baseurl: string, widths = [320, 640, 960, 1200, 1600], quality = 80): string {
   if (!baseurl || !baseurl.startsWith("https://images.unsplash.com")) return "";
   return widths
@@ -29,7 +29,38 @@ export function getUnsplashSrcSet(baseurl: string, widths = [320, 640, 960, 1200
     .join(", ");
 }
 
-interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+// Helper to construct local WebP and AVIF responsive srcSet for self-hosted assets
+export function getLocalSrcSets(src: string, isPriority = false) {
+  if (!src || typeof src !== "string" || !src.startsWith("/images/")) {
+    return { avifSrcSet: undefined, webpSrcSet: undefined, cleanSrc: src };
+  }
+
+  // Strip query parameters and hash fragments cleanly
+  const cleanSrc = src.split("?")[0].split("#")[0];
+  const lastDot = cleanSrc.lastIndexOf(".");
+  if (lastDot === -1) return { avifSrcSet: undefined, webpSrcSet: undefined, cleanSrc };
+
+  const basePath = cleanSrc.substring(0, lastDot);
+  const isHeroOrBg =
+    cleanSrc.includes("/backgrounds/") ||
+    cleanSrc.includes("/hero/") ||
+    cleanSrc.includes("heroBg") ||
+    cleanSrc.includes("heroAtmosphere");
+
+  // AVIF srcSet ONLY for hero/background assets that have .avif files
+  const avifSrcSet = isHeroOrBg
+    ? `${basePath}-hero.avif 1200w, ${basePath}.avif 800w`
+    : undefined;
+
+  // WebP srcSet with responsive sizes (-thumb 200w, -card 600w, master 1200w)
+  const webpSrcSet = isPriority || isHeroOrBg
+    ? `${basePath}-hero.webp 1200w, ${basePath}-card.webp 600w, ${basePath}-thumb.webp 200w, ${cleanSrc} 1200w`
+    : `${basePath}-card.webp 600w, ${basePath}-thumb.webp 200w, ${cleanSrc} 800w`;
+
+  return { avifSrcSet, webpSrcSet, cleanSrc };
+}
+
+export interface OptimizedImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElement>, "src"> {
   src: string;
   alt: string;
   className?: string;
@@ -39,6 +70,9 @@ interface OptimizedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> 
   priority?: boolean;
   fallback?: string;
   quality?: number;
+  width?: number | string;
+  height?: number | string;
+  aspectRatio?: string;
 }
 
 export default function OptimizedImage({
@@ -49,78 +83,111 @@ export default function OptimizedImage({
   sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
   widths = [320, 640, 960, 1200],
   priority = false,
-  fallback = IMAGES.therapy.heroBg, // Default beautiful wellness fallback
+  fallback = IMAGES.export.productFallback,
   quality = 80,
+  width,
+  height,
+  aspectRatio,
+  loading,
+  fetchPriority,
+  decoding,
   ...rest
 }: OptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(priority);
   const [hasError, setHasError] = useState(false);
 
-  // Reset status when source changes
   useEffect(() => {
     setIsLoaded(priority);
     setHasError(false);
   }, [src, priority]);
 
-  const isUnsplash = src && src.startsWith("https://images.unsplash.com");
+  const isUnsplash = src && typeof src === "string" && src.startsWith("https://images.unsplash.com");
+  const isLocalImage = src && typeof src === "string" && src.startsWith("/images/");
 
-  // Determine actual source and srcset
+  const { avifSrcSet, webpSrcSet, cleanSrc } = !hasError && isLocalImage
+    ? getLocalSrcSets(src, priority)
+    : { avifSrcSet: undefined, webpSrcSet: undefined, cleanSrc: src };
+
+  // Determine actual image source
   const finalSrc = hasError
     ? fallback
     : isUnsplash
     ? getOptimizedUnsplashUrl(src, undefined, quality)
-    : src;
+    : cleanSrc || src;
 
-  const srcSet = !hasError && isUnsplash
-    ? getUnsplashSrcSet(src, widths, quality)
-    : undefined;
+  // SrcSet resolution
+  const unsplashSrcSet = !hasError && isUnsplash ? getUnsplashSrcSet(src, widths, quality) : undefined;
+
+  // Production Loading Strategy
+  const computedLoading = loading || (priority ? "eager" : "lazy");
+  const computedFetchPriority = fetchPriority || (priority ? "high" : "auto");
+  const computedDecoding = decoding || "async";
 
   const hasPositionClass = /\b(absolute|relative|fixed|sticky|static)\b/.test(className);
   const positionClass = hasPositionClass ? "" : "relative";
 
+  const containerStyle: React.CSSProperties = {
+    ...(aspectRatio ? { aspectRatio } : {}),
+  };
+
   return (
-    <div className={`${positionClass} overflow-hidden ${className}`}>
-      {/* Premium shimmer skeleton loader */}
+    <div
+      className={`${positionClass} overflow-hidden ${className}`}
+      style={containerStyle}
+    >
+      {/* Premium Shimmer Skeleton Loader */}
       <AnimatePresence>
         {!isLoaded && !hasError && (
           <motion.div
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
-            className="absolute inset-0 bg-slate-100 flex items-center justify-center z-10"
+            className="absolute inset-0 bg-slate-100/80 dark:bg-neutral-900/80 flex items-center justify-center z-10 pointer-events-none"
           >
-            {/* Shimmer gradient line animation */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-200/60 to-transparent -translate-x-full animate-[shimmer_1.5s_infinite]" />
-            {/* Elegant logo mark in loading state */}
-            <div className="w-8 h-8 rounded-full border border-orange-500/20 flex items-center justify-center animate-pulse">
-              <span className="text-[7px] font-mono text-orange-500/50 tracking-widest scale-90">DA</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-200/50 dark:via-neutral-800/50 to-transparent -translate-x-full animate-[shimmer_1.5s_infinite]" />
+            <div className="w-7 h-7 rounded-full border border-orange-500/20 flex items-center justify-center animate-pulse">
+              <span className="text-[7px] font-mono text-orange-500/60 tracking-widest scale-90">DA</span>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
-      <img
-        src={finalSrc}
-        srcSet={srcSet}
-        sizes={isUnsplash ? sizes : undefined}
-        alt={alt}
-        loading={priority ? "eager" : "lazy"}
-        referrerPolicy="no-referrer"
-        onLoad={() => setIsLoaded(true)}
-        onError={(e) => {
-          console.error("OptimizedImage load failed for src:", src, e);
-          setHasError(true);
-          setIsLoaded(true);
-        }}
-        className={`w-full h-full object-cover ${imgClassName} ${
-          priority
-            ? "opacity-100 scale-100 filter brightness-100"
-            : `transition-all duration-700 ease-out ${
-                isLoaded ? "opacity-100 scale-100 filter brightness-100" : "opacity-0 scale-[1.03] filter blur-[4px]"
-              }`
-        }`}
-        {...rest}
-      />
+      <picture className="contents">
+        {/* Modern Next-Gen AVIF Format (Only for assets where AVIF files exist) */}
+        {avifSrcSet && <source type="image/avif" srcSet={avifSrcSet} sizes={sizes} />}
+
+        {/* WebP Format */}
+        {webpSrcSet && <source type="image/webp" srcSet={webpSrcSet} sizes={sizes} />}
+
+        {/* Standard Img Tag Fallback */}
+        <img
+          src={finalSrc}
+          srcSet={unsplashSrcSet}
+          sizes={isUnsplash ? sizes : undefined}
+          alt={alt}
+          width={width}
+          height={height}
+          loading={computedLoading}
+          fetchPriority={computedFetchPriority}
+          decoding={computedDecoding}
+          referrerPolicy="no-referrer"
+          onLoad={() => setIsLoaded(true)}
+          onError={() => {
+            if (!hasError) {
+              setHasError(true);
+              setIsLoaded(true);
+            }
+          }}
+          className={`w-full h-full object-cover ${imgClassName} ${
+            priority
+              ? "opacity-100 scale-100 filter brightness-100"
+              : `transition-all duration-700 ease-out ${
+                  isLoaded ? "opacity-100 scale-100 filter brightness-100" : "opacity-0 scale-[1.02] filter blur-[3px]"
+                }`
+          }`}
+          {...rest}
+        />
+      </picture>
     </div>
   );
 }

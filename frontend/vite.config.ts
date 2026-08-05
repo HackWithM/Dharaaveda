@@ -15,8 +15,16 @@ export default defineConfig(() => {
       cssMinify: true,
       minify: "esbuild",
       sourcemap: false,
+      assetsInlineLimit: 4096,
       rollupOptions: {
         output: {
+          assetFileNames: (assetInfo) => {
+            const info = assetInfo.name || "";
+            if (/\.(png|jpe?g|svg|gif|tiff|bmp|webp|avif|ico)$/i.test(info)) {
+              return "assets/images/[name]-[hash][extname]";
+            }
+            return "assets/[name]-[hash][extname]";
+          },
           manualChunks(id) {
             if (id.includes("node_modules")) {
               if (id.includes("react") || id.includes("scheduler")) {

@@ -18,11 +18,19 @@ export default function Footer() {
           {/* Main Column */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img 
-                src="/images/logo/logo.png" 
-                alt="Dharaaveda Logo" 
-                className="w-20 h-20 object-contain"
-              />
+              <picture className="contents">
+                <source srcSet="/images/logo/logo.svg" type="image/svg+xml" />
+                <source srcSet="/images/logo/logo.webp" type="image/webp" />
+                <img 
+                  src="/images/logo/logo.png" 
+                  alt="Dharaaveda Logo" 
+                  width={80}
+                  height={73}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-20 h-20 object-contain"
+                />
+              </picture>
               <span className="font-serif text-2xl font-bold tracking-[0.2em] text-white">
                 DHARA<span className="text-orange-500">AVEDA</span>
               </span>

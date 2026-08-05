@@ -116,6 +116,9 @@ const ProductModal: React.FC<ProductModalProps> = ({ category, onClose, onInquir
                       <OptimizedImage
                         src={p.images[0]}
                         alt={pName}
+                        width={400}
+                        height={300}
+                        aspectRatio="4/3"
                         className="w-full h-full"
                         imgClassName="transition-transform duration-500 ease-out group-hover:scale-105"
                         sizes="(max-width: 768px) 100vw, 30vw"

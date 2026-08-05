@@ -33,6 +33,9 @@ const ProductCategoryCard: React.FC<ProductCategoryCardProps> = ({ category, onO
         <OptimizedImage
           src={category.image}
           alt={title}
+          width={600}
+          height={375}
+          aspectRatio="16/10"
           className="w-full h-full"
           imgClassName="group-hover:scale-[1.04] transition-transform duration-700 ease-out brightness-90 saturate-95 group-hover:brightness-100"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

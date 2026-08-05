@@ -59,10 +59,20 @@ const corsOptions: CorsOptions = {
 app.use(cors(corsOptions));
 app.options("*", cors(corsOptions));
 
-// Raw body MUST be parsed before express.json() for webhook signature verification
 app.use("/api/webhook/razorpay", express.raw({ type: "application/json" }));
 app.use(express.json({ limit: "10mb" }));
-app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
+
+// Production Immutable Caching for Uploads & Local Static Images
+const staticCacheOptions = {
+  maxAge: "1y",
+  immutable: true,
+  setHeaders: (res: Response) => {
+    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+  }
+};
+
+app.use("/uploads", express.static(path.join(__dirname, "../uploads"), staticCacheOptions));
+app.use("/images", express.static(path.join(__dirname, "../../frontend/public/images"), staticCacheOptions));
 
 app.use((req, _res, next) => {
   console.log(`${req.method} ${req.path}`);

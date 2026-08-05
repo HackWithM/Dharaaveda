@@ -63,6 +63,9 @@ export default function Export() {
           className="absolute inset-0 w-full h-full mix-blend-overlay opacity-5 pointer-events-none"
           imgClassName="object-cover"
           priority={true}
+          width={1200}
+          height={600}
+          aspectRatio="16/9"
         />
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
@@ -95,6 +98,9 @@ export default function Export() {
               src={IMAGES.export.cargoShipAbout}
               alt="Cargo Ship Logistics"
               className="w-full h-full filter brightness-95"
+              width={800}
+              height={500}
+              aspectRatio="16/10"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
             {/* Absolute overlay trust card */}

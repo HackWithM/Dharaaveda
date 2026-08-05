@@ -1,0 +1,558 @@
+{
+  "timestamp": "2026-08-05T08:17:58.312Z",
+  "filesScanned": 64,
+  "filesModified": 4,
+  "totalOccurrencesReplaced": 114,
+  "remainingExternalUrls": 0,
+  "fileDetails": [
+    {
+      "file": "frontend/src/data/images.ts",
+      "occurrences": 88,
+      "replacements": [
+        {
+          "originalUrl": "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
+          "localPath": "/images/backgrounds/export-trade-showcase.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://media.istockphoto.com/id/2123124996/photo/low-angle-aerial-shot-of-cranes-looming-over-container-ship.jpg?s=612x612&w=0&k=20&c=ple5acFVT_AT1SCZCbkXT0ZEXLMQ-3dFTCGRisGSYVA=",
+          "localPath": "/images/backgrounds/export-logistics-cargo.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+          "localPath": "/images/products/spices-catalog-fallback.webp",
+          "count": 2
+        },
+        {
+          "originalUrl": "https://info.ehl.edu/hubfs/1440/1440x960-spices.jpg",
+          "localPath": "/images/products/asset-5-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://proficiencytesting.in/wp-content/uploads/2023/08/18-e1693220803501.jpg",
+          "localPath": "/images/products/asset-6-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.meviveinternational.com/data/storage/app/images/category/spray-dried-fruit-powders-8976.webp",
+          "localPath": "/images/products/asset-7-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.taropumps.com/media/2366/1_edit.jpg",
+          "localPath": "/images/products/asset-8-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.mevabite.com/cdn/shop/articles/Is-it-better-to-eat-fresh-or-dried-fruits_053668dd-1ef8-4273-9f5d-e0ea80b1d48a.webp?v=1721815055",
+          "localPath": "/images/products/asset-9-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://rubflex.com/wp-content/uploads/2022/10/TURMERIC-Slides-V3_2-1-1.jpg",
+          "localPath": "/images/products/turmeric-extract.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.neonaturalindustries.com/wp-content/uploads/2022/06/red-chillies.jpg",
+          "localPath": "/images/products/green-chilli-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://tiimg.tistatic.com/fp/1/009/713/coriander-powder-019.jpg",
+          "localPath": "/images/products/coriander-leaf-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://vibrantliving.in/cdn/shop/files/Cumin_543f69f0-f80b-42e7-b0c6-a45ee4d535b4.png?v=1731059986&width=2048",
+          "localPath": "/images/products/asset-13-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://d3kgrlupo77sg7.cloudfront.net/media/chococoorgspice.com/images/products/medium/black-pepper-powder-coorg-spices.20260315024227.webp",
+          "localPath": "/images/products/asset-14-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn.shopify.com/s/files/1/0437/8953/files/Queen_of_spices_origin_seeds_pods.png?v=1642723399",
+          "localPath": "/images/products/asset-15-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://sandigeatdoors.com/wp-content/uploads/2022/12/Cloves-Sandige-At-Doors.png",
+          "localPath": "/images/products/asset-16-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.stylecraze.com/wp-content/uploads/2013/04/Cinnamon-10-Potent-Health-Benefits-The-Best-Type-Of-Cinnamon_1200px.jpg.webp",
+          "localPath": "/images/products/asset-17-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn.britannica.com/77/170777-050-3A754B3D/Nutmeg-seeds-ground-spice.jpg",
+          "localPath": "/images/products/asset-18-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn.shopify.com/s/files/1/0686/4283/2583/files/star_anise_article_hero_copy.webp?v=1745522159",
+          "localPath": "/images/products/asset-19-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn11.bigcommerce.com/s-7gw5qujusi/images/stencil/1280x1280/products/356/1391/102441__57402.1719401293.jpg?c=1",
+          "localPath": "/images/products/asset-20-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?fm=webp&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-21-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://sygsan.com/wp-content/uploads/2024/09/bayle.jpeg",
+          "localPath": "/images/products/asset-22-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://keralaspicecart.com/wp-content/uploads/2020/10/kerala-spice-cart-garam-masala.jpg",
+          "localPath": "/images/products/asset-23-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://d1wv6w1iq7btjo.cloudfront.net/mm/2021/10/niQ4ze9XZwfAibEawspGLBtvAistockphoto-1297420369-170667a.jpg",
+          "localPath": "/images/products/asset-24-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.spicebloom.co.nz/cdn/shop/articles/creative-ways-to-use-beetroot-powder-in-nz-cooking-baking-382330.png?v=1750196405",
+          "localPath": "/images/products/dehydrated-beetroot-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://dailyfarmer.in/cdn/shop/articles/SEOon_tomato-powder-1.webp?v=1758522019",
+          "localPath": "/images/products/dehydrated-tomato-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/503173940/OW/MU/WF/157799058/dehydrated-potato-powder.jpg",
+          "localPath": "/images/products/dehydrated-potato-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.kisaantrade.com/public/uploads/all/BgZKnepaWalga3yYOMjqZIq81em3pmfNQKKiWTGr.webp",
+          "localPath": "/images/products/asset-28-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://pikpure.in/wp-content/uploads/2023/05/organic-ginger-root-powder.jpg",
+          "localPath": "/images/products/dehydrated-ginger-slice.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/61aFPnRZOtL._AC_UF350,350_QL80_.jpg",
+          "localPath": "/images/products/asset-30-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/7/525270821/FG/JC/LQ/13151738/spinach-powder-500x500.jpeg",
+          "localPath": "/images/products/dehydrated-spinach-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/10/461205666/HK/YG/GG/121743691/spray-dried-carrot-powder-500x500.jpg",
+          "localPath": "/images/products/asset-32-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/12/470678328/KQ/XA/YW/133006965/cabbage-powder.png",
+          "localPath": "/images/products/cabbage-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/10/553278943/HH/ES/IP/233295527/drumstick-powder-moringa.png",
+          "localPath": "/images/products/moringa-leaf-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://foodcare.in/cdn/shop/files/Green-Chilli-Powder.jpg?v=1768271643&width=1445",
+          "localPath": "/images/products/green-chilli-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://foodcare.in/cdn/shop/files/coriander-leaf-powder.png?v=1780550221",
+          "localPath": "/images/products/coriander-leaf-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Mint-Powder-1.jpg?v=1725118967",
+          "localPath": "/images/products/mint-leaf-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/12/566787036/ZR/FJ/RJ/227106443/banana-powder.jpg",
+          "localPath": "/images/products/raw-banana-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/503570585/ON/JX/FX/157512010/organic-mango-powder-500x500.jpg",
+          "localPath": "/images/products/amchur-mango-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-White-Guava-Powder-1.jpg?v=1725119160",
+          "localPath": "/images/products/white-guava-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2023/10/353032586/GF/HT/PN/75214588/high-quality-pomegranate-powder.jpg",
+          "localPath": "/images/products/pomegranate-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cpimg.tistatic.com/12551838/b/4/Pineapple-Powder.jpeg",
+          "localPath": "/images/products/pineapple-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/2/488383816/VB/EZ/GZ/234972051/papaya-powder-500x500.jpg",
+          "localPath": "/images/products/papaya-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://nankatrathu.in/cdn/shop/files/WhatsApp-Image-2025-10-19-at-17.46.16-1.jpg?v=1775903916",
+          "localPath": "/images/products/asset-44-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/11/463894282/EV/TV/SX/51611984/orange-powder-500x500.jpg",
+          "localPath": "/images/products/orange-peel-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cpimg.tistatic.com/08182994/b/4/Organic-Lemon-Powder.jpg",
+          "localPath": "/images/products/lemon-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Strawberry-Powder-1.jpg?v=1725119108",
+          "localPath": "/images/products/strawberry-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.gomataseva.org/wp-content/uploads/2026/01/Amla-Powder.webp",
+          "localPath": "/images/products/amla-fruit-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://satviya.com/cdn/shop/articles/Moringa_powder.jpg?v=1757315523&width=1920",
+          "localPath": "/images/products/moringa-leaf-powder.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://t4.ftcdn.net/jpg/15/14/92/79/360_F_1514927911_kvgtHqQfB8ZvVXxapVAHPBm1AiGFhtkE.jpg",
+          "localPath": "/images/products/asset-50-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/718Ez2dYkPL._AC_UF350,350_QL80_.jpg",
+          "localPath": "/images/products/asset-51-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://krishnaindia.in/wp-content/uploads/2025/07/Hulled-Sesame-Seed-99.98-Non-EU-Grade.jpg",
+          "localPath": "/images/products/hulled-sesame-seeds.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn.shopify.com/s/files/1/1740/1449/files/RG-Sunflower-4.jpg?v=1631119406",
+          "localPath": "/images/products/sunflower-seeds.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.drweil.com/wp-content/uploads/2018/05/Can-Chia-Help-With-Weight-Loss_-531657339-600x450.jpg",
+          "localPath": "/images/products/chia-seeds.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://cdn.shopify.com/s/files/1/0548/8230/4247/files/Are_Watermelon_Seeds_Healthy_to_Eat.jpg?v=1641795437",
+          "localPath": "/images/products/watermelon-seeds.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.darwin-nutrition.fr/wp-content/uploads/2020/06/AdobeStock_353791440.jpeg",
+          "localPath": "/images/products/asset-56-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/41iIR+LL3UL._AC_UF894,1000_QL80_.jpg",
+          "localPath": "/images/products/asset-57-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://tiimg.tistatic.com/fp/1/006/196/natural-brown-dehydrated-ginger-801.jpg",
+          "localPath": "/images/products/dehydrated-ginger-slice.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://healthy-indian.com/wp-content/uploads/2021/07/IMG_8432.jpg",
+          "localPath": "/images/products/asset-59-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.alphafoodie.com/wp-content/uploads/2020/08/Beetroot-Chips.jpeg",
+          "localPath": "/images/products/dehydrated-beetroot-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://www.greendna.in/cdn/shop/products/dried_palakleaves_1200x.webp?v=1677324926",
+          "localPath": "/images/products/dehydrated-spinach-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://2.wlimg.com/product_images/bc-full/2024/8/13087015/dehydrated-cabbage-1724407934-7574544.jpeg",
+          "localPath": "/images/products/dehydrated-cabbage-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://tiimg.tistatic.com/fp/1/009/901/banana-slices-793.jpg",
+          "localPath": "/images/products/dehydrated-banana-slices.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/ECOM/Default/2022/10/PY/EG/SW/13510045/1-d8f81a85-4048-444a-bc67-9ea1e89a68b0-500x500.png",
+          "localPath": "/images/products/asset-64-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/81jehZof-HL.jpg",
+          "localPath": "/images/products/asset-65-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/71VoBg3ARZL._AC_UF894,1000_QL80_.jpg",
+          "localPath": "/images/products/asset-66-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/61i8DAqE9aL._SX679_.jpg",
+          "localPath": "/images/products/asset-67-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://m.media-amazon.com/images/I/61zDISkcigL._AC_UF894,1000_QL80_.jpg",
+          "localPath": "/images/products/asset-68-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/7/527139174/YM/DG/BC/248203515/dehydrated-guava-slices.jpg",
+          "localPath": "/images/products/dehydrated-guava-slices.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
+          "localPath": "/images/products/asset-70-68747470.webp",
+          "count": 4
+        },
+        {
+          "originalUrl": "https://cpimg.tistatic.com/12747559/b/5/Dehydrated-Garlic-Flakes.jpg",
+          "localPath": "/images/products/dehydrated-garlic-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/506414860/XB/UR/VF/244097434/dehydrated-potato-flakes-500x500.jpeg",
+          "localPath": "/images/products/dehydrated-potato-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/12/470991883/QZ/TW/NW/29994952/tomato-powder-and-flakes-500x500.jpeg",
+          "localPath": "/images/products/dehydrated-tomato-flakes.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/10/553140206/AK/ZT/HN/125266950/5-kg-dehydrated-vegetable-500x500.png",
+          "localPath": "/images/products/dehydrated-mix-vegetables.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=webp&fit=crop&q=80&w=600",
+          "localPath": "/images/testimonials/client-review-wellness-1.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?fm=webp&fit=crop&q=80&w=600",
+          "localPath": "/images/testimonials/client-review-wellness-2.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?fm=webp&fit=crop&q=80&w=600",
+          "localPath": "/images/testimonials/client-review-soundwave.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?fm=webp&fit=crop&q=80&w=150",
+          "localPath": "/images/therapy/sanctuary-lotus-atmosphere.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=150",
+          "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+          "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=150",
+          "localPath": "/images/testimonials/client-avatar-default.webp",
+          "count": 3
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+          "localPath": "/images/testimonials/client-avatar-default.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fm=webp&fit=crop&q=80&w=150",
+          "localPath": "/images/testimonials/client-avatar-male.webp",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/routes/index.ts",
+      "occurrences": 4,
+      "replacements": [
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d",
+          "localPath": "/images/products/spices-catalog-fallback.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+          "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+          "localPath": "/images/testimonials/client-avatar-default.webp",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "backend/src/services/seed.service.ts",
+      "occurrences": 11,
+      "replacements": [
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d",
+          "localPath": "/images/products/spices-catalog-fallback.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+          "localPath": "/images/testimonials/client-review-wellness-1.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94",
+          "localPath": "/images/testimonials/client-review-wellness-2.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5",
+          "localPath": "/images/testimonials/client-review-soundwave.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+          "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+          "localPath": "/images/testimonials/client-avatar-default.webp",
+          "count": 2
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-85-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-86-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-87-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+          "localPath": "/images/products/asset-89-68747470.webp",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "db_store.json",
+      "occurrences": 11,
+      "replacements": [
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d",
+          "localPath": "/images/products/spices-catalog-fallback.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+          "localPath": "/images/testimonials/client-review-wellness-1.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94",
+          "localPath": "/images/testimonials/client-review-wellness-2.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5",
+          "localPath": "/images/testimonials/client-review-soundwave.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+          "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+          "localPath": "/images/testimonials/client-avatar-default.webp",
+          "count": 2
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-85-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-86-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
+          "localPath": "/images/products/asset-87-68747470.webp",
+          "count": 1
+        },
+        {
+          "originalUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+          "localPath": "/images/products/asset-89-68747470.webp",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

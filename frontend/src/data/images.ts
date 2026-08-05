@@ -16,9 +16,13 @@ export const IMAGES = {
   // ----------------------------------------------------------
   branding: {
     /** Main logo displayed in the Navbar */
-    navbarLogo: "/images/logo/logo.png",
+    navbarLogo: "/images/logo/logo.webp",
+    navbarLogoSvg: "/images/logo/logo.svg",
+    navbarLogoPng: "/images/logo/logo.png",
     /** Logo shown in the Footer */
-    footerLogo: "/images/logo/logo.png",
+    footerLogo: "/images/logo/logo.webp",
+    footerLogoSvg: "/images/logo/logo.svg",
+    footerLogoPng: "/images/logo/logo.png",
   },
 
   // ----------------------------------------------------------
@@ -28,7 +32,7 @@ export const IMAGES = {
     /** Full-width hero background on the Home landing section */
     heroBg: "/images/home.png",
     /** Background image for the Export showcase card on Home */
-    exportCardBg: "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
+    exportCardBg: "/images/backgrounds/export-trade-showcase.webp",
     /** Background image for the Therapy showcase card on Home */
     therapyCardBg: "/images/therapy/bachFlowerService.webp",
   },
@@ -40,9 +44,9 @@ export const IMAGES = {
     /** Full-width hero background on the Export page */
     heroBg: "/images/export/heroBg.jpg",
     /** Cargo ship image used in the Export page about section */
-    cargoShipAbout: "https://media.istockphoto.com/id/2123124996/photo/low-angle-aerial-shot-of-cranes-looming-over-container-ship.jpg?s=612x612&w=0&k=20&c=ple5acFVT_AT1SCZCbkXT0ZEXLMQ-3dFTCGRisGSYVA=",
+    cargoShipAbout: "/images/backgrounds/export-logistics-cargo.webp",
     /** Fallback / placeholder image when no product image is available */
-    productFallback: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+    productFallback: "/images/products/spices-catalog-fallback.webp",
   },
 
   // ----------------------------------------------------------
@@ -51,19 +55,19 @@ export const IMAGES = {
   // ----------------------------------------------------------
   exportCategories: {
     /** Banner for the Spices & Seasonings category */
-    spices: "https://info.ehl.edu/hubfs/1440/1440x960-spices.jpg",
+    spices: "/images/products/asset-5-68747470.webp",
     /** Banner for the Dehydrated Vegetable Powders category */
-    vegPowders: "https://proficiencytesting.in/wp-content/uploads/2023/08/18-e1693220803501.jpg",
+    vegPowders: "/images/products/asset-6-68747470.webp",
     /** Banner for the Dehydrated Fruit Powders category */
-    fruitPowders: "https://www.meviveinternational.com/data/storage/app/images/category/spray-dried-fruit-powders-8976.webp",
+    fruitPowders: "/images/products/asset-7-68747470.webp",
     /** Banner for the Moringa Products category */
     moringa: "https://ik.imagekit.io/pon54xoks/moringa-leaves-extract%20(2).jpg",
     /** Banner for the Seeds category */
-    seeds: "https://www.taropumps.com/media/2366/1_edit.jpg",
+    seeds: "/images/products/asset-8-68747470.webp",
     /** Banner for the Dehydrated Vegetables category */
     dehydratedVeg: "https://media.licdn.com/dms/image/v2/D4D12AQENQ2jHukVtDQ/article-cover_image-shrink_720_1280/B4DZZ1bHwIGcAI-/0/1745726767556?e=2147483647&v=beta&t=sdRa0ldWyYCjxbWvIGXgZx1ilfX1Qci4s__mxct-Dww",
     /** Banner for the Dehydrated Fruits category */
-    dehydratedFruits: "https://www.mevabite.com/cdn/shop/articles/Is-it-better-to-eat-fresh-or-dried-fruits_053668dd-1ef8-4273-9f5d-e0ea80b1d48a.webp?v=1721815055",
+    dehydratedFruits: "/images/products/asset-9-68747470.webp",
     /** Banner for the Flakes category */
     flakes: flakesCategoryImage,
   },
@@ -74,86 +78,86 @@ export const IMAGES = {
   // ----------------------------------------------------------
   exportProducts: {
     // Spices
-    turmericPowder: "https://rubflex.com/wp-content/uploads/2022/10/TURMERIC-Slides-V3_2-1-1.jpg",
-    redChilliPowder: "https://www.neonaturalindustries.com/wp-content/uploads/2022/06/red-chillies.jpg",
-    corianderPowder: "https://tiimg.tistatic.com/fp/1/009/713/coriander-powder-019.jpg",
-    cuminPowder: "https://vibrantliving.in/cdn/shop/files/Cumin_543f69f0-f80b-42e7-b0c6-a45ee4d535b4.png?v=1731059986&width=2048",
-    blackPepper: "https://d3kgrlupo77sg7.cloudfront.net/media/chococoorgspice.com/images/products/medium/black-pepper-powder-coorg-spices.20260315024227.webp",
-    cardamom: "https://cdn.shopify.com/s/files/1/0437/8953/files/Queen_of_spices_origin_seeds_pods.png?v=1642723399",
-    cloves: "https://sandigeatdoors.com/wp-content/uploads/2022/12/Cloves-Sandige-At-Doors.png",
-    cinnamon: "https://www.stylecraze.com/wp-content/uploads/2013/04/Cinnamon-10-Potent-Health-Benefits-The-Best-Type-Of-Cinnamon_1200px.jpg.webp",
-    nutmeg: "https://cdn.britannica.com/77/170777-050-3A754B3D/Nutmeg-seeds-ground-spice.jpg",
-    starAnise: "https://cdn.shopify.com/s/files/1/0686/4283/2583/files/star_anise_article_hero_copy.webp?v=1745522159",
-    fennelSeeds: "https://cdn11.bigcommerce.com/s-7gw5qujusi/images/stencil/1280x1280/products/356/1391/102441__57402.1719401293.jpg?c=1",
-    mustardSeeds: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?fm=webp&fit=crop&q=80&w=800",
-    bayLeaves: "https://sygsan.com/wp-content/uploads/2024/09/bayle.jpeg",
-    garamMasala: "https://keralaspicecart.com/wp-content/uploads/2020/10/kerala-spice-cart-garam-masala.jpg",
-    mixedSpiceBlends: "https://d1wv6w1iq7btjo.cloudfront.net/mm/2021/10/niQ4ze9XZwfAibEawspGLBtvAistockphoto-1297420369-170667a.jpg",
+    turmericPowder: "/images/products/turmeric-extract.webp",
+    redChilliPowder: "/images/products/green-chilli-powder.webp",
+    corianderPowder: "/images/products/coriander-leaf-powder.webp",
+    cuminPowder: "/images/products/asset-13-68747470.webp",
+    blackPepper: "/images/products/asset-14-68747470.webp",
+    cardamom: "/images/products/asset-15-68747470.webp",
+    cloves: "/images/products/asset-16-68747470.webp",
+    cinnamon: "/images/products/asset-17-68747470.webp",
+    nutmeg: "/images/products/asset-18-68747470.webp",
+    starAnise: "/images/products/asset-19-68747470.webp",
+    fennelSeeds: "/images/products/asset-20-68747470.webp",
+    mustardSeeds: "/images/products/asset-21-68747470.webp",
+    bayLeaves: "/images/products/asset-22-68747470.webp",
+    garamMasala: "/images/products/asset-23-68747470.webp",
+    mixedSpiceBlends: "/images/products/asset-24-68747470.webp",
     // Dehydrated Vegetable Powders
-    beetrootPowder: "https://www.spicebloom.co.nz/cdn/shop/articles/creative-ways-to-use-beetroot-powder-in-nz-cooking-baking-382330.png?v=1750196405",
-    tomatoPowder: "https://dailyfarmer.in/cdn/shop/articles/SEOon_tomato-powder-1.webp?v=1758522019",
-    potatoPowder: "https://5.imimg.com/data5/SELLER/Default/2025/4/503173940/OW/MU/WF/157799058/dehydrated-potato-powder.jpg",
-    garlicPowder: "https://www.kisaantrade.com/public/uploads/all/BgZKnepaWalga3yYOMjqZIq81em3pmfNQKKiWTGr.webp",
-    gingerPowder: "https://pikpure.in/wp-content/uploads/2023/05/organic-ginger-root-powder.jpg",
-    onionPowder: "https://m.media-amazon.com/images/I/61aFPnRZOtL._AC_UF350,350_QL80_.jpg",
-    spinachPowder: "https://5.imimg.com/data5/SELLER/Default/2025/7/525270821/FG/JC/LQ/13151738/spinach-powder-500x500.jpeg",
-    carrotPowder: "https://5.imimg.com/data5/SELLER/Default/2024/10/461205666/HK/YG/GG/121743691/spray-dried-carrot-powder-500x500.jpg",
-    cabbagePowder: "https://5.imimg.com/data5/SELLER/Default/2024/12/470678328/KQ/XA/YW/133006965/cabbage-powder.png",
-    moringaPowderVeg: "https://5.imimg.com/data5/SELLER/Default/2025/10/553278943/HH/ES/IP/233295527/drumstick-powder-moringa.png",
-    greenChilliPowder: "https://foodcare.in/cdn/shop/files/Green-Chilli-Powder.jpg?v=1768271643&width=1445",
-    corianderLeafPowder: "https://foodcare.in/cdn/shop/files/coriander-leaf-powder.png?v=1780550221",
-    mintPowder: "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Mint-Powder-1.jpg?v=1725118967",
+    beetrootPowder: "/images/products/dehydrated-beetroot-flakes.webp",
+    tomatoPowder: "/images/products/dehydrated-tomato-flakes.webp",
+    potatoPowder: "/images/products/dehydrated-potato-flakes.webp",
+    garlicPowder: "/images/products/asset-28-68747470.webp",
+    gingerPowder: "/images/products/dehydrated-ginger-slice.webp",
+    onionPowder: "/images/products/asset-30-68747470.webp",
+    spinachPowder: "/images/products/dehydrated-spinach-flakes.webp",
+    carrotPowder: "/images/products/asset-32-68747470.webp",
+    cabbagePowder: "/images/products/cabbage-powder.webp",
+    moringaPowderVeg: "/images/products/moringa-leaf-powder.webp",
+    greenChilliPowder: "/images/products/green-chilli-powder.webp",
+    corianderLeafPowder: "/images/products/coriander-leaf-powder.webp",
+    mintPowder: "/images/products/mint-leaf-powder.webp",
     // Dehydrated Fruit Powders
-    bananaPowder: "https://5.imimg.com/data5/SELLER/Default/2025/12/566787036/ZR/FJ/RJ/227106443/banana-powder.jpg",
-    mangoPowder: "https://5.imimg.com/data5/SELLER/Default/2025/4/503570585/ON/JX/FX/157512010/organic-mango-powder-500x500.jpg",
-    guavaPowder: "https://fzyezy.com/cdn/shop/files/Freeze-Dried-White-Guava-Powder-1.jpg?v=1725119160",
-    pomegranatePowder: "https://5.imimg.com/data5/SELLER/Default/2023/10/353032586/GF/HT/PN/75214588/high-quality-pomegranate-powder.jpg",
-    pineapplePowder: "https://cpimg.tistatic.com/12551838/b/4/Pineapple-Powder.jpeg",
-    papayaPowder: "https://5.imimg.com/data5/SELLER/Default/2025/2/488383816/VB/EZ/GZ/234972051/papaya-powder-500x500.jpg",
-    applePowder: "https://nankatrathu.in/cdn/shop/files/WhatsApp-Image-2025-10-19-at-17.46.16-1.jpg?v=1775903916",
-    orangePowder: "https://5.imimg.com/data5/SELLER/Default/2024/11/463894282/EV/TV/SX/51611984/orange-powder-500x500.jpg",
-    lemonPowder: "https://cpimg.tistatic.com/08182994/b/4/Organic-Lemon-Powder.jpg",
-    strawberryPowder: "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Strawberry-Powder-1.jpg?v=1725119108",
-    amlaPowder: "https://www.gomataseva.org/wp-content/uploads/2026/01/Amla-Powder.webp",
+    bananaPowder: "/images/products/raw-banana-powder.webp",
+    mangoPowder: "/images/products/amchur-mango-powder.webp",
+    guavaPowder: "/images/products/white-guava-powder.webp",
+    pomegranatePowder: "/images/products/pomegranate-powder.webp",
+    pineapplePowder: "/images/products/pineapple-powder.webp",
+    papayaPowder: "/images/products/papaya-powder.webp",
+    applePowder: "/images/products/asset-44-68747470.webp",
+    orangePowder: "/images/products/orange-peel-powder.webp",
+    lemonPowder: "/images/products/lemon-powder.webp",
+    strawberryPowder: "/images/products/strawberry-powder.webp",
+    amlaPowder: "/images/products/amla-fruit-powder.webp",
     // Moringa Products
-    moringaPowder: "https://satviya.com/cdn/shop/articles/Moringa_powder.jpg?v=1757315523&width=1920",
+    moringaPowder: "/images/products/moringa-leaf-powder.webp",
     moringaLeaves: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwNsgi7f-TOPNkw9sGyb1BBuyrcNuEuNt7Q&s",
-    moringaTea: "https://t4.ftcdn.net/jpg/15/14/92/79/360_F_1514927911_kvgtHqQfB8ZvVXxapVAHPBm1AiGFhtkE.jpg",
+    moringaTea: "/images/products/asset-50-68747470.webp",
     moringaExtract: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwE68zDlJyiPMGoSfcK1NgmjHHLXavgznxow&s",
     // Seeds
-    flaxSeeds: "https://m.media-amazon.com/images/I/718Ez2dYkPL._AC_UF350,350_QL80_.jpg",
+    flaxSeeds: "/images/products/asset-51-68747470.webp",
     pumpkinSeeds: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0jfiE947AYh41zRqzeFE56IGIiVcS3Uxtg&s",
-    sesameSeeds: "https://krishnaindia.in/wp-content/uploads/2025/07/Hulled-Sesame-Seed-99.98-Non-EU-Grade.jpg",
-    sunflowerSeeds: "https://cdn.shopify.com/s/files/1/1740/1449/files/RG-Sunflower-4.jpg?v=1631119406",
-    chiaSeeds: "https://www.drweil.com/wp-content/uploads/2018/05/Can-Chia-Help-With-Weight-Loss_-531657339-600x450.jpg",
-    watermelonSeeds: "https://cdn.shopify.com/s/files/1/0548/8230/4247/files/Are_Watermelon_Seeds_Healthy_to_Eat.jpg?v=1641795437",
-    basilSeeds: "https://www.darwin-nutrition.fr/wp-content/uploads/2020/06/AdobeStock_353791440.jpeg",
+    sesameSeeds: "/images/products/hulled-sesame-seeds.webp",
+    sunflowerSeeds: "/images/products/sunflower-seeds.webp",
+    chiaSeeds: "/images/products/chia-seeds.webp",
+    watermelonSeeds: "/images/products/watermelon-seeds.webp",
+    basilSeeds: "/images/products/asset-56-68747470.webp",
     // Dehydrated Vegetables (slices)
     dehydratedOnion: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxFpkbyQpRHFY44eeSLh2DTkRn-gx342YY8Q&s",
-    dehydratedGarlic: "https://m.media-amazon.com/images/I/41iIR+LL3UL._AC_UF894,1000_QL80_.jpg",
-    dehydratedGinger: "https://tiimg.tistatic.com/fp/1/006/196/natural-brown-dehydrated-ginger-801.jpg",
-    dehydratedTomato: "https://healthy-indian.com/wp-content/uploads/2021/07/IMG_8432.jpg",
+    dehydratedGarlic: "/images/products/asset-57-68747470.webp",
+    dehydratedGinger: "/images/products/dehydrated-ginger-slice.webp",
+    dehydratedTomato: "/images/products/asset-59-68747470.webp",
     dehydratedCarrot: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-xTuIutf98gvaOSivzEASla1l84IV7ZGTSw&s",
-    dehydratedBeetroot: "https://www.alphafoodie.com/wp-content/uploads/2020/08/Beetroot-Chips.jpeg",
-    dehydratedSpinach: "https://www.greendna.in/cdn/shop/products/dried_palakleaves_1200x.webp?v=1677324926",
-    dehydratedCabbage: "https://2.wlimg.com/product_images/bc-full/2024/8/13087015/dehydrated-cabbage-1724407934-7574544.jpeg",
+    dehydratedBeetroot: "/images/products/dehydrated-beetroot-flakes.webp",
+    dehydratedSpinach: "/images/products/dehydrated-spinach-flakes.webp",
+    dehydratedCabbage: "/images/products/dehydrated-cabbage-flakes.webp",
     // Dehydrated Fruits (slices)
-    bananaSlices: "https://tiimg.tistatic.com/fp/1/009/901/banana-slices-793.jpg",
-    mangoSlices: "https://5.imimg.com/data5/ECOM/Default/2022/10/PY/EG/SW/13510045/1-d8f81a85-4048-444a-bc67-9ea1e89a68b0-500x500.png",
-    pineappleSlices: "https://m.media-amazon.com/images/I/81jehZof-HL.jpg",
-    appleSlices: "https://m.media-amazon.com/images/I/71VoBg3ARZL._AC_UF894,1000_QL80_.jpg",
-    papayaSlices: "https://m.media-amazon.com/images/I/61i8DAqE9aL._SX679_.jpg",
-    strawberrySlices: "https://m.media-amazon.com/images/I/61zDISkcigL._AC_UF894,1000_QL80_.jpg",
-    guavaSlices: "https://5.imimg.com/data5/SELLER/Default/2025/7/527139174/YM/DG/BC/248203515/dehydrated-guava-slices.jpg",
+    bananaSlices: "/images/products/dehydrated-banana-slices.webp",
+    mangoSlices: "/images/products/asset-64-68747470.webp",
+    pineappleSlices: "/images/products/asset-65-68747470.webp",
+    appleSlices: "/images/products/asset-66-68747470.webp",
+    papayaSlices: "/images/products/asset-67-68747470.webp",
+    strawberrySlices: "/images/products/asset-68-68747470.webp",
+    guavaSlices: "/images/products/dehydrated-guava-slices.webp",
     // Flakes
-    onionFlakes: "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
-    garlicFlakes: "https://cpimg.tistatic.com/12747559/b/5/Dehydrated-Garlic-Flakes.jpg",
-    potatoFlakes: "https://5.imimg.com/data5/SELLER/Default/2025/4/506414860/XB/UR/VF/244097434/dehydrated-potato-flakes-500x500.jpeg",
-    tomatoFlakes: "https://5.imimg.com/data5/SELLER/Default/2024/12/470991883/QZ/TW/NW/29994952/tomato-powder-and-flakes-500x500.jpeg",
-    beetrootFlakes: "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
-    carrotFlakes: "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
-    spinachFlakes: "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
-    mixedVegFlakes: "https://5.imimg.com/data5/SELLER/Default/2025/10/553140206/AK/ZT/HN/125266950/5-kg-dehydrated-vegetable-500x500.png",
+    onionFlakes: "/images/products/asset-70-68747470.webp",
+    garlicFlakes: "/images/products/dehydrated-garlic-flakes.webp",
+    potatoFlakes: "/images/products/dehydrated-potato-flakes.webp",
+    tomatoFlakes: "/images/products/dehydrated-tomato-flakes.webp",
+    beetrootFlakes: "/images/products/asset-70-68747470.webp",
+    carrotFlakes: "/images/products/asset-70-68747470.webp",
+    spinachFlakes: "/images/products/asset-70-68747470.webp",
+    mixedVegFlakes: "/images/products/dehydrated-mix-vegetables.webp",
   },
 
   // ----------------------------------------------------------
@@ -181,11 +185,11 @@ export const IMAGES = {
   // ----------------------------------------------------------
   reviews: {
     /** Screenshot or image from a WhatsApp review */
-    whatsappReview1: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=webp&fit=crop&q=80&w=600",
+    whatsappReview1: "/images/testimonials/client-review-wellness-1.webp",
     /** Screenshot or image from an Instagram review */
-    instagramReview1: "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?fm=webp&fit=crop&q=80&w=600",
+    instagramReview1: "/images/testimonials/client-review-wellness-2.webp",
     /** Generic review placeholder image */
-    generalReview: "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?fm=webp&fit=crop&q=80&w=600",
+    generalReview: "/images/testimonials/client-review-soundwave.webp",
   },
 
   // ----------------------------------------------------------
@@ -193,15 +197,15 @@ export const IMAGES = {
   // ----------------------------------------------------------
   avatars: {
     /** Lotus avatar option for user profile selection */
-    lotus: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?fm=webp&fit=crop&q=80&w=150",
+    lotus: "/images/therapy/sanctuary-lotus-atmosphere.webp",
     /** Retreat avatar option for user profile selection */
-    retreat: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=150",
+    retreat: "/images/therapy/sanctuary-meditation-retreat.webp",
     /** Yogi avatar option for user profile selection */
-    yogi: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=150",
+    yogi: "/images/testimonials/client-avatar-default.webp",
     /** Pilgrim avatar option for user profile selection */
-    pilgrim: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fm=webp&fit=crop&q=80&w=150",
+    pilgrim: "/images/testimonials/client-avatar-male.webp",
     /** Default fallback avatar for testimonials/team without a custom photo */
-    defaultTestimonial: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=150",
+    defaultTestimonial: "/images/testimonials/client-avatar-default.webp",
   },
 
   // ----------------------------------------------------------
@@ -209,13 +213,13 @@ export const IMAGES = {
   // ----------------------------------------------------------
   admin: {
     /** Fallback for new export product when no image URL is provided */
-    newProductFallback: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+    newProductFallback: "/images/products/spices-catalog-fallback.webp",
     /** Fallback for new service/session when no image URL is provided */
-    newServiceFallback: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=800",
+    newServiceFallback: "/images/therapy/sanctuary-meditation-retreat.webp?fm=webp&fit=crop&q=80&w=800",
     /** Fallback for new team member when no image URL is provided */
-    newTeamMemberFallback: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=800",
+    newTeamMemberFallback: "/images/testimonials/client-avatar-default.webp?fm=webp&fit=crop&q=80&w=800",
     /** Fallback for team member display row in admin testimonials table */
-    teamMemberRowFallback: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=150",
+    teamMemberRowFallback: "/images/testimonials/client-avatar-default.webp",
   },
 
 } as const;

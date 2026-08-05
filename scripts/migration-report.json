@@ -1,0 +1,1147 @@
+{
+  "summary": {
+    "timestamp": "2026-08-05T07:45:49.248Z",
+    "totalUrlsFound": 93,
+    "successfulDownloads": 93,
+    "duplicatesSkipped": 0,
+    "failedDownloads": 0,
+    "totalOriginalSizeMb": "16.44",
+    "totalOptimizedSizeMb": "4.38",
+    "overallSavingsPercent": "73.4%"
+  },
+  "items": [
+    {
+      "index": 1,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://knnindia.co.in/uploads/newsfiles/INDIAN-EXPORTS-25-5-2026.jpg",
+      "localPath": "/images/backgrounds/export-trade-showcase.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 164.5,
+      "optimizedSizeKb": 138.53,
+      "savingsPercent": "15.8%"
+    },
+    {
+      "index": 2,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://media.istockphoto.com/id/2123124996/photo/low-angle-aerial-shot-of-cranes-looming-over-container-ship.jpg?s=612x612&w=0&k=20&c=ple5acFVT_AT1SCZCbkXT0ZEXLMQ-3dFTCGRisGSYVA=",
+      "localPath": "/images/backgrounds/export-logistics-cargo.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 41.61,
+      "optimizedSizeKb": 29.87,
+      "savingsPercent": "28.2%"
+    },
+    {
+      "index": 3,
+      "sources": [
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?fm=webp&fit=crop&q=80&w=800",
+      "localPath": "/images/products/spices-catalog-fallback.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 142.17,
+      "optimizedSizeKb": 78.08,
+      "savingsPercent": "45.1%"
+    },
+    {
+      "index": 4,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://info.ehl.edu/hubfs/1440/1440x960-spices.jpg",
+      "localPath": "/images/products/asset-5-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 263.68,
+      "optimizedSizeKb": 157.21,
+      "savingsPercent": "40.4%"
+    },
+    {
+      "index": 5,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://proficiencytesting.in/wp-content/uploads/2023/08/18-e1693220803501.jpg",
+      "localPath": "/images/products/asset-6-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 250.88,
+      "optimizedSizeKb": 81.88,
+      "savingsPercent": "67.4%"
+    },
+    {
+      "index": 6,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.meviveinternational.com/data/storage/app/images/category/spray-dried-fruit-powders-8976.webp",
+      "localPath": "/images/products/asset-7-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 58.18,
+      "optimizedSizeKb": 25.56,
+      "savingsPercent": "56.1%"
+    },
+    {
+      "index": 7,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.taropumps.com/media/2366/1_edit.jpg",
+      "localPath": "/images/products/asset-8-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 692.49,
+      "optimizedSizeKb": 146.76,
+      "savingsPercent": "78.8%"
+    },
+    {
+      "index": 8,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.mevabite.com/cdn/shop/articles/Is-it-better-to-eat-fresh-or-dried-fruits_053668dd-1ef8-4273-9f5d-e0ea80b1d48a.webp?v=1721815055",
+      "localPath": "/images/products/asset-9-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 90.65,
+      "optimizedSizeKb": 47.11,
+      "savingsPercent": "48.0%"
+    },
+    {
+      "index": 9,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://rubflex.com/wp-content/uploads/2022/10/TURMERIC-Slides-V3_2-1-1.jpg",
+      "localPath": "/images/products/turmeric-extract.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 381.51,
+      "optimizedSizeKb": 82.05,
+      "savingsPercent": "78.5%"
+    },
+    {
+      "index": 10,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.neonaturalindustries.com/wp-content/uploads/2022/06/red-chillies.jpg",
+      "localPath": "/images/products/green-chilli-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 60.64,
+      "optimizedSizeKb": 51.13,
+      "savingsPercent": "15.7%"
+    },
+    {
+      "index": 11,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://tiimg.tistatic.com/fp/1/009/713/coriander-powder-019.jpg",
+      "localPath": "/images/products/coriander-leaf-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 106.72,
+      "optimizedSizeKb": 59.58,
+      "savingsPercent": "44.2%"
+    },
+    {
+      "index": 12,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://vibrantliving.in/cdn/shop/files/Cumin_543f69f0-f80b-42e7-b0c6-a45ee4d535b4.png?v=1731059986&width=2048",
+      "localPath": "/images/products/asset-13-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 225.36,
+      "optimizedSizeKb": 91.39,
+      "savingsPercent": "59.4%"
+    },
+    {
+      "index": 13,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://d3kgrlupo77sg7.cloudfront.net/media/chococoorgspice.com/images/products/medium/black-pepper-powder-coorg-spices.20260315024227.webp",
+      "localPath": "/images/products/asset-14-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 147.3,
+      "optimizedSizeKb": 66.6,
+      "savingsPercent": "54.8%"
+    },
+    {
+      "index": 14,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0437/8953/files/Queen_of_spices_origin_seeds_pods.png?v=1642723399",
+      "localPath": "/images/products/asset-15-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 130.77,
+      "optimizedSizeKb": 43.37,
+      "savingsPercent": "66.8%"
+    },
+    {
+      "index": 15,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://sandigeatdoors.com/wp-content/uploads/2022/12/Cloves-Sandige-At-Doors.png",
+      "localPath": "/images/products/asset-16-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 203.2,
+      "optimizedSizeKb": 87.94,
+      "savingsPercent": "56.7%"
+    },
+    {
+      "index": 16,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.stylecraze.com/wp-content/uploads/2013/04/Cinnamon-10-Potent-Health-Benefits-The-Best-Type-Of-Cinnamon_1200px.jpg.webp",
+      "localPath": "/images/products/asset-17-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 102.61,
+      "optimizedSizeKb": 64.79,
+      "savingsPercent": "36.9%"
+    },
+    {
+      "index": 17,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn.britannica.com/77/170777-050-3A754B3D/Nutmeg-seeds-ground-spice.jpg",
+      "localPath": "/images/products/asset-18-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 163.94,
+      "optimizedSizeKb": 58.79,
+      "savingsPercent": "64.1%"
+    },
+    {
+      "index": 18,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0686/4283/2583/files/star_anise_article_hero_copy.webp?v=1745522159",
+      "localPath": "/images/products/asset-19-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 60.72,
+      "optimizedSizeKb": 43.06,
+      "savingsPercent": "29.1%"
+    },
+    {
+      "index": 19,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn11.bigcommerce.com/s-7gw5qujusi/images/stencil/1280x1280/products/356/1391/102441__57402.1719401293.jpg?c=1",
+      "localPath": "/images/products/asset-20-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 278.72,
+      "optimizedSizeKb": 62.81,
+      "savingsPercent": "77.5%"
+    },
+    {
+      "index": 20,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?fm=webp&fit=crop&q=80&w=800",
+      "localPath": "/images/products/asset-21-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 42.33,
+      "optimizedSizeKb": 22.13,
+      "savingsPercent": "47.7%"
+    },
+    {
+      "index": 21,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://sygsan.com/wp-content/uploads/2024/09/bayle.jpeg",
+      "localPath": "/images/products/asset-22-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 133.22,
+      "optimizedSizeKb": 28.22,
+      "savingsPercent": "78.8%"
+    },
+    {
+      "index": 22,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://keralaspicecart.com/wp-content/uploads/2020/10/kerala-spice-cart-garam-masala.jpg",
+      "localPath": "/images/products/asset-23-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 628.48,
+      "optimizedSizeKb": 92.92,
+      "savingsPercent": "85.2%"
+    },
+    {
+      "index": 23,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://d1wv6w1iq7btjo.cloudfront.net/mm/2021/10/niQ4ze9XZwfAibEawspGLBtvAistockphoto-1297420369-170667a.jpg",
+      "localPath": "/images/products/asset-24-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 117.78,
+      "optimizedSizeKb": 46.85,
+      "savingsPercent": "60.2%"
+    },
+    {
+      "index": 24,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.spicebloom.co.nz/cdn/shop/articles/creative-ways-to-use-beetroot-powder-in-nz-cooking-baking-382330.png?v=1750196405",
+      "localPath": "/images/products/dehydrated-beetroot-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 174.84,
+      "optimizedSizeKb": 76.84,
+      "savingsPercent": "56.1%"
+    },
+    {
+      "index": 25,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://dailyfarmer.in/cdn/shop/articles/SEOon_tomato-powder-1.webp?v=1758522019",
+      "localPath": "/images/products/dehydrated-tomato-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 20.36,
+      "optimizedSizeKb": 26.94,
+      "savingsPercent": "-32.3%"
+    },
+    {
+      "index": 26,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/503173940/OW/MU/WF/157799058/dehydrated-potato-powder.jpg",
+      "localPath": "/images/products/dehydrated-potato-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 127.2,
+      "optimizedSizeKb": 35.13,
+      "savingsPercent": "72.4%"
+    },
+    {
+      "index": 27,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.kisaantrade.com/public/uploads/all/BgZKnepaWalga3yYOMjqZIq81em3pmfNQKKiWTGr.webp",
+      "localPath": "/images/products/asset-28-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 40.53,
+      "optimizedSizeKb": 23.18,
+      "savingsPercent": "42.8%"
+    },
+    {
+      "index": 28,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://pikpure.in/wp-content/uploads/2023/05/organic-ginger-root-powder.jpg",
+      "localPath": "/images/products/dehydrated-ginger-slice.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 176.83,
+      "optimizedSizeKb": 34.03,
+      "savingsPercent": "80.8%"
+    },
+    {
+      "index": 29,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/61aFPnRZOtL._AC_UF350,350_QL80_.jpg",
+      "localPath": "/images/products/asset-30-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 17.8,
+      "optimizedSizeKb": 16.37,
+      "savingsPercent": "8.1%"
+    },
+    {
+      "index": 30,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/7/525270821/FG/JC/LQ/13151738/spinach-powder-500x500.jpeg",
+      "localPath": "/images/products/dehydrated-spinach-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 42.1,
+      "optimizedSizeKb": 32.08,
+      "savingsPercent": "23.8%"
+    },
+    {
+      "index": 31,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/10/461205666/HK/YG/GG/121743691/spray-dried-carrot-powder-500x500.jpg",
+      "localPath": "/images/products/asset-32-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 21.79,
+      "optimizedSizeKb": 16.31,
+      "savingsPercent": "25.1%"
+    },
+    {
+      "index": 32,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/12/470678328/KQ/XA/YW/133006965/cabbage-powder.png",
+      "localPath": "/images/products/cabbage-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 2830.97,
+      "optimizedSizeKb": 35.78,
+      "savingsPercent": "98.7%"
+    },
+    {
+      "index": 33,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/10/553278943/HH/ES/IP/233295527/drumstick-powder-moringa.png",
+      "localPath": "/images/products/moringa-leaf-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 3025.18,
+      "optimizedSizeKb": 50.74,
+      "savingsPercent": "98.3%"
+    },
+    {
+      "index": 34,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://foodcare.in/cdn/shop/files/Green-Chilli-Powder.jpg?v=1768271643&width=1445",
+      "localPath": "/images/products/green-chilli-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 30.38,
+      "optimizedSizeKb": 23.49,
+      "savingsPercent": "22.7%"
+    },
+    {
+      "index": 35,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://foodcare.in/cdn/shop/files/coriander-leaf-powder.png?v=1780550221",
+      "localPath": "/images/products/coriander-leaf-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 171.18,
+      "optimizedSizeKb": 54,
+      "savingsPercent": "68.5%"
+    },
+    {
+      "index": 36,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Mint-Powder-1.jpg?v=1725118967",
+      "localPath": "/images/products/mint-leaf-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 50.82,
+      "optimizedSizeKb": 23.8,
+      "savingsPercent": "53.2%"
+    },
+    {
+      "index": 37,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/12/566787036/ZR/FJ/RJ/227106443/banana-powder.jpg",
+      "localPath": "/images/products/raw-banana-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 149.85,
+      "optimizedSizeKb": 35.89,
+      "savingsPercent": "76.1%"
+    },
+    {
+      "index": 38,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/503570585/ON/JX/FX/157512010/organic-mango-powder-500x500.jpg",
+      "localPath": "/images/products/amchur-mango-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 18.07,
+      "optimizedSizeKb": 13.2,
+      "savingsPercent": "27.0%"
+    },
+    {
+      "index": 39,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-White-Guava-Powder-1.jpg?v=1725119160",
+      "localPath": "/images/products/white-guava-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 35.28,
+      "optimizedSizeKb": 14.12,
+      "savingsPercent": "60.0%"
+    },
+    {
+      "index": 40,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2023/10/353032586/GF/HT/PN/75214588/high-quality-pomegranate-powder.jpg",
+      "localPath": "/images/products/pomegranate-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 258.58,
+      "optimizedSizeKb": 37.26,
+      "savingsPercent": "85.6%"
+    },
+    {
+      "index": 41,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cpimg.tistatic.com/12551838/b/4/Pineapple-Powder.jpeg",
+      "localPath": "/images/products/pineapple-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 59.57,
+      "optimizedSizeKb": 25.48,
+      "savingsPercent": "57.2%"
+    },
+    {
+      "index": 42,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/2/488383816/VB/EZ/GZ/234972051/papaya-powder-500x500.jpg",
+      "localPath": "/images/products/papaya-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 46.12,
+      "optimizedSizeKb": 33.63,
+      "savingsPercent": "27.1%"
+    },
+    {
+      "index": 43,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://nankatrathu.in/cdn/shop/files/WhatsApp-Image-2025-10-19-at-17.46.16-1.jpg?v=1775903916",
+      "localPath": "/images/products/asset-44-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 97.74,
+      "optimizedSizeKb": 44.6,
+      "savingsPercent": "54.4%"
+    },
+    {
+      "index": 44,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/11/463894282/EV/TV/SX/51611984/orange-powder-500x500.jpg",
+      "localPath": "/images/products/orange-peel-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 29.93,
+      "optimizedSizeKb": 21.58,
+      "savingsPercent": "27.9%"
+    },
+    {
+      "index": 45,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cpimg.tistatic.com/08182994/b/4/Organic-Lemon-Powder.jpg",
+      "localPath": "/images/products/lemon-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 117.23,
+      "optimizedSizeKb": 42.18,
+      "savingsPercent": "64.0%"
+    },
+    {
+      "index": 46,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://fzyezy.com/cdn/shop/files/Freeze-Dried-Strawberry-Powder-1.jpg?v=1725119108",
+      "localPath": "/images/products/strawberry-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 60.8,
+      "optimizedSizeKb": 28.68,
+      "savingsPercent": "52.8%"
+    },
+    {
+      "index": 47,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.gomataseva.org/wp-content/uploads/2026/01/Amla-Powder.webp",
+      "localPath": "/images/products/amla-fruit-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 10.34,
+      "optimizedSizeKb": 8.14,
+      "savingsPercent": "21.2%"
+    },
+    {
+      "index": 48,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://satviya.com/cdn/shop/articles/Moringa_powder.jpg?v=1757315523&width=1920",
+      "localPath": "/images/products/moringa-leaf-powder.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 541.27,
+      "optimizedSizeKb": 96.74,
+      "savingsPercent": "82.1%"
+    },
+    {
+      "index": 49,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://t4.ftcdn.net/jpg/15/14/92/79/360_F_1514927911_kvgtHqQfB8ZvVXxapVAHPBm1AiGFhtkE.jpg",
+      "localPath": "/images/products/asset-50-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 37.76,
+      "optimizedSizeKb": 19.31,
+      "savingsPercent": "48.9%"
+    },
+    {
+      "index": 50,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/718Ez2dYkPL._AC_UF350,350_QL80_.jpg",
+      "localPath": "/images/products/asset-51-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 26.42,
+      "optimizedSizeKb": 27.7,
+      "savingsPercent": "-4.8%"
+    },
+    {
+      "index": 51,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://krishnaindia.in/wp-content/uploads/2025/07/Hulled-Sesame-Seed-99.98-Non-EU-Grade.jpg",
+      "localPath": "/images/products/hulled-sesame-seeds.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 237.85,
+      "optimizedSizeKb": 46.08,
+      "savingsPercent": "80.6%"
+    },
+    {
+      "index": 52,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn.shopify.com/s/files/1/1740/1449/files/RG-Sunflower-4.jpg?v=1631119406",
+      "localPath": "/images/products/sunflower-seeds.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 468.87,
+      "optimizedSizeKb": 125.54,
+      "savingsPercent": "73.2%"
+    },
+    {
+      "index": 53,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.drweil.com/wp-content/uploads/2018/05/Can-Chia-Help-With-Weight-Loss_-531657339-600x450.jpg",
+      "localPath": "/images/products/chia-seeds.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 76.82,
+      "optimizedSizeKb": 51.52,
+      "savingsPercent": "32.9%"
+    },
+    {
+      "index": 54,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0548/8230/4247/files/Are_Watermelon_Seeds_Healthy_to_Eat.jpg?v=1641795437",
+      "localPath": "/images/products/watermelon-seeds.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 59.79,
+      "optimizedSizeKb": 37.37,
+      "savingsPercent": "37.5%"
+    },
+    {
+      "index": 55,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.darwin-nutrition.fr/wp-content/uploads/2020/06/AdobeStock_353791440.jpeg",
+      "localPath": "/images/products/asset-56-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 79.92,
+      "optimizedSizeKb": 47.02,
+      "savingsPercent": "41.2%"
+    },
+    {
+      "index": 56,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/41iIR+LL3UL._AC_UF894,1000_QL80_.jpg",
+      "localPath": "/images/products/asset-57-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 52.19,
+      "optimizedSizeKb": 34.66,
+      "savingsPercent": "33.6%"
+    },
+    {
+      "index": 57,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://tiimg.tistatic.com/fp/1/006/196/natural-brown-dehydrated-ginger-801.jpg",
+      "localPath": "/images/products/dehydrated-ginger-slice.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 104.6,
+      "optimizedSizeKb": 33.94,
+      "savingsPercent": "67.6%"
+    },
+    {
+      "index": 58,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://healthy-indian.com/wp-content/uploads/2021/07/IMG_8432.jpg",
+      "localPath": "/images/products/asset-59-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 96.2,
+      "optimizedSizeKb": 50.13,
+      "savingsPercent": "47.9%"
+    },
+    {
+      "index": 59,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.alphafoodie.com/wp-content/uploads/2020/08/Beetroot-Chips.jpeg",
+      "localPath": "/images/products/dehydrated-beetroot-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 78.89,
+      "optimizedSizeKb": 71.9,
+      "savingsPercent": "8.9%"
+    },
+    {
+      "index": 60,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://www.greendna.in/cdn/shop/products/dried_palakleaves_1200x.webp?v=1677324926",
+      "localPath": "/images/products/dehydrated-spinach-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 112.45,
+      "optimizedSizeKb": 41.91,
+      "savingsPercent": "62.7%"
+    },
+    {
+      "index": 61,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://2.wlimg.com/product_images/bc-full/2024/8/13087015/dehydrated-cabbage-1724407934-7574544.jpeg",
+      "localPath": "/images/products/dehydrated-cabbage-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 55.29,
+      "optimizedSizeKb": 46.87,
+      "savingsPercent": "15.2%"
+    },
+    {
+      "index": 62,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://tiimg.tistatic.com/fp/1/009/901/banana-slices-793.jpg",
+      "localPath": "/images/products/dehydrated-banana-slices.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 148.64,
+      "optimizedSizeKb": 20.08,
+      "savingsPercent": "86.5%"
+    },
+    {
+      "index": 63,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/ECOM/Default/2022/10/PY/EG/SW/13510045/1-d8f81a85-4048-444a-bc67-9ea1e89a68b0-500x500.png",
+      "localPath": "/images/products/asset-64-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 64.59,
+      "optimizedSizeKb": 48.06,
+      "savingsPercent": "25.6%"
+    },
+    {
+      "index": 64,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/81jehZof-HL.jpg",
+      "localPath": "/images/products/asset-65-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 369.22,
+      "optimizedSizeKb": 127.75,
+      "savingsPercent": "65.4%"
+    },
+    {
+      "index": 65,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/71VoBg3ARZL._AC_UF894,1000_QL80_.jpg",
+      "localPath": "/images/products/asset-66-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 93.64,
+      "optimizedSizeKb": 81.28,
+      "savingsPercent": "13.2%"
+    },
+    {
+      "index": 66,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/61i8DAqE9aL._SX679_.jpg",
+      "localPath": "/images/products/asset-67-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 39.12,
+      "optimizedSizeKb": 28.66,
+      "savingsPercent": "26.7%"
+    },
+    {
+      "index": 67,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://m.media-amazon.com/images/I/61zDISkcigL._AC_UF894,1000_QL80_.jpg",
+      "localPath": "/images/products/asset-68-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 93.28,
+      "optimizedSizeKb": 72.44,
+      "savingsPercent": "22.3%"
+    },
+    {
+      "index": 68,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/7/527139174/YM/DG/BC/248203515/dehydrated-guava-slices.jpg",
+      "localPath": "/images/products/dehydrated-guava-slices.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 149.04,
+      "optimizedSizeKb": 67.91,
+      "savingsPercent": "54.4%"
+    },
+    {
+      "index": 69,
+      "sources": [
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?fm=webp&fit=crop&q=80&w=600",
+      "localPath": "/images/products/asset-70-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 56.69,
+      "optimizedSizeKb": 25.79,
+      "savingsPercent": "54.5%"
+    },
+    {
+      "index": 70,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://cpimg.tistatic.com/12747559/b/5/Dehydrated-Garlic-Flakes.jpg",
+      "localPath": "/images/products/dehydrated-garlic-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 351,
+      "optimizedSizeKb": 63.88,
+      "savingsPercent": "81.8%"
+    },
+    {
+      "index": 71,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/4/506414860/XB/UR/VF/244097434/dehydrated-potato-flakes-500x500.jpeg",
+      "localPath": "/images/products/dehydrated-potato-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 42.49,
+      "optimizedSizeKb": 32.29,
+      "savingsPercent": "24.0%"
+    },
+    {
+      "index": 72,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2024/12/470991883/QZ/TW/NW/29994952/tomato-powder-and-flakes-500x500.jpeg",
+      "localPath": "/images/products/dehydrated-tomato-flakes.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 62.87,
+      "optimizedSizeKb": 49.94,
+      "savingsPercent": "20.6%"
+    },
+    {
+      "index": 73,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://5.imimg.com/data5/SELLER/Default/2025/10/553140206/AK/ZT/HN/125266950/5-kg-dehydrated-vegetable-500x500.png",
+      "localPath": "/images/products/dehydrated-mix-vegetables.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 52.87,
+      "optimizedSizeKb": 39.31,
+      "savingsPercent": "25.6%"
+    },
+    {
+      "index": 74,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=webp&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-wellness-1.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 72.27,
+      "optimizedSizeKb": 44.09,
+      "savingsPercent": "39.0%"
+    },
+    {
+      "index": 75,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?fm=webp&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-wellness-2.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 45.87,
+      "optimizedSizeKb": 22.85,
+      "savingsPercent": "50.2%"
+    },
+    {
+      "index": 76,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?fm=webp&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-soundwave.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 34.87,
+      "optimizedSizeKb": 19.11,
+      "savingsPercent": "45.2%"
+    },
+    {
+      "index": 77,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?fm=webp&fit=crop&q=80&w=150",
+      "localPath": "/images/therapy/sanctuary-lotus-atmosphere.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 6.01,
+      "optimizedSizeKb": 1.78,
+      "savingsPercent": "70.4%"
+    },
+    {
+      "index": 78,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=150",
+      "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 7.77,
+      "optimizedSizeKb": 4.49,
+      "savingsPercent": "42.3%"
+    },
+    {
+      "index": 79,
+      "sources": [
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts",
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=150",
+      "localPath": "/images/testimonials/client-avatar-default.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 11.14,
+      "optimizedSizeKb": 4.52,
+      "savingsPercent": "59.4%"
+    },
+    {
+      "index": 80,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fm=webp&fit=crop&q=80&w=150",
+      "localPath": "/images/testimonials/client-avatar-male.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 8.51,
+      "optimizedSizeKb": 2.93,
+      "savingsPercent": "65.6%"
+    },
+    {
+      "index": 81,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?fm=webp&fit=crop&q=80&w=800",
+      "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 184.01,
+      "optimizedSizeKb": 81.07,
+      "savingsPercent": "55.9%"
+    },
+    {
+      "index": 82,
+      "sources": [
+        "frontend/src/data/images.ts"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fm=webp&fit=crop&q=80&w=800",
+      "localPath": "/images/testimonials/client-avatar-default.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 186.47,
+      "optimizedSizeKb": 56.57,
+      "savingsPercent": "69.7%"
+    },
+    {
+      "index": 83,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/products/spices-catalog-fallback.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 92.9,
+      "optimizedSizeKb": 77.95,
+      "savingsPercent": "16.1%"
+    },
+    {
+      "index": 84,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/products/asset-85-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 94.94,
+      "optimizedSizeKb": 85.97,
+      "savingsPercent": "9.4%"
+    },
+    {
+      "index": 85,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/products/asset-86-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 22.65,
+      "optimizedSizeKb": 18.89,
+      "savingsPercent": "16.6%"
+    },
+    {
+      "index": 86,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/products/asset-87-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 126.61,
+      "optimizedSizeKb": 102.38,
+      "savingsPercent": "19.1%"
+    },
+    {
+      "index": 87,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/therapy/sanctuary-meditation-retreat.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 95.86,
+      "optimizedSizeKb": 71.8,
+      "savingsPercent": "25.1%"
+    },
+    {
+      "index": 88,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+      "localPath": "/images/products/asset-89-68747470.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 4.87,
+      "optimizedSizeKb": 1.4,
+      "savingsPercent": "71.3%"
+    },
+    {
+      "index": 89,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "localPath": "/images/testimonials/client-avatar-default.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 9.43,
+      "optimizedSizeKb": 6.03,
+      "savingsPercent": "36.1%"
+    },
+    {
+      "index": 90,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800",
+      "localPath": "/images/testimonials/client-avatar-default.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 86.02,
+      "optimizedSizeKb": 52.63,
+      "savingsPercent": "38.8%"
+    },
+    {
+      "index": 91,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-wellness-1.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 49.15,
+      "optimizedSizeKb": 43.47,
+      "savingsPercent": "11.6%"
+    },
+    {
+      "index": 92,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-wellness-2.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 25.86,
+      "optimizedSizeKb": 21.49,
+      "savingsPercent": "16.9%"
+    },
+    {
+      "index": 93,
+      "sources": [
+        "backend/src/services/seed.service.ts",
+        "db_store.json"
+      ],
+      "originalUrl": "https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&q=80&w=600",
+      "localPath": "/images/testimonials/client-review-soundwave.webp",
+      "status": "SUCCESS",
+      "originalSizeKb": 20.6,
+      "optimizedSizeKb": 18.16,
+      "savingsPercent": "11.8%"
+    }
+  ]
+}

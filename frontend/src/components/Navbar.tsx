@@ -158,18 +158,26 @@ export default function Navbar() {
           className="flex items-center gap-3 select-none group pointer-events-auto"
         >
           <div className="w-11 h-11 flex items-center justify-center shrink-0 relative">
-            <img
-              src="/images/logo/logo.png"
-              alt="Dharaaveda Logo"
-              style={{
-                transform: `translate(${translateX}px, ${translateY}px) scale(${logoScale})`,
-                transformOrigin: "center center",
-                width: "96px",
-                height: "100px",
-                transition: "transform 450ms cubic-bezier(0.16, 1, 0.3, 1)"
-              }}
-              className="object-contain select-none pointer-events-none"
-            />
+            <picture className="contents">
+              <source srcSet="/images/logo/logo.svg" type="image/svg+xml" />
+              <source srcSet="/images/logo/logo.webp" type="image/webp" />
+              <img
+                src="/images/logo/logo.png"
+                alt="Dharaaveda Logo"
+                width={96}
+                height={100}
+                decoding="async"
+                fetchPriority="high"
+                style={{
+                  transform: `translate(${translateX}px, ${translateY}px) scale(${logoScale})`,
+                  transformOrigin: "center center",
+                  width: "96px",
+                  height: "100px",
+                  transition: "transform 450ms cubic-bezier(0.16, 1, 0.3, 1)"
+                }}
+                className="object-contain select-none pointer-events-none"
+              />
+            </picture>
           </div>
           <div className="flex flex-col text-left">
             <span className={`text-[20px] sm:text-[24px] font-light tracking-[0.25em] uppercase text-gray-900 leading-tight ${isWellnessActive ? "group-hover:text-therapy-500" : "group-hover:text-orange-500"} transition-colors duration-300`}>
