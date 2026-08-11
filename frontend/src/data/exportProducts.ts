@@ -892,7 +892,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
   {
     "id": "seeds",
     "title": "Seeds Category",
-    "description": "Elite export-quality organic oil and nutritional seeds cleaned, sorted, and packed under absolute phytosanitary controls.",
+    "description": "Dharaaveda Global Exim offers premium export-quality seeds sourced directly from trusted farms across India. Every batch is meticulously cleaned, graded, and packed under stringent hygiene standards, ensuring high purity, freshness, and compliance with international export and APEDA quality requirements.",
     "image": IMAGES.exportCategories.seeds,
     "products": [
       {
@@ -902,13 +902,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.flaxSeeds
         ],
-        "description": "Dark brown organic flax seeds loaded with Omega-3 fatty acids, processed with advanced optical graders to guarantee purity.",
+        "description": "Flax Seeds (Linum usitatissimum), commonly known as Alsi Seeds, are premium oilseeds valued for their rich nutritional profile. Naturally high in Omega-3 fatty acids (ALA), dietary fiber, protein, and essential minerals, flax seeds are widely used in the food, nutraceutical, animal feed, and oil extraction industries. Our flax seeds are carefully cleaned, graded, and hygienically packed to meet domestic and international quality standards.\n\nApplications:\n• Bakery & Confectionery\n• Breakfast Cereals & Granola\n• Health Foods & Nutritional Supplements\n• Smoothies & Functional Beverages\n• Cold-Pressed Oil Extraction\n• Animal & Poultry Feed\n• Food Processing Industry\n\nAvailable Forms:\n• Whole Flax Seeds\n• Brown Flax Seeds\n• Golden Flax Seeds\n• Flax Seed Powder\n• Cold-Pressed Flax Seed Oil",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Food-Grade Paper Bags • Jumbo Bags (500–1000 kg) • Customized Private Label & Export Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -920,13 +920,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.pumpkinSeeds
         ],
-        "description": "Export-ready premium pumpkin seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
+        "description": "Pumpkin Seeds, commonly known as Pepitas, are nutrient-rich edible seeds obtained from premium-quality pumpkins. Naturally packed with protein, healthy fats, dietary fiber, magnesium, zinc, iron, and antioxidants, they are widely used in the food, nutraceutical, bakery, and snack industries. Our pumpkin seeds are carefully cleaned, graded, and hygienically packed to ensure superior quality, freshness, and export compliance.\n\nApplications:\n• Healthy Snacks\n• Bakery & Confectionery\n• Breakfast Cereals & Granola\n• Trail Mixes & Energy Bars\n• Nutraceutical & Dietary Supplements\n• Salads & Food Garnishing\n• Oil Extraction\n• Food Processing Industry\n\nKey Features:\n• Rich in Protein & Healthy Fats\n• Excellent Source of Magnesium & Zinc\n• High Purity and Uniform Size\n• Hygienically Processed\n• Export-Quality Standards\n• Bulk Supply with Customized Packaging",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -938,13 +938,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.sesameSeeds
         ],
-        "description": "Crispy, white hulled sesame seeds Auto-Sortex graded, boasting high oil content and nuttiness for global bakery imports.",
+        "description": "Sesame Seeds (Sesamum indicum) are one of the oldest and most valuable oilseeds, renowned for their rich nutritional profile and exceptional oil content. Naturally abundant in protein, healthy fats, calcium, iron, magnesium, antioxidants, and dietary fiber, sesame seeds are extensively used in the food, bakery, confectionery, oil extraction, and nutraceutical industries. Our sesame seeds are sourced from trusted farms, carefully cleaned, machine sorted, and hygienically packed to meet premium domestic and international export standards.\n\nApplications:\n• Bakery & Confectionery\n• Tahini & Sesame Paste Production\n• Edible Oil Extraction\n• Snacks & Energy Bars\n• Breakfast Cereals & Granola\n• Spice Blends & Food Garnishing\n• Health Foods & Nutraceuticals\n• Food Processing Industry\n\nAvailable Forms:\n• Natural White Sesame Seeds\n• Hulled White Sesame Seeds\n• Black Sesame Seeds\n• Brown Sesame Seeds\n• Roasted Sesame Seeds\n• Sesame Seed Oil",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Premium Hulled Auto-Cleaned Sortex",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Kraft Paper Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -956,13 +956,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.sunflowerSeeds
         ],
-        "description": "Export-ready premium sunflower seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
+        "description": "Sunflower Seeds (Helianthus annuus) are premium edible oilseeds known for their excellent nutritional value and pleasant nutty flavor. Rich in protein, healthy unsaturated fats, vitamin E, dietary fiber, magnesium, selenium, and antioxidants, sunflower seeds are widely used in the food, bakery, snack, confectionery, and oil extraction industries. Our sunflower seeds are sourced from trusted farms, carefully cleaned, graded, and hygienically packed to ensure superior quality and compliance with international export standards.\n\nApplications:\n• Healthy Snacks\n• Bakery & Confectionery\n• Breakfast Cereals & Granola\n• Trail Mixes & Energy Bars\n• Salads & Food Garnishing\n• Edible Oil Extraction\n• Health Foods & Nutraceuticals\n• Food Processing Industry\n• Animal & Bird Feed\n\nAvailable Forms:\n• Whole Sunflower Seeds (With Shell)\n• Hulled Sunflower Seed Kernels\n• Raw Sunflower Seeds\n• Roasted Sunflower Seeds\n• Salted Sunflower Seeds\n• Sunflower Seed Oil\n\nKey Features:\n• Rich in Vitamin E & Healthy Fats\n• High Protein & Dietary Fiber\n• Uniform Size and Premium Quality\n• Hygienically Processed\n• Export-Quality Standards\n• Bulk Supply with Customized Packaging",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Kraft Paper Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -974,13 +974,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.chiaSeeds
         ],
-        "description": "High-swelling organic black and white chia seeds, sorted to remove all foreign plant matter, rich in mucilage fibers.",
+        "description": "Chia Seeds (Salvia hispanica) are premium nutrient-dense superfoods renowned for their exceptional health benefits. Naturally rich in Omega-3 fatty acids, dietary fiber, plant-based protein, calcium, magnesium, phosphorus, and antioxidants, chia seeds are widely used in the food, beverage, nutraceutical, and health industries. Our chia seeds are sourced from trusted farms, carefully cleaned, graded, and hygienically packed to meet premium domestic and international export standards.\n\nApplications:\n• Health Foods & Superfoods\n• Smoothies & Functional Beverages\n• Bakery & Confectionery\n• Breakfast Cereals & Granola\n• Energy Bars & Trail Mixes\n• Puddings & Desserts\n• Nutraceutical & Dietary Supplements\n• Food Processing Industry\n\nAvailable Forms:\n• Whole Black Chia Seeds\n• Whole White Chia Seeds\n• Organic Chia Seeds\n• Chia Seed Powder\n• Chia Seed Oil\n\nKey Features:\n• Rich in Omega-3 Fatty Acids\n• Excellent Source of Dietary Fiber & Plant Protein\n• High in Calcium, Magnesium & Antioxidants\n• Naturally Gluten-Free\n• Hygienically Processed\n• Export-Quality Standards\n• Bulk Supply with Customized Packaging",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Madhya Pradesh, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Kraft Paper Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -992,13 +992,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.watermelonSeeds
         ],
-        "description": "Export-ready premium watermelon seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
+        "description": "Watermelon Seeds (Citrullus lanatus) are highly nutritious edible seeds valued for their rich content of protein, healthy fats, essential minerals, and antioxidants. They are widely used in the food, bakery, confectionery, snack, and nutraceutical industries. Our premium watermelon seeds are sourced from trusted farms, carefully cleaned, graded, and hygienically packed to ensure superior quality, freshness, and compliance with international export standards.\n\nApplications:\n• Healthy Snacks\n• Bakery & Confectionery\n• Trail Mixes & Energy Bars\n• Breakfast Cereals & Granola\n• Salads & Food Garnishing\n• Traditional Indian Sweets & Desserts\n• Nutraceutical & Dietary Supplements\n• Food Processing Industry\n\nAvailable Forms:\n• Whole Watermelon Seeds (With Shell)\n• Hulled Watermelon Seed Kernels\n• Raw Watermelon Seeds\n• Roasted Watermelon Seeds\n• Salted Watermelon Seeds\n• Watermelon Seed Oil",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Kraft Paper Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1010,13 +1010,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.basilSeeds
         ],
-        "description": "Export-ready premium basil seeds carefully cleaned and graded for dietary seeds, cereals, and industrial oil extraction.",
+        "description": "Basil Seeds (Ocimum basilicum), commonly known as Sabja Seeds or Sweet Basil Seeds, are highly valued for their cooling properties and impressive nutritional profile. Rich in dietary fiber, plant-based protein, antioxidants, calcium, iron, and essential minerals, basil seeds are widely used in beverages, desserts, health foods, and nutraceutical products. Our premium basil seeds are sourced from trusted farms, carefully cleaned, graded, and hygienically packed to meet the highest domestic and international export standards.\n\nApplications:\n• Health Drinks & Functional Beverages\n• Falooda & Traditional Desserts\n• Smoothies & Detox Drinks\n• Ice Cream & Yogurt Toppings\n• Bakery & Confectionery\n• Nutraceutical & Dietary Supplements\n• Weight Management Products\n• Food Processing Industry\n\nAvailable Forms:\n• Whole Basil Seeds (Sabja Seeds)\n• Black Sweet Basil Seeds\n• Machine Cleaned Basil Seeds\n• Sortex Cleaned Basil Seeds\n• Organic Basil Seeds\n• Basil Seed Powder\n\nKey Features:\n• Rich in Dietary Fiber & Antioxidants\n• Excellent Hydration & Cooling Properties\n• High Purity & Uniform Size\n• Hygienically Processed\n• Export-Quality Standards\n• Bulk Supply with Customized Packaging",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Gujarat Drylands, India",
-          "packaging": "Multi-layer Kraft Paper Bags (25 kg)",
-          "purity": "99.9% Machine Cleaned / Sortex Cleaned",
-          "grade": "Export Grade AAA Bold Seeds",
+          "origin": "India",
+          "packaging": "10 kg Food-Grade Bags • 25 kg PP Bags • 50 kg PP Bags • HDPE Laminated Bags • Kraft Paper Bags • Jumbo Bags (500–1000 kg) • Customized Retail & Private Label Packaging Available",
+          "purity": "99% – 99.99%",
+          "grade": "Machine Cleaned • Sortex Cleaned • Export Quality",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"

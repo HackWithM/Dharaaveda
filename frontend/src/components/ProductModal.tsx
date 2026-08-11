@@ -140,7 +140,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ category, onClose, onInquir
                             <span>{t.product.minOrder || "Min Order"}: {pMinOrder}</span>
                           </div>
                         </div>
-                        <p className="text-xs text-gray-600 leading-relaxed">
+                        <p className="text-xs text-gray-600 leading-relaxed whitespace-pre-line">
                           {pDesc}
                         </p>
                       </div>

@@ -574,13 +574,14 @@ const SHOWCASE_CATEGORIES = [
     id: "seeds",
     badge: "Oil Seeds Desk",
     title: "Premium Sorted Oil & Dietary Seeds",
-    description: "Elite export-quality organic oil and nutritional seeds, systematically cleaned, sorted, and packed under absolute phytosanitary controls. High oil yield and clean Sortex purity make these ideal for food and industrial processing.",
+    description: "Dharaaveda Global Exim offers premium export-quality seeds sourced directly from trusted farms across India. Every batch is meticulously cleaned, graded, and packed under stringent hygiene standards, ensuring high purity, freshness, and compliance with international export and APEDA quality requirements.",
     image: IMAGES.exportCategories.seeds,
     highlights: [
-      "99.9% Sortex optical color sorted",
-      "Rigorous fumigation and cleaning audits",
-      "Certified pesticide and residue free",
-      "High content of polyunsaturated fatty acids"
+      "Export Quality",
+      "High Purity",
+      "Hygienically Processed",
+      "APEDA Compliant",
+      "Bulk Supply Available"
     ],
     benefits: [
       "High natural oil extraction ratios",
@@ -592,10 +593,10 @@ const SHOWCASE_CATEGORIES = [
     capability: "18-22 Metric Tons per container (FCL). Custom moisture specs.",
     shippingInfo: "Direct ocean liners, bulk cargo routing to commercial bakeries and distributors.",
     features: [
-      { title: "Hulled Sesame", desc: "Auto-cleaned white sesame seeds packing high oil yields and sweet nutty flavors." },
-      { title: "Golden Flax", desc: "Premium flax seeds rich in dietary fiber and essential Omega-3 fatty acids." },
-      { title: "Gel-Forming Chia", desc: "Organic black chia seeds with excellent swelling indices and mucilage quality." },
-      { title: "Green Pumpkin", desc: "Clean-hulled pumpkin seed kernels sorted for uniform bold green color and crunch." }
+      { title: "Flax Seeds", desc: "Flax Seeds (Linum usitatissimum) are premium oilseeds valued for their high Omega-3 (ALA), dietary fiber, protein, and essential minerals." },
+      { title: "Sesame Seeds", desc: "Sesame Seeds (Sesamum indicum) are nutrient-dense oilseeds renowned for high oil content, healthy fats, calcium, and iron." },
+      { title: "Chia Seeds", desc: "Chia Seeds (Salvia hispanica) are nutrient-dense superfoods rich in Omega-3 fatty acids, dietary fiber, and plant-based protein." },
+      { title: "Pumpkin Seeds", desc: "Pumpkin Seeds (Pepitas) are nutrient-rich edible seeds packed with protein, healthy fats, magnesium, zinc, iron, and antioxidants." }
     ]
   },
   {
