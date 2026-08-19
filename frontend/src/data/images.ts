@@ -79,7 +79,7 @@ export const IMAGES = {
   exportProducts: {
     // Spices
     turmericPowder: "/images/products/turmeric-extract.webp",
-    redChilliPowder: "/images/products/green-chilli-powder.webp",
+    redChilliPowder: "/images/products/red-chilli-powder.webp",
     corianderPowder: "/images/products/coriander-leaf-powder.webp",
     cuminPowder: "/images/products/asset-13-68747470.webp",
     blackPepper: "/images/products/asset-14-68747470.webp",
@@ -89,10 +89,11 @@ export const IMAGES = {
     nutmeg: "/images/products/asset-18-68747470.webp",
     starAnise: "/images/products/asset-19-68747470.webp",
     fennelSeeds: "/images/products/asset-20-68747470.webp",
-    mustardSeeds: "/images/products/asset-21-68747470.webp",
+    mustardSeeds: "/images/products/mustard-seeds.webp",
     bayLeaves: "/images/products/asset-22-68747470.webp",
     garamMasala: "/images/products/asset-23-68747470.webp",
     mixedSpiceBlends: "/images/products/asset-24-68747470.webp",
+    kalaMasala: "/images/products/kala-masala.webp",
     // Dehydrated Vegetable Powders
     beetrootPowder: "/images/products/dehydrated-beetroot-flakes.webp",
     tomatoPowder: "/images/products/dehydrated-tomato-flakes.webp",
@@ -124,6 +125,8 @@ export const IMAGES = {
     moringaLeaves: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwNsgi7f-TOPNkw9sGyb1BBuyrcNuEuNt7Q&s",
     moringaTea: "/images/products/asset-50-68747470.webp",
     moringaExtract: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwE68zDlJyiPMGoSfcK1NgmjHHLXavgznxow&s",
+    moringaSeeds: "/images/products/moringa-seeds.webp",
+    moringaSeedOil: "/images/products/moringa-seed-oil.webp",
     // Seeds
     flaxSeeds: "/images/products/asset-51-68747470.webp",
     pumpkinSeeds: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0jfiE947AYh41zRqzeFE56IGIiVcS3Uxtg&s",

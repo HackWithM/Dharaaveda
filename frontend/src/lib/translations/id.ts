@@ -348,40 +348,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "Meja Sayuran Dehidrasi",
-        "title": "Sayuran Dehidrasi Higienis",
-        "description": "Bawang bombay, bawang putih, jahe, dan sayuran lainnya yang diiris bersih mengalami dehidrasi di bawah ruang aliran udara canggih. Bersumber langsung dari lahan pertanian yang sesuai dengan fitopatriat untuk kinerja rehidrasi dan rasa yang sangat baik.",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "Tidak ada sulfit, belerang atau bahan pengawet yang digunakan",
-          "Kadar air sisa yang rendah (<5%)",
-          "Rehidrasi murni dan pemulihan tekstur",
-          "Kargo ekspor bersertifikat fitosanitasi"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "Mengurangi waktu persiapan kuliner secara drastis",
-          "Menghemat berat transit dan ruang penyimpanan",
-          "Mempertahankan warna alami dan daya tarik visual",
-          "Kekuatan rasa yang konsisten dalam campuran makanan"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "Karton induk berlapis HDPE dengan sisipan poli bersegel panas ganda.",
-        "capability": "10-12 Metrik Ton per FCL. Pengirisan dan pemotongan yang dapat disesuaikan.",
-        "shippingInfo": "Kontainer kering standar atau rute reefer ke dapur bumbu industri.",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "Irisan Bawang",
-            "desc": "Irisan bawang merah dan putih dehidrasi dengan rasa pedas yang kuat dan rekonstitusi yang tinggi."
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "Siung Bawang Putih",
-            "desc": "Siung bawang putih kering yang dibelah, dikupas dengan cermat dan disortir untuk menghilangkan jelaga."
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "Irisan Jahe",
-            "desc": "Irisan jahe kering yang bersih menahan panas yang kuat dan kandungan gingerol aktif yang tinggi."
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "Tomat Anggur",
-            "desc": "Irisan tomat organik kering kaya akan likopen alami, dikeringkan tanpa sulfit kimia."
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -624,8 +624,8 @@ export const translations: StaticTranslations = {
         "desc": "Minyak organik elit dan benih nutrisi berkualitas ekspor dibersihkan, disortir, dan dikemas di bawah kendali fitosanitasi mutlak."
       },
       "dehydrated_veg": {
-        "title": "Sayuran Dehidrasi",
-        "desc": "Bawang bombay kering, bawang putih, jahe, dan sayuran lainnya yang diiris bersih diproses untuk menghasilkan rekonstitusi tinggi dan umur simpan yang lama."
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "Buah Dehidrasi",
@@ -1286,99 +1286,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "Bawang Dehidrasi",
-        "desc": "Irisan bawang merah dan putih yang dikeringkan di udara dengan tekstur luar biasa, menjaga rasa pedas yang penting untuk formulasi makanan instan.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Wilayah Nashik, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "Bawang Putih Dehidrasi",
-        "desc": "Siung bawang putih dehidrasi premium dibelah untuk mempercepat rehidrasi dalam bumbu instan, semur kaleng, dan mie.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Wilayah Malwa, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "Jahe Dehidrasi",
-        "desc": "Irisan jahe dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemasan makanan industri.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "Tomat dehidrasi",
-        "desc": "Irisan tomat organik kering dengan kandungan likopen alami yang kaya dan tanpa perlakuan sulfit, untuk paket kuliner gourmet.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Dataran Tinggi Wayanad, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "Wortel dehidrasi",
-        "desc": "Irisan wortel dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "Bit dehidrasi",
-        "desc": "Irisan bit dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemasan makanan industri.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "Bayam dehidrasi",
-        "desc": "Irisan bayam dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "Kubis Dehidrasi",
-        "desc": "Irisan kubis dehidrasi suhu rendah, disortir dengan hati-hati agar sesuai dengan bentuk dan warna yang seragam untuk pengemas makanan industri.",
-        "pricing": "Hubungi Meja Perdagangan",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, India",
-          "packaging": "Kotak bergelombang berlapis polietilen (15/20kg)",
-          "purity": "Tanpa Tambahan Garam, Pengawet, atau Sulfit",
-          "grade": "Standar Rehidrasi Premium AAA",
-          "minOrder": "500 Kilogram"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {

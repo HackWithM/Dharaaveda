@@ -11,7 +11,10 @@ export const translations: StaticTranslations = {
     "language": "Dil",
     "selectLanguage": "Kutsal Dil Seçimi",
     "subTitle": "Tarım & Aura Kliniği",
-    "searchPlaceholder": "Dil arayın..."
+    "searchPlaceholder": "Dil arayın...",
+    "myBookings": "My Bookings",
+    "toggleMenu": "Toggle navigation scope",
+    "adminTitle": "Administrator Control Board"
   },
   "footer": {
     "desc": "Kurumsal tarımsal tedarik zinciri ve küresel baharat dağıtımını, seçkin kuantum ses ve floral biyo-frekans sağlık klinikleriyle birleştiren, yüksek titreşimli elit bir ekosistem.",
@@ -29,7 +32,11 @@ export const translations: StaticTranslations = {
     "wellnessLink4": "Özel Rezidans Oturumu Planlayın",
     "corpOffice": "Küresel Ticaret Ofisi:",
     "corpSanctuary": "Sağlık Sığınağı:",
-    "rights": "Tüm hakları saklıdır. Tescilli Ticari Kuruluş."
+    "rights": "Tüm hakları saklıdır. Tescilli Ticari Kuruluş.",
+    "myBookings": "My Bookings",
+    "badgeApeda": "APEDA CERTIFIED",
+    "badgeFssai": "FSSAI STANDARD EXPORT",
+    "badgeUsda": "USDA ORGANIC compliant"
   },
   "home": {
     "heroTitle": "Küresel Ticaret ve Bütünsel İyileşmenin Yakınsaması",
@@ -329,40 +336,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "Kurutulmuş Sebze Tezgahı",
-        "title": "Hijyenik Kurutulmuş Sebzeler",
-        "description": "Temiz dilimlenmiş soğan, sarımsak, zencefil ve diğer sebzeler, gelişmiş hava akışı odaları altında kurutulur. Mükemmel rehidrasyon ve lezzet performansı için doğrudan bitki uyumlu tarım bantlarından elde edilir.",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "Sülfit, kükürt veya koruyucu madde kullanılmaz",
-          "Düşük artık nem içeriği (<%5)",
-          "Kusursuz rehidrasyon ve doku iyileşmesi",
-          "Bitki sağlığı sertifikalı ihracat kargosu"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "Mutfak hazırlık sürelerini büyük ölçüde azaltır",
-          "Taşıma ağırlığından ve depolama alanından tasarruf sağlar",
-          "Doğal rengi ve görsel çekiciliği korur",
-          "Gıda karışımlarında tutarlı lezzet gücü"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "Çift ısı yalıtımlı poli ara parçalı HDPE kaplı ana kartonlar.",
-        "capability": "FCL başına 10-12 Metrik Ton. Özelleştirilebilir dilimleme ve dilimleme.",
-        "shippingInfo": "Endüstriyel baharat mutfaklarına standart kuru kaplar veya soğutuculu yönlendirme.",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "Soğan Dilimleri",
-            "desc": "Güçlü keskinliğe ve yüksek sulandırma özelliğine sahip, suyu alınmış kırmızı ve beyaz soğan dilimleri."
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "Sarımsak karanfilleri",
-            "desc": "Kurutulmuş bölünmüş sarımsak dişleri, titizlikle kabuğu soyulmuş ve isi çıkarmak için Sortex'e ayrılmıştır."
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "dilimlenmiş zencefil",
-            "desc": "Lezzetli ısı ve yüksek aktif gingerol içeriğine sahip temiz kurutulmuş zencefil dilimleri."
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "Asma Domates",
-            "desc": "Doğal likopen açısından zengin, kimyasal sülfitler olmadan kurutulmuş kurutulmuş organik domates dilimleri."
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -404,7 +411,14 @@ export const translations: StaticTranslations = {
           }
         ]
       }
-    }
+    },
+    "secureTransit": "SECURE TRANSIT",
+    "readyStatus": "100% READY",
+    "qualityHighlights": "Export Quality Highlights",
+    "keyBenefits": "Key Benefits",
+    "shippingPacking": "Global Shipping & Packing",
+    "packageLabel": "Package:",
+    "capabilityLabel": "Capability:"
   },
   "booking": {
     "clinic": "UYUMLAMA KLİNİKLERİ",
@@ -468,7 +482,9 @@ export const translations: StaticTranslations = {
     "placeholderMessage": "Dökme baharat kargo gereksinimlerinizi, klinik terapi niyetlerinizi veya güvenli planlama sorgularınızı açıklayın...",
     "submit": "Sevkiyatı İletin",
     "transmitting": "Sevkiyat İletiliyor...",
-    "errorFields": "Lütfen tüm zorunlu alanları doldurun."
+    "errorFields": "Lütfen tüm zorunlu alanları doldurun.",
+    "addressLine1": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
     "extendedCatalogue": "GENİŞLETİLMİŞ KATALOG",
@@ -591,8 +607,8 @@ export const translations: StaticTranslations = {
         "desc": "Elit ihracat kalitesinde organik yağlar ve besleyici tohumlar, mutlak bitki sağlığı kontrolleri altında temizlenir, ayrılır ve paketlenir."
       },
       "dehydrated_veg": {
-        "title": "Kurutulmuş Sebzeler",
-        "desc": "Temiz dilimlenmiş kurutulmuş soğan, sarımsak, zencefil ve diğer sebzeler, yüksek sulandırma ve uzun raf ömrü için işlenir."
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "Kurutulmuş Meyveler",
@@ -1205,99 +1221,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "Kurutulmuş Soğan",
-        "desc": "Mükemmel dokuya sahip, havayla kurutulmuş kırmızı ve beyaz soğan dilimleri, anında gıda formülasyonu için temel keskin tatları korur.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Nashik Bölgesi, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "Kurutulmuş Sarımsak",
-        "desc": "Hazır baharat losyonlarında, konserve güveçlerde ve eriştelerde rehidrasyonu hızlandırmak için bölünmüş premium kurutulmuş sarımsak dişleri.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Malwa Bölgesi, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "Kurutulmuş Zencefil",
-        "desc": "Düşük sıcaklıkta kurutulan kurutulmuş zencefil dilimleri, endüstriyel gıda paketleyicilere yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sıralanmıştır.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "Kurutulmuş Domates",
-        "desc": "Gurme mutfak paketleri için zengin doğal likopen içeren ve sıfır sülfit işlemine tabi tutulan kurutulmuş organik domates dilimleri.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Wayanad Yaylaları, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "Kurutulmuş Havuç",
-        "desc": "Düşük sıcaklıkta kurutulmuş kurutulmuş havuç dilimleri, endüstriyel gıda paketleyicileri için tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "Kurutulmuş Pancar",
-        "desc": "Düşük sıcaklıkta kurutulmuş, kurutulmuş pancar dilimleri, endüstriyel gıda paketleyicileri için tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "Kurutulmuş Ispanak",
-        "desc": "Düşük sıcaklıkta kurutulmuş, suyu alınmış ıspanak dilimleri, endüstriyel gıda paketleyicilerine yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sınıflandırılmıştır.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "Kurutulmuş Lahana",
-        "desc": "Düşük sıcaklıkta kurutulan kurutulmuş lahana dilimleri, endüstriyel gıda paketleyicilere yönelik tek biçimli şekil ve renge uyacak şekilde dikkatlice sıralanmıştır.",
-        "pricing": "Ticaret Masası ile iletişime geçin",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Hindistan",
-          "packaging": "Polietilen kaplı oluklu kutular (15/20kg)",
-          "purity": "İlave Tuz, Koruyucu Madde veya Sülfit Yok",
-          "grade": "AAA Premium Rehidrasyon Standardı",
-          "minOrder": "500 Kilogram"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {
@@ -1478,6 +1494,90 @@ export const translations: StaticTranslations = {
           "purity": "Nem < %5 garantili, sıfır toz",
           "grade": "Gurme Pul Kesim (10-12mm)",
           "minOrder": "500 Kilogram"
+        }
+      },
+      "m-leaf-powder": {
+        "name": "Moringa Leaf Powder",
+        "desc": "Finely processed powder made from carefully selected moringa leaves. Suitable for food, wellness, nutraceutical and herbal applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg & 25 kg",
+          "purity": "100% Moringa Leaf Powder",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-flakes": {
+        "name": "Moringa Leaf Flakes",
+        "desc": "Carefully dried moringa leaves processed into flakes while maintaining their natural green colour and characteristic aroma.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g–25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-powder": {
+        "name": "Moringa Seed Powder / Murungai Vidhai Powder l Drumstick Seed Powder",
+        "desc": "Finely processed moringa seed powder suitable for selected food, nutraceutical and industrial applications, subject to buyer specifications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Industrial Grade depending on application",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seeds": {
+        "name": "Moringa Seeds",
+        "desc": "Carefully selected and cleaned moringa seeds sourced from India for food, agricultural, processing and other specified applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg & customized bulk packing",
+          "purity": "100% Pure Moringa",
+          "grade": "Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-oil": {
+        "name": "Moringa Seed Oil",
+        "desc": "Premium oil obtained from moringa seeds, suitable for cosmetic, personal-care, wellness and industrial applications depending on specification.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & bulk",
+          "purity": "100% Pure Moringa",
+          "grade": "Cosmetic / Industrial Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-extract": {
+        "name": "Moringa Leaf Extract",
+        "desc": "Concentrated moringa leaf extract designed for use as an ingredient in nutraceutical, herbal and functional-food formulations.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Nutraceutical Grade as specified",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-capsules": {
+        "name": "Moringa Capsules / Tablets",
+        "desc": "Moringa-based dietary supplement products manufactured according to applicable specifications and regulatory requirements.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "Bottles, jars, cartons",
+          "purity": "100% Pure Moringa",
+          "grade": "Dietary Supplement Grade",
+          "minOrder": "200 Kilograms"
         }
       }
     }

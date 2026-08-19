@@ -602,29 +602,29 @@ const SHOWCASE_CATEGORIES = [
   {
     id: "dehydrated_veg",
     badge: "Dehydrated Vegetables Desk",
-    title: "Hygienic Dehydrated Vegetables",
-    description: "Clean-sliced onions, garlic, ginger, and other vegetables dehydrated under advanced air-flow chambers. Sourced directly from phytocompliant agricultural belts for excellent rehydration and flavor performance.",
+    title: "Premium Dehydrated Vegetables Catalogue",
+    description: "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
     image: IMAGES.exportCategories.dehydratedVeg,
     highlights: [
-      "No sulfites, sulfurs or preservatives used",
-      "Low residual moisture content (<5%)",
-      "Pristine rehydration and texture recovery",
-      "Phytosanitary certified export cargo"
+      "100% premium Indian origin sourcing",
+      "Preserves natural flavour, colour & aroma",
+      "Flakes, granules, powder, sliced & diced forms",
+      "Food-grade, export quality with buyer specs"
     ],
     benefits: [
-      "Drastically reduces culinary prep times",
-      "Saves transit weight and storage space",
-      "Retains natural color and visual appeal",
-      "Consistent flavor strength in food mixes"
+      "Long shelf life and convenient storage",
+      "Ideal for food processing & HoReCa",
+      "Moisture protection with inner liner packaging",
+      "Customized private label & bulk packaging"
     ],
-    packaging: "HDPE lined master cartons with double heat-sealed poly inserts.",
-    capability: "10-12 Metric Tons per FCL. Customizable slicing and dicing.",
+    packaging: "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+    capability: "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
     shippingInfo: "Standard dry containers or reefer routing to industrial seasoning kitchens.",
     features: [
-      { title: "Onion Slices", desc: "Dehydrated red and white onion slices with strong pungency and high reconstitution." },
-      { title: "Garlic Cloves", desc: "Dried split garlic cloves, meticulously de-skinned and Sortex sorted to remove soot." },
-      { title: "Sliced Ginger", desc: "Clean dried ginger slices holding zesty heat and high active gingerol content." },
-      { title: "Vine Tomato", desc: "Dried organic tomato slices rich in natural lycopene, dried without chemical sulfites." }
+      { title: "Dehydrated Onion & Garlic", desc: "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends." },
+      { title: "Dehydrated Ginger & Tomato", desc: "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals." },
+      { title: "Dehydrated Carrot & Beetroot", desc: "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks." },
+      { title: "Dehydrated Spinach & Cabbage", desc: "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service." }
     ]
   },
   {

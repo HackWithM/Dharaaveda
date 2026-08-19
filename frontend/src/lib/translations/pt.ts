@@ -11,7 +11,10 @@ export const translations: StaticTranslations = {
     "language": "Idioma",
     "selectLanguage": "Selecione a Sagrada Língua",
     "subTitle": "Clínica de Agricultura & Aura",
-    "searchPlaceholder": "Pesquisar idioma..."
+    "searchPlaceholder": "Pesquisar idioma...",
+    "myBookings": "My Bookings",
+    "toggleMenu": "Toggle navigation scope",
+    "adminTitle": "Administrator Control Board"
   },
   "footer": {
     "desc": "Um ecossistema de elite e alta vibração que une a cadeia de suprimentos agrícolas empresariais e a distribuição global de especiarias com clínicas de bem-estar de som quântico de ponta e biofrequência floral.",
@@ -29,7 +32,11 @@ export const translations: StaticTranslations = {
     "wellnessLink4": "Agendar Sessão de Residência Privada",
     "corpOffice": "Escritório de Comércio Global:",
     "corpSanctuary": "Santuário de Bem-Estar:",
-    "rights": "Todos os direitos reservados. Entidade Comercial Registrada."
+    "rights": "Todos os direitos reservados. Entidade Comercial Registrada.",
+    "myBookings": "My Bookings",
+    "badgeApeda": "APEDA CERTIFIED",
+    "badgeFssai": "FSSAI STANDARD EXPORT",
+    "badgeUsda": "USDA ORGANIC compliant"
   },
   "home": {
     "heroTitle": "A Convergência do Comércio Global e da Cura Holística",
@@ -329,40 +336,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "Mesa de Legumes Desidratados",
-        "title": "Legumes Desidratados Higiênicos",
-        "description": "Cebola em fatias limpas, alho, gengibre e outros vegetais desidratados em câmaras avançadas de fluxo de ar. Obtido diretamente de cinturões agrícolas fitocompatíveis para excelente reidratação e desempenho de sabor.",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "Sem sulfitos, enxofres ou conservantes usados",
-          "Baixo teor de umidade residual (<5%)",
-          "Reidratação pura e recuperação de textura",
-          "Carga de exportação com certificação fitossanitária"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "Reduz drasticamente os tempos de preparação culinária",
-          "Economiza peso em trânsito e espaço de armazenamento",
-          "Mantém a cor natural e o apelo visual",
-          "Força de sabor consistente em misturas de alimentos"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "Caixas master revestidas de HDPE com inserções duplas de poliéster seladas a quente.",
-        "capability": "10-12 toneladas métricas por FCL. Fatiar e cortar em cubos personalizáveis.",
-        "shippingInfo": "Roteamento de contêineres secos padrão ou frigoríficos para cozinhas de temperos industriais.",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "Fatias de Cebola",
-            "desc": "Fatias de cebola vermelha e branca desidratadas com forte pungência e alta reconstituição."
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "Dentes de alho",
-            "desc": "Dentes de alho secos, meticulosamente descascados e separados por Sortex para remover a fuligem."
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "Gengibre fatiado",
-            "desc": "Fatias de gengibre secas e limpas, mantendo um calor picante e alto teor de gengibre ativo."
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "Videira Tomate",
-            "desc": "Fatias de tomate orgânico seco rico em licopeno natural, seco sem sulfitos químicos."
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -404,7 +411,14 @@ export const translations: StaticTranslations = {
           }
         ]
       }
-    }
+    },
+    "secureTransit": "SECURE TRANSIT",
+    "readyStatus": "100% READY",
+    "qualityHighlights": "Export Quality Highlights",
+    "keyBenefits": "Key Benefits",
+    "shippingPacking": "Global Shipping & Packing",
+    "packageLabel": "Package:",
+    "capabilityLabel": "Capability:"
   },
   "booking": {
     "clinic": "CLÍNICAS DE HARMONIZAÇÃO",
@@ -468,7 +482,9 @@ export const translations: StaticTranslations = {
     "placeholderMessage": "Descreva seus requisitos de carga de especiarias a granel, intenções de terapia clínica ou consultas de agendamento seguro...",
     "submit": "Transmitir Despacho",
     "transmitting": "Transmitindo Despacho...",
-    "errorFields": "Por favor, preencha todos os campos obrigatórios."
+    "errorFields": "Por favor, preencha todos os campos obrigatórios.",
+    "addressLine1": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
     "extendedCatalogue": "CATÁLOGO ESTENDIDO",
@@ -591,8 +607,8 @@ export const translations: StaticTranslations = {
         "desc": "Óleo orgânico e sementes nutricionais de qualidade de exportação de elite, limpos, classificados e embalados sob controles fitossanitários absolutos."
       },
       "dehydrated_veg": {
-        "title": "Legumes Desidratados",
-        "desc": "Cebola desidratada em fatias limpas, alho, gengibre e outros vegetais processados ​​para alta reconstituição e longa vida útil."
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "Frutas desidratadas",
@@ -1205,99 +1221,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "Cebola Desidratada",
-        "desc": "Fatias de cebola vermelha e branca secas ao ar com excelente textura, preservando sabores picantes essenciais para formulação imediata de alimentos.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Região de Nashik, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "Alho Desidratado",
-        "desc": "Dentes de alho desidratados premium divididos para acelerar a reidratação em massas instantâneas de especiarias, ensopados enlatados e macarrão.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Região de Malwa, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "Gengibre Desidratado",
-        "desc": "Fatias de gengibre desidratadas em baixa temperatura, cuidadosamente selecionadas para combinar com formato e cor uniformes para embaladores de alimentos industriais.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "Tomate Desidratado",
-        "desc": "Fatias de tomate orgânico seco com rica contagem natural de licopeno e tratamento zero de sulfito, para embalagens culinárias gourmet.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Terras Altas de Wayanad, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "Cenoura Desidratada",
-        "desc": "Fatias de cenoura desidratadas em baixa temperatura, cuidadosamente selecionadas para combinar com formato e cor uniformes para embaladores de alimentos industriais.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "Beterraba Desidratada",
-        "desc": "Fatias de beterraba desidratadas em baixa temperatura, cuidadosamente selecionadas para combinar com formato e cor uniformes para embaladores de alimentos industriais.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "Espinafre Desidratado",
-        "desc": "Fatias de espinafre desidratadas em baixa temperatura, cuidadosamente selecionadas para combinar com formato e cor uniformes para embaladores de alimentos industriais.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "Repolho Desidratado",
-        "desc": "Fatias de repolho desidratadas em baixa temperatura, cuidadosamente selecionadas para combinar com formato e cor uniformes para embaladores de alimentos industriais.",
-        "pricing": "Contate o balcão comercial",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Índia",
-          "packaging": "Caixas de cartão canelado revestidas a polietileno (15/20kg)",
-          "purity": "Sem adição de sal, conservantes ou sulfitos",
-          "grade": "Padrão de reidratação AAA Premium",
-          "minOrder": "500 quilogramas"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {
@@ -1478,6 +1494,90 @@ export const translations: StaticTranslations = {
           "purity": "Umidade < 5% garantida, zero poeira",
           "grade": "Corte Gourmet em Flocos (10-12mm)",
           "minOrder": "500 quilogramas"
+        }
+      },
+      "m-leaf-powder": {
+        "name": "Moringa Leaf Powder",
+        "desc": "Finely processed powder made from carefully selected moringa leaves. Suitable for food, wellness, nutraceutical and herbal applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg & 25 kg",
+          "purity": "100% Moringa Leaf Powder",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-flakes": {
+        "name": "Moringa Leaf Flakes",
+        "desc": "Carefully dried moringa leaves processed into flakes while maintaining their natural green colour and characteristic aroma.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g–25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-powder": {
+        "name": "Moringa Seed Powder / Murungai Vidhai Powder l Drumstick Seed Powder",
+        "desc": "Finely processed moringa seed powder suitable for selected food, nutraceutical and industrial applications, subject to buyer specifications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Industrial Grade depending on application",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seeds": {
+        "name": "Moringa Seeds",
+        "desc": "Carefully selected and cleaned moringa seeds sourced from India for food, agricultural, processing and other specified applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg & customized bulk packing",
+          "purity": "100% Pure Moringa",
+          "grade": "Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-oil": {
+        "name": "Moringa Seed Oil",
+        "desc": "Premium oil obtained from moringa seeds, suitable for cosmetic, personal-care, wellness and industrial applications depending on specification.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & bulk",
+          "purity": "100% Pure Moringa",
+          "grade": "Cosmetic / Industrial Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-extract": {
+        "name": "Moringa Leaf Extract",
+        "desc": "Concentrated moringa leaf extract designed for use as an ingredient in nutraceutical, herbal and functional-food formulations.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Nutraceutical Grade as specified",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-capsules": {
+        "name": "Moringa Capsules / Tablets",
+        "desc": "Moringa-based dietary supplement products manufactured according to applicable specifications and regulatory requirements.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "Bottles, jars, cartons",
+          "purity": "100% Pure Moringa",
+          "grade": "Dietary Supplement Grade",
+          "minOrder": "200 Kilograms"
         }
       }
     }

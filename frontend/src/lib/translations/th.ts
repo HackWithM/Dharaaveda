@@ -348,40 +348,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "โต๊ะผักอบแห้ง",
-        "title": "ผักอบแห้งที่ถูกสุขลักษณะ",
-        "description": "หัวหอม กระเทียม ขิง และผักอื่นๆ ที่หั่นเป็นชิ้นสะอาด ตากให้แห้งภายใต้ช่องระบายอากาศขั้นสูง ได้มาจากสายพานทางการเกษตรที่สอดคล้องกับไฟโตโดยตรงเพื่อประสิทธิภาพในการคืนน้ำและรสชาติที่ดีเยี่ยม",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "ไม่ใช้ซัลไฟต์ ซัลเฟอร์ หรือสารกันบูด",
-          "มีความชื้นตกค้างต่ำ (<5%)",
-          "การคืนความชุ่มชื้นและการฟื้นฟูเนื้อสัมผัสที่บริสุทธิ์",
-          "สินค้าส่งออกที่ได้รับการรับรองสุขอนามัยพืช"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "ลดเวลาการเตรียมอาหารลงอย่างมาก",
-          "ช่วยประหยัดน้ำหนักการขนส่งและพื้นที่จัดเก็บ",
-          "คงสีธรรมชาติและดึงดูดสายตา",
-          "ความแรงของรสชาติที่สม่ำเสมอในส่วนผสมอาหาร"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "กล่องหลักบุด้วย HDPE พร้อมเม็ดมีดโพลีปิดผนึกด้วยความร้อนสองชั้น",
-        "capability": "10-12 เมตริกตันต่อ FCL การหั่นและหั่นลูกเต๋าที่ปรับแต่งได้",
-        "shippingInfo": "ภาชนะบรรจุแห้งมาตรฐานหรือเส้นทางตู้เย็นไปยังห้องครัวเครื่องปรุงรสอุตสาหกรรม",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "หัวหอมชิ้น",
-            "desc": "หัวหอมแดงและขาวอบแห้ง มีกลิ่นฉุนรุนแรงและคืนสภาพได้สูง"
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "กลีบกระเทียม",
-            "desc": "กานพลูกระเทียมแห้ง ปอกเปลือกออกอย่างพิถีพิถัน และซอร์เท็กซ์คัดแยกเพื่อขจัดเขม่า"
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "ขิงหั่นบาง ๆ",
-            "desc": "ขิงแห้งหั่นเป็นชิ้นที่สะอาดและคงความร้อนแรงและมีขิงที่มีฤทธิ์สูง"
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "เถามะเขือเทศ",
-            "desc": "มะเขือเทศออร์แกนิกอบแห้ง อุดมด้วยไลโคปีนธรรมชาติ อบแห้งโดยไม่ใช้สารเคมีซัลไฟต์"
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -624,8 +624,8 @@ export const translations: StaticTranslations = {
         "desc": "น้ำมันออร์แกนิกคุณภาพส่งออกและเมล็ดพืชโภชนาการได้รับการทำความสะอาด คัดแยก และบรรจุภายใต้การควบคุมสุขอนามัยพืชที่สมบูรณ์"
       },
       "dehydrated_veg": {
-        "title": "ผักอบแห้ง",
-        "desc": "หัวหอม กระเทียม ขิง และผักอื่นๆ ที่ผ่านการหั่นเป็นชิ้นสะอาด ผ่านการแปรรูปเพื่อให้คืนสภาพได้สูงและมีอายุการเก็บรักษายาวนาน"
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "ผลไม้อบแห้ง",
@@ -1286,99 +1286,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "หัวหอมอบแห้ง",
-        "desc": "หัวหอมสีแดงและสีขาวตากแห้งด้วยเนื้อสัมผัสที่ดีเยี่ยม โดยคงรสชาติฉุนที่จำเป็นสำหรับการกำหนดสูตรอาหารทันที",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "แคว้นนาสิก ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "กระเทียมอบแห้ง",
-        "desc": "กลีบกระเทียมอบแห้งแบบพรีเมียมแยกออกเพื่อเร่งการคืนน้ำในเครื่องเทศปรุงสำเร็จ สตูว์กระป๋อง และบะหมี่",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "แคว้นมัลวา ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "ขิงอบแห้ง",
-        "desc": "ชิ้นขิงอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "มะเขือเทศอบแห้ง",
-        "desc": "มะเขือเทศออร์แกนิกตากแห้งที่มีปริมาณไลโคปีนตามธรรมชาติเข้มข้นและมีซัลไฟต์เป็นศูนย์ สำหรับเป็นชุดอาหารกูร์เมต์",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "ที่ราบสูงเวยานาท ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "แครอทอบแห้ง",
-        "desc": "แครอทฝานอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "บีทรูทอบแห้ง",
-        "desc": "บีทรูทหั่นเป็นชิ้นอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีที่สม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "ผักโขมอบแห้ง",
-        "desc": "ชิ้นผักโขมอบแห้งที่อุณหภูมิต่ำ จัดเรียงอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "กะหล่ำปลีอบแห้ง",
-        "desc": "กะหล่ำปลีอบแห้งที่อุณหภูมิต่ำ คัดแยกอย่างระมัดระวังเพื่อให้มีรูปร่างและสีสม่ำเสมอสำหรับบรรจุอาหารอุตสาหกรรม",
-        "pricing": "ติดต่อฝ่ายการค้า",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "รัฐมหาราษฏระ ประเทศอินเดีย",
-          "packaging": "กล่องกระดาษลูกฟูกบุโพลีเอทิลีน (15/20กก.)",
-          "purity": "ไม่เติมเกลือ สารกันบูด หรือซัลไฟต์",
-          "grade": "มาตรฐานการให้น้ำแบบพรีเมี่ยม AAA",
-          "minOrder": "500 กิโลกรัม"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {

@@ -35,6 +35,9 @@ export function getLocalSrcSets(src: string, isPriority = false) {
     return { avifSrcSet: undefined, webpSrcSet: undefined, cleanSrc: src };
   }
 
+  const queryMatch = src.match(/(\?[^#]*)?(#.*)?$/);
+  const queryStr = queryMatch && queryMatch[1] ? queryMatch[1] : "";
+
   // Strip query parameters and hash fragments cleanly
   const cleanSrc = src.split("?")[0].split("#")[0];
   const lastDot = cleanSrc.lastIndexOf(".");
@@ -49,13 +52,13 @@ export function getLocalSrcSets(src: string, isPriority = false) {
 
   // AVIF srcSet ONLY for hero/background assets that have .avif files
   const avifSrcSet = isHeroOrBg
-    ? `${basePath}-hero.avif 1200w, ${basePath}.avif 800w`
+    ? `${basePath}-hero.avif${queryStr} 1200w, ${basePath}.avif${queryStr} 800w`
     : undefined;
 
   // WebP srcSet with responsive sizes (-thumb 200w, -card 600w, master 1200w)
   const webpSrcSet = isPriority || isHeroOrBg
-    ? `${basePath}-hero.webp 1200w, ${basePath}-card.webp 600w, ${basePath}-thumb.webp 200w, ${cleanSrc} 1200w`
-    : `${basePath}-card.webp 600w, ${basePath}-thumb.webp 200w, ${cleanSrc} 800w`;
+    ? `${basePath}-hero.webp${queryStr} 1200w, ${basePath}-card.webp${queryStr} 600w, ${basePath}-thumb.webp${queryStr} 200w, ${cleanSrc}${queryStr} 1200w`
+    : `${basePath}-card.webp${queryStr} 600w, ${basePath}-thumb.webp${queryStr} 200w, ${cleanSrc}${queryStr} 800w`;
 
   return { avifSrcSet, webpSrcSet, cleanSrc };
 }

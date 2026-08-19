@@ -286,6 +286,24 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
+      },
+      {
+        "id": "s-kalamasala",
+        "name": "Dharaaveda Kala Masala",
+        "category": "Spices & Seasonings",
+        "images": [
+          IMAGES.exportProducts.kalaMasala
+        ],
+        "description": "Dharaaveda Kala Masala is an authentic traditional Maharashtrian spice blend prepared from carefully selected whole spices. The spices are sorted, graded, hygienically processed, and blended in precise proportions to deliver a rich dark colour, distinctive aroma, balanced heat, and deep roasted flavour. No adulteration or unnecessary fillers are added.\n\nApplications:\n• Maharashtrian curries and gravies\n• Vegetable preparations\n• Misal, usal & zunka\n• Vada pav & street-food preparations\n• Rice and pulao\n• Dal and legumes\n• Restaurant & hotel kitchens\n• Ready-to-cook food products\n• Spice blends and food manufacturing\n\nAvailable Forms:\n• Coarse Powder",
+        "pricing": "Contact Trade Desk",
+        "specifications": {
+          "origin": "India – Maharashtra (Sourced from reputed growing regions across India)",
+          "packaging": "Retail & Bulk Packaging: 20 g • 50 g • 100 g • 200 g • 250 g • 500 g • 1 kg • 5 kg • 10 kg • 20 kg • 25 kg",
+          "purity": "Pure Authentic Spice Blend • No Fillers or Adulteration",
+          "grade": "Premium Food Grade • Export Grade • Commercial/Industrial Grade",
+          "minOrder": "200 Kilograms"
+        },
+        "createdAt": "2026-05-31"
       }
     ]
   },
@@ -820,7 +838,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Moringa Seeds",
         "category": "Moringa Products",
         "images": [
-          IMAGES.exportProducts.moringaExtract
+          IMAGES.exportProducts.moringaSeeds
         ],
         "description": "Carefully selected and cleaned moringa seeds sourced from India for food, agricultural, processing and other specified applications.",
         "pricing": "Contact Trade Desk",
@@ -838,7 +856,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "name": "Moringa Seed Oil",
         "category": "Moringa Products",
         "images": [
-          IMAGES.exportProducts.moringaExtract
+          IMAGES.exportProducts.moringaSeedOil
         ],
         "description": "Premium oil obtained from moringa seeds, suitable for cosmetic, personal-care, wellness and industrial applications depending on specification.",
         "pricing": "Contact Trade Desk",
@@ -847,42 +865,6 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
           "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & bulk",
           "purity": "100% Pure Moringa",
           "grade": "Cosmetic / Industrial Grade",
-          "minOrder": "200 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
-      {
-        "id": "m-leaf-extract",
-        "name": "Moringa Leaf Extract",
-        "category": "Moringa Products",
-        "images": [
-          IMAGES.exportProducts.moringaExtract
-        ],
-        "description": "Concentrated moringa leaf extract designed for use as an ingredient in nutraceutical, herbal and functional-food formulations.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "India",
-          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
-          "purity": "100% Pure Moringa",
-          "grade": "Food / Nutraceutical Grade as specified",
-          "minOrder": "200 Kilograms"
-        },
-        "createdAt": "2026-05-31"
-      },
-      {
-        "id": "m-capsules",
-        "name": "Moringa Capsules / Tablets",
-        "category": "Moringa Products",
-        "images": [
-          IMAGES.exportProducts.moringaExtract
-        ],
-        "description": "Moringa-based dietary supplement products manufactured according to applicable specifications and regulatory requirements.",
-        "pricing": "Contact Trade Desk",
-        "specifications": {
-          "origin": "India",
-          "packaging": "Bottles, jars, cartons",
-          "purity": "100% Pure Moringa",
-          "grade": "Dietary Supplement Grade",
           "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1026,7 +1008,7 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
   {
     "id": "dehydrated_veg",
     "title": "Dehydrated Vegetables",
-    "description": "Clean-sliced dehydrated onions, garlic, ginger, and other vegetables processed for high reconstitution and long shelf life.",
+    "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
     "image": IMAGES.exportCategories.dehydratedVeg,
     "products": [
       {
@@ -1036,13 +1018,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedOnion
         ],
-        "description": "Air-dried red and white onion slices with excellent texture, preserving essential pungent flavors for immediate food formulation.",
+        "description": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Nashik Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1054,13 +1036,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedGarlic
         ],
-        "description": "Premium dehydrated garlic cloves split to speed up rehydration in instant spice rubs, canned stews, and noodles.",
+        "description": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Malwa Region, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1072,13 +1054,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedGinger
         ],
-        "description": "Low-temperature dehydrated dehydrated ginger slices, carefully sorted to match uniform shape and color for industrial food packers.",
+        "description": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1090,13 +1072,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedTomato
         ],
-        "description": "Dried organic tomato slices with rich natural lycopene counts and zero sulfite treatment, for gourmet culinary packs.",
+        "description": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Wayanad Highlands, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1108,13 +1090,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedCarrot
         ],
-        "description": "Low-temperature dehydrated dehydrated carrot slices, carefully sorted to match uniform shape and color for industrial food packers.",
+        "description": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1126,13 +1108,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedBeetroot
         ],
-        "description": "Low-temperature dehydrated dehydrated beetroot slices, carefully sorted to match uniform shape and color for industrial food packers.",
+        "description": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1144,13 +1126,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedSpinach
         ],
-        "description": "Low-temperature dehydrated dehydrated spinach slices, carefully sorted to match uniform shape and color for industrial food packers.",
+        "description": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1162,13 +1144,13 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
         "images": [
           IMAGES.exportProducts.dehydratedCabbage
         ],
-        "description": "Low-temperature dehydrated dehydrated cabbage slices, carefully sorted to match uniform shape and color for industrial food packers.",
+        "description": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Polyethylene lined corrugated boxes (15/20kg)",
-          "purity": "No Added Salt, Preservatives or Sulfites",
-          "grade": "AAA Premium Rehydration Standard",
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
           "minOrder": "500 Kilograms"
         },
         "createdAt": "2026-05-31"
@@ -1310,152 +1292,152 @@ export const EXPORT_CATEGORIES: ProductCategory[] = [
     ]
   },
   {
-    "id": "flakes",
-    "title": "Flakes Category",
-    "description": "Industrial-grade and gourmet vegetable flakes dried uniformly for quick hydration in convenience foods and dry mixes.",
-    "image": IMAGES.exportCategories.flakes,
+    "id": "panchgavya",
+    "title": "Panchgavya Products Catalogue",
+    "description": "Panchgavya products are traditionally prepared using natural ingredients derived from the five sacred cow products—milk, curd, ghee, cow urine, and cow dung (Gomay)—as well as other naturally sourced ingredients, depending on the product. Dharaaveda Global Exim offers a range of traditional, eco-conscious Panchgavya products inspired by Indian heritage and craftsmanship.",
+    "image": IMAGES.exportCategories.moringa,
     "products": [
       {
-        "id": "fl-onion",
-        "name": "Onion Flakes",
-        "category": "Flakes Category",
+        "id": "pg-ganesh",
+        "name": "Gomay Ganesh",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.dehydratedOnion
+          IMAGES.export.productFallback
         ],
-        "description": "Perfectly cut 10mm red and white onion flakes, systematically air-dried to retain natural sweet allicin, ideal for fast food noodles and sauces.",
+        "description": "Gomay Ganesh is a traditionally handcrafted Ganesh idol made using cow dung (Gomay) and natural materials. It combines traditional Indian craftsmanship with an eco-conscious approach to festive celebrations.\n\nApplications:\n• Ganesh Chaturthi\n• Home puja and worship\n• Office and workplace décor\n• Festive occasions\n• Spiritual gifting\n• Eco-friendly celebrations\n\nAvailable Forms:\n• 2 Inch\n• 3 Inch\n• 7 Inch\n• Customized sizes and designs\n\nBenefits:\n• Supports eco-conscious festive celebrations\n• Made using natural materials\n• Traditional handcrafted product\n• Suitable for gifting and devotional use\n• Designed as an alternative to conventional decorative idols",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Nashik Valley, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Individual protective packaging • Gift boxes • Bulk packaging • Customized export packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Grade",
+          "minOrder": "100 Units"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-garlic",
-        "name": "Garlic Flakes",
-        "category": "Flakes Category",
+        "id": "pg-shreeyantra",
+        "name": "Gomay Shree Yantra",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.garlicFlakes
+          IMAGES.export.productFallback
         ],
-        "description": "Dehydrated garlic flakes split clean, offering sharp allium zest and rapid hydration for ready-meal packets.",
+        "description": "Gomay Shree Yantra is a traditionally crafted spiritual décor product made using Gomay and natural materials, inspired by Indian cultural and spiritual traditions.\n\nApplications:\n• Puja rooms\n• Home décor\n• Offices\n• Temples\n• Meditation spaces\n• Spiritual gifting\n\nAvailable Forms:\n• Standard size\n• Wall-mounted format\n• Tabletop format\n• Customized sizes and designs\n\nBenefits:\n• Traditional spiritual décor\n• Natural-material craftsmanship\n• Suitable for puja and meditation spaces\n• Attractive cultural gifting option\n• Eco-conscious decorative choice",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Malwa Plateau, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Individual protective packaging • Gift box • Bulk packaging • Customized export packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Grade",
+          "minOrder": "100 Units"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-potato",
-        "name": "Potato Flakes",
-        "category": "Flakes Category",
+        "id": "pg-shubhlabh",
+        "name": "Gomay Shubh Labh",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.potatoFlakes
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated potato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Gomay Shubh Labh is a traditional decorative product representing auspicious symbols associated with Indian festive and cultural traditions. It is handcrafted using Gomay and natural materials.\n\nApplications:\n• Home entrance decoration\n• Puja rooms\n• Shops\n• Offices\n• Diwali decoration\n• Festive gifting\n\nAvailable Forms:\n• Shubh Labh set\n• Wall hanging\n• Door decoration\n• Tabletop décor\n• Customized designs\n\nBenefits:\n• Traditional auspicious décor\n• Suitable for festive occasions\n• Natural-material craftsmanship\n• Suitable for gifting\n• Eco-conscious decorative option",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Individual packaging • Gift packaging • Sets • Bulk packaging • Customized packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Grade",
+          "minOrder": "100 Sets"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-tomato",
-        "name": "Tomato Flakes",
-        "category": "Flakes Category",
+        "id": "pg-mobilestand",
+        "name": "Gomay Mobile Stand",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.tomatoFlakes
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated tomato flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Gomay Mobile Stand is an eco-conscious utility product crafted using Gomay and natural materials. It combines traditional craftsmanship with practical everyday use.\n\nApplications:\n• Mobile phone stand\n• Home use\n• Office desk\n• Workstation décor\n• Study table\n• Gifting\n\nAvailable Forms:\n• Standard mobile stand\n• Horizontal design\n• Vertical design\n• Customized shapes and designs\n\nBenefits:\n• Functional everyday product\n• Natural-material craftsmanship\n• Unique traditional design\n• Suitable for home and office use\n• Eco-conscious gifting option",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Individual protective packaging • Gift packaging • Bulk packaging • Customized export packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Craft Grade",
+          "minOrder": "100 Units"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-beetroot",
-        "name": "Beetroot Flakes",
-        "category": "Flakes Category",
+        "id": "pg-antiradiation",
+        "name": "Gomay Anti-Radiation Chip",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.dehydratedBeetroot
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated beetroot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Gomay Anti-Radiation Chip is a small Gomay-based accessory designed for placement near electronic devices. It is positioned as a traditional and eco-conscious lifestyle product.\n\nApplications:\n• Mobile phones\n• Laptops\n• Workstations\n• Home and office décor\n• Gifting\n\nAvailable Forms:\n• Round\n• Square\n• Decorative shapes\n• Customized designs\n\nBenefits:\n• Compact and easy to place\n• Traditional Gomay-based product\n• Suitable as a lifestyle accessory\n• Eco-conscious product concept\n• Suitable for gifting",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Individual pouch • Individual box • Gift packaging • Bulk packaging • Customized export packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Grade",
+          "minOrder": "500 Units"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-carrot",
-        "name": "Carrot Flakes",
-        "category": "Flakes Category",
+        "id": "pg-dhoop",
+        "name": "Panchgavya Dhoop",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.dehydratedCarrot
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated carrot flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Panchgavya Dhoop is a traditional aromatic product prepared using Panchgavya-based and other natural ingredients. It is inspired by traditional Indian practices of using aromatic products during puja and spiritual activities.\n\nApplications:\n• Puja\n• Meditation\n• Prayer spaces\n• Temples\n• Home fragrance\n• Spiritual ceremonies\n• Traditional rituals\n\nAvailable Forms:\n• Dhoop Sticks\n• Dhoop Cones\n• Dhoop Cups\n• Dhoop Tablets\n• Customized forms\n\nBenefits:\n• Traditional aromatic experience\n• Suitable for puja and spiritual spaces\n• Convenient to use\n• Natural and traditional product positioning\n• Suitable for gifting and festive occasions",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "10 pcs • 20 pcs • 50 pcs • 100 pcs • 250 g • 500 g • Bulk packaging • Customized export packaging",
+          "purity": "Natural • Eco-Friendly",
+          "grade": "Ritual Grade",
+          "minOrder": "200 Packs"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-spinach",
-        "name": "Spinach Flakes",
-        "category": "Flakes Category",
+        "id": "pg-diya",
+        "name": "Panchgavya Diya",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.dehydratedSpinach
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated spinach flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Panchgavya Diya is a traditionally crafted diya made using natural Panchgavya-based materials. It is suitable for festivals, puja, religious ceremonies, and decorative use.\n\nApplications:\n• Diwali\n• Puja\n• Religious ceremonies\n• Temples\n• Home décor\n• Festive gifting\n\nAvailable Forms:\n• Single Diya\n• Set of Diyas\n• Decorative Diyas\n• Festival Gift Sets\n• Customized designs\n\nBenefits:\n• Suitable for traditional celebrations\n• Natural-material craftsmanship\n• Eco-conscious festive option\n• Suitable for gifting\n• Attractive traditional décor",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "Single pack • Sets of 2/4/6/12 • Gift boxes • Bulk packaging • Customized festive packaging",
+          "purity": "Natural • Eco-Friendly • Handmade",
+          "grade": "Traditional Grade",
+          "minOrder": "500 Units"
         },
         "createdAt": "2026-05-31"
       },
       {
-        "id": "fl-mixedveg",
-        "name": "Mixed Vegetable Flakes",
-        "category": "Flakes Category",
+        "id": "pg-havansamagri",
+        "name": "Panchgavya Havan Samagri",
+        "category": "Panchgavya Products Catalogue",
         "images": [
-          IMAGES.exportProducts.mixedVegFlakes
+          IMAGES.export.productFallback
         ],
-        "description": "Premium dehydrated mixed vegetable flakes flakes dried to preserve color intensity and cellular texture for quick gourmet meals.",
+        "description": "Panchgavya Havan Samagri is a traditional ritual blend prepared using Panchgavya-based and selected natural ingredients for Havan, Yagna, and other traditional ceremonies.\n\nApplications:\n• Havan\n• Yagna\n• Puja\n• Religious ceremonies\n• Temple use\n• Traditional rituals\n\nAvailable Forms:\n• Powder\n• Granules\n• Herbal mix\n• Traditional Havan blend\n• Customized formulations\n\nBenefits:\n• Authentic traditional ritual blend\n• Selected natural ingredients\n• Formulated for sacred fire ceremonies",
         "pricing": "Contact Trade Desk",
         "specifications": {
-          "origin": "Maharashtra, India",
-          "packaging": "Double corrugated boxes with heat-sealed liners",
-          "purity": "Moisture < 5% guaranteed, zero dust",
-          "grade": "Gourmet Flake Cut (10-12mm)",
-          "minOrder": "500 Kilograms"
+          "origin": "India",
+          "packaging": "500 g • 1 kg • 5 kg • 25 kg Bulk packaging",
+          "purity": "Natural • Pure Ritual Blend",
+          "grade": "Ritual Grade • Export Grade",
+          "minOrder": "200 Kilograms"
         },
         "createdAt": "2026-05-31"
       }

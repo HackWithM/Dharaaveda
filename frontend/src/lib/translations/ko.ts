@@ -11,7 +11,10 @@ export const translations: StaticTranslations = {
     "language": "언어",
     "selectLanguage": "신성한 언어 선택",
     "subTitle": "아그리컬처 & 오라 클리닉",
-    "searchPlaceholder": "언어 검색..."
+    "searchPlaceholder": "언어 검색...",
+    "myBookings": "My Bookings",
+    "toggleMenu": "Toggle navigation scope",
+    "adminTitle": "Administrator Control Board"
   },
   "footer": {
     "desc": "농업 공급망과 글로벌 향신료 유통, 그리고 하이엔드 양자 사운드 및 플로럴 바이오 주파수 웰니스 클리닉을 결합한 엘리트 고진동 생태계입니다.",
@@ -29,7 +32,11 @@ export const translations: StaticTranslations = {
     "wellnessLink4": "프라이빗 레지던시 세션 예약",
     "corpOffice": "글로벌 무역 사무소:",
     "corpSanctuary": "웰니스 안식처:",
-    "rights": "모든 권리 보유. 등록 무역 실체."
+    "rights": "모든 권리 보유. 등록 무역 실체.",
+    "myBookings": "My Bookings",
+    "badgeApeda": "APEDA CERTIFIED",
+    "badgeFssai": "FSSAI STANDARD EXPORT",
+    "badgeUsda": "USDA ORGANIC compliant"
   },
   "home": {
     "heroTitle": "글로벌 무역과 전인적 치유의 융합",
@@ -329,40 +336,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "탈수 야채 데스크",
-        "title": "위생적인 탈수 야채",
-        "description": "깨끗하게 썬 양파, 마늘, 생강 및 기타 야채를 고급 공기 흐름 챔버에서 탈수합니다. 우수한 재수화 및 향미 성능을 위해 식물 적합 농업 벨트에서 직접 공급됩니다.",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "아황산염, 황 또는 방부제를 사용하지 않음",
-          "낮은 잔류 수분 함량(<5%)",
-          "깨끗한 수분 공급 및 질감 회복",
-          "식물위생 인증 수출 화물"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "요리 준비 시간을 대폭 단축",
-          "운송 중량 및 보관 공간 절약",
-          "자연스러운 색상과 시각적 매력을 유지합니다.",
-          "식품 믹스의 일관된 풍미 강도"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "이중 열 밀봉 폴리 인서트가 포함된 HDPE 라이닝 마스터 상자입니다.",
-        "capability": "FCL당 10-12미터톤. 맞춤형 슬라이싱 및 다이싱.",
-        "shippingInfo": "산업용 조미료 주방으로 표준 건조 컨테이너 또는 냉동 운송 경로.",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "양파 슬라이스",
-            "desc": "매운 맛이 강하고 재구성이 높은 건조된 적백 양파 슬라이스입니다."
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "마늘 정향",
-            "desc": "말린 분할 마늘 정향을 꼼꼼하게 껍질을 벗기고 Sortex로 분류하여 그을음을 제거합니다."
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "얇게 썬 생강",
-            "desc": "강한 열과 높은 활성 진저롤 함량을 유지하는 깨끗하게 말린 생강 조각."
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "포도 토마토",
-            "desc": "천연 라이코펜이 풍부하고 화학적 아황산염을 사용하지 않고 건조된 말린 유기농 토마토 조각입니다."
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -404,7 +411,14 @@ export const translations: StaticTranslations = {
           }
         ]
       }
-    }
+    },
+    "secureTransit": "SECURE TRANSIT",
+    "readyStatus": "100% READY",
+    "qualityHighlights": "Export Quality Highlights",
+    "keyBenefits": "Key Benefits",
+    "shippingPacking": "Global Shipping & Packing",
+    "packageLabel": "Package:",
+    "capabilityLabel": "Capability:"
   },
   "booking": {
     "clinic": "하모니제이션 클리닉",
@@ -468,7 +482,9 @@ export const translations: StaticTranslations = {
     "placeholderMessage": "대량 향신료 화물 요구 사항, 클리닉 테라피 의도 또는 보안 예약 문의를 설명해 주세요...",
     "submit": "배송 전송",
     "transmitting": "배송 전송 중...",
-    "errorFields": "모든 필수 항목을 입력해 주세요."
+    "errorFields": "모든 필수 항목을 입력해 주세요.",
+    "addressLine1": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India",
+    "addressLine2": "B 501 Springwood, Near HP Petrol Pump, Mharunji, Pune – 411057, Maharashtra, India"
   },
   "product": {
     "extendedCatalogue": "확장 카탈로그",
@@ -591,8 +607,8 @@ export const translations: StaticTranslations = {
         "desc": "엘리트 수출 품질의 유기농 오일과 영양 씨앗은 완벽한 식물 위생 관리 하에 세척, 분류 및 포장되었습니다."
       },
       "dehydrated_veg": {
-        "title": "탈수 야채",
-        "desc": "깨끗하게 썬 양파, 마늘, 생강 등의 야채를 건조하여 복원도가 높고 유통기한이 길도록 가공한 제품입니다."
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "탈수된 과일",
@@ -1205,99 +1221,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "탈수 양파",
-        "desc": "질감이 뛰어난 공기 건조된 붉은색과 흰색 양파 슬라이스로 즉각적인 식품 제조에 필요한 매운 맛을 보존합니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "인도 나시크 지역",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "탈수마늘",
-        "desc": "프리미엄 건조 마늘 정향을 쪼개어 인스턴트 스파이스 럽, 통조림 스튜 및 국수에 재수화 속도를 높입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "인도 말와 지역",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "탈수 생강",
-        "desc": "산업용 식품 포장업자의 균일한 모양과 색상에 맞게 세심하게 분류된 저온 탈수 건조 생강 조각입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "마하라슈트라, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "탈수 토마토",
-        "desc": "고급 요리 팩을 위한 풍부한 천연 리코펜 수치와 아황산염 처리가 전혀 없는 건조 유기농 토마토 슬라이스입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "와야나드 하이랜드, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "탈수 당근",
-        "desc": "산업용 식품 포장업자의 균일한 모양과 색상에 맞게 세심하게 분류된 저온 건조 탈수 당근 조각입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "마하라슈트라, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "탈수된 비트 뿌리",
-        "desc": "산업용 식품 포장업자의 균일한 모양과 색상에 맞게 세심하게 분류된 저온 건조 탈수 비트 뿌리 조각입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "마하라슈트라, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "탈수 시금치",
-        "desc": "산업용 식품 포장업자의 균일한 모양과 색상에 맞게 세심하게 분류된 저온 탈수 건조 시금치 슬라이스입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "마하라슈트라, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "탈수 양배추",
-        "desc": "산업용 식품 포장업체의 균일한 모양과 색상에 맞게 세심하게 분류된 저온 탈수 탈수 양배추 슬라이스입니다.",
-        "pricing": "무역 데스크에 문의하세요",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "마하라슈트라, 인도",
-          "packaging": "폴리에틸렌 내장 골판지 상자(15/20kg)",
-          "purity": "추가된 소금, 방부제 또는 아황산염 없음",
-          "grade": "AAA 프리미엄 재수화 표준",
-          "minOrder": "500 킬로그램"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {
@@ -1478,6 +1494,90 @@ export const translations: StaticTranslations = {
           "purity": "수분 < 5% 보장, 먼지 없음",
           "grade": "고메 플레이크 컷 (10-12mm)",
           "minOrder": "500 킬로그램"
+        }
+      },
+      "m-leaf-powder": {
+        "name": "Moringa Leaf Powder",
+        "desc": "Finely processed powder made from carefully selected moringa leaves. Suitable for food, wellness, nutraceutical and herbal applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg & 25 kg",
+          "purity": "100% Moringa Leaf Powder",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-flakes": {
+        "name": "Moringa Leaf Flakes",
+        "desc": "Carefully dried moringa leaves processed into flakes while maintaining their natural green colour and characteristic aroma.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 g–25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food Grade / Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-powder": {
+        "name": "Moringa Seed Powder / Murungai Vidhai Powder l Drumstick Seed Powder",
+        "desc": "Finely processed moringa seed powder suitable for selected food, nutraceutical and industrial applications, subject to buyer specifications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Industrial Grade depending on application",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seeds": {
+        "name": "Moringa Seeds",
+        "desc": "Carefully selected and cleaned moringa seeds sourced from India for food, agricultural, processing and other specified applications.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg, 25 kg & customized bulk packing",
+          "purity": "100% Pure Moringa",
+          "grade": "Export Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-seed-oil": {
+        "name": "Moringa Seed Oil",
+        "desc": "Premium oil obtained from moringa seeds, suitable for cosmetic, personal-care, wellness and industrial applications depending on specification.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "100 ml, 250 ml, 500 ml, 1 L, 5 L & bulk",
+          "purity": "100% Pure Moringa",
+          "grade": "Cosmetic / Industrial Grade",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-leaf-extract": {
+        "name": "Moringa Leaf Extract",
+        "desc": "Concentrated moringa leaf extract designed for use as an ingredient in nutraceutical, herbal and functional-food formulations.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "1 kg, 5 kg, 10 kg & 25 kg",
+          "purity": "100% Pure Moringa",
+          "grade": "Food / Nutraceutical Grade as specified",
+          "minOrder": "200 Kilograms"
+        }
+      },
+      "m-capsules": {
+        "name": "Moringa Capsules / Tablets",
+        "desc": "Moringa-based dietary supplement products manufactured according to applicable specifications and regulatory requirements.",
+        "pricing": "Contact Trade Desk",
+        "spec": {
+          "origin": "India",
+          "packaging": "Bottles, jars, cartons",
+          "purity": "100% Pure Moringa",
+          "grade": "Dietary Supplement Grade",
+          "minOrder": "200 Kilograms"
         }
       }
     }

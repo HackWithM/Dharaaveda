@@ -62,12 +62,17 @@ app.options("*", cors(corsOptions));
 app.use("/api/webhook/razorpay", express.raw({ type: "application/json" }));
 app.use(express.json({ limit: "10mb" }));
 
-// Production Immutable Caching for Uploads & Local Static Images
+// Static Caching for Uploads & Local Static Images
+const isProd = process.env.NODE_ENV === "production";
 const staticCacheOptions = {
-  maxAge: "1y",
-  immutable: true,
+  maxAge: isProd ? "1y" : 0,
+  immutable: isProd,
   setHeaders: (res: Response) => {
-    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    if (isProd) {
+      res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    } else {
+      res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    }
   }
 };
 

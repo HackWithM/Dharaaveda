@@ -348,40 +348,40 @@ export const translations: StaticTranslations = {
         ]
       },
       "dehydrated_veg": {
-        "badge": "Bàn rau củ khử nước",
-        "title": "Rau củ khử nước hợp vệ sinh",
-        "description": "Hành, tỏi, gừng và các loại rau khác được cắt lát sạch sẽ được khử nước trong buồng luồng khí tiên tiến. Có nguồn gốc trực tiếp từ vành đai nông nghiệp tuân thủ Phyto để mang lại hiệu quả bù nước và hương vị tuyệt vời.",
+        "badge": "Dehydrated Vegetables Desk",
+        "title": "Premium Dehydrated Vegetables Catalogue",
+        "description": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors.",
         "highlights": [
-          "Không sử dụng sulfit, lưu huỳnh hoặc chất bảo quản",
-          "Độ ẩm còn lại thấp (<5%)",
-          "Phục hồi kết cấu và bù nước nguyên chất",
-          "Hàng xuất khẩu được chứng nhận kiểm dịch thực vật"
+          "100% premium Indian origin sourcing",
+          "Preserves natural flavour, colour & aroma",
+          "Flakes, granules, powder, sliced & diced forms",
+          "Food-grade, export quality with buyer specs"
         ],
         "benefits": [
-          "Giảm đáng kể thời gian chuẩn bị ẩm thực",
-          "Tiết kiệm trọng lượng vận chuyển và không gian lưu trữ",
-          "Giữ lại màu sắc tự nhiên và hấp dẫn thị giác",
-          "Hương vị đồng nhất trong hỗn hợp thực phẩm"
+          "Long shelf life and convenient storage",
+          "Ideal for food processing & HoReCa",
+          "Moisture protection with inner liner packaging",
+          "Customized private label & bulk packaging"
         ],
-        "packaging": "Thùng carton lót nhựa HDPE có lớp lót poly kín nhiệt đôi.",
-        "capability": "10-12 tấn mỗi FCL. Tùy chỉnh cắt và thái hạt lựu.",
-        "shippingInfo": "Các thùng chứa khô tiêu chuẩn hoặc hàng lạnh được vận chuyển tới các bếp gia vị công nghiệp.",
+        "packaging": "5 kg, 10 kg, 20 kg, 25 kg & 50 kg food-grade poly/paper bags, HDPE & corrugated boxes.",
+        "capability": "10-12 Metric Tons per FCL. Customized cuts, forms & private label packaging.",
+        "shippingInfo": "Standard dry containers or reefer routing to industrial seasoning kitchens.",
         "features": [
           {
-            "title": "Hành tây lát",
-            "desc": "Những lát hành tây đỏ và trắng đã khử nước có vị cay nồng và độ hoàn nguyên cao."
+            "title": "Dehydrated Onion & Garlic",
+            "desc": "Available in flakes, chopped, minced, granules & powder for food processing, soups & seasoning blends."
           },
           {
-            "title": "tép tỏi",
-            "desc": "Tỏi khô tách đôi, bóc vỏ tỉ mỉ và phân loại Sortex để loại bỏ bồ hóng."
+            "title": "Dehydrated Ginger & Tomato",
+            "desc": "Clean sliced & powdered for spice mixes, beverages, gravies, bakery & ready-to-eat meals."
           },
           {
-            "title": "Gừng thái lát",
-            "desc": "Những lát gừng khô sạch giữ nhiệt nồng và hàm lượng hoạt chất gingerol cao."
+            "title": "Dehydrated Carrot & Beetroot",
+            "desc": "Naturally rich in color & nutrition for soups, smoothies, baby food, natural coloring & health drinks."
           },
           {
-            "title": "cà chua nho",
-            "desc": "Cà chua lát hữu cơ sấy khô giàu lycopene tự nhiên, sấy khô không chứa sulfit hóa học."
+            "title": "Dehydrated Spinach & Cabbage",
+            "desc": "Shelf-stable green veggies & cabbage cuts for instant noodles, pasta, chutneys & food service."
           }
         ]
       },
@@ -624,8 +624,8 @@ export const translations: StaticTranslations = {
         "desc": "Dầu hữu cơ và hạt dinh dưỡng chất lượng xuất khẩu cao cấp được làm sạch, phân loại và đóng gói dưới sự kiểm soát kiểm dịch thực vật tuyệt đối."
       },
       "dehydrated_veg": {
-        "title": "Rau mất nước",
-        "desc": "Hành, tỏi, gừng và các loại rau khác đã được khử nước thái lát sạch đã được chế biến để có độ hoàn nguyên cao và thời hạn sử dụng lâu."
+        "title": "Dehydrated Vegetables",
+        "desc": "Premium quality dehydrated vegetables sourced from trusted Indian suppliers, carefully processed to preserve natural flavour, colour and aroma. Suitable for food manufacturers, HoReCa, wholesalers and international distributors."
       },
       "dehydrated_fruits": {
         "title": "Trái cây khử nước",
@@ -1286,99 +1286,99 @@ export const translations: StaticTranslations = {
         }
       },
       "dv-onion": {
-        "name": "hành tây khử nước",
-        "desc": "Các lát hành tây đỏ và trắng được sấy khô trong không khí có kết cấu tuyệt vời, giữ được hương vị cay nồng cần thiết cho công thức nấu ăn ngay.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Onion",
+        "desc": "Premium-quality dehydrated onion processed from fresh, carefully selected onions. Dehydration helps retain the natural onion flavour and aroma while providing longer shelf life and easy storage.\n\nApplications:\n• Used extensively in food processing, instant foods, soups, sauces, gravies, seasoning blends, snacks, ready-to-eat meals, spice mixes, hotels, restaurants and industrial food manufacturing.\n\nAvailable Forms:\n• Dehydrated Onion Flakes\n• Dehydrated Onion Chopped\n• Dehydrated Onion Minced\n• Dehydrated Onion Granules\n• Dehydrated Onion Powder",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Vùng Nashik, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India – sourced from selected onion-growing regions",
+          "packaging": "5 kg, 10 kg, 20 kg and 25 kg food-grade packaging or customized bulk packaging with inner liner for moisture protection",
+          "purity": "100% Pure Onion • Retains natural flavour & aroma",
+          "grade": "Food-grade, Export Quality • Customized cuts & specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-garlic": {
-        "name": "Tỏi khử nước",
-        "desc": "Tách tép tỏi khử nước cao cấp để tăng tốc độ bù nước trong các loại gia vị ăn liền, món hầm đóng hộp và mì.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Garlic",
+        "desc": "Dehydrated Garlic is produced from fresh, carefully selected garlic cloves that are cleaned, sliced, dried, and processed under hygienic conditions. It retains the characteristic aroma, flavor, and nutritional benefits of fresh garlic while offering a longer shelf life and convenient storage.\n\nApplications:\n• Food Processing Industry\n• Seasoning & Spice Blends\n• Ready-to-Eat & Ready-to-Cook Foods\n• Soups & Sauces\n• Snacks & Namkeen\n• Instant Noodles & Pasta\n• Meat & Poultry Products\n• Pickles & Marinades\n• Restaurant & Catering Services\n\nAvailable Forms:\n• Garlic Flakes\n• Garlic Minced\n• Garlic Granules\n• Garlic Powder\n• Garlic Chopped\n• Garlic Kibbled",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Vùng Malwa, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India (Sourced from Gujarat, Madhya Pradesh, and Rajasthan)",
+          "packaging": "10 kg Food Grade Poly Bags • 20 kg Corrugated Boxes • 25 kg HDPE Bags • 25 kg Paper Bags with Inner Liner • Private Label & Bulk Packaging Available",
+          "purity": "100% Pure Garlic • Hygienically Processed",
+          "grade": "Premium Export Grade • A Grade • Standard Grade • Customized Specifications Available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-ginger": {
-        "name": "Gừng khử nước",
-        "desc": "Các lát gừng khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Ginger",
+        "desc": "Premium-quality dehydrated ginger prepared from carefully selected fresh ginger. It is hygienically processed and dried to preserve its natural aroma, flavour, colour, and functional properties. Suitable for food manufacturers, spice blenders, seasoning companies, and export markets.\n\nApplications:\n• Spice blends and masala manufacturing\n• Ginger tea and instant beverages\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Ready-to-eat and ready-to-cook foods\n• Seasonings and snack applications\n• Herbal and wellness formulations\n• Food processing & industrial applications\n\nAvailable Forms:\n• Ginger Powder\n• Ginger Flakes\n• Ginger Granules\n• Ginger Slices\n• Ginger Chopped/Cut",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India — sourced from selected ginger-growing regions and processed under hygienic conditions",
+          "packaging": "1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Customized private-label packaging available",
+          "purity": "Uniform colour, aroma & flavour • Low-moisture dehydrated product",
+          "grade": "Premium Export Grade • Food Grade • Lab testing and export documentation available on request",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-tomato": {
-        "name": "Cà chua khử nước",
-        "desc": "Những lát cà chua hữu cơ sấy khô với lượng lycopene tự nhiên phong phú và không xử lý sulfite, dành cho các gói ẩm thực dành cho người sành ăn.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Tomato",
+        "desc": "Premium-quality tomatoes carefully selected, washed, sliced, and dehydrated under controlled conditions to retain their natural colour, flavour, aroma, and nutritional value.\n\nApplications:\n• Used in soups, sauces, gravies, instant foods, pizza toppings, pasta, seasoning blends, ready-to-eat meals, snacks, spice mixes, and food-processing applications.\n\nAvailable Forms:\n• Tomato Flakes\n• Tomato Slices\n• Tomato Granules\n• Tomato Powder\n• Tomato Chunks\n\nShelf Life & Storage:\n• Shelf Life: Typically 12–18 months when stored in a cool, dry place in sealed packaging.\n• Storage: Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Cao nguyên Wayanad, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India",
+          "packaging": "10 kg / 20 kg / 25 kg bulk food-grade bags or cartons with inner liner • Customized packaging available",
+          "purity": "100% Pure Tomato • Retains natural colour, flavour, aroma & nutrition",
+          "grade": "Food Grade / Export Grade (Customized specifications available as per buyer requirement)",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-carrot": {
-        "name": "Cà rốt khử nước",
-        "desc": "Các lát cà rốt khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Carrot",
+        "desc": "Dehydrated Carrot is prepared from fresh, carefully selected carrots that are washed, sorted, cut, and gently dehydrated to reduce moisture while preserving their natural color, flavor, and nutritional properties. It offers convenient storage, longer shelf life, and consistent quality for food processing and culinary applications.\n\nApplications:\n• Soups, sauces & gravies\n• Ready-to-eat and instant foods\n• Seasoning & spice blends\n• Noodles, pasta & instant meals\n• Snacks and savory products\n• Bakery & savory bakery products\n• Baby food and nutritional mixes\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Carrot Flakes\n• Carrot Granules\n• Carrot Powder\n• Carrot Slices\n• Carrot Dices",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20–25 kg bulk packaging • Customized export packaging available",
+          "purity": "Gently Dehydrated • Preserves Natural Color & Flavor",
+          "grade": "Premium Food Grade • Standard Food Grade • Industrial Food Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-beetroot": {
-        "name": "Củ cải đường khử nước",
-        "desc": "Các lát củ cải đường khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Beetroot",
+        "desc": "Dehydrated Beetroot is prepared from fresh, carefully selected beetroot that is cleaned, sliced, and dehydrated under controlled conditions to reduce moisture while preserving its natural colour, flavour, aroma, and nutritional properties. It offers a convenient, shelf-stable alternative to fresh beetroot.\n\nApplications:\n• Food & beverage manufacturing\n• Soups, sauces & gravies\n• Bakery & confectionery products\n• Smoothies, juices & health drinks\n• Seasoning and spice blends\n• Natural food colouring\n• Instant food preparations\n• Snack and ready-to-eat products\n• Nutraceutical and functional food applications\n\nAvailable Forms:\n• Beetroot Flakes\n• Beetroot Powder\n• Beetroot Granules\n• Beetroot Slices\n• Beetroot Dice",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India — sourced from selected beetroot-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Bulk export packaging: Food-grade inner liner with PP/HDPE outer",
+          "purity": "Controlled Hygienic Processing • Retains Natural Colour & Aroma",
+          "grade": "Food Grade • Export Grade • Premium Grade available on request • Custom specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-spinach": {
-        "name": "Rau bina khử nước",
-        "desc": "Các lát rau bina khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất cho các nhà đóng gói thực phẩm công nghiệp.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Spinach",
+        "desc": "Dehydrated Spinach is fresh spinach that is carefully washed, sorted, processed, and dehydrated to remove moisture while preserving its characteristic green colour, flavour, aroma, and nutritional value. It offers a convenient, shelf-stable alternative to fresh spinach and is suitable for food manufacturing and commercial applications.\n\nAvailable Forms & Applications:\n• Spinach Flakes\n• Spinach Granules\n• Spinach Powder\n• Spinach Chopped\n• Spinach Crushed\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India — sourced from selected spinach-growing regions and processed under controlled hygienic conditions",
+          "packaging": "100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 25 kg • Custom bulk packaging as per buyer requirement",
+          "purity": "Characteristic Green Colour & Natural Flavor Preserved",
+          "grade": "Food Grade • Export Grade • Industrial/Commercial Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "dv-cabbage": {
-        "name": "Bắp cải khử nước",
-        "desc": "Các lát bắp cải đã khử nước ở nhiệt độ thấp, được phân loại cẩn thận để phù hợp với hình dạng và màu sắc đồng nhất dành cho các nhà đóng gói thực phẩm công nghiệp.",
-        "pricing": "Liên hệ với bộ phận giao dịch",
+        "name": "Dehydrated Cabbage",
+        "desc": "Dehydrated Cabbage is made from fresh, quality cabbage that is carefully cleaned, cut, and dehydrated to remove moisture while preserving its natural flavour, colour, and nutritional properties. It offers longer shelf life, easy storage, and convenient usage without refrigeration.\n\nApplications:\n• Instant soups & soup mixes\n• Noodles, pasta & ready-to-eat meals\n• Pickles and chutneys\n• Spice & seasoning blends\n• Snack seasonings\n• Sauces, gravies & curry mixes\n• Instant food products\n• Bakery & savoury products\n• Food-service and industrial food processing\n\nAvailable Forms:\n• Flakes\n• Granules\n• Powder\n• Slices\n• Dices\n\nStorage:\n• Store in a cool, dry place away from direct sunlight and moisture.",
+        "pricing": "Contact Trade Desk",
         "spec": {
-          "origin": "Maharashtra, Ấn Độ",
-          "packaging": "Thùng tôn lót polyetylen (15/20kg)",
-          "purity": "Không thêm muối, chất bảo quản hoặc sulfit",
-          "grade": "Tiêu chuẩn bù nước cao cấp AAA",
-          "minOrder": "500 kg"
+          "origin": "India – sourced from selected cabbage-growing regions and processed under controlled hygienic conditions",
+          "packaging": "5 kg, 10 kg, 20 kg, 25 kg, 50 kg • Customized packaging available on request",
+          "purity": "Cleaned, Cut & Dehydrated • Preserves Natural Flavour & Colour",
+          "grade": "Food Grade • Export Grade • Premium Grade • Industrial / Bulk Grade • Customized specifications available",
+          "minOrder": "500 Kilograms"
         }
       },
       "df-banana": {

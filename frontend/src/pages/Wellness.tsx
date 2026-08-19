@@ -278,6 +278,7 @@ export default function Wellness() {
                       <div className="relative rounded-3xl overflow-hidden border border-gray-200 h-[340px] shadow-2xl group">
                         <OptimizedImage
                           src={srv.image || IMAGES.therapy.bachFlowerService}
+                          fallback={srv.image || IMAGES.therapy.bachFlowerService}
                           alt={srv.translations?.[lang]?.name || srv.name}
                           className="w-full h-full"
                           imgClassName="filter brightness-95 transition-transform duration-500 group-hover:scale-105"
